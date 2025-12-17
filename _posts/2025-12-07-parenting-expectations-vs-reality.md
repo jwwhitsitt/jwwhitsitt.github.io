@@ -3,6 +3,8 @@ layout: single
 title: "Parenting: What I Thought It Would Be vs. What It Actually Is"
 date: 2025-12-07
 categories: ["parenting"]
+draft: true
+
 ---
 
 Before I had a kid, I had a very confident idea of what kind of parent I was going to be.
