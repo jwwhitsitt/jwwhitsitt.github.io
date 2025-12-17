@@ -2,8 +2,8 @@
 layout: single
 title: "Parenting: What I Thought It Would Be vs. What It Actually Is"
 date: 2025-12-07
-categories: ["parenting"]
 draft: true
+categories: ["parenting"]
 
 ---
 
