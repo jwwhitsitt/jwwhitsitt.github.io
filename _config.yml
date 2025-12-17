@@ -1,6 +1,6 @@
 title: "Jeff Whitsitt"
 name: "Jeff Whitsitt"
-description: "Parenting, tech, and surviving adulthood with minimal screaming."
+description: "Clear, conversational writing about technology, systems, and real world problem solving. No buzzwords. No filler."
 url: "https://jeffwhitsitt.com"
 baseurl: ""
 
@@ -16,8 +16,15 @@ lang: "en-US"
 author:
   name: "Jeff Whitsitt"
   avatar: "/assets/images/jw.png"
-  bio: "Dad, tech nerd, school bus driver, and writer helping people survive adulthood with fewer meltdowns."
+  bio: "Tech-minded writer who explains complex stuff in plain English. I build things, document what I learn, and write like a human."
   location: "Fort Wayne, IN"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:contact@jeffwhitsitt.com"
+    - label: "Text or voicemail"
+      icon: "fas fa-fw fa-phone"
+      url: "tel:+12602228509"
 
 # Collections
 collections:
