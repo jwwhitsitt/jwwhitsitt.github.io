@@ -1,27 +1,30 @@
 ---
+---
 layout: splash
-title: "I explain things clearly."
+title: "Clear writing for complicated ideas."
 permalink: /
 header:
   overlay_color: "#05060a"
   overlay_filter: "0.8"
-excerpt: "Clear, conversational writing about technology, systems, and real world problems. No buzzwords. No filler."
+excerpt: "I help small businesses explain what they do clearly, especially when technology is involved."
 intro:
-  - excerpt: "I’m Jeff. I write for people who want complex ideas explained clearly and without talking down to the reader. This site is my home base for writing, samples, and client work."
+  - excerpt: "I’m Jeff. I write clear, conversational content that helps businesses explain their work without jargon, hype, or unnecessary noise. If your product or service is hard to explain, that’s usually where I’m most useful."
 feature_row:
-  - title: "Read the Blog"
-    excerpt: "Clear explanations of technology, tools, and systems that are often harder than they should be."
-    url: "/blog/"
-    btn_label: "Read posts"
-    btn_class: "btn--primary"
-  - title: "View Portfolio"
-    excerpt: "Selected samples that show how I explain complex material in plain English."
-    url: "/portfolio/"
-    btn_label: "View samples"
+  - title: "Email Me"
+    excerpt: "Have something you need explained clearly? Start with a quick email and we’ll see if it’s a good fit."
+    url: "mailto:contact@jeffwhitsitt.com"
+    btn_label: "contact@jeffwhitsitt.com"
     btn_class: "btn--primary"
   - title: "Hire Me"
-    excerpt: "Need clear, human writing for your audience? Let’s talk."
+    excerpt: "Learn more about the kind of writing work I do best and how I work with small businesses."
     url: "/hire-me/"
-    btn_label: "Work with me"
+    btn_label: "How I work"
     btn_class: "btn--primary"
+  - title: "Portfolio"
+    excerpt: "Selected examples that show how I approach clarity, structure, and technical topics."
+    url: "/portfolio/"
+    btn_label: "View work"
+    btn_class: "btn--primary"
+---
+
 ---
