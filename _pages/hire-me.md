@@ -8,7 +8,15 @@ Clear writing for businesses dealing with complex ideas.
 
 If your product or service is solid but your messaging feels confusing, I help fix that.
 
-I work with small businesses that need to explain technology, systems, or processes clearly—without buzzwords or fluff.
+{% capture notice-text %}
+**Let’s talk**
+
+Email: **contact@jeffwhitsitt.com**  
+Text or call: **260-222-8509**
+{% endcapture %}
+<div class="notice--primary">
+{{ notice-text | markdownify }}
+</div>
 
 ### What I help with
 
