@@ -5,55 +5,28 @@ layout: single
 author_profile: true
 ---
 
-Need to explain what you do without confusing or boring people?
+Clear writing for businesses that deal with complex ideas.
 
-That’s where I come in.
+I help small businesses explain what they do in plain English, especially when technology is involved.
 
-I help small businesses turn complicated ideas into clear, readable content that makes sense to real humans. Especially when technology is involved.
+If your service is solid but your messaging feels confusing, I help fix that.
 
-If your product or service is solid but your messaging feels fuzzy, I help clean that up.
+## What I do
 
-## What I help with
+- Website copy that explains your product or service clearly  
+- Articles and blog posts that educate without talking down  
+- Technical or process-heavy content written for non-technical readers  
 
-I work best on projects where clarity matters more than hype, including:
+## Who this is for
 
-- Website copy that explains what you do and why it matters  
-- Blog posts and articles that educate without talking down  
-- Technical or process-heavy content written in plain English  
-- Email content that sounds human, not automated  
-
-You don’t need perfect direction. You just need to know what you’re trying to communicate.
-
-We’ll figure out the rest together.
-
-## How I work
-
-I keep things straightforward:
-
-- I ask good questions up front  
-- I write clearly and revise thoughtfully  
-- I deliver on time  
-
-No buzzwords. No filler. No pretending to be something you’re not.
-
-## Is this a fit?
-
-We’ll probably work well together if:
-
+You’ll get the most value working with me if:
 - Your business involves technology, systems, or processes  
-- You care about accuracy but want content people will actually read  
-- You want a collaborator, not just a word processor  
+- You want clarity without hype or buzzwords  
+- You care about accuracy and trust  
 
-If that sounds right, let’s talk.
+## Let’s talk
 
-## Get in touch
+Email me at **contact@jeffwhitsitt.com**  
+Or text or call **260-222-8509**
 
-Email is the best place to start:
-
-**contact@jeffwhitsitt.com**
-
-You can also leave a voicemail or send a text at:
-
-**260-222-8509**
-
-I’ll respond as quickly as I can.
+If it’s a good fit, we’ll figure out next steps.
