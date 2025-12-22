@@ -1,5 +1,4 @@
 ---
----
 layout: splash
 title: "Clear writing for complicated ideas."
 permalink: /
@@ -25,6 +24,4 @@ feature_row:
     url: "/portfolio/"
     btn_label: "View work"
     btn_class: "btn--primary"
----
-
 ---
