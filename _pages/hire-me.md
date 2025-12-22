@@ -5,30 +5,55 @@ layout: single
 author_profile: true
 ---
 
-If you need clear, human writing about complex or technical subjects, I can help.
+Need to explain what you do without confusing or boring people?
 
-I work with clients who want their ideas explained accurately and plainly, without jargon, filler, or talking down to the reader. My focus is on writing that makes sense the first time through.
+That’s where I come in.
 
-### What I help with
+I help small businesses turn complicated ideas into clear, readable content that makes sense to real humans. Especially when technology is involved.
 
-- Blog posts and articles that explain systems, tools, or real world problems  
-- Explainers and guides that people actually finish reading  
-- Website copy that sounds human while staying precise  
-- Writing that sits at the intersection of technology, process, and everyday use  
+If your product or service is solid but your messaging feels fuzzy, I help clean that up.
 
-If something feels harder to understand than it should be, that is usually a writing problem. That is where I do my best work.
+## What I help with
 
-### How I work
+I work best on projects where clarity matters more than hype, including:
 
-I start by asking good questions. I take the time to understand the subject, how it is used, and where people tend to get stuck. From there, I focus on clarity first and polish second.
+- Website copy that explains what you do and why it matters  
+- Blog posts and articles that educate without talking down  
+- Technical or process-heavy content written in plain English  
+- Email content that sounds human, not automated  
 
-You can expect thoughtful communication, realistic timelines, and writing that respects both accuracy and readability. I am collaborative, direct, and easy to work with.
+You don’t need perfect direction. You just need to know what you’re trying to communicate.
 
-### Get in touch
+We’ll figure out the rest together.
 
-If you would like to talk about a project, you can reach me here:
+## How I work
 
-Email: **contact@jeffwhitsitt.com**  
-Phone: **260-222-8509** (text or voicemail)
+I keep things straightforward:
 
-A short description of what you are working on is more than enough to get started.
+- I ask good questions up front  
+- I write clearly and revise thoughtfully  
+- I deliver on time  
+
+No buzzwords. No filler. No pretending to be something you’re not.
+
+## Is this a fit?
+
+We’ll probably work well together if:
+
+- Your business involves technology, systems, or processes  
+- You care about accuracy but want content people will actually read  
+- You want a collaborator, not just a word processor  
+
+If that sounds right, let’s talk.
+
+## Get in touch
+
+Email is the best place to start:
+
+**contact@jeffwhitsitt.com**
+
+You can also leave a voicemail or send a text at:
+
+**260-222-8509**
+
+I’ll respond as quickly as I can.
