@@ -3,6 +3,7 @@ title: "Hire Me"
 permalink: /hire-me/
 layout: single
 author_profile: false
+sidebar: false
 ---
 Clear writing for businesses dealing with complex ideas.
 
