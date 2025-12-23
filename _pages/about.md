@@ -4,35 +4,49 @@ permalink: /about/
 layout: single
 author_profile: true
 ---
+I help small businesses explain what they do clearly, especially when technology is involved.
 
-## About
+That sounds simple. In practice, it rarely is.
 
-I am a writer who specializes in explaining things clearly, especially when they start out complex, technical, or confusing. I write for people who want substance without jargon and clarity without being talked down to.
+A lot of good businesses struggle to communicate because their work is complex, their systems are messy, or their ideas live in their heads instead of on the page. Customers get confused. Internal documentation never quite gets finished. Websites say a lot, but somehow still miss the point.
 
-Most of my work sits at the intersection of writing and systems. Technology, tools, workflows, and real world problems that make sense once someone takes the time to explain them properly. That is the part I enjoy most.
+That’s the space I work in.
 
-### How I work
+### How I got here
 
-I learn by building things and fixing them when they break. This site is not an accident. I built it, deployed it, and configured the supporting pieces myself, from DNS and domain routing to email setup and deliverability. I do this because understanding how systems actually work makes me a better writer about those systems.
+I’m a recent IT graduate with an associate’s degree, but I didn’t come to technology through a straight-line career path. I got here by building things, breaking them, fixing them, and spending a lot of time figuring out how systems actually behave in the real world.
 
-When something is confusing, I dig until I understand it. When something breaks, I trace it until I know why. Then I write about it in a way that saves someone else time and frustration.
+I run a small homelab environment that includes virtualization, storage, and self-hosted services. I’ve configured DNS, email, monitoring, and basic security for my own projects. I tend to dig into how things work, partly out of necessity and partly because I’m curious.
 
-That approach shows up in my writing. I ask good questions, focus on clarity first, and think about how information is experienced by the person reading it.
+That combination matters.
 
-### Technical background, explained plainly
+Plenty of people understand technology. Fewer can explain it without jargon, hype, or talking down to their audience. Writing lives right at the intersection of those two skills.
 
-I run a small home lab where I experiment, learn, and occasionally break things on purpose. It includes virtual machines managed with Proxmox, shared storage through a TrueNAS virtual machine, and services like a Plex server for legitimately owned media and private family videos. I also run a Minecraft server and monitor uptime and reliability across the environment.
+### How I think about writing
 
-None of that is about showing off. It is about understanding how systems behave in the real world and why good documentation and clear explanations matter.
+Good writing isn’t about sounding smart. It’s about reducing friction.
 
-Those experiences shape how I write. I understand how small configuration choices ripple outward. I understand why users get frustrated. I understand why clarity is not optional.
+My goal is usually pretty straightforward:
+- Help the reader feel oriented instead of overwhelmed  
+- Explain what matters without burying the point  
+- Respect the reader’s intelligence without assuming prior knowledge  
 
-### Real world perspective
+If someone finishes reading and thinks, “That finally makes sense,” the job’s done.
 
-Outside of writing and technology, I am a parent and a school bus driver. Both roles demand attention, responsibility, and clear communication. Mistakes have consequences. Ambiguity causes problems. That perspective informs how I think about clarity and accountability in my work.
+I take a practical approach to content. No buzzwords. No filler. No pretending every paragraph needs to perform. When humor shows up, it’s because it helps the idea land, not because it’s trying to be clever.
 
-### What I am available for
+### What I focus on
 
-I work with clients who need clear, conversational writing about technology, systems, tools, and real world problems. Articles, guides, explainers, and website copy where accuracy and readability both matter.
+Most of my work falls into two buckets:
+- Blog content that builds trust over time  
+- Website copy that explains what a business actually does  
 
-If you need someone who can understand complex material and explain it so it actually gets read, you are in the right place.
+This often involves technical topics, systems, or processes that are easy to misunderstand and hard to explain. I’m especially comfortable writing for non-technical audiences who still need accurate, usable information.
+
+### Outside the work
+
+I value clarity, structure, and calm problem-solving. I like systems that make sense and writing that respects the reader’s time. I’m drawn to people who prefer thoughtful solutions over loud ones.
+
+If that sounds like how you approach your business, we’ll probably work well together.
+
+If you’d like to talk about a project or ongoing content work, the Hire Me page is the best place to start.
