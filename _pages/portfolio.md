@@ -2,7 +2,8 @@
 title: "Portfolio"
 permalink: /portfolio/
 layout: single
-author_profile: true
+author_profile: false
+sidebar: false
 ---
 
 Here’s where I’ll add selected samples of my work as I publish more.
