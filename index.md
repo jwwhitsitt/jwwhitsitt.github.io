@@ -9,22 +9,14 @@ excerpt: "I help small businesses explain what they do clearly, especially when 
 intro:
   - excerpt: "If your service is solid but your messaging feels fuzzy, I turn it into words people understand and trust."
 feature_row:
-  - title: "What I Do"
-    excerpt: "Quick overview of how I work and what you can expect."
-    url: "/about/"
-    btn_label: "About me"
+  - title: "Read the Blog"
+    excerpt: "Clear, conversational writing about tech, systems, and real-world problem solving."
+    url: "/blog/"
+    btn_label: "Read posts"
     btn_class: "btn--primary"
-  - title: "Work With Me"
-    excerpt: "Clear options, simple process, no weird sales energy."
+  - title: "Hire Me"
+    excerpt: "Need clear, human writing that explains complex ideas? Let’s talk."
     url: "/hire-me/"
-    btn_label: "Hire me"
-    btn_class: "btn--primary"
-  - title: "Samples"
-    excerpt: "A few examples of my writing, structure, and voice."
-    url: "/portfolio/"
-    btn_label: "View samples"
+    btn_label: "Work with me"
     btn_class: "btn--primary"
 ---
-
-{% include feature_row id="intro" type="center" %}
-{% include feature_row %}
