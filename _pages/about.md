@@ -2,7 +2,8 @@
 title: "About"
 permalink: /about/
 layout: single
-author_profile: true
+author_profile: false
+sidebar: false
 ---
 I help small businesses explain what they do clearly, especially when technology is involved.
 
