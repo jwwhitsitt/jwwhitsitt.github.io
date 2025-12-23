@@ -13,7 +13,13 @@ intro:
   - excerpt: "If your service is solid but your messaging feels fuzzy, I turn it into words people understand and trust."
 
 feature_row:
-  - title: "Read the Blog"
+  - title: "About Me"
+    excerpt: "Quick overview of how I work and what you can expect."
+    url: "/about/"
+    btn_label: "About me"
+    btn_class: "btn--primary"
+
+  - title: "Blog"
     excerpt: "Clear, conversational writing about tech, systems, and real-world problem solving."
     url: "/blog/"
     btn_label: "Read posts"
