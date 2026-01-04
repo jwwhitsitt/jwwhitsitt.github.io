@@ -24,7 +24,7 @@ feature_row_process:
       I ask the questions that sort out what actually matters.  
       I organize the message before polishing the language.  
       I shape it into writing people can follow.
-    image_path: /assets/images/jeff02.png
+    image_path: /assets/images/jeff01.png
     alt: "Jeff Whitsitt"
 
 feature_row_fit:
