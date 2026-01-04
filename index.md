@@ -145,20 +145,46 @@ excerpt: >
 <!-- Final CTA -->
 <section class="page__content jw-cta">
   <div class="jw-cta__wrap">
-    <p class="jw-cta__text">
-      If this makes sense, <a href="/hire-me/">let’s talk</a>.
-    </p>
+    <a href="/hire-me/" class="jw-cta__button">
+      If this makes sense, let’s talk.
+    </a>
   </div>
 
   <style>
     .jw-cta { padding: 0 1.25rem; }
+
     .jw-cta__wrap {
       max-width: 980px;
-      margin: 0 auto 2.75rem;
+      margin: 0 auto 3rem;
       text-align: center;
       border-top: 1px solid rgba(255,255,255,.12);
-      padding-top: 1.75rem;
+      padding-top: 2.25rem;
     }
-    .jw-cta__text { margin: 0; font-size: 1.1rem; }
+
+    .jw-cta__button {
+      display: inline-block;
+      background: #14c2c2;
+      color: #05060a;
+      font-size: 1.15rem;
+      font-weight: 600;
+      padding: 0.9rem 1.75rem;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: transform .15s ease, box-shadow .15s ease, background .15s ease;
+      box-shadow: 0 6px 18px rgba(20,194,194,.25);
+    }
+
+    .jw-cta__button:hover {
+      background: #18d4d4;
+      transform: translateY(-1px);
+      box-shadow: 0 10px 26px rgba(20,194,194,.35);
+    }
+
+    @media (max-width: 640px) {
+      .jw-cta__button {
+        width: 100%;
+        font-size: 1.05rem;
+      }
+    }
   </style>
 </section>
