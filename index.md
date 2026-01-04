@@ -1,51 +1,164 @@
-<section class="page__content" style="max-width:64rem; margin:3rem auto 2.5rem; padding:0 1.25rem;">
-  <div style="
-    display:grid;
-    grid-template-columns: 220px 1fr;
-    gap:2.5rem;
-    align-items:start;
-  ">
+---
+layout: splash
+title: "Clarity is more impressive than complexity."
+permalink: /
 
-    <!-- Image -->
-    <div style="text-align:center;">
-      <img src="/assets/images/jeff01.png"
-           alt="Jeff Whitsitt"
-           style="width:220px; max-width:100%; height:auto; border-radius:10px;">
-    </div>
+header:
+  overlay_color: "#05060a"
+  overlay_filter: "0.8"
 
-    <!-- Copy -->
-    <div>
-      <p style="font-size:1.05rem; line-height:1.65; margin:0 0 1.25rem 0;">
-        You can have a great idea and still lose people.
-        All it takes is a few sloppy lines, a little jargon,
-        and one paragraph that drags.
-        People don’t stick around to decode it.
-        They bounce.
-      </p>
+excerpt: >
+  If your ideas take too long to explain, that’s usually the problem.
+  When people tune out, something isn’t clear.
+---
 
-      <h3 style="margin:0 0 0.75rem 0; font-size:1.35rem;">
-        Most of my work starts before the writing does.
-      </h3>
-
-      <p style="margin:0; line-height:1.7;">
-        I ask the questions that sort out what actually matters.<br>
-        I organize the message before polishing the language.<br>
-        I shape it into writing people can follow.
-      </p>
-    </div>
-
+<!-- Middle line (fills the awkward space under the hero) -->
+<section class="page__content jw-mid">
+  <div class="jw-mid__wrap">
+    <p class="jw-mid__text">
+      You can have a great idea and still lose people. All it takes is a few sloppy lines, a little jargon, and one paragraph that drags.
+      People don’t stick around to decode it. They bounce.
+    </p>
   </div>
 
   <style>
-    /* Mobile: stack + tighten spacing */
-    @media (max-width: 720px) {
-      section.page__content > div {
-        grid-template-columns: 1fr !important;
-        gap: 1.5rem !important;
-      }
-      section.page__content img {
-        width: 180px !important;
-      }
+    .jw-mid { padding: 0 1.25rem; }
+    .jw-mid__wrap { max-width: 900px; margin: 2.25rem auto 0; }
+    .jw-mid__text {
+      margin: 0;
+      text-align: center;
+      opacity: 0.95;
+      font-size: 1.05rem;
+      line-height: 1.7;
     }
+  </style>
+</section>
+
+<!-- Image + process block -->
+<section class="page__content jw-process">
+  <div class="jw-process__wrap">
+    <div class="jw-process__grid">
+
+      <div class="jw-process__img">
+        <img src="/assets/images/jeff01.png" alt="Jeff Whitsitt">
+      </div>
+
+      <div class="jw-process__copy">
+        <h3 class="jw-process__h">
+          Most of my work starts before the writing does.
+        </h3>
+
+        <p class="jw-process__steps">
+          I ask the questions that sort out what actually matters.<br>
+          I organize the message before polishing the language.<br>
+          I shape it into writing people can follow.
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+  <style>
+    .jw-process { padding: 0 1.25rem; }
+    .jw-process__wrap { max-width: 980px; margin: 2.25rem auto 2.5rem; }
+    .jw-process__grid {
+      display: grid;
+      grid-template-columns: 260px minmax(0, 1fr);
+      gap: 2.25rem;
+      align-items: start;
+    }
+    .jw-process__img img {
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
+      display: block;
+    }
+    .jw-process__h {
+      margin: 0 0 0.85rem 0;
+      font-size: 1.65rem;
+      line-height: 1.15;
+    }
+    .jw-process__steps {
+      margin: 0;
+      line-height: 1.8;
+      opacity: 0.95;
+      font-size: 1.05rem;
+    }
+
+    @media (max-width: 820px) {
+      .jw-process__wrap { max-width: 640px; }
+      .jw-process__grid { grid-template-columns: 1fr; gap: 1.25rem; }
+      .jw-process__img { max-width: 280px; margin: 0 auto; }
+      .jw-process__h { font-size: 1.45rem; text-align: center; }
+      .jw-process__steps { text-align: center; }
+    }
+  </style>
+</section>
+
+<!-- Fit / Not fit -->
+<section class="page__content jw-fit">
+  <div class="jw-fit__wrap">
+    <div class="jw-fit__grid">
+
+      <div class="jw-fit__col">
+        <h3 class="jw-fit__h">This tends to work well for people who:</h3>
+        <ul class="jw-fit__list">
+          <li>Are good at what they do, but find it hard to explain</li>
+          <li>Want their audience to actually pay attention</li>
+          <li>Care more about being understood than sounding impressive</li>
+        </ul>
+      </div>
+
+      <div class="jw-fit__col">
+        <h3 class="jw-fit__h">It doesn’t work as well when:</h3>
+        <ul class="jw-fit__list">
+          <li>Jargon and buzzwords feel necessary</li>
+          <li>Word count matters more than the message</li>
+          <li>Sounding smart matters more than being understood</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+  <style>
+    .jw-fit { padding: 0 1.25rem; }
+    .jw-fit__wrap { max-width: 980px; margin: 0 auto 2.25rem; }
+    .jw-fit__grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2.5rem;
+      align-items: start;
+      border-top: 1px solid rgba(255,255,255,.12);
+      padding-top: 2.25rem;
+    }
+    .jw-fit__h { margin: 0 0 1rem 0; font-size: 1.25rem; }
+    .jw-fit__list { margin: 0; line-height: 1.75; }
+
+    @media (max-width: 820px) {
+      .jw-fit__wrap { max-width: 640px; }
+      .jw-fit__grid { grid-template-columns: 1fr; gap: 1.75rem; }
+    }
+  </style>
+</section>
+
+<!-- Final CTA -->
+<section class="page__content jw-cta">
+  <div class="jw-cta__wrap">
+    <p class="jw-cta__text">
+      If this makes sense, <a href="/hire-me/">let’s talk</a>.
+    </p>
+  </div>
+
+  <style>
+    .jw-cta { padding: 0 1.25rem; }
+    .jw-cta__wrap {
+      max-width: 980px;
+      margin: 0 auto 2.75rem;
+      text-align: center;
+      border-top: 1px solid rgba(255,255,255,.12);
+      padding-top: 1.75rem;
+    }
+    .jw-cta__text { margin: 0; font-size: 1.1rem; }
   </style>
 </section>
