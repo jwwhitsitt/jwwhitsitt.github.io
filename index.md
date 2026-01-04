@@ -163,22 +163,22 @@ excerpt: >
 
 .jw-cta__button {
   display: inline-block;
-  background: #12bcbc;          /* slightly darker teal */
-  color: #ffffff;               /* hard contrast */
+  background: #000000;
+  color: #ffffff;
   font-size: 1.15rem;
   font-weight: 600;
-  padding: 1rem 2.1rem;
+  padding: 1rem 2.25rem;
   border-radius: 8px;
   text-decoration: none;
-  border: 1px solid rgba(0,0,0,.25);
-  box-shadow: 0 10px 28px rgba(0,0,0,.35);
+  border: 1px solid rgba(255,255,255,.12);
+  box-shadow: 0 12px 28px rgba(0,0,0,.5);
   transition: transform .15s ease, box-shadow .15s ease, background .15s ease;
 }
 
 .jw-cta__button:hover {
-  background: #17d4d4;
+  background: #111111;
   transform: translateY(-1px);
-  box-shadow: 0 14px 34px rgba(0,0,0,.45);
+  box-shadow: 0 16px 36px rgba(0,0,0,.65);
 }
 
     @media (max-width: 640px) {
