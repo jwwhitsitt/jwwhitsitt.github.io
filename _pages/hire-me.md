@@ -9,11 +9,10 @@ sidebar: false
 pagination: false
 show_date: false
 toc: false
-
-# (Optional) keep share buttons off here too
 share: false
 related: false
 ---
+
 ## Let’s talk about your project.
 
 **Your message isn’t landing.**  
@@ -24,11 +23,14 @@ related: false
 
 - Website copy that explains what you do and why it matters  
 - Articles and explainers written for non-technical readers  
-- **Writing that reflects the quality of the work behind it**
+- Writing that reflects the quality of the work behind it  
 
 No buzzwords. No filler. Just clear writing people can follow.
 
 **Send me a note and we’ll talk it through.**
+
+**Email:** contact@jeffwhitsitt.com  
+**Text or call:** 260-222-8509
 
 <div class="jw-contact">
   <a class="jw-contact__btn" href="mailto:contact@jeffwhitsitt.com">Email me</a>
@@ -37,7 +39,10 @@ No buzzwords. No filler. Just clear writing people can follow.
 
 <style>
   /* Hide Minimal Mistakes prev/next on this page (belt + suspenders) */
-  .pagination, .pagination--pager, nav.pagination, .page__pagination {
+  .pagination,
+  .pagination--pager,
+  nav.pagination,
+  .page__pagination {
     display: none !important;
   }
 
@@ -77,3 +82,4 @@ No buzzwords. No filler. Just clear writing people can follow.
     }
   }
 </style>
+
