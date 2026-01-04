@@ -10,13 +10,15 @@ header:
 excerpt: >
   If your ideas take too long to explain, that’s usually the problem.
   When people tune out, something isn’t clear.
-
-intro:
-  - excerpt: >
-      You can have a great idea and still lose people.
-      All it takes is a few sloppy lines, a little jargon,
-      and one paragraph that drags.
-      People don’t stick around to decode it. They bounce.
+<section class="page__content" style="text-align:center; max-width: 48rem; margin: 2.5rem auto;">
+  <p style="font-size:1.15rem; line-height:1.6;">
+    You can have a great idea and still lose people.
+    All it takes is a few sloppy lines, a little jargon,
+    and one paragraph that drags.
+    People don’t stick around to decode it.
+    They bounce.
+  </p>
+</section>
 
 feature_row_process:
   - title: "Most of my work starts before the writing does."
@@ -47,10 +49,9 @@ feature_row_fit:
 
 {% include feature_row id="feature_row_fit" %}
 
-<section class="page__content" style="text-align:center; margin-top: 2rem;">
+<section class="page__content" style="text-align:center; margin: 2.5rem auto;">
   <p style="font-size:1.1rem;">
-    <strong>If this makes sense,</strong>
-    <a href="/about/">start with About</a>.
-    <a href="/hire-me/">Hire Me</a> is the next step.
+    If this makes sense, <a href="/hire-me/">let’s talk</a>.
   </p>
 </section>
+
