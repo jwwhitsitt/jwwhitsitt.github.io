@@ -1,8 +1,10 @@
 title: "Jeff Whitsitt"
 name: "Jeff Whitsitt"
-description: "Clear, conversational writing about technology, systems, and real world problem solving. No buzzwords. No filler."
+description: "Clear writing for complicated ideas. No buzzwords. No filler."
 url: "https://jeffwhitsitt.com"
 baseurl: ""
+
+repository: jw-whitsitt/jw-whitsitt.github.io
 
 remote_theme: "mmistakes/minimal-mistakes"
 
@@ -15,7 +17,7 @@ lang: "en-US"
 
 author:
   name: "Jeff Whitsitt"
-  avatar: "/assets/images/jw.png"
+  avatar: "/assets/images/jeff02.png"
   bio: "Tech-minded writer who explains complex stuff in plain English. I build things, document what I learn, and write like a human."
   location: "Fort Wayne, IN"
   links:
