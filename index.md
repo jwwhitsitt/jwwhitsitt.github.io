@@ -161,24 +161,25 @@ excerpt: >
       padding-top: 2.25rem;
     }
 
-    .jw-cta__button {
-      display: inline-block;
-      background: #14c2c2;
-      color: #05060a;
-      font-size: 1.15rem;
-      font-weight: 600;
-      padding: 0.9rem 1.75rem;
-      border-radius: 8px;
-      text-decoration: none;
-      transition: transform .15s ease, box-shadow .15s ease, background .15s ease;
-      box-shadow: 0 6px 18px rgba(20,194,194,.25);
-    }
+   .jw-cta__button {
+  display: inline-block;
+  background: #18caca;
+  color: #05060a; /* true black, matches header overlay */
+  font-size: 1.15rem;
+  font-weight: 600;
+  padding: 0.95rem 1.9rem;
+  border-radius: 8px;
+  text-decoration: none;
+  border: 1px solid rgba(0,0,0,.15);
+  box-shadow: 0 8px 22px rgba(0,0,0,.25);
+  transition: transform .15s ease, box-shadow .15s ease, background .15s ease;
+}
 
-    .jw-cta__button:hover {
-      background: #18d4d4;
-      transform: translateY(-1px);
-      box-shadow: 0 10px 26px rgba(20,194,194,.35);
-    }
+.jw-cta__button:hover {
+  background: #1fdede;
+  transform: translateY(-1px);
+  box-shadow: 0 12px 30px rgba(0,0,0,.35);
+}
 
     @media (max-width: 640px) {
       .jw-cta__button {
