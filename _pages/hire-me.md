@@ -46,7 +46,7 @@ No buzzwords. No filler. Just clear writing people can follow.
     display: none !important;
   }
 
-  /* Contact buttons (match homepage CTA: black) */
+  /* Contact buttons — black background, teal text */
   .jw-contact {
     display: flex;
     gap: 0.85rem;
@@ -58,13 +58,13 @@ No buzzwords. No filler. Just clear writing people can follow.
   .jw-contact__btn {
     display: inline-block;
     background: #000;
-    color: #fff;
+    color: #2ec4c6; /* teal */
     font-weight: 600;
     font-size: 1.05rem;
     padding: 0.95rem 1.25rem;
     border-radius: 8px;
     text-decoration: none;
-    border: 1px solid rgba(255,255,255,.12);
+    border: 1px solid rgba(46,196,198,.35);
     box-shadow: 0 12px 28px rgba(0,0,0,.5);
     transition: transform .15s ease, box-shadow .15s ease, background .15s ease;
   }
@@ -82,4 +82,3 @@ No buzzwords. No filler. Just clear writing people can follow.
     }
   }
 </style>
-
