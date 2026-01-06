@@ -4,7 +4,15 @@ permalink: /about/
 layout: single
 author_profile: false
 sidebar: false
+
+# Kill prev/next on this page
+pagination: false
+show_date: false
+toc: false
+share: false
+related: false
 ---
+
 
 I help people say the thing they’re trying to say without it turning into a mess.
 
