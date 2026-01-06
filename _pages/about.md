@@ -13,7 +13,6 @@ share: false
 related: false
 ---
 
-
 I help people say the thing they’re trying to say without it turning into a mess.
 
 Most projects don’t fail because the idea is bad. They fail because the explanation never quite lands.
@@ -44,10 +43,24 @@ Clear direction helps, but it isn’t required. If things are fuzzy, we’ll sor
        font-weight:600;
        border-radius:6px;
        text-decoration:none;
-       transition:background 0.2s ease, color 0.2s ease;
+       border: 1px solid rgba(255,255,255,.12);
+       box-shadow: 0 12px 28px rgba(0,0,0,.5);
+       transition:background 0.2s ease, transform .15s ease, box-shadow .15s ease;
      "
-     onmouseover="this.style.background='#111'"
-     onmouseout="this.style.background='#000'">
+     onmouseover="this.style.background='#111'; this.style.transform='translateY(-1px)'; this.style.boxShadow='0 16px 36px rgba(0,0,0,.65)';"
+     onmouseout="this.style.background='#000'; this.style.transform='translateY(0)'; this.style.boxShadow='0 12px 28px rgba(0,0,0,.5)';">
      Let’s talk
   </a>
 </div>
+
+<style>
+  /* Hide Minimal Mistakes prev/next on this page (belt + suspenders) */
+  .pagination,
+  .pagination--pager,
+  nav.pagination,
+  .page__pagination,
+  .post-pagination,
+  .post-pagination__pager {
+    display: none !important;
+  }
+</style>
