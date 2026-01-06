@@ -26,7 +26,20 @@ Before I write anything, I ask questions. I look for what actually matters and w
 Clear direction helps, but it isn’t required. If things are fuzzy, we’ll sort them out together.
 
 <div style="text-align:center; margin-top:3rem;">
-  <a href="/hire-me/" class="btn btn--inverse btn--large">
-    Let’s talk
+  <a href="/hire-me/"
+     style="
+       display:inline-block;
+       background:#000;
+       color:#2ec4c6;
+       padding:0.9rem 1.8rem;
+       font-size:1.05rem;
+       font-weight:600;
+       border-radius:6px;
+       text-decoration:none;
+       transition:background 0.2s ease, color 0.2s ease;
+     "
+     onmouseover="this.style.background='#111'"
+     onmouseout="this.style.background='#000'">
+     Let’s talk
   </a>
 </div>
