@@ -975,7 +975,7 @@
       reply: (val) => {
         state.problem = val;
         // In production this fires a webhook to n8n
-        // fetch('https://your-n8n-webhook-url', { method: 'POST', body: JSON.stringify(state) });
+        fetch('https://n8n.jeffwhitsitt.com/webhook/lead', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ name: state.name, email: state.email, problem: state.problem }) });
         return `Perfect. I have got your info logged and Jeff will take a look. In the meantime, feel free to poke around the agents above. There is a good chance one of them already does what you need.`;
       }
     },
