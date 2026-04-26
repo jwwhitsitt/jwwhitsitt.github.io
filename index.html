@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Jeff Whitsitt — AI Automation</title>
+<title>Jeff Whitsitt | Building 24/7 Employees</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Acme&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
@@ -20,10 +20,7 @@
     --display: 'Acme', sans-serif;
   }
 
-  strong {
-    font-family: var(--sans);
-    font-weight: 700;
-  }
+  strong { font-family: var(--sans); font-weight: 700; }
 
   body {
     background: var(--bg);
@@ -33,7 +30,6 @@
     overflow-x: hidden;
   }
 
-  /* NOISE TEXTURE OVERLAY */
   body::before {
     content: '';
     position: fixed;
@@ -58,46 +54,12 @@
     z-index: 100;
   }
 
-  .logo {
-    display: flex;
-    align-items: center;
-    gap: 0.75rem;
-    text-decoration: none;
-  }
-
-  .logo img {
-    width: 36px;
-    height: 36px;
-    border-radius: 50%;
-  }
-
-  .logo-text {
-    font-family: var(--mono);
-    font-size: 0.85rem;
-    color: var(--text);
-    letter-spacing: 0.05em;
-  }
-
-  .logo-text span {
-    color: var(--accent);
-  }
-
-  nav ul {
-    list-style: none;
-    display: flex;
-    gap: 2rem;
-  }
-
-  nav a {
-    font-family: var(--mono);
-    font-size: 0.75rem;
-    color: var(--muted);
-    text-decoration: none;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    transition: color 0.2s;
-  }
-
+  .logo { display: flex; align-items: center; gap: 0.75rem; text-decoration: none; }
+  .logo img { width: 36px; height: 36px; border-radius: 50%; }
+  .logo-text { font-family: var(--mono); font-size: 0.85rem; color: var(--text); letter-spacing: 0.05em; }
+  .logo-text span { color: var(--accent); }
+  nav ul { list-style: none; display: flex; gap: 2rem; }
+  nav a { font-family: var(--mono); font-size: 0.75rem; color: var(--muted); text-decoration: none; letter-spacing: 0.08em; text-transform: uppercase; transition: color 0.2s; }
   nav a:hover { color: var(--accent); }
 
   /* HERO */
@@ -128,534 +90,157 @@
     align-items: center;
     gap: 0.5rem;
   }
+  .hero-tag::before { content: ''; display: block; width: 24px; height: 1px; background: var(--accent); }
 
-  .hero-tag::before {
-    content: '';
-    display: block;
-    width: 24px;
-    height: 1px;
-    background: var(--accent);
-  }
+  h1 { font-family: var(--display); font-size: clamp(1.8rem, 4vw, 3rem); font-weight: 400; line-height: 1.25; margin-bottom: 1.5rem; }
+  h1 em { font-style: normal; color: var(--accent); }
 
-  h1 {
-    font-family: var(--display);
-    font-size: clamp(1.8rem, 4vw, 3rem);
-    font-weight: 400;
-    line-height: 1.25;
-    letter-spacing: 0;
-    margin-bottom: 1.5rem;
-  }
+  .hero-sub { font-size: 1.05rem; color: var(--muted); max-width: 520px; line-height: 1.75; margin-bottom: 2.5rem; }
+  .hero-sub strong { color: var(--text); font-weight: 600; }
 
-  h1 em {
-    font-style: normal;
-    color: var(--accent);
-  }
+  .cta-group { display: flex; gap: 1rem; flex-wrap: wrap; }
 
-  .hero-sub {
-    font-size: 1.05rem;
-    color: var(--muted);
-    max-width: 520px;
-    line-height: 1.75;
-    margin-bottom: 2.5rem;
-  }
+  .btn { font-family: var(--mono); font-size: 0.78rem; letter-spacing: 0.05em; padding: 0.75rem 1.5rem; border-radius: 4px; text-decoration: none; transition: all 0.2s; cursor: pointer; border: none; }
+  .btn-primary { background: var(--accent); color: #1a1a1a; font-weight: 700; }
+  .btn-primary:hover { background: #f5d660; transform: translateY(-2px); box-shadow: 0 8px 24px rgba(232,197,71,0.3); }
+  .btn-ghost { background: transparent; color: var(--text); border: 1px solid var(--border); }
+  .btn-ghost:hover { border-color: var(--accent); color: var(--accent); transform: translateY(-2px); }
 
-  .hero-sub strong {
-    color: var(--text);
-    font-weight: 600;
-  }
-
-  .cta-group {
-    display: flex;
-    gap: 1rem;
-    flex-wrap: wrap;
-  }
-
-  .btn {
-    font-family: var(--mono);
-    font-size: 0.78rem;
-    letter-spacing: 0.05em;
-    padding: 0.75rem 1.5rem;
-    border-radius: 4px;
-    text-decoration: none;
-    transition: all 0.2s;
-    cursor: pointer;
-    border: none;
-  }
-
-  .btn-primary {
-    background: var(--accent);
-    color: #1a1a1a;
-    font-weight: 700;
-  }
-
-  .btn-primary:hover {
-    background: #f5d660;
-    transform: translateY(-2px);
-    box-shadow: 0 8px 24px rgba(232,197,71,0.3);
-  }
-
-  .btn-ghost {
-    background: transparent;
-    color: var(--text);
-    border: 1px solid var(--border);
-  }
-
-  .btn-ghost:hover {
-    border-color: var(--accent);
-    color: var(--accent);
-    transform: translateY(-2px);
-  }
-
-  .hero-stack {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-    padding: 1.5rem;
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    min-width: 200px;
-  }
-
-  .stack-label {
-    font-family: var(--mono);
-    font-size: 0.65rem;
-    color: var(--muted);
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    margin-bottom: 0.5rem;
-  }
-
-  .stack-item {
-    font-family: var(--mono);
-    font-size: 0.78rem;
-    color: var(--text);
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-  }
-
-  .stack-dot {
-    width: 6px;
-    height: 6px;
-    border-radius: 50%;
-    background: var(--accent);
-    flex-shrink: 0;
-  }
-
+  .hero-stack { display: flex; flex-direction: column; gap: 0.5rem; padding: 1.5rem; background: var(--surface); border: 1px solid var(--border); border-radius: 8px; min-width: 200px; }
+  .stack-label { font-family: var(--mono); font-size: 0.65rem; color: var(--muted); letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 0.5rem; }
+  .stack-item { font-family: var(--mono); font-size: 0.78rem; color: var(--text); display: flex; align-items: center; gap: 0.5rem; }
+  .stack-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--accent); flex-shrink: 0; }
   .stack-dot.blue { background: var(--accent2); }
   .stack-dot.green { background: #4aef8a; }
 
   /* DIVIDER */
-  .divider {
-    border: none;
-    border-top: 1px solid var(--border);
-    margin: 0 3rem;
-  }
+  .divider { border: none; border-top: 1px solid var(--border); margin: 0 3rem; }
 
-  /* SECTION */
-  section {
-    padding: 5rem 3rem;
-    max-width: 1100px;
-    margin: 0 auto;
-    animation: fadeUp 0.8s ease both;
-    animation-delay: 0.2s;
-  }
+  /* SECTIONS */
+  section { padding: 5rem 3rem; max-width: 1100px; margin: 0 auto; animation: fadeUp 0.8s ease both; animation-delay: 0.2s; }
 
-  .section-label {
-    font-family: var(--mono);
-    font-size: 0.7rem;
-    color: var(--accent);
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
-    margin-bottom: 0.75rem;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-  }
+  .section-label { font-family: var(--mono); font-size: 0.7rem; color: var(--accent); letter-spacing: 0.15em; text-transform: uppercase; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem; }
+  .section-label::before { content: '//'; opacity: 0.5; }
 
-  .section-label::before {
-    content: '//';
-    opacity: 0.5;
-  }
-
-  h2 {
-    font-family: var(--display);
-    font-size: clamp(1.4rem, 2.5vw, 2rem);
-    font-weight: 400;
-    line-height: 1.3;
-    letter-spacing: 0;
-    margin-bottom: 0.75rem;
-  }
-
-  .section-sub {
-    color: var(--muted);
-    font-size: 0.95rem;
-    margin-bottom: 3rem;
-    max-width: 540px;
-  }
+  h2 { font-family: var(--display); font-size: clamp(1.4rem, 2.5vw, 2rem); font-weight: 400; line-height: 1.3; margin-bottom: 0.75rem; }
+  .section-sub { color: var(--muted); font-size: 0.95rem; margin-bottom: 3rem; max-width: 540px; }
 
   /* AGENT GRID */
-  .agent-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    gap: 1.5rem;
-  }
+  .agent-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; }
 
-  .agent-card {
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    padding: 1.75rem;
-    transition: all 0.25s;
-    position: relative;
-    overflow: hidden;
-  }
+  .agent-card { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 1.75rem; transition: all 0.25s; position: relative; overflow: hidden; }
+  .agent-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: var(--accent); transform: scaleX(0); transition: transform 0.3s; transform-origin: left; }
+  .agent-card:hover { border-color: #444; transform: translateY(-4px); box-shadow: 0 12px 32px rgba(0,0,0,0.4); }
+  .agent-card:hover::before { transform: scaleX(1); }
 
-  .agent-card::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 2px;
-    background: var(--accent);
-    transform: scaleX(0);
-    transition: transform 0.3s;
-    transform-origin: left;
-  }
+  .card-header { display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 1rem; }
+  .card-icon { font-size: 1.75rem; line-height: 1; }
 
-  .agent-card:hover {
-    border-color: #444;
-    transform: translateY(-4px);
-    box-shadow: 0 12px 32px rgba(0,0,0,0.4);
-  }
+  .status-badge { font-family: var(--mono); font-size: 0.62rem; letter-spacing: 0.08em; padding: 0.2rem 0.6rem; border-radius: 3px; text-transform: uppercase; }
+  .status-live { background: rgba(74,239,138,0.12); color: #4aef8a; border: 1px solid rgba(74,239,138,0.25); }
+  .status-building { background: rgba(232,197,71,0.1); color: var(--accent); border: 1px solid rgba(232,197,71,0.2); }
 
-  .agent-card:hover::before {
-    transform: scaleX(1);
-  }
-
-  .card-header {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    margin-bottom: 1rem;
-  }
-
-  .card-icon {
-    font-size: 1.75rem;
-    line-height: 1;
-  }
-
-  .status-badge {
-    font-family: var(--mono);
-    font-size: 0.62rem;
-    letter-spacing: 0.08em;
-    padding: 0.2rem 0.6rem;
-    border-radius: 3px;
-    text-transform: uppercase;
-  }
-
-  .status-live {
-    background: rgba(74, 239, 138, 0.12);
-    color: #4aef8a;
-    border: 1px solid rgba(74, 239, 138, 0.25);
-  }
-
-  .status-beta {
-    background: rgba(74, 158, 255, 0.12);
-    color: var(--accent2);
-    border: 1px solid rgba(74, 158, 255, 0.25);
-  }
-
-  .status-building {
-    background: rgba(232, 197, 71, 0.1);
-    color: var(--accent);
-    border: 1px solid rgba(232, 197, 71, 0.2);
-  }
-
-  .card-title {
-    font-size: 1.05rem;
-    font-weight: 700;
-    margin-bottom: 0.5rem;
-  }
-
-  .card-desc {
-    font-size: 0.85rem;
-    color: var(--muted);
-    line-height: 1.65;
-    margin-bottom: 1.25rem;
-  }
-
-  .card-footer {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  .card-stack {
-    font-family: var(--mono);
-    font-size: 0.65rem;
-    color: #555;
-    letter-spacing: 0.05em;
-  }
-
-  .card-link {
-    font-family: var(--mono);
-    font-size: 0.7rem;
-    color: var(--accent);
-    text-decoration: none;
-    letter-spacing: 0.05em;
-    display: flex;
-    align-items: center;
-    gap: 0.3rem;
-    transition: gap 0.2s;
-  }
-
+  .card-title { font-size: 1.05rem; font-weight: 700; margin-bottom: 0.25rem; }
+  .card-price { font-family: var(--mono); font-size: 0.7rem; color: var(--accent); margin-bottom: 0.75rem; letter-spacing: 0.03em; }
+  .card-desc { font-size: 0.85rem; color: var(--muted); line-height: 1.65; margin-bottom: 1.25rem; }
+  .card-footer { display: flex; align-items: center; justify-content: space-between; }
+  .card-stack { font-family: var(--mono); font-size: 0.65rem; color: #555; letter-spacing: 0.05em; }
+  .card-link { font-family: var(--mono); font-size: 0.7rem; color: var(--accent); text-decoration: none; letter-spacing: 0.05em; display: flex; align-items: center; gap: 0.3rem; transition: gap 0.2s; }
   .card-link:hover { gap: 0.5rem; }
 
+  /* PRICING CALLOUT */
+  .pricing-callout {
+    margin-top: 3rem;
+    padding: 2rem 2.5rem;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--accent);
+    border-radius: 8px;
+  }
+
+  .pricing-callout-label { font-family: var(--mono); font-size: 0.65rem; color: var(--accent); letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 1.25rem; }
+
+  .pricing-compare { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+  .pricing-compare-item { display: flex; flex-direction: column; gap: 0.25rem; }
+  .pricing-compare-item .label { font-family: var(--mono); font-size: 0.68rem; color: var(--muted); letter-spacing: 0.05em; text-transform: uppercase; }
+  .pricing-compare-item .amount { font-family: var(--display); font-size: clamp(1.6rem, 3vw, 2.4rem); color: var(--text); line-height: 1.1; }
+  .pricing-compare-item .amount.highlight { color: var(--accent); }
+  .pricing-compare-item .sub { font-size: 0.78rem; color: var(--muted); margin-top: 0.15rem; }
+
+  .pricing-callout-footer { margin-top: 1.25rem; padding-top: 1.25rem; border-top: 1px solid var(--border); font-family: var(--mono); font-size: 0.72rem; color: var(--muted); }
+  .pricing-callout-footer strong { color: var(--accent); font-family: var(--mono); }
+
+  /* FOUNDER BANNER */
+  .founder-banner {
+    margin-top: 2rem;
+    padding: 1.5rem 2rem;
+    background: rgba(232,197,71,0.07);
+    border: 1px solid rgba(232,197,71,0.2);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+
+  .founder-banner-left { display: flex; flex-direction: column; gap: 0.25rem; }
+  .founder-banner-tag { font-family: var(--mono); font-size: 0.62rem; color: var(--accent); letter-spacing: 0.12em; text-transform: uppercase; }
+  .founder-banner-title { font-family: var(--display); font-size: 1.3rem; color: var(--text); }
+  .founder-banner-sub { font-size: 0.82rem; color: var(--muted); }
+  .founder-banner-price { font-family: var(--mono); font-size: 0.85rem; color: var(--accent); white-space: nowrap; text-align: right; }
+  .founder-spots { font-family: var(--mono); font-size: 0.65rem; color: var(--muted); margin-top: 0.25rem; text-align: right; }
+
   /* HOW I WORK */
-  .how-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 3rem;
-    align-items: start;
-  }
-
-  .how-text p {
-    color: var(--muted);
-    font-size: 0.95rem;
-    line-height: 1.8;
-    margin-bottom: 1rem;
-  }
-
+  .how-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: start; }
+  .how-text p { color: var(--muted); font-size: 0.95rem; line-height: 1.8; margin-bottom: 1rem; }
   .how-text strong { color: var(--text); }
 
-  .tech-list {
-    display: flex;
-    flex-direction: column;
-    gap: 0.75rem;
-  }
-
-  .tech-item {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    padding: 0.9rem 1.1rem;
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-radius: 6px;
-    transition: border-color 0.2s;
-  }
-
+  .tech-list { display: flex; flex-direction: column; gap: 0.75rem; }
+  .tech-item { display: flex; align-items: center; gap: 1rem; padding: 0.9rem 1.1rem; background: var(--surface); border: 1px solid var(--border); border-radius: 6px; transition: border-color 0.2s; }
   .tech-item:hover { border-color: var(--accent); }
-
-  .tech-name {
-    font-family: var(--mono);
-    font-size: 0.82rem;
-    color: var(--text);
-    font-weight: 700;
-    min-width: 100px;
-  }
-
-  .tech-desc {
-    font-size: 0.8rem;
-    color: var(--muted);
-  }
-
-  /* FOOTER */
-  footer {
-    border-top: 1px solid var(--border);
-    padding: 2rem 3rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  .footer-left {
-    font-family: var(--mono);
-    font-size: 0.72rem;
-    color: var(--muted);
-  }
-
-  .footer-left span { color: var(--accent); }
-
-  .footer-right {
-    font-family: var(--mono);
-    font-size: 0.68rem;
-    color: #444;
-  }
+  .tech-name { font-family: var(--mono); font-size: 0.82rem; color: var(--text); font-weight: 700; min-width: 100px; }
+  .tech-desc { font-size: 0.8rem; color: var(--muted); }
 
   /* CHAT */
-  .chat-shell {
-    max-width: 640px;
-    margin: 0 auto;
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0 24px 64px rgba(0,0,0,0.5);
-  }
+  .chat-shell { max-width: 640px; margin: 0 auto; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; box-shadow: 0 24px 64px rgba(0,0,0,0.5); }
+  .chat-header { display: flex; align-items: center; justify-content: space-between; padding: 1rem 1.25rem; border-bottom: 1px solid var(--border); background: #1e1e1e; }
+  .chat-header-left { display: flex; align-items: center; gap: 0.75rem; }
+  .chat-avatar { width: 36px; height: 36px; border-radius: 50%; background: var(--accent); color: #1a1a1a; font-family: var(--mono); font-size: 0.7rem; font-weight: 700; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+  .chat-name { font-size: 0.88rem; font-weight: 600; }
+  .chat-status { font-family: var(--mono); font-size: 0.65rem; color: var(--muted); display: flex; align-items: center; gap: 0.35rem; }
+  .status-dot { width: 6px; height: 6px; border-radius: 50%; background: #4aef8a; animation: pulse 2s infinite; }
 
-  .chat-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1rem 1.25rem;
-    border-bottom: 1px solid var(--border);
-    background: #1e1e1e;
-  }
+  @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
 
-  .chat-header-left {
-    display: flex;
-    align-items: center;
-    gap: 0.75rem;
-  }
-
-  .chat-avatar {
-    width: 36px;
-    height: 36px;
-    border-radius: 50%;
-    background: var(--accent);
-    color: #1a1a1a;
-    font-family: var(--mono);
-    font-size: 0.7rem;
-    font-weight: 700;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-shrink: 0;
-  }
-
-  .chat-name {
-    font-size: 0.88rem;
-    font-weight: 600;
-  }
-
-  .chat-status {
-    font-family: var(--mono);
-    font-size: 0.65rem;
-    color: var(--muted);
-    display: flex;
-    align-items: center;
-    gap: 0.35rem;
-  }
-
-  .status-dot {
-    width: 6px;
-    height: 6px;
-    border-radius: 50%;
-    background: #4aef8a;
-    animation: pulse 2s infinite;
-  }
-
-  @keyframes pulse {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 0.4; }
-  }
-
-  .chat-messages {
-    padding: 1.5rem;
-    min-height: 280px;
-    max-height: 360px;
-    overflow-y: auto;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-  }
-
+  .chat-messages { padding: 1.5rem; min-height: 280px; max-height: 360px; overflow-y: auto; display: flex; flex-direction: column; gap: 1rem; }
   .msg { display: flex; flex-direction: column; gap: 0.25rem; }
   .msg-agent { align-items: flex-start; }
   .msg-user { align-items: flex-end; }
+  .msg-bubble { max-width: 80%; padding: 0.75rem 1rem; border-radius: 12px; font-size: 0.88rem; line-height: 1.6; }
+  .msg-agent .msg-bubble { background: #2a2a2a; border: 1px solid var(--border); border-bottom-left-radius: 4px; color: var(--text); }
+  .msg-user .msg-bubble { background: var(--accent); color: #1a1a1a; border-bottom-right-radius: 4px; font-weight: 600; }
+  .msg-time { font-family: var(--mono); font-size: 0.6rem; color: #444; }
 
-  .msg-bubble {
-    max-width: 80%;
-    padding: 0.75rem 1rem;
-    border-radius: 12px;
-    font-size: 0.88rem;
-    line-height: 1.6;
-  }
-
-  .msg-agent .msg-bubble {
-    background: #2a2a2a;
-    border: 1px solid var(--border);
-    border-bottom-left-radius: 4px;
-    color: var(--text);
-  }
-
-  .msg-user .msg-bubble {
-    background: var(--accent);
-    color: #1a1a1a;
-    border-bottom-right-radius: 4px;
-    font-weight: 600;
-  }
-
-  .msg-time {
-    font-family: var(--mono);
-    font-size: 0.6rem;
-    color: #444;
-  }
-
-  .typing-indicator {
-    display: flex;
-    gap: 4px;
-    padding: 0.75rem 1rem;
-    background: #2a2a2a;
-    border: 1px solid var(--border);
-    border-radius: 12px;
-    border-bottom-left-radius: 4px;
-    width: fit-content;
-  }
-
-  .typing-dot {
-    width: 6px;
-    height: 6px;
-    border-radius: 50%;
-    background: var(--muted);
-    animation: typingBounce 1.2s infinite;
-  }
-
+  .typing-indicator { display: flex; gap: 4px; padding: 0.75rem 1rem; background: #2a2a2a; border: 1px solid var(--border); border-radius: 12px; border-bottom-left-radius: 4px; width: fit-content; }
+  .typing-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--muted); animation: typingBounce 1.2s infinite; }
   .typing-dot:nth-child(2) { animation-delay: 0.2s; }
   .typing-dot:nth-child(3) { animation-delay: 0.4s; }
 
-  @keyframes typingBounce {
-    0%, 60%, 100% { transform: translateY(0); opacity: 0.4; }
-    30% { transform: translateY(-6px); opacity: 1; }
-  }
+  @keyframes typingBounce { 0%, 60%, 100% { transform: translateY(0); opacity: 0.4; } 30% { transform: translateY(-6px); opacity: 1; } }
 
-  .chat-input-row {
-    display: flex;
-    gap: 0;
-    border-top: 1px solid var(--border);
-  }
-
-  .chat-input {
-    flex: 1;
-    background: transparent;
-    border: none;
-    padding: 1rem 1.25rem;
-    color: var(--text);
-    font-family: var(--sans);
-    font-size: 0.9rem;
-    outline: none;
-  }
-
+  .chat-input-row { display: flex; border-top: 1px solid var(--border); }
+  .chat-input { flex: 1; background: transparent; border: none; padding: 1rem 1.25rem; color: var(--text); font-family: var(--sans); font-size: 0.9rem; outline: none; }
   .chat-input::placeholder { color: #444; }
-
-  .chat-send {
-    background: var(--accent);
-    border: none;
-    padding: 0 1.25rem;
-    color: #1a1a1a;
-    cursor: pointer;
-    transition: background 0.2s;
-    display: flex;
-    align-items: center;
-  }
-
+  .chat-send { background: var(--accent); border: none; padding: 0 1.25rem; color: #1a1a1a; cursor: pointer; transition: background 0.2s; display: flex; align-items: center; }
   .chat-send:hover { background: #f5d660; }
 
-  /* SCROLLBAR */
+  /* FOOTER */
+  footer { border-top: 1px solid var(--border); padding: 2rem 3rem; display: flex; align-items: center; justify-content: space-between; }
+  .footer-left { font-family: var(--mono); font-size: 0.72rem; color: var(--muted); }
+  .footer-left span { color: var(--accent); }
+  .footer-right { font-family: var(--mono); font-size: 0.68rem; color: #444; }
+
   ::-webkit-scrollbar { width: 6px; }
   ::-webkit-scrollbar-track { background: var(--bg); }
   ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
@@ -667,6 +252,10 @@
     .hero-stack { display: none; }
     section { padding: 3rem 1.5rem; }
     .how-grid { grid-template-columns: 1fr; }
+    .pricing-compare { grid-template-columns: 1fr; }
+    .founder-banner { flex-direction: column; gap: 1rem; }
+    .founder-banner-price { text-align: left; }
+    .founder-spots { text-align: left; }
     footer { flex-direction: column; gap: 0.5rem; text-align: center; padding: 1.5rem; }
     .divider { margin: 0 1.5rem; }
   }
@@ -682,7 +271,8 @@
   </a>
   <ul>
     <li><a href="#agents">Agents</a></li>
-    <li><a href="#stack">Stack</a></li>
+    <li><a href="#pricing">Pricing</a></li>
+    <li><a href="#about">About</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
 </nav>
@@ -691,13 +281,13 @@
 <div style="max-width:1100px; margin:0 auto;">
   <div class="hero">
     <div>
-      <p class="hero-tag">24/7 AI Employees · Custom Built </p>
-      <h1>I got the degree.<br>Then I <em>actually</em> learned it.</h1>
+      <p class="hero-tag">24/7 AI Employees · Custom Built</p>
+      <h1>Your first hire costs<br><em>$0.41 an hour.</em></h1>
       <p class="hero-sub">
-        The real education came from forums, YouTube, walkthroughs, and a lot of late nights with AI. I build and run my own infrastructure. I build digital employees that work 24/7 for pennies an hour. They answer customer questions at midnight. They capture leads without a form. They book appointments while you’re on the job. They don’t sleep, don’t take breaks, and don’t call in sick.
+        No payroll taxes. No sick days. No attitude. Digital employees that answer questions at midnight, capture leads without a form, and book appointments while you're on the job. They work every hour you are not.
       </p>
       <div class="cta-group">
-        <a href="#agents" class="btn btn-primary">Meet your employee →</a>
+        <a href="#agents" class="btn btn-primary">Meet your employees →</a>
         <a href="#contact" class="btn btn-ghost">Get your nights back</a>
       </div>
     </div>
@@ -716,9 +306,9 @@
 
 <!-- AGENTS -->
 <section id="agents">
-  <p class="section-label">Live Portfolio</p>
-  <h2>The Agents</h2>
-  <p class="section-sub">Each one solves a real problem for a small business. Click the live ones -- they actually work.</p>
+  <p class="section-label">The Employees</p>
+  <h2>Two agents. One goal.<br>Buy your time back.</h2>
+  <p class="section-sub">Each one is a digital employee built for a specific job. Click the live ones -- they actually work.</p>
 
   <div class="agent-grid">
 
@@ -727,10 +317,11 @@
         <span class="card-icon">🎯</span>
         <span class="status-badge status-live">Live</span>
       </div>
-      <div class="card-title">Lead Capture Agent</div>
-      <div class="card-desc">Qualifies inbound leads through a conversational flow, captures contact info, and logs everything to a spreadsheet. No CRM required.</div>
+      <div class="card-title">Receptionist Agent</div>
+      <div class="card-price">$750 setup + $297/mo</div>
+      <div class="card-desc">Qualifies leads, captures contact info, and books appointments -- all in one conversation. Works while you're on the job, asleep, or off the clock. Syncs with the calendar you already use.</div>
       <div class="card-footer">
-        <span class="card-stack">n8n · Claude · Sheets</span>
+        <span class="card-stack">n8n · Claude · Sheets · Cal</span>
         <a href="#contact" class="card-link">Try it →</a>
       </div>
     </div>
@@ -741,23 +332,11 @@
         <span class="status-badge status-live">Live</span>
       </div>
       <div class="card-title">FAQ Bot</div>
-      <div class="card-desc">Answers customer questions 24/7 using your business's own content. Trained on your offerings, not generic AI fluff.</div>
+      <div class="card-price">$750 setup + $297/mo</div>
+      <div class="card-desc">Answers customer questions at 2am so you don't have to. Trained on your content, not generic AI. Instant, accurate answers every time -- without you picking up the phone.</div>
       <div class="card-footer">
         <span class="card-stack">Claude API · JS</span>
         <a href="#contact" class="card-link">Try it →</a>
-      </div>
-    </div>
-
-    <div class="agent-card">
-      <div class="card-header">
-        <span class="card-icon">📅</span>
-        <span class="status-badge status-building">Building</span>
-      </div>
-      <div class="card-title">Appointment Scheduler</div>
-      <div class="card-desc">Let clients book a consult without the back-and-forth. Availability is checked, confirmed, and logged automatically.</div>
-      <div class="card-footer">
-        <span class="card-stack">n8n · Calendar API</span>
-        <a href="#contact" class="card-link">Get notified →</a>
       </div>
     </div>
 
@@ -766,37 +345,38 @@
 
 <hr class="divider">
 
-<!-- STACK / HOW I WORK -->
-<section id="stack">
-  <p class="section-label">How I Work</p>
-  <h2>Self-taught doesn't mean<br>self-limited.</h2>
-  <div class="how-grid">
-    <div class="how-text">
-      <p>I got into this because I was frustrated with tools that promised automation and delivered complexity. So I learned the stack from the ground up: forums, YouTube, community walkthroughs, AI, and a lot of trial and error on live infrastructure.</p>
-      <p>Everything you see on this site is <strong>running on infrastructure I built and maintain myself.</strong> That is the portfolio.</p>
-      <p>I am not an agency. I am one person who understands the whole stack, from the prompt to the pipeline to the server it runs on.</p>
+<!-- PRICING -->
+<section id="pricing">
+  <p class="section-label">Pricing</p>
+  <h2>The math is simple.</h2>
+  <p class="section-sub">One booked job covers months of service. Your time is worth more than you are charging for it.</p>
+
+  <div class="pricing-callout">
+    <p class="pricing-callout-label">Cost per hour</p>
+    <div class="pricing-compare">
+      <div class="pricing-compare-item">
+        <span class="label">Human receptionist</span>
+        <span class="amount">$15-18</span>
+        <span class="sub">per hour · benefits not included · calls in sick</span>
+      </div>
+      <div class="pricing-compare-item">
+        <span class="label">Jeff's agents</span>
+        <span class="amount highlight">$0.41</span>
+        <span class="sub">per hour · never sleeps · never complains</span>
+      </div>
     </div>
-    <div class="tech-list">
-      <div class="tech-item">
-        <span class="tech-name">Claude API</span>
-        <span class="tech-desc">AI reasoning, conversation, content generation</span>
-      </div>
-      <div class="tech-item">
-        <span class="tech-name">n8n</span>
-        <span class="tech-desc">Self-hosted workflow automation & orchestration</span>
-      </div>
-      <div class="tech-item">
-        <span class="tech-name">Self-Hosted</span>
-        <span class="tech-desc">On-prem infrastructure I built and maintain myself</span>
-      </div>
-      <div class="tech-item">
-        <span class="tech-name">Vanilla JS</span>
-        <span class="tech-desc">No frameworks. Just code that works.</span>
-      </div>
-      <div class="tech-item">
-        <span class="tech-name">Google Sheets</span>
-        <span class="tech-desc">Lightweight data layer most small businesses already use</span>
-      </div>
+    <p class="pricing-callout-footer">Standard pricing starts at <strong>$297/mo</strong> -- less than the price of a burger and fries per day -- for an employee who works every hour, whether you are or not. Founder Special locks in at $197/mo for life.</p>
+  </div>
+
+  <div class="founder-banner">
+    <div class="founder-banner-left">
+      <span class="founder-banner-tag">Limited offer</span>
+      <span class="founder-banner-title">Founder Special</span>
+      <span class="founder-banner-sub">Both agents. Grandfathered pricing for life as long as you stay active. 3 spots only.</span>
+    </div>
+    <div>
+      <div class="founder-banner-price">$500 setup + $197/mo</div>
+      <div class="founder-spots">3 spots remaining</div>
     </div>
   </div>
 </section>
@@ -807,7 +387,7 @@
 <section id="contact">
   <p class="section-label">Contact</p>
   <h2>Talk to the agent.</h2>
-  <p class="section-sub">This is a live lead capture agent running on my own infrastructure. It qualifies leads, collects your info, and logs everything to my backend automatically. No form. This is the product.</p>
+  <p class="section-sub">This is a live agent running on my own infrastructure. It qualifies leads, collects your info, and logs everything to my backend automatically. No form. This is the product.</p>
 
   <div class="chat-shell">
     <div class="chat-header">
@@ -825,7 +405,7 @@
 
     <div class="chat-messages" id="chatMessages">
       <div class="msg msg-agent">
-        <div class="msg-bubble">You didn't start a business to be a 24/7 receptionist. What's wasting your time? I'm Jeff's assistant. What's your name?</div>
+        <div class="msg-bubble">You didn't start a business to be a 24/7 receptionist. What busywork keeps you off the job?</div>
         <div class="msg-time">just now</div>
       </div>
     </div>
@@ -843,9 +423,46 @@
   </p>
 </section>
 
+<hr class="divider">
+
+<!-- ABOUT -->
+<section id="about">
+  <p class="section-label">About</p>
+  <h2>I got the degree.<br>Then I <em style="font-style:normal;color:var(--accent);">actually</em> learned it.</h2>
+  <div class="how-grid">
+    <div class="how-text">
+      <p>The real education came from forums, YouTube, walkthroughs, and a lot of late nights with AI. I got frustrated with tools that promised automation and delivered complexity, so I learned the stack from the ground up.</p>
+      <p>Everything you see on this site is <strong>running on infrastructure I built and maintain myself.</strong> That is the portfolio.</p>
+      <p>I am not an agency. I am one person who understands the whole stack, from the prompt to the pipeline to the server it runs on. When something breaks at 11pm, I fix it.</p>
+    </div>
+    <div class="tech-list">
+      <div class="tech-item">
+        <span class="tech-name">Claude API</span>
+        <span class="tech-desc">AI reasoning, conversation, content generation</span>
+      </div>
+      <div class="tech-item">
+        <span class="tech-name">n8n</span>
+        <span class="tech-desc">Self-hosted workflow automation and orchestration</span>
+      </div>
+      <div class="tech-item">
+        <span class="tech-name">Self-Hosted</span>
+        <span class="tech-desc">On-prem infrastructure I built and maintain myself</span>
+      </div>
+      <div class="tech-item">
+        <span class="tech-name">Vanilla JS</span>
+        <span class="tech-desc">No frameworks. Just code that works.</span>
+      </div>
+      <div class="tech-item">
+        <span class="tech-name">Google Sheets</span>
+        <span class="tech-desc">Lightweight data layer most small businesses already use</span>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- FOOTER -->
 <footer>
-  <div class="footer-left">© 2026 <span>Jeff Whitsitt</span> — Built with obsession, not a template.</div>
+  <div class="footer-left">© 2026 <span>Jeff Whitsitt</span> -- Built with obsession, not a template.</div>
   <div class="footer-right">Self-hosted · GitHub Pages</div>
 </footer>
 
@@ -853,22 +470,17 @@
   const messagesEl = document.getElementById('chatMessages');
   const input = document.getElementById('chatInput');
   const sendBtn = document.getElementById('chatSend');
-
   const conversationHistory = [];
-
   let messageCount = 0;
   const MESSAGE_LIMIT = 20;
 
   function addMessage(text, role) {
     const msg = document.createElement('div');
     msg.className = `msg msg-${role}`;
-  const escaped = role === 'user'
-  ? text.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
-  : text.replace(/(https?:\/\/[^\s]+)/g, '<a href="$1" target="_blank" style="color:var(--accent);text-decoration:underline;">$1</a>');
-    msg.innerHTML = `
-      <div class="msg-bubble">${escaped}</div>
-      <div class="msg-time">just now</div>
-    `;
+    const escaped = role === 'user'
+      ? text.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
+      : text.replace(/(https?:\/\/[^\s]+)/g, '<a href="$1" target="_blank" style="color:var(--accent);text-decoration:underline;">$1</a>');
+    msg.innerHTML = `<div class="msg-bubble">${escaped}</div><div class="msg-time">just now</div>`;
     messagesEl.appendChild(msg);
     messagesEl.scrollTop = messagesEl.scrollHeight;
   }
@@ -877,13 +489,7 @@
     const typing = document.createElement('div');
     typing.className = 'msg msg-agent';
     typing.id = 'typingIndicator';
-    typing.innerHTML = `
-      <div class="typing-indicator">
-        <div class="typing-dot"></div>
-        <div class="typing-dot"></div>
-        <div class="typing-dot"></div>
-      </div>
-    `;
+    typing.innerHTML = `<div class="typing-indicator"><div class="typing-dot"></div><div class="typing-dot"></div><div class="typing-dot"></div></div>`;
     messagesEl.appendChild(typing);
     messagesEl.scrollTop = messagesEl.scrollHeight;
   }
@@ -912,9 +518,7 @@
     input.value = '';
     input.disabled = true;
     sendBtn.disabled = true;
-
     conversationHistory.push({ role: 'user', content: val });
-
     showTyping();
 
     try {
@@ -923,12 +527,10 @@
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ messages: conversationHistory })
       });
-
       const reply = await res.text();
       removeTyping();
       addMessage(reply, 'agent');
       conversationHistory.push({ role: 'assistant', content: reply });
-
     } catch (err) {
       removeTyping();
       addMessage('Something went wrong. Try emailing contact@jeffwhitsitt.com directly.', 'agent');
