@@ -687,7 +687,7 @@
       const res = await fetch('https://n8n.jeffwhitsitt.com/webhook/masterbot', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ messages: conversationHistory })
+        body: JSON.stringify({ messages: conversationHistory, transcript: conversationHistory.map(m => m.role.toUpperCase() + ': ' + m.content).join('\n\n') })
       });
       const reply = await res.text();
       removeTyping();
