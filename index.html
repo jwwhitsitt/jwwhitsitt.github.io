@@ -97,7 +97,7 @@
 
   .cta-group { display: flex; gap: 1rem; flex-wrap: wrap; }
 
-  .btn { font-family: var(--mono); font-size: 0.78rem; letter-spacing: 0.05em; padding: 0.75rem 1.5rem; border-radius: 4px; text-decoration: none; transition: all 0.2s; cursor: pointer; border: none; }
+  .btn { font-family: var(--mono); font-size: 0.78rem; letter-spacing: 0.05em; padding: 0.75rem 1.5rem; border-radius: 4px; text-decoration: none; transition: all 0.2s; cursor: pointer; border: none; display: inline-flex; align-items: center; }
   .btn-primary { background: var(--accent); color: #1a1a1a; font-weight: 700; }
   .btn-primary:hover { background: #f5d660; transform: translateY(-2px); box-shadow: 0 8px 24px rgba(232,197,71,0.3); }
   .btn-ghost { background: transparent; color: var(--text); border: 1px solid var(--border); }
@@ -123,24 +123,41 @@
   .agent-card:hover { border-color: #444; transform: translateY(-4px); box-shadow: 0 12px 32px rgba(0,0,0,0.4); }
   .agent-card:hover::before { transform: scaleX(1); }
 
+  /* FEATURED CARD */
+  .agent-card.featured {
+    border-color: rgba(232,197,71,0.4);
+    background: linear-gradient(135deg, #242424 0%, #1e1c14 100%);
+    grid-column: 1 / -1;
+    max-width: 600px;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .agent-card.featured::before { background: var(--accent); transform: scaleX(1); }
+  .agent-card.featured:hover { border-color: var(--accent); box-shadow: 0 16px 48px rgba(232,197,71,0.15); }
+
   .card-header { display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 1rem; }
   .card-icon { font-size: 1.75rem; line-height: 1; }
 
   .status-badge { font-family: var(--mono); font-size: 0.62rem; letter-spacing: 0.08em; padding: 0.2rem 0.6rem; border-radius: 3px; text-transform: uppercase; }
   .status-live { background: rgba(74,239,138,0.12); color: #4aef8a; border: 1px solid rgba(74,239,138,0.25); }
+  .status-featured { background: rgba(232,197,71,0.15); color: var(--accent); border: 1px solid rgba(232,197,71,0.4); }
   .status-building { background: rgba(232,197,71,0.1); color: var(--accent); border: 1px solid rgba(232,197,71,0.2); }
 
   .card-title { font-size: 1.05rem; font-weight: 700; margin-bottom: 0.25rem; }
-  .card-price { font-family: var(--mono); font-size: 0.7rem; color: var(--accent); margin-bottom: 0.75rem; letter-spacing: 0.03em; }
+  .card-subtitle { font-family: var(--mono); font-size: 0.68rem; color: var(--muted); margin-bottom: 0.5rem; letter-spacing: 0.05em; }
+  .card-price { font-family: var(--mono); font-size: 0.7rem; color: var(--accent); margin-bottom: 0.25rem; letter-spacing: 0.03em; }
+  .card-price-note { font-family: var(--mono); font-size: 0.62rem; color: #555; margin-bottom: 0.75rem; letter-spacing: 0.02em; }
   .card-desc { font-size: 0.85rem; color: var(--muted); line-height: 1.65; margin-bottom: 1.25rem; }
   .card-footer { display: flex; align-items: center; justify-content: space-between; }
   .card-stack { font-family: var(--mono); font-size: 0.65rem; color: #555; letter-spacing: 0.05em; }
-  .card-link { font-family: var(--mono); font-size: 0.7rem; color: var(--accent); text-decoration: none; letter-spacing: 0.05em; display: flex; align-items: center; gap: 0.3rem; transition: gap 0.2s; cursor: pointer; background: none; border: none; padding: 0; }
-  .card-link:hover { gap: 0.5rem; }
+  .card-link { font-family: var(--mono); font-size: 0.7rem; color: #1a1a1a; background: var(--accent); text-decoration: none; letter-spacing: 0.05em; display: inline-flex; align-items: center; gap: 0.4rem; transition: all 0.2s; cursor: pointer; border: none; padding: 0.5rem 1rem; border-radius: 4px; font-weight: 700; }
+  .card-link:hover { background: #f5d660; transform: translateY(-1px); box-shadow: 0 4px 12px rgba(232,197,71,0.3); }
+
+  .featured-cta { margin-top: 1.5rem; }
+  .featured-cta .btn { width: 100%; justify-content: center; font-size: 0.82rem; padding: 0.9rem 1.5rem; }
 
   /* PRICING CALLOUT */
   .pricing-callout {
-    margin-top: 0;
     padding: 2rem 2.5rem;
     background: var(--surface);
     border: 1px solid var(--border);
@@ -181,7 +198,7 @@
   .founder-banner-price { font-family: var(--mono); font-size: 0.85rem; color: var(--accent); white-space: nowrap; text-align: right; }
   .founder-spots { font-family: var(--mono); font-size: 0.65rem; color: var(--muted); margin-top: 0.25rem; text-align: right; }
 
-  /* ABOUT / HOW I WORK */
+  /* ABOUT */
   .how-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: start; }
   .how-text p { color: var(--muted); font-size: 0.95rem; line-height: 1.8; margin-bottom: 1rem; }
   .how-text strong { color: var(--text); }
@@ -273,109 +290,30 @@
     justify-content: space-between;
   }
 
-  .modal-biz-header.green {
-    background: #0f1f0f;
-    border-bottom: 1px solid #1a3a1a;
-  }
+  .modal-biz-header.green { background: #0f1f0f; border-bottom: 1px solid #1a3a1a; }
+  .modal-biz-header.blue { background: #0f141f; border-bottom: 1px solid #1a2a3a; }
 
-  .modal-biz-header.blue {
-    background: #0f141f;
-    border-bottom: 1px solid #1a2a3a;
-  }
-
-  .modal-biz-name {
-    font-family: var(--mono);
-    font-size: 0.72rem;
-    letter-spacing: 0.05em;
-    font-weight: 700;
-  }
-
+  .modal-biz-name { font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.05em; font-weight: 700; }
   .modal-biz-header.green .modal-biz-name { color: #4aef8a; }
   .modal-biz-header.blue .modal-biz-name { color: var(--accent2); }
 
-  .modal-biz-sub {
-    font-family: var(--mono);
-    font-size: 0.6rem;
-    color: #555;
-    margin-top: 0.1rem;
-  }
+  .modal-biz-sub { font-family: var(--mono); font-size: 0.6rem; color: #555; margin-top: 0.1rem; }
+  .modal-powered { font-family: var(--mono); font-size: 0.6rem; color: #444; }
 
-  .modal-powered {
-    font-family: var(--mono);
-    font-size: 0.6rem;
-    color: #444;
-  }
-
-  .modal-chat-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1rem 1.25rem;
-    border-bottom: 1px solid var(--border);
-    background: #1e1e1e;
-  }
-
-  .modal-chat-header-left {
-    display: flex;
-    align-items: center;
-    gap: 0.75rem;
-  }
-
+  .modal-chat-header { display: flex; align-items: center; justify-content: space-between; padding: 1rem 1.25rem; border-bottom: 1px solid var(--border); background: #1e1e1e; }
+  .modal-chat-header-left { display: flex; align-items: center; gap: 0.75rem; }
   .modal-avatar-green { background: #4aef8a; color: #0f1f0f; }
   .modal-avatar-blue { background: var(--accent2); color: #0f141f; }
 
-  .modal-close {
-    background: none;
-    border: none;
-    color: var(--muted);
-    cursor: pointer;
-    font-size: 1.1rem;
-    line-height: 1;
-    padding: 0.35rem;
-    border-radius: 4px;
-    transition: color 0.2s, background 0.2s;
-  }
-
+  .modal-close { background: none; border: none; color: var(--muted); cursor: pointer; font-size: 1.1rem; line-height: 1; padding: 0.35rem; border-radius: 4px; transition: color 0.2s, background 0.2s; }
   .modal-close:hover { color: var(--text); background: rgba(255,255,255,0.05); }
 
-  .modal-messages {
-    padding: 1.5rem;
-    flex: 1;
-    overflow-y: auto;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    min-height: 240px;
-    max-height: 380px;
-  }
+  .modal-messages { padding: 1.5rem; flex: 1; overflow-y: auto; display: flex; flex-direction: column; gap: 1rem; min-height: 240px; max-height: 380px; }
 
-  .modal-input-row {
-    display: flex;
-    border-top: 1px solid var(--border);
-  }
-
-  .modal-input {
-    flex: 1;
-    background: transparent;
-    border: none;
-    padding: 1rem 1.25rem;
-    color: var(--text);
-    font-family: var(--sans);
-    font-size: 0.9rem;
-    outline: none;
-  }
-
+  .modal-input-row { display: flex; border-top: 1px solid var(--border); }
+  .modal-input { flex: 1; background: transparent; border: none; padding: 1rem 1.25rem; color: var(--text); font-family: var(--sans); font-size: 0.9rem; outline: none; }
   .modal-input::placeholder { color: #444; }
-
-  .modal-send {
-    border: none;
-    padding: 0 1.25rem;
-    cursor: pointer;
-    transition: background 0.2s;
-    display: flex;
-    align-items: center;
-  }
-
+  .modal-send { border: none; padding: 0 1.25rem; cursor: pointer; transition: background 0.2s; display: flex; align-items: center; }
   .modal-send.green { background: #4aef8a; color: #0f1f0f; }
   .modal-send.green:hover { background: #6affa0; }
   .modal-send.blue { background: var(--accent2); color: #0f141f; }
@@ -404,6 +342,7 @@
     footer { flex-direction: column; gap: 0.5rem; text-align: center; padding: 1.5rem; }
     .divider { margin: 0 1.5rem; }
     .modal-shell { max-height: 92vh; }
+    .agent-card.featured { grid-column: auto; }
   }
 </style>
 </head>
@@ -443,18 +382,19 @@
 <!-- AGENTS -->
 <section id="agents">
   <p class="section-label">The Employees</p>
-  <h2>Two agents. One goal.<br>Buy your time back.</h2>
-  <p class="section-sub">Each one is a digital employee built for a specific job. Click "Try it" -- they actually work.</p>
+  <h2>Two agents. One goal.<br>Buy back your time.</h2>
+  <p class="section-sub">These are live demos running on real infrastructure. Click "Try it" and talk to them -- they actually work.</p>
 
   <div class="agent-grid">
 
     <div class="agent-card">
       <div class="card-header">
         <span class="card-icon">🎯</span>
-        <span class="status-badge status-live">Live</span>
+        <span class="status-badge status-live">Live Demo</span>
       </div>
       <div class="card-title">Receptionist Agent</div>
       <div class="card-price">$750 setup + $297/mo</div>
+      <div class="card-price-note">Standalone agent -- lead capture and appointment booking</div>
       <div class="card-desc">Qualifies leads, captures contact info, and books appointments -- all in one conversation. Works while you're on the job, asleep, or off the clock. Syncs with the calendar you already use.</div>
       <div class="card-footer">
         <span class="card-stack">n8n · Claude · Sheets · Cal</span>
@@ -465,14 +405,29 @@
     <div class="agent-card">
       <div class="card-header">
         <span class="card-icon">💬</span>
-        <span class="status-badge status-live">Live</span>
+        <span class="status-badge status-live">Live Demo</span>
       </div>
-      <div class="card-title">FAQ Bot</div>
+      <div class="card-title">FAQ Agent</div>
       <div class="card-price">$750 setup + $297/mo</div>
+      <div class="card-price-note">Standalone agent -- customer questions answered 24/7</div>
       <div class="card-desc">Answers customer questions at 2am so you don't have to. Trained on your content, not generic AI. Instant, accurate answers every time -- without you picking up the phone.</div>
       <div class="card-footer">
         <span class="card-stack">Claude API · JS</span>
         <button class="card-link" data-demo="faq">Try it →</button>
+      </div>
+    </div>
+
+    <!-- FEATURED: THE FRONT DESK -->
+    <div class="agent-card featured">
+      <div class="card-header">
+        <span class="card-icon">🏢</span>
+        <span class="status-badge status-featured">Featured</span>
+      </div>
+      <div class="card-title">The Front Desk</div>
+      <div class="card-subtitle">Receptionist + FAQ Agent in one</div>
+      <div class="card-desc">Answers questions at midnight. Captures leads without forms. Books straight into your calendar. One employee, three jobs, 168 hours a week.</div>
+      <div class="featured-cta">
+        <a href="#contact" class="btn btn-primary">Talk to The Front Desk →</a>
       </div>
     </div>
 
@@ -498,7 +453,7 @@
       <div class="pricing-compare-item">
         <span class="label">Jeff's agents</span>
         <span class="amount highlight">$0.41</span>
-        <span class="sub">per hour · never sleeps · never complains</span>
+        <span class="sub">per hour · $9.90/day · never sleeps · never complains</span>
       </div>
     </div>
     <p class="pricing-callout-footer">Standard pricing starts at <strong>$297/mo</strong> -- less than the price of a burger and fries per day -- for an employee who works every hour, whether you are or not. Founder Special locks in at $197/mo for life.</p>
@@ -508,7 +463,7 @@
     <div class="founder-banner-left">
       <span class="founder-banner-tag">Limited offer</span>
       <span class="founder-banner-title">Founder Special</span>
-      <span class="founder-banner-sub">Both agents. Grandfathered pricing for life as long as you stay active. 3 spots only.</span>
+      <span class="founder-banner-sub">The Front Desk -- both agents bundled. Grandfathered pricing for life as long as you stay active. 3 spots only.</span>
     </div>
     <div>
       <div class="founder-banner-price">$500 setup + $197/mo</div>
@@ -521,16 +476,16 @@
 
 <!-- CONTACT -->
 <section id="contact">
-  <p class="section-label">Contact</p>
+  <p class="section-label">The Front Desk</p>
   <h2>Talk to the agent.</h2>
-  <p class="section-sub">This is a live agent running on my own infrastructure. It qualifies leads, collects your info, and logs everything to my backend automatically. No form. This is the product.</p>
+  <p class="section-sub">This is a live agent running on my own infrastructure. It answers questions, qualifies leads, collects your info, and logs everything to my backend automatically. No form. This is the product.</p>
 
   <div class="chat-shell">
     <div class="chat-header">
       <div class="chat-header-left">
         <div class="chat-avatar">JW</div>
         <div>
-          <div class="chat-name">Jeff's Assistant</div>
+          <div class="chat-name">Jeff's Front Desk</div>
           <div class="chat-status"><span class="status-dot"></span> Online</div>
         </div>
       </div>
@@ -656,7 +611,7 @@
       <div class="modal-chat-header-left">
         <div class="chat-avatar modal-avatar-blue">LI</div>
         <div>
-          <div class="chat-name">Lakeside FAQ Bot</div>
+          <div class="chat-name">Lakeside FAQ Agent</div>
           <div class="chat-status"><span class="status-dot"></span> Online</div>
         </div>
       </div>
@@ -783,7 +738,6 @@
     }
   });
 
-  /* ── DEMO TRIGGER ── */
   document.querySelectorAll('[data-demo]').forEach(btn => {
     btn.addEventListener('click', () => {
       const demo = btn.getAttribute('data-demo');
