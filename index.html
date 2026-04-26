@@ -949,56 +949,27 @@
 </footer>
 
 <script>
-  const messages = document.getElementById('chatMessages');
+  const messagesEl = document.getElementById('chatMessages');
   const input = document.getElementById('chatInput');
   const sendBtn = document.getElementById('chatSend');
 
-  // Conversation state
-  const state = { step: 'name', name: '', email: '', problem: '' };
+  const conversationHistory = [];
 
-  const steps = {
-    name: {
-      next: 'email',
-      reply: (val) => {
-        state.name = val;
-        return `Nice to meet you, ${val}. What is your email address so Jeff can follow up?`;
-      }
-    },
-    email: {
-      next: 'problem',
-      reply: (val) => {
-        state.email = val;
-        return `Got it. Now the important part — what are you doing manually right now that is eating up your time?`;
-      }
-    },
-    problem: {
-      next: 'done',
-      reply: (val) => {
-        state.problem = val;
-        // Fire lead to n8n
-        fetch('https://n8n.jeffwhitsitt.com/webhook/lead', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ name: state.name, email: state.email, problem: state.problem })
-        });
-        return `Perfect. I have got your info logged and Jeff will take a look. In the meantime, feel free to poke around the agents above. There is a good chance one of them already does what you need.`;
-      }
-    },
-    done: {
-      next: 'done',
-      reply: () => `Jeff will be in touch at ${state.email}. Anything else you want to add?`
-    }
-  };
+  let messageCount = 0;
+  const MESSAGE_LIMIT = 20;
 
   function addMessage(text, role) {
     const msg = document.createElement('div');
     msg.className = `msg msg-${role}`;
+    const escaped = role === 'user'
+      ? text.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
+      : text;
     msg.innerHTML = `
-      <div class="msg-bubble">${text}</div>
+      <div class="msg-bubble">${escaped}</div>
       <div class="msg-time">just now</div>
     `;
-    messages.appendChild(msg);
-    messages.scrollTop = messages.scrollHeight;
+    messagesEl.appendChild(msg);
+    messagesEl.scrollTop = messagesEl.scrollHeight;
   }
 
   function showTyping() {
@@ -1012,8 +983,8 @@
         <div class="typing-dot"></div>
       </div>
     `;
-    messages.appendChild(typing);
-    messages.scrollTop = messages.scrollHeight;
+    messagesEl.appendChild(typing);
+    messagesEl.scrollTop = messagesEl.scrollHeight;
   }
 
   function removeTyping() {
@@ -1021,22 +992,50 @@
     if (t) t.remove();
   }
 
-  function handleSend() {
+  async function handleSend() {
     const val = input.value.trim();
     if (!val) return;
 
+    if (messageCount >= MESSAGE_LIMIT) {
+      addMessage('You have reached the message limit for this session. Email Jeff directly at contact@jeffwhitsitt.com.', 'agent');
+      return;
+    }
+
+    if (val.length > 800) {
+      addMessage('Please keep messages under 800 characters.', 'agent');
+      return;
+    }
+
+    messageCount++;
     addMessage(val, 'user');
     input.value = '';
+    input.disabled = true;
+    sendBtn.disabled = true;
 
-    const current = steps[state.step];
+    conversationHistory.push({ role: 'user', content: val });
+
     showTyping();
 
-    setTimeout(() => {
+    try {
+      const res = await fetch('https://n8n.jeffwhitsitt.com/webhook/masterbot', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ messages: conversationHistory })
+      });
+
+      const reply = await res.text();
       removeTyping();
-      const reply = current.reply(val);
       addMessage(reply, 'agent');
-      state.step = current.next;
-    }, 900 + Math.random() * 400);
+      conversationHistory.push({ role: 'assistant', content: reply });
+
+    } catch (err) {
+      removeTyping();
+      addMessage('Something went wrong. Try emailing contact@jeffwhitsitt.com directly.', 'agent');
+    }
+
+    input.disabled = false;
+    sendBtn.disabled = false;
+    input.focus();
   }
 
   sendBtn.addEventListener('click', handleSend);
