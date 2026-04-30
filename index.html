@@ -89,8 +89,18 @@
   }
   .hero-tag::before { content: ''; display: block; width: 24px; height: 1px; background: var(--accent); }
 
-  h1 { font-family: var(--display); font-size: clamp(2rem, 5vw, 3.5rem); font-weight: 400; line-height: 1.2; margin-bottom: 1.5rem; max-width: 700px; }
+  h1 { font-family: var(--display); font-size: clamp(2rem, 5vw, 3.5rem); font-weight: 400; line-height: 1.2; margin-bottom: 1rem; max-width: 700px; }
   h1 em { font-style: normal; color: var(--accent); }
+
+  .hero-what {
+    font-size: 1.1rem;
+    color: var(--muted);
+    max-width: 580px;
+    line-height: 1.75;
+    margin-bottom: 1.5rem;
+  }
+
+  .hero-what strong { color: var(--text); font-weight: 600; }
 
   .hero-sub { font-size: 1.05rem; color: var(--muted); max-width: 580px; line-height: 1.75; margin-bottom: 2.5rem; }
   .hero-sub strong { color: var(--text); font-weight: 600; }
@@ -123,7 +133,6 @@
   .agent-card:hover { border-color: #444; transform: translateY(-4px); box-shadow: 0 12px 32px rgba(0,0,0,0.4); }
   .agent-card:hover::before { transform: scaleX(1); }
 
-  /* FEATURED CARD */
   .agent-card.featured {
     border-color: rgba(232,197,71,0.4);
     background: linear-gradient(135deg, #242424 0%, #1e1c14 100%);
@@ -137,12 +146,11 @@
   .status-badge { font-family: var(--mono); font-size: 0.62rem; letter-spacing: 0.08em; padding: 0.2rem 0.6rem; border-radius: 3px; text-transform: uppercase; }
   .status-live { background: rgba(74,239,138,0.12); color: #4aef8a; border: 1px solid rgba(74,239,138,0.25); }
   .status-featured { background: rgba(232,197,71,0.15); color: var(--accent); border: 1px solid rgba(232,197,71,0.4); }
-  .status-building { background: rgba(232,197,71,0.1); color: var(--accent); border: 1px solid rgba(232,197,71,0.2); }
 
   .card-title { font-size: 1.05rem; font-weight: 700; margin-bottom: 0.25rem; }
   .card-subtitle { font-family: var(--mono); font-size: 0.68rem; color: var(--muted); margin-bottom: 0.5rem; letter-spacing: 0.05em; }
   .card-price { font-family: var(--mono); font-size: 0.7rem; color: var(--accent); margin-bottom: 0.25rem; letter-spacing: 0.03em; }
-  .card-price-note { font-family: var(--mono); font-size: 0.62rem; color: #555; margin-bottom: 0.75rem; letter-spacing: 0.02em; }
+  .card-price-note { font-family: var(--mono); font-size: 0.62rem; color: #555; margin-bottom: 0.75rem; }
   .card-desc { font-size: 0.85rem; color: var(--muted); line-height: 1.65; margin-bottom: 1.25rem; }
   .card-footer { display: flex; align-items: center; justify-content: space-between; }
   .card-stack { font-family: var(--mono); font-size: 0.65rem; color: #555; letter-spacing: 0.05em; }
@@ -151,6 +159,51 @@
 
   .featured-cta { margin-top: 1.5rem; }
   .featured-cta .btn { width: 100%; justify-content: center; font-size: 0.82rem; padding: 0.9rem 1.5rem; }
+
+  /* ETHEL SECTION */
+  .ethel-section {
+    padding: 5rem 3rem;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .ethel-inner {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--accent);
+    border-radius: 8px;
+    padding: 3rem;
+    max-width: 720px;
+  }
+
+  .ethel-inner p {
+    color: var(--muted);
+    font-size: 0.95rem;
+    line-height: 1.9;
+    margin-bottom: 1rem;
+  }
+
+  .ethel-inner p:last-child { margin-bottom: 0; }
+
+  .ethel-inner strong { color: var(--text); }
+
+  .ethel-closer {
+    font-family: var(--display);
+    font-size: clamp(1.2rem, 2vw, 1.6rem);
+    color: var(--accent);
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    line-height: 1.3;
+  }
+
+  .ethel-solo {
+    font-size: 0.88rem;
+    color: var(--muted);
+    font-style: italic;
+    border-top: 1px solid var(--border);
+    padding-top: 1rem;
+    margin-top: 1rem;
+  }
 
   /* PRICING CALLOUT */
   .pricing-callout {
@@ -220,7 +273,7 @@
 
   @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
 
-  .chat-messages { padding: 1.5rem; min-height: 280px; max-height: 360px; overflow-y: auto; display: flex; flex-direction: column; gap: 1rem; }
+  .chat-messages { padding: 1.5rem; min-height: 280px; max-height: 400px; overflow-y: auto; display: flex; flex-direction: column; gap: 1rem; }
   .msg { display: flex; flex-direction: column; gap: 0.25rem; }
   .msg-agent { align-items: flex-start; }
   .msg-user { align-items: flex-end; }
@@ -228,6 +281,34 @@
   .msg-agent .msg-bubble { background: #2a2a2a; border: 1px solid var(--border); border-bottom-left-radius: 4px; color: var(--text); }
   .msg-user .msg-bubble { background: var(--accent); color: #1a1a1a; border-bottom-right-radius: 4px; font-weight: 600; }
   .msg-time { font-family: var(--mono); font-size: 0.6rem; color: #444; }
+
+  /* QUICK REPLIES */
+  .quick-replies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding: 0 1.5rem 1rem;
+  }
+
+  .quick-reply-btn {
+    font-family: var(--mono);
+    font-size: 0.68rem;
+    letter-spacing: 0.03em;
+    padding: 0.45rem 0.9rem;
+    border-radius: 20px;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    color: var(--muted);
+    cursor: pointer;
+    transition: all 0.2s;
+    white-space: nowrap;
+  }
+
+  .quick-reply-btn:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+    background: rgba(232,197,71,0.05);
+  }
 
   .typing-indicator { display: flex; gap: 4px; padding: 0.75rem 1rem; background: #2a2a2a; border: 1px solid var(--border); border-radius: 12px; border-bottom-left-radius: 4px; width: fit-content; }
   .typing-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--muted); animation: typingBounce 1.2s infinite; }
@@ -275,24 +356,14 @@
     transition: transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
   }
 
-  .modal-overlay.active .modal-shell {
-    transform: translateY(0);
-  }
+  .modal-overlay.active .modal-shell { transform: translateY(0); }
 
-  .modal-biz-header {
-    padding: 0.75rem 1.25rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-
+  .modal-biz-header { padding: 0.75rem 1.25rem; display: flex; align-items: center; justify-content: space-between; }
   .modal-biz-header.green { background: #0f1f0f; border-bottom: 1px solid #1a3a1a; }
   .modal-biz-header.blue { background: #0f141f; border-bottom: 1px solid #1a2a3a; }
-
   .modal-biz-name { font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.05em; font-weight: 700; }
   .modal-biz-header.green .modal-biz-name { color: #4aef8a; }
   .modal-biz-header.blue .modal-biz-name { color: var(--accent2); }
-
   .modal-biz-sub { font-family: var(--mono); font-size: 0.6rem; color: #555; margin-top: 0.1rem; }
   .modal-powered { font-family: var(--mono); font-size: 0.6rem; color: #444; }
 
@@ -300,11 +371,17 @@
   .modal-chat-header-left { display: flex; align-items: center; gap: 0.75rem; }
   .modal-avatar-green { background: #4aef8a; color: #0f1f0f; }
   .modal-avatar-blue { background: var(--accent2); color: #0f141f; }
-
   .modal-close { background: none; border: none; color: var(--muted); cursor: pointer; font-size: 1.1rem; line-height: 1; padding: 0.35rem; border-radius: 4px; transition: color 0.2s, background 0.2s; }
   .modal-close:hover { color: var(--text); background: rgba(255,255,255,0.05); }
 
-  .modal-messages { padding: 1.5rem; flex: 1; overflow-y: auto; display: flex; flex-direction: column; gap: 1rem; min-height: 240px; max-height: 380px; }
+  .modal-messages { padding: 1.5rem; flex: 1; overflow-y: auto; display: flex; flex-direction: column; gap: 1rem; min-height: 200px; max-height: 320px; }
+
+  .modal-quick-replies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding: 0 1.25rem 0.75rem;
+  }
 
   .modal-input-row { display: flex; border-top: 1px solid var(--border); }
   .modal-input { flex: 1; background: transparent; border: none; padding: 1rem 1.25rem; color: var(--text); font-family: var(--sans); font-size: 0.9rem; outline: none; }
@@ -330,6 +407,8 @@
     nav ul { display: none; }
     .hero { padding: 3rem 1.5rem; }
     section { padding: 3rem 1.5rem; }
+    .ethel-section { padding: 3rem 1.5rem; }
+    .ethel-inner { padding: 2rem 1.5rem; }
     .how-grid { grid-template-columns: 1fr; }
     .pricing-compare { grid-template-columns: 1fr; }
     .founder-banner { flex-direction: column; gap: 1rem; }
@@ -338,7 +417,7 @@
     footer { flex-direction: column; gap: 0.5rem; text-align: center; padding: 1.5rem; }
     .divider { margin: 0 1.5rem; }
     .modal-shell { max-height: 92vh; }
-    .agent-card.featured { grid-column: auto; }
+    .quick-replies { padding: 0 1rem 0.75rem; }
   }
 </style>
 </head>
@@ -362,9 +441,12 @@
 <div style="max-width:1100px; margin:0 auto;">
   <div class="hero">
     <p class="hero-tag">24/7 AI Employees · Custom Built</p>
-    <h1>Your first hire costs<br><em>$0.41 an hour.</em></h1>
+    <h1>Your next employee costs<br><em>$0.41 an hour.</em></h1>
+    <p class="hero-what">
+      Our team builds <strong>AI-powered staff for small businesses.</strong> They answer questions, capture leads, and book appointments automatically -- every hour, whether you are working or not.
+    </p>
     <p class="hero-sub">
-      No payroll taxes. No sick days. No attitude. Digital employees that answer questions at midnight, capture leads without a form, and book appointments while you're on the job. They work every hour you are not.
+      No payroll taxes. No sick days. No attitude.
     </p>
     <div class="cta-group">
       <a href="#agents" class="btn btn-primary">Meet your employees →</a>
@@ -390,7 +472,7 @@
       </div>
       <div class="card-title">Receptionist Agent</div>
       <div class="card-price">$750 setup + $297/mo</div>
-      <div class="card-price-note">Standalone agent -- lead capture and appointment booking</div>
+      <div class="card-price-note">Standalone -- lead capture and appointment booking</div>
       <div class="card-desc">Qualifies leads, captures contact info, and books appointments -- all in one conversation. Works while you're on the job, asleep, or off the clock. Syncs with the calendar you already use.</div>
       <div class="card-footer">
         <span class="card-stack">n8n · Claude · Sheets · Cal</span>
@@ -405,7 +487,7 @@
       </div>
       <div class="card-title">FAQ Agent</div>
       <div class="card-price">$750 setup + $297/mo</div>
-      <div class="card-price-note">Standalone agent -- customer questions answered 24/7</div>
+      <div class="card-price-note">Standalone -- customer questions answered 24/7</div>
       <div class="card-desc">Answers customer questions at 2am so you don't have to. Trained on your content, not generic AI. Instant, accurate answers every time -- without you picking up the phone.</div>
       <div class="card-footer">
         <span class="card-stack">Claude API · JS</span>
@@ -413,7 +495,6 @@
       </div>
     </div>
 
-    <!-- FEATURED: THE FRONT DESK -->
     <div class="agent-card featured">
       <div class="card-header">
         <span class="card-icon">🏢</span>
@@ -432,6 +513,23 @@
 
 <hr class="divider">
 
+<!-- ETHEL -->
+<div class="ethel-section">
+  <p class="section-label">// The Ethel Problem</p>
+  <div class="ethel-inner">
+    <h2>Every great business has an Ethel.</h2>
+    <p>She knows every regular by name. She remembers that Mr. Henderson likes a callback before noon. She has been the face of your business longer than your logo has. Customers ask for her specifically.</p>
+    <p><strong>Ethel is irreplaceable.</strong></p>
+    <p>But Ethel goes home at five. Ethel misses the Sunday inquiry. Ethel is only human -- and even the best humans occasionally let a lead slip through the cracks while juggling three things at once.</p>
+    <p>That is not a flaw. That is biology.</p>
+    <p>Our agents work the hours Ethel does not. They catch what slips through the cracks. They handle the repetition so Ethel can focus on the moments that actually need her.</p>
+    <div class="ethel-closer">Don't fire Ethel.<br>Give her a little backup.</div>
+    <p class="ethel-solo">And if you do not have an Ethel yet? The agent holds down the front desk until you are ready to hire her.</p>
+  </div>
+</div>
+
+<hr class="divider">
+
 <!-- PRICING -->
 <section id="pricing">
   <p class="section-label">Pricing</p>
@@ -447,7 +545,7 @@
         <span class="sub">per hour · benefits not included · calls in sick</span>
       </div>
       <div class="pricing-compare-item">
-        <span class="label">Jeff's agents</span>
+        <span class="label">Our agents</span>
         <span class="amount highlight">$0.41</span>
         <span class="sub">per hour · $9.90/day · never sleeps · never complains</span>
       </div>
@@ -474,7 +572,7 @@
 <section id="contact">
   <p class="section-label">The Front Desk</p>
   <h2>Talk to the agent.</h2>
-  <p class="section-sub">This is my actual Front Desk Agent -- the same one I build for clients. Ask it anything about what I do, tell it what is eating your time, or just see how it works. If it sounds like something your business needs, it will help you take the next step.</p>
+  <p class="section-sub">This is our live Front Desk Agent -- the same one we build for clients. Ask it anything, tell it what is eating your time, or book a call if you want to talk. It answers questions, qualifies leads, and logs everything automatically. No form. This is the product.</p>
 
   <div class="chat-shell">
     <div class="chat-header">
@@ -495,6 +593,13 @@
         <div class="msg-bubble">You didn't start a business to be a 24/7 receptionist. What busywork keeps you off the job?</div>
         <div class="msg-time">just now</div>
       </div>
+    </div>
+
+    <div class="quick-replies" id="mainQuickReplies">
+      <button class="quick-reply-btn">Answering the same questions all day</button>
+      <button class="quick-reply-btn">Missing leads when I'm not available</button>
+      <button class="quick-reply-btn">Scheduling and booking eats my time</button>
+      <button class="quick-reply-btn">How does this work?</button>
     </div>
 
     <div class="chat-input-row">
@@ -584,6 +689,12 @@
         <div class="msg-time">just now</div>
       </div>
     </div>
+    <div class="modal-quick-replies" id="receptionistQuickReplies">
+      <button class="quick-reply-btn">I need a new quote</button>
+      <button class="quick-reply-btn">Question about my policy</button>
+      <button class="quick-reply-btn">I want to schedule a callback</button>
+      <button class="quick-reply-btn">Something else</button>
+    </div>
     <div class="modal-input-row">
       <input type="text" class="modal-input" id="receptionistInput" placeholder="Type a message..." autocomplete="off">
       <button class="modal-send green" id="receptionistSend">
@@ -619,6 +730,12 @@
         <div class="msg-time">just now</div>
       </div>
     </div>
+    <div class="modal-quick-replies" id="faqQuickReplies">
+      <button class="quick-reply-btn">What types of insurance do you offer?</button>
+      <button class="quick-reply-btn">How do I file a claim?</button>
+      <button class="quick-reply-btn">Can I bundle policies?</button>
+      <button class="quick-reply-btn">How do I get a quote?</button>
+    </div>
     <div class="modal-input-row">
       <input type="text" class="modal-input" id="faqInput" placeholder="Ask a question..." autocomplete="off">
       <button class="modal-send blue" id="faqSend">
@@ -629,6 +746,24 @@
 </div>
 
 <script>
+  /* ── QUICK REPLY HELPER ── */
+  function setupQuickReplies(containerId, inputEl, sendFn) {
+    const container = document.getElementById(containerId);
+    if (!container) return;
+    container.querySelectorAll('.quick-reply-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        inputEl.value = btn.innerText;
+        container.style.display = 'none';
+        sendFn();
+      });
+    });
+  }
+
+  function hideQuickReplies(containerId) {
+    const container = document.getElementById(containerId);
+    if (container) container.style.display = 'none';
+  }
+
   /* ── MAIN CONTACT BOT ── */
   const messagesEl = document.getElementById('chatMessages');
   const input = document.getElementById('chatInput');
@@ -642,12 +777,12 @@
     const msg = document.createElement('div');
     msg.className = `msg msg-${role}`;
     const escaped = role === 'user'
-  ? text.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
-  : text
-      .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
-      .replace(/\\n/g,'<br>')
-      .replace(/\n/g,'<br>')
-      .replace(/(https?:\/\/[^\s<]+)/g, '<a href="$1" target="_blank" style="color:var(--accent);text-decoration:underline;">$1</a>');
+      ? text.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
+      : text
+          .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
+          .replace(/\\n/g,'<br>')
+          .replace(/\n/g,'<br>')
+          .replace(/(https?:\/\/[^\s<]+)/g, '<a href="$1" target="_blank" style="color:var(--accent);text-decoration:underline;">$1</a>');
     msg.innerHTML = `<div class="msg-bubble">${escaped}</div><div class="msg-time">just now</div>`;
     el.appendChild(msg);
     el.scrollTop = el.scrollHeight;
@@ -672,6 +807,7 @@
   async function handleSend() {
     const val = input.value.trim();
     if (!val) return;
+    hideQuickReplies('mainQuickReplies');
     if (messageCount >= MESSAGE_LIMIT) {
       addMessage('You have reached the message limit for this session. Email Jeff directly at contact@jeffwhitsitt.com.', 'agent');
       return;
@@ -708,6 +844,8 @@
 
   sendBtn.addEventListener('click', handleSend);
   input.addEventListener('keydown', (e) => { if (e.key === 'Enter') handleSend(); });
+  input.addEventListener('input', () => hideQuickReplies('mainQuickReplies'));
+  setupQuickReplies('mainQuickReplies', input, handleSend);
 
   /* ── MODAL HELPERS ── */
   function openModal(id) {
@@ -758,6 +896,7 @@
   async function handleReceptionistSend() {
     const val = rInput.value.trim();
     if (!val) return;
+    hideQuickReplies('receptionistQuickReplies');
     if (rCount >= 20) { addMessage('You have reached the message limit for this demo.', 'agent', rMessages); return; }
     if (val.length > 800) { addMessage('Please keep messages under 800 characters.', 'agent', rMessages); return; }
     rCount++;
@@ -789,6 +928,8 @@
 
   rSend.addEventListener('click', handleReceptionistSend);
   rInput.addEventListener('keydown', (e) => { if (e.key === 'Enter') handleReceptionistSend(); });
+  rInput.addEventListener('input', () => hideQuickReplies('receptionistQuickReplies'));
+  setupQuickReplies('receptionistQuickReplies', rInput, handleReceptionistSend);
 
   /* ── FAQ DEMO ── */
   const fMessages = document.getElementById('faqMessages');
@@ -802,6 +943,7 @@
   async function handleFaqSend() {
     const val = fInput.value.trim();
     if (!val) return;
+    hideQuickReplies('faqQuickReplies');
     if (fCount >= 20) { addMessage('You have reached the message limit for this demo.', 'agent', fMessages); return; }
     if (val.length > 800) { addMessage('Please keep messages under 800 characters.', 'agent', fMessages); return; }
     fCount++;
@@ -832,6 +974,8 @@
 
   fSend.addEventListener('click', handleFaqSend);
   fInput.addEventListener('keydown', (e) => { if (e.key === 'Enter') handleFaqSend(); });
+  fInput.addEventListener('input', () => hideQuickReplies('faqQuickReplies'));
+  setupQuickReplies('faqQuickReplies', fInput, handleFaqSend);
 </script>
 </body>
 </html>
