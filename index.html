@@ -575,19 +575,20 @@
   <p class="section-sub">This is our live Front Desk Agent -- the same one we build for clients. Ask it anything, tell it what is eating your time, or book a call if you want to talk. It answers questions, qualifies leads, and logs everything automatically. No form. This is the product.</p>
 
   <div class="chat-shell">
-    <div class="chat-header">
-      <div class="chat-header-left">
-        <div class="chat-avatar">FD</div>
-        <div>
-          <div class="chat-name">The Front Desk</div>
-          <div class="chat-status"><span class="status-dot"></span> Online</div>
-        </div>
-      </div>
-      <div class="chat-powered">
-        <span style="font-family:var(--mono);font-size:0.6rem;color:#555;">powered by Claude + n8n</span>
-      </div>
+<div class="chat-header">
+  <div class="chat-header-left">
+    <div class="chat-avatar">JW</div>
+    <div>
+      <div class="chat-name">Jeff's Front Desk</div>
+      <div class="chat-status"><span class="status-dot"></span> Online</div>
     </div>
-
+  </div>
+  <div style="display:flex;align-items:center;gap:1rem;">
+    <button id="chatReset" style="font-family:var(--mono);font-size:0.6rem;color:#444;background:none;border:none;cursor:pointer;letter-spacing:0.05em;transition:color 0.2s;" onmouseover="this.style.color='var(--accent)'" onmouseout="this.style.color='#444'">restart</button>
+    <span style="font-family:var(--mono);font-size:0.6rem;color:#555;">powered by Claude + n8n</span>
+  </div>
+</div>
+    
     <div class="chat-messages" id="chatMessages">
       <div class="msg msg-agent">
         <div class="msg-bubble">You didn't start a business to be a 24/7 receptionist. What busywork keeps you off the job?</div>
@@ -807,6 +808,14 @@
   input.addEventListener('keydown', (e) => { if (e.key === 'Enter') handleSend(); });
   input.addEventListener('input', () => hideQuickReplies('mainQuickReplies'));
   setupQuickReplies('mainQuickReplies', input, handleSend);
+
+  document.getElementById('chatReset').addEventListener('click', () => {
+  conversationHistory.length = 0;
+  messageCount = 0;
+  messagesEl.innerHTML = '';
+  document.getElementById('mainQuickReplies').style.display = 'flex';
+  addMessage("You didn't start a business to be a 24/7 receptionist. What busywork keeps you off the job?", 'agent');
+});
 
   /* ── MODAL HELPERS ── */
   function openModal(id) {
