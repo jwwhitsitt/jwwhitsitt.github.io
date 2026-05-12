@@ -3,949 +3,220 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Jeff Whitsitt | Building 24/7 Employees</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Acme&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<title>Graduation Celebration</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;1,400&family=Cinzel:wght@400;700&family=Lato:wght@300;400&display=swap" rel="stylesheet">
 <style>
-  :root {
-    --bg: #1a1a1a;
-    --surface: #242424;
-    --border: #333;
-    --accent: #e8c547;
-    --accent2: #4a9eff;
-    --accent3: #4aef8a;
-    --text: #f0ede6;
-    --muted: #888;
-    --mono: 'Space Mono', monospace;
-    --sans: 'DM Sans', sans-serif;
-    --display: 'Acme', sans-serif;
-  }
+* { margin:0; padding:0; box-sizing:border-box; }
+:root { --gold:#F0C040; --gold2:#C9973A; --black:#0d0d0d; --cream:#FDF8EE; }
+body { background:var(--black); width:100vw; height:100vh; overflow:hidden; font-family:'Lato',sans-serif; cursor:none; }
+#confetti-canvas { position:fixed; inset:0; pointer-events:none; z-index:50; }
 
-  strong { font-family: var(--sans); font-weight: 700; }
+#show { position:relative; width:100%; height:100%; }
+.slide { position:absolute; inset:0; opacity:0; transition:opacity 1.4s ease; display:grid; padding:8px; gap:6px; background:var(--black); }
+.slide.active { opacity:1; }
+.cell { overflow:hidden; border-radius:3px; background:#111; }
+.cell img { width:100%; height:100%; object-fit:cover; display:block; transition:transform 8s ease; }
+.slide.active .cell img { transform:scale(1.04); }
 
-  body {
-    background: var(--bg);
-    color: var(--text);
-    font-family: var(--sans);
-    line-height: 1.6;
-    overflow-x: hidden;
-  }
+.badge {
+  position:absolute; top:50%; left:50%; transform:translate(-50%,-50%);
+  z-index:10; background:rgba(13,13,13,0.9); border:1px solid var(--gold2); border-radius:4px;
+  padding:1.2rem 2rem; text-align:center; backdrop-filter:blur(8px);
+  box-shadow:0 0 50px rgba(0,0,0,0.8),inset 0 0 30px rgba(240,192,64,0.05);
+  min-width:200px; pointer-events:none; white-space:nowrap;
+}
+.badge::before { content:'✦'; position:absolute; top:5px; left:7px; color:var(--gold); font-size:.55rem; opacity:.6; }
+.badge::after  { content:'✦'; position:absolute; bottom:5px; right:7px; color:var(--gold); font-size:.55rem; opacity:.6; }
+.b-cap  { font-size:1.6rem; line-height:1; display:block; margin-bottom:.2rem; }
+.b-co   { font-family:'Cinzel',serif; font-size:.5rem; letter-spacing:.35em; color:var(--gold); text-transform:uppercase; display:block; margin-bottom:.2rem; }
+.b-grad { font-family:'Cormorant Garamond',serif; font-style:italic; font-size:2.2rem; color:var(--gold); line-height:1; display:block; text-shadow:0 0 20px rgba(240,192,64,.4); }
+.b-name { font-family:'Cinzel',serif; font-size:.7rem; letter-spacing:.18em; color:var(--cream); display:block; margin-top:.35rem; text-transform:uppercase; }
+.b-tag  { font-size:.45rem; letter-spacing:.28em; color:var(--gold2); text-transform:uppercase; display:block; margin-top:.4rem; padding-top:.4rem; border-top:1px solid rgba(240,192,64,.2); }
 
-  body::before {
-    content: '';
-    position: fixed;
-    inset: 0;
-    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
-    pointer-events: none;
-    z-index: 999;
-    opacity: 0.4;
-  }
+/* Grid Layouts */
+.layout-a { grid-template-columns:1fr 1fr 1fr; grid-template-rows:1fr 1fr 1fr; }
+.layout-b { grid-template-columns:1.1fr .95fr .95fr 1.1fr; grid-template-rows:1fr 1.2fr 1fr; }
+.layout-b .cell:nth-child(5){grid-column:1;grid-row:2;} .layout-b .cell:nth-child(6){grid-column:4;grid-row:2;}
+.layout-b .cell:nth-child(7){grid-column:1;grid-row:3;} .layout-b .cell:nth-child(8){grid-column:2;grid-row:3;}
+.layout-b .cell:nth-child(9){grid-column:3;grid-row:3;} .layout-b .cell:nth-child(10){grid-column:4;grid-row:3;}
+.layout-c { grid-template-columns:1.35fr 1fr 1fr; grid-template-rows:1fr 1fr 1fr 1fr; }
+.layout-c .cell:nth-child(1){grid-column:1;grid-row:1/3;} .layout-c .cell:nth-child(6){grid-column:1;grid-row:3/5;}
+.layout-d { grid-template-columns:repeat(4,1fr); grid-template-rows:repeat(3,1fr); }
+.layout-e { grid-template-columns:1fr 2fr 1fr; grid-template-rows:1fr 1fr 1fr; }
+.layout-e .cell:nth-child(5){grid-column:2;grid-row:2/4;}
 
-  /* NAV */
-  nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1.5rem 3rem;
-    border-bottom: 1px solid var(--border);
-    position: sticky;
-    top: 0;
-    background: rgba(26,26,26,0.92);
-    backdrop-filter: blur(12px);
-    z-index: 100;
-  }
+/* UI */
+#counter { position:fixed; bottom:1rem; right:1.5rem; z-index:20; font-size:.58rem; letter-spacing:.3em; color:rgba(240,192,64,.45); text-transform:uppercase; }
+#progress { position:fixed; bottom:0; left:0; height:2px; z-index:20; background:linear-gradient(to right,var(--gold2),var(--gold)); width:0%; }
+#dots { position:fixed; top:50%; right:1.1rem; transform:translateY(-50%); z-index:20; display:flex; flex-direction:column; gap:6px; }
+.dot { width:5px; height:5px; border-radius:50%; background:rgba(240,192,64,.22); cursor:pointer; transition:all .3s; }
+.dot.active { background:var(--gold); transform:scale(1.7); }
 
-  .logo { display: flex; align-items: center; gap: 0.75rem; text-decoration: none; }
-  .logo img { width: 36px; height: 36px; border-radius: 50%; }
-  .logo-text { font-family: var(--mono); font-size: 0.85rem; color: var(--text); letter-spacing: 0.05em; }
-  .logo-text span { color: var(--accent); }
-  nav ul { list-style: none; display: flex; gap: 2rem; }
-  nav a { font-family: var(--mono); font-size: 0.75rem; color: var(--muted); text-decoration: none; letter-spacing: 0.08em; text-transform: uppercase; transition: color 0.2s; }
-  nav a:hover { color: var(--accent); }
-
-  /* HERO */
-  .hero {
-    padding: 6rem 3rem 5rem;
-    max-width: 1100px;
-    margin: 0 auto;
-    animation: fadeUp 0.8s ease both;
-  }
-
-  @keyframes fadeUp {
-    from { opacity: 0; transform: translateY(24px); }
-    to { opacity: 1; transform: translateY(0); }
-  }
-
-  .hero-tag {
-    font-family: var(--mono);
-    font-size: 0.72rem;
-    color: var(--accent);
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
-    margin-bottom: 1.25rem;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-  }
-  .hero-tag::before { content: ''; display: block; width: 24px; height: 1px; background: var(--accent); }
-
-  h1 { font-family: var(--display); font-size: clamp(2rem, 5vw, 3.5rem); font-weight: 400; line-height: 1.2; margin-bottom: 1rem; max-width: 700px; }
-  h1 em { font-style: normal; color: var(--accent); }
-
-  .hero-what {
-    font-size: 1.1rem;
-    color: var(--muted);
-    max-width: 580px;
-    line-height: 1.75;
-    margin-bottom: 1.5rem;
-  }
-
-  .hero-what strong { color: var(--text); font-weight: 600; }
-
-  .hero-sub { font-size: 1.05rem; color: var(--muted); max-width: 580px; line-height: 1.75; margin-bottom: 2.5rem; }
-  .hero-sub strong { color: var(--text); font-weight: 600; }
-
-  .cta-group { display: flex; gap: 1rem; flex-wrap: wrap; }
-
-  .btn { font-family: var(--mono); font-size: 0.78rem; letter-spacing: 0.05em; padding: 0.75rem 1.5rem; border-radius: 4px; text-decoration: none; transition: all 0.2s; cursor: pointer; border: none; display: inline-flex; align-items: center; }
-  .btn-primary { background: var(--accent); color: #1a1a1a; font-weight: 700; }
-  .btn-primary:hover { background: #f5d660; transform: translateY(-2px); box-shadow: 0 8px 24px rgba(232,197,71,0.3); }
-  .btn-ghost { background: transparent; color: var(--text); border: 1px solid var(--border); }
-  .btn-ghost:hover { border-color: var(--accent); color: var(--accent); transform: translateY(-2px); }
-
-  /* DIVIDER */
-  .divider { border: none; border-top: 1px solid var(--border); margin: 0 3rem; }
-
-  /* SECTIONS */
-  section { padding: 5rem 3rem; max-width: 1100px; margin: 0 auto; animation: fadeUp 0.8s ease both; animation-delay: 0.2s; }
-
-  .section-label { font-family: var(--mono); font-size: 0.7rem; color: var(--accent); letter-spacing: 0.15em; text-transform: uppercase; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem; }
-  .section-label::before { content: '//'; opacity: 0.5; }
-
-  h2 { font-family: var(--display); font-size: clamp(1.4rem, 2.5vw, 2rem); font-weight: 400; line-height: 1.3; margin-bottom: 0.75rem; }
-  .section-sub { color: var(--muted); font-size: 0.95rem; margin-bottom: 3rem; max-width: 540px; }
-
-  /* AGENT GRID */
-  .agent-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; }
-
-  .agent-card { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 1.75rem; transition: all 0.25s; position: relative; overflow: hidden; }
-  .agent-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: var(--accent); transform: scaleX(0); transition: transform 0.3s; transform-origin: left; }
-  .agent-card:hover { border-color: #444; transform: translateY(-4px); box-shadow: 0 12px 32px rgba(0,0,0,0.4); }
-  .agent-card:hover::before { transform: scaleX(1); }
-
-  .agent-card.featured {
-    border-color: rgba(232,197,71,0.4);
-    background: linear-gradient(135deg, #242424 0%, #1e1c14 100%);
-  }
-  .agent-card.featured::before { background: var(--accent); transform: scaleX(1); }
-  .agent-card.featured:hover { border-color: var(--accent); box-shadow: 0 16px 48px rgba(232,197,71,0.15); }
-
-  .card-header { display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 1rem; }
-  .card-icon { font-size: 1.75rem; line-height: 1; }
-
-  .status-badge { font-family: var(--mono); font-size: 0.62rem; letter-spacing: 0.08em; padding: 0.2rem 0.6rem; border-radius: 3px; text-transform: uppercase; }
-  .status-live { background: rgba(74,239,138,0.12); color: #4aef8a; border: 1px solid rgba(74,239,138,0.25); }
-  .status-featured { background: rgba(232,197,71,0.15); color: var(--accent); border: 1px solid rgba(232,197,71,0.4); }
-
-  .card-title { font-size: 1.05rem; font-weight: 700; margin-bottom: 0.25rem; }
-  .card-subtitle { font-family: var(--mono); font-size: 0.68rem; color: var(--muted); margin-bottom: 0.5rem; letter-spacing: 0.05em; }
-  .card-price { font-family: var(--mono); font-size: 0.7rem; color: var(--accent); margin-bottom: 0.25rem; letter-spacing: 0.03em; }
-  .card-price-note { font-family: var(--mono); font-size: 0.62rem; color: #555; margin-bottom: 0.75rem; }
-  .card-desc { font-size: 0.85rem; color: var(--muted); line-height: 1.65; margin-bottom: 1.25rem; }
-  .card-footer { display: flex; align-items: center; justify-content: space-between; }
-  .card-stack { font-family: var(--mono); font-size: 0.65rem; color: #555; letter-spacing: 0.05em; }
-  .card-link { font-family: var(--mono); font-size: 0.7rem; color: #1a1a1a; background: var(--accent); text-decoration: none; letter-spacing: 0.05em; display: inline-flex; align-items: center; gap: 0.4rem; transition: all 0.2s; cursor: pointer; border: none; padding: 0.5rem 1rem; border-radius: 4px; font-weight: 700; }
-  .card-link:hover { background: #f5d660; transform: translateY(-1px); box-shadow: 0 4px 12px rgba(232,197,71,0.3); }
-
-  .featured-cta { margin-top: 1.5rem; }
-  .featured-cta .btn { width: 100%; justify-content: center; font-size: 0.82rem; padding: 0.9rem 1.5rem; }
-
-  /* ETHEL SECTION */
-  .ethel-section {
-    padding: 5rem 3rem;
-    max-width: 1100px;
-    margin: 0 auto;
-  }
-
-  .ethel-inner {
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-left: 3px solid var(--accent);
-    border-radius: 8px;
-    padding: 3rem;
-    max-width: 720px;
-  }
-
-  .ethel-inner p {
-    color: var(--muted);
-    font-size: 0.95rem;
-    line-height: 1.9;
-    margin-bottom: 1rem;
-  }
-
-  .ethel-inner p:last-child { margin-bottom: 0; }
-
-  .ethel-inner strong { color: var(--text); }
-
-  .ethel-closer {
-    font-family: var(--display);
-    font-size: clamp(1.2rem, 2vw, 1.6rem);
-    color: var(--accent);
-    margin-top: 1.5rem;
-    margin-bottom: 1rem;
-    line-height: 1.3;
-  }
-
-  .ethel-solo {
-    font-size: 0.88rem;
-    color: var(--muted);
-    font-style: italic;
-    border-top: 1px solid var(--border);
-    padding-top: 1rem;
-    margin-top: 1rem;
-  }
-
-  /* PRICING CALLOUT */
-  .pricing-callout {
-    padding: 2rem 2.5rem;
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-left: 3px solid var(--accent);
-    border-radius: 8px;
-  }
-
-  .pricing-callout-label { font-family: var(--mono); font-size: 0.65rem; color: var(--accent); letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 1.25rem; }
-
-  .pricing-compare { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
-  .pricing-compare-item { display: flex; flex-direction: column; gap: 0.25rem; }
-  .pricing-compare-item .label { font-family: var(--mono); font-size: 0.68rem; color: var(--muted); letter-spacing: 0.05em; text-transform: uppercase; }
-  .pricing-compare-item .amount { font-family: var(--display); font-size: clamp(1.6rem, 3vw, 2.4rem); color: var(--text); line-height: 1.1; }
-  .pricing-compare-item .amount.highlight { color: var(--accent); }
-  .pricing-compare-item .sub { font-size: 0.78rem; color: var(--muted); margin-top: 0.15rem; }
-
-  .pricing-callout-footer { margin-top: 1.25rem; padding-top: 1.25rem; border-top: 1px solid var(--border); font-family: var(--mono); font-size: 0.72rem; color: var(--muted); }
-  .pricing-callout-footer strong { color: var(--accent); font-family: var(--mono); }
-
-  /* FOUNDER BANNER */
-  .founder-banner {
-    margin-top: 2rem;
-    padding: 1.5rem 2rem;
-    background: rgba(232,197,71,0.07);
-    border: 1px solid rgba(232,197,71,0.2);
-    border-radius: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 2rem;
-    flex-wrap: wrap;
-  }
-
-  .founder-banner-left { display: flex; flex-direction: column; gap: 0.25rem; }
-  .founder-banner-tag { font-family: var(--mono); font-size: 0.62rem; color: var(--accent); letter-spacing: 0.12em; text-transform: uppercase; }
-  .founder-banner-title { font-family: var(--display); font-size: 1.3rem; color: var(--text); }
-  .founder-banner-sub { font-size: 0.82rem; color: var(--muted); }
-  .founder-banner-price { font-family: var(--mono); font-size: 0.85rem; color: var(--accent); white-space: nowrap; text-align: right; }
-  .founder-spots { font-family: var(--mono); font-size: 0.65rem; color: var(--muted); margin-top: 0.25rem; text-align: right; }
-
-  /* ABOUT */
-  .how-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: start; }
-  .how-text p { color: var(--muted); font-size: 0.95rem; line-height: 1.8; margin-bottom: 1rem; }
-  .how-text strong { color: var(--text); }
-
-  .tech-list { display: flex; flex-direction: column; gap: 0.75rem; }
-  .tech-item { display: flex; align-items: center; gap: 1rem; padding: 0.9rem 1.1rem; background: var(--surface); border: 1px solid var(--border); border-radius: 6px; transition: border-color 0.2s; }
-  .tech-item:hover { border-color: var(--accent); }
-  .tech-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
-  .tech-dot.yellow { background: var(--accent); }
-  .tech-dot.blue { background: var(--accent2); }
-  .tech-dot.green { background: var(--accent3); }
-  .tech-name { font-family: var(--mono); font-size: 0.82rem; color: var(--text); font-weight: 700; min-width: 100px; }
-  .tech-desc { font-size: 0.8rem; color: var(--muted); }
-
-  /* CHAT */
-  .chat-shell { max-width: 640px; margin: 0 auto; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; box-shadow: 0 24px 64px rgba(0,0,0,0.5); }
-  .chat-header { display: flex; align-items: center; justify-content: space-between; padding: 1rem 1.25rem; border-bottom: 1px solid var(--border); background: #1e1e1e; }
-  .chat-header-left { display: flex; align-items: center; gap: 0.75rem; }
-  .chat-avatar { width: 36px; height: 36px; border-radius: 50%; background: var(--accent); color: #1a1a1a; font-family: var(--mono); font-size: 0.7rem; font-weight: 700; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
-  .chat-name { font-size: 0.88rem; font-weight: 600; }
-  .chat-status { font-family: var(--mono); font-size: 0.65rem; color: var(--muted); display: flex; align-items: center; gap: 0.35rem; }
-  .status-dot { width: 6px; height: 6px; border-radius: 50%; background: #4aef8a; animation: pulse 2s infinite; }
-
-  @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
-
-  .chat-messages { padding: 1.5rem; min-height: 280px; max-height: 400px; overflow-y: auto; display: flex; flex-direction: column; gap: 1rem; }
-  .msg { display: flex; flex-direction: column; gap: 0.25rem; }
-  .msg-agent { align-items: flex-start; }
-  .msg-user { align-items: flex-end; }
-  .msg-bubble { max-width: 80%; padding: 0.75rem 1rem; border-radius: 12px; font-size: 0.88rem; line-height: 1.6; }
-  .msg-agent .msg-bubble { background: #2a2a2a; border: 1px solid var(--border); border-bottom-left-radius: 4px; color: var(--text); }
-  .msg-user .msg-bubble { background: var(--accent); color: #1a1a1a; border-bottom-right-radius: 4px; font-weight: 600; }
-  .msg-time { font-family: var(--mono); font-size: 0.6rem; color: #444; }
-
-  /* QUICK REPLIES */
-  .quick-replies {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    padding: 0 1.5rem 1rem;
-  }
-
-  .quick-reply-btn {
-    font-family: var(--mono);
-    font-size: 0.68rem;
-    letter-spacing: 0.03em;
-    padding: 0.45rem 0.9rem;
-    border-radius: 20px;
-    border: 1px solid var(--border);
-    background: var(--surface);
-    color: var(--muted);
-    cursor: pointer;
-    transition: all 0.2s;
-    white-space: nowrap;
-  }
-
-  .quick-reply-btn:hover {
-    border-color: var(--accent);
-    color: var(--accent);
-    background: rgba(232,197,71,0.05);
-  }
-
-  .typing-indicator { display: flex; gap: 4px; padding: 0.75rem 1rem; background: #2a2a2a; border: 1px solid var(--border); border-radius: 12px; border-bottom-left-radius: 4px; width: fit-content; }
-  .typing-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--muted); animation: typingBounce 1.2s infinite; }
-  .typing-dot:nth-child(2) { animation-delay: 0.2s; }
-  .typing-dot:nth-child(3) { animation-delay: 0.4s; }
-
-  @keyframes typingBounce { 0%, 60%, 100% { transform: translateY(0); opacity: 0.4; } 30% { transform: translateY(-6px); opacity: 1; } }
-
-  .chat-input-row { display: flex; border-top: 1px solid var(--border); }
-  .chat-input { flex: 1; background: transparent; border: none; padding: 1rem 1.25rem; color: var(--text); font-family: var(--sans); font-size: 0.9rem; outline: none; }
-  .chat-input::placeholder { color: #444; }
-  .chat-send { background: var(--accent); border: none; padding: 0 1.25rem; color: #1a1a1a; cursor: pointer; transition: background 0.2s; display: flex; align-items: center; }
-  .chat-send:hover { background: #f5d660; }
-
-  /* DEMO MODALS */
-  .modal-overlay {
-    display: none;
-    position: fixed;
-    inset: 0;
-    background: rgba(0,0,0,0);
-    z-index: 500;
-    align-items: flex-end;
-    justify-content: center;
-    padding: 0;
-    transition: background 0.3s ease;
-  }
-
-  .modal-overlay.active {
-    display: flex;
-    background: rgba(0,0,0,0.75);
-  }
-
-  .modal-shell {
-    width: 100%;
-    max-width: 520px;
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-radius: 12px 12px 0 0;
-    overflow: hidden;
-    box-shadow: 0 -16px 64px rgba(0,0,0,0.6);
-    display: flex;
-    flex-direction: column;
-    max-height: 85vh;
-    transform: translateY(100%);
-    transition: transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
-  }
-
-  .modal-overlay.active .modal-shell { transform: translateY(0); }
-
-  .modal-biz-header { padding: 0.75rem 1.25rem; display: flex; align-items: center; justify-content: space-between; }
-  .modal-biz-header.green { background: #0f1f0f; border-bottom: 1px solid #1a3a1a; }
-  .modal-biz-header.blue { background: #0f141f; border-bottom: 1px solid #1a2a3a; }
-  .modal-biz-name { font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.05em; font-weight: 700; }
-  .modal-biz-header.green .modal-biz-name { color: #4aef8a; }
-  .modal-biz-header.blue .modal-biz-name { color: var(--accent2); }
-  .modal-biz-sub { font-family: var(--mono); font-size: 0.6rem; color: #555; margin-top: 0.1rem; }
-  .modal-powered { font-family: var(--mono); font-size: 0.6rem; color: #444; }
-
-  .modal-chat-header { display: flex; align-items: center; justify-content: space-between; padding: 1rem 1.25rem; border-bottom: 1px solid var(--border); background: #1e1e1e; }
-  .modal-chat-header-left { display: flex; align-items: center; gap: 0.75rem; }
-  .modal-avatar-green { background: #4aef8a; color: #0f1f0f; }
-  .modal-avatar-blue { background: var(--accent2); color: #0f141f; }
-  .modal-close { background: none; border: none; color: var(--muted); cursor: pointer; font-size: 1.1rem; line-height: 1; padding: 0.35rem; border-radius: 4px; transition: color 0.2s, background 0.2s; }
-  .modal-close:hover { color: var(--text); background: rgba(255,255,255,0.05); }
-
-  .modal-messages { padding: 1.5rem; flex: 1; overflow-y: auto; display: flex; flex-direction: column; gap: 1rem; min-height: 200px; max-height: 320px; }
-
-  .modal-quick-replies {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    padding: 0 1.25rem 0.75rem;
-  }
-
-  .modal-input-row { display: flex; border-top: 1px solid var(--border); }
-  .modal-input { flex: 1; background: transparent; border: none; padding: 1rem 1.25rem; color: var(--text); font-family: var(--sans); font-size: 0.9rem; outline: none; }
-  .modal-input::placeholder { color: #444; }
-  .modal-send { border: none; padding: 0 1.25rem; cursor: pointer; transition: background 0.2s; display: flex; align-items: center; }
-  .modal-send.green { background: #4aef8a; color: #0f1f0f; }
-  .modal-send.green:hover { background: #6affa0; }
-  .modal-send.blue { background: var(--accent2); color: #0f141f; }
-  .modal-send.blue:hover { background: #6ab8ff; }
-
-  /* FOOTER */
-  footer { border-top: 1px solid var(--border); padding: 2rem 3rem; display: flex; align-items: center; justify-content: space-between; }
-  .footer-left { font-family: var(--mono); font-size: 0.72rem; color: var(--muted); }
-  .footer-left span { color: var(--accent); }
-  .footer-right { font-family: var(--mono); font-size: 0.68rem; color: #444; }
-
-  ::-webkit-scrollbar { width: 6px; }
-  ::-webkit-scrollbar-track { background: var(--bg); }
-  ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
-
-  @media (max-width: 768px) {
-    nav { padding: 1.25rem 1.5rem; }
-    nav ul { display: none; }
-    .hero { padding: 3rem 1.5rem; }
-    section { padding: 3rem 1.5rem; }
-    .ethel-section { padding: 3rem 1.5rem; }
-    .ethel-inner { padding: 2rem 1.5rem; }
-    .how-grid { grid-template-columns: 1fr; }
-    .pricing-compare { grid-template-columns: 1fr; }
-    .founder-banner { flex-direction: column; gap: 1rem; }
-    .founder-banner-price { text-align: left; }
-    .founder-spots { text-align: left; }
-    footer { flex-direction: column; gap: 0.5rem; text-align: center; padding: 1.5rem; }
-    .divider { margin: 0 1.5rem; }
-    .modal-shell { max-height: 92vh; }
-    .quick-replies { padding: 0 1rem 0.75rem; }
-  }
+/* Splash */
+#splash { position:fixed; inset:0; z-index:40; background:var(--black); display:flex; flex-direction:column; align-items:center; justify-content:center; gap:.7rem; transition:opacity 1.5s ease; }
+#splash.gone { opacity:0; pointer-events:none; }
+#splash h1 { font-family:'Cinzel',serif; font-size:clamp(1.4rem,3.5vw,3rem); color:var(--cream); letter-spacing:.15em; text-align:center; }
+#splash h2 { font-family:'Cormorant Garamond',serif; font-style:italic; font-size:clamp(3rem,8vw,7rem); color:var(--gold); line-height:1; text-shadow:0 0 40px rgba(240,192,64,.35); text-align:center; }
+#splash p  { font-family:'Cinzel',serif; font-size:clamp(.55rem,1.3vw,.85rem); letter-spacing:.4em; color:var(--gold2); text-transform:uppercase; }
+.sstar { position:absolute; color:var(--gold); opacity:0; animation:sp 3s ease-in-out infinite; }
+@keyframes sp { 0%,100%{opacity:0;transform:scale(.5)} 50%{opacity:.8;transform:scale(1)} }
 </style>
 </head>
 <body>
+<canvas id="confetti-canvas"></canvas>
 
-<!-- NAV -->
-<nav>
-  <a href="#" class="logo">
-    <img src="http://jeffwhitsitt.com/assets/images/jw.png" alt="JW" onerror="this.style.display='none'">
-    <span class="logo-text">Jeff<span>Whitsitt</span></span>
-  </a>
-  <ul>
-    <li><a href="#agents">Agents</a></li>
-    <li><a href="#pricing">Pricing</a></li>
-    <li><a href="#about">About</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
-</nav>
-
-<!-- HERO -->
-<div style="max-width:1100px; margin:0 auto;">
-  <div class="hero">
-    <p class="hero-tag">24/7 AI Employees · Custom Built</p>
-    <h1>Your next employee costs</h1><br><h1><em>$0.41 an hour.</em></h1>
-    <p class="hero-what">
-      Our team builds <strong>AI-powered staff for small businesses.</strong> They answer questions, capture leads, and book appointments automatically -- every hour, whether you are working or not.
-    </p>
-    <p class="hero-sub">
-      No payroll taxes. No sick days. No attitude.
-    </p>
-    <div class="cta-group">
-      <a href="#agents" class="btn btn-primary">Meet your employees →</a>
-      <a href="#contact" class="btn btn-ghost">Get your nights back</a>
-    </div>
-  </div>
+<div id="splash">
+  <h1>Congratulations</h1>
+  <h2 id="sname">Graduate Name</h2>
+  <p id="syear">Class of 2026 · Graduation Party</p>
 </div>
 
-<hr class="divider">
-
-<!-- AGENTS -->
-<section id="agents">
-  <p class="section-label">The Employees</p>
-  <h2>Two agents. One goal.<br>Buy back your time.</h2>
-  <p class="section-sub">These are live demos running on real infrastructure. Click "Try it" and talk to them -- they actually work.</p>
-
-  <div class="agent-grid">
-
-    <div class="agent-card">
-      <div class="card-header">
-        <span class="card-icon">🎯</span>
-        <span class="status-badge status-live">Live Demo</span>
-      </div>
-      <div class="card-title">Receptionist Agent</div>
-      <div class="card-price">$750 setup + $297/mo</div>
-      <div class="card-price-note">Standalone -- lead capture and appointment booking</div>
-      <div class="card-desc">Qualifies leads, captures contact info, and books appointments -- all in one conversation. Works while you're on the job, asleep, or off the clock. Syncs with the calendar you already use.</div>
-      <div class="card-footer">
-        <span class="card-stack">n8n · Claude · Sheets · Cal</span>
-        <button class="card-link" data-demo="receptionist">Try it →</button>
-      </div>
-    </div>
-
-    <div class="agent-card">
-      <div class="card-header">
-        <span class="card-icon">💬</span>
-        <span class="status-badge status-live">Live Demo</span>
-      </div>
-      <div class="card-title">FAQ Agent</div>
-      <div class="card-price">$750 setup + $297/mo</div>
-      <div class="card-price-note">Standalone -- customer questions answered 24/7</div>
-      <div class="card-desc">Answers customer questions at 2am so you don't have to. Trained on your content, not generic AI. Instant, accurate answers every time -- without you picking up the phone.</div>
-      <div class="card-footer">
-        <span class="card-stack">Claude API · JS</span>
-        <button class="card-link" data-demo="faq">Try it →</button>
-      </div>
-    </div>
-
-    <div class="agent-card featured">
-      <div class="card-header">
-        <span class="card-icon">🏢</span>
-        <span class="status-badge status-featured">Featured</span>
-      </div>
-      <div class="card-title">The Front Desk</div>
-      <div class="card-subtitle">Receptionist + FAQ Agent in one</div>
-      <div class="card-desc">Answers questions at midnight. Captures leads without forms. Books straight into your calendar. One employee, three jobs, 168 hours a week.</div>
-      <div class="featured-cta">
-        <a href="#contact" class="btn btn-primary">Talk to The Front Desk →</a>
-      </div>
-    </div>
-
-  </div>
-</section>
-
-<hr class="divider">
-
-<!-- ETHEL -->
-<div class="ethel-section">
-  <p class="section-label">// Don't fire Ethel</p>
-  <div class="ethel-inner">
-    <h2>Every great business has an Ethel.</h2>
-    <p>She knows every regular by name. She remembers that Mr. Henderson likes a callback before noon. She has been the face of your business longer than your logo has. Customers ask for her specifically.</p>
-    <p><strong>Ethel is irreplaceable.</strong></p>
-    <p>But Ethel goes home at five. Ethel is only human -- and even the best humans occasionally let a lead slip through the cracks while juggling three things at once.</p>
-    <p>That is not a flaw. That is biology.</p>
-    <p>Our agents work the hours Ethel does not. They catch what slips through the cracks. They handle the repetition so Ethel can focus on the moments that actually need her.</p>
-    <div class="ethel-closer">Don't fire Ethel.<br>Give her a little backup.</div>
-    <p class="ethel-solo">And if you do not have an Ethel yet? The agent holds down the front desk until you are ready to hire her.</p>
-  </div>
-</div>
-
-<hr class="divider">
-
-<!-- PRICING -->
-<section id="pricing">
-  <p class="section-label">Pricing</p>
-  <h2>The math is simple.</h2>
-  <p class="section-sub">One booked job covers months of service. Your time is worth more than you are charging for it.</p>
-
-  <div class="pricing-callout">
-    <p class="pricing-callout-label">Cost per hour</p>
-    <div class="pricing-compare">
-      <div class="pricing-compare-item">
-        <span class="label">Human receptionist</span>
-        <span class="amount">$15-18</span>
-        <span class="sub">per hour · benefits not included · goes home at 5</span>
-      </div>
-      <div class="pricing-compare-item">
-        <span class="label">Our agents</span>
-        <span class="amount highlight">$0.41</span>
-        <span class="sub">per hour · $9.90/day · never sleeps · never complains</span>
-      </div>
-    </div>
-    <p class="pricing-callout-footer">Standard pricing starts at <strong>$297/mo</strong> -- less than the price of a burger and fries per day -- for an employee who works every hour, whether you are or not. Founder Special locks in at $197/mo for life.</p>
-  </div>
-
-  <div class="founder-banner">
-    <div class="founder-banner-left">
-      <span class="founder-banner-tag">Limited offer</span>
-      <span class="founder-banner-title">Founder Special</span>
-      <span class="founder-banner-sub">The Front Desk -- both agents bundled. Grandfathered pricing for life as long as you stay active. 3 spots only.</span>
-    </div>
-    <div>
-      <div class="founder-banner-price">$500 setup + $197/mo</div>
-      <div class="founder-spots">3 spots remaining</div>
-    </div>
-  </div>
-</section>
-
-<hr class="divider">
-
-<!-- CONTACT -->
-<section id="contact">
-  <p class="section-label">The Front Desk</p>
-  <h2>Talk to the agent.</h2>
-  <p class="section-sub">This is our live Front Desk Agent -- the same one we build for clients. Ask it anything, tell it what is eating your time, or book a call if you want to talk. It answers questions, qualifies leads, and logs everything automatically. No form. This is the product.</p>
-
-  <div class="chat-shell">
-<div class="chat-header">
-  <div class="chat-header-left">
-    <div class="chat-avatar">JW</div>
-    <div>
-      <div class="chat-name">Jeff's Front Desk</div>
-      <div class="chat-status"><span class="status-dot"></span> Online</div>
-    </div>
-  </div>
-  <div style="display:flex;align-items:center;gap:1rem;">
-    <button id="chatReset" style="font-family:var(--mono);font-size:0.6rem;color:#444;background:none;border:none;cursor:pointer;letter-spacing:0.05em;transition:color 0.2s;" onmouseover="this.style.color='var(--accent)'" onmouseout="this.style.color='#444'">restart</button>
-    <span style="font-family:var(--mono);font-size:0.6rem;color:#555;">powered by Claude + n8n</span>
-  </div>
-</div>
-    
-    <div class="chat-messages" id="chatMessages">
-      <div class="msg msg-agent">
-        <div class="msg-bubble">You didn't start a business to be a 24/7 receptionist. What busywork keeps you off the job?</div>
-        <div class="msg-time">just now</div>
-      </div>
-    </div>
-
-    <div class="quick-replies" id="mainQuickReplies">
-      <button class="quick-reply-btn">Answering the same questions all day</button>
-      <button class="quick-reply-btn">Missing leads when I'm not available</button>
-      <button class="quick-reply-btn">Scheduling and booking eats my time</button>
-      <button class="quick-reply-btn">How does this work?</button>
-    </div>
-
-    <div class="chat-input-row">
-      <input type="text" class="chat-input" id="chatInput" placeholder="Type a message..." autocomplete="off">
-      <button class="chat-send" id="chatSend">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
-      </button>
-    </div>
-  </div>
-
-  <p style="font-family:var(--mono);font-size:0.65rem;color:#444;margin-top:1rem;text-align:center;">
-    Prefer email? <a href="mailto:contact@jeffwhitsitt.com" style="color:var(--accent);text-decoration:none;">contact@jeffwhitsitt.com</a>
-  </p>
-</section>
-
-<hr class="divider">
-
-
-<!-- FOOTER -->
-<footer>
-  <div class="footer-left">© 2026 <span>Jeff Whitsitt</span> -- Built with obsession, not a template.</div>
-  <div class="footer-right">Self-hosted · GitHub Pages</div>
-</footer>
-
-<!-- RECEPTIONIST DEMO MODAL -->
-<div class="modal-overlay" id="receptionistModal">
-  <div class="modal-shell">
-    <div class="modal-biz-header green">
-      <div>
-        <div class="modal-biz-name">Lakeside Insurance Group</div>
-        <div class="modal-biz-sub">Fort Wayne, IN -- Auto, Home, Renters</div>
-      </div>
-      <div class="modal-powered">powered by Jeff Whitsitt</div>
-    </div>
-    <div class="modal-chat-header">
-      <div class="modal-chat-header-left">
-        <div class="chat-avatar modal-avatar-green">LI</div>
-        <div>
-          <div class="chat-name">Lakeside Receptionist</div>
-          <div class="chat-status"><span class="status-dot"></span> Online</div>
-        </div>
-      </div>
-      <button class="modal-close" id="receptionistClose">&#x2715;</button>
-    </div>
-    <div class="modal-messages" id="receptionistMessages">
-      <div class="msg msg-agent">
-        <div class="msg-bubble">Thanks for reaching out to Lakeside Insurance Group. Are you looking for a new quote, have a question about an existing policy, or something else?</div>
-        <div class="msg-time">just now</div>
-      </div>
-    </div>
-    <div class="modal-quick-replies" id="receptionistQuickReplies">
-      <button class="quick-reply-btn">I need a new quote</button>
-      <button class="quick-reply-btn">Question about my policy</button>
-      <button class="quick-reply-btn">I want to schedule a callback</button>
-      <button class="quick-reply-btn">Something else</button>
-    </div>
-    <div class="modal-input-row">
-      <input type="text" class="modal-input" id="receptionistInput" placeholder="Type a message..." autocomplete="off">
-      <button class="modal-send green" id="receptionistSend">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
-      </button>
-    </div>
-  </div>
-</div>
-
-<!-- FAQ DEMO MODAL -->
-<div class="modal-overlay" id="faqModal">
-  <div class="modal-shell">
-    <div class="modal-biz-header blue">
-      <div>
-        <div class="modal-biz-name">Lakeside Insurance Group</div>
-        <div class="modal-biz-sub">Fort Wayne, IN -- Auto, Home, Renters</div>
-      </div>
-      <div class="modal-powered">powered by Jeff Whitsitt</div>
-    </div>
-    <div class="modal-chat-header">
-      <div class="modal-chat-header-left">
-        <div class="chat-avatar modal-avatar-blue">LI</div>
-        <div>
-          <div class="chat-name">Lakeside FAQ Agent</div>
-          <div class="chat-status"><span class="status-dot"></span> Online</div>
-        </div>
-      </div>
-      <button class="modal-close" id="faqClose">&#x2715;</button>
-    </div>
-    <div class="modal-messages" id="faqMessages">
-      <div class="msg msg-agent">
-        <div class="msg-bubble">Hi! I can answer questions about Lakeside Insurance Group's coverage options, how to get a quote, filing a claim, and more. What would you like to know?</div>
-        <div class="msg-time">just now</div>
-      </div>
-    </div>
-    <div class="modal-quick-replies" id="faqQuickReplies">
-      <button class="quick-reply-btn">What types of insurance do you offer?</button>
-      <button class="quick-reply-btn">How do I file a claim?</button>
-      <button class="quick-reply-btn">Can I bundle policies?</button>
-      <button class="quick-reply-btn">How do I get a quote?</button>
-    </div>
-    <div class="modal-input-row">
-      <input type="text" class="modal-input" id="faqInput" placeholder="Ask a question..." autocomplete="off">
-      <button class="modal-send blue" id="faqSend">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
-      </button>
-    </div>
-  </div>
-</div>
+<div id="show"></div>
+<div id="dots"></div>
+<div id="counter"></div>
+<div id="progress"></div>
 
 <script>
-  /* ── QUICK REPLY HELPER ── */
-  function setupQuickReplies(containerId, inputEl, sendFn) {
-    const container = document.getElementById(containerId);
-    if (!container) return;
-    container.querySelectorAll('.quick-reply-btn').forEach(btn => {
-      btn.addEventListener('click', () => {
-        inputEl.value = btn.innerText;
-        container.style.display = 'none';
-        sendFn();
-      });
-    });
-  }
+// ══════════════════════════════════════════════════
+//  ★  EDIT THIS CONFIG SECTION  ★
+// ══════════════════════════════════════════════════
+const CONFIG = {
+  name:            "Graduate Name",       // ← graduate's name
+  year:            "Class of 2026",
+  tagline:         "The Adventure Continues!",
+  autoAdvance:     true,
+  intervalSeconds: 8,
+  photosPerSlide:  10,                    // 8-12 recommended
 
-  function hideQuickReplies(containerId) {
-    const container = document.getElementById(containerId);
-    if (container) container.style.display = 'none';
-  }
+  // ── HOW TO ADD PHOTOS ──
+  // Photos in repo folder:  "photos/001.jpg", "photos/002.jpg" ...
+  // External URLs:          paste full https:// links
+  // They auto-chunk into groups of photosPerSlide per slide.
+  //
+  // ↓ REMOVE DEMO LINES BELOW and add real photos ↓
+  photos: [
+    "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=800&q=70",
+    "https://images.unsplash.com/photo-1627556704302-624286467c65?w=800&q=70",
+    "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=800&q=70",
+    "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=800&q=70",
+    "https://images.unsplash.com/photo-1612872087720-bb876e2e67d1?w=800&q=70",
+    "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&q=70",
+    "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=70",
+    "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=800&q=70",
+    "https://images.unsplash.com/photo-1504593811423-6dd665756598?w=800&q=70",
+    "https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=800&q=70",
+    "https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?w=800&q=70",
+    "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=800&q=70",
+    "https://images.unsplash.com/photo-1496337589254-7e19d01cec44?w=800&q=70",
+    "https://images.unsplash.com/photo-1570913149827-d2ac84ab3f9a?w=800&q=70",
+    "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?w=800&q=70",
+    "https://images.unsplash.com/photo-1543269865-cbf427effbad?w=800&q=70",
+    "https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=800&q=70",
+    "https://images.unsplash.com/photo-1472653431158-6364773b2a56?w=800&q=70",
+    "https://images.unsplash.com/photo-1526676317768-d9b14f15615a?w=800&q=70",
+    "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=800&q=70",
+    "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=800&q=70",
+    "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=800&q=70",
+    "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?w=800&q=70",
+    "https://images.unsplash.com/photo-1504276048855-f3d60e69632f?w=800&q=70",
+    "https://images.unsplash.com/photo-1479936343636-73cdc5aae0c3?w=800&q=70",
+    "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=800&q=70",
+    "https://images.unsplash.com/photo-1502823403499-6ccfcf4fb453?w=800&q=70",
+    "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=800&q=70",
+    "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=800&q=70",
+    "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=800&q=70",
+  ]
+};
+// ══════════════════════════════════════════════════
 
-  /* ── MAIN CONTACT BOT ── */
-  const messagesEl = document.getElementById('chatMessages');
-  const input = document.getElementById('chatInput');
-  const sendBtn = document.getElementById('chatSend');
-  const conversationHistory = [];
-  let messageCount = 0;
-  const MESSAGE_LIMIT = 20;
+document.getElementById('sname').textContent = CONFIG.name;
+document.getElementById('syear').textContent = CONFIG.year + ' · Graduation Party';
 
-  function addMessage(text, role, container) {
-    const el = container || messagesEl;
-    const msg = document.createElement('div');
-    msg.className = `msg msg-${role}`;
-    const escaped = role === 'user'
-      ? text.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
-      : text
-          .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
-          .replace(/\\n/g,'<br>')
-          .replace(/\n/g,'<br>')
-          .replace(/(https?:\/\/[^\s<]+)/g, '<a href="$1" target="_blank" style="color:var(--accent);text-decoration:underline;">$1</a>');
-    msg.innerHTML = `<div class="msg-bubble">${escaped}</div><div class="msg-time">just now</div>`;
-    el.appendChild(msg);
-    el.scrollTop = el.scrollHeight;
-  }
-
-  function showTyping(container) {
-    const el = container || messagesEl;
-    const typing = document.createElement('div');
-    typing.className = 'msg msg-agent';
-    typing.id = 'typingIndicator_' + el.id;
-    typing.innerHTML = `<div class="typing-indicator"><div class="typing-dot"></div><div class="typing-dot"></div><div class="typing-dot"></div></div>`;
-    el.appendChild(typing);
-    el.scrollTop = el.scrollHeight;
-  }
-
-  function removeTyping(container) {
-    const el = container || messagesEl;
-    const t = document.getElementById('typingIndicator_' + el.id);
-    if (t) t.remove();
-  }
-
-  async function handleSend() {
-    const val = input.value.trim();
-    if (!val) return;
-    hideQuickReplies('mainQuickReplies');
-    if (messageCount >= MESSAGE_LIMIT) {
-      addMessage('You have reached the message limit for this session. Email Jeff directly at contact@jeffwhitsitt.com.', 'agent');
-      return;
-    }
-    if (val.length > 800) {
-      addMessage('Please keep messages under 800 characters.', 'agent');
-      return;
-    }
-    messageCount++;
-    addMessage(val, 'user');
-    input.value = '';
-    input.disabled = true;
-    sendBtn.disabled = true;
-    conversationHistory.push({ role: 'user', content: val });
-    showTyping();
-    try {
-      const res = await fetch('https://n8n.jeffwhitsitt.com/webhook/masterbot', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ messages: conversationHistory, transcript: conversationHistory.map(m => m.role.toUpperCase() + ': ' + m.content).join('\n\n') })
-      });
-      const reply = await res.text();
-      removeTyping();
-      addMessage(reply, 'agent');
-      conversationHistory.push({ role: 'assistant', content: reply });
-    } catch (err) {
-      removeTyping();
-      addMessage('Something went wrong. Try emailing contact@jeffwhitsitt.com directly.', 'agent');
-    }
-    input.disabled = false;
-    sendBtn.disabled = false;
-    input.focus();
-  }
-
-  sendBtn.addEventListener('click', handleSend);
-  input.addEventListener('keydown', (e) => { if (e.key === 'Enter') handleSend(); });
-  input.addEventListener('input', () => hideQuickReplies('mainQuickReplies'));
-  setupQuickReplies('mainQuickReplies', input, handleSend);
-
-  document.getElementById('chatReset').addEventListener('click', () => {
-  conversationHistory.length = 0;
-  messageCount = 0;
-  messagesEl.innerHTML = '';
-  document.getElementById('mainQuickReplies').style.display = 'flex';
-  addMessage("You didn't start a business to be a 24/7 receptionist. What busywork keeps you off the job?", 'agent');
+const splash = document.getElementById('splash');
+[[10,15],[90,10],[5,70],[88,75],[50,8],[15,50],[80,45],[30,85],[70,80],[50,92]].forEach(([l,t],i)=>{
+  const s=document.createElement('div'); s.className='sstar';
+  s.style.cssText=`left:${l}%;top:${t}%;font-size:${Math.random()*.8+.7}rem;animation-delay:${i*.28}s`;
+  s.textContent=i%2===0?'✦':'★'; splash.appendChild(s);
 });
 
-  /* ── MODAL HELPERS ── */
-  function openModal(id) {
-    const overlay = document.getElementById(id);
-    overlay.style.display = 'flex';
-    requestAnimationFrame(() => overlay.classList.add('active'));
-    document.body.style.overflow = 'hidden';
-  }
+const LAYOUTS=['layout-a','layout-b','layout-c','layout-d','layout-e'];
+const chunks=[];
+for(let i=0;i<CONFIG.photos.length;i+=CONFIG.photosPerSlide)
+  chunks.push(CONFIG.photos.slice(i,i+CONFIG.photosPerSlide));
 
-  function closeModal(id) {
-    const overlay = document.getElementById(id);
-    overlay.classList.remove('active');
-    setTimeout(() => {
-      overlay.style.display = 'none';
-      document.body.style.overflow = '';
-    }, 350);
-  }
+const showEl=document.getElementById('show'), dotsEl=document.getElementById('dots');
+let current=0, autoTimer=null;
 
-  document.querySelectorAll('.modal-overlay').forEach(overlay => {
-    overlay.addEventListener('click', (e) => {
-      if (e.target === overlay) closeModal(overlay.id);
-    });
+chunks.forEach((photos,si)=>{
+  const layout=LAYOUTS[si%LAYOUTS.length];
+  const slide=document.createElement('div');
+  slide.className=`slide ${layout}${si===0?' active':''}`;
+  photos.forEach(src=>{
+    const cell=document.createElement('div'); cell.className='cell';
+    const img=document.createElement('img'); img.src=src; img.alt='';
+    img.loading=si<2?'eager':'lazy'; cell.appendChild(img); slide.appendChild(cell);
   });
+  const badge=document.createElement('div'); badge.className='badge';
+  badge.innerHTML=`<span class="b-cap">🎓</span><span class="b-co">${CONFIG.year}</span><span class="b-grad">Graduate</span><span class="b-name">${CONFIG.name}</span><span class="b-tag">${CONFIG.tagline}</span>`;
+  slide.appendChild(badge); showEl.appendChild(slide);
+  const dot=document.createElement('div'); dot.className=`dot${si===0?' active':''}`;
+  dot.addEventListener('click',()=>{clearInterval(autoTimer);goTo(si);startAuto();});
+  dotsEl.appendChild(dot);
+});
 
-  document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape') {
-      document.querySelectorAll('.modal-overlay.active').forEach(o => closeModal(o.id));
-    }
+const slides=document.querySelectorAll('.slide'), dots=document.querySelectorAll('.dot');
+const counterEl=document.getElementById('counter'), progressEl=document.getElementById('progress');
+
+function updateCounter(){counterEl.textContent=`${current+1} / ${slides.length}`;}
+function startProgress(){
+  progressEl.style.transition='none'; progressEl.style.width='0%';
+  requestAnimationFrame(()=>requestAnimationFrame(()=>{
+    progressEl.style.transition=`width ${CONFIG.intervalSeconds}s linear`; progressEl.style.width='100%';
+  }));
+}
+function goTo(n){
+  slides[current].classList.remove('active'); dots[current].classList.remove('active');
+  current=((n%slides.length)+slides.length)%slides.length;
+  slides[current].classList.add('active'); dots[current].classList.add('active');
+  updateCounter(); if(CONFIG.autoAdvance)startProgress();
+}
+function next(){goTo(current+1);}
+function startAuto(){if(!CONFIG.autoAdvance)return; startProgress(); autoTimer=setInterval(next,CONFIG.intervalSeconds*1000);}
+
+document.addEventListener('click',()=>{clearInterval(autoTimer);next();startAuto();});
+document.addEventListener('keydown',e=>{
+  if(e.key==='ArrowRight'||e.key===' '){clearInterval(autoTimer);next();startAuto();}
+  if(e.key==='ArrowLeft'){clearInterval(autoTimer);goTo(current-1);startAuto();}
+  if(e.key==='f'||e.key==='F')document.documentElement.requestFullscreen?.();
+});
+updateCounter();
+setTimeout(()=>{splash.classList.add('gone');setTimeout(()=>splash.remove(),1600);startAuto();},3500);
+
+// Confetti
+const canvas=document.getElementById('confetti-canvas'),ctx=canvas.getContext('2d');
+function resize(){canvas.width=innerWidth;canvas.height=innerHeight;} resize(); window.addEventListener('resize',resize);
+const COLORS=['#F0C040','#C9973A','#FDF8EE','#E8407A','#7B61FF','#42D9C8'];
+const pieces=Array.from({length:90},()=>({
+  x:Math.random()*innerWidth, y:Math.random()*innerHeight-innerHeight,
+  r:Math.random()*5+2, speed:Math.random()*1.2+.4,
+  color:COLORS[Math.floor(Math.random()*COLORS.length)],
+  angle:Math.random()*Math.PI*2, spin:(Math.random()-.5)*.07,
+  wobble:Math.random()*Math.PI*2, wobbleSpeed:Math.random()*.035+.01,
+  shape:Math.random()>.4?'rect':'circle', w:Math.random()*7+3, h:Math.random()*13+5
+}));
+(function draw(){
+  ctx.clearRect(0,0,canvas.width,canvas.height);
+  pieces.forEach(p=>{
+    p.wobble+=p.wobbleSpeed; p.angle+=p.spin; p.y+=p.speed; p.x+=Math.sin(p.wobble)*.65;
+    if(p.y>canvas.height+20){p.y=-20;p.x=Math.random()*canvas.width;}
+    ctx.save(); ctx.translate(p.x,p.y); ctx.rotate(p.angle);
+    ctx.fillStyle=p.color; ctx.globalAlpha=.72;
+    if(p.shape==='rect')ctx.fillRect(-p.w/2,-p.h/2,p.w,p.h);
+    else{ctx.beginPath();ctx.ellipse(0,0,p.r,p.r*.55,0,0,Math.PI*2);ctx.fill();}
+    ctx.restore();
   });
-
-  document.querySelectorAll('[data-demo]').forEach(btn => {
-    btn.addEventListener('click', () => {
-      const demo = btn.getAttribute('data-demo');
-      if (demo === 'receptionist') openModal('receptionistModal');
-      if (demo === 'faq') openModal('faqModal');
-    });
-  });
-
-  /* ── RECEPTIONIST DEMO ── */
-  const rMessages = document.getElementById('receptionistMessages');
-  const rInput = document.getElementById('receptionistInput');
-  const rSend = document.getElementById('receptionistSend');
-  const rHistory = [];
-  let rCount = 0;
-
-  document.getElementById('receptionistClose').addEventListener('click', () => closeModal('receptionistModal'));
-
-  async function handleReceptionistSend() {
-    const val = rInput.value.trim();
-    if (!val) return;
-    hideQuickReplies('receptionistQuickReplies');
-    if (rCount >= 20) { addMessage('You have reached the message limit for this demo.', 'agent', rMessages); return; }
-    if (val.length > 800) { addMessage('Please keep messages under 800 characters.', 'agent', rMessages); return; }
-    rCount++;
-    addMessage(val, 'user', rMessages);
-    rInput.value = '';
-    rInput.disabled = true;
-    rSend.disabled = true;
-    rHistory.push({ role: 'user', content: val });
-    showTyping(rMessages);
-    try {
-      const res = await fetch('https://n8n.jeffwhitsitt.com/webhook/receptionist-demo', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ messages: rHistory })
-      });
-      const reply = await res.text();
-      const cleaned = reply.replace(/\[CONTACT_CAPTURED\]\s*\{.*?\}/s, '').trim();
-      removeTyping(rMessages);
-      addMessage(cleaned, 'agent', rMessages);
-      rHistory.push({ role: 'assistant', content: cleaned });
-    } catch (err) {
-      removeTyping(rMessages);
-      addMessage('Something went wrong. Please try again.', 'agent', rMessages);
-    }
-    rInput.disabled = false;
-    rSend.disabled = false;
-    rInput.focus();
-  }
-
-  rSend.addEventListener('click', handleReceptionistSend);
-  rInput.addEventListener('keydown', (e) => { if (e.key === 'Enter') handleReceptionistSend(); });
-  rInput.addEventListener('input', () => hideQuickReplies('receptionistQuickReplies'));
-  setupQuickReplies('receptionistQuickReplies', rInput, handleReceptionistSend);
-
-  /* ── FAQ DEMO ── */
-  const fMessages = document.getElementById('faqMessages');
-  const fInput = document.getElementById('faqInput');
-  const fSend = document.getElementById('faqSend');
-  const fHistory = [];
-  let fCount = 0;
-
-  document.getElementById('faqClose').addEventListener('click', () => closeModal('faqModal'));
-
-  async function handleFaqSend() {
-    const val = fInput.value.trim();
-    if (!val) return;
-    hideQuickReplies('faqQuickReplies');
-    if (fCount >= 20) { addMessage('You have reached the message limit for this demo.', 'agent', fMessages); return; }
-    if (val.length > 800) { addMessage('Please keep messages under 800 characters.', 'agent', fMessages); return; }
-    fCount++;
-    addMessage(val, 'user', fMessages);
-    fInput.value = '';
-    fInput.disabled = true;
-    fSend.disabled = true;
-    fHistory.push({ role: 'user', content: val });
-    showTyping(fMessages);
-    try {
-      const res = await fetch('https://n8n.jeffwhitsitt.com/webhook/faq-demo', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ messages: fHistory })
-      });
-      const reply = await res.text();
-      removeTyping(fMessages);
-      addMessage(reply, 'agent', fMessages);
-      fHistory.push({ role: 'assistant', content: reply });
-    } catch (err) {
-      removeTyping(fMessages);
-      addMessage('Something went wrong. Please try again.', 'agent', fMessages);
-    }
-    fInput.disabled = false;
-    fSend.disabled = false;
-    fInput.focus();
-  }
-
-  fSend.addEventListener('click', handleFaqSend);
-  fInput.addEventListener('keydown', (e) => { if (e.key === 'Enter') handleFaqSend(); });
-  fInput.addEventListener('input', () => hideQuickReplies('faqQuickReplies'));
-  setupQuickReplies('faqQuickReplies', fInput, handleFaqSend);
+  requestAnimationFrame(draw);
+})();
 </script>
 </body>
 </html>
