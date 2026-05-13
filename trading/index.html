@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The $20 Question — Trading Dashboard</title>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600&family=IBM+Plex+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #0a0a0a;
+  --surface: #111111;
+  --border: #1e1e1e;
+  --border-bright: #2a2a2a;
+  --green: #00ff88;
+  --green-dim: rgba(0,255,136,0.1);
+  --red: #ff3b5c;
+  --red-dim: rgba(255,59,92,0.1);
+  --yellow: #ffd23f;
+  --yellow-dim: rgba(255,210,63,0.08);
+  --text: #e0e0e0;
+  --text-dim: #555;
+  --text-mid: #888;
+  --mono: 'IBM Plex Mono', monospace;
+  --sans: 'IBM Plex Sans', sans-serif;
+}
+
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--mono);
+  font-size: 13px;
+  min-height: 100vh;
+  padding: 16px;
+}
+
+/* Scanline overlay */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(0,0,0,0.03) 2px,
+    rgba(0,0,0,0.03) 4px
+  );
+  pointer-events: none;
+  z-index: 999;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--border);
+}
+
+.header-left h1 {
+  font-size: 11px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--yellow);
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.header-left p {
+  font-size: 10px;
+  color: var(--text-dim);
+  letter-spacing: 0.1em;
+}
+
+.header-right {
+  text-align: right;
+}
+
+.last-update {
+  font-size: 10px;
+  color: var(--text-dim);
+  letter-spacing: 0.05em;
+}
+
+.pulse {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  background: var(--green);
+  border-radius: 50%;
+  margin-right: 6px;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
+
+/* Account summary */
+.summary-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.summary-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  padding: 12px;
+  position: relative;
+  overflow: hidden;
+}
+
+.summary-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+}
+
+.summary-card.green::before { background: var(--green); }
+.summary-card.yellow::before { background: var(--yellow); }
+.summary-card.red::before { background: var(--red); }
+.summary-card.blue::before { background: #4488ff; }
+
+.card-label {
+  font-size: 9px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  margin-bottom: 8px;
+}
+
+.card-value {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+
+.card-value.green { color: var(--green); }
+.card-value.yellow { color: var(--yellow); }
+.card-value.red { color: var(--red); }
+.card-value.white { color: var(--text); }
+
+.card-sub {
+  font-size: 10px;
+  color: var(--text-mid);
+  margin-top: 4px;
+}
+
+/* Section headers */
+.section-header {
+  font-size: 9px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  margin-bottom: 8px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--border);
+}
+
+/* Trade rows */
+.trade-list {
+  margin-bottom: 20px;
+}
+
+.trade-row {
+  display: grid;
+  grid-template-columns: 60px 1fr auto;
+  gap: 8px;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.trade-row:last-child { border-bottom: none; }
+
+.ticker {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: var(--yellow);
+}
+
+.trade-info {
+  min-width: 0;
+}
+
+.trade-meta {
+  font-size: 10px;
+  color: var(--text-mid);
+  margin-bottom: 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.progress-bar {
+  height: 3px;
+  background: var(--border-bright);
+  border-radius: 2px;
+  margin-top: 4px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  border-radius: 2px;
+  transition: width 0.5s ease;
+}
+
+.progress-fill.pos { background: var(--green); }
+.progress-fill.neg { background: var(--red); }
+
+.trade-pnl {
+  text-align: right;
+  white-space: nowrap;
+}
+
+.pnl-pct {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.pnl-pct.pos { color: var(--green); }
+.pnl-pct.neg { color: var(--red); }
+.pnl-pct.flat { color: var(--text-mid); }
+
+.pnl-dollar {
+  font-size: 10px;
+  color: var(--text-mid);
+}
+
+/* Closed trades */
+.closed-row {
+  display: grid;
+  grid-template-columns: 60px 1fr auto;
+  gap: 8px;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--border);
+  opacity: 0.8;
+}
+
+.closed-row:last-child { border-bottom: none; }
+
+.close-reason {
+  font-size: 9px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 2px 6px;
+  border-radius: 2px;
+  display: inline-block;
+  margin-top: 2px;
+}
+
+.close-reason.target { background: var(--green-dim); color: var(--green); }
+.close-reason.stop { background: var(--red-dim); color: var(--red); }
+.close-reason.stale { background: var(--yellow-dim); color: var(--yellow); }
+
+/* Stats row */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.stat-box {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  padding: 10px;
+  text-align: center;
+}
+
+.stat-label {
+  font-size: 9px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  margin-bottom: 6px;
+}
+
+.stat-value {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.stat-value.green { color: var(--green); }
+.stat-value.red { color: var(--red); }
+.stat-value.yellow { color: var(--yellow); }
+
+/* Phase indicator */
+.phase-bar {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  padding: 12px;
+  margin-bottom: 20px;
+}
+
+.phase-label {
+  font-size: 9px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  margin-bottom: 8px;
+}
+
+.phase-name {
+  font-size: 12px;
+  color: var(--yellow);
+  margin-bottom: 8px;
+  letter-spacing: 0.1em;
+}
+
+.phase-progress {
+  height: 4px;
+  background: var(--border-bright);
+  border-radius: 2px;
+  overflow: hidden;
+  margin-bottom: 6px;
+}
+
+.phase-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--yellow), var(--green));
+  border-radius: 2px;
+}
+
+.phase-sub {
+  font-size: 10px;
+  color: var(--text-mid);
+}
+
+.empty-state {
+  padding: 20px 0;
+  text-align: center;
+  color: var(--text-dim);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+}
+
+.loading {
+  text-align: center;
+  padding: 40px 0;
+  color: var(--text-dim);
+  font-size: 11px;
+  letter-spacing: 0.2em;
+}
+
+.error-state {
+  padding: 16px;
+  background: var(--red-dim);
+  border: 1px solid var(--red);
+  color: var(--red);
+  font-size: 11px;
+  margin-bottom: 16px;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-left">
+    <h1>The $20 Question</h1>
+    <p>Paper Trading Dashboard — Phase 0</p>
+  </div>
+  <div class="header-right">
+    <div class="last-update">
+      <span class="pulse"></span>
+      <span id="update-time">Loading...</span>
+    </div>
+  </div>
+</div>
+
+<!-- Phase progress -->
+<div class="phase-bar">
+  <div class="phase-label">Current Phase</div>
+  <div class="phase-name" id="phase-name">Phase 0 — Paper Trading</div>
+  <div class="phase-progress">
+    <div class="phase-fill" id="phase-fill" style="width:0%"></div>
+  </div>
+  <div class="phase-sub" id="phase-sub">Loading...</div>
+</div>
+
+<!-- Account summary -->
+<div class="summary-grid">
+  <div class="summary-card yellow">
+    <div class="card-label">Account Value</div>
+    <div class="card-value yellow" id="account-value">—</div>
+    <div class="card-sub" id="account-start">Started at $100.00</div>
+  </div>
+  <div class="summary-card green">
+    <div class="card-label">Total P&amp;L</div>
+    <div class="card-value" id="total-pnl">—</div>
+    <div class="card-sub" id="total-pnl-pct">—</div>
+  </div>
+  <div class="summary-card blue">
+    <div class="card-label">Open Positions</div>
+    <div class="card-value white" id="open-count">—</div>
+    <div class="card-sub" id="deployed">— deployed</div>
+  </div>
+  <div class="summary-card green">
+    <div class="card-label">Win Rate</div>
+    <div class="card-value" id="win-rate">—</div>
+    <div class="card-sub" id="win-loss">— wins / — losses</div>
+  </div>
+</div>
+
+<!-- Performance stats -->
+<div class="stats-grid">
+  <div class="stat-box">
+    <div class="stat-label">Best Trade</div>
+    <div class="stat-value green" id="best-trade">—</div>
+  </div>
+  <div class="stat-box">
+    <div class="stat-label">Worst Trade</div>
+    <div class="stat-value red" id="worst-trade">—</div>
+  </div>
+  <div class="stat-box">
+    <div class="stat-label">Avg Win</div>
+    <div class="stat-value yellow" id="avg-win">—</div>
+  </div>
+</div>
+
+<!-- Open positions -->
+<div class="section-header">Open Positions</div>
+<div class="trade-list" id="open-positions">
+  <div class="loading">FETCHING POSITIONS...</div>
+</div>
+
+<!-- Closed trades -->
+<div class="section-header">Closed Trades</div>
+<div class="trade-list" id="closed-trades">
+  <div class="loading">FETCHING HISTORY...</div>
+</div>
+
+<script>
+const DATA_URL = 'trading/data.json';
+
+async function loadData() {
+  try {
+    const res = await fetch(DATA_URL + '?t=' + Date.now());
+    if (!res.ok) throw new Error('Failed to fetch');
+    return await res.json();
+  } catch(e) {
+    return null;
+  }
+}
+
+function fmt(n, prefix='$') {
+  if (n === null || n === undefined) return '—';
+  const abs = Math.abs(n).toFixed(2);
+  return (n >= 0 ? '+' : '-') + prefix + abs;
+}
+
+function fmtPct(n) {
+  if (n === null || n === undefined) return '—';
+  return (n >= 0 ? '+' : '') + (n * 100).toFixed(1) + '%';
+}
+
+function fmtDollar(n) {
+  if (n === null || n === undefined) return '—';
+  const sign = n >= 0 ? '+' : '-';
+  return sign + '$' + Math.abs(n).toFixed(2);
+}
+
+function pnlClass(n) {
+  if (!n) return 'flat';
+  return n > 0 ? 'pos' : 'neg';
+}
+
+function renderOpenPositions(trades) {
+  const el = document.getElementById('open-positions');
+  if (!trades || trades.length === 0) {
+    el.innerHTML = '<div class="empty-state">NO OPEN POSITIONS</div>';
+    return;
+  }
+
+  let deployed = 0;
+  let html = '';
+
+  trades.forEach(t => {
+    deployed += (t.position_size_dollars || 0);
+    const pct = t.unrealized_pct || 0;
+    const pctClass = pnlClass(pct);
+    
+    // Progress bar: how far between stop and target
+    let progress = 50;
+    if (t.stop_loss_price > 0 && t.profit_target_price > 0 && t.current_price) {
+      const range = t.profit_target_price - t.stop_loss_price;
+      progress = Math.max(0, Math.min(100, 
+        ((t.current_price - t.stop_loss_price) / range) * 100
+      ));
+    }
+
+    html += `
+      <div class="trade-row">
+        <div class="ticker">${t.ticker}</div>
+        <div class="trade-info">
+          <div class="trade-meta">entry $${t.entry_price?.toFixed(3)} → now $${t.current_price?.toFixed(3) || '?'}</div>
+          <div class="trade-meta" style="color:var(--text-dim)">stop $${t.stop_loss_price?.toFixed(2) || '?'} | target $${t.profit_target_price?.toFixed(2) || '?'}</div>
+          <div class="progress-bar">
+            <div class="progress-fill ${pctClass}" style="width:${progress}%"></div>
+          </div>
+        </div>
+        <div class="trade-pnl">
+          <div class="pnl-pct ${pctClass}">${fmtPct(pct)}</div>
+          <div class="pnl-dollar">${fmtDollar(t.unrealized_dollars)}</div>
+        </div>
+      </div>
+    `;
+  });
+
+  el.innerHTML = html;
+  document.getElementById('open-count').textContent = trades.length;
+  document.getElementById('deployed').textContent = `$${deployed.toFixed(0)} deployed`;
+}
+
+function renderClosedTrades(trades) {
+  const el = document.getElementById('closed-trades');
+  if (!trades || trades.length === 0) {
+    el.innerHTML = '<div class="empty-state">NO CLOSED TRADES YET</div>';
+    return;
+  }
+
+  // Sort by exit timestamp descending
+  const sorted = [...trades].sort((a,b) => 
+    new Date(b.exit_timestamp) - new Date(a.exit_timestamp)
+  );
+
+  let html = '';
+  sorted.forEach(t => {
+    const pct = t.pl_percent || 0;
+    const pctClass = pnlClass(pct);
+    const reasonClass = t.exit_reason === 'target_hit' ? 'target' : 
+                        t.exit_reason === 'stop_hit' ? 'stop' : 'stale';
+    const reasonLabel = t.exit_reason === 'target_hit' ? '✓ TARGET' :
+                        t.exit_reason === 'stop_hit' ? '✗ STOP' : '~ STALE';
+
+    html += `
+      <div class="closed-row">
+        <div>
+          <div class="ticker">${t.ticker}</div>
+          <span class="close-reason ${reasonClass}">${reasonLabel}</span>
+        </div>
+        <div class="trade-info">
+          <div class="trade-meta">$${t.entry_price?.toFixed(3)} → $${t.exit_price?.toFixed(3)}</div>
+          <div class="trade-meta" style="color:var(--text-dim)">${t.exit_timestamp?.substring(0,10) || ''}</div>
+        </div>
+        <div class="trade-pnl">
+          <div class="pnl-pct ${pctClass}">${fmtPct(pct)}</div>
+          <div class="pnl-dollar">${fmtDollar(t.pl_dollars)}</div>
+        </div>
+      </div>
+    `;
+  });
+
+  el.innerHTML = html;
+}
+
+function renderSummary(data) {
+  const { summary, open_trades, closed_trades } = data;
+
+  // Account value
+  const accountValue = 100 + (summary.total_pl_dollars || 0);
+  document.getElementById('account-value').textContent = '$' + accountValue.toFixed(2);
+
+  // Total P&L
+  const pnl = summary.total_pl_dollars || 0;
+  const pnlEl = document.getElementById('total-pnl');
+  pnlEl.textContent = fmtDollar(pnl);
+  pnlEl.className = 'card-value ' + (pnl >= 0 ? 'green' : 'red');
+
+  const pnlPct = accountValue > 0 ? ((accountValue - 100) / 100) : 0;
+  document.getElementById('total-pnl-pct').textContent = fmtPct(pnlPct) + ' total return';
+
+  // Win rate
+  const wins = summary.wins || 0;
+  const losses = summary.losses || 0;
+  const total = wins + losses;
+  const winRate = total > 0 ? (wins / total) : null;
+  const wrEl = document.getElementById('win-rate');
+  wrEl.textContent = winRate !== null ? (winRate * 100).toFixed(0) + '%' : '—';
+  wrEl.className = 'card-value ' + (winRate >= 0.5 ? 'green' : winRate < 0.5 ? 'red' : 'white');
+  document.getElementById('win-loss').textContent = `${wins} wins / ${losses} losses`;
+
+  // Best/worst/avg
+  if (closed_trades && closed_trades.length > 0) {
+    const pcts = closed_trades.map(t => t.pl_percent || 0);
+    const best = Math.max(...pcts);
+    const worst = Math.min(...pcts);
+    const winPcts = pcts.filter(p => p > 0);
+    const avgWin = winPcts.length > 0 ? winPcts.reduce((a,b)=>a+b,0)/winPcts.length : 0;
+
+    document.getElementById('best-trade').textContent = '+' + (best*100).toFixed(1) + '%';
+    document.getElementById('worst-trade').textContent = (worst*100).toFixed(1) + '%';
+    document.getElementById('avg-win').textContent = '+' + (avgWin*100).toFixed(1) + '%';
+  }
+
+  // Phase progress (30 day benchmark)
+  const startDate = new Date('2026-05-12');
+  const now = new Date();
+  const daysRunning = Math.floor((now - startDate) / (1000*60*60*24));
+  const phasePct = Math.min(100, (daysRunning / 30) * 100);
+  document.getElementById('phase-fill').style.width = phasePct + '%';
+  document.getElementById('phase-sub').textContent = `Day ${daysRunning} of 30 — ${(30-daysRunning)} days until Phase 1 benchmark`;
+
+  // Update time
+  document.getElementById('update-time').textContent = 
+    'Updated ' + new Date(data.generated_at).toLocaleTimeString();
+}
+
+async function render() {
+  const data = await loadData();
+
+  if (!data) {
+    document.getElementById('open-positions').innerHTML = 
+      '<div class="error-state">COULD NOT LOAD DATA — CHECK BACK SOON</div>';
+    document.getElementById('closed-trades').innerHTML = '';
+    document.getElementById('update-time').textContent = 'Data unavailable';
+    return;
+  }
+
+  renderSummary(data);
+  renderOpenPositions(data.open_trades);
+  renderClosedTrades(data.closed_trades);
+}
+
+render();
+// Refresh every 5 minutes
+setInterval(render, 5 * 60 * 1000);
+</script>
+</body>
+</html>
