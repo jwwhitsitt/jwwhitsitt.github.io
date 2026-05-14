@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-14T13:45:05.937382-04:00",
+  "generated_at": "2026-05-14T14:00:05.865965-04:00",
   "summary": {
-    "total_pl_dollars": -0.62,
+    "total_pl_dollars": -0.92,
     "wins": 2,
-    "losses": 6,
-    "open_count": 7
+    "losses": 7,
+    "open_count": 6
   },
   "open_trades": [
     {
@@ -17,23 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.16,
-      "current_price": 3.025,
-      "unrealized_pct": -0.06779661016949158,
-      "unrealized_dollars": -0.61
-    },
-    {
-      "ticker": "WTF",
-      "entry_price": 3.77,
-      "stop_loss_price": 3.66,
-      "profit_target_price": 4.24,
-      "position_size_dollars": 9.94,
-      "entry_timestamp": "2026-05-14T17:05:47.631692",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 4.27,
-      "current_price": 3.655,
-      "unrealized_pct": -0.030503978779840905,
-      "unrealized_dollars": -0.3
+      "current_price": 2.7617,
+      "unrealized_pct": -0.1489368258859785,
+      "unrealized_dollars": -1.35
     },
     {
       "ticker": "ELTK",
@@ -59,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.87,
-      "current_price": 2.28,
-      "unrealized_pct": -0.06199860122598431,
-      "unrealized_dollars": -0.63
+      "current_price": 2.29,
+      "unrealized_pct": -0.05788456000329117,
+      "unrealized_dollars": -0.59
     },
     {
       "ticker": "FAMI",
@@ -101,12 +87,23 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.0,
-      "current_price": 3.2699,
-      "unrealized_pct": -0.0030792682926829265,
-      "unrealized_dollars": -0.03
+      "current_price": 3.3,
+      "unrealized_pct": 0.0060975609756097615,
+      "unrealized_dollars": 0.06
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "WTF",
+      "entry_price": 3.77,
+      "exit_price": 3.655,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.3,
+      "pl_percent": -0.030504,
+      "exit_timestamp": "2026-05-14T17:45:04.526445",
+      "setup_quality": "B",
+      "position_size_dollars": 9.94
+    },
     {
       "ticker": "BMRA",
       "entry_price": 2.3689,
