@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-14T10:30:06.967467-04:00",
+  "generated_at": "2026-05-14T10:45:07.025748-04:00",
   "summary": {
     "total_pl_dollars": 1.62,
     "wins": 1,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 12.78,
-      "current_price": 2.3507,
-      "unrealized_pct": -0.01023157894736851,
-      "unrealized_dollars": -0.1
+      "current_price": 2.4501,
+      "unrealized_pct": 0.031621052631578925,
+      "unrealized_dollars": 0.32
     },
     {
       "ticker": "POCI",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.0,
-      "current_price": 4.81,
-      "unrealized_pct": 0.02123142250530778,
-      "unrealized_dollars": 0.21
+      "current_price": 4.86,
+      "unrealized_pct": 0.03184713375796186,
+      "unrealized_dollars": 0.32
     },
     {
       "ticker": "APWC",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.26,
-      "current_price": 17.4471,
-      "unrealized_pct": 0.009670138888888761,
-      "unrealized_dollars": 0.1
+      "current_price": 16.1159,
+      "unrealized_pct": -0.06736689814814821,
+      "unrealized_dollars": -0.67
     },
     {
       "ticker": "JRSH",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.42,
-      "current_price": 2.1802,
-      "unrealized_pct": -0.0003209684075380352,
-      "unrealized_dollars": -0.0
+      "current_price": 2.2091,
+      "unrealized_pct": 0.012930441560823515,
+      "unrealized_dollars": 0.13
     },
     {
       "ticker": "BKYI",
@@ -115,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.22,
-      "current_price": 3.55,
-      "unrealized_pct": 0.015010721944245823,
-      "unrealized_dollars": 0.15
+      "current_price": 3.34,
+      "unrealized_pct": -0.045032165832737725,
+      "unrealized_dollars": -0.45
     },
     {
       "ticker": "WTF",
@@ -129,9 +129,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.04,
-      "current_price": 4.24,
-      "unrealized_pct": 0.004739336492891105,
-      "unrealized_dollars": 0.05
+      "current_price": 4.08,
+      "unrealized_pct": -0.03317535545023689,
+      "unrealized_dollars": -0.33
     },
     {
       "ticker": "RBKB",
