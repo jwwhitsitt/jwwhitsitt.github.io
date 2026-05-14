@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-13T20:57:49.171001-04:00",
+  "generated_at": "2026-05-14T09:55:31.814374-04:00",
   "summary": {
     "total_pl_dollars": 1.62,
     "wins": 1,
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.22,
-      "current_price": 3.76,
-      "unrealized_pct": 0.07505360972122938,
-      "unrealized_dollars": 0.75
+      "current_price": 3.4499,
+      "unrealized_pct": -0.013609721229449631,
+      "unrealized_dollars": -0.14
     },
     {
       "ticker": "WTF",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.04,
-      "current_price": 4.15,
-      "unrealized_pct": -0.016587677725118342,
-      "unrealized_dollars": -0.17
+      "current_price": 4.24,
+      "unrealized_pct": 0.004739336492891105,
+      "unrealized_dollars": 0.05
     },
     {
       "ticker": "RBKB",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.33,
-      "current_price": 1.92,
-      "unrealized_pct": -0.029175304646811995,
-      "unrealized_dollars": -0.29
+      "current_price": 1.91,
+      "unrealized_pct": -0.03423168326844319,
+      "unrealized_dollars": -0.34
     }
   ],
   "closed_trades": [
