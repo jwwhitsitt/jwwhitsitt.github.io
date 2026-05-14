@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-14T15:15:05.003978-04:00",
+  "generated_at": "2026-05-14T15:30:05.785225-04:00",
   "summary": {
     "total_pl_dollars": -2.27,
     "wins": 2,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.47,
-      "unrealized_pct": 0.006297918948521272,
-      "unrealized_dollars": 0.05
+      "current_price": 1.45,
+      "unrealized_pct": -0.007393209200438213,
+      "unrealized_dollars": -0.06
     },
     {
       "ticker": "LIVE",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 12.55,
-      "current_price": 10.995,
-      "unrealized_pct": 0.018055555555555415,
-      "unrealized_dollars": 0.18
+      "current_price": 10.985,
+      "unrealized_pct": 0.01712962962962951,
+      "unrealized_dollars": 0.17
     },
     {
       "ticker": "JRSH",
@@ -101,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.0,
-      "current_price": 3.315,
-      "unrealized_pct": 0.010670731707317117,
-      "unrealized_dollars": 0.11
+      "current_price": 3.295,
+      "unrealized_pct": 0.004573170731707355,
+      "unrealized_dollars": 0.05
     }
   ],
   "closed_trades": [
