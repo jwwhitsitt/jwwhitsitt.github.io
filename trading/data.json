@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-14T12:45:04.018906-04:00",
+  "generated_at": "2026-05-14T13:00:09.829048-04:00",
   "summary": {
     "total_pl_dollars": -0.62,
     "wins": 2,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.87,
-      "current_price": 2.3309,
-      "unrealized_pct": -0.041058131402476515,
-      "unrealized_dollars": -0.42
+      "current_price": 2.345,
+      "unrealized_pct": -0.03525733327847932,
+      "unrealized_dollars": -0.36
     },
     {
       "ticker": "FAMI",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 12.55,
-      "current_price": 11.09,
-      "unrealized_pct": 0.026851851851851773,
-      "unrealized_dollars": 0.27
+      "current_price": 11.075,
+      "unrealized_pct": 0.02546296296296283,
+      "unrealized_dollars": 0.26
     },
     {
       "ticker": "JRSH",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.0,
-      "current_price": 3.25,
-      "unrealized_pct": -0.009146341463414575,
-      "unrealized_dollars": -0.09
+      "current_price": 3.3,
+      "unrealized_pct": 0.0060975609756097615,
+      "unrealized_dollars": 0.06
     }
   ],
   "closed_trades": [
