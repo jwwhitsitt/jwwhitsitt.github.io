@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-14T13:15:05.852364-04:00",
+  "generated_at": "2026-05-14T13:30:05.435089-04:00",
   "summary": {
     "total_pl_dollars": -0.62,
     "wins": 2,
@@ -31,8 +31,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.27,
-      "current_price": 3.7005,
-      "unrealized_pct": -0.0184350132625995,
+      "current_price": 3.7,
+      "unrealized_pct": -0.018567639257294388,
       "unrealized_dollars": -0.18
     },
     {
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 9.17,
-      "current_price": 8.395,
-      "unrealized_pct": 0.017575757575757522,
-      "unrealized_dollars": 0.17
+      "current_price": 8.5,
+      "unrealized_pct": 0.030303030303030304,
+      "unrealized_dollars": 0.3
     },
     {
       "ticker": "BNKK",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.87,
-      "current_price": 2.36,
-      "unrealized_pct": -0.029086271444439867,
-      "unrealized_dollars": -0.3
+      "current_price": 2.2906,
+      "unrealized_pct": -0.057637717529929605,
+      "unrealized_dollars": -0.59
     },
     {
       "ticker": "FAMI",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 12.55,
-      "current_price": 11.125,
-      "unrealized_pct": 0.030092592592592525,
-      "unrealized_dollars": 0.31
+      "current_price": 10.92,
+      "unrealized_pct": 0.011111111111111039,
+      "unrealized_dollars": 0.11
     },
     {
       "ticker": "JRSH",
@@ -101,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.0,
-      "current_price": 3.27,
-      "unrealized_pct": -0.003048780487804813,
-      "unrealized_dollars": -0.03
+      "current_price": 3.285,
+      "unrealized_pct": 0.001524390243902542,
+      "unrealized_dollars": 0.02
     }
   ],
   "closed_trades": [
