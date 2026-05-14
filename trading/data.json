@@ -1,26 +1,12 @@
 {
-  "generated_at": "2026-05-14T14:00:05.865965-04:00",
+  "generated_at": "2026-05-14T14:15:05.271894-04:00",
   "summary": {
-    "total_pl_dollars": -0.92,
+    "total_pl_dollars": -2.27,
     "wins": 2,
-    "losses": 7,
-    "open_count": 6
+    "losses": 8,
+    "open_count": 5
   },
   "open_trades": [
-    {
-      "ticker": "MOBX",
-      "entry_price": 3.245,
-      "stop_loss_price": 2.78,
-      "profit_target_price": 4.25,
-      "position_size_dollars": 9.05,
-      "entry_timestamp": "2026-05-14T17:05:47.656517",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 2.16,
-      "current_price": 2.7617,
-      "unrealized_pct": -0.1489368258859785,
-      "unrealized_dollars": -1.35
-    },
     {
       "ticker": "ELTK",
       "entry_price": 8.25,
@@ -31,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 9.17,
-      "current_price": 8.5,
-      "unrealized_pct": 0.030303030303030304,
-      "unrealized_dollars": 0.3
+      "current_price": 8.45,
+      "unrealized_pct": 0.024242424242424156,
+      "unrealized_dollars": 0.24
     },
     {
       "ticker": "BNKK",
@@ -45,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.87,
-      "current_price": 2.29,
-      "unrealized_pct": -0.05788456000329117,
-      "unrealized_dollars": -0.59
+      "current_price": 2.3,
+      "unrealized_pct": -0.0537705187805982,
+      "unrealized_dollars": -0.55
     },
     {
       "ticker": "FAMI",
@@ -73,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 12.55,
-      "current_price": 10.87,
-      "unrealized_pct": 0.0064814814814813425,
-      "unrealized_dollars": 0.07
+      "current_price": 10.71,
+      "unrealized_pct": -0.00833333333333332,
+      "unrealized_dollars": -0.08
     },
     {
       "ticker": "JRSH",
@@ -87,12 +73,23 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.0,
-      "current_price": 3.3,
-      "unrealized_pct": 0.0060975609756097615,
-      "unrealized_dollars": 0.06
+      "current_price": 3.295,
+      "unrealized_pct": 0.004573170731707355,
+      "unrealized_dollars": 0.05
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "MOBX",
+      "entry_price": 3.245,
+      "exit_price": 2.7617,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -1.35,
+      "pl_percent": -0.148937,
+      "exit_timestamp": "2026-05-14T18:00:04.132172",
+      "setup_quality": "B",
+      "position_size_dollars": 9.05
+    },
     {
       "ticker": "WTF",
       "entry_price": 3.77,
