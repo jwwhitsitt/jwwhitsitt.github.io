@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-14T16:15:04.937233-04:00",
+  "generated_at": "2026-05-14T16:30:04.990714-04:00",
   "summary": {
     "total_pl_dollars": -3.52,
     "wins": 2,
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.55,
-      "current_price": 1.46,
-      "unrealized_pct": 0.010380622837370174,
-      "unrealized_dollars": 0.11
+      "current_price": 1.44,
+      "unrealized_pct": -0.0034602076124568273,
+      "unrealized_dollars": -0.04
     },
     {
       "ticker": "SPCB",
