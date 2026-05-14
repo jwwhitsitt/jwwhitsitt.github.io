@@ -1,12 +1,40 @@
 {
-  "generated_at": "2026-05-14T15:00:08.105203-04:00",
+  "generated_at": "2026-05-14T15:15:05.003978-04:00",
   "summary": {
     "total_pl_dollars": -2.27,
     "wins": 2,
     "losses": 8,
-    "open_count": 5
+    "open_count": 7
   },
   "open_trades": [
+    {
+      "ticker": "LNKS",
+      "entry_price": 1.4608,
+      "stop_loss_price": 1.14,
+      "profit_target_price": 2.45,
+      "position_size_dollars": 8.06,
+      "entry_timestamp": "2026-05-14T19:03:00.860242",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 3.08,
+      "current_price": 1.47,
+      "unrealized_pct": 0.006297918948521272,
+      "unrealized_dollars": 0.05
+    },
+    {
+      "ticker": "LIVE",
+      "entry_price": 10.37,
+      "stop_loss_price": 9.5001,
+      "profit_target_price": 13.15,
+      "position_size_dollars": 9.77,
+      "entry_timestamp": "2026-05-14T19:03:00.835998",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 3.2,
+      "current_price": 11.0,
+      "unrealized_pct": 0.060752169720347235,
+      "unrealized_dollars": 0.59
+    },
     {
       "ticker": "ELTK",
       "entry_price": 8.25,
@@ -31,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.87,
-      "current_price": 2.26,
-      "unrealized_pct": -0.07022668367137042,
-      "unrealized_dollars": -0.71
+      "current_price": 2.275,
+      "unrealized_pct": -0.0640556218373308,
+      "unrealized_dollars": -0.65
     },
     {
       "ticker": "FAMI",
@@ -59,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 12.55,
-      "current_price": 10.805,
-      "unrealized_pct": 0.0004629629629628708,
-      "unrealized_dollars": 0.0
+      "current_price": 10.995,
+      "unrealized_pct": 0.018055555555555415,
+      "unrealized_dollars": 0.18
     },
     {
       "ticker": "JRSH",
@@ -73,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.0,
-      "current_price": 3.3,
-      "unrealized_pct": 0.0060975609756097615,
-      "unrealized_dollars": 0.06
+      "current_price": 3.315,
+      "unrealized_pct": 0.010670731707317117,
+      "unrealized_dollars": 0.11
     }
   ],
   "closed_trades": [
