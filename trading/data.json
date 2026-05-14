@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-14T11:30:04.576810-04:00",
+  "generated_at": "2026-05-14T11:45:05.057540-04:00",
   "summary": {
-    "total_pl_dollars": 1.54,
+    "total_pl_dollars": -0.86,
     "wins": 1,
-    "losses": 5,
-    "open_count": 6
+    "losses": 6,
+    "open_count": 5
   },
   "open_trades": [
     {
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.87,
-      "current_price": 2.44,
-      "unrealized_pct": 0.0038260583371045732,
-      "unrealized_dollars": 0.04
+      "current_price": 2.3405,
+      "unrealized_pct": -0.03710865182869126,
+      "unrealized_dollars": -0.38
     },
     {
       "ticker": "BMRA",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.7,
-      "current_price": 2.39,
-      "unrealized_pct": 0.008907087677825202,
-      "unrealized_dollars": 0.09
+      "current_price": 2.411,
+      "unrealized_pct": 0.017771961669973416,
+      "unrealized_dollars": 0.18
     },
     {
       "ticker": "FAMI",
@@ -45,23 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.55,
-      "current_price": 1.4505,
-      "unrealized_pct": 0.00380622837370231,
-      "unrealized_dollars": 0.04
-    },
-    {
-      "ticker": "TDIC",
-      "entry_price": 16.55,
-      "stop_loss_price": 14.9,
-      "profit_target_price": 22.7299,
-      "position_size_dollars": 10.16,
-      "entry_timestamp": "2026-05-14T14:55:13.983231",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 3.75,
-      "current_price": 12.64,
-      "unrealized_pct": -0.2362537764350453,
-      "unrealized_dollars": -2.4
+      "current_price": 1.4405,
+      "unrealized_pct": -0.0031141868512111906,
+      "unrealized_dollars": -0.03
     },
     {
       "ticker": "SPCB",
@@ -73,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 12.55,
-      "current_price": 11.27,
-      "unrealized_pct": 0.04351851851851841,
-      "unrealized_dollars": 0.44
+      "current_price": 11.095,
+      "unrealized_pct": 0.027314814814814806,
+      "unrealized_dollars": 0.28
     },
     {
       "ticker": "JRSH",
@@ -93,6 +79,17 @@
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "TDIC",
+      "entry_price": 16.55,
+      "exit_price": 12.64,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -2.4,
+      "pl_percent": -0.236254,
+      "exit_timestamp": "2026-05-14T15:30:02.866791",
+      "setup_quality": "B",
+      "position_size_dollars": 10.16
+    },
     {
       "ticker": "APWC",
       "entry_price": 1.4305,
