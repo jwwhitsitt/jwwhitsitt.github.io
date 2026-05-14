@@ -1,12 +1,54 @@
 {
-  "generated_at": "2026-05-14T13:00:09.829048-04:00",
+  "generated_at": "2026-05-14T13:15:05.852364-04:00",
   "summary": {
     "total_pl_dollars": -0.62,
     "wins": 2,
     "losses": 6,
-    "open_count": 4
+    "open_count": 7
   },
   "open_trades": [
+    {
+      "ticker": "MOBX",
+      "entry_price": 3.245,
+      "stop_loss_price": 2.78,
+      "profit_target_price": 4.25,
+      "position_size_dollars": 9.05,
+      "entry_timestamp": "2026-05-14T17:05:47.656517",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 2.16,
+      "current_price": 3.265,
+      "unrealized_pct": 0.006163328197226508,
+      "unrealized_dollars": 0.06
+    },
+    {
+      "ticker": "WTF",
+      "entry_price": 3.77,
+      "stop_loss_price": 3.66,
+      "profit_target_price": 4.24,
+      "position_size_dollars": 9.94,
+      "entry_timestamp": "2026-05-14T17:05:47.631692",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 4.27,
+      "current_price": 3.7005,
+      "unrealized_pct": -0.0184350132625995,
+      "unrealized_dollars": -0.18
+    },
+    {
+      "ticker": "ELTK",
+      "entry_price": 8.25,
+      "stop_loss_price": 8.19,
+      "profit_target_price": 8.8,
+      "position_size_dollars": 9.94,
+      "entry_timestamp": "2026-05-14T17:05:47.606728",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 9.17,
+      "current_price": 8.395,
+      "unrealized_pct": 0.017575757575757522,
+      "unrealized_dollars": 0.17
+    },
     {
       "ticker": "BNKK",
       "entry_price": 2.4307,
@@ -17,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.87,
-      "current_price": 2.345,
-      "unrealized_pct": -0.03525733327847932,
-      "unrealized_dollars": -0.36
+      "current_price": 2.36,
+      "unrealized_pct": -0.029086271444439867,
+      "unrealized_dollars": -0.3
     },
     {
       "ticker": "FAMI",
@@ -45,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 12.55,
-      "current_price": 11.075,
-      "unrealized_pct": 0.02546296296296283,
-      "unrealized_dollars": 0.26
+      "current_price": 11.125,
+      "unrealized_pct": 0.030092592592592525,
+      "unrealized_dollars": 0.31
     },
     {
       "ticker": "JRSH",
@@ -59,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.0,
-      "current_price": 3.3,
-      "unrealized_pct": 0.0060975609756097615,
-      "unrealized_dollars": 0.06
+      "current_price": 3.27,
+      "unrealized_pct": -0.003048780487804813,
+      "unrealized_dollars": -0.03
     }
   ],
   "closed_trades": [
