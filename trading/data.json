@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-14T10:29:22.407899-04:00",
+  "generated_at": "2026-05-14T10:30:06.967467-04:00",
   "summary": {
     "total_pl_dollars": 1.62,
     "wins": 1,
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.26,
-      "current_price": 17.35,
-      "unrealized_pct": 0.004050925925925942,
-      "unrealized_dollars": 0.04
+      "current_price": 17.4471,
+      "unrealized_pct": 0.009670138888888761,
+      "unrealized_dollars": 0.1
     },
     {
       "ticker": "JRSH",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 9.0,
-      "current_price": 3.29,
-      "unrealized_pct": 0.006116207951070342,
-      "unrealized_dollars": 0.06
+      "current_price": 3.28,
+      "unrealized_pct": 0.003058103975535103,
+      "unrealized_dollars": 0.03
     },
     {
       "ticker": "MBRX",
@@ -171,9 +171,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.33,
-      "current_price": 2.0,
-      "unrealized_pct": 0.011275724326237541,
-      "unrealized_dollars": 0.11
+      "current_price": 1.99,
+      "unrealized_pct": 0.006219345704606349,
+      "unrealized_dollars": 0.06
     }
   ],
   "closed_trades": [
