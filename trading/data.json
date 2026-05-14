@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-14T14:15:05.271894-04:00",
+  "generated_at": "2026-05-14T14:30:05.995934-04:00",
   "summary": {
     "total_pl_dollars": -2.27,
     "wins": 2,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 9.17,
-      "current_price": 8.45,
-      "unrealized_pct": 0.024242424242424156,
-      "unrealized_dollars": 0.24
+      "current_price": 8.4377,
+      "unrealized_pct": 0.022751515151515096,
+      "unrealized_dollars": 0.23
     },
     {
       "ticker": "BNKK",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.87,
-      "current_price": 2.3,
-      "unrealized_pct": -0.0537705187805982,
-      "unrealized_dollars": -0.55
+      "current_price": 2.31,
+      "unrealized_pct": -0.04965647755790505,
+      "unrealized_dollars": -0.5
     },
     {
       "ticker": "FAMI",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 12.55,
-      "current_price": 10.71,
-      "unrealized_pct": -0.00833333333333332,
-      "unrealized_dollars": -0.08
+      "current_price": 10.85,
+      "unrealized_pct": 0.0046296296296295305,
+      "unrealized_dollars": 0.05
     },
     {
       "ticker": "JRSH",
@@ -73,8 +73,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.0,
-      "current_price": 3.295,
-      "unrealized_pct": 0.004573170731707355,
+      "current_price": 3.2956,
+      "unrealized_pct": 0.004756097560975628,
       "unrealized_dollars": 0.05
     }
   ],
