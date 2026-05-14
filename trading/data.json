@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-14T15:30:05.785225-04:00",
+  "generated_at": "2026-05-14T15:45:04.773754-04:00",
   "summary": {
     "total_pl_dollars": -2.27,
     "wins": 2,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.45,
-      "unrealized_pct": -0.007393209200438213,
-      "unrealized_dollars": -0.06
+      "current_price": 1.58,
+      "unrealized_pct": 0.08159912376779845,
+      "unrealized_dollars": 0.66
     },
     {
       "ticker": "LIVE",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.2,
-      "current_price": 11.0,
-      "unrealized_pct": 0.060752169720347235,
-      "unrealized_dollars": 0.59
+      "current_price": 11.68,
+      "unrealized_pct": 0.1263259402121505,
+      "unrealized_dollars": 1.23
     },
     {
       "ticker": "ELTK",
@@ -45,8 +45,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 9.17,
-      "current_price": 8.4007,
-      "unrealized_pct": 0.018266666666666726,
+      "current_price": 8.4,
+      "unrealized_pct": 0.018181818181818226,
       "unrealized_dollars": 0.18
     },
     {
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.87,
-      "current_price": 2.275,
-      "unrealized_pct": -0.0640556218373308,
-      "unrealized_dollars": -0.65
+      "current_price": 2.13,
+      "unrealized_pct": -0.12370921956638005,
+      "unrealized_dollars": -1.26
     },
     {
       "ticker": "FAMI",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.55,
-      "current_price": 1.445,
-      "unrealized_pct": 0.0,
-      "unrealized_dollars": null
+      "current_price": 1.4449,
+      "unrealized_pct": -6.920415224912732e-05,
+      "unrealized_dollars": -0.0
     },
     {
       "ticker": "SPCB",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 12.55,
-      "current_price": 10.985,
-      "unrealized_pct": 0.01712962962962951,
-      "unrealized_dollars": 0.17
+      "current_price": 10.88,
+      "unrealized_pct": 0.007407407407407414,
+      "unrealized_dollars": 0.08
     },
     {
       "ticker": "JRSH",
@@ -101,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.0,
-      "current_price": 3.295,
-      "unrealized_pct": 0.004573170731707355,
-      "unrealized_dollars": 0.05
+      "current_price": 3.3076,
+      "unrealized_pct": 0.008414634146341485,
+      "unrealized_dollars": 0.09
     }
   ],
   "closed_trades": [
