@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-14T10:17:23.216841-04:00",
+  "generated_at": "2026-05-14T10:29:22.407899-04:00",
   "summary": {
     "total_pl_dollars": 1.62,
     "wins": 1,
     "losses": 4,
-    "open_count": 13
+    "open_count": 12
   },
   "open_trades": [
     {
@@ -12,49 +12,35 @@
       "entry_price": 2.375,
       "stop_loss_price": 2.33,
       "profit_target_price": 2.95,
-      "position_size_dollars": 0.0,
+      "position_size_dollars": 10.0,
       "entry_timestamp": "2026-05-14T14:11:32.333167",
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 12.78,
-      "current_price": 2.285,
-      "unrealized_pct": -0.0378947368421052,
-      "unrealized_dollars": null
+      "current_price": 2.3507,
+      "unrealized_pct": -0.01023157894736851,
+      "unrealized_dollars": -0.1
     },
     {
       "ticker": "POCI",
       "entry_price": 4.71,
       "stop_loss_price": 4.57,
       "profit_target_price": 5.13,
-      "position_size_dollars": 0.0,
+      "position_size_dollars": 10.0,
       "entry_timestamp": "2026-05-14T14:11:32.308261",
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.0,
-      "current_price": 4.7914,
-      "unrealized_pct": 0.01728237791932067,
-      "unrealized_dollars": null
-    },
-    {
-      "ticker": "WOK",
-      "entry_price": 2.005,
-      "stop_loss_price": 1.9,
-      "profit_target_price": 2.32,
-      "position_size_dollars": 0.0,
-      "entry_timestamp": "2026-05-14T14:11:32.299445",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 3.0,
-      "current_price": 1.9349,
-      "unrealized_pct": -0.034962593516209395,
-      "unrealized_dollars": null
+      "current_price": 4.81,
+      "unrealized_pct": 0.02123142250530778,
+      "unrealized_dollars": 0.21
     },
     {
       "ticker": "APWC",
       "entry_price": 1.4305,
       "stop_loss_price": 1.4301,
       "profit_target_price": 1.505,
-      "position_size_dollars": 0.0,
+      "position_size_dollars": 10.0,
       "entry_timestamp": "2026-05-14T14:11:32.290591",
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
@@ -68,42 +54,42 @@
       "entry_price": 17.28,
       "stop_loss_price": 16.0,
       "profit_target_price": 22.7299,
-      "position_size_dollars": 0.0,
+      "position_size_dollars": 10.0,
       "entry_timestamp": "2026-05-14T14:11:32.259817",
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.26,
-      "current_price": 17.7232,
-      "unrealized_pct": 0.025648148148147993,
-      "unrealized_dollars": null
+      "current_price": 17.35,
+      "unrealized_pct": 0.004050925925925942,
+      "unrealized_dollars": 0.04
     },
     {
       "ticker": "JRSH",
       "entry_price": 3.27,
       "stop_loss_price": 3.26,
       "profit_target_price": 3.36,
-      "position_size_dollars": 0.0,
+      "position_size_dollars": 10.0,
       "entry_timestamp": "2026-05-14T14:11:32.247546",
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 9.0,
-      "current_price": 3.305,
-      "unrealized_pct": 0.010703363914373131,
-      "unrealized_dollars": null
+      "current_price": 3.29,
+      "unrealized_pct": 0.006116207951070342,
+      "unrealized_dollars": 0.06
     },
     {
       "ticker": "MBRX",
       "entry_price": 2.1809,
       "stop_loss_price": 2.17,
       "profit_target_price": 2.24,
-      "position_size_dollars": 0.0,
+      "position_size_dollars": 10.0,
       "entry_timestamp": "2026-05-14T14:11:32.182790",
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.42,
-      "current_price": 2.185,
-      "unrealized_pct": 0.001879957815580822,
-      "unrealized_dollars": null
+      "current_price": 2.1802,
+      "unrealized_pct": -0.0003209684075380352,
+      "unrealized_dollars": -0.0
     },
     {
       "ticker": "BKYI",
@@ -129,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.22,
-      "current_price": 3.575,
-      "unrealized_pct": 0.022158684774839205,
-      "unrealized_dollars": 0.22
+      "current_price": 3.55,
+      "unrealized_pct": 0.015010721944245823,
+      "unrealized_dollars": 0.15
     },
     {
       "ticker": "WTF",
@@ -185,12 +171,23 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.33,
-      "current_price": 1.94,
-      "unrealized_pct": -0.019062547403549613,
-      "unrealized_dollars": -0.19
+      "current_price": 2.0,
+      "unrealized_pct": 0.011275724326237541,
+      "unrealized_dollars": 0.11
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "WOK",
+      "entry_price": 2.005,
+      "exit_price": 1.8524,
+      "exit_reason": "stop_hit",
+      "pl_dollars": 0,
+      "pl_percent": -0.07611,
+      "exit_timestamp": "2026-05-14T14:28:42.699670",
+      "setup_quality": "B",
+      "position_size_dollars": 10.0
+    },
     {
       "ticker": "BNRG",
       "entry_price": 2.2701,
@@ -200,7 +197,7 @@
       "pl_percent": -0.074931,
       "exit_timestamp": "2026-05-14T14:15:07.516093",
       "setup_quality": "B",
-      "position_size_dollars": 0.0
+      "position_size_dollars": 10.0
     },
     {
       "ticker": "XLO",
@@ -211,7 +208,7 @@
       "pl_percent": 0.0,
       "exit_timestamp": "2026-05-14T14:15:06.929145",
       "setup_quality": "B",
-      "position_size_dollars": 0.0
+      "position_size_dollars": 10.0
     },
     {
       "ticker": "PLSM",
@@ -222,7 +219,7 @@
       "pl_percent": 0.0,
       "exit_timestamp": "2026-05-14T14:15:05.912441",
       "setup_quality": "B",
-      "position_size_dollars": 0.0
+      "position_size_dollars": 10.0
     },
     {
       "ticker": "INBS",
@@ -233,7 +230,7 @@
       "pl_percent": 0.134907,
       "exit_timestamp": "2026-05-14T14:15:05.623302",
       "setup_quality": "B",
-      "position_size_dollars": 0.0
+      "position_size_dollars": 10.0
     },
     {
       "ticker": "SUGP",
@@ -244,7 +241,7 @@
       "pl_percent": 0.0,
       "exit_timestamp": "2026-05-14T14:15:04.875496",
       "setup_quality": "B",
-      "position_size_dollars": 0.0
+      "position_size_dollars": 10.0
     },
     {
       "ticker": "NTWK",
@@ -255,7 +252,7 @@
       "pl_percent": -0.000813,
       "exit_timestamp": "2026-05-14T14:15:04.759598",
       "setup_quality": "B",
-      "position_size_dollars": 0.0
+      "position_size_dollars": 10.0
     },
     {
       "ticker": "PLUR",
@@ -321,7 +318,7 @@
       "pl_percent": 0.470208,
       "exit_timestamp": "2026-05-12T18:22:48.087617",
       "setup_quality": "B",
-      "position_size_dollars": 0.0
+      "position_size_dollars": 10.0
     },
     {
       "ticker": "ERNA",
@@ -332,7 +329,7 @@
       "pl_percent": -0.191304,
       "exit_timestamp": "2026-05-12T18:22:47.835227",
       "setup_quality": "B",
-      "position_size_dollars": 0.0
+      "position_size_dollars": 10.0
     },
     {
       "ticker": "AEHL",
@@ -343,7 +340,7 @@
       "pl_percent": 0.124459,
       "exit_timestamp": "2026-05-12T18:22:46.814243",
       "setup_quality": "B",
-      "position_size_dollars": 0.0
+      "position_size_dollars": 10.0
     }
   ]
 }
