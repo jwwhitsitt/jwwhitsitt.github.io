@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-15T09:45:05.058598-04:00",
+  "generated_at": "2026-05-15T10:00:08.295065-04:00",
   "summary": {
-    "total_pl_dollars": -3.21,
+    "total_pl_dollars": -3.5,
     "wins": 3,
-    "losses": 9,
-    "open_count": 6
+    "losses": 10,
+    "open_count": 5
   },
   "open_trades": [
     {
@@ -17,9 +17,9 @@
       "setup_quality": "A",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.63,
-      "current_price": 4.07,
-      "unrealized_pct": -0.009732360097323608,
-      "unrealized_dollars": -0.09
+      "current_price": 4.23,
+      "unrealized_pct": 0.029197080291970826,
+      "unrealized_dollars": 0.27
     },
     {
       "ticker": "LNKS",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.51,
-      "unrealized_pct": 0.03368017524644024,
-      "unrealized_dollars": 0.27
+      "current_price": 1.5591,
+      "unrealized_pct": 0.0672918948521357,
+      "unrealized_dollars": 0.54
     },
     {
       "ticker": "LIVE",
@@ -48,20 +48,6 @@
       "current_price": 10.71,
       "unrealized_pct": 0.0327868852459018,
       "unrealized_dollars": 0.32
-    },
-    {
-      "ticker": "ELTK",
-      "entry_price": 8.25,
-      "stop_loss_price": 8.19,
-      "profit_target_price": 8.8,
-      "position_size_dollars": 9.94,
-      "entry_timestamp": "2026-05-14T17:05:47.606728",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 9.17,
-      "current_price": 8.01,
-      "unrealized_pct": -0.029090909090909115,
-      "unrealized_dollars": -0.29
     },
     {
       "ticker": "FAMI",
@@ -93,6 +79,17 @@
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "ELTK",
+      "entry_price": 8.25,
+      "exit_price": 8.01,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.29,
+      "pl_percent": -0.029091,
+      "exit_timestamp": "2026-05-15T13:45:03.349984",
+      "setup_quality": "B",
+      "position_size_dollars": 9.94
+    },
     {
       "ticker": "JRSH",
       "entry_price": 3.28,
