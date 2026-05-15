@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-15T15:45:05.808058-04:00",
+  "generated_at": "2026-05-15T16:00:05.287515-04:00",
   "summary": {
-    "total_pl_dollars": -5.52,
-    "wins": 3,
+    "total_pl_dollars": -5.03,
+    "wins": 4,
     "losses": 13,
-    "open_count": 8
+    "open_count": 7
   },
   "open_trades": [
     {
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 7.17,
-      "current_price": 10.21,
-      "unrealized_pct": 0.06188247529901202,
-      "unrealized_dollars": 0.56
+      "current_price": 10.196,
+      "unrealized_pct": 0.06042641705668222,
+      "unrealized_dollars": 0.55
     },
     {
       "ticker": "SUGP",
@@ -45,23 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.2,
-      "current_price": 3.33,
-      "unrealized_pct": 0.015243902439024473,
-      "unrealized_dollars": 0.02
-    },
-    {
-      "ticker": "STG",
-      "entry_price": 3.0,
-      "stop_loss_price": 2.97,
-      "profit_target_price": 3.129,
-      "position_size_dollars": 9.64,
-      "entry_timestamp": "2026-05-15T15:04:37.990782",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 4.3,
-      "current_price": 3.15,
-      "unrealized_pct": 0.04999999999999997,
-      "unrealized_dollars": 0.48
+      "current_price": 3.305,
+      "unrealized_pct": 0.007621951219512304,
+      "unrealized_dollars": 0.01
     },
     {
       "ticker": "TACT",
@@ -73,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.86,
-      "current_price": 3.57,
-      "unrealized_pct": 0.019999999999999955,
-      "unrealized_dollars": 0.19
+      "current_price": 3.59,
+      "unrealized_pct": 0.025714285714285672,
+      "unrealized_dollars": 0.25
     },
     {
       "ticker": "INBS",
@@ -101,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.68,
-      "unrealized_pct": 0.15005476451259572,
-      "unrealized_dollars": 1.21
+      "current_price": 1.605,
+      "unrealized_pct": 0.09871303395399772,
+      "unrealized_dollars": 0.8
     },
     {
       "ticker": "LIVE",
@@ -121,6 +107,17 @@
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "STG",
+      "entry_price": 3.0,
+      "exit_price": 3.15,
+      "exit_reason": "target_hit",
+      "pl_dollars": 0.48,
+      "pl_percent": 0.05,
+      "exit_timestamp": "2026-05-15T19:45:03.966852",
+      "setup_quality": "B",
+      "position_size_dollars": 9.64
+    },
     {
       "ticker": "FAMI",
       "entry_price": 1.445,
