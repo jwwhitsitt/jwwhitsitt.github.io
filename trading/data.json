@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-15T10:00:08.295065-04:00",
+  "generated_at": "2026-05-15T10:15:05.248682-04:00",
   "summary": {
     "total_pl_dollars": -3.5,
     "wins": 3,
@@ -17,9 +17,9 @@
       "setup_quality": "A",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.63,
-      "current_price": 4.23,
-      "unrealized_pct": 0.029197080291970826,
-      "unrealized_dollars": 0.27
+      "current_price": 4.29,
+      "unrealized_pct": 0.04379562043795613,
+      "unrealized_dollars": 0.41
     },
     {
       "ticker": "LNKS",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.5591,
-      "unrealized_pct": 0.0672918948521357,
-      "unrealized_dollars": 0.54
+      "current_price": 1.67,
+      "unrealized_pct": 0.14320920043811597,
+      "unrealized_dollars": 1.15
     },
     {
       "ticker": "LIVE",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.2,
-      "current_price": 10.71,
-      "unrealized_pct": 0.0327868852459018,
-      "unrealized_dollars": 0.32
+      "current_price": 10.7,
+      "unrealized_pct": 0.031822565091610425,
+      "unrealized_dollars": 0.31
     },
     {
       "ticker": "FAMI",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 12.55,
-      "current_price": 10.82,
-      "unrealized_pct": 0.0018518518518518122,
-      "unrealized_dollars": 0.02
+      "current_price": 10.74,
+      "unrealized_pct": -0.005555555555555601,
+      "unrealized_dollars": -0.06
     }
   ],
   "closed_trades": [
