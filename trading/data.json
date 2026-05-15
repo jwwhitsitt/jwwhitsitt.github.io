@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-15T09:30:05.795439-04:00",
+  "generated_at": "2026-05-15T09:45:05.058598-04:00",
   "summary": {
-    "total_pl_dollars": -3.52,
-    "wins": 2,
+    "total_pl_dollars": -3.21,
+    "wins": 3,
     "losses": 9,
-    "open_count": 7
+    "open_count": 6
   },
   "open_trades": [
     {
@@ -17,9 +17,9 @@
       "setup_quality": "A",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.63,
-      "current_price": 4.11,
-      "unrealized_pct": 0.0,
-      "unrealized_dollars": null
+      "current_price": 4.07,
+      "unrealized_pct": -0.009732360097323608,
+      "unrealized_dollars": -0.09
     },
     {
       "ticker": "LNKS",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.74,
-      "unrealized_pct": 0.19112814895947416,
-      "unrealized_dollars": 1.54
+      "current_price": 1.51,
+      "unrealized_pct": 0.03368017524644024,
+      "unrealized_dollars": 0.27
     },
     {
       "ticker": "LIVE",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.2,
-      "current_price": 10.24,
-      "unrealized_pct": -0.012536162005785827,
-      "unrealized_dollars": -0.12
+      "current_price": 10.71,
+      "unrealized_pct": 0.0327868852459018,
+      "unrealized_dollars": 0.32
     },
     {
       "ticker": "ELTK",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 9.17,
-      "current_price": 8.43,
-      "unrealized_pct": 0.021818181818181785,
-      "unrealized_dollars": 0.22
+      "current_price": 8.01,
+      "unrealized_pct": -0.029090909090909115,
+      "unrealized_dollars": -0.29
     },
     {
       "ticker": "FAMI",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.55,
-      "current_price": 1.44,
-      "unrealized_pct": -0.0034602076124568273,
-      "unrealized_dollars": -0.04
+      "current_price": 1.53,
+      "unrealized_pct": 0.05882352941176468,
+      "unrealized_dollars": 0.6
     },
     {
       "ticker": "SPCB",
@@ -87,26 +87,23 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 12.55,
-      "current_price": 11.03,
-      "unrealized_pct": 0.02129629629629617,
-      "unrealized_dollars": 0.22
-    },
-    {
-      "ticker": "JRSH",
-      "entry_price": 3.28,
-      "stop_loss_price": 3.26,
-      "profit_target_price": 3.36,
-      "position_size_dollars": 10.16,
-      "entry_timestamp": "2026-05-14T14:55:13.919970",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 4.0,
-      "current_price": 3.31,
-      "unrealized_pct": 0.00914634146341471,
-      "unrealized_dollars": 0.09
+      "current_price": 10.82,
+      "unrealized_pct": 0.0018518518518518122,
+      "unrealized_dollars": 0.02
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "JRSH",
+      "entry_price": 3.28,
+      "exit_price": 3.38,
+      "exit_reason": "target_hit",
+      "pl_dollars": 0.31,
+      "pl_percent": 0.030488,
+      "exit_timestamp": "2026-05-15T13:45:02.552575",
+      "setup_quality": "B",
+      "position_size_dollars": 10.16
+    },
     {
       "ticker": "BNKK",
       "entry_price": 2.4307,
