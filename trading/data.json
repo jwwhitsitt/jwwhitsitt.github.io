@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-15T13:45:05.858988-04:00",
+  "generated_at": "2026-05-15T14:00:08.970067-04:00",
   "summary": {
     "total_pl_dollars": -5.52,
     "wins": 3,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 7.17,
-      "current_price": 9.7,
-      "unrealized_pct": 0.00884035361414447,
-      "unrealized_dollars": 0.08
+      "current_price": 9.72,
+      "unrealized_pct": 0.010920436817472743,
+      "unrealized_dollars": 0.1
     },
     {
       "ticker": "SUGP",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.2,
-      "current_price": 3.305,
-      "unrealized_pct": 0.007621951219512304,
-      "unrealized_dollars": 0.01
+      "current_price": 3.29,
+      "unrealized_pct": 0.003048780487804949,
+      "unrealized_dollars": 0.0
     },
     {
       "ticker": "STG",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.86,
-      "current_price": 3.65,
-      "unrealized_pct": 0.04285714285714283,
-      "unrealized_dollars": 0.41
+      "current_price": 3.62,
+      "unrealized_pct": 0.034285714285714315,
+      "unrealized_dollars": 0.33
     },
     {
       "ticker": "INBS",
@@ -87,9 +87,9 @@
       "setup_quality": "A",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.63,
-      "current_price": 4.22,
-      "unrealized_pct": 0.026763990267639762,
-      "unrealized_dollars": 0.25
+      "current_price": 4.2,
+      "unrealized_pct": 0.021897810218978065,
+      "unrealized_dollars": 0.2
     },
     {
       "ticker": "LNKS",
@@ -101,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.83,
-      "unrealized_pct": 0.25273822562979187,
-      "unrealized_dollars": 2.04
+      "current_price": 1.82,
+      "unrealized_pct": 0.24589266155531211,
+      "unrealized_dollars": 1.98
     },
     {
       "ticker": "LIVE",
@@ -115,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.2,
-      "current_price": 10.5014,
-      "unrealized_pct": 0.012671166827386797,
-      "unrealized_dollars": 0.12
+      "current_price": 10.14,
+      "unrealized_pct": -0.02217936354869804,
+      "unrealized_dollars": -0.22
     }
   ],
   "closed_trades": [
