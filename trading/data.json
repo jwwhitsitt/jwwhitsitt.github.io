@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-15T12:15:05.025278-04:00",
+  "generated_at": "2026-05-15T12:30:04.940172-04:00",
   "summary": {
     "total_pl_dollars": -5.52,
     "wins": 3,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.2,
-      "current_price": 3.31,
-      "unrealized_pct": 0.00914634146341471,
-      "unrealized_dollars": 0.01
+      "current_price": 3.29,
+      "unrealized_pct": 0.003048780487804949,
+      "unrealized_dollars": 0.0
     },
     {
       "ticker": "STG",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.86,
-      "current_price": 3.505,
-      "unrealized_pct": 0.0014285714285713982,
-      "unrealized_dollars": 0.01
+      "current_price": 3.51,
+      "unrealized_pct": 0.0028571428571427964,
+      "unrealized_dollars": 0.03
     },
     {
       "ticker": "INBS",
@@ -59,9 +59,9 @@
       "setup_quality": "A",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.63,
-      "current_price": 4.13,
-      "unrealized_pct": 0.0048661800486616965,
-      "unrealized_dollars": 0.05
+      "current_price": 4.1619,
+      "unrealized_pct": 0.012627737226277332,
+      "unrealized_dollars": 0.12
     },
     {
       "ticker": "LNKS",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.84,
-      "unrealized_pct": 0.2595837897042716,
-      "unrealized_dollars": 2.09
+      "current_price": 1.79,
+      "unrealized_pct": 0.22535596933187288,
+      "unrealized_dollars": 1.82
     },
     {
       "ticker": "LIVE",
