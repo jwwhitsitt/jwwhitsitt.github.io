@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-15T10:15:05.248682-04:00",
+  "generated_at": "2026-05-15T10:30:05.075875-04:00",
   "summary": {
     "total_pl_dollars": -3.5,
     "wins": 3,
@@ -17,9 +17,9 @@
       "setup_quality": "A",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.63,
-      "current_price": 4.29,
-      "unrealized_pct": 0.04379562043795613,
-      "unrealized_dollars": 0.41
+      "current_price": 4.4539,
+      "unrealized_pct": 0.08367396593673956,
+      "unrealized_dollars": 0.78
     },
     {
       "ticker": "LNKS",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.67,
-      "unrealized_pct": 0.14320920043811597,
-      "unrealized_dollars": 1.15
+      "current_price": 1.6102,
+      "unrealized_pct": 0.10227272727272725,
+      "unrealized_dollars": 0.82
     },
     {
       "ticker": "LIVE",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.55,
-      "current_price": 1.53,
-      "unrealized_pct": 0.05882352941176468,
-      "unrealized_dollars": 0.6
+      "current_price": 1.39,
+      "unrealized_pct": -0.03806228373702433,
+      "unrealized_dollars": -0.39
     },
     {
       "ticker": "SPCB",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 12.55,
-      "current_price": 10.74,
-      "unrealized_pct": -0.005555555555555601,
-      "unrealized_dollars": -0.06
+      "current_price": 10.99,
+      "unrealized_pct": 0.017592592592592545,
+      "unrealized_dollars": 0.18
     }
   ],
   "closed_trades": [
