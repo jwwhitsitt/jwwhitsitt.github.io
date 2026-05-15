@@ -1,12 +1,26 @@
 {
-  "generated_at": "2026-05-15T09:00:07.257428-04:00",
+  "generated_at": "2026-05-15T09:15:05.439161-04:00",
   "summary": {
     "total_pl_dollars": -3.52,
     "wins": 2,
     "losses": 9,
-    "open_count": 6
+    "open_count": 7
   },
   "open_trades": [
+    {
+      "ticker": "INBS",
+      "entry_price": 4.11,
+      "stop_loss_price": 3.81,
+      "profit_target_price": 5.2,
+      "position_size_dollars": 9.29,
+      "entry_timestamp": "2026-05-15T13:02:37.048231",
+      "setup_quality": "A",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 3.63,
+      "current_price": 4.11,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
+    },
     {
       "ticker": "LNKS",
       "entry_price": 1.4608,
