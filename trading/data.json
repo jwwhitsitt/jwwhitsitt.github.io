@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-15T14:00:08.970067-04:00",
+  "generated_at": "2026-05-15T14:15:05.556684-04:00",
   "summary": {
     "total_pl_dollars": -5.52,
     "wins": 3,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 7.17,
-      "current_price": 9.72,
-      "unrealized_pct": 0.010920436817472743,
-      "unrealized_dollars": 0.1
+      "current_price": 10.005,
+      "unrealized_pct": 0.04056162246489865,
+      "unrealized_dollars": 0.37
     },
     {
       "ticker": "SUGP",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.2,
-      "current_price": 3.29,
-      "unrealized_pct": 0.003048780487804949,
-      "unrealized_dollars": 0.0
+      "current_price": 3.3199,
+      "unrealized_pct": 0.012164634146341545,
+      "unrealized_dollars": 0.02
     },
     {
       "ticker": "STG",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.86,
-      "current_price": 3.62,
-      "unrealized_pct": 0.034285714285714315,
-      "unrealized_dollars": 0.33
+      "current_price": 3.55,
+      "unrealized_pct": 0.014285714285714235,
+      "unrealized_dollars": 0.14
     },
     {
       "ticker": "INBS",
@@ -87,9 +87,9 @@
       "setup_quality": "A",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.63,
-      "current_price": 4.2,
-      "unrealized_pct": 0.021897810218978065,
-      "unrealized_dollars": 0.2
+      "current_price": 4.273,
+      "unrealized_pct": 0.039659367396593516,
+      "unrealized_dollars": 0.37
     },
     {
       "ticker": "LNKS",
@@ -101,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.82,
-      "unrealized_pct": 0.24589266155531211,
-      "unrealized_dollars": 1.98
+      "current_price": 1.745,
+      "unrealized_pct": 0.1945509309967141,
+      "unrealized_dollars": 1.57
     },
     {
       "ticker": "LIVE",
