@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-18T10:45:05.141969-04:00",
+  "generated_at": "2026-05-18T11:00:08.820404-04:00",
   "summary": {
     "total_pl_dollars": -7.26,
     "wins": 4,
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 0.0,
-      "current_price": 3.48,
-      "unrealized_pct": -0.05945945945945951,
-      "unrealized_dollars": -0.56
+      "current_price": 3.6716,
+      "unrealized_pct": -0.00767567567567567,
+      "unrealized_dollars": -0.07
     },
     {
       "ticker": "JRSH",
@@ -45,8 +45,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.2,
-      "current_price": 3.2899,
-      "unrealized_pct": 0.0030182926829268354,
+      "current_price": 3.2851,
+      "unrealized_pct": 0.0015548780487805198,
       "unrealized_dollars": 0.0
     },
     {
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.86,
-      "current_price": 3.87,
-      "unrealized_pct": 0.10571428571428575,
-      "unrealized_dollars": 1.02
+      "current_price": 3.78,
+      "unrealized_pct": 0.07999999999999995,
+      "unrealized_dollars": 0.77
     },
     {
       "ticker": "LNKS",
