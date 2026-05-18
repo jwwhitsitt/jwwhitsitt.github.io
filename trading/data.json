@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-18T09:45:05.412644-04:00",
+  "generated_at": "2026-05-18T10:00:07.669474-04:00",
   "summary": {
-    "total_pl_dollars": -5.03,
+    "total_pl_dollars": -5.95,
     "wins": 4,
-    "losses": 13,
-    "open_count": 8
+    "losses": 14,
+    "open_count": 7
   },
   "open_trades": [
     {
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 7.17,
-      "current_price": 9.79,
-      "unrealized_pct": 0.018200728029121052,
-      "unrealized_dollars": 0.16
+      "current_price": 9.5,
+      "unrealized_pct": -0.011960478419136788,
+      "unrealized_dollars": -0.11
     },
     {
       "ticker": "SUGP",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 0.0,
-      "current_price": 3.465,
-      "unrealized_pct": -0.0635135135135136,
-      "unrealized_dollars": -0.6
+      "current_price": 3.5984,
+      "unrealized_pct": -0.027459459459459556,
+      "unrealized_dollars": -0.26
     },
     {
       "ticker": "JRSH",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.2,
-      "current_price": 3.27,
-      "unrealized_pct": -0.003048780487804813,
-      "unrealized_dollars": -0.0
+      "current_price": 3.28,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
     },
     {
       "ticker": "TACT",
@@ -73,23 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.86,
-      "current_price": 3.655,
-      "unrealized_pct": 0.04428571428571423,
-      "unrealized_dollars": 0.43
-    },
-    {
-      "ticker": "INBS",
-      "entry_price": 4.11,
-      "stop_loss_price": 3.81,
-      "profit_target_price": 5.2,
-      "position_size_dollars": 9.29,
-      "entry_timestamp": "2026-05-15T13:02:37.048231",
-      "setup_quality": "A",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 3.63,
-      "current_price": 3.8564,
-      "unrealized_pct": -0.06170316301703174,
-      "unrealized_dollars": -0.57
+      "current_price": 3.7,
+      "unrealized_pct": 0.0571428571428572,
+      "unrealized_dollars": 0.55
     },
     {
       "ticker": "LNKS",
@@ -101,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.3941,
-      "unrealized_pct": -0.045659912376779986,
-      "unrealized_dollars": -0.37
+      "current_price": 1.55,
+      "unrealized_pct": 0.06106243154435921,
+      "unrealized_dollars": 0.49
     },
     {
       "ticker": "LIVE",
@@ -115,12 +101,23 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.2,
-      "current_price": 10.0,
-      "unrealized_pct": -0.03567984570877524,
-      "unrealized_dollars": -0.35
+      "current_price": 10.02,
+      "unrealized_pct": -0.03375120540019283,
+      "unrealized_dollars": -0.33
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "INBS",
+      "entry_price": 4.11,
+      "exit_price": 3.7024,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.92,
+      "pl_percent": -0.099173,
+      "exit_timestamp": "2026-05-18T14:00:03.900103",
+      "setup_quality": "A",
+      "position_size_dollars": 9.29
+    },
     {
       "ticker": "STG",
       "entry_price": 3.0,
