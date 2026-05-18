@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-18T16:15:05.487081-04:00",
+  "generated_at": "2026-05-18T16:30:05.303152-04:00",
   "summary": {
     "total_pl_dollars": -6.43,
     "wins": 6,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.65,
-      "current_price": 1.96,
-      "unrealized_pct": 0.07692307692307687,
-      "unrealized_dollars": 0.1
+      "current_price": 1.9,
+      "unrealized_pct": 0.04395604395604387,
+      "unrealized_dollars": 0.05
     },
     {
       "ticker": "LNZA",
