@@ -1,12 +1,26 @@
 {
-  "generated_at": "2026-05-18T09:30:05.645593-04:00",
+  "generated_at": "2026-05-18T09:45:05.412644-04:00",
   "summary": {
     "total_pl_dollars": -5.03,
     "wins": 4,
     "losses": 13,
-    "open_count": 7
+    "open_count": 8
   },
   "open_trades": [
+    {
+      "ticker": "ZSTK",
+      "entry_price": 4.18,
+      "stop_loss_price": 4.1,
+      "profit_target_price": 5.55,
+      "position_size_dollars": 9.5,
+      "entry_timestamp": "2026-05-18T13:43:54.720638",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 17.12,
+      "current_price": 4.37,
+      "unrealized_pct": 0.04545454545454555,
+      "unrealized_dollars": 0.43
+    },
     {
       "ticker": "WYY",
       "entry_price": 9.615,
@@ -17,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 7.17,
-      "current_price": 10.3,
-      "unrealized_pct": 0.07124284971398862,
-      "unrealized_dollars": 0.64
+      "current_price": 9.79,
+      "unrealized_pct": 0.018200728029121052,
+      "unrealized_dollars": 0.16
     },
     {
       "ticker": "SUGP",
@@ -31,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 0.0,
-      "current_price": 3.6599,
-      "unrealized_pct": -0.010837837837837904,
-      "unrealized_dollars": -0.1
+      "current_price": 3.465,
+      "unrealized_pct": -0.0635135135135136,
+      "unrealized_dollars": -0.6
     },
     {
       "ticker": "JRSH",
@@ -45,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.2,
-      "current_price": 3.32,
-      "unrealized_pct": 0.012195121951219523,
-      "unrealized_dollars": 0.02
+      "current_price": 3.27,
+      "unrealized_pct": -0.003048780487804813,
+      "unrealized_dollars": -0.0
     },
     {
       "ticker": "TACT",
@@ -59,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.86,
-      "current_price": 3.58,
-      "unrealized_pct": 0.022857142857142878,
-      "unrealized_dollars": 0.22
+      "current_price": 3.655,
+      "unrealized_pct": 0.04428571428571423,
+      "unrealized_dollars": 0.43
     },
     {
       "ticker": "INBS",
@@ -73,9 +87,9 @@
       "setup_quality": "A",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.63,
-      "current_price": 4.01,
-      "unrealized_pct": -0.02433090024330913,
-      "unrealized_dollars": -0.23
+      "current_price": 3.8564,
+      "unrealized_pct": -0.06170316301703174,
+      "unrealized_dollars": -0.57
     },
     {
       "ticker": "LNKS",
@@ -87,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.49,
-      "unrealized_pct": 0.01998904709748076,
-      "unrealized_dollars": 0.16
+      "current_price": 1.3941,
+      "unrealized_pct": -0.045659912376779986,
+      "unrealized_dollars": -0.37
     },
     {
       "ticker": "LIVE",
@@ -101,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.2,
-      "current_price": 10.0265,
-      "unrealized_pct": -0.033124397299903456,
-      "unrealized_dollars": -0.32
+      "current_price": 10.0,
+      "unrealized_pct": -0.03567984570877524,
+      "unrealized_dollars": -0.35
     }
   ],
   "closed_trades": [
