@@ -1,12 +1,54 @@
 {
-  "generated_at": "2026-05-18T11:00:08.820404-04:00",
+  "generated_at": "2026-05-18T11:15:04.857994-04:00",
   "summary": {
     "total_pl_dollars": -7.26,
     "wins": 4,
     "losses": 16,
-    "open_count": 5
+    "open_count": 8
   },
   "open_trades": [
+    {
+      "ticker": "SUGP",
+      "entry_price": 3.5395,
+      "stop_loss_price": 3.44,
+      "profit_target_price": 3.83,
+      "position_size_dollars": 8.47,
+      "entry_timestamp": "2026-05-18T15:07:09.877335",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 2.92,
+      "current_price": 3.625,
+      "unrealized_pct": 0.0241559542308236,
+      "unrealized_dollars": 0.2
+    },
+    {
+      "ticker": "LNZA",
+      "entry_price": 8.11,
+      "stop_loss_price": 7.435,
+      "profit_target_price": 9.7,
+      "position_size_dollars": 9.27,
+      "entry_timestamp": "2026-05-18T15:07:09.834535",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 2.36,
+      "current_price": 8.2644,
+      "unrealized_pct": 0.019038224414303424,
+      "unrealized_dollars": 0.18
+    },
+    {
+      "ticker": "POCI",
+      "entry_price": 4.8401,
+      "stop_loss_price": 4.82,
+      "profit_target_price": 5.35,
+      "position_size_dollars": 9.27,
+      "entry_timestamp": "2026-05-18T15:07:09.804497",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 25.37,
+      "current_price": 4.8701,
+      "unrealized_pct": 0.006198219045061105,
+      "unrealized_dollars": 0.06
+    },
     {
       "ticker": "ZSTK",
       "entry_price": 4.18,
@@ -31,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 0.0,
-      "current_price": 3.6716,
-      "unrealized_pct": -0.00767567567567567,
-      "unrealized_dollars": -0.07
+      "current_price": 3.625,
+      "unrealized_pct": -0.020270270270270316,
+      "unrealized_dollars": -0.19
     },
     {
       "ticker": "JRSH",
@@ -45,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.2,
-      "current_price": 3.2851,
-      "unrealized_pct": 0.0015548780487805198,
-      "unrealized_dollars": 0.0
+      "current_price": 3.26,
+      "unrealized_pct": -0.0060975609756097615,
+      "unrealized_dollars": -0.01
     },
     {
       "ticker": "TACT",
@@ -59,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.86,
-      "current_price": 3.78,
-      "unrealized_pct": 0.07999999999999995,
-      "unrealized_dollars": 0.77
+      "current_price": 3.8114,
+      "unrealized_pct": 0.08897142857142855,
+      "unrealized_dollars": 0.86
     },
     {
       "ticker": "LNKS",
