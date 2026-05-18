@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-18T11:30:05.632614-04:00",
+  "generated_at": "2026-05-18T11:45:04.787503-04:00",
   "summary": {
-    "total_pl_dollars": -7.26,
+    "total_pl_dollars": -7.28,
     "wins": 4,
-    "losses": 16,
-    "open_count": 8
+    "losses": 17,
+    "open_count": 7
   },
   "open_trades": [
     {
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 8.295,
-      "unrealized_pct": 0.022811344019728792,
-      "unrealized_dollars": 0.21
+      "current_price": 8.3,
+      "unrealized_pct": 0.02342786683107291,
+      "unrealized_dollars": 0.22
     },
     {
       "ticker": "POCI",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 25.37,
-      "current_price": 5.19,
-      "unrealized_pct": 0.07229189479556224,
-      "unrealized_dollars": 0.67
+      "current_price": 5.24,
+      "unrealized_pct": 0.08262225987066396,
+      "unrealized_dollars": 0.77
     },
     {
       "ticker": "ZSTK",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 17.12,
-      "current_price": 4.37,
-      "unrealized_pct": 0.04545454545454555,
-      "unrealized_dollars": 0.43
+      "current_price": 4.2999,
+      "unrealized_pct": 0.02868421052631587,
+      "unrealized_dollars": 0.27
     },
     {
       "ticker": "SUGP",
@@ -78,20 +78,6 @@
       "unrealized_dollars": -0.51
     },
     {
-      "ticker": "JRSH",
-      "entry_price": 3.28,
-      "stop_loss_price": 3.23,
-      "profit_target_price": 3.39,
-      "position_size_dollars": 1.26,
-      "entry_timestamp": "2026-05-15T15:04:38.018245",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 2.2,
-      "current_price": 3.2113,
-      "unrealized_pct": -0.02094512195121944,
-      "unrealized_dollars": -0.03
-    },
-    {
       "ticker": "TACT",
       "entry_price": 3.5,
       "stop_loss_price": 3.15,
@@ -101,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.86,
-      "current_price": 3.84,
-      "unrealized_pct": 0.0971428571428571,
-      "unrealized_dollars": 0.94
+      "current_price": 3.82,
+      "unrealized_pct": 0.09142857142857139,
+      "unrealized_dollars": 0.88
     },
     {
       "ticker": "LNKS",
@@ -115,12 +101,23 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.628,
-      "unrealized_pct": 0.11445783132530106,
-      "unrealized_dollars": 0.92
+      "current_price": 1.63,
+      "unrealized_pct": 0.11582694414019701,
+      "unrealized_dollars": 0.93
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "JRSH",
+      "entry_price": 3.28,
+      "exit_price": 3.2113,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.03,
+      "pl_percent": -0.020945,
+      "exit_timestamp": "2026-05-18T15:30:03.444666",
+      "setup_quality": "B",
+      "position_size_dollars": 1.26
+    },
     {
       "ticker": "WYY",
       "entry_price": 9.615,
