@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-19T10:00:06.131434-04:00",
+  "generated_at": "2026-05-19T10:15:06.020028-04:00",
   "summary": {
-    "total_pl_dollars": -6.43,
+    "total_pl_dollars": -9.88,
     "wins": 6,
-    "losses": 18,
-    "open_count": 8
+    "losses": 19,
+    "open_count": 7
   },
   "open_trades": [
     {
@@ -22,20 +22,6 @@
       "unrealized_dollars": null
     },
     {
-      "ticker": "WOK",
-      "entry_price": 0.38,
-      "stop_loss_price": 0.3333,
-      "profit_target_price": 0.5255,
-      "position_size_dollars": 9.36,
-      "entry_timestamp": "2026-05-19T13:51:02.953605",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 3.12,
-      "current_price": 0.24,
-      "unrealized_pct": -0.368421052631579,
-      "unrealized_dollars": -3.45
-    },
-    {
       "ticker": "LNZA",
       "entry_price": 8.03,
       "stop_loss_price": 7.435,
@@ -45,9 +31,9 @@
       "setup_quality": "A",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.81,
-      "current_price": 8.1628,
-      "unrealized_pct": 0.016537982565379996,
-      "unrealized_dollars": 0.15
+      "current_price": 8.29,
+      "unrealized_pct": 0.03237858032378578,
+      "unrealized_dollars": 0.3
     },
     {
       "ticker": "THCH",
@@ -73,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 8.1628,
-      "unrealized_pct": 0.006510480887793008,
-      "unrealized_dollars": 0.06
+      "current_price": 8.29,
+      "unrealized_pct": 0.022194821208384678,
+      "unrealized_dollars": 0.21
     },
     {
       "ticker": "POCI",
@@ -87,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 25.37,
-      "current_price": 5.07,
-      "unrealized_pct": 0.047499018615318,
-      "unrealized_dollars": 0.44
+      "current_price": 5.055,
+      "unrealized_pct": 0.04439990909278736,
+      "unrealized_dollars": 0.41
     },
     {
       "ticker": "TACT",
@@ -115,12 +101,23 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.58,
-      "unrealized_pct": 0.08159912376779845,
-      "unrealized_dollars": 0.66
+      "current_price": 1.6,
+      "unrealized_pct": 0.09529025191675793,
+      "unrealized_dollars": 0.77
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "WOK",
+      "entry_price": 0.38,
+      "exit_price": 0.24,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -3.45,
+      "pl_percent": -0.368421,
+      "exit_timestamp": "2026-05-19T14:00:04.161914",
+      "setup_quality": "B",
+      "position_size_dollars": 9.36
+    },
     {
       "ticker": "SUGP",
       "entry_price": 3.5395,
