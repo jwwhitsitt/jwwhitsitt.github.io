@@ -1,12 +1,26 @@
 {
-  "generated_at": "2026-05-19T15:00:06.140191-04:00",
+  "generated_at": "2026-05-19T15:15:05.090827-04:00",
   "summary": {
     "total_pl_dollars": -10.0,
     "wins": 6,
     "losses": 20,
-    "open_count": 7
+    "open_count": 8
   },
   "open_trades": [
+    {
+      "ticker": "CDT",
+      "entry_price": 1.25,
+      "stop_loss_price": 1.18,
+      "profit_target_price": 1.42,
+      "position_size_dollars": 9.0,
+      "entry_timestamp": "2026-05-19T19:02:28.805407",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 2.43,
+      "current_price": 1.23,
+      "unrealized_pct": -0.016000000000000014,
+      "unrealized_dollars": -0.14
+    },
     {
       "ticker": "BCAB",
       "entry_price": 3.5,
@@ -31,9 +45,9 @@
       "setup_quality": "A",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.81,
-      "current_price": 8.205,
-      "unrealized_pct": 0.021793275217932843,
-      "unrealized_dollars": 0.2
+      "current_price": 8.335,
+      "unrealized_pct": 0.03798256537982584,
+      "unrealized_dollars": 0.36
     },
     {
       "ticker": "THCH",
@@ -45,8 +59,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.65,
-      "current_price": 1.97,
-      "unrealized_pct": 0.08241758241758236,
+      "current_price": 1.96,
+      "unrealized_pct": 0.07692307692307687,
       "unrealized_dollars": 0.1
     },
     {
@@ -59,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 8.205,
-      "unrealized_pct": 0.011713933415536455,
-      "unrealized_dollars": 0.11
+      "current_price": 8.335,
+      "unrealized_pct": 0.027743526510481065,
+      "unrealized_dollars": 0.26
     },
     {
       "ticker": "POCI",
@@ -73,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 25.37,
-      "current_price": 5.02,
-      "unrealized_pct": 0.037168653540216104,
-      "unrealized_dollars": 0.34
+      "current_price": 5.06,
+      "unrealized_pct": 0.045432945600297515,
+      "unrealized_dollars": 0.42
     },
     {
       "ticker": "TACT",
@@ -87,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.86,
-      "current_price": 3.76,
-      "unrealized_pct": 0.07428571428571422,
-      "unrealized_dollars": 0.72
+      "current_price": 3.77,
+      "unrealized_pct": 0.07714285714285715,
+      "unrealized_dollars": 0.74
     },
     {
       "ticker": "LNKS",
@@ -101,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.64,
-      "unrealized_pct": 0.12267250821467675,
-      "unrealized_dollars": 0.99
+      "current_price": 1.635,
+      "unrealized_pct": 0.11924972617743695,
+      "unrealized_dollars": 0.96
     }
   ],
   "closed_trades": [
