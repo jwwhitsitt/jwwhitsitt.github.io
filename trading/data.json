@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-19T09:15:05.114375-04:00",
+  "generated_at": "2026-05-19T09:30:05.144097-04:00",
   "summary": {
     "total_pl_dollars": -6.43,
     "wins": 6,
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 25.37,
-      "current_price": 5.08,
-      "unrealized_pct": 0.049565091630338315,
-      "unrealized_dollars": 0.46
+      "current_price": 5.07,
+      "unrealized_pct": 0.047499018615318,
+      "unrealized_dollars": 0.44
     },
     {
       "ticker": "TACT",
