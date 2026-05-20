@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-20T10:15:05.607523-04:00",
+  "generated_at": "2026-05-20T10:30:05.683497-04:00",
   "summary": {
     "total_pl_dollars": -10.0,
     "wins": 6,
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.4,
-      "current_price": 3.68,
-      "unrealized_pct": 0.051428571428571476,
-      "unrealized_dollars": 0.36
+      "current_price": 3.6,
+      "unrealized_pct": 0.0285714285714286,
+      "unrealized_dollars": 0.2
     },
     {
       "ticker": "LNZA",
@@ -45,9 +45,9 @@
       "setup_quality": "A",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.81,
-      "current_price": 8.716,
-      "unrealized_pct": 0.08542963885429639,
-      "unrealized_dollars": 0.8
+      "current_price": 8.615,
+      "unrealized_pct": 0.07285180572851817,
+      "unrealized_dollars": 0.68
     },
     {
       "ticker": "THCH",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 8.716,
-      "unrealized_pct": 0.07472256473489518,
-      "unrealized_dollars": 0.69
+      "current_price": 8.615,
+      "unrealized_pct": 0.06226880394574609,
+      "unrealized_dollars": 0.58
     },
     {
       "ticker": "POCI",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 25.37,
-      "current_price": 5.12,
-      "unrealized_pct": 0.057829383690419726,
-      "unrealized_dollars": 0.54
+      "current_price": 5.19,
+      "unrealized_pct": 0.07229189479556224,
+      "unrealized_dollars": 0.67
     },
     {
       "ticker": "TACT",
@@ -115,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.67,
-      "unrealized_pct": 0.14320920043811597,
-      "unrealized_dollars": 1.15
+      "current_price": 1.66,
+      "unrealized_pct": 0.13636363636363624,
+      "unrealized_dollars": 1.1
     }
   ],
   "closed_trades": [
