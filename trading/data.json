@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-20T13:45:05.449027-04:00",
+  "generated_at": "2026-05-20T14:00:05.761817-04:00",
   "summary": {
     "total_pl_dollars": -10.0,
     "wins": 6,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.43,
-      "current_price": 1.2456,
-      "unrealized_pct": -0.0035199999999999676,
-      "unrealized_dollars": -0.03
+      "current_price": 1.24,
+      "unrealized_pct": -0.008000000000000007,
+      "unrealized_dollars": -0.07
     },
     {
       "ticker": "BCAB",
@@ -101,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.86,
-      "current_price": 3.6101,
-      "unrealized_pct": 0.031457142857142885,
-      "unrealized_dollars": 0.3
+      "current_price": 3.62,
+      "unrealized_pct": 0.034285714285714315,
+      "unrealized_dollars": 0.33
     },
     {
       "ticker": "LNKS",
