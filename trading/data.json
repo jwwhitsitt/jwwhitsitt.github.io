@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-20T15:15:06.357650-04:00",
+  "generated_at": "2026-05-20T15:30:05.709268-04:00",
   "summary": {
     "total_pl_dollars": -10.0,
     "wins": 6,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.43,
-      "current_price": 1.23,
-      "unrealized_pct": -0.016000000000000014,
-      "unrealized_dollars": -0.14
+      "current_price": 1.24,
+      "unrealized_pct": -0.008000000000000007,
+      "unrealized_dollars": -0.07
     },
     {
       "ticker": "BCAB",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.4,
-      "current_price": 3.72,
-      "unrealized_pct": 0.06285714285714292,
-      "unrealized_dollars": 0.44
+      "current_price": 3.7192,
+      "unrealized_pct": 0.06262857142857138,
+      "unrealized_dollars": 0.43
     },
     {
       "ticker": "LNZA",
@@ -45,9 +45,9 @@
       "setup_quality": "A",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.81,
-      "current_price": 8.52,
-      "unrealized_pct": 0.061021170610211735,
-      "unrealized_dollars": 0.57
+      "current_price": 8.43,
+      "unrealized_pct": 0.04981320049813205,
+      "unrealized_dollars": 0.47
     },
     {
       "ticker": "THCH",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 8.52,
-      "unrealized_pct": 0.05055487053020964,
-      "unrealized_dollars": 0.47
+      "current_price": 8.43,
+      "unrealized_pct": 0.0394574599260173,
+      "unrealized_dollars": 0.37
     },
     {
       "ticker": "POCI",
