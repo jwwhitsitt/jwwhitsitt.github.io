@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21T10:00:06.089165-04:00",
+  "generated_at": "2026-05-21T10:15:05.972010-04:00",
   "summary": {
     "total_pl_dollars": -10.0,
     "wins": 6,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.43,
-      "current_price": 1.265,
-      "unrealized_pct": 0.011999999999999922,
-      "unrealized_dollars": 0.11
+      "current_price": 1.19,
+      "unrealized_pct": -0.04800000000000004,
+      "unrealized_dollars": -0.43
     },
     {
       "ticker": "BCAB",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.4,
-      "current_price": 3.43,
-      "unrealized_pct": -0.019999999999999955,
-      "unrealized_dollars": -0.14
+      "current_price": 3.6,
+      "unrealized_pct": 0.0285714285714286,
+      "unrealized_dollars": 0.2
     },
     {
       "ticker": "LNZA",
@@ -45,9 +45,9 @@
       "setup_quality": "A",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.81,
-      "current_price": 8.36,
-      "unrealized_pct": 0.041095890410958916,
-      "unrealized_dollars": 0.38
+      "current_price": 8.1,
+      "unrealized_pct": 0.008717310087173137,
+      "unrealized_dollars": 0.08
     },
     {
       "ticker": "THCH",
@@ -59,8 +59,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.65,
-      "current_price": 1.96,
-      "unrealized_pct": 0.07692307692307687,
+      "current_price": 1.97,
+      "unrealized_pct": 0.08241758241758236,
       "unrealized_dollars": 0.1
     },
     {
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 8.36,
-      "unrealized_pct": 0.03082614056720099,
-      "unrealized_dollars": 0.29
+      "current_price": 8.1,
+      "unrealized_pct": -0.0012330456226880132,
+      "unrealized_dollars": -0.01
     },
     {
       "ticker": "POCI",
@@ -115,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.73,
-      "unrealized_pct": 0.18428258488499444,
-      "unrealized_dollars": 1.49
+      "current_price": 1.69,
+      "unrealized_pct": 0.15690032858707545,
+      "unrealized_dollars": 1.26
     }
   ],
   "closed_trades": [
