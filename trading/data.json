@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21T10:30:08.258936-04:00",
+  "generated_at": "2026-05-21T10:45:05.751338-04:00",
   "summary": {
     "total_pl_dollars": -10.0,
     "wins": 6,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.43,
-      "current_price": 1.21,
-      "unrealized_pct": -0.03200000000000003,
-      "unrealized_dollars": -0.29
+      "current_price": 1.23,
+      "unrealized_pct": -0.016000000000000014,
+      "unrealized_dollars": -0.14
     },
     {
       "ticker": "BCAB",
@@ -45,9 +45,9 @@
       "setup_quality": "A",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.81,
-      "current_price": 8.015,
-      "unrealized_pct": -0.0018679950186798,
-      "unrealized_dollars": -0.02
+      "current_price": 8.05,
+      "unrealized_pct": 0.0024906600249067685,
+      "unrealized_dollars": 0.02
     },
     {
       "ticker": "THCH",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 8.015,
-      "unrealized_pct": -0.011713933415536235,
-      "unrealized_dollars": -0.11
+      "current_price": 8.05,
+      "unrealized_pct": -0.00739827373612808,
+      "unrealized_dollars": -0.07
     },
     {
       "ticker": "POCI",
@@ -115,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.6907,
-      "unrealized_pct": 0.15737951807228914,
-      "unrealized_dollars": 1.27
+      "current_price": 1.75,
+      "unrealized_pct": 0.19797371303395392,
+      "unrealized_dollars": 1.6
     }
   ],
   "closed_trades": [
