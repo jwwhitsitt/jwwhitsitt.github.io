@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21T09:45:05.337530-04:00",
+  "generated_at": "2026-05-21T10:00:06.089165-04:00",
   "summary": {
     "total_pl_dollars": -10.0,
     "wins": 6,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.43,
-      "current_price": 1.31,
-      "unrealized_pct": 0.04800000000000004,
-      "unrealized_dollars": 0.43
+      "current_price": 1.265,
+      "unrealized_pct": 0.011999999999999922,
+      "unrealized_dollars": 0.11
     },
     {
       "ticker": "BCAB",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.4,
-      "current_price": 3.45,
-      "unrealized_pct": -0.014285714285714235,
-      "unrealized_dollars": -0.1
+      "current_price": 3.43,
+      "unrealized_pct": -0.019999999999999955,
+      "unrealized_dollars": -0.14
     },
     {
       "ticker": "LNZA",
@@ -45,9 +45,9 @@
       "setup_quality": "A",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.81,
-      "current_price": 8.68,
-      "unrealized_pct": 0.08094645080946455,
-      "unrealized_dollars": 0.76
+      "current_price": 8.36,
+      "unrealized_pct": 0.041095890410958916,
+      "unrealized_dollars": 0.38
     },
     {
       "ticker": "THCH",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 8.68,
-      "unrealized_pct": 0.07028360049321829,
-      "unrealized_dollars": 0.65
+      "current_price": 8.36,
+      "unrealized_pct": 0.03082614056720099,
+      "unrealized_dollars": 0.29
     },
     {
       "ticker": "POCI",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 25.37,
-      "current_price": 5.05,
-      "unrealized_pct": 0.04336687258527721,
-      "unrealized_dollars": 0.4
+      "current_price": 5.1842,
+      "unrealized_pct": 0.07109357244685029,
+      "unrealized_dollars": 0.66
     },
     {
       "ticker": "TACT",
