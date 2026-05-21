@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21T12:30:06.255134-04:00",
+  "generated_at": "2026-05-21T12:45:05.837559-04:00",
   "summary": {
     "total_pl_dollars": -10.0,
     "wins": 6,
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.4,
-      "current_price": 3.52,
-      "unrealized_pct": 0.0057142857142857195,
-      "unrealized_dollars": 0.04
+      "current_price": 3.51,
+      "unrealized_pct": 0.0028571428571427964,
+      "unrealized_dollars": 0.02
     },
     {
       "ticker": "LNZA",
@@ -45,9 +45,9 @@
       "setup_quality": "A",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.81,
-      "current_price": 8.015,
-      "unrealized_pct": -0.0018679950186798,
-      "unrealized_dollars": -0.02
+      "current_price": 8.04,
+      "unrealized_pct": 0.0012453300124532737,
+      "unrealized_dollars": 0.01
     },
     {
       "ticker": "THCH",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 8.015,
-      "unrealized_pct": -0.011713933415536235,
-      "unrealized_dollars": -0.11
+      "current_price": 8.04,
+      "unrealized_pct": -0.008631319358816312,
+      "unrealized_dollars": -0.08
     },
     {
       "ticker": "POCI",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 25.37,
-      "current_price": 4.9,
-      "unrealized_pct": 0.012375777359972053,
-      "unrealized_dollars": 0.11
+      "current_price": 4.995,
+      "unrealized_pct": 0.03200347100266534,
+      "unrealized_dollars": 0.3
     },
     {
       "ticker": "TACT",
@@ -101,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.86,
-      "current_price": 3.765,
-      "unrealized_pct": 0.07571428571428575,
-      "unrealized_dollars": 0.73
+      "current_price": 3.71,
+      "unrealized_pct": 0.05999999999999999,
+      "unrealized_dollars": 0.58
     },
     {
       "ticker": "LNKS",
@@ -115,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.7699,
-      "unrealized_pct": 0.2115963855421686,
-      "unrealized_dollars": 1.71
+      "current_price": 1.755,
+      "unrealized_pct": 0.20139649507119373,
+      "unrealized_dollars": 1.62
     }
   ],
   "closed_trades": [
