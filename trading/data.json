@@ -1,12 +1,26 @@
 {
-  "generated_at": "2026-05-22T15:00:10.778667-04:00",
+  "generated_at": "2026-05-22T15:15:05.899034-04:00",
   "summary": {
     "total_pl_dollars": -12.39,
     "wins": 6,
     "losses": 23,
-    "open_count": 7
+    "open_count": 8
   },
   "open_trades": [
+    {
+      "ticker": "WTF",
+      "entry_price": 3.08,
+      "stop_loss_price": 3.06,
+      "profit_target_price": 3.47,
+      "position_size_dollars": 8.55,
+      "entry_timestamp": "2026-05-22T19:01:50.576267",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 19.5,
+      "current_price": 3.03,
+      "unrealized_pct": -0.01623376623376632,
+      "unrealized_dollars": -0.14
+    },
     {
       "ticker": "EZRA",
       "entry_price": 4.36,
@@ -17,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.19,
-      "current_price": 4.265,
-      "unrealized_pct": -0.021788990825688217,
-      "unrealized_dollars": -0.19
+      "current_price": 4.32,
+      "unrealized_pct": -0.009174311926605512,
+      "unrealized_dollars": -0.08
     },
     {
       "ticker": "EXOZ",
@@ -45,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.4,
-      "current_price": 3.78,
-      "unrealized_pct": 0.07999999999999995,
-      "unrealized_dollars": 0.56
+      "current_price": 3.75,
+      "unrealized_pct": 0.07142857142857142,
+      "unrealized_dollars": 0.5
     },
     {
       "ticker": "THCH",
@@ -87,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.86,
-      "current_price": 3.875,
-      "unrealized_pct": 0.10714285714285714,
-      "unrealized_dollars": 1.03
+      "current_price": 3.87,
+      "unrealized_pct": 0.10571428571428575,
+      "unrealized_dollars": 1.02
     },
     {
       "ticker": "LNKS",
@@ -101,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.54,
-      "unrealized_pct": 0.05421686746987947,
-      "unrealized_dollars": 0.44
+      "current_price": 1.53,
+      "unrealized_pct": 0.04737130339539973,
+      "unrealized_dollars": 0.38
     }
   ],
   "closed_trades": [
