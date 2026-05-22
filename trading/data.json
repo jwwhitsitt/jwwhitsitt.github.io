@@ -1,26 +1,12 @@
 {
-  "generated_at": "2026-05-22T15:15:05.899034-04:00",
+  "generated_at": "2026-05-22T15:30:05.410497-04:00",
   "summary": {
-    "total_pl_dollars": -12.39,
+    "total_pl_dollars": -12.53,
     "wins": 6,
-    "losses": 23,
-    "open_count": 8
+    "losses": 24,
+    "open_count": 7
   },
   "open_trades": [
-    {
-      "ticker": "WTF",
-      "entry_price": 3.08,
-      "stop_loss_price": 3.06,
-      "profit_target_price": 3.47,
-      "position_size_dollars": 8.55,
-      "entry_timestamp": "2026-05-22T19:01:50.576267",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 19.5,
-      "current_price": 3.03,
-      "unrealized_pct": -0.01623376623376632,
-      "unrealized_dollars": -0.14
-    },
     {
       "ticker": "EZRA",
       "entry_price": 4.36,
@@ -31,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.19,
-      "current_price": 4.32,
-      "unrealized_pct": -0.009174311926605512,
-      "unrealized_dollars": -0.08
+      "current_price": 4.245,
+      "unrealized_pct": -0.026376146788990872,
+      "unrealized_dollars": -0.23
     },
     {
       "ticker": "EXOZ",
@@ -59,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.4,
-      "current_price": 3.75,
-      "unrealized_pct": 0.07142857142857142,
-      "unrealized_dollars": 0.5
+      "current_price": 3.77,
+      "unrealized_pct": 0.07714285714285715,
+      "unrealized_dollars": 0.54
     },
     {
       "ticker": "THCH",
@@ -87,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 25.37,
-      "current_price": 4.9472,
-      "unrealized_pct": 0.022127641990867954,
-      "unrealized_dollars": 0.21
+      "current_price": 4.96,
+      "unrealized_pct": 0.024772215450094077,
+      "unrealized_dollars": 0.23
     },
     {
       "ticker": "TACT",
@@ -121,6 +107,17 @@
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "WTF",
+      "entry_price": 3.08,
+      "exit_price": 3.03,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.14,
+      "pl_percent": -0.016234,
+      "exit_timestamp": "2026-05-22T19:15:05.368745",
+      "setup_quality": "B",
+      "position_size_dollars": 8.55
+    },
     {
       "ticker": "CDT",
       "entry_price": 1.25,
