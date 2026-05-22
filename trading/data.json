@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-22T10:30:07.434523-04:00",
+  "generated_at": "2026-05-22T10:45:04.991240-04:00",
   "summary": {
     "total_pl_dollars": -10.0,
     "wins": 6,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.43,
-      "current_price": 1.2,
-      "unrealized_pct": -0.040000000000000036,
-      "unrealized_dollars": -0.36
+      "current_price": 1.195,
+      "unrealized_pct": -0.04399999999999995,
+      "unrealized_dollars": -0.4
     },
     {
       "ticker": "BCAB",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.4,
-      "current_price": 3.66,
-      "unrealized_pct": 0.045714285714285756,
-      "unrealized_dollars": 0.32
+      "current_price": 3.5,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
     },
     {
       "ticker": "LNZA",
@@ -45,9 +45,9 @@
       "setup_quality": "A",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.81,
-      "current_price": 7.89,
-      "unrealized_pct": -0.017434620174346164,
-      "unrealized_dollars": -0.16
+      "current_price": 7.51,
+      "unrealized_pct": -0.06475716064757156,
+      "unrealized_dollars": -0.61
     },
     {
       "ticker": "THCH",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 7.89,
-      "unrealized_pct": -0.02712700369913684,
-      "unrealized_dollars": -0.25
+      "current_price": 7.51,
+      "unrealized_pct": -0.07398273736128233,
+      "unrealized_dollars": -0.69
     },
     {
       "ticker": "POCI",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 25.37,
-      "current_price": 5.027,
-      "unrealized_pct": 0.03861490465073047,
-      "unrealized_dollars": 0.36
+      "current_price": 5.04,
+      "unrealized_pct": 0.0413007995702569,
+      "unrealized_dollars": 0.38
     },
     {
       "ticker": "TACT",
@@ -115,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.58,
-      "unrealized_pct": 0.08159912376779845,
-      "unrealized_dollars": 0.66
+      "current_price": 1.6001,
+      "unrealized_pct": 0.09535870755750271,
+      "unrealized_dollars": 0.77
     }
   ],
   "closed_trades": [
