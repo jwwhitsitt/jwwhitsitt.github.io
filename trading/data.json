@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-22T11:45:04.725159-04:00",
+  "generated_at": "2026-05-22T12:00:09.198753-04:00",
   "summary": {
     "total_pl_dollars": -11.74,
     "wins": 6,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.43,
-      "current_price": 1.21,
-      "unrealized_pct": -0.03200000000000003,
-      "unrealized_dollars": -0.29
+      "current_price": 1.22,
+      "unrealized_pct": -0.02400000000000002,
+      "unrealized_dollars": -0.22
     },
     {
       "ticker": "BCAB",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.65,
-      "current_price": 1.97,
-      "unrealized_pct": 0.08241758241758236,
-      "unrealized_dollars": 0.1
+      "current_price": 1.985,
+      "unrealized_pct": 0.09065934065934067,
+      "unrealized_dollars": 0.11
     },
     {
       "ticker": "POCI",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 25.37,
-      "current_price": 4.9802,
-      "unrealized_pct": 0.028945682940435185,
-      "unrealized_dollars": 0.27
+      "current_price": 5.0,
+      "unrealized_pct": 0.03303650751017549,
+      "unrealized_dollars": 0.31
     },
     {
       "ticker": "TACT",
