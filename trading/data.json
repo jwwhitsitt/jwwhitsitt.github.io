@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-22T14:00:09.327367-04:00",
+  "generated_at": "2026-05-22T14:15:05.461281-04:00",
   "summary": {
     "total_pl_dollars": -12.39,
     "wins": 6,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.19,
-      "current_price": 4.25,
-      "unrealized_pct": -0.02522935779816521,
-      "unrealized_dollars": -0.22
+      "current_price": 4.2899,
+      "unrealized_pct": -0.016077981651376156,
+      "unrealized_dollars": -0.14
     },
     {
       "ticker": "EXOZ",
