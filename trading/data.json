@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-22T11:15:05.450175-04:00",
+  "generated_at": "2026-05-22T11:30:05.742461-04:00",
   "summary": {
-    "total_pl_dollars": -10.0,
+    "total_pl_dollars": -11.74,
     "wins": 6,
-    "losses": 20,
-    "open_count": 8
+    "losses": 22,
+    "open_count": 6
   },
   "open_trades": [
     {
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.43,
-      "current_price": 1.2178,
-      "unrealized_pct": -0.025760000000000005,
-      "unrealized_dollars": -0.23
+      "current_price": 1.21,
+      "unrealized_pct": -0.03200000000000003,
+      "unrealized_dollars": -0.29
     },
     {
       "ticker": "BCAB",
@@ -31,23 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.4,
-      "current_price": 3.68,
-      "unrealized_pct": 0.051428571428571476,
-      "unrealized_dollars": 0.36
-    },
-    {
-      "ticker": "LNZA",
-      "entry_price": 8.03,
-      "stop_loss_price": 7.435,
-      "profit_target_price": 9.7,
-      "position_size_dollars": 9.36,
-      "entry_timestamp": "2026-05-19T13:51:02.928826",
-      "setup_quality": "A",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 2.81,
-      "current_price": 7.315,
-      "unrealized_pct": -0.08904109589041084,
-      "unrealized_dollars": -0.83
+      "current_price": 3.51,
+      "unrealized_pct": 0.0028571428571427964,
+      "unrealized_dollars": 0.02
     },
     {
       "ticker": "THCH",
@@ -64,20 +50,6 @@
       "unrealized_dollars": 0.1
     },
     {
-      "ticker": "LNZA",
-      "entry_price": 8.11,
-      "stop_loss_price": 7.435,
-      "profit_target_price": 9.7,
-      "position_size_dollars": 9.27,
-      "entry_timestamp": "2026-05-18T15:07:09.834535",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 2.36,
-      "current_price": 7.315,
-      "unrealized_pct": -0.09802712700369902,
-      "unrealized_dollars": -0.91
-    },
-    {
       "ticker": "POCI",
       "entry_price": 4.8401,
       "stop_loss_price": 4.82,
@@ -87,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 25.37,
-      "current_price": 4.95,
-      "unrealized_pct": 0.02270614243507377,
-      "unrealized_dollars": 0.21
+      "current_price": 5.005,
+      "unrealized_pct": 0.034069544017685645,
+      "unrealized_dollars": 0.32
     },
     {
       "ticker": "TACT",
@@ -115,12 +87,34 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.6,
-      "unrealized_pct": 0.09529025191675793,
-      "unrealized_dollars": 0.77
+      "current_price": 1.58,
+      "unrealized_pct": 0.08159912376779845,
+      "unrealized_dollars": 0.66
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "LNZA",
+      "entry_price": 8.03,
+      "exit_price": 7.315,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.83,
+      "pl_percent": -0.089041,
+      "exit_timestamp": "2026-05-22T15:15:04.306884",
+      "setup_quality": "A",
+      "position_size_dollars": 9.36
+    },
+    {
+      "ticker": "LNZA",
+      "entry_price": 8.11,
+      "exit_price": 7.315,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.91,
+      "pl_percent": -0.098027,
+      "exit_timestamp": "2026-05-22T15:15:03.866868",
+      "setup_quality": "B",
+      "position_size_dollars": 9.27
+    },
     {
       "ticker": "STG",
       "entry_price": 3.03,
