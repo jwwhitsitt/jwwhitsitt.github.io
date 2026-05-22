@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-22T12:00:09.198753-04:00",
+  "generated_at": "2026-05-22T12:15:05.316005-04:00",
   "summary": {
     "total_pl_dollars": -11.74,
     "wins": 6,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.43,
-      "current_price": 1.22,
-      "unrealized_pct": -0.02400000000000002,
-      "unrealized_dollars": -0.22
+      "current_price": 1.1901,
+      "unrealized_pct": -0.04792000000000005,
+      "unrealized_dollars": -0.43
     },
     {
       "ticker": "BCAB",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.59,
-      "unrealized_pct": 0.08844468784227819,
-      "unrealized_dollars": 0.71
+      "current_price": 1.5636,
+      "unrealized_pct": 0.07037239868565169,
+      "unrealized_dollars": 0.57
     }
   ],
   "closed_trades": [
