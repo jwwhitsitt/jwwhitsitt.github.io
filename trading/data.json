@@ -1,12 +1,26 @@
 {
-  "generated_at": "2026-05-25T09:00:06.009325-04:00",
+  "generated_at": "2026-05-25T09:15:05.377419-04:00",
   "summary": {
     "total_pl_dollars": -12.53,
     "wins": 6,
     "losses": 24,
-    "open_count": 7
+    "open_count": 8
   },
   "open_trades": [
+    {
+      "ticker": "WTF",
+      "entry_price": 3.13,
+      "stop_loss_price": 3.03,
+      "profit_target_price": 3.47,
+      "position_size_dollars": 8.45,
+      "entry_timestamp": "2026-05-25T13:03:34.099227",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 3.4,
+      "current_price": 3.13,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
+    },
     {
       "ticker": "EZRA",
       "entry_price": 4.36,
