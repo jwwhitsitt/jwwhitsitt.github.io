@@ -1,12 +1,26 @@
 {
-  "generated_at": "2026-05-26T11:00:08.486081-04:00",
+  "generated_at": "2026-05-26T11:15:05.869513-04:00",
   "summary": {
     "total_pl_dollars": -13.26,
     "wins": 6,
     "losses": 25,
-    "open_count": 7
+    "open_count": 8
   },
   "open_trades": [
+    {
+      "ticker": "SWAG",
+      "entry_price": 2.065,
+      "stop_loss_price": 1.975,
+      "profit_target_price": 2.065,
+      "position_size_dollars": 8.29,
+      "entry_timestamp": "2026-05-26T15:10:55.324398",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 0.0,
+      "current_price": 2.1001,
+      "unrealized_pct": 0.016997578692493902,
+      "unrealized_dollars": 0.14
+    },
     {
       "ticker": "WTF",
       "entry_price": 3.13,
@@ -73,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 25.37,
-      "current_price": 4.9553,
-      "unrealized_pct": 0.023801161133034574,
-      "unrealized_dollars": 0.22
+      "current_price": 4.9461,
+      "unrealized_pct": 0.021900373959215878,
+      "unrealized_dollars": 0.2
     },
     {
       "ticker": "TACT",
@@ -87,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.86,
-      "current_price": 4.18,
-      "unrealized_pct": 0.1942857142857142,
-      "unrealized_dollars": 1.87
+      "current_price": 4.295,
+      "unrealized_pct": 0.22714285714285712,
+      "unrealized_dollars": 2.19
     },
     {
       "ticker": "LNKS",
@@ -101,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.4601,
-      "unrealized_pct": -0.0004791894852136808,
-      "unrealized_dollars": -0.0
+      "current_price": 1.473,
+      "unrealized_pct": 0.008351588170865272,
+      "unrealized_dollars": 0.07
     }
   ],
   "closed_trades": [
