@@ -1,26 +1,12 @@
 {
-  "generated_at": "2026-05-26T11:15:05.869513-04:00",
+  "generated_at": "2026-05-26T11:30:05.305667-04:00",
   "summary": {
-    "total_pl_dollars": -13.26,
-    "wins": 6,
+    "total_pl_dollars": -13.11,
+    "wins": 7,
     "losses": 25,
-    "open_count": 8
+    "open_count": 7
   },
   "open_trades": [
-    {
-      "ticker": "SWAG",
-      "entry_price": 2.065,
-      "stop_loss_price": 1.975,
-      "profit_target_price": 2.065,
-      "position_size_dollars": 8.29,
-      "entry_timestamp": "2026-05-26T15:10:55.324398",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 0.0,
-      "current_price": 2.1001,
-      "unrealized_pct": 0.016997578692493902,
-      "unrealized_dollars": 0.14
-    },
     {
       "ticker": "WTF",
       "entry_price": 3.13,
@@ -31,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.4,
-      "current_price": 3.24,
-      "unrealized_pct": 0.03514376996805122,
-      "unrealized_dollars": 0.3
+      "current_price": 3.29,
+      "unrealized_pct": 0.051118210862619855,
+      "unrealized_dollars": 0.43
     },
     {
       "ticker": "EXOZ",
@@ -59,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.4,
-      "current_price": 3.77,
-      "unrealized_pct": 0.07714285714285715,
-      "unrealized_dollars": 0.54
+      "current_price": 3.86,
+      "unrealized_pct": 0.10285714285714283,
+      "unrealized_dollars": 0.71
     },
     {
       "ticker": "THCH",
@@ -101,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.86,
-      "current_price": 4.295,
-      "unrealized_pct": 0.22714285714285712,
-      "unrealized_dollars": 2.19
+      "current_price": 4.45,
+      "unrealized_pct": 0.27142857142857146,
+      "unrealized_dollars": 2.62
     },
     {
       "ticker": "LNKS",
@@ -115,12 +101,23 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.473,
-      "unrealized_pct": 0.008351588170865272,
-      "unrealized_dollars": 0.07
+      "current_price": 1.4706,
+      "unrealized_pct": 0.006708652792990011,
+      "unrealized_dollars": 0.05
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "SWAG",
+      "entry_price": 2.065,
+      "exit_price": 2.1001,
+      "exit_reason": "target_hit",
+      "pl_dollars": 0.14,
+      "pl_percent": 0.016998,
+      "exit_timestamp": "2026-05-26T15:15:04.746927",
+      "setup_quality": "B",
+      "position_size_dollars": 8.29
+    },
     {
       "ticker": "EZRA",
       "entry_price": 4.36,
