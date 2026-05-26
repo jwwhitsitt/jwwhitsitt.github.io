@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-26T14:00:05.663255-04:00",
+  "generated_at": "2026-05-26T14:15:04.924000-04:00",
   "summary": {
     "total_pl_dollars": -11.91,
     "wins": 8,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 19.34,
-      "current_price": 7.23,
-      "unrealized_pct": 0.013314646110721884,
-      "unrealized_dollars": 0.11
+      "current_price": 7.28,
+      "unrealized_pct": 0.020322354590049118,
+      "unrealized_dollars": 0.17
     },
     {
       "ticker": "WTF",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.86,
-      "current_price": 4.385,
-      "unrealized_pct": 0.2528571428571428,
-      "unrealized_dollars": 2.44
+      "current_price": 4.37,
+      "unrealized_pct": 0.2485714285714286,
+      "unrealized_dollars": 2.4
     },
     {
       "ticker": "LNKS",
@@ -101,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.485,
-      "unrealized_pct": 0.01656626506024096,
-      "unrealized_dollars": 0.13
+      "current_price": 1.48,
+      "unrealized_pct": 0.013143483023001015,
+      "unrealized_dollars": 0.11
     }
   ],
   "closed_trades": [
