@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-26T15:30:05.614410-04:00",
+  "generated_at": "2026-05-26T15:45:04.640701-04:00",
   "summary": {
     "total_pl_dollars": -12.31,
     "wins": 8,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.4,
-      "current_price": 3.3,
-      "unrealized_pct": 0.05431309904153352,
-      "unrealized_dollars": 0.46
+      "current_price": 3.28,
+      "unrealized_pct": 0.04792332268370604,
+      "unrealized_dollars": 0.4
     },
     {
       "ticker": "EXOZ",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.86,
-      "current_price": 4.28,
-      "unrealized_pct": 0.22285714285714292,
-      "unrealized_dollars": 2.15
+      "current_price": 4.26,
+      "unrealized_pct": 0.21714285714285708,
+      "unrealized_dollars": 2.09
     },
     {
       "ticker": "LNKS",
