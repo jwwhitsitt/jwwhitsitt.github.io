@@ -1,12 +1,26 @@
 {
-  "generated_at": "2026-05-26T15:00:09.654454-04:00",
+  "generated_at": "2026-05-26T15:15:05.522613-04:00",
   "summary": {
     "total_pl_dollars": -11.91,
     "wins": 8,
     "losses": 25,
-    "open_count": 7
+    "open_count": 8
   },
   "open_trades": [
+    {
+      "ticker": "FGBI",
+      "entry_price": 9.49,
+      "stop_loss_price": 8.72,
+      "profit_target_price": 9.49,
+      "position_size_dollars": 7.78,
+      "entry_timestamp": "2026-05-26T19:02:08.327786",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 0.0,
+      "current_price": 9.49,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
+    },
     {
       "ticker": "QNTM",
       "entry_price": 7.135,
@@ -17,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 19.34,
-      "current_price": 7.085,
-      "unrealized_pct": -0.0070077084793272355,
-      "unrealized_dollars": -0.06
+      "current_price": 6.79,
+      "unrealized_pct": -0.048353188507358064,
+      "unrealized_dollars": -0.41
     },
     {
       "ticker": "WTF",
@@ -73,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 25.37,
-      "current_price": 5.01,
-      "unrealized_pct": 0.0351025805251958,
-      "unrealized_dollars": 0.33
+      "current_price": 4.9601,
+      "unrealized_pct": 0.024792876180244235,
+      "unrealized_dollars": 0.23
     },
     {
       "ticker": "TACT",
@@ -87,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.86,
-      "current_price": 4.325,
-      "unrealized_pct": 0.23571428571428577,
-      "unrealized_dollars": 2.27
+      "current_price": 4.32,
+      "unrealized_pct": 0.23428571428571437,
+      "unrealized_dollars": 2.26
     },
     {
       "ticker": "LNKS",
@@ -101,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.465,
-      "unrealized_pct": 0.002875136911281477,
-      "unrealized_dollars": 0.02
+      "current_price": 1.47,
+      "unrealized_pct": 0.006297918948521272,
+      "unrealized_dollars": 0.05
     }
   ],
   "closed_trades": [
