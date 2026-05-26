@@ -1,40 +1,12 @@
 {
-  "generated_at": "2026-05-26T15:15:05.522613-04:00",
+  "generated_at": "2026-05-26T15:30:05.614410-04:00",
   "summary": {
-    "total_pl_dollars": -11.91,
+    "total_pl_dollars": -12.31,
     "wins": 8,
-    "losses": 25,
-    "open_count": 8
+    "losses": 26,
+    "open_count": 6
   },
   "open_trades": [
-    {
-      "ticker": "FGBI",
-      "entry_price": 9.49,
-      "stop_loss_price": 8.72,
-      "profit_target_price": 9.49,
-      "position_size_dollars": 7.78,
-      "entry_timestamp": "2026-05-26T19:02:08.327786",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 0.0,
-      "current_price": 9.49,
-      "unrealized_pct": 0.0,
-      "unrealized_dollars": null
-    },
-    {
-      "ticker": "QNTM",
-      "entry_price": 7.135,
-      "stop_loss_price": 6.945,
-      "profit_target_price": 10.8099,
-      "position_size_dollars": 8.39,
-      "entry_timestamp": "2026-05-26T17:02:01.869301",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 19.34,
-      "current_price": 6.79,
-      "unrealized_pct": -0.048353188507358064,
-      "unrealized_dollars": -0.41
-    },
     {
       "ticker": "WTF",
       "entry_price": 3.13,
@@ -45,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.4,
-      "current_price": 3.31,
-      "unrealized_pct": 0.05750798722044734,
-      "unrealized_dollars": 0.49
+      "current_price": 3.3,
+      "unrealized_pct": 0.05431309904153352,
+      "unrealized_dollars": 0.46
     },
     {
       "ticker": "EXOZ",
@@ -87,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 25.37,
-      "current_price": 4.9601,
-      "unrealized_pct": 0.024792876180244235,
-      "unrealized_dollars": 0.23
+      "current_price": 4.91,
+      "unrealized_pct": 0.014441850374992361,
+      "unrealized_dollars": 0.13
     },
     {
       "ticker": "TACT",
@@ -101,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.86,
-      "current_price": 4.32,
-      "unrealized_pct": 0.23428571428571437,
-      "unrealized_dollars": 2.26
+      "current_price": 4.28,
+      "unrealized_pct": 0.22285714285714292,
+      "unrealized_dollars": 2.15
     },
     {
       "ticker": "LNKS",
@@ -121,6 +93,28 @@
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "FGBI",
+      "entry_price": 9.49,
+      "exit_price": 9.49,
+      "exit_reason": "target_hit",
+      "pl_dollars": 0,
+      "pl_percent": 0.0,
+      "exit_timestamp": "2026-05-26T19:15:04.673977",
+      "setup_quality": "B",
+      "position_size_dollars": 7.78
+    },
+    {
+      "ticker": "QNTM",
+      "entry_price": 7.135,
+      "exit_price": 6.79,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.41,
+      "pl_percent": -0.048353,
+      "exit_timestamp": "2026-05-26T19:15:04.413841",
+      "setup_quality": "B",
+      "position_size_dollars": 8.39
+    },
     {
       "ticker": "BCAB",
       "entry_price": 3.5,
