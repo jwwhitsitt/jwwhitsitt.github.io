@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-26T12:15:05.683079-04:00",
+  "generated_at": "2026-05-26T12:30:05.520738-04:00",
   "summary": {
     "total_pl_dollars": -13.11,
     "wins": 7,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.4,
-      "current_price": 3.38,
-      "unrealized_pct": 0.07987220447284345,
-      "unrealized_dollars": 0.67
+      "current_price": 3.29,
+      "unrealized_pct": 0.051118210862619855,
+      "unrealized_dollars": 0.43
     },
     {
       "ticker": "EXOZ",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.4,
-      "current_price": 3.83,
-      "unrealized_pct": 0.0942857142857143,
-      "unrealized_dollars": 0.65
+      "current_price": 3.91,
+      "unrealized_pct": 0.11714285714285719,
+      "unrealized_dollars": 0.81
     },
     {
       "ticker": "THCH",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 25.37,
-      "current_price": 4.97,
-      "unrealized_pct": 0.026838288465114386,
-      "unrealized_dollars": 0.25
+      "current_price": 4.965,
+      "unrealized_pct": 0.025805251957604233,
+      "unrealized_dollars": 0.24
     },
     {
       "ticker": "TACT",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.86,
-      "current_price": 4.39,
-      "unrealized_pct": 0.25428571428571417,
-      "unrealized_dollars": 2.45
+      "current_price": 4.4037,
+      "unrealized_pct": 0.25819999999999993,
+      "unrealized_dollars": 2.49
     },
     {
       "ticker": "LNKS",
