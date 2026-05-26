@@ -1,12 +1,26 @@
 {
-  "generated_at": "2026-05-26T13:00:05.745663-04:00",
+  "generated_at": "2026-05-26T13:15:05.502661-04:00",
   "summary": {
     "total_pl_dollars": -13.11,
     "wins": 7,
     "losses": 25,
-    "open_count": 7
+    "open_count": 8
   },
   "open_trades": [
+    {
+      "ticker": "QNTM",
+      "entry_price": 7.135,
+      "stop_loss_price": 6.945,
+      "profit_target_price": 10.8099,
+      "position_size_dollars": 8.39,
+      "entry_timestamp": "2026-05-26T17:02:01.869301",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 19.34,
+      "current_price": 7.47,
+      "unrealized_pct": 0.04695164681149264,
+      "unrealized_dollars": 0.39
+    },
     {
       "ticker": "WTF",
       "entry_price": 3.13,
