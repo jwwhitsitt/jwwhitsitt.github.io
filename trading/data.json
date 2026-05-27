@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-27T14:45:05.605771-04:00",
+  "generated_at": "2026-05-27T15:00:05.867152-04:00",
   "summary": {
     "total_pl_dollars": -14.31,
     "wins": 8,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 0.0,
-      "current_price": 6.75,
-      "unrealized_pct": 0.011235955056179803,
-      "unrealized_dollars": 0.08
+      "current_price": 7.0,
+      "unrealized_pct": 0.048689138576779055,
+      "unrealized_dollars": 0.36
     },
     {
       "ticker": "WCT",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 0.0,
-      "current_price": 1.85,
-      "unrealized_pct": -0.13953488372093015,
-      "unrealized_dollars": -0.99
+      "current_price": 1.81,
+      "unrealized_pct": -0.15813953488372087,
+      "unrealized_dollars": -1.13
     },
     {
       "ticker": "WTF",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.4,
-      "current_price": 3.19,
-      "unrealized_pct": 0.019169329073482445,
-      "unrealized_dollars": 0.16
+      "current_price": 3.16,
+      "unrealized_pct": 0.009584664536741293,
+      "unrealized_dollars": 0.08
     },
     {
       "ticker": "EXOZ",
@@ -101,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.86,
-      "current_price": 4.275,
-      "unrealized_pct": 0.22142857142857153,
-      "unrealized_dollars": 2.13
+      "current_price": 4.2635,
+      "unrealized_pct": 0.21814285714285703,
+      "unrealized_dollars": 2.1
     },
     {
       "ticker": "LNKS",
