@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-27T14:00:06.042857-04:00",
+  "generated_at": "2026-05-27T14:15:05.919137-04:00",
   "summary": {
     "total_pl_dollars": -14.31,
     "wins": 8,
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.65,
-      "current_price": 1.88,
-      "unrealized_pct": 0.03296703296703287,
-      "unrealized_dollars": 0.04
+      "current_price": 1.9,
+      "unrealized_pct": 0.04395604395604387,
+      "unrealized_dollars": 0.05
     },
     {
       "ticker": "POCI",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 25.37,
-      "current_price": 5.03,
-      "unrealized_pct": 0.0392347265552366,
-      "unrealized_dollars": 0.36
+      "current_price": 5.02,
+      "unrealized_pct": 0.037168653540216104,
+      "unrealized_dollars": 0.34
     },
     {
       "ticker": "TACT",
@@ -101,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.86,
-      "current_price": 4.26,
-      "unrealized_pct": 0.21714285714285708,
-      "unrealized_dollars": 2.09
+      "current_price": 4.275,
+      "unrealized_pct": 0.22142857142857153,
+      "unrealized_dollars": 2.13
     },
     {
       "ticker": "LNKS",
@@ -115,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.355,
-      "unrealized_pct": -0.07242606790799569,
-      "unrealized_dollars": -0.58
+      "current_price": 1.37,
+      "unrealized_pct": -0.062157721796276,
+      "unrealized_dollars": -0.5
     }
   ],
   "closed_trades": [
