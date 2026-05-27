@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-27T09:15:05.891789-04:00",
+  "generated_at": "2026-05-27T09:30:06.010433-04:00",
   "summary": {
     "total_pl_dollars": -12.31,
     "wins": 8,
@@ -101,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.86,
-      "current_price": 4.27,
-      "unrealized_pct": 0.2199999999999999,
-      "unrealized_dollars": 2.12
+      "current_price": 4.21,
+      "unrealized_pct": 0.20285714285714285,
+      "unrealized_dollars": 1.96
     },
     {
       "ticker": "LNKS",
