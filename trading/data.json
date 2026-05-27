@@ -1,12 +1,26 @@
 {
-  "generated_at": "2026-05-27T11:00:06.649114-04:00",
+  "generated_at": "2026-05-27T11:15:05.909708-04:00",
   "summary": {
     "total_pl_dollars": -14.31,
     "wins": 8,
     "losses": 27,
-    "open_count": 7
+    "open_count": 8
   },
   "open_trades": [
+    {
+      "ticker": "JL",
+      "entry_price": 6.675,
+      "stop_loss_price": 0.0,
+      "profit_target_price": 0.0,
+      "position_size_dollars": 7.37,
+      "entry_timestamp": "2026-05-27T15:04:37.280105",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 0.0,
+      "current_price": 6.675,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
+    },
     {
       "ticker": "WCT",
       "entry_price": 2.15,
@@ -17,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 0.0,
-      "current_price": 2.0,
-      "unrealized_pct": -0.06976744186046507,
-      "unrealized_dollars": -0.5
+      "current_price": 2.025,
+      "unrealized_pct": -0.05813953488372093,
+      "unrealized_dollars": -0.41
     },
     {
       "ticker": "WTF",
@@ -31,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.4,
-      "current_price": 3.28,
-      "unrealized_pct": 0.04792332268370604,
-      "unrealized_dollars": 0.4
+      "current_price": 3.2,
+      "unrealized_pct": 0.02236421725239626,
+      "unrealized_dollars": 0.19
     },
     {
       "ticker": "EXOZ",
@@ -101,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.3894,
-      "unrealized_pct": -0.04887732749178541,
-      "unrealized_dollars": -0.39
+      "current_price": 1.3811,
+      "unrealized_pct": -0.05455914567360357,
+      "unrealized_dollars": -0.44
     }
   ],
   "closed_trades": [
