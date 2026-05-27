@@ -1,12 +1,40 @@
 {
-  "generated_at": "2026-05-27T09:00:05.040477-04:00",
+  "generated_at": "2026-05-27T09:15:05.891789-04:00",
   "summary": {
     "total_pl_dollars": -12.31,
     "wins": 8,
     "losses": 26,
-    "open_count": 6
+    "open_count": 8
   },
   "open_trades": [
+    {
+      "ticker": "WCT",
+      "entry_price": 2.15,
+      "stop_loss_price": 1.38,
+      "profit_target_price": 2.1523,
+      "position_size_dollars": 7.12,
+      "entry_timestamp": "2026-05-27T13:09:32.412352",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 0.0,
+      "current_price": 2.15,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
+    },
+    {
+      "ticker": "ARTL",
+      "entry_price": 1.71,
+      "stop_loss_price": 1.62,
+      "profit_target_price": 1.91,
+      "position_size_dollars": 8.77,
+      "entry_timestamp": "2026-05-27T13:09:32.386287",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 2.22,
+      "current_price": 1.71,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
+    },
     {
       "ticker": "WTF",
       "entry_price": 3.13,
