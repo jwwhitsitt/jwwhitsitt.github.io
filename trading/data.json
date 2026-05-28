@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-28T14:45:05.288953-04:00",
+  "generated_at": "2026-05-28T15:00:06.089968-04:00",
   "summary": {
     "total_pl_dollars": -10.64,
     "wins": 11,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 40.71,
-      "current_price": 1.49,
-      "unrealized_pct": 0.010169491525423662,
-      "unrealized_dollars": 0.01
+      "current_price": 1.51,
+      "unrealized_pct": 0.02372881355932198,
+      "unrealized_dollars": 0.03
     },
     {
       "ticker": "RGNT",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.28,
-      "unrealized_pct": -0.027272727272727296,
-      "unrealized_dollars": -0.13
+      "current_price": 4.3,
+      "unrealized_pct": -0.022727272727272846,
+      "unrealized_dollars": -0.11
     },
     {
       "ticker": "AEMD",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.33,
-      "current_price": 2.7004,
-      "unrealized_pct": 0.04666666666666669,
-      "unrealized_dollars": 0.39
+      "current_price": 2.71,
+      "unrealized_pct": 0.050387596899224764,
+      "unrealized_dollars": 0.42
     },
     {
       "ticker": "THCH",
@@ -101,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.855,
-      "unrealized_pct": 0.26985213581599116,
-      "unrealized_dollars": 2.18
+      "current_price": 1.8,
+      "unrealized_pct": 0.23220153340635263,
+      "unrealized_dollars": 1.87
     }
   ],
   "closed_trades": [
