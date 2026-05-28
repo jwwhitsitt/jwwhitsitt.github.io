@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-28T13:30:08.683275-04:00",
+  "generated_at": "2026-05-28T13:45:05.309984-04:00",
   "summary": {
     "total_pl_dollars": -15.59,
     "wins": 10,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 40.71,
-      "current_price": 1.465,
-      "unrealized_pct": -0.006779661016949158,
-      "unrealized_dollars": -0.01
+      "current_price": 1.48,
+      "unrealized_pct": 0.0033898305084745037,
+      "unrealized_dollars": 0.0
     },
     {
       "ticker": "ASTC",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.21,
-      "current_price": 21.37,
-      "unrealized_pct": 0.15662311514272428,
-      "unrealized_dollars": 1.31
+      "current_price": 26.43,
+      "unrealized_pct": 0.4304889533562097,
+      "unrealized_dollars": 3.59
     },
     {
       "ticker": "RGNT",
@@ -59,8 +59,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.385,
-      "unrealized_pct": -0.003409090909091038,
+      "current_price": 4.38,
+      "unrealized_pct": -0.00454545454545465,
       "unrealized_dollars": -0.02
     },
     {
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.33,
-      "current_price": 2.6899,
-      "unrealized_pct": 0.042596899224806244,
-      "unrealized_dollars": 0.35
+      "current_price": 2.67,
+      "unrealized_pct": 0.0348837209302325,
+      "unrealized_dollars": 0.29
     },
     {
       "ticker": "THCH",
@@ -115,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.9,
-      "unrealized_pct": 0.3006571741511499,
-      "unrealized_dollars": 2.42
+      "current_price": 1.83,
+      "unrealized_pct": 0.25273822562979187,
+      "unrealized_dollars": 2.04
     }
   ],
   "closed_trades": [
