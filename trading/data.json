@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-28T12:30:04.908459-04:00",
+  "generated_at": "2026-05-28T12:45:04.539498-04:00",
   "summary": {
-    "total_pl_dollars": -16.21,
+    "total_pl_dollars": -16.48,
     "wins": 10,
-    "losses": 30,
-    "open_count": 6
+    "losses": 31,
+    "open_count": 5
   },
   "open_trades": [
     {
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.3517,
-      "unrealized_pct": -0.010977272727272778,
-      "unrealized_dollars": -0.05
+      "current_price": 4.31,
+      "unrealized_pct": -0.02045454545454562,
+      "unrealized_dollars": -0.1
     },
     {
       "ticker": "AEMD",
@@ -31,23 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.33,
-      "current_price": 2.67,
-      "unrealized_pct": 0.0348837209302325,
-      "unrealized_dollars": 0.29
-    },
-    {
-      "ticker": "WTF",
-      "entry_price": 3.13,
-      "stop_loss_price": 3.03,
-      "profit_target_price": 3.47,
-      "position_size_dollars": 8.45,
-      "entry_timestamp": "2026-05-25T13:03:34.099227",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 3.4,
-      "current_price": 3.03,
-      "unrealized_pct": -0.03194888178913741,
-      "unrealized_dollars": -0.27
+      "current_price": 2.635,
+      "unrealized_pct": 0.02131782945736423,
+      "unrealized_dollars": 0.18
     },
     {
       "ticker": "THCH",
@@ -73,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.86,
-      "current_price": 4.33,
-      "unrealized_pct": 0.23714285714285716,
-      "unrealized_dollars": 2.29
+      "current_price": 4.39,
+      "unrealized_pct": 0.25428571428571417,
+      "unrealized_dollars": 2.45
     },
     {
       "ticker": "LNKS",
@@ -87,12 +73,23 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.83,
-      "unrealized_pct": 0.25273822562979187,
-      "unrealized_dollars": 2.04
+      "current_price": 1.76,
+      "unrealized_pct": 0.20481927710843367,
+      "unrealized_dollars": 1.65
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "WTF",
+      "entry_price": 3.13,
+      "exit_price": 3.03,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.27,
+      "pl_percent": -0.031949,
+      "exit_timestamp": "2026-05-28T16:30:03.234970",
+      "setup_quality": "B",
+      "position_size_dollars": 8.45
+    },
     {
       "ticker": "OESX",
       "entry_price": 10.18,
@@ -629,17 +626,6 @@
       "pl_dollars": -0.89,
       "pl_percent": -0.089157,
       "exit_timestamp": "2026-05-13T14:07:00.598903",
-      "setup_quality": "B",
-      "position_size_dollars": 10.0
-    },
-    {
-      "ticker": "WOK",
-      "entry_price": 3.1099,
-      "exit_price": 4.5722,
-      "exit_reason": "target_hit",
-      "pl_dollars": 0,
-      "pl_percent": 0.470208,
-      "exit_timestamp": "2026-05-12T18:22:48.087617",
       "setup_quality": "B",
       "position_size_dollars": 10.0
     }
