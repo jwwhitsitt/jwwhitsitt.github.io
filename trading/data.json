@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-28T14:30:05.030652-04:00",
+  "generated_at": "2026-05-28T14:45:05.288953-04:00",
   "summary": {
     "total_pl_dollars": -10.64,
     "wins": 11,
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 95.15,
-      "current_price": 1.9,
-      "unrealized_pct": 0.004600010574736917,
-      "unrealized_dollars": 0.04
+      "current_price": 1.965,
+      "unrealized_pct": 0.03896790567334643,
+      "unrealized_dollars": 0.33
     },
     {
       "ticker": "BOSC",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.29,
-      "unrealized_pct": -0.02500000000000007,
-      "unrealized_dollars": -0.12
+      "current_price": 4.28,
+      "unrealized_pct": -0.027272727272727296,
+      "unrealized_dollars": -0.13
     },
     {
       "ticker": "AEMD",
@@ -59,8 +59,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.33,
-      "current_price": 2.7018,
-      "unrealized_pct": 0.047209302325581355,
+      "current_price": 2.7004,
+      "unrealized_pct": 0.04666666666666669,
       "unrealized_dollars": 0.39
     },
     {
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.86,
-      "current_price": 4.345,
-      "unrealized_pct": 0.24142857142857135,
-      "unrealized_dollars": 2.33
+      "current_price": 4.3317,
+      "unrealized_pct": 0.23762857142857133,
+      "unrealized_dollars": 2.29
     },
     {
       "ticker": "LNKS",
@@ -101,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.8011,
-      "unrealized_pct": 0.23295454545454533,
-      "unrealized_dollars": 1.88
+      "current_price": 1.855,
+      "unrealized_pct": 0.26985213581599116,
+      "unrealized_dollars": 2.18
     }
   ],
   "closed_trades": [
