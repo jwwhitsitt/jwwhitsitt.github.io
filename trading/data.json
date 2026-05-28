@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-28T11:45:05.484547-04:00",
+  "generated_at": "2026-05-28T12:00:05.542472-04:00",
   "summary": {
-    "total_pl_dollars": -15.99,
+    "total_pl_dollars": -16.21,
     "wins": 10,
-    "losses": 29,
-    "open_count": 7
+    "losses": 30,
+    "open_count": 6
   },
   "open_trades": [
     {
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.45,
-      "unrealized_pct": 0.011363636363636322,
-      "unrealized_dollars": 0.06
+      "current_price": 4.4494,
+      "unrealized_pct": 0.0112272727272726,
+      "unrealized_dollars": 0.05
     },
     {
       "ticker": "AEMD",
@@ -31,23 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.33,
-      "current_price": 2.645,
-      "unrealized_pct": 0.025193798449612382,
-      "unrealized_dollars": 0.21
-    },
-    {
-      "ticker": "OESX",
-      "entry_price": 10.18,
-      "stop_loss_price": 9.925,
-      "profit_target_price": 11.13,
-      "position_size_dollars": 8.3,
-      "entry_timestamp": "2026-05-28T15:04:11.834997",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 3.73,
-      "current_price": 9.91,
-      "unrealized_pct": -0.026522593320235717,
-      "unrealized_dollars": -0.22
+      "current_price": 2.7,
+      "unrealized_pct": 0.046511627906976785,
+      "unrealized_dollars": 0.39
     },
     {
       "ticker": "WTF",
@@ -59,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.4,
-      "current_price": 3.18,
-      "unrealized_pct": 0.015974440894568776,
-      "unrealized_dollars": 0.13
+      "current_price": 3.23,
+      "unrealized_pct": 0.03194888178913741,
+      "unrealized_dollars": 0.27
     },
     {
       "ticker": "THCH",
@@ -101,12 +87,23 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.81,
-      "unrealized_pct": 0.23904709748083236,
-      "unrealized_dollars": 1.93
+      "current_price": 1.78,
+      "unrealized_pct": 0.21851040525739315,
+      "unrealized_dollars": 1.76
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "OESX",
+      "entry_price": 10.18,
+      "exit_price": 9.91,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.22,
+      "pl_percent": -0.026523,
+      "exit_timestamp": "2026-05-28T15:45:04.041167",
+      "setup_quality": "B",
+      "position_size_dollars": 8.3
+    },
     {
       "ticker": "POCI",
       "entry_price": 4.8401,
@@ -643,17 +640,6 @@
       "pl_dollars": 0,
       "pl_percent": 0.470208,
       "exit_timestamp": "2026-05-12T18:22:48.087617",
-      "setup_quality": "B",
-      "position_size_dollars": 10.0
-    },
-    {
-      "ticker": "ERNA",
-      "entry_price": 13.8,
-      "exit_price": 11.16,
-      "exit_reason": "stop_hit",
-      "pl_dollars": 0,
-      "pl_percent": -0.191304,
-      "exit_timestamp": "2026-05-12T18:22:47.835227",
       "setup_quality": "B",
       "position_size_dollars": 10.0
     }
