@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-28T10:30:05.111967-04:00",
+  "generated_at": "2026-05-28T10:45:05.283200-04:00",
   "summary": {
     "total_pl_dollars": -16.97,
     "wins": 9,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.4,
-      "current_price": 3.42,
-      "unrealized_pct": 0.09265175718849841,
-      "unrealized_dollars": 0.78
+      "current_price": 3.315,
+      "unrealized_pct": 0.05910543130990417,
+      "unrealized_dollars": 0.5
     },
     {
       "ticker": "THCH",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 25.37,
-      "current_price": 5.25,
-      "unrealized_pct": 0.08468833288568427,
-      "unrealized_dollars": 0.79
+      "current_price": 5.24,
+      "unrealized_pct": 0.08262225987066396,
+      "unrealized_dollars": 0.77
     },
     {
       "ticker": "TACT",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.6007,
-      "unrealized_pct": 0.09576944140197145,
-      "unrealized_dollars": 0.77
+      "current_price": 1.65,
+      "unrealized_pct": 0.1295180722891565,
+      "unrealized_dollars": 1.04
     }
   ],
   "closed_trades": [
