@@ -1,12 +1,54 @@
 {
-  "generated_at": "2026-05-28T11:00:06.178698-04:00",
+  "generated_at": "2026-05-28T11:15:05.580643-04:00",
   "summary": {
     "total_pl_dollars": -16.97,
     "wins": 9,
     "losses": 29,
-    "open_count": 5
+    "open_count": 8
   },
   "open_trades": [
+    {
+      "ticker": "BOSC",
+      "entry_price": 4.4,
+      "stop_loss_price": 4.0,
+      "profit_target_price": 5.2,
+      "position_size_dollars": 4.86,
+      "entry_timestamp": "2026-05-28T15:04:11.888397",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.5,
+      "current_price": 4.42,
+      "unrealized_pct": 0.004545454545454448,
+      "unrealized_dollars": 0.02
+    },
+    {
+      "ticker": "AEMD",
+      "entry_price": 2.58,
+      "stop_loss_price": 2.52,
+      "profit_target_price": 2.78,
+      "position_size_dollars": 8.3,
+      "entry_timestamp": "2026-05-28T15:04:11.863458",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 3.33,
+      "current_price": 2.5796,
+      "unrealized_pct": -0.0001550387596899054,
+      "unrealized_dollars": -0.0
+    },
+    {
+      "ticker": "OESX",
+      "entry_price": 10.18,
+      "stop_loss_price": 9.925,
+      "profit_target_price": 11.13,
+      "position_size_dollars": 8.3,
+      "entry_timestamp": "2026-05-28T15:04:11.834997",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 3.73,
+      "current_price": 10.06,
+      "unrealized_pct": -0.011787819253438038,
+      "unrealized_dollars": -0.1
+    },
     {
       "ticker": "WTF",
       "entry_price": 3.13,
@@ -17,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.4,
-      "current_price": 3.3,
-      "unrealized_pct": 0.05431309904153352,
-      "unrealized_dollars": 0.46
+      "current_price": 3.22,
+      "unrealized_pct": 0.028753993610223738,
+      "unrealized_dollars": 0.24
     },
     {
       "ticker": "THCH",
@@ -31,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.65,
-      "current_price": 1.9,
-      "unrealized_pct": 0.04395604395604387,
-      "unrealized_dollars": 0.05
+      "current_price": 1.85,
+      "unrealized_pct": 0.016483516483516498,
+      "unrealized_dollars": 0.02
     },
     {
       "ticker": "POCI",
@@ -45,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 25.37,
-      "current_price": 5.205,
-      "unrealized_pct": 0.0753910043180927,
-      "unrealized_dollars": 0.7
+      "current_price": 5.24,
+      "unrealized_pct": 0.08262225987066396,
+      "unrealized_dollars": 0.77
     },
     {
       "ticker": "TACT",
@@ -59,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.86,
-      "current_price": 4.28,
-      "unrealized_pct": 0.22285714285714292,
-      "unrealized_dollars": 2.15
+      "current_price": 4.315,
+      "unrealized_pct": 0.23285714285714296,
+      "unrealized_dollars": 2.24
     },
     {
       "ticker": "LNKS",
@@ -73,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.6893,
-      "unrealized_pct": 0.15642113910186192,
-      "unrealized_dollars": 1.26
+      "current_price": 1.6801,
+      "unrealized_pct": 0.1501232201533405,
+      "unrealized_dollars": 1.21
     }
   ],
   "closed_trades": [
