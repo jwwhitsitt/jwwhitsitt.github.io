@@ -1,12 +1,68 @@
 {
-  "generated_at": "2026-05-28T13:00:04.613790-04:00",
+  "generated_at": "2026-05-28T13:15:05.882966-04:00",
   "summary": {
     "total_pl_dollars": -16.48,
     "wins": 10,
     "losses": 31,
-    "open_count": 5
+    "open_count": 9
   },
   "open_trades": [
+    {
+      "ticker": "SUGP",
+      "entry_price": 1.475,
+      "stop_loss_price": 1.44,
+      "profit_target_price": 2.9,
+      "position_size_dollars": 1.31,
+      "entry_timestamp": "2026-05-28T17:10:24.465051",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 40.71,
+      "current_price": 1.4601,
+      "unrealized_pct": -0.010101694915254329,
+      "unrealized_dollars": -0.01
+    },
+    {
+      "ticker": "ASTC",
+      "entry_price": 18.4762,
+      "stop_loss_price": 16.68,
+      "profit_target_price": 24.25,
+      "position_size_dollars": 8.35,
+      "entry_timestamp": "2026-05-28T17:10:24.440877",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 3.21,
+      "current_price": 19.22,
+      "unrealized_pct": 0.04025719574371355,
+      "unrealized_dollars": 0.34
+    },
+    {
+      "ticker": "CPHC",
+      "entry_price": 15.69,
+      "stop_loss_price": 15.58,
+      "profit_target_price": 15.69,
+      "position_size_dollars": 8.35,
+      "entry_timestamp": "2026-05-28T17:10:24.418617",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 0.0,
+      "current_price": 15.69,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
+    },
+    {
+      "ticker": "RGNT",
+      "entry_price": 1.8913,
+      "stop_loss_price": 1.89,
+      "profit_target_price": 2.015,
+      "position_size_dollars": 8.35,
+      "entry_timestamp": "2026-05-28T17:10:24.401153",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 95.15,
+      "current_price": 1.9732,
+      "unrealized_pct": 0.04330354782424792,
+      "unrealized_dollars": 0.36
+    },
     {
       "ticker": "BOSC",
       "entry_price": 4.4,
@@ -17,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.37,
-      "unrealized_pct": -0.006818181818181874,
-      "unrealized_dollars": -0.03
+      "current_price": 4.35,
+      "unrealized_pct": -0.011363636363636524,
+      "unrealized_dollars": -0.06
     },
     {
       "ticker": "AEMD",
@@ -31,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.33,
-      "current_price": 2.61,
-      "unrealized_pct": 0.01162790697674411,
-      "unrealized_dollars": 0.1
+      "current_price": 2.68,
+      "unrealized_pct": 0.038759689922480654,
+      "unrealized_dollars": 0.32
     },
     {
       "ticker": "THCH",
@@ -59,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.86,
-      "current_price": 4.3802,
-      "unrealized_pct": 0.25148571428571437,
-      "unrealized_dollars": 2.42
+      "current_price": 4.31,
+      "unrealized_pct": 0.23142857142857132,
+      "unrealized_dollars": 2.23
     },
     {
       "ticker": "LNKS",
@@ -73,9 +129,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.7501,
-      "unrealized_pct": 0.1980421686746987,
-      "unrealized_dollars": 1.6
+      "current_price": 1.82,
+      "unrealized_pct": 0.24589266155531211,
+      "unrealized_dollars": 1.98
     }
   ],
   "closed_trades": [
