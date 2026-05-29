@@ -1,12 +1,26 @@
 {
-  "generated_at": "2026-05-29T13:00:05.888675-04:00",
+  "generated_at": "2026-05-29T13:15:05.527669-04:00",
   "summary": {
     "total_pl_dollars": -15.44,
     "wins": 12,
     "losses": 33,
-    "open_count": 8
+    "open_count": 9
   },
   "open_trades": [
+    {
+      "ticker": "MASK",
+      "entry_price": 4.24,
+      "stop_loss_price": 4.2,
+      "profit_target_price": 5.48,
+      "position_size_dollars": 2.09,
+      "entry_timestamp": "2026-05-29T17:04:44.779952",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 31.0,
+      "current_price": 4.2823,
+      "unrealized_pct": 0.009976415094339624,
+      "unrealized_dollars": 0.02
+    },
     {
       "ticker": "CPHC",
       "entry_price": 15.55,
@@ -31,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.3,
-      "current_price": 5.795,
-      "unrealized_pct": 0.025663716814159215,
-      "unrealized_dollars": 0.22
+      "current_price": 5.72,
+      "unrealized_pct": 0.012389380530973344,
+      "unrealized_dollars": 0.11
     },
     {
       "ticker": "FONR",
@@ -73,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.1077,
-      "unrealized_pct": -0.06643181818181818,
-      "unrealized_dollars": -0.32
+      "current_price": 4.1,
+      "unrealized_pct": -0.06818181818181834,
+      "unrealized_dollars": -0.33
     },
     {
       "ticker": "THCH",
@@ -101,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.86,
-      "current_price": 4.345,
-      "unrealized_pct": 0.24142857142857135,
-      "unrealized_dollars": 2.33
+      "current_price": 4.35,
+      "unrealized_pct": 0.24285714285714274,
+      "unrealized_dollars": 2.34
     },
     {
       "ticker": "LNKS",
@@ -115,9 +129,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.84,
-      "unrealized_pct": 0.2595837897042716,
-      "unrealized_dollars": 2.09
+      "current_price": 1.8,
+      "unrealized_pct": 0.23220153340635263,
+      "unrealized_dollars": 1.87
     }
   ],
   "closed_trades": [
