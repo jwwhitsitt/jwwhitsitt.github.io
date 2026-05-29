@@ -1,26 +1,12 @@
 {
-  "generated_at": "2026-05-29T11:15:06.090079-04:00",
+  "generated_at": "2026-05-29T11:30:05.911464-04:00",
   "summary": {
-    "total_pl_dollars": -15.54,
-    "wins": 11,
+    "total_pl_dollars": -15.44,
+    "wins": 12,
     "losses": 33,
-    "open_count": 9
+    "open_count": 8
   },
   "open_trades": [
-    {
-      "ticker": "NSYS",
-      "entry_price": 16.1001,
-      "stop_loss_price": 16.0,
-      "profit_target_price": 16.75,
-      "position_size_dollars": 2.01,
-      "entry_timestamp": "2026-05-29T15:04:14.242330",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 6.49,
-      "current_price": 16.94,
-      "unrealized_pct": 0.05216737784237365,
-      "unrealized_dollars": 0.1
-    },
     {
       "ticker": "CPHC",
       "entry_price": 15.55,
@@ -45,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.3,
-      "current_price": 5.65,
-      "unrealized_pct": 0.0,
-      "unrealized_dollars": null
+      "current_price": 5.6496,
+      "unrealized_pct": -7.079646017698334e-05,
+      "unrealized_dollars": -0.0
     },
     {
       "ticker": "FONR",
@@ -59,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.0,
-      "current_price": 19.042,
-      "unrealized_pct": -0.00015752165922814984,
-      "unrealized_dollars": -0.0
+      "current_price": 19.0599,
+      "unrealized_pct": 0.0007823575741663034,
+      "unrealized_dollars": 0.01
     },
     {
       "ticker": "RVSN",
@@ -87,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.23,
-      "unrealized_pct": -0.038636363636363615,
-      "unrealized_dollars": -0.19
+      "current_price": 4.2357,
+      "unrealized_pct": -0.037340909090909265,
+      "unrealized_dollars": -0.18
     },
     {
       "ticker": "THCH",
@@ -115,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.86,
-      "current_price": 4.448,
-      "unrealized_pct": 0.27085714285714296,
-      "unrealized_dollars": 2.61
+      "current_price": 4.435,
+      "unrealized_pct": 0.267142857142857,
+      "unrealized_dollars": 2.58
     },
     {
       "ticker": "LNKS",
@@ -129,12 +115,23 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.8293,
-      "unrealized_pct": 0.2522590361445782,
-      "unrealized_dollars": 2.03
+      "current_price": 1.81,
+      "unrealized_pct": 0.23904709748083236,
+      "unrealized_dollars": 1.93
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "NSYS",
+      "entry_price": 16.1001,
+      "exit_price": 16.94,
+      "exit_reason": "target_hit",
+      "pl_dollars": 0.1,
+      "pl_percent": 0.052167,
+      "exit_timestamp": "2026-05-29T15:15:04.871006",
+      "setup_quality": "B",
+      "position_size_dollars": 2.01
+    },
     {
       "ticker": "DUKR",
       "entry_price": 7.01,
@@ -671,17 +668,6 @@
       "pl_dollars": 0,
       "pl_percent": -0.074931,
       "exit_timestamp": "2026-05-14T14:15:07.516093",
-      "setup_quality": "B",
-      "position_size_dollars": 10.0
-    },
-    {
-      "ticker": "XLO",
-      "entry_price": 7.83,
-      "exit_price": 7.83,
-      "exit_reason": "target_hit",
-      "pl_dollars": 0,
-      "pl_percent": 0.0,
-      "exit_timestamp": "2026-05-14T14:15:06.929145",
       "setup_quality": "B",
       "position_size_dollars": 10.0
     }
