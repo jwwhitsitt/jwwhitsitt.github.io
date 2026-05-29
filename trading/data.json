@@ -1,25 +1,81 @@
 {
-  "generated_at": "2026-05-29T11:00:05.273084-04:00",
+  "generated_at": "2026-05-29T11:15:06.090079-04:00",
   "summary": {
-    "total_pl_dollars": -15.14,
+    "total_pl_dollars": -15.54,
     "wins": 11,
-    "losses": 32,
-    "open_count": 5
+    "losses": 33,
+    "open_count": 9
   },
   "open_trades": [
     {
-      "ticker": "DUKR",
-      "entry_price": 7.01,
-      "stop_loss_price": 6.81,
-      "profit_target_price": 7.5,
-      "position_size_dollars": 8.79,
-      "entry_timestamp": "2026-05-29T13:11:23.740244",
+      "ticker": "NSYS",
+      "entry_price": 16.1001,
+      "stop_loss_price": 16.0,
+      "profit_target_price": 16.75,
+      "position_size_dollars": 2.01,
+      "entry_timestamp": "2026-05-29T15:04:14.242330",
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 2.45,
-      "current_price": 6.687,
-      "unrealized_pct": -0.04607703281027097,
-      "unrealized_dollars": -0.41
+      "pl_ratio_at_entry": 6.49,
+      "current_price": 16.94,
+      "unrealized_pct": 0.05216737784237365,
+      "unrealized_dollars": 0.1
+    },
+    {
+      "ticker": "CPHC",
+      "entry_price": 15.55,
+      "stop_loss_price": 0.0,
+      "profit_target_price": 0.0,
+      "position_size_dollars": 8.61,
+      "entry_timestamp": "2026-05-29T15:04:14.197856",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 0.0,
+      "current_price": 15.55,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
+    },
+    {
+      "ticker": "JFB",
+      "entry_price": 5.65,
+      "stop_loss_price": 5.52,
+      "profit_target_price": 6.0794,
+      "position_size_dollars": 8.61,
+      "entry_timestamp": "2026-05-29T15:04:14.162631",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 3.3,
+      "current_price": 5.65,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
+    },
+    {
+      "ticker": "FONR",
+      "entry_price": 19.045,
+      "stop_loss_price": 19.04,
+      "profit_target_price": 19.06,
+      "position_size_dollars": 8.61,
+      "entry_timestamp": "2026-05-29T15:04:14.122763",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 3.0,
+      "current_price": 19.042,
+      "unrealized_pct": -0.00015752165922814984,
+      "unrealized_dollars": -0.0
+    },
+    {
+      "ticker": "RVSN",
+      "entry_price": 4.76,
+      "stop_loss_price": 4.7084,
+      "profit_target_price": 4.915,
+      "position_size_dollars": 8.61,
+      "entry_timestamp": "2026-05-29T15:04:14.086234",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 3.0,
+      "current_price": 4.76,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
     },
     {
       "ticker": "BOSC",
@@ -31,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.2102,
-      "unrealized_pct": -0.043136363636363625,
-      "unrealized_dollars": -0.21
+      "current_price": 4.23,
+      "unrealized_pct": -0.038636363636363615,
+      "unrealized_dollars": -0.19
     },
     {
       "ticker": "THCH",
@@ -59,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.86,
-      "current_price": 4.42,
-      "unrealized_pct": 0.26285714285714284,
-      "unrealized_dollars": 2.53
+      "current_price": 4.448,
+      "unrealized_pct": 0.27085714285714296,
+      "unrealized_dollars": 2.61
     },
     {
       "ticker": "LNKS",
@@ -73,12 +129,23 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.7899,
-      "unrealized_pct": 0.2252875136911281,
-      "unrealized_dollars": 1.82
+      "current_price": 1.8293,
+      "unrealized_pct": 0.2522590361445782,
+      "unrealized_dollars": 2.03
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "DUKR",
+      "entry_price": 7.01,
+      "exit_price": 6.687,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.41,
+      "pl_percent": -0.046077,
+      "exit_timestamp": "2026-05-29T15:00:03.993874",
+      "setup_quality": "B",
+      "position_size_dollars": 8.79
+    },
     {
       "ticker": "ATPC",
       "entry_price": 6.07,
@@ -615,17 +682,6 @@
       "pl_dollars": 0,
       "pl_percent": 0.0,
       "exit_timestamp": "2026-05-14T14:15:06.929145",
-      "setup_quality": "B",
-      "position_size_dollars": 10.0
-    },
-    {
-      "ticker": "PLSM",
-      "entry_price": 4.375,
-      "exit_price": 4.375,
-      "exit_reason": "target_hit",
-      "pl_dollars": 0,
-      "pl_percent": 0.0,
-      "exit_timestamp": "2026-05-14T14:15:05.912441",
       "setup_quality": "B",
       "position_size_dollars": 10.0
     }
