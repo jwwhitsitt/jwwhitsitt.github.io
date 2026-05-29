@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-29T14:30:05.467621-04:00",
+  "generated_at": "2026-05-29T14:45:05.862085-04:00",
   "summary": {
     "total_pl_dollars": -15.55,
     "wins": 12,
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.3,
-      "current_price": 5.73,
-      "unrealized_pct": 0.014159292035398242,
-      "unrealized_dollars": 0.12
+      "current_price": 5.67,
+      "unrealized_pct": 0.003539823008849482,
+      "unrealized_dollars": 0.03
     },
     {
       "ticker": "FONR",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.0,
-      "current_price": 19.05,
-      "unrealized_pct": 0.00026253609871352087,
-      "unrealized_dollars": 0.0
+      "current_price": 19.06,
+      "unrealized_pct": 0.0007876082961405626,
+      "unrealized_dollars": 0.01
     },
     {
       "ticker": "RVSN",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.0,
-      "current_price": 4.8,
-      "unrealized_pct": 0.008403361344537823,
-      "unrealized_dollars": 0.07
+      "current_price": 4.82,
+      "unrealized_pct": 0.012605042016806827,
+      "unrealized_dollars": 0.11
     },
     {
       "ticker": "BOSC",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.12,
-      "unrealized_pct": -0.06363636363636369,
-      "unrealized_dollars": -0.31
+      "current_price": 4.1,
+      "unrealized_pct": -0.06818181818181834,
+      "unrealized_dollars": -0.33
     },
     {
       "ticker": "THCH",
@@ -101,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.86,
-      "current_price": 4.44,
-      "unrealized_pct": 0.2685714285714287,
-      "unrealized_dollars": 2.59
+      "current_price": 4.42,
+      "unrealized_pct": 0.26285714285714284,
+      "unrealized_dollars": 2.53
     },
     {
       "ticker": "LNKS",
@@ -115,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.745,
-      "unrealized_pct": 0.1945509309967141,
-      "unrealized_dollars": 1.57
+      "current_price": 1.765,
+      "unrealized_pct": 0.20824205914567345,
+      "unrealized_dollars": 1.68
     }
   ],
   "closed_trades": [
