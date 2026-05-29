@@ -1,12 +1,54 @@
 {
-  "generated_at": "2026-05-29T09:00:04.971438-04:00",
+  "generated_at": "2026-05-29T09:15:05.658166-04:00",
   "summary": {
     "total_pl_dollars": -9.06,
     "wins": 12,
     "losses": 28,
-    "open_count": 7
+    "open_count": 10
   },
   "open_trades": [
+    {
+      "ticker": "ATPC",
+      "entry_price": 6.07,
+      "stop_loss_price": 5.52,
+      "profit_target_price": 8.5,
+      "position_size_dollars": 1.74,
+      "entry_timestamp": "2026-05-29T13:11:23.813093",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 4.42,
+      "current_price": 6.07,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
+    },
+    {
+      "ticker": "DUKR",
+      "entry_price": 7.01,
+      "stop_loss_price": 6.81,
+      "profit_target_price": 7.5,
+      "position_size_dollars": 8.79,
+      "entry_timestamp": "2026-05-29T13:11:23.740244",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 2.45,
+      "current_price": 7.01,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
+    },
+    {
+      "ticker": "BOSC",
+      "entry_price": 4.29,
+      "stop_loss_price": 4.22,
+      "profit_target_price": 4.76,
+      "position_size_dollars": 8.79,
+      "entry_timestamp": "2026-05-29T13:11:23.690956",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 6.71,
+      "current_price": 4.29,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
+    },
     {
       "ticker": "RMBI",
       "entry_price": 14.6125,
