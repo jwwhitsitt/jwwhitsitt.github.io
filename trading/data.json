@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-29T10:00:06.012361-04:00",
+  "generated_at": "2026-05-29T10:15:06.046510-04:00",
   "summary": {
-    "total_pl_dollars": -15.53,
+    "total_pl_dollars": -14.25,
     "wins": 11,
     "losses": 29,
-    "open_count": 9
+    "open_count": 8
   },
   "open_trades": [
     {
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.42,
-      "current_price": 5.888,
-      "unrealized_pct": -0.02998352553542016,
-      "unrealized_dollars": -0.05
+      "current_price": 5.7326,
+      "unrealized_pct": -0.055584843492586584,
+      "unrealized_dollars": -0.1
     },
     {
       "ticker": "DUKR",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.45,
-      "current_price": 7.06,
-      "unrealized_pct": 0.007132667617688991,
-      "unrealized_dollars": 0.06
+      "current_price": 7.12,
+      "unrealized_pct": 0.01569186875891588,
+      "unrealized_dollars": 0.14
     },
     {
       "ticker": "BOSC",
@@ -45,23 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.71,
-      "current_price": 4.345,
-      "unrealized_pct": 0.012820512820512754,
-      "unrealized_dollars": 0.11
-    },
-    {
-      "ticker": "RMBI",
-      "entry_price": 14.6125,
-      "stop_loss_price": 14.51,
-      "profit_target_price": 14.895,
-      "position_size_dollars": 8.71,
-      "entry_timestamp": "2026-05-28T19:04:18.541046",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 2.76,
-      "current_price": 14.425,
-      "unrealized_pct": -0.01283147989734816,
-      "unrealized_dollars": -0.11
+      "current_price": 4.265,
+      "unrealized_pct": -0.00582750582750591,
+      "unrealized_dollars": -0.05
     },
     {
       "ticker": "RGNT",
@@ -73,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 95.15,
-      "current_price": 1.98,
-      "unrealized_pct": 0.046898958388410086,
-      "unrealized_dollars": 0.39
+      "current_price": 1.925,
+      "unrealized_pct": 0.01781843176650984,
+      "unrealized_dollars": 0.15
     },
     {
       "ticker": "BOSC",
@@ -87,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.345,
-      "unrealized_pct": -0.012500000000000136,
-      "unrealized_dollars": -0.06
+      "current_price": 4.265,
+      "unrealized_pct": -0.030681818181818334,
+      "unrealized_dollars": -0.15
     },
     {
       "ticker": "THCH",
@@ -129,12 +115,23 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.6888,
-      "unrealized_pct": 0.156078860898138,
-      "unrealized_dollars": 1.26
+      "current_price": 1.68,
+      "unrealized_pct": 0.15005476451259572,
+      "unrealized_dollars": 1.21
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "RMBI",
+      "entry_price": 14.6125,
+      "exit_price": 14.425,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.11,
+      "pl_percent": -0.012831,
+      "exit_timestamp": "2026-05-29T14:00:03.884910",
+      "setup_quality": "B",
+      "position_size_dollars": 8.71
+    },
     {
       "ticker": "SUGP",
       "entry_price": 1.475,
@@ -671,17 +668,6 @@
       "pl_dollars": 0,
       "pl_percent": -0.000813,
       "exit_timestamp": "2026-05-14T14:15:04.759598",
-      "setup_quality": "B",
-      "position_size_dollars": 10.0
-    },
-    {
-      "ticker": "PLUR",
-      "entry_price": 3.52,
-      "exit_price": 3.03,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -1.39,
-      "pl_percent": -0.139205,
-      "exit_timestamp": "2026-05-13T14:30:03.032700",
       "setup_quality": "B",
       "position_size_dollars": 10.0
     }
