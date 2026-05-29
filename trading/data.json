@@ -1,12 +1,40 @@
 {
-  "generated_at": "2026-05-29T15:00:06.166488-04:00",
+  "generated_at": "2026-05-29T15:15:05.878193-04:00",
   "summary": {
     "total_pl_dollars": -15.54,
     "wins": 13,
     "losses": 34,
-    "open_count": 7
+    "open_count": 9
   },
   "open_trades": [
+    {
+      "ticker": "EZRA",
+      "entry_price": 3.89,
+      "stop_loss_price": 3.8005,
+      "profit_target_price": 4.18,
+      "position_size_dollars": 2.02,
+      "entry_timestamp": "2026-05-29T19:06:03.135718",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 3.24,
+      "current_price": 3.88,
+      "unrealized_pct": -0.002570694087403658,
+      "unrealized_dollars": -0.01
+    },
+    {
+      "ticker": "ASTI",
+      "entry_price": 7.45,
+      "stop_loss_price": 7.33,
+      "profit_target_price": 9.8,
+      "position_size_dollars": 8.61,
+      "entry_timestamp": "2026-05-29T19:06:03.112883",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 19.58,
+      "current_price": 7.495,
+      "unrealized_pct": 0.006040268456375829,
+      "unrealized_dollars": 0.05
+    },
     {
       "ticker": "CPHC",
       "entry_price": 15.55,
@@ -31,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.3,
-      "current_price": 5.6469,
-      "unrealized_pct": -0.0005486725663718174,
-      "unrealized_dollars": -0.0
+      "current_price": 5.6391,
+      "unrealized_pct": -0.0019292035398230714,
+      "unrealized_dollars": -0.02
     },
     {
       "ticker": "RVSN",
@@ -59,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.0901,
-      "unrealized_pct": -0.07043181818181835,
-      "unrealized_dollars": -0.34
+      "current_price": 4.1,
+      "unrealized_pct": -0.06818181818181834,
+      "unrealized_dollars": -0.33
     },
     {
       "ticker": "THCH",
