@@ -1,26 +1,12 @@
 {
-  "generated_at": "2026-05-29T10:15:06.046510-04:00",
+  "generated_at": "2026-05-29T10:30:06.252830-04:00",
   "summary": {
-    "total_pl_dollars": -14.25,
+    "total_pl_dollars": -15.14,
     "wins": 11,
-    "losses": 29,
-    "open_count": 8
+    "losses": 32,
+    "open_count": 5
   },
   "open_trades": [
-    {
-      "ticker": "ATPC",
-      "entry_price": 6.07,
-      "stop_loss_price": 5.52,
-      "profit_target_price": 8.5,
-      "position_size_dollars": 1.74,
-      "entry_timestamp": "2026-05-29T13:11:23.813093",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 4.42,
-      "current_price": 5.7326,
-      "unrealized_pct": -0.055584843492586584,
-      "unrealized_dollars": -0.1
-    },
     {
       "ticker": "DUKR",
       "entry_price": 7.01,
@@ -37,34 +23,6 @@
     },
     {
       "ticker": "BOSC",
-      "entry_price": 4.29,
-      "stop_loss_price": 4.22,
-      "profit_target_price": 4.76,
-      "position_size_dollars": 8.79,
-      "entry_timestamp": "2026-05-29T13:11:23.690956",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 6.71,
-      "current_price": 4.265,
-      "unrealized_pct": -0.00582750582750591,
-      "unrealized_dollars": -0.05
-    },
-    {
-      "ticker": "RGNT",
-      "entry_price": 1.8913,
-      "stop_loss_price": 1.89,
-      "profit_target_price": 2.015,
-      "position_size_dollars": 8.35,
-      "entry_timestamp": "2026-05-28T17:10:24.401153",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 95.15,
-      "current_price": 1.925,
-      "unrealized_pct": 0.01781843176650984,
-      "unrealized_dollars": 0.15
-    },
-    {
-      "ticker": "BOSC",
       "entry_price": 4.4,
       "stop_loss_price": 4.0,
       "profit_target_price": 5.2,
@@ -73,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.265,
-      "unrealized_pct": -0.030681818181818334,
-      "unrealized_dollars": -0.15
+      "current_price": 4.135,
+      "unrealized_pct": -0.06022727272727285,
+      "unrealized_dollars": -0.29
     },
     {
       "ticker": "THCH",
@@ -87,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.65,
-      "current_price": 1.95,
-      "unrealized_pct": 0.07142857142857137,
-      "unrealized_dollars": 0.09
+      "current_price": 1.895,
+      "unrealized_pct": 0.04120879120879118,
+      "unrealized_dollars": 0.05
     },
     {
       "ticker": "TACT",
@@ -101,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.86,
-      "current_price": 4.35,
-      "unrealized_pct": 0.24285714285714274,
-      "unrealized_dollars": 2.34
+      "current_price": 4.41,
+      "unrealized_pct": 0.26000000000000006,
+      "unrealized_dollars": 2.51
     },
     {
       "ticker": "LNKS",
@@ -121,6 +79,39 @@
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "ATPC",
+      "entry_price": 6.07,
+      "exit_price": 5.5,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.16,
+      "pl_percent": -0.093904,
+      "exit_timestamp": "2026-05-29T14:30:04.436389",
+      "setup_quality": "B",
+      "position_size_dollars": 1.74
+    },
+    {
+      "ticker": "BOSC",
+      "entry_price": 4.29,
+      "exit_price": 4.135,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.32,
+      "pl_percent": -0.036131,
+      "exit_timestamp": "2026-05-29T14:30:03.969178",
+      "setup_quality": "B",
+      "position_size_dollars": 8.79
+    },
+    {
+      "ticker": "RGNT",
+      "entry_price": 1.8913,
+      "exit_price": 1.8,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.4,
+      "pl_percent": -0.048274,
+      "exit_timestamp": "2026-05-29T14:30:03.873004",
+      "setup_quality": "B",
+      "position_size_dollars": 8.35
+    },
     {
       "ticker": "RMBI",
       "entry_price": 14.6125,
@@ -635,39 +626,6 @@
       "pl_dollars": 0,
       "pl_percent": 0.0,
       "exit_timestamp": "2026-05-14T14:15:05.912441",
-      "setup_quality": "B",
-      "position_size_dollars": 10.0
-    },
-    {
-      "ticker": "INBS",
-      "entry_price": 4.3,
-      "exit_price": 4.8801,
-      "exit_reason": "target_hit",
-      "pl_dollars": 0,
-      "pl_percent": 0.134907,
-      "exit_timestamp": "2026-05-14T14:15:05.623302",
-      "setup_quality": "B",
-      "position_size_dollars": 10.0
-    },
-    {
-      "ticker": "SUGP",
-      "entry_price": 3.59,
-      "exit_price": 3.59,
-      "exit_reason": "target_hit",
-      "pl_dollars": 0,
-      "pl_percent": 0.0,
-      "exit_timestamp": "2026-05-14T14:15:04.875496",
-      "setup_quality": "B",
-      "position_size_dollars": 10.0
-    },
-    {
-      "ticker": "NTWK",
-      "entry_price": 4.3035,
-      "exit_price": 4.3,
-      "exit_reason": "stop_hit",
-      "pl_dollars": 0,
-      "pl_percent": -0.000813,
-      "exit_timestamp": "2026-05-14T14:15:04.759598",
       "setup_quality": "B",
       "position_size_dollars": 10.0
     }
