@@ -1,26 +1,12 @@
 {
-  "generated_at": "2026-05-29T14:15:05.700971-04:00",
+  "generated_at": "2026-05-29T14:30:05.467621-04:00",
   "summary": {
-    "total_pl_dollars": -15.44,
+    "total_pl_dollars": -15.55,
     "wins": 12,
-    "losses": 33,
-    "open_count": 9
+    "losses": 34,
+    "open_count": 8
   },
   "open_trades": [
-    {
-      "ticker": "MASK",
-      "entry_price": 4.24,
-      "stop_loss_price": 4.2,
-      "profit_target_price": 5.48,
-      "position_size_dollars": 2.09,
-      "entry_timestamp": "2026-05-29T17:04:44.779952",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 31.0,
-      "current_price": 4.02,
-      "unrealized_pct": -0.05188679245283034,
-      "unrealized_dollars": -0.11
-    },
     {
       "ticker": "CPHC",
       "entry_price": 15.55,
@@ -45,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.3,
-      "current_price": 5.71,
-      "unrealized_pct": 0.010619469026548603,
-      "unrealized_dollars": 0.09
+      "current_price": 5.73,
+      "unrealized_pct": 0.014159292035398242,
+      "unrealized_dollars": 0.12
     },
     {
       "ticker": "FONR",
@@ -59,8 +45,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.0,
-      "current_price": 19.055,
-      "unrealized_pct": 0.0005250721974270417,
+      "current_price": 19.05,
+      "unrealized_pct": 0.00026253609871352087,
       "unrealized_dollars": 0.0
     },
     {
@@ -87,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.13,
-      "unrealized_pct": -0.06136363636363646,
-      "unrealized_dollars": -0.3
+      "current_price": 4.12,
+      "unrealized_pct": -0.06363636363636369,
+      "unrealized_dollars": -0.31
     },
     {
       "ticker": "THCH",
@@ -115,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.86,
-      "current_price": 4.45,
-      "unrealized_pct": 0.27142857142857146,
-      "unrealized_dollars": 2.62
+      "current_price": 4.44,
+      "unrealized_pct": 0.2685714285714287,
+      "unrealized_dollars": 2.59
     },
     {
       "ticker": "LNKS",
@@ -129,12 +115,23 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.75,
-      "unrealized_pct": 0.19797371303395392,
-      "unrealized_dollars": 1.6
+      "current_price": 1.745,
+      "unrealized_pct": 0.1945509309967141,
+      "unrealized_dollars": 1.57
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "MASK",
+      "entry_price": 4.24,
+      "exit_price": 4.02,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.11,
+      "pl_percent": -0.051887,
+      "exit_timestamp": "2026-05-29T18:15:04.522562",
+      "setup_quality": "B",
+      "position_size_dollars": 2.09
+    },
     {
       "ticker": "NSYS",
       "entry_price": 16.1001,
@@ -671,17 +668,6 @@
       "pl_dollars": 0,
       "pl_percent": -0.07611,
       "exit_timestamp": "2026-05-14T14:28:42.699670",
-      "setup_quality": "B",
-      "position_size_dollars": 10.0
-    },
-    {
-      "ticker": "BNRG",
-      "entry_price": 2.2701,
-      "exit_price": 2.1,
-      "exit_reason": "stop_hit",
-      "pl_dollars": 0,
-      "pl_percent": -0.074931,
-      "exit_timestamp": "2026-05-14T14:15:07.516093",
       "setup_quality": "B",
       "position_size_dollars": 10.0
     }
