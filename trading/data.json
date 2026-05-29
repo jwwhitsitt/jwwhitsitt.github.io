@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-29T14:45:05.862085-04:00",
+  "generated_at": "2026-05-29T15:00:06.166488-04:00",
   "summary": {
-    "total_pl_dollars": -15.55,
-    "wins": 12,
+    "total_pl_dollars": -15.54,
+    "wins": 13,
     "losses": 34,
-    "open_count": 8
+    "open_count": 7
   },
   "open_trades": [
     {
@@ -31,23 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.3,
-      "current_price": 5.67,
-      "unrealized_pct": 0.003539823008849482,
-      "unrealized_dollars": 0.03
-    },
-    {
-      "ticker": "FONR",
-      "entry_price": 19.045,
-      "stop_loss_price": 19.04,
-      "profit_target_price": 19.06,
-      "position_size_dollars": 8.61,
-      "entry_timestamp": "2026-05-29T15:04:14.122763",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 3.0,
-      "current_price": 19.06,
-      "unrealized_pct": 0.0007876082961405626,
-      "unrealized_dollars": 0.01
+      "current_price": 5.6469,
+      "unrealized_pct": -0.0005486725663718174,
+      "unrealized_dollars": -0.0
     },
     {
       "ticker": "RVSN",
@@ -73,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.1,
-      "unrealized_pct": -0.06818181818181834,
-      "unrealized_dollars": -0.33
+      "current_price": 4.0901,
+      "unrealized_pct": -0.07043181818181835,
+      "unrealized_dollars": -0.34
     },
     {
       "ticker": "THCH",
@@ -115,12 +101,23 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.765,
-      "unrealized_pct": 0.20824205914567345,
-      "unrealized_dollars": 1.68
+      "current_price": 1.77,
+      "unrealized_pct": 0.2116648411829134,
+      "unrealized_dollars": 1.71
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "FONR",
+      "entry_price": 19.045,
+      "exit_price": 19.06,
+      "exit_reason": "target_hit",
+      "pl_dollars": 0.01,
+      "pl_percent": 0.000788,
+      "exit_timestamp": "2026-05-29T18:45:05.035753",
+      "setup_quality": "B",
+      "position_size_dollars": 8.61
+    },
     {
       "ticker": "MASK",
       "entry_price": 4.24,
@@ -659,17 +656,6 @@
       "exit_timestamp": "2026-05-14T15:00:04.015951",
       "setup_quality": "B",
       "position_size_dollars": 10.16
-    },
-    {
-      "ticker": "WOK",
-      "entry_price": 2.005,
-      "exit_price": 1.8524,
-      "exit_reason": "stop_hit",
-      "pl_dollars": 0,
-      "pl_percent": -0.07611,
-      "exit_timestamp": "2026-05-14T14:28:42.699670",
-      "setup_quality": "B",
-      "position_size_dollars": 10.0
     }
   ]
 }
