@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-29T09:45:05.744109-04:00",
+  "generated_at": "2026-05-29T10:00:06.012361-04:00",
   "summary": {
-    "total_pl_dollars": -9.06,
-    "wins": 12,
-    "losses": 28,
-    "open_count": 10
+    "total_pl_dollars": -15.53,
+    "wins": 11,
+    "losses": 29,
+    "open_count": 9
   },
   "open_trades": [
     {
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.42,
-      "current_price": 6.0,
-      "unrealized_pct": -0.011532125205930853,
-      "unrealized_dollars": -0.02
+      "current_price": 5.888,
+      "unrealized_pct": -0.02998352553542016,
+      "unrealized_dollars": -0.05
     },
     {
       "ticker": "DUKR",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.45,
-      "current_price": 7.2,
-      "unrealized_pct": 0.027104136947218315,
-      "unrealized_dollars": 0.24
+      "current_price": 7.06,
+      "unrealized_pct": 0.007132667617688991,
+      "unrealized_dollars": 0.06
     },
     {
       "ticker": "BOSC",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.71,
-      "current_price": 4.26,
-      "unrealized_pct": -0.006993006993007051,
-      "unrealized_dollars": -0.06
+      "current_price": 4.345,
+      "unrealized_pct": 0.012820512820512754,
+      "unrealized_dollars": 0.11
     },
     {
       "ticker": "RMBI",
@@ -59,23 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.76,
-      "current_price": 14.56,
-      "unrealized_pct": -0.0035928143712574993,
-      "unrealized_dollars": -0.03
-    },
-    {
-      "ticker": "SUGP",
-      "entry_price": 1.475,
-      "stop_loss_price": 1.44,
-      "profit_target_price": 2.9,
-      "position_size_dollars": 1.31,
-      "entry_timestamp": "2026-05-28T17:10:24.465051",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 40.71,
-      "current_price": 1.05,
-      "unrealized_pct": -0.288135593220339,
-      "unrealized_dollars": -0.38
+      "current_price": 14.425,
+      "unrealized_pct": -0.01283147989734816,
+      "unrealized_dollars": -0.11
     },
     {
       "ticker": "RGNT",
@@ -101,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.26,
-      "unrealized_pct": -0.03181818181818195,
-      "unrealized_dollars": -0.15
+      "current_price": 4.345,
+      "unrealized_pct": -0.012500000000000136,
+      "unrealized_dollars": -0.06
     },
     {
       "ticker": "THCH",
@@ -129,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.86,
-      "current_price": 4.37,
-      "unrealized_pct": 0.2485714285714286,
-      "unrealized_dollars": 2.4
+      "current_price": 4.35,
+      "unrealized_pct": 0.24285714285714274,
+      "unrealized_dollars": 2.34
     },
     {
       "ticker": "LNKS",
@@ -143,12 +129,23 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.69,
-      "unrealized_pct": 0.15690032858707545,
+      "current_price": 1.6888,
+      "unrealized_pct": 0.156078860898138,
       "unrealized_dollars": 1.26
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "SUGP",
+      "entry_price": 1.475,
+      "exit_price": 1.05,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.38,
+      "pl_percent": -0.288136,
+      "exit_timestamp": "2026-05-29T13:45:03.681399",
+      "setup_quality": "B",
+      "position_size_dollars": 1.31
+    },
     {
       "ticker": "AEMD",
       "entry_price": 2.58,
@@ -685,17 +682,6 @@
       "pl_dollars": -1.39,
       "pl_percent": -0.139205,
       "exit_timestamp": "2026-05-13T14:30:03.032700",
-      "setup_quality": "B",
-      "position_size_dollars": 10.0
-    },
-    {
-      "ticker": "TDIC",
-      "entry_price": 1.975,
-      "exit_price": 3.18,
-      "exit_reason": "target_hit",
-      "pl_dollars": 6.1,
-      "pl_percent": 0.610127,
-      "exit_timestamp": "2026-05-13T14:07:03.022305",
       "setup_quality": "B",
       "position_size_dollars": 10.0
     }
