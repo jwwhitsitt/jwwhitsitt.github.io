@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-01T10:45:05.607519-04:00",
+  "generated_at": "2026-06-01T11:00:04.965883-04:00",
   "summary": {
     "total_pl_dollars": -12.59,
     "wins": 15,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.81,
-      "current_price": 16.13,
-      "unrealized_pct": 0.0803750837240455,
-      "unrealized_dollars": 0.69
+      "current_price": 17.4999,
+      "unrealized_pct": 0.17212993971868726,
+      "unrealized_dollars": 1.49
     },
     {
       "ticker": "EZRA",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.24,
-      "current_price": 3.86,
-      "unrealized_pct": -0.007712082262210861,
-      "unrealized_dollars": -0.02
+      "current_price": 3.89,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
     },
     {
       "ticker": "BOSC",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.07,
-      "unrealized_pct": -0.07500000000000001,
-      "unrealized_dollars": -0.36
+      "current_price": 4.0591,
+      "unrealized_pct": -0.07747727272727281,
+      "unrealized_dollars": -0.38
     },
     {
       "ticker": "THCH",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.86,
-      "current_price": 4.5658,
-      "unrealized_pct": 0.3045142857142858,
-      "unrealized_dollars": 2.94
+      "current_price": 4.52,
+      "unrealized_pct": 0.2914285714285713,
+      "unrealized_dollars": 2.81
     },
     {
       "ticker": "LNKS",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.6511,
-      "unrealized_pct": 0.13027108433734932,
-      "unrealized_dollars": 1.05
+      "current_price": 1.71,
+      "unrealized_pct": 0.17059145673603496,
+      "unrealized_dollars": 1.37
     }
   ],
   "closed_trades": [
