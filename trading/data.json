@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-01T10:00:06.376858-04:00",
+  "generated_at": "2026-06-01T10:15:05.195817-04:00",
   "summary": {
-    "total_pl_dollars": -13.63,
-    "wins": 14,
-    "losses": 34,
-    "open_count": 7
+    "total_pl_dollars": -12.59,
+    "wins": 15,
+    "losses": 33,
+    "open_count": 6
   },
   "open_trades": [
     {
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.81,
-      "current_price": 15.67,
-      "unrealized_pct": 0.049564634963161436,
-      "unrealized_dollars": 0.43
+      "current_price": 15.7361,
+      "unrealized_pct": 0.053991962491627646,
+      "unrealized_dollars": 0.47
     },
     {
       "ticker": "EZRA",
@@ -31,23 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.24,
-      "current_price": 3.925,
-      "unrealized_pct": 0.008997429305912519,
-      "unrealized_dollars": 0.02
-    },
-    {
-      "ticker": "JFB",
-      "entry_price": 5.65,
-      "stop_loss_price": 5.52,
-      "profit_target_price": 6.0794,
-      "position_size_dollars": 8.61,
-      "entry_timestamp": "2026-05-29T15:04:14.162631",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 3.3,
-      "current_price": 6.13,
-      "unrealized_pct": 0.0849557522123893,
-      "unrealized_dollars": 0.73
+      "current_price": 3.97,
+      "unrealized_pct": 0.02056555269922881,
+      "unrealized_dollars": 0.04
     },
     {
       "ticker": "BOSC",
@@ -59,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.0571,
-      "unrealized_pct": -0.07793181818181823,
-      "unrealized_dollars": -0.38
+      "current_price": 4.07,
+      "unrealized_pct": -0.07500000000000001,
+      "unrealized_dollars": -0.36
     },
     {
       "ticker": "THCH",
@@ -87,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.86,
-      "current_price": 4.68,
-      "unrealized_pct": 0.3371428571428571,
-      "unrealized_dollars": 3.25
+      "current_price": 4.605,
+      "unrealized_pct": 0.31571428571428584,
+      "unrealized_dollars": 3.04
     },
     {
       "ticker": "LNKS",
@@ -101,12 +87,23 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.61,
-      "unrealized_pct": 0.10213581599123767,
-      "unrealized_dollars": 0.82
+      "current_price": 1.65,
+      "unrealized_pct": 0.1295180722891565,
+      "unrealized_dollars": 1.04
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "JFB",
+      "entry_price": 5.65,
+      "exit_price": 6.13,
+      "exit_reason": "target_hit",
+      "pl_dollars": 0.73,
+      "pl_percent": 0.084956,
+      "exit_timestamp": "2026-06-01T14:00:04.348286",
+      "setup_quality": "B",
+      "position_size_dollars": 8.61
+    },
     {
       "ticker": "ASTI",
       "entry_price": 7.43,
@@ -645,17 +642,6 @@
       "exit_timestamp": "2026-05-14T18:00:04.132172",
       "setup_quality": "B",
       "position_size_dollars": 9.05
-    },
-    {
-      "ticker": "WTF",
-      "entry_price": 3.77,
-      "exit_price": 3.655,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -0.3,
-      "pl_percent": -0.030504,
-      "exit_timestamp": "2026-05-14T17:45:04.526445",
-      "setup_quality": "B",
-      "position_size_dollars": 9.94
     }
   ]
 }
