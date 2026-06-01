@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-01T14:30:05.190103-04:00",
+  "generated_at": "2026-06-01T14:45:05.606690-04:00",
   "summary": {
     "total_pl_dollars": -10.14,
     "wins": 15,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.13,
-      "current_price": 4.2799,
-      "unrealized_pct": 0.04899509803921557,
-      "unrealized_dollars": 0.43
+      "current_price": 4.1201,
+      "unrealized_pct": 0.009828431372548971,
+      "unrealized_dollars": 0.09
     },
     {
       "ticker": "TOYO",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.03,
-      "current_price": 14.16,
-      "unrealized_pct": 0.0527881040892194,
-      "unrealized_dollars": 0.46
+      "current_price": 14.0,
+      "unrealized_pct": 0.04089219330855024,
+      "unrealized_dollars": 0.36
     },
     {
       "ticker": "STG",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.13,
-      "current_price": 4.7,
-      "unrealized_pct": 0.0284463894967177,
-      "unrealized_dollars": 0.25
+      "current_price": 4.75,
+      "unrealized_pct": 0.03938730853391678,
+      "unrealized_dollars": 0.35
     },
     {
       "ticker": "EZRA",
@@ -59,8 +59,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.24,
-      "current_price": 3.9901,
-      "unrealized_pct": 0.025732647814909988,
+      "current_price": 3.98,
+      "unrealized_pct": 0.023136246786632352,
       "unrealized_dollars": 0.05
     },
     {
@@ -115,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.5901,
-      "unrealized_pct": 0.08851314348302297,
-      "unrealized_dollars": 0.71
+      "current_price": 1.64,
+      "unrealized_pct": 0.12267250821467675,
+      "unrealized_dollars": 0.99
     }
   ],
   "closed_trades": [
