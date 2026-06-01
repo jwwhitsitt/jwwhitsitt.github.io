@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-01T13:15:06.166370-04:00",
+  "generated_at": "2026-06-01T13:30:05.938130-04:00",
   "summary": {
-    "total_pl_dollars": -8.84,
-    "wins": 16,
-    "losses": 32,
-    "open_count": 9
+    "total_pl_dollars": -10.14,
+    "wins": 15,
+    "losses": 33,
+    "open_count": 8
   },
   "open_trades": [
     {
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.13,
-      "current_price": 4.08,
-      "unrealized_pct": 0.0,
-      "unrealized_dollars": null
+      "current_price": 3.99,
+      "unrealized_pct": -0.022058823529411728,
+      "unrealized_dollars": -0.19
     },
     {
       "ticker": "TOYO",
@@ -31,23 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.03,
-      "current_price": 13.95,
-      "unrealized_pct": 0.03717472118959108,
-      "unrealized_dollars": 0.33
-    },
-    {
-      "ticker": "NXTC",
-      "entry_price": 4.815,
-      "stop_loss_price": 4.34,
-      "profit_target_price": 6.85,
-      "position_size_dollars": 8.8,
-      "entry_timestamp": "2026-06-01T15:04:57.558882",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 1.58,
-      "current_price": 4.275,
-      "unrealized_pct": -0.11214953271028037,
-      "unrealized_dollars": -0.99
+      "current_price": 13.98,
+      "unrealized_pct": 0.03940520446096663,
+      "unrealized_dollars": 0.35
     },
     {
       "ticker": "STG",
@@ -59,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.13,
-      "current_price": 4.51,
-      "unrealized_pct": -0.013129102844639058,
-      "unrealized_dollars": -0.12
+      "current_price": 4.43,
+      "unrealized_pct": -0.030634573304157673,
+      "unrealized_dollars": -0.27
     },
     {
       "ticker": "EZRA",
@@ -73,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.24,
-      "current_price": 3.87,
-      "unrealized_pct": -0.005141388174807203,
-      "unrealized_dollars": -0.01
+      "current_price": 3.885,
+      "unrealized_pct": -0.0012853470437018861,
+      "unrealized_dollars": -0.0
     },
     {
       "ticker": "BOSC",
@@ -87,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.09,
-      "unrealized_pct": -0.07045454545454556,
-      "unrealized_dollars": -0.34
+      "current_price": 4.0719,
+      "unrealized_pct": -0.07456818181818183,
+      "unrealized_dollars": -0.36
     },
     {
       "ticker": "THCH",
@@ -135,6 +121,17 @@
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "NXTC",
+      "entry_price": 4.815,
+      "exit_price": 4.275,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.99,
+      "pl_percent": -0.11215,
+      "exit_timestamp": "2026-06-01T17:15:03.786344",
+      "setup_quality": "B",
+      "position_size_dollars": 8.8
+    },
     {
       "ticker": "IVF",
       "entry_price": 1.53,
@@ -673,17 +670,6 @@
       "exit_timestamp": "2026-05-15T13:45:03.349984",
       "setup_quality": "B",
       "position_size_dollars": 9.94
-    },
-    {
-      "ticker": "JRSH",
-      "entry_price": 3.28,
-      "exit_price": 3.38,
-      "exit_reason": "target_hit",
-      "pl_dollars": 0.31,
-      "pl_percent": 0.030488,
-      "exit_timestamp": "2026-05-15T13:45:02.552575",
-      "setup_quality": "B",
-      "position_size_dollars": 10.16
     }
   ]
 }
