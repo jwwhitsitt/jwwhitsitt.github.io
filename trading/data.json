@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-01T14:15:05.608307-04:00",
+  "generated_at": "2026-06-01T14:30:05.190103-04:00",
   "summary": {
     "total_pl_dollars": -10.14,
     "wins": 15,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.13,
-      "current_price": 4.0115,
-      "unrealized_pct": -0.016789215686274565,
-      "unrealized_dollars": -0.15
+      "current_price": 4.2799,
+      "unrealized_pct": 0.04899509803921557,
+      "unrealized_dollars": 0.43
     },
     {
       "ticker": "TOYO",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.03,
-      "current_price": 14.13,
-      "unrealized_pct": 0.05055762081784398,
-      "unrealized_dollars": 0.44
+      "current_price": 14.16,
+      "unrealized_pct": 0.0527881040892194,
+      "unrealized_dollars": 0.46
     },
     {
       "ticker": "STG",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.13,
-      "current_price": 4.64,
-      "unrealized_pct": 0.015317286652078642,
-      "unrealized_dollars": 0.13
+      "current_price": 4.7,
+      "unrealized_pct": 0.0284463894967177,
+      "unrealized_dollars": 0.25
     },
     {
       "ticker": "EZRA",
@@ -59,8 +59,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.24,
-      "current_price": 3.99,
-      "unrealized_pct": 0.02570694087403601,
+      "current_price": 3.9901,
+      "unrealized_pct": 0.025732647814909988,
       "unrealized_dollars": 0.05
     },
     {
@@ -115,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.62,
-      "unrealized_pct": 0.1089813800657174,
-      "unrealized_dollars": 0.88
+      "current_price": 1.5901,
+      "unrealized_pct": 0.08851314348302297,
+      "unrealized_dollars": 0.71
     }
   ],
   "closed_trades": [
