@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-01T16:15:06.007222-04:00",
+  "generated_at": "2026-06-01T16:30:09.015894-04:00",
   "summary": {
     "total_pl_dollars": -9.24,
     "wins": 16,
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.13,
-      "current_price": 4.395,
-      "unrealized_pct": -0.03829321663019709,
-      "unrealized_dollars": -0.34
+      "current_price": 4.35,
+      "unrealized_pct": -0.04814004376367628,
+      "unrealized_dollars": -0.42
     },
     {
       "ticker": "EZRA",
