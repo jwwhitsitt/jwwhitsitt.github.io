@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-01T09:30:06.492986-04:00",
+  "generated_at": "2026-06-01T09:45:05.437337-04:00",
   "summary": {
-    "total_pl_dollars": -15.28,
-    "wins": 14,
-    "losses": 34,
-    "open_count": 9
+    "total_pl_dollars": -12.72,
+    "wins": 15,
+    "losses": 33,
+    "open_count": 8
   },
   "open_trades": [
     {
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.81,
-      "current_price": 14.93,
-      "unrealized_pct": 0.0,
-      "unrealized_dollars": null
+      "current_price": 15.79,
+      "unrealized_pct": 0.05760214333556594,
+      "unrealized_dollars": 0.5
     },
     {
       "ticker": "ASTI",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 10.3,
-      "current_price": 7.43,
-      "unrealized_pct": 0.0,
-      "unrealized_dollars": null
+      "current_price": 6.8528,
+      "unrealized_pct": -0.07768506056527584,
+      "unrealized_dollars": -0.67
     },
     {
       "ticker": "EZRA",
@@ -45,23 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.24,
-      "current_price": 3.93,
-      "unrealized_pct": 0.010282776349614406,
-      "unrealized_dollars": 0.02
-    },
-    {
-      "ticker": "CPHC",
-      "entry_price": 15.55,
-      "stop_loss_price": 0.0,
-      "profit_target_price": 0.0,
-      "position_size_dollars": 8.61,
-      "entry_timestamp": "2026-05-29T15:04:14.197856",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 0.0,
-      "current_price": 15.84,
-      "unrealized_pct": 0.018649517684887405,
-      "unrealized_dollars": 0.16
+      "current_price": 3.87,
+      "unrealized_pct": -0.005141388174807203,
+      "unrealized_dollars": -0.01
     },
     {
       "ticker": "JFB",
@@ -73,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.3,
-      "current_price": 5.78,
-      "unrealized_pct": 0.023008849557522103,
-      "unrealized_dollars": 0.2
+      "current_price": 6.01,
+      "unrealized_pct": 0.06371681415929194,
+      "unrealized_dollars": 0.55
     },
     {
       "ticker": "BOSC",
@@ -87,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.11,
-      "unrealized_pct": -0.06590909090909092,
-      "unrealized_dollars": -0.32
+      "current_price": 4.0571,
+      "unrealized_pct": -0.07793181818181823,
+      "unrealized_dollars": -0.38
     },
     {
       "ticker": "THCH",
@@ -115,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.86,
-      "current_price": 4.47,
-      "unrealized_pct": 0.2771428571428571,
-      "unrealized_dollars": 2.67
+      "current_price": 4.675,
+      "unrealized_pct": 0.3357142857142857,
+      "unrealized_dollars": 3.24
     },
     {
       "ticker": "LNKS",
@@ -129,12 +115,23 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.74,
-      "unrealized_pct": 0.19112814895947416,
-      "unrealized_dollars": 1.54
+      "current_price": 1.61,
+      "unrealized_pct": 0.10213581599123767,
+      "unrealized_dollars": 0.82
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "CPHC",
+      "entry_price": 15.55,
+      "exit_price": 15.84,
+      "exit_reason": "stale_no_levels",
+      "pl_dollars": 0.16,
+      "pl_percent": 0.01865,
+      "exit_timestamp": "2026-06-01T13:30:05.022069",
+      "setup_quality": "B",
+      "position_size_dollars": 8.61
+    },
     {
       "ticker": "ASTI",
       "entry_price": 7.45,
@@ -671,17 +668,6 @@
       "pl_dollars": 0.24,
       "pl_percent": 0.023682,
       "exit_timestamp": "2026-05-14T16:00:04.383798",
-      "setup_quality": "B",
-      "position_size_dollars": 10.16
-    },
-    {
-      "ticker": "TDIC",
-      "entry_price": 16.55,
-      "exit_price": 12.64,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -2.4,
-      "pl_percent": -0.236254,
-      "exit_timestamp": "2026-05-14T15:30:02.866791",
       "setup_quality": "B",
       "position_size_dollars": 10.16
     }
