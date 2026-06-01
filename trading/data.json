@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-01T13:30:05.938130-04:00",
+  "generated_at": "2026-06-01T13:45:05.378542-04:00",
   "summary": {
     "total_pl_dollars": -10.14,
     "wins": 15,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.13,
-      "current_price": 3.99,
-      "unrealized_pct": -0.022058823529411728,
-      "unrealized_dollars": -0.19
+      "current_price": 4.1256,
+      "unrealized_pct": 0.01117647058823537,
+      "unrealized_dollars": 0.1
     },
     {
       "ticker": "TOYO",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.03,
-      "current_price": 13.98,
-      "unrealized_pct": 0.03940520446096663,
-      "unrealized_dollars": 0.35
+      "current_price": 14.02,
+      "unrealized_pct": 0.04237918215613385,
+      "unrealized_dollars": 0.37
     },
     {
       "ticker": "STG",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.13,
-      "current_price": 4.43,
-      "unrealized_pct": -0.030634573304157673,
-      "unrealized_dollars": -0.27
+      "current_price": 4.63,
+      "unrealized_pct": 0.013129102844638864,
+      "unrealized_dollars": 0.12
     },
     {
       "ticker": "EZRA",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.24,
-      "current_price": 3.885,
-      "unrealized_pct": -0.0012853470437018861,
-      "unrealized_dollars": -0.0
+      "current_price": 3.89,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
     },
     {
       "ticker": "BOSC",
@@ -115,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.65,
-      "unrealized_pct": 0.1295180722891565,
-      "unrealized_dollars": 1.04
+      "current_price": 1.66,
+      "unrealized_pct": 0.13636363636363624,
+      "unrealized_dollars": 1.1
     }
   ],
   "closed_trades": [
