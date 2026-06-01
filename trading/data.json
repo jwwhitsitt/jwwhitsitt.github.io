@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-01T11:45:06.329116-04:00",
+  "generated_at": "2026-06-01T12:00:10.035496-04:00",
   "summary": {
     "total_pl_dollars": -8.84,
     "wins": 16,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.03,
-      "current_price": 13.71,
-      "unrealized_pct": 0.019330855018587476,
-      "unrealized_dollars": 0.17
+      "current_price": 13.4,
+      "unrealized_pct": -0.0037174721189590287,
+      "unrealized_dollars": -0.03
     },
     {
       "ticker": "NXTC",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.58,
-      "current_price": 4.56,
-      "unrealized_pct": -0.05295950155763256,
-      "unrealized_dollars": -0.47
+      "current_price": 4.475,
+      "unrealized_pct": -0.07061266874351002,
+      "unrealized_dollars": -0.62
     },
     {
       "ticker": "STG",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.13,
-      "current_price": 4.55,
-      "unrealized_pct": -0.00437636761487975,
-      "unrealized_dollars": -0.04
+      "current_price": 4.51,
+      "unrealized_pct": -0.013129102844639058,
+      "unrealized_dollars": -0.12
     },
     {
       "ticker": "EZRA",
@@ -59,8 +59,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.24,
-      "current_price": 3.9,
-      "unrealized_pct": 0.002570694087403544,
+      "current_price": 3.91,
+      "unrealized_pct": 0.005141388174807203,
       "unrealized_dollars": 0.01
     },
     {
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.09,
-      "unrealized_pct": -0.07045454545454556,
-      "unrealized_dollars": -0.34
+      "current_price": 4.0613,
+      "unrealized_pct": -0.07697727272727277,
+      "unrealized_dollars": -0.37
     },
     {
       "ticker": "THCH",
@@ -101,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.86,
-      "current_price": 4.565,
-      "unrealized_pct": 0.3042857142857144,
-      "unrealized_dollars": 2.93
+      "current_price": 4.55,
+      "unrealized_pct": 0.29999999999999993,
+      "unrealized_dollars": 2.89
     },
     {
       "ticker": "LNKS",
@@ -115,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.62,
-      "unrealized_pct": 0.1089813800657174,
-      "unrealized_dollars": 0.88
+      "current_price": 1.61,
+      "unrealized_pct": 0.10213581599123767,
+      "unrealized_dollars": 0.82
     }
   ],
   "closed_trades": [
