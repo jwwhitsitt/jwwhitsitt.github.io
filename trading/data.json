@@ -1,12 +1,26 @@
 {
-  "generated_at": "2026-06-01T15:00:05.176654-04:00",
+  "generated_at": "2026-06-01T15:15:06.095644-04:00",
   "summary": {
     "total_pl_dollars": -10.14,
     "wins": 15,
     "losses": 33,
-    "open_count": 8
+    "open_count": 9
   },
   "open_trades": [
+    {
+      "ticker": "JZXN",
+      "entry_price": 1.32,
+      "stop_loss_price": 1.16,
+      "profit_target_price": 2.35,
+      "position_size_dollars": 8.48,
+      "entry_timestamp": "2026-06-01T19:04:08.563739",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 6.44,
+      "current_price": 1.32,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
+    },
     {
       "ticker": "DAIO",
       "entry_price": 4.08,
@@ -17,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.13,
-      "current_price": 4.26,
-      "unrealized_pct": 0.044117647058823456,
-      "unrealized_dollars": 0.39
+      "current_price": 4.2,
+      "unrealized_pct": 0.029411764705882377,
+      "unrealized_dollars": 0.26
     },
     {
       "ticker": "TOYO",
@@ -31,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.03,
-      "current_price": 13.93,
-      "unrealized_pct": 0.03568773234200747,
-      "unrealized_dollars": 0.31
+      "current_price": 14.08,
+      "unrealized_pct": 0.046840148698884816,
+      "unrealized_dollars": 0.41
     },
     {
       "ticker": "STG",
@@ -59,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.24,
-      "current_price": 4.0,
-      "unrealized_pct": 0.028277634961439556,
-      "unrealized_dollars": 0.06
+      "current_price": 3.985,
+      "unrealized_pct": 0.024421593830334126,
+      "unrealized_dollars": 0.05
     },
     {
       "ticker": "BOSC",
@@ -73,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.1,
-      "unrealized_pct": -0.06818181818181834,
-      "unrealized_dollars": -0.33
+      "current_price": 4.085,
+      "unrealized_pct": -0.07159090909090918,
+      "unrealized_dollars": -0.35
     },
     {
       "ticker": "THCH",
@@ -101,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.86,
-      "current_price": 4.495,
-      "unrealized_pct": 0.2842857142857143,
-      "unrealized_dollars": 2.74
+      "current_price": 4.475,
+      "unrealized_pct": 0.27857142857142847,
+      "unrealized_dollars": 2.69
     },
     {
       "ticker": "LNKS",
@@ -115,9 +129,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.64,
-      "unrealized_pct": 0.12267250821467675,
-      "unrealized_dollars": 0.99
+      "current_price": 1.6005,
+      "unrealized_pct": 0.09563253012048188,
+      "unrealized_dollars": 0.77
     }
   ],
   "closed_trades": [
