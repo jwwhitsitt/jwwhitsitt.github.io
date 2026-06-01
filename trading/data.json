@@ -1,25 +1,67 @@
 {
-  "generated_at": "2026-06-01T11:00:04.965883-04:00",
+  "generated_at": "2026-06-01T11:15:06.085948-04:00",
   "summary": {
-    "total_pl_dollars": -12.59,
-    "wins": 15,
-    "losses": 33,
-    "open_count": 6
+    "total_pl_dollars": -9.76,
+    "wins": 16,
+    "losses": 32,
+    "open_count": 9
   },
   "open_trades": [
     {
-      "ticker": "NSYS",
-      "entry_price": 14.93,
-      "stop_loss_price": 14.51,
-      "profit_target_price": 16.95,
-      "position_size_dollars": 8.63,
-      "entry_timestamp": "2026-06-01T13:04:46.767998",
+      "ticker": "IVF",
+      "entry_price": 1.53,
+      "stop_loss_price": 1.48,
+      "profit_target_price": 1.76,
+      "position_size_dollars": 8.8,
+      "entry_timestamp": "2026-06-01T15:04:57.634394",
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 4.81,
-      "current_price": 17.4999,
-      "unrealized_pct": 0.17212993971868726,
-      "unrealized_dollars": 1.49
+      "pl_ratio_at_entry": 4.6,
+      "current_price": 1.5299,
+      "unrealized_pct": -6.53594771241758e-05,
+      "unrealized_dollars": -0.0
+    },
+    {
+      "ticker": "TOYO",
+      "entry_price": 13.45,
+      "stop_loss_price": 13.0009,
+      "profit_target_price": 14.36,
+      "position_size_dollars": 8.8,
+      "entry_timestamp": "2026-06-01T15:04:57.591251",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 2.03,
+      "current_price": 13.7188,
+      "unrealized_pct": 0.01998513011152421,
+      "unrealized_dollars": 0.18
+    },
+    {
+      "ticker": "NXTC",
+      "entry_price": 4.815,
+      "stop_loss_price": 4.34,
+      "profit_target_price": 6.85,
+      "position_size_dollars": 8.8,
+      "entry_timestamp": "2026-06-01T15:04:57.558882",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.58,
+      "current_price": 4.7399,
+      "unrealized_pct": -0.015597092419522498,
+      "unrealized_dollars": -0.14
+    },
+    {
+      "ticker": "STG",
+      "entry_price": 4.57,
+      "stop_loss_price": 4.17,
+      "profit_target_price": 5.82,
+      "position_size_dollars": 8.8,
+      "entry_timestamp": "2026-06-01T15:04:57.519288",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 3.13,
+      "current_price": 4.7634,
+      "unrealized_pct": 0.04231947483588612,
+      "unrealized_dollars": 0.37
     },
     {
       "ticker": "EZRA",
@@ -45,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.0591,
-      "unrealized_pct": -0.07747727272727281,
-      "unrealized_dollars": -0.38
+      "current_price": 4.11,
+      "unrealized_pct": -0.06590909090909092,
+      "unrealized_dollars": -0.32
     },
     {
       "ticker": "THCH",
@@ -59,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.65,
-      "current_price": 2.0,
-      "unrealized_pct": 0.09890109890109887,
-      "unrealized_dollars": 0.12
+      "current_price": 2.02,
+      "unrealized_pct": 0.10989010989010986,
+      "unrealized_dollars": 0.14
     },
     {
       "ticker": "TACT",
@@ -73,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.86,
-      "current_price": 4.52,
-      "unrealized_pct": 0.2914285714285713,
-      "unrealized_dollars": 2.81
+      "current_price": 4.55,
+      "unrealized_pct": 0.29999999999999993,
+      "unrealized_dollars": 2.89
     },
     {
       "ticker": "LNKS",
@@ -87,12 +129,23 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.71,
-      "unrealized_pct": 0.17059145673603496,
-      "unrealized_dollars": 1.37
+      "current_price": 1.72,
+      "unrealized_pct": 0.17743702081051468,
+      "unrealized_dollars": 1.43
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "NSYS",
+      "entry_price": 14.93,
+      "exit_price": 17.4999,
+      "exit_reason": "target_hit",
+      "pl_dollars": 1.49,
+      "pl_percent": 0.17213,
+      "exit_timestamp": "2026-06-01T15:00:03.709130",
+      "setup_quality": "B",
+      "position_size_dollars": 8.63
+    },
     {
       "ticker": "JFB",
       "entry_price": 5.65,
@@ -631,17 +684,6 @@
       "exit_timestamp": "2026-05-14T19:45:03.261811",
       "setup_quality": "B",
       "position_size_dollars": 10.16
-    },
-    {
-      "ticker": "MOBX",
-      "entry_price": 3.245,
-      "exit_price": 2.7617,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -1.35,
-      "pl_percent": -0.148937,
-      "exit_timestamp": "2026-05-14T18:00:04.132172",
-      "setup_quality": "B",
-      "position_size_dollars": 9.05
     }
   ]
 }
