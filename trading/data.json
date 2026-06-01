@@ -1,12 +1,40 @@
 {
-  "generated_at": "2026-06-01T09:00:05.918076-04:00",
+  "generated_at": "2026-06-01T09:15:05.583867-04:00",
   "summary": {
     "total_pl_dollars": -15.28,
     "wins": 14,
     "losses": 34,
-    "open_count": 7
+    "open_count": 9
   },
   "open_trades": [
+    {
+      "ticker": "NSYS",
+      "entry_price": 14.93,
+      "stop_loss_price": 14.51,
+      "profit_target_price": 16.95,
+      "position_size_dollars": 8.63,
+      "entry_timestamp": "2026-06-01T13:04:46.767998",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 4.81,
+      "current_price": 14.93,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
+    },
+    {
+      "ticker": "ASTI",
+      "entry_price": 7.43,
+      "stop_loss_price": 7.2,
+      "profit_target_price": 9.8,
+      "position_size_dollars": 8.63,
+      "entry_timestamp": "2026-06-01T13:04:46.723800",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 10.3,
+      "current_price": 7.43,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
+    },
     {
       "ticker": "EZRA",
       "entry_price": 3.89,
