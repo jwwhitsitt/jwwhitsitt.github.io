@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-01T10:15:05.195817-04:00",
+  "generated_at": "2026-06-01T10:30:05.539150-04:00",
   "summary": {
     "total_pl_dollars": -12.59,
     "wins": 15,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.81,
-      "current_price": 15.7361,
-      "unrealized_pct": 0.053991962491627646,
-      "unrealized_dollars": 0.47
+      "current_price": 16.255,
+      "unrealized_pct": 0.08874748827863357,
+      "unrealized_dollars": 0.77
     },
     {
       "ticker": "EZRA",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.24,
-      "current_price": 3.97,
-      "unrealized_pct": 0.02056555269922881,
-      "unrealized_dollars": 0.04
+      "current_price": 3.915,
+      "unrealized_pct": 0.006426735218508974,
+      "unrealized_dollars": 0.01
     },
     {
       "ticker": "BOSC",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.86,
-      "current_price": 4.605,
-      "unrealized_pct": 0.31571428571428584,
-      "unrealized_dollars": 3.04
+      "current_price": 4.55,
+      "unrealized_pct": 0.29999999999999993,
+      "unrealized_dollars": 2.89
     },
     {
       "ticker": "LNKS",
