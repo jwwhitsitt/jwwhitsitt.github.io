@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T12:00:07.016785-04:00",
+  "generated_at": "2026-06-02T12:15:06.069411-04:00",
   "summary": {
     "total_pl_dollars": -10.98,
     "wins": 16,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 11.0,
-      "current_price": 2.18,
-      "unrealized_pct": 0.0,
-      "unrealized_dollars": null
+      "current_price": 2.205,
+      "unrealized_pct": 0.01146788990825684,
+      "unrealized_dollars": 0.09
     },
     {
       "ticker": "ELMT",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 18.12,
-      "current_price": 20.885,
-      "unrealized_pct": 0.10211081794195263,
-      "unrealized_dollars": 0.89
+      "current_price": 21.09,
+      "unrealized_pct": 0.11292875989445914,
+      "unrealized_dollars": 0.99
     },
     {
       "ticker": "JZXN",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.44,
-      "current_price": 1.3036,
-      "unrealized_pct": -0.012424242424242402,
-      "unrealized_dollars": -0.11
+      "current_price": 1.3,
+      "unrealized_pct": -0.015151515151515164,
+      "unrealized_dollars": -0.13
     },
     {
       "ticker": "DAIO",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.13,
-      "current_price": 4.21,
-      "unrealized_pct": 0.031862745098039186,
-      "unrealized_dollars": 0.28
+      "current_price": 4.18,
+      "unrealized_pct": 0.02450980392156854,
+      "unrealized_dollars": 0.21
     },
     {
       "ticker": "EZRA",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.24,
-      "current_price": 3.83,
-      "unrealized_pct": -0.015424164524421607,
-      "unrealized_dollars": -0.03
+      "current_price": 3.81,
+      "unrealized_pct": -0.02056555269922881,
+      "unrealized_dollars": -0.04
     },
     {
       "ticker": "BOSC",
@@ -129,9 +129,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.5405,
-      "unrealized_pct": 0.05455914567360342,
-      "unrealized_dollars": 0.44
+      "current_price": 1.56,
+      "unrealized_pct": 0.06790799561883895,
+      "unrealized_dollars": 0.55
     }
   ],
   "closed_trades": [
