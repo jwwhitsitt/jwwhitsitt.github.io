@@ -1,0 +1,775 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Demon Slayer — Character Sheet</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@600;700;800&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0c0d12;--panel:#15161e;--panel-2:#1c1e29;--line:#2a2c3a;
+    --ink:#ecebe6;--muted:#8b8d9c;--accent:#b3001b;--accent-soft:rgba(179,0,27,.16);--good:#4caf7d;--bad:#e06a6a;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0}
+  body{background:radial-gradient(1200px 600px at 80% -10%,rgba(179,0,27,.10),transparent 60%),var(--bg);
+    color:var(--ink);font-family:"Zen Kaku Gothic New",sans-serif;line-height:1.5;min-height:100vh}
+  body::before{content:"";position:fixed;inset:0;z-index:0;pointer-events:none;opacity:.035;
+    background-image:linear-gradient(45deg,#fff 25%,transparent 25%,transparent 75%,#fff 75%),
+      linear-gradient(45deg,#fff 25%,transparent 25%,transparent 75%,#fff 75%);
+    background-size:36px 36px;background-position:0 0,18px 18px}
+  .wrap{position:relative;z-index:1;max-width:1100px;margin:0 auto;padding:24px 18px 90px}
+  h1,h2,h3{font-family:"Shippori Mincho B1",serif;margin:0;letter-spacing:.01em}
+  a{color:var(--accent);text-decoration:none}
+  .topbar{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;
+    border-bottom:1px solid var(--line);padding-bottom:16px;margin-bottom:22px}
+  .topbar h1{font-size:26px;font-weight:800}
+  .topbar h1 .ja{color:var(--accent);transition:color .35s}
+  .crumb{font-size:12px;color:var(--muted)}
+  .label{font-size:11px;text-transform:uppercase;letter-spacing:.14em;color:var(--muted);margin-bottom:8px}
+  .panel{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:18px}
+  .panel+.panel{margin-top:16px}
+  .grid2{display:grid;grid-template-columns:320px 1fr;gap:20px;align-items:start}
+  @media(max-width:840px){.grid2{grid-template-columns:1fr}}
+  button.act{font-family:inherit;font-size:13px;border:1px solid var(--line);background:var(--panel-2);color:var(--ink);
+    border-radius:9px;padding:9px 14px;cursor:pointer;transition:.15s}
+  button.act:hover{border-color:var(--accent);color:#fff}
+  button.act.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+  button.act.ghost{background:transparent}
+  button.act:disabled{opacity:.4;cursor:not-allowed}
+  button.tiny{padding:4px 9px;font-size:12px}
+  input,select,textarea{font-family:inherit;background:var(--panel-2);border:1px solid var(--line);color:var(--ink);
+    border-radius:8px;padding:8px 10px;outline:none;font-size:14px;width:100%}
+  input:focus,select:focus,textarea:focus{border-color:var(--accent)}
+  textarea{resize:vertical;min-height:70px}
+  .row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+  .muted{color:var(--muted)}
+  .msg{font-size:13px;padding:8px 12px;border-radius:8px;margin-top:10px}
+  .msg.ok{background:rgba(76,175,125,.12);color:var(--good)}
+  .msg.err{background:rgba(224,106,106,.12);color:var(--bad)}
+
+  /* list view */
+  .charcards{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;margin-top:6px}
+  .charcard{display:block;background:var(--panel-2);border:1px solid var(--line);border-radius:12px;padding:16px;transition:.15s}
+  .charcard:hover{border-color:var(--accent);transform:translateY(-2px)}
+  .charcard .nm{font-family:"Shippori Mincho B1",serif;font-size:18px;color:var(--ink)}
+  .charcard .meta{font-size:12px;color:var(--muted);margin-top:4px}
+
+  /* sheet */
+  .levelrow{display:flex;align-items:center;gap:12px}
+  .levelnum{font-family:"Shippori Mincho B1",serif;font-size:38px;font-weight:800;color:var(--accent);min-width:54px;text-align:center;transition:color .35s}
+  .abils{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:6px}
+  @media(max-width:560px){.abils{grid-template-columns:repeat(2,1fr)}}
+  .abil{background:var(--panel-2);border:1px solid var(--line);border-radius:10px;padding:9px 6px;text-align:center}
+  .abil .nm{font-size:10px;letter-spacing:.1em;color:var(--muted);text-transform:uppercase}
+  .abil input{background:transparent;border:none;text-align:center;font-family:"Shippori Mincho B1",serif;font-size:22px;padding:2px}
+  .abil .tot{font-size:11px;color:var(--accent);transition:color .35s}
+  .abil .tot.buffed{color:var(--good)}
+  .styles{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-top:6px}
+  .stylebtn{background:var(--panel-2);border:1px solid var(--line);border-radius:10px;padding:10px 11px;color:var(--ink);
+    cursor:pointer;text-align:left;font-family:inherit;font-size:13px;display:flex;align-items:center;gap:8px}
+  .stylebtn .dot{width:10px;height:10px;border-radius:50%;flex:none}
+  .stylebtn.active{box-shadow:0 0 0 2px var(--c) inset;border-color:transparent}
+  .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+  @media(max-width:560px){.stats{grid-template-columns:repeat(2,1fr)}}
+  .stat{background:var(--panel-2);border:1px solid var(--line);border-radius:11px;padding:12px}
+  .stat .k{font-size:10px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted)}
+  .stat .v{font-family:"Shippori Mincho B1",serif;font-size:26px;font-weight:700;margin-top:3px}
+  .stat .v small{font-size:13px;color:var(--muted);font-family:"Zen Kaku Gothic New",sans-serif;font-weight:400}
+  table.lst{width:100%;border-collapse:collapse;font-size:13px}
+  table.lst td{padding:5px 4px;border-bottom:1px solid var(--line)}
+  table.lst td.r{text-align:right;font-variant-numeric:tabular-nums}
+  table.lst .prof{color:var(--accent)}
+  .orbs{display:flex;flex-wrap:wrap;gap:5px;margin:12px 0}
+  .orb{width:15px;height:15px;border-radius:50%;border:1px solid var(--line);background:var(--panel)}
+  .orb.full{background:var(--accent);border-color:var(--accent);transition:background .35s}
+  .sectiontitle{font-size:12px;text-transform:uppercase;letter-spacing:.16em;color:var(--muted);margin:22px 0 10px;
+    display:flex;align-items:center;gap:12px}
+  .sectiontitle::after{content:"";flex:1;height:1px;background:var(--line)}
+  .feat{border:1px solid var(--line);border-radius:11px;padding:12px 14px;margin-bottom:9px;background:var(--panel-2)}
+  .feat.locked{opacity:.4}
+  .feat h3{font-size:14px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+  .feat .lv{font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:var(--bg);background:var(--accent);
+    padding:2px 7px;border-radius:20px;font-weight:700;font-family:"Zen Kaku Gothic New",sans-serif;transition:background .35s}
+  .feat.locked .lv{background:var(--muted)}
+  .feat p{margin:7px 0 0;font-size:13px;color:#cfd0d8;white-space:pre-line}
+  .item{border:1px solid var(--line);border-radius:11px;padding:12px;margin-bottom:9px;background:var(--panel-2)}
+  .item .hd{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+  .item .hd .inm{font-weight:700}
+  .mod-pill{display:inline-block;font-size:11px;background:var(--accent-soft);color:var(--ink);border:1px solid var(--line);
+    padding:2px 8px;border-radius:20px;margin:3px 4px 0 0}
+  .adv-slot{border:1px solid var(--line);border-radius:11px;padding:12px;margin-bottom:9px;background:var(--panel-2)}
+  .modrow{display:grid;grid-template-columns:110px 1fr 70px auto auto;gap:6px;align-items:center;margin-top:6px}
+  @media(max-width:560px){.modrow{grid-template-columns:1fr 1fr}}
+  .keybar{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+  .keybar input{max-width:280px}
+  .savebar{position:sticky;bottom:0;z-index:5;margin-top:18px;background:linear-gradient(180deg,transparent,var(--bg) 40%);
+    padding-top:16px;display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+  .chk{display:flex;align-items:center;gap:6px;font-size:12px;color:var(--muted)}
+  .chk input{width:auto}
+</style>
+</head>
+<body>
+<div class="wrap" id="app"></div>
+
+<script>
+/* ============================================================
+   CONFIG
+   ============================================================ */
+const API = "https://dnd-api.jeffwhitsitt.com";
+let EDIT_KEY = "";
+try { EDIT_KEY = localStorage.getItem("dnd_edit_key") || ""; } catch(e){}
+
+/* ============================================================
+   EMBEDDED DEFINITIONS  (move to separate files later)
+   ============================================================ */
+const SKILLS = {
+  acrobatics:"dex","animal-handling":"wis",arcana:"int",athletics:"str",deception:"cha",
+  history:"int",insight:"wis",intimidation:"cha",investigation:"int",medicine:"wis",
+  nature:"int",perception:"wis",performance:"cha",persuasion:"cha",religion:"int",
+  "sleight-of-hand":"dex",stealth:"dex",survival:"wis"
+};
+const ABILS = ["str","dex","con","int","wis","cha"];
+const ABIL_NAME = {str:"STR",dex:"DEX",con:"CON",int:"INT",wis:"WIS",cha:"CHA"};
+
+const RACES = {
+  human:{ id:"human", name:"Human", size:"Medium", speed:30,
+    abilityBonuses:{str:1,dex:1,con:1,int:1,wis:1,cha:1},
+    traits:[{name:"Languages",text:"Common plus one extra language."}] }
+};
+
+const FEATS = [
+  {id:"tough",name:"Tough",description:"Your hit point maximum increases by 2 per level.",modifiers:[{kind:"stat",target:"hp",value:2,perLevel:true}]},
+  {id:"alert",name:"Alert",description:"+5 to initiative. You can't be surprised while conscious, and others don't gain advantage from being hidden.",modifiers:[{kind:"stat",target:"initiative",value:5}]},
+  {id:"mobile",name:"Mobile",description:"Speed increases by 10 ft. Difficult terrain costs nothing when you Dash, and melee attacks don't provoke from a target you hit.",modifiers:[{kind:"stat",target:"speed",value:10}]},
+  {id:"durable",name:"Durable",description:"+1 Constitution. When you spend a Hit Die to recover HP, the minimum regained is twice your Con modifier.",modifiers:[{kind:"stat",target:"con",value:1}]},
+  {id:"athlete",name:"Athlete",description:"+1 Dexterity. Standing from prone costs only 5 ft, and you make running jumps after only 5 ft of movement.",modifiers:[{kind:"stat",target:"dex",value:1}]},
+  {id:"lucky",name:"Lucky",description:"You have 3 luck points per long rest to reroll an attack, check, save, or an attack against you.",modifiers:[]},
+  {id:"sentinel",name:"Sentinel",description:"Opportunity attacks reduce a creature's speed to 0, you can react to attacks on nearby allies, and disengage doesn't stop your opportunity attacks.",modifiers:[]},
+  {id:"savage-attacker",name:"Savage Attacker",description:"Once per turn, reroll your melee weapon damage and use either total.",modifiers:[]}
+];
+const FEAT_BY_ID = Object.fromEntries(FEATS.map(f=>[f.id,f]));
+
+const CLASSES = {
+  "demon-slayer": {
+    id:"demon-slayer", name:"Demon Slayer", hitDie:10,
+    savingThrows:{fixed:["str"],choose:{count:1,from:["dex","wis"]}},
+    proficiencies:{skills:{count:2,from:["acrobatics","animal-handling","athletics","insight","investigation","perception"]}},
+    computed:{ unarmoredDefense:{add:["dex","con"]}, attacksByLevel:{1:1,5:2,13:3} },
+    resources:[{id:"breathing-points",name:"Breathing Points",minLevel:2,addAbilityMod:"con",
+      table:{2:2,3:4,4:6,5:8,6:10,7:12,8:14,9:16,10:18,11:20,12:22,13:24,14:26,15:28,16:30,17:32,18:34,19:36,20:40}}],
+    asiLevels:[4,8,12,16,19],
+    features:[
+      {level:1,name:"Enhanced Senses",text:"Advantage on Perception rolls with one chosen sense (sight, smell, or hearing)."},
+      {level:1,name:"Unarmored Defense",text:"While not wearing armor, AC = 10 + Dex modifier + Con modifier."},
+      {level:2,name:"Breathing Points",text:"Fuel breath forms. Points = table + Con modifier. Save DC = 8 + proficiency + Dex modifier. Regain on a long rest."},
+      {level:2,name:"Total Concentration Breathing",text:"Bonus action, 1 minute. Required for any form. While active: half Wis mod to attack rolls (min 1); +10 ft speed; Dex for jumps. Uses = Con modifier (min 1) per long rest."},
+      {level:3,name:"Nichirin Ore",text:"One melee weapon deals double damage to Fiend, Undead, or Monstrosity. Reassign on a long rest."},
+      {level:4,name:"Ability Score Improvement",text:"+2 one ability or +1/+1 two, or a feat."},
+      {level:5,name:"Extra Attack",text:"Attack twice on the Attack action."},
+      {level:5,name:"Sword Training",text:"Add Wis modifier to attack rolls with your Nichirin Ore weapon."},
+      {level:7,name:"Silent Chase",text:"No footstep noise; advantage on Stealth. Spend 1 point at will to Dash."},
+      {level:9,name:"Total Concentration: Constant",text:"Use Total Concentration indefinitely."},
+      {level:10,name:"Trained Breathing",text:"Regain all breathing points on a short rest."},
+      {level:13,name:"Extra Attack (3)",text:"Attack three times on the Attack action."},
+      {level:15,name:"Advanced Sword Training",text:"Add Dex or Str modifier to damage with your Nichirin Ore weapon."},
+      {level:18,name:"Crimson Red Ore",text:"At will, attacks deal radiant for 1 minute. Once per long rest."},
+      {level:18,name:"Slayer Mark",text:"1 minute: +20 ft speed; +(Str/Dex +1) melee attack & damage; damage reduction 5; resist b/p/s; see the transparent world. Once per long rest."}
+    ],
+    subclass:{label:"Breath Style",chooseAtLevel:2,featureLevels:[2,6,8,11,14,17,20],options:[
+      {id:"water",name:"Breath of Water",color:"#2e8bc0",kanji:"水の呼吸",forms:[
+        {level:2,name:"First Form: Water Surface Slash",text:"2 BP, action. Melee attack; +1d6 + Wis slashing. +1d6 at 6/8/11/14/17/20."},
+        {level:6,name:"Second Form: Water Wheel",text:"4 BP. High jump then attack on landing. +1d8 + Wis per 2 ft jumped."},
+        {level:8,name:"Eighth Form: Waterfall Basin",text:"6 BP. Double long jump; creatures jumped over Dex save, 3d10 + Wis (half on success)."},
+        {level:11,name:"Fourth Form: Striking Tide",text:"3 BP, action. All extra attacks on one target; each consecutive hit +1d10."},
+        {level:14,name:"Third Form: Flowing Dance",text:"5 BP. Half speed, no opportunity attacks; ranged attacks auto-fail vs you until next turn."},
+        {level:17,name:"Tenth Form: Constant Flux",text:"10 BP, action. Move 10 ft and attack; repeat until you miss, +1d12 each consecutive hit."},
+        {level:20,name:"Master - Eleventh Form: Dead Calm",text:"20 BP, reaction. Any spell or effect targeting you fails."}
+      ]},
+      {id:"thunder",name:"Breath of Thunder",color:"#f4d03f",kanji:"雷の呼吸",forms:[
+        {level:2,name:"First Form: Thunderclap and Flash",text:"2 BP, action. Dash + slash. After a hit: +1d4 + Dex lightning and/or move 30 ft (3 BP). Scales to 2d12 by 20."},
+        {level:6,name:"Second Form: Rice Spirit",text:"High jump attack; +1d6 lightning per 5 ft jumped. Unlocks Six Fold chain."},
+        {level:8,name:"Third Form: Thunder Swarm",text:"8 BP, action. 45-ft radius Con save: 4d8 lightning (half). Scales to 7d8."},
+        {level:11,name:"Fourth Form: Distant Thunder",text:"Melee attack with extra reach (attacks-1)x30 ft; +2d10 + Dex per attack you can make."},
+        {level:14,name:"Fifth Form: Heat Lightning",text:"10 BP. +2 to hit: 5d12 + Con lightning. Unlocks Eight Fold."},
+        {level:17,name:"Sixth Form: Rumble and Flash",text:"15 BP, action or reaction. Big radius / cone lightning burst."},
+        {level:20,name:"Master - Thunder Limit Break",text:"40 BP. 1000 ft move, free forms one turn, then 3 exhaustion. God Speed upgrade."}
+      ]},
+      {id:"wind",name:"Breath of Wind",color:"#58d68d",kanji:"風の呼吸",forms:[
+        {level:2,name:"First Form: Dust Whirlwind Cutter",text:"2 BP, action. 30-ft whirlwind; +1d6 + Str. Scales with level. Only while moving toward or laterally to a target."},
+        {level:6,name:"Second Form: Claws Purifying Wind",text:"6 BP. Four downward slashes; Dex save (DC 10 + prof) or all hit; +1d6 per slash."},
+        {level:8,name:"Third Form: Clean Storm Wind Tree",text:"2 BP, reaction. Nullify attacks/projectiles/magic on a Dex save; 1d6 to those caught."},
+        {level:11,name:"Sixth Form: Black Wind Mountain Mist",text:"Bonus action. Target Dex save or -6 AC for one hit."},
+        {level:14,name:"Fourth Form: Rising Dust Storm",text:"6 BP, reaction vs a target above you. Attack for +4d20."},
+        {level:17,name:"Seventh Form: Gale of Sudden Gusts",text:"12 BP, action. Ten slashes; each hit 2d10 + Str."},
+        {level:20,name:"Master - Idaten Typhoon",text:"20 BP, reaction. 15-ft sphere Dex save: 18d20 + prof (9d20 on success)."}
+      ]},
+      {id:"beast",name:"Breath of the Beast",color:"#16a085",kanji:"獣の呼吸",forms:[
+        {level:2,name:"Tenth Fang: Rotating Fang",text:"2 BP, bonus action. Ranged attacks vs you deal half. Apply Nichirin Ore to one extra weapon."},
+        {level:6,name:"Dual Wielding",text:"Two-weapon fight with any one-handed melee weapon. +1 AC while wielding two swords."},
+        {level:8,name:"Bestial Drive",text:"4 BP, bonus action after a melee hit while holding a second weapon. Deal that damage again."},
+        {level:11,name:"Seventh Fang: Spatial Awareness",text:"6 BP, action. Sense non-Construct creatures within 20 ft x Wis mod."},
+        {level:14,name:"Fifth Fang: Uncontrolled Slash",text:"8 BP, action. Creatures in reach Dex save: 6d6, half on success."},
+        {level:17,name:"Throwing Attack",text:"15 BP, action. Throw a melee weapon (15/30); on hit double damage."},
+        {level:20,name:"Master - Bestial Recovery",text:"12 BP, bonus action. Heal 3d8 + level, or +3 sword damage, or advantage on sword attacks (1 min)."}
+      ]},
+      {id:"moon",name:"Breath of the Moon",color:"#c0392b",kanji:"月の呼吸",forms:[
+        {level:2,name:"First Form: Full Moon",text:"1 BP, bonus action after a melee hit. +1d6, scales to 6d6 by 20."},
+        {level:6,name:"Second Form: Moongazing",text:"2 BP, action. Leap with a slice; flying speed = move speed, then one attack with advantage."},
+        {level:8,name:"Third Form: Endless Darkness",text:"6 BP, action. 30-ft darkness 1 min; light fails inside. Concentration."},
+        {level:11,name:"Fourth Form: Crescent Moon",text:"1 BP, action. Attack with attack & damage bonus = number of attacks you can make."},
+        {level:14,name:"Fifth Form: Perpetual Night",text:"While Endless Darkness is up, use Crescent Moon vs anything in the darkness."},
+        {level:17,name:"Sixth Form: New Moon",text:"10 BP, start of turn. +4 to anything using Str or Dex mod until end of turn."},
+        {level:20,name:"Master - Seventh Form: Bloody Moon",text:"20 BP, action. 30-ft cone Dex save: 20d20 + prof (half). Ignores Evasion. Ends breathing."}
+      ]}
+    ]}
+  }
+};
+
+/* ============================================================
+   HELPERS
+   ============================================================ */
+const mod = s => Math.floor((s-10)/2);
+const prof = lv => 2 + Math.floor((lv-1)/4);
+const fmt = n => (n>=0?"+":"")+n;
+const slugify = s => s.toLowerCase().trim().replace(/[^a-z0-9]+/g,"-").replace(/^-+|-+$/g,"");
+const qs = new URLSearchParams(location.search);
+const el = id => document.getElementById(id);
+
+async function api(path, opts={}){
+  const r = await fetch(API+path, opts);
+  if(!r.ok){ const t = await r.text(); throw new Error(r.status+" "+t); }
+  return r.json();
+}
+
+/* the modifier engine: turn a character + definitions into a computed sheet */
+function compute(ch){
+  const cls = CLASSES[ch.classId];
+  const race = RACES[ch.raceId] || {abilityBonuses:{},speed:30};
+  const lvl = ch.level;
+
+  // gather active stat sources: equipped items + taken feats
+  const sources = [];
+  (ch.inventory||[]).forEach(it=>{ if(it.equipped) (it.modifiers||[]).forEach(m=>sources.push(m)); });
+  const takenFeats = [];
+  (ch.advancements||[]).forEach(a=>{
+    if(a.kind==="feat"){
+      const f = a.custom ? a.custom : FEAT_BY_ID[a.featId];
+      if(f){ takenFeats.push(f); (f.modifiers||[]).forEach(m=>sources.push(m)); }
+    }
+  });
+  const statMods = (target) => sources.filter(m=>m.kind==="stat"&&m.target===target)
+      .reduce((s,m)=>s + (m.perLevel ? m.value*lvl : m.value), 0);
+  const profGrants = sources.filter(m=>m.kind==="proficiency").map(m=>m.target);
+  const grantedAbilities = sources.filter(m=>m.kind==="ability");
+
+  // 1. effective ability scores: base + race + ASI + item/feat ability mods
+  const asiSum = {}; ABILS.forEach(a=>asiSum[a]=0);
+  (ch.advancements||[]).forEach(a=>{ if(a.kind==="asi"&&a.plus) for(const k in a.plus) asiSum[k]+=a.plus[k]; });
+  const total = {}, m = {};
+  ABILS.forEach(a=>{
+    total[a] = (ch.baseScores[a]||10) + (race.abilityBonuses[a]||0) + asiSum[a] + statMods(a);
+    m[a] = mod(total[a]);
+  });
+
+  const pb = prof(lvl);
+  // 2. AC (unarmored formula + ac mods)
+  let ac = 10; (cls.computed?.unarmoredDefense?.add||["dex"]).forEach(a=>ac+=m[a]); ac += statMods("ac");
+  // 3. HP full die
+  const hpMax = lvl*(cls.hitDie + m.con) + statMods("hp");
+  // 4. derived
+  const initiative = m.dex + statMods("initiative");
+  const speed = (race.speed||30) + statMods("speed");
+  // attacks
+  let attacks = 1; const abl = cls.computed?.attacksByLevel||{1:1};
+  Object.keys(abl).map(Number).sort((x,y)=>x-y).forEach(L=>{ if(lvl>=L) attacks = abl[L]; });
+
+  // saving throws
+  const saveProf = new Set([...(cls.savingThrows.fixed||[])]);
+  if(ch.savingThrowChoice) saveProf.add(ch.savingThrowChoice);
+  profGrants.forEach(t=>{ if(t.startsWith("save:")) saveProf.add(t.slice(5)); });
+  const saves = {}; ABILS.forEach(a=>{
+    saves[a] = m[a] + (saveProf.has(a)?pb:0) + statMods("save:"+a);
+  });
+
+  // skills
+  const skillProf = new Set(ch.skillProficiencies||[]);
+  profGrants.forEach(t=>{ if(t.startsWith("skill:")) skillProf.add(t.slice(6)); });
+  const skills = {}; Object.keys(SKILLS).forEach(s=>{
+    const a = SKILLS[s];
+    skills[s] = { value:m[a] + (skillProf.has(s)?pb:0) + statMods("skill:"+s), prof:skillProf.has(s), abil:a };
+  });
+
+  // resources
+  let bpMax = 0; const res = cls.resources?.[0];
+  if(res && lvl>=res.minLevel) bpMax = (res.table[lvl]||0) + (res.addAbilityMod?m[res.addAbilityMod]:0);
+  const breathDC = lvl>=2 ? 8 + pb + m.dex : null;
+
+  return {cls,race,lvl,total,m,pb,ac,hpMax,initiative,speed,attacks,saves,saveProf,skills,
+          bpMax,breathDC,grantedAbilities,takenFeats};
+}
+
+/* ============================================================
+   STATE
+   ============================================================ */
+let CH = null;            // current character object {slug,name,classId,data...}
+let dirty = false;
+const setDirty = v => { dirty = v; const b=el("saveBtn"); if(b){ b.disabled=!v; b.textContent = v?"Save":"Saved"; } };
+
+/* ============================================================
+   ROUTER
+   ============================================================ */
+async function route(){
+  const c = qs.get("c");
+  if(c) return renderSheet(c);
+  return renderList();
+}
+
+/* ---------------- LIST VIEW ---------------- */
+async function renderList(){
+  el("app").innerHTML = `
+    <div class="topbar"><h1>Demon Slayer <span class="ja">鬼殺隊</span></h1>
+      <div class="crumb">Character roster</div></div>
+    <div class="panel">
+      <div class="row" style="justify-content:space-between">
+        <div class="label" style="margin:0">Characters</div>
+        <button class="act primary" id="newBtn">Make a character</button>
+      </div>
+      <div id="charlist" class="charcards"><div class="muted">Loading…</div></div>
+    </div>
+    <div id="createPane"></div>`;
+  el("newBtn").onclick = renderCreate;
+  try{
+    const list = await api("/characters");
+    el("charlist").innerHTML = list.length ? list.map(c=>`
+      <a class="charcard" href="?c=${encodeURIComponent(c.slug)}">
+        <div class="nm">${c.name}</div>
+        <div class="meta">${(CLASSES[c.class_id]?.name)||c.class_id||"—"}</div>
+      </a>`).join("") : `<div class="muted">No characters yet. Make one.</div>`;
+  }catch(e){ el("charlist").innerHTML = `<div class="msg err">Couldn't reach the API. ${e.message}</div>`; }
+}
+
+function renderCreate(){
+  el("createPane").innerHTML = `
+    <div class="panel">
+      <div class="label">New character</div>
+      <div class="row"><div style="flex:1;min-width:200px"><div class="label">Name</div><input id="cName" placeholder="e.g. Sanemi Shinazugawa"></div></div>
+      <div class="row" style="margin-top:10px">
+        <div style="flex:1;min-width:160px"><div class="label">Race</div><select id="cRace">${Object.values(RACES).map(r=>`<option value="${r.id}">${r.name}</option>`).join("")}</select></div>
+        <div style="flex:1;min-width:160px"><div class="label">Class</div><select id="cClass">${Object.values(CLASSES).map(c=>`<option value="${c.id}">${c.name}</option>`).join("")}</select></div>
+      </div>
+      <div class="row" style="margin-top:14px"><button class="act primary" id="createGo">Create</button>
+        <span class="muted" style="font-size:12px">Starts at level 1 with default scores. You'll set everything on the sheet.</span></div>
+      <div id="createMsg"></div>
+    </div>`;
+  el("createGo").onclick = async ()=>{
+    const name = el("cName").value.trim();
+    if(!name){ el("createMsg").innerHTML = `<div class="msg err">Name required.</div>`; return; }
+    const slug = slugify(name);
+    const cls = CLASSES[el("cClass").value];
+    const data = {
+      raceId: el("cRace").value, level:1,
+      baseScores:{str:10,dex:10,con:10,int:10,wis:10,cha:10},
+      savingThrowChoice: cls.savingThrows.choose?.from[0] || null,
+      skillProficiencies: [], subclassChoice:null,
+      hp:{current:null}, resources:{}, advancements:[], inventory:[], notes:""
+    };
+    if(cls.resources?.[0]) data.resources[cls.resources[0].id] = {current:0};
+    try{
+      await save({slug,name,classId:cls.id,data}, true);
+      location.search = "?c="+encodeURIComponent(slug);
+    }catch(e){ el("createMsg").innerHTML = `<div class="msg err">${e.message}</div>`; }
+  };
+}
+
+/* ---------------- SHEET VIEW ---------------- */
+async function renderSheet(slug){
+  el("app").innerHTML = `<div class="topbar"><h1>Loading…</h1></div>`;
+  try{
+    const c = await api("/characters/"+encodeURIComponent(slug));
+    CH = {slug:c.slug, name:c.name, classId:c.class_id, data:c.data};
+  }catch(e){
+    el("app").innerHTML = `<div class="topbar"><h1>Not found</h1><a href="./">Back to roster</a></div>
+      <div class="msg err">${e.message}</div>`; return;
+  }
+  drawSheet();
+}
+
+function setAccent(color){
+  document.documentElement.style.setProperty("--accent", color||"#b3001b");
+  document.documentElement.style.setProperty("--accent-soft",(color||"#b3001b")+"29");
+}
+
+function drawSheet(){
+  const ch = {...CH.data, classId:CH.classId, name:CH.name};
+  const cp = compute(ch);
+  const styleOpt = cp.cls.subclass.options.find(o=>o.id===ch.subclassChoice);
+  setAccent(styleOpt?.color);
+  const d = CH.data;
+  if(d.hp.current===null) d.hp.current = cp.hpMax;
+  const res = cp.cls.resources?.[0];
+  const bpCur = res ? (d.resources[res.id]?.current||0) : 0;
+
+  el("app").innerHTML = `
+    <div class="topbar">
+      <h1>${CH.name} <span class="ja">${styleOpt?.kanji||"鬼"}</span></h1>
+      <div class="crumb"><a href="./">← roster</a> · ${cp.cls.name} · ${cp.race.name}</div>
+    </div>
+    <div class="grid2">
+      <div>
+        <div class="panel">
+          <div class="label">Level</div>
+          <div class="levelrow"><div class="levelnum" id="lvlNum">${cp.lvl}</div>
+            <input type="range" id="lvl" min="1" max="20" value="${cp.lvl}" style="width:100%"></div>
+        </div>
+        <div class="panel">
+          <div class="label">Ability Scores <span class="muted" style="text-transform:none;letter-spacing:0">(base + race + ASI + items)</span></div>
+          <div class="abils" id="abils"></div>
+        </div>
+        <div class="panel">
+          <div class="label">${cp.cls.subclass.label}</div>
+          <div class="styles" id="styles"></div>
+        </div>
+        <div class="panel">
+          <div class="label">Saving Throws</div>
+          <table class="lst" id="saves"></table>
+          ${cp.cls.savingThrows.choose ? `<div class="row" style="margin-top:10px">
+            <div style="flex:1"><div class="label">Choose save proficiency</div>
+            <select id="saveChoice">${cp.cls.savingThrows.choose.from.map(a=>`<option value="${a}" ${ch.savingThrowChoice===a?"selected":""}>${ABIL_NAME[a]}</option>`).join("")}</select></div></div>`:""}
+        </div>
+      </div>
+      <div>
+        <div class="panel"><div class="stats" id="stats"></div></div>
+        <div class="panel">
+          <div class="row" style="justify-content:space-between">
+            <div class="label" style="margin:0">Hit Points</div>
+            <div class="row">
+              <button class="act tiny" data-hp="-5">-5</button>
+              <button class="act tiny" data-hp="-1">-1</button>
+              <span id="hpView" style="font-family:'Shippori Mincho B1',serif;font-size:20px"></span>
+              <button class="act tiny" data-hp="1">+1</button>
+              <button class="act tiny" data-hp="5">+5</button>
+              <button class="act tiny" id="hpFull">Full</button>
+            </div>
+          </div>
+        </div>
+        ${res ? `<div class="panel">
+          <div class="label">${res.name}</div>
+          <div class="row" style="justify-content:space-between">
+            <div style="font-family:'Shippori Mincho B1',serif;font-size:24px"><span id="bpCur">${bpCur}</span> / <span id="bpMax">${cp.bpMax}</span></div>
+            <div class="row">
+              <button class="act tiny" data-bp="1">-1</button><button class="act tiny" data-bp="2">-2</button>
+              <button class="act tiny" data-bp="5">-5</button><button class="act tiny primary" id="bpRest">Rest</button>
+            </div>
+          </div>
+          <div class="orbs" id="orbs"></div>
+          ${cp.breathDC!==null?`<div class="muted" style="font-size:12px">Save DC ${cp.breathDC}</div>`:""}
+        </div>`:""}
+
+        <div class="panel"><div class="label">Skills</div><table class="lst" id="skills"></table></div>
+
+        <div class="sectiontitle">Advancement (ASI / Feats)</div>
+        <div id="advance"></div>
+
+        <div class="sectiontitle">Inventory</div>
+        <div id="inv"></div>
+        <button class="act" id="addItem">+ Add item</button>
+
+        <div class="sectiontitle">Granted Abilities</div>
+        <div id="granted"></div>
+
+        <div class="sectiontitle">Class Features</div>
+        <div id="baseFeats"></div>
+
+        <div class="sectiontitle" id="formTitle">Breath Forms</div>
+        <div id="forms"></div>
+
+        <div class="panel" style="margin-top:18px">
+          <div class="label">Notes</div>
+          <textarea id="notes">${d.notes||""}</textarea>
+        </div>
+      </div>
+    </div>
+
+    <div class="savebar">
+      <button class="act primary" id="saveBtn" disabled>Saved</button>
+      <div class="keybar"><input id="editKey" type="password" placeholder="edit key (required to save)" value="${EDIT_KEY?"********":""}">
+        <label class="chk"><input type="checkbox" id="rememberKey" ${EDIT_KEY?"checked":""}> remember on this device</label></div>
+      <span id="saveMsg" class="muted" style="font-size:12px"></span>
+    </div>`;
+
+  // populate sub-renders
+  renderAbils(cp); renderStyles(cp); renderSaves(cp); renderStats(cp);
+  renderHp(cp); if(res) renderBp(cp); renderSkills(cp);
+  renderAdvance(cp); renderInventory(); renderGranted(cp); renderBaseFeats(cp); renderForms(cp);
+
+  // wire events
+  el("lvl").oninput = e=>{ CH.data.level=+e.target.value; setDirty(true); refresh(); };
+  if(el("saveChoice")) el("saveChoice").onchange = e=>{ CH.data.savingThrowChoice=e.target.value; setDirty(true); refresh(); };
+  el("notes").oninput = e=>{ CH.data.notes=e.target.value; setDirty(true); };
+  el("addItem").onclick = ()=>{ CH.data.inventory.push(newItem()); setDirty(true); renderInventory(); };
+  el("saveBtn").onclick = doSave;
+  el("editKey").onfocus = e=>{ if(e.target.value==="********") e.target.value=""; };
+
+  document.querySelectorAll("[data-hp]").forEach(b=>b.onclick=()=>{ adjustHp(+b.dataset.hp); });
+  el("hpFull").onclick = ()=>{ CH.data.hp.current = compute({...CH.data,classId:CH.classId}).hpMax; setDirty(true); renderHp(compute({...CH.data,classId:CH.classId})); };
+  if(res){
+    document.querySelectorAll("[data-bp]").forEach(b=>b.onclick=()=>{ adjustBp(-(+b.dataset.bp)); });
+    el("bpRest").onclick = ()=>{ const c=compute({...CH.data,classId:CH.classId}); CH.data.resources[res.id].current=c.bpMax; setDirty(true); renderBp(c); };
+  }
+}
+
+function refresh(){ // light re-render after structural change
+  const scroll = window.scrollY; drawSheet(); window.scrollTo(0,scroll);
+  setDirty(dirty); // preserve dirty state visually
+}
+
+function renderAbils(cp){
+  el("abils").innerHTML = ABILS.map(a=>{
+    const buffed = cp.total[a] !== (CH.data.baseScores[a]||10);
+    return `<div class="abil"><div class="nm">${ABIL_NAME[a]}</div>
+      <input type="number" min="1" max="30" value="${CH.data.baseScores[a]||10}" data-ab="${a}">
+      <div class="tot ${buffed?"buffed":""}">${cp.total[a]} (${fmt(cp.m[a])})</div></div>`;
+  }).join("");
+  el("abils").querySelectorAll("input").forEach(i=>i.oninput=e=>{
+    CH.data.baseScores[e.target.dataset.ab]=parseInt(e.target.value||"10",10); setDirty(true); refresh();
+  });
+}
+function renderStyles(cp){
+  el("styles").innerHTML = cp.cls.subclass.options.map(o=>
+    `<button class="stylebtn ${CH.data.subclassChoice===o.id?"active":""}" data-st="${o.id}" style="--c:${o.color}">
+      <span class="dot" style="background:${o.color}"></span>${o.name}</button>`).join("");
+  el("styles").querySelectorAll("button").forEach(b=>b.onclick=()=>{
+    CH.data.subclassChoice = CH.data.subclassChoice===b.dataset.st ? null : b.dataset.st; setDirty(true); refresh();
+  });
+}
+function renderSaves(cp){
+  el("saves").innerHTML = ABILS.map(a=>
+    `<tr><td class="${cp.saveProf.has(a)?"prof":""}">${cp.saveProf.has(a)?"●":"○"} ${ABIL_NAME[a]}</td>
+     <td class="r">${fmt(cp.saves[a])}</td></tr>`).join("");
+}
+function renderStats(cp){
+  const cards = [["Proficiency",fmt(cp.pb)],["Unarmored AC",cp.ac],["Attacks",cp.attacks],
+    ["Initiative",fmt(cp.initiative)],["Speed",cp.speed+"<small> ft</small>"],["Hit Die",cp.lvl+"<small>d"+cp.cls.hitDie+"</small>"]];
+  el("stats").innerHTML = cards.map(([k,v])=>`<div class="stat"><div class="k">${k}</div><div class="v">${v}</div></div>`).join("");
+}
+function renderHp(cp){
+  CH.data.hp.current = Math.min(CH.data.hp.current ?? cp.hpMax, cp.hpMax);
+  el("hpView").textContent = `${CH.data.hp.current} / ${cp.hpMax}`;
+}
+function adjustHp(n){ const cp=compute({...CH.data,classId:CH.classId});
+  CH.data.hp.current = Math.max(0, Math.min(cp.hpMax,(CH.data.hp.current??cp.hpMax)+n)); setDirty(true); renderHp(cp); }
+function renderBp(cp){
+  const res=cp.cls.resources[0]; let cur=CH.data.resources[res.id]?.current||0; cur=Math.min(cur,cp.bpMax);
+  CH.data.resources[res.id]={current:cur};
+  el("bpCur").textContent=cur; el("bpMax").textContent=cp.bpMax;
+  el("orbs").innerHTML = cp.bpMax? Array.from({length:cp.bpMax},(_,i)=>`<span class="orb ${i<cur?"full":""}"></span>`).join("") : `<span class="muted" style="font-size:12px">None until level ${res.minLevel}.</span>`;
+}
+function adjustBp(n){ const cp=compute({...CH.data,classId:CH.classId}); const res=cp.cls.resources[0];
+  let cur=(CH.data.resources[res.id]?.current||0)+n; cur=Math.max(0,Math.min(cp.bpMax,cur));
+  CH.data.resources[res.id]={current:cur}; setDirty(true); renderBp(cp); }
+function renderSkills(cp){
+  el("skills").innerHTML = Object.keys(SKILLS).sort().map(s=>{
+    const sk=cp.skills[s], nm=s.replace(/-/g," ").replace(/\b\w/g,c=>c.toUpperCase());
+    return `<tr><td class="${sk.prof?"prof":""}">${sk.prof?"●":"○"} ${nm} <span class="muted">(${ABIL_NAME[sk.abil]})</span></td>
+      <td class="r">${fmt(sk.value)}</td></tr>`;
+  }).join("");
+}
+function renderBaseFeats(cp){
+  el("baseFeats").innerHTML = cp.cls.features.map(f=>{
+    const locked=f.level>cp.lvl;
+    return `<div class="feat ${locked?"locked":""}"><h3><span class="lv">Lv ${f.level}</span>${f.name}</h3><p>${f.text}</p></div>`;
+  }).join("");
+}
+function renderForms(cp){
+  const o = cp.cls.subclass.options.find(x=>x.id===CH.data.subclassChoice);
+  el("formTitle").textContent = o ? o.name+" — Forms" : "Breath Forms";
+  el("forms").innerHTML = o ? o.forms.map(f=>{
+    const locked=f.level>cp.lvl;
+    return `<div class="feat ${locked?"locked":""}"><h3><span class="lv">Lv ${f.level}</span>${f.name}</h3><p>${f.text}</p></div>`;
+  }).join("") : `<div class="muted">Choose a ${cp.cls.subclass.label} to see its forms.</div>`;
+}
+function renderGranted(cp){
+  el("granted").innerHTML = (cp.grantedAbilities.length||cp.takenFeats.length)
+    ? [...cp.takenFeats.map(f=>`<div class="feat"><h3>${f.name} <span class="muted" style="font-size:11px">feat</span></h3><p>${f.description||""}</p></div>`),
+       ...cp.grantedAbilities.map(a=>`<div class="feat"><h3>${a.name} <span class="muted" style="font-size:11px">item</span></h3><p>${a.text||""}</p></div>`)].join("")
+    : `<div class="muted">None. Feats and item-granted abilities show here.</div>`;
+}
+
+/* ---- advancement (ASI / feat) ---- */
+function renderAdvance(cp){
+  const reached = cp.cls.asiLevels.filter(L=>L<=cp.lvl);
+  if(!reached.length){ el("advance").innerHTML = `<div class="muted">First choice at level ${cp.cls.asiLevels[0]}.</div>`; return; }
+  CH.data.advancements = CH.data.advancements||[];
+  el("advance").innerHTML = reached.map(L=>{
+    const adv = CH.data.advancements.find(a=>a.level===L) || {level:L,kind:null};
+    return advSlot(adv,L);
+  }).join("");
+  // wire
+  el("advance").querySelectorAll("[data-adv-kind]").forEach(sel=>sel.onchange=e=>{
+    const L=+e.target.dataset.advKind; setAdv(L,{level:L,kind:e.target.value, plus:{}, featId:(e.target.value==="feat"?FEATS[0].id:undefined)}); refresh();
+  });
+  el("advance").querySelectorAll("[data-asi-ab]").forEach(sel=>sel.onchange=e=>{
+    const L=+e.target.dataset.asiL; const which=e.target.dataset.asiAb; const a=getAdv(L);
+    a.plus={}; if(e.target.value) a.plus[e.target.value]=(which==="single"?2:1);
+    if(which!=="single"){ // two-stat: combine both selects
+      const o=el("advance").querySelector(`[data-asi-ab="other"][data-asi-l="${L}"]`);
+      a.plus={}; const v1=el("advance").querySelector(`[data-asi-ab="first"][data-asi-l="${L}"]`)?.value;
+      const v2=o?.value; if(v1) a.plus[v1]=(a.plus[v1]||0)+1; if(v2) a.plus[v2]=(a.plus[v2]||0)+1;
+    }
+    setAdv(L,a); refresh();
+  });
+  el("advance").querySelectorAll("[data-asi-mode]").forEach(sel=>sel.onchange=e=>{
+    const L=+e.target.dataset.asiMode; const a=getAdv(L); a.mode=e.target.value; a.plus={}; setAdv(L,a); refresh();
+  });
+  el("advance").querySelectorAll("[data-feat-sel]").forEach(sel=>sel.onchange=e=>{
+    const L=+e.target.dataset.featSel; const a=getAdv(L); a.featId=e.target.value; a.custom=null; setAdv(L,a); refresh();
+  });
+}
+function advSlot(adv,L){
+  const kind = adv.kind;
+  let inner="";
+  if(kind==="asi"){
+    const mode = adv.mode || "single";
+    const opt = sel=>ABILS.map(a=>`<option value="${a}" ${sel===a?"selected":""}>${ABIL_NAME[a]}</option>`).join("");
+    inner = `<div class="row" style="margin-top:8px">
+      <select data-asi-mode="${L}"><option value="single" ${mode==="single"?"selected":""}>+2 one</option><option value="double" ${mode==="double"?"selected":""}>+1 / +1</option></select>
+      ${mode==="single"
+        ? `<select data-asi-ab="single" data-asi-l="${L}"><option value="">—</option>${opt(Object.keys(adv.plus||{})[0])}</select>`
+        : `<select data-asi-ab="first" data-asi-l="${L}"><option value="">—</option>${opt(Object.keys(adv.plus||{})[0])}</select>
+           <select data-asi-ab="other" data-asi-l="${L}"><option value="">—</option>${opt(Object.keys(adv.plus||{})[1])}</select>`}
+    </div>`;
+  } else if(kind==="feat"){
+    inner = `<div class="row" style="margin-top:8px">
+      <select data-feat-sel="${L}">${FEATS.map(f=>`<option value="${f.id}" ${adv.featId===f.id?"selected":""}>${f.name}</option>`).join("")}</select>
+    </div><p class="muted" style="font-size:12px;margin-top:6px">${FEAT_BY_ID[adv.featId]?.description||""}</p>`;
+  }
+  return `<div class="adv-slot"><div class="row" style="justify-content:space-between">
+      <b>Level ${L}</b>
+      <select data-adv-kind="${L}"><option value="">— choose —</option>
+        <option value="asi" ${kind==="asi"?"selected":""}>Ability Score Improvement</option>
+        <option value="feat" ${kind==="feat"?"selected":""}>Feat</option></select>
+    </div>${inner}</div>`;
+}
+function getAdv(L){ let a=CH.data.advancements.find(x=>x.level===L); if(!a){a={level:L,kind:null};CH.data.advancements.push(a);} return a; }
+function setAdv(L,obj){ CH.data.advancements = CH.data.advancements.filter(a=>a.level!==L); CH.data.advancements.push(obj); setDirty(true); }
+
+/* ---- inventory ---- */
+function newItem(){ return {id:"it"+Date.now(),name:"",type:"wondrous",description:"",value:0,quantity:1,equipped:true,modifiers:[]}; }
+const MOD_TARGETS = [...ABILS,"ac","hp","speed","initiative","attack","damage",
+  ...Object.keys(SKILLS).map(s=>"skill:"+s),...ABILS.map(a=>"save:"+a)];
+function renderInventory(){
+  const inv=CH.data.inventory||[];
+  el("inv").innerHTML = inv.length ? inv.map((it,idx)=>itemCard(it,idx)).join("") : `<div class="muted">Empty. Add items the DM grants.</div>`;
+  // wire item fields
+  el("inv").querySelectorAll("[data-it-field]").forEach(inp=>inp.oninput=e=>{
+    const i=+e.target.dataset.itIdx, f=e.target.dataset.itField;
+    CH.data.inventory[i][f] = (f==="value"||f==="quantity")?(+e.target.value||0):e.target.value; setDirty(true);
+  });
+  el("inv").querySelectorAll("[data-it-eq]").forEach(inp=>inp.onchange=e=>{
+    CH.data.inventory[+e.target.dataset.itIdx].equipped=e.target.checked; setDirty(true); refresh();
+  });
+  el("inv").querySelectorAll("[data-it-del]").forEach(b=>b.onclick=()=>{
+    CH.data.inventory.splice(+b.dataset.itDel,1); setDirty(true); renderInventory(); refresh();
+  });
+  el("inv").querySelectorAll("[data-addmod]").forEach(b=>b.onclick=()=>{
+    CH.data.inventory[+b.dataset.addmod].modifiers.push({kind:"stat",target:"str",value:1}); setDirty(true); renderInventory(); refresh();
+  });
+  wireModRows();
+}
+function itemCard(it,idx){
+  return `<div class="item">
+    <div class="hd">
+      <input data-it-field="name" data-it-idx="${idx}" value="${it.name||""}" placeholder="Item name" style="flex:2;min-width:140px">
+      <input data-it-field="type" data-it-idx="${idx}" value="${it.type||""}" placeholder="type" style="flex:1;min-width:90px">
+      <label class="chk"><input type="checkbox" data-it-eq data-it-idx="${idx}" ${it.equipped?"checked":""}> equipped</label>
+      <button class="act tiny ghost" data-it-del="${idx}">✕</button>
+    </div>
+    <div class="row" style="margin-top:6px">
+      <input data-it-field="quantity" data-it-idx="${idx}" type="number" value="${it.quantity||1}" style="width:70px" title="qty">
+      <input data-it-field="value" data-it-idx="${idx}" type="number" value="${it.value||0}" style="width:90px" title="value (gp)">
+      <input data-it-field="description" data-it-idx="${idx}" value="${(it.description||"").replace(/"/g,"&quot;")}" placeholder="description" style="flex:1;min-width:160px">
+    </div>
+    <div style="margin-top:8px"><div class="label" style="margin:0 0 4px">Modifiers</div>
+      ${(it.modifiers||[]).map((m,mi)=>modRow(idx,mi,m)).join("")}
+      <button class="act tiny" data-addmod="${idx}" style="margin-top:6px">+ modifier</button>
+    </div>
+  </div>`;
+}
+function modRow(itIdx,mi,m){
+  const targetSel = `<select data-mod data-it="${itIdx}" data-mi="${mi}" data-field="target">${MOD_TARGETS.map(t=>`<option value="${t}" ${m.target===t?"selected":""}>${t}</option>`).join("")}</select>`;
+  if(m.kind==="ability"){
+    return `<div class="modrow">
+      <select data-mod data-it="${itIdx}" data-mi="${mi}" data-field="kind">${modKindOpts(m.kind)}</select>
+      <input data-mod data-it="${itIdx}" data-mi="${mi}" data-field="name" value="${m.name||""}" placeholder="ability name">
+      <input data-mod data-it="${itIdx}" data-mi="${mi}" data-field="text" value="${(m.text||"").replace(/"/g,"&quot;")}" placeholder="what it does" style="grid-column:span 2">
+      <button class="act tiny ghost" data-moddel data-it="${itIdx}" data-mi="${mi}">✕</button></div>`;
+  }
+  if(m.kind==="proficiency"){
+    const profTargets=[...Object.keys(SKILLS).map(s=>"skill:"+s),...ABILS.map(a=>"save:"+a)];
+    return `<div class="modrow">
+      <select data-mod data-it="${itIdx}" data-mi="${mi}" data-field="kind">${modKindOpts(m.kind)}</select>
+      <select data-mod data-it="${itIdx}" data-mi="${mi}" data-field="target" style="grid-column:span 2">${profTargets.map(t=>`<option value="${t}" ${m.target===t?"selected":""}>${t}</option>`).join("")}</select>
+      <span></span><button class="act tiny ghost" data-moddel data-it="${itIdx}" data-mi="${mi}">✕</button></div>`;
+  }
+  return `<div class="modrow">
+    <select data-mod data-it="${itIdx}" data-mi="${mi}" data-field="kind">${modKindOpts(m.kind)}</select>
+    ${targetSel}
+    <input data-mod data-it="${itIdx}" data-mi="${mi}" data-field="value" type="number" value="${m.value||0}">
+    <label class="chk"><input type="checkbox" data-mod data-it="${itIdx}" data-mi="${mi}" data-field="perLevel" ${m.perLevel?"checked":""}> /lvl</label>
+    <button class="act tiny ghost" data-moddel data-it="${itIdx}" data-mi="${mi}">✕</button></div>`;
+}
+function modKindOpts(k){ return [["stat","stat"],["proficiency","proficiency"],["ability","ability"]]
+  .map(([v,l])=>`<option value="${v}" ${k===v?"selected":""}>${l}</option>`).join(""); }
+function wireModRows(){
+  el("inv").querySelectorAll("[data-mod]").forEach(inp=>{
+    const handler=e=>{
+      const it=+e.target.dataset.it, mi=+e.target.dataset.mi, f=e.target.dataset.field;
+      const m=CH.data.inventory[it].modifiers[mi];
+      if(f==="kind"){ m.kind=e.target.value; if(m.kind==="ability"){m.name=m.name||"";m.text=m.text||"";} else if(m.kind==="proficiency"){m.target="skill:stealth";} else {m.target="str";m.value=m.value||1;} renderInventory(); refresh(); return; }
+      if(f==="value") m.value=+e.target.value||0;
+      else if(f==="perLevel") m.perLevel=e.target.checked;
+      else m[f]=e.target.value;
+      setDirty(true); refresh();
+    };
+    inp.onchange=handler; if(inp.type==="number"||inp.tagName==="INPUT") inp.oninput=handler;
+  });
+  el("inv").querySelectorAll("[data-moddel]").forEach(b=>b.onclick=()=>{
+    CH.data.inventory[+b.dataset.it].modifiers.splice(+b.dataset.mi,1); setDirty(true); renderInventory(); refresh();
+  });
+}
+
+/* ============================================================
+   SAVE
+   ============================================================ */
+async function save(payload, isCreate){
+  let key = EDIT_KEY;
+  if(!isCreate){ const f=el("editKey"); if(f && f.value && f.value!=="********") key=f.value; }
+  if(!key) throw new Error("Enter the edit key to save.");
+  const out = await api("/characters/"+encodeURIComponent(payload.slug),{
+    method:"PUT", headers:{"Content-Type":"application/json","X-Edit-Key":key},
+    body: JSON.stringify({name:payload.name, classId:payload.classId, data:payload.data})
+  });
+  EDIT_KEY = key;
+  return out;
+}
+async function doSave(){
+  const m=el("saveMsg"); m.textContent="Saving…"; m.className="muted";
+  try{
+    await save(CH, false);
+    // remember key?
+    try{ if(el("rememberKey").checked) localStorage.setItem("dnd_edit_key",EDIT_KEY); else localStorage.removeItem("dnd_edit_key"); }catch(e){}
+    el("editKey").value = EDIT_KEY?"********":"";
+    setDirty(false); m.textContent="Saved."; m.className="msg ok"; setTimeout(()=>m.textContent="",2500);
+  }catch(e){ m.textContent=e.message; m.className="msg err"; }
+}
+
+window.addEventListener("beforeunload",e=>{ if(dirty){ e.preventDefault(); e.returnValue=""; } });
+
+/* go */
+route();
+</script>
+</body>
+</html>
