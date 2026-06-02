@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T12:30:08.730446-04:00",
+  "generated_at": "2026-06-02T12:45:05.549312-04:00",
   "summary": {
     "total_pl_dollars": -10.98,
     "wins": 16,
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 18.12,
-      "current_price": 21.02,
-      "unrealized_pct": 0.10923482849604224,
-      "unrealized_dollars": 0.95
+      "current_price": 21.035,
+      "unrealized_pct": 0.11002638522427445,
+      "unrealized_dollars": 0.96
     },
     {
       "ticker": "JZXN",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.44,
-      "current_price": 1.265,
-      "unrealized_pct": -0.04166666666666679,
-      "unrealized_dollars": -0.35
+      "current_price": 1.2646,
+      "unrealized_pct": -0.04196969696969705,
+      "unrealized_dollars": -0.36
     },
     {
       "ticker": "DAIO",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.13,
-      "current_price": 4.175,
-      "unrealized_pct": 0.023284313725490134,
-      "unrealized_dollars": 0.2
+      "current_price": 4.2,
+      "unrealized_pct": 0.029411764705882377,
+      "unrealized_dollars": 0.26
     },
     {
       "ticker": "EZRA",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.24,
-      "current_price": 3.84,
-      "unrealized_pct": -0.012853470437018063,
-      "unrealized_dollars": -0.03
+      "current_price": 3.89,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
     },
     {
       "ticker": "BOSC",
@@ -115,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.86,
-      "current_price": 4.6009,
-      "unrealized_pct": 0.3145428571428572,
-      "unrealized_dollars": 3.03
+      "current_price": 4.61,
+      "unrealized_pct": 0.3171428571428572,
+      "unrealized_dollars": 3.06
     },
     {
       "ticker": "LNKS",
