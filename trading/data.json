@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T11:00:05.470809-04:00",
+  "generated_at": "2026-06-02T11:15:06.111144-04:00",
   "summary": {
     "total_pl_dollars": -10.98,
     "wins": 16,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 18.12,
-      "current_price": 21.23,
-      "unrealized_pct": 0.12031662269129294,
-      "unrealized_dollars": 1.05
+      "current_price": 20.97,
+      "unrealized_pct": 0.10659630606860157,
+      "unrealized_dollars": 0.93
     },
     {
       "ticker": "JZXN",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.44,
-      "current_price": 1.32,
-      "unrealized_pct": 0.0,
-      "unrealized_dollars": null
+      "current_price": 1.325,
+      "unrealized_pct": 0.003787878787878707,
+      "unrealized_dollars": 0.03
     },
     {
       "ticker": "DAIO",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.13,
-      "current_price": 4.2,
-      "unrealized_pct": 0.029411764705882377,
-      "unrealized_dollars": 0.26
+      "current_price": 4.15,
+      "unrealized_pct": 0.01715686274509811,
+      "unrealized_dollars": 0.15
     },
     {
       "ticker": "EZRA",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.24,
-      "current_price": 3.905,
-      "unrealized_pct": 0.003856041131105316,
-      "unrealized_dollars": 0.01
+      "current_price": 3.8612,
+      "unrealized_pct": -0.007403598971722348,
+      "unrealized_dollars": -0.01
     },
     {
       "ticker": "BOSC",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.24,
-      "unrealized_pct": -0.03636363636363639,
-      "unrealized_dollars": -0.18
+      "current_price": 4.1901,
+      "unrealized_pct": -0.04770454545454549,
+      "unrealized_dollars": -0.23
     },
     {
       "ticker": "THCH",
@@ -115,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.56,
-      "unrealized_pct": 0.06790799561883895,
-      "unrealized_dollars": 0.55
+      "current_price": 1.59,
+      "unrealized_pct": 0.08844468784227819,
+      "unrealized_dollars": 0.71
     }
   ],
   "closed_trades": [
