@@ -1,12 +1,26 @@
 {
-  "generated_at": "2026-06-02T09:00:05.762161-04:00",
+  "generated_at": "2026-06-02T09:15:05.581421-04:00",
   "summary": {
     "total_pl_dollars": -9.24,
     "wins": 16,
     "losses": 32,
-    "open_count": 8
+    "open_count": 9
   },
   "open_trades": [
+    {
+      "ticker": "ELMT",
+      "entry_price": 18.95,
+      "stop_loss_price": 18.7541,
+      "profit_target_price": 22.5,
+      "position_size_dollars": 8.73,
+      "entry_timestamp": "2026-06-02T13:03:16.825188",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 18.12,
+      "current_price": 18.95,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
+    },
     {
       "ticker": "JZXN",
       "entry_price": 1.32,
