@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T13:00:05.872169-04:00",
+  "generated_at": "2026-06-02T13:15:05.967490-04:00",
   "summary": {
     "total_pl_dollars": -10.98,
     "wins": 16,
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 18.12,
-      "current_price": 20.95,
-      "unrealized_pct": 0.10554089709762533,
-      "unrealized_dollars": 0.92
+      "current_price": 21.605,
+      "unrealized_pct": 0.1401055408970977,
+      "unrealized_dollars": 1.22
     },
     {
       "ticker": "JZXN",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.44,
-      "current_price": 1.28,
-      "unrealized_pct": -0.030303030303030328,
-      "unrealized_dollars": -0.26
+      "current_price": 1.31,
+      "unrealized_pct": -0.007575757575757582,
+      "unrealized_dollars": -0.06
     },
     {
       "ticker": "DAIO",
@@ -115,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.86,
-      "current_price": 4.61,
-      "unrealized_pct": 0.3171428571428572,
-      "unrealized_dollars": 3.06
+      "current_price": 4.6,
+      "unrealized_pct": 0.31428571428571417,
+      "unrealized_dollars": 3.03
     },
     {
       "ticker": "LNKS",
@@ -129,9 +129,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.52,
-      "unrealized_pct": 0.04052573932091998,
-      "unrealized_dollars": 0.33
+      "current_price": 1.5808,
+      "unrealized_pct": 0.08214676889375676,
+      "unrealized_dollars": 0.66
     }
   ],
   "closed_trades": [
