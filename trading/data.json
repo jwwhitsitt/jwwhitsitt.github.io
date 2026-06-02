@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T09:15:05.581421-04:00",
+  "generated_at": "2026-06-02T09:30:05.844225-04:00",
   "summary": {
     "total_pl_dollars": -9.24,
     "wins": 16,
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.13,
-      "current_price": 4.26,
-      "unrealized_pct": 0.044117647058823456,
-      "unrealized_dollars": 0.39
+      "current_price": 4.25,
+      "unrealized_pct": 0.04166666666666665,
+      "unrealized_dollars": 0.36
     },
     {
       "ticker": "STG",
