@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T15:15:05.494306-04:00",
+  "generated_at": "2026-06-02T15:30:06.022947-04:00",
   "summary": {
     "total_pl_dollars": -10.98,
     "wins": 16,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 11.0,
-      "current_price": 2.19,
-      "unrealized_pct": 0.0045871559633026545,
-      "unrealized_dollars": 0.04
+      "current_price": 2.25,
+      "unrealized_pct": 0.03211009174311919,
+      "unrealized_dollars": 0.26
     },
     {
       "ticker": "ELMT",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 18.12,
-      "current_price": 21.93,
-      "unrealized_pct": 0.15725593667546178,
-      "unrealized_dollars": 1.37
+      "current_price": 22.07,
+      "unrealized_pct": 0.16464379947229557,
+      "unrealized_dollars": 1.44
     },
     {
       "ticker": "JZXN",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.44,
-      "current_price": 1.2801,
-      "unrealized_pct": -0.030227272727272762,
-      "unrealized_dollars": -0.26
+      "current_price": 1.295,
+      "unrealized_pct": -0.01893939393939404,
+      "unrealized_dollars": -0.16
     },
     {
       "ticker": "DAIO",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.13,
-      "current_price": 4.1184,
-      "unrealized_pct": 0.009411764705882404,
-      "unrealized_dollars": 0.08
+      "current_price": 4.155,
+      "unrealized_pct": 0.018382352941176513,
+      "unrealized_dollars": 0.16
     },
     {
       "ticker": "EZRA",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.24,
-      "current_price": 3.85,
-      "unrealized_pct": -0.010282776349614406,
-      "unrealized_dollars": -0.02
+      "current_price": 3.9,
+      "unrealized_pct": 0.002570694087403544,
+      "unrealized_dollars": 0.01
     },
     {
       "ticker": "BOSC",
