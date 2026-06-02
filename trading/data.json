@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T13:45:06.009771-04:00",
+  "generated_at": "2026-06-02T14:00:06.093664-04:00",
   "summary": {
     "total_pl_dollars": -10.98,
     "wins": 16,
@@ -31,8 +31,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 18.12,
-      "current_price": 21.995,
-      "unrealized_pct": 0.16068601583113465,
+      "current_price": 21.9917,
+      "unrealized_pct": 0.16051187335092362,
       "unrealized_dollars": 1.4
     },
     {
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.44,
-      "current_price": 1.29,
-      "unrealized_pct": -0.022727272727272745,
-      "unrealized_dollars": -0.19
+      "current_price": 1.32,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
     },
     {
       "ticker": "DAIO",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.22,
-      "unrealized_pct": -0.04090909090909104,
-      "unrealized_dollars": -0.2
+      "current_price": 4.21,
+      "unrealized_pct": -0.043181818181818266,
+      "unrealized_dollars": -0.21
     },
     {
       "ticker": "THCH",
@@ -115,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.86,
-      "current_price": 4.655,
-      "unrealized_pct": 0.33000000000000007,
-      "unrealized_dollars": 3.18
+      "current_price": 4.62,
+      "unrealized_pct": 0.32,
+      "unrealized_dollars": 3.08
     },
     {
       "ticker": "LNKS",
