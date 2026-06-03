@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T15:30:05.668127-04:00",
+  "generated_at": "2026-06-03T15:45:04.839052-04:00",
   "summary": {
     "total_pl_dollars": -8.39,
     "wins": 15,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.35,
-      "current_price": 1.7399,
-      "unrealized_pct": 0.1409180327868853,
-      "unrealized_dollars": 0.28
+      "current_price": 1.7599,
+      "unrealized_pct": 0.154032786885246,
+      "unrealized_dollars": 0.31
     },
     {
       "ticker": "ELMT",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 18.12,
-      "current_price": 19.3001,
-      "unrealized_pct": 0.018474934036939377,
-      "unrealized_dollars": 0.16
+      "current_price": 19.4825,
+      "unrealized_pct": 0.028100263852242874,
+      "unrealized_dollars": 0.25
     },
     {
       "ticker": "JZXN",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.44,
-      "current_price": 1.21,
-      "unrealized_pct": -0.0833333333333334,
-      "unrealized_dollars": -0.71
+      "current_price": 1.22,
+      "unrealized_pct": -0.07575757575757582,
+      "unrealized_dollars": -0.64
     },
     {
       "ticker": "BOSC",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.25,
-      "unrealized_pct": -0.03409090909090917,
-      "unrealized_dollars": -0.17
+      "current_price": 4.26,
+      "unrealized_pct": -0.03181818181818195,
+      "unrealized_dollars": -0.15
     },
     {
       "ticker": "THCH",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.86,
-      "current_price": 4.51,
-      "unrealized_pct": 0.28857142857142853,
-      "unrealized_dollars": 2.78
+      "current_price": 4.52,
+      "unrealized_pct": 0.2914285714285713,
+      "unrealized_dollars": 2.81
     },
     {
       "ticker": "LNKS",
