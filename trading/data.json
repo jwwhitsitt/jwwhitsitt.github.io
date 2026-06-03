@@ -1,26 +1,12 @@
 {
-  "generated_at": "2026-06-03T15:15:05.405550-04:00",
+  "generated_at": "2026-06-03T15:30:05.668127-04:00",
   "summary": {
-    "total_pl_dollars": -9.36,
+    "total_pl_dollars": -8.39,
     "wins": 15,
-    "losses": 33,
-    "open_count": 8
+    "losses": 32,
+    "open_count": 7
   },
   "open_trades": [
-    {
-      "ticker": "RNAZ",
-      "entry_price": 4.99,
-      "stop_loss_price": 3.85,
-      "profit_target_price": 4.99,
-      "position_size_dollars": 8.47,
-      "entry_timestamp": "2026-06-03T19:04:28.812435",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 0.0,
-      "current_price": 4.99,
-      "unrealized_pct": 0.0,
-      "unrealized_dollars": null
-    },
     {
       "ticker": "BNRG",
       "entry_price": 1.525,
@@ -31,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.35,
-      "current_price": 1.85,
-      "unrealized_pct": 0.21311475409836078,
-      "unrealized_dollars": 0.43
+      "current_price": 1.7399,
+      "unrealized_pct": 0.1409180327868853,
+      "unrealized_dollars": 0.28
     },
     {
       "ticker": "ELMT",
@@ -45,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 18.12,
-      "current_price": 19.42,
-      "unrealized_pct": 0.02480211081794208,
-      "unrealized_dollars": 0.22
+      "current_price": 19.3001,
+      "unrealized_pct": 0.018474934036939377,
+      "unrealized_dollars": 0.16
     },
     {
       "ticker": "JZXN",
@@ -59,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.44,
-      "current_price": 1.22,
-      "unrealized_pct": -0.07575757575757582,
-      "unrealized_dollars": -0.64
+      "current_price": 1.21,
+      "unrealized_pct": -0.0833333333333334,
+      "unrealized_dollars": -0.71
     },
     {
       "ticker": "BOSC",
@@ -73,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.255,
-      "unrealized_pct": -0.032954545454545556,
-      "unrealized_dollars": -0.16
+      "current_price": 4.25,
+      "unrealized_pct": -0.03409090909090917,
+      "unrealized_dollars": -0.17
     },
     {
       "ticker": "THCH",
@@ -115,12 +101,23 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.51,
-      "unrealized_pct": 0.03368017524644024,
+      "current_price": 1.5106,
+      "unrealized_pct": 0.034090909090908984,
       "unrealized_dollars": 0.27
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "RNAZ",
+      "entry_price": 4.99,
+      "exit_price": 4.99,
+      "exit_reason": "target_hit",
+      "pl_dollars": 0,
+      "pl_percent": 0.0,
+      "exit_timestamp": "2026-06-03T19:15:04.280951",
+      "setup_quality": "B",
+      "position_size_dollars": 8.47
+    },
     {
       "ticker": "LYEL",
       "entry_price": 12.995,
@@ -659,17 +656,6 @@
       "exit_timestamp": "2026-05-18T14:30:04.062735",
       "setup_quality": "B",
       "position_size_dollars": 9.03
-    },
-    {
-      "ticker": "LIVE",
-      "entry_price": 10.37,
-      "exit_price": 9.34,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -0.97,
-      "pl_percent": -0.099325,
-      "exit_timestamp": "2026-05-18T14:30:02.789999",
-      "setup_quality": "B",
-      "position_size_dollars": 9.77
     }
   ]
 }
