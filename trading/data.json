@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-03T12:30:05.884260-04:00",
+  "generated_at": "2026-06-03T12:45:05.484454-04:00",
   "summary": {
-    "total_pl_dollars": -10.01,
+    "total_pl_dollars": -9.36,
     "wins": 15,
     "losses": 33,
-    "open_count": 8
+    "open_count": 7
   },
   "open_trades": [
     {
@@ -17,23 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.35,
-      "current_price": 1.62,
-      "unrealized_pct": 0.06229508196721325,
-      "unrealized_dollars": 0.12
-    },
-    {
-      "ticker": "LYEL",
-      "entry_price": 12.995,
-      "stop_loss_price": 12.635,
-      "profit_target_price": 14.815,
-      "position_size_dollars": 8.5,
-      "entry_timestamp": "2026-06-03T15:04:27.318711",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 5.06,
-      "current_price": 12.5801,
-      "unrealized_pct": -0.03192766448634086,
-      "unrealized_dollars": -0.27
+      "current_price": 1.6693,
+      "unrealized_pct": 0.0946229508196722,
+      "unrealized_dollars": 0.19
     },
     {
       "ticker": "ELMT",
@@ -45,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 18.12,
-      "current_price": 20.24,
-      "unrealized_pct": 0.06807387862796829,
-      "unrealized_dollars": 0.59
+      "current_price": 19.9147,
+      "unrealized_pct": 0.05090765171503961,
+      "unrealized_dollars": 0.44
     },
     {
       "ticker": "JZXN",
@@ -59,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.44,
-      "current_price": 1.21,
-      "unrealized_pct": -0.0833333333333334,
-      "unrealized_dollars": -0.71
+      "current_price": 1.2,
+      "unrealized_pct": -0.09090909090909098,
+      "unrealized_dollars": -0.77
     },
     {
       "ticker": "BOSC",
@@ -101,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.86,
-      "current_price": 4.63,
-      "unrealized_pct": 0.32285714285714284,
-      "unrealized_dollars": 3.11
+      "current_price": 4.67,
+      "unrealized_pct": 0.33428571428571424,
+      "unrealized_dollars": 3.22
     },
     {
       "ticker": "LNKS",
@@ -121,6 +107,17 @@
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "LYEL",
+      "entry_price": 12.995,
+      "exit_price": 12.5801,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.27,
+      "pl_percent": -0.031928,
+      "exit_timestamp": "2026-06-03T16:30:04.618074",
+      "setup_quality": "B",
+      "position_size_dollars": 8.5
+    },
     {
       "ticker": "BMRA",
       "entry_price": 2.18,
@@ -659,17 +656,6 @@
       "exit_timestamp": "2026-05-18T14:30:02.789999",
       "setup_quality": "B",
       "position_size_dollars": 9.77
-    },
-    {
-      "ticker": "INBS",
-      "entry_price": 4.11,
-      "exit_price": 3.7024,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -0.92,
-      "pl_percent": -0.099173,
-      "exit_timestamp": "2026-05-18T14:00:03.900103",
-      "setup_quality": "A",
-      "position_size_dollars": 9.29
     }
   ]
 }
