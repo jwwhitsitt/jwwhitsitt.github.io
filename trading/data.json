@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T13:45:05.991957-04:00",
+  "generated_at": "2026-06-03T14:00:05.398385-04:00",
   "summary": {
     "total_pl_dollars": -9.36,
     "wins": 15,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.35,
-      "current_price": 1.6173,
-      "unrealized_pct": 0.06052459016393446,
-      "unrealized_dollars": 0.12
+      "current_price": 1.59,
+      "unrealized_pct": 0.042622950819672246,
+      "unrealized_dollars": 0.09
     },
     {
       "ticker": "ELMT",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 18.12,
-      "current_price": 19.895,
-      "unrealized_pct": 0.04986807387862798,
-      "unrealized_dollars": 0.44
+      "current_price": 19.81,
+      "unrealized_pct": 0.045382585751978864,
+      "unrealized_dollars": 0.4
     },
     {
       "ticker": "JZXN",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.44,
-      "current_price": 1.195,
-      "unrealized_pct": -0.0946969696969697,
-      "unrealized_dollars": -0.8
+      "current_price": 1.2,
+      "unrealized_pct": -0.09090909090909098,
+      "unrealized_dollars": -0.77
     },
     {
       "ticker": "BOSC",
@@ -101,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.52,
-      "unrealized_pct": 0.04052573932091998,
-      "unrealized_dollars": 0.33
+      "current_price": 1.525,
+      "unrealized_pct": 0.043948521358159784,
+      "unrealized_dollars": 0.35
     }
   ],
   "closed_trades": [
