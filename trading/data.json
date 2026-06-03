@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T12:45:05.484454-04:00",
+  "generated_at": "2026-06-03T13:00:04.980391-04:00",
   "summary": {
     "total_pl_dollars": -9.36,
     "wins": 15,
@@ -17,8 +17,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.35,
-      "current_price": 1.6693,
-      "unrealized_pct": 0.0946229508196722,
+      "current_price": 1.67,
+      "unrealized_pct": 0.09508196721311477,
       "unrealized_dollars": 0.19
     },
     {
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 18.12,
-      "current_price": 19.9147,
-      "unrealized_pct": 0.05090765171503961,
-      "unrealized_dollars": 0.44
+      "current_price": 19.92,
+      "unrealized_pct": 0.051187335092348414,
+      "unrealized_dollars": 0.45
     },
     {
       "ticker": "JZXN",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.86,
-      "current_price": 4.67,
-      "unrealized_pct": 0.33428571428571424,
-      "unrealized_dollars": 3.22
+      "current_price": 4.64,
+      "unrealized_pct": 0.3257142857142856,
+      "unrealized_dollars": 3.14
     },
     {
       "ticker": "LNKS",
@@ -101,8 +101,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.5101,
-      "unrealized_pct": 0.033748630887185035,
+      "current_price": 1.51,
+      "unrealized_pct": 0.03368017524644024,
       "unrealized_dollars": 0.27
     }
   ],
