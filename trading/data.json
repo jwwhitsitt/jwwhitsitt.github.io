@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-03T11:15:06.063680-04:00",
+  "generated_at": "2026-06-03T11:30:06.159528-04:00",
   "summary": {
-    "total_pl_dollars": -9.49,
-    "wins": 16,
-    "losses": 32,
-    "open_count": 9
+    "total_pl_dollars": -10.01,
+    "wins": 15,
+    "losses": 33,
+    "open_count": 8
   },
   "open_trades": [
     {
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.35,
-      "current_price": 1.5407,
-      "unrealized_pct": 0.010295081967213146,
-      "unrealized_dollars": 0.02
+      "current_price": 1.5101,
+      "unrealized_pct": -0.009770491803278632,
+      "unrealized_dollars": -0.02
     },
     {
       "ticker": "LYEL",
@@ -31,23 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.06,
-      "current_price": 13.06,
-      "unrealized_pct": 0.005001923816852734,
-      "unrealized_dollars": 0.04
-    },
-    {
-      "ticker": "BMRA",
-      "entry_price": 2.18,
-      "stop_loss_price": 2.17,
-      "profit_target_price": 2.29,
-      "position_size_dollars": 7.98,
-      "entry_timestamp": "2026-06-02T15:42:15.328577",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 11.0,
-      "current_price": 2.1699,
-      "unrealized_pct": -0.0046330275229357785,
-      "unrealized_dollars": -0.04
+      "current_price": 12.85,
+      "unrealized_pct": -0.011158137745286617,
+      "unrealized_dollars": -0.09
     },
     {
       "ticker": "ELMT",
@@ -59,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 18.12,
-      "current_price": 20.99,
-      "unrealized_pct": 0.1076517150395778,
-      "unrealized_dollars": 0.94
+      "current_price": 20.82,
+      "unrealized_pct": 0.09868073878627974,
+      "unrealized_dollars": 0.86
     },
     {
       "ticker": "JZXN",
@@ -73,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.44,
-      "current_price": 1.22,
-      "unrealized_pct": -0.07575757575757582,
-      "unrealized_dollars": -0.64
+      "current_price": 1.24,
+      "unrealized_pct": -0.060606060606060656,
+      "unrealized_dollars": -0.51
     },
     {
       "ticker": "BOSC",
@@ -87,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.26,
-      "unrealized_pct": -0.03181818181818195,
-      "unrealized_dollars": -0.15
+      "current_price": 4.274,
+      "unrealized_pct": -0.02863636363636371,
+      "unrealized_dollars": -0.14
     },
     {
       "ticker": "THCH",
@@ -115,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.86,
-      "current_price": 4.6401,
-      "unrealized_pct": 0.3257428571428572,
-      "unrealized_dollars": 3.14
+      "current_price": 4.671,
+      "unrealized_pct": 0.33457142857142863,
+      "unrealized_dollars": 3.23
     },
     {
       "ticker": "LNKS",
@@ -135,6 +121,17 @@
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "BMRA",
+      "entry_price": 2.18,
+      "exit_price": 2.1699,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.04,
+      "pl_percent": -0.004633,
+      "exit_timestamp": "2026-06-03T15:15:04.735326",
+      "setup_quality": "B",
+      "position_size_dollars": 7.98
+    },
     {
       "ticker": "DAIO",
       "entry_price": 4.08,
@@ -673,17 +670,6 @@
       "exit_timestamp": "2026-05-18T14:00:03.900103",
       "setup_quality": "A",
       "position_size_dollars": 9.29
-    },
-    {
-      "ticker": "STG",
-      "entry_price": 3.0,
-      "exit_price": 3.15,
-      "exit_reason": "target_hit",
-      "pl_dollars": 0.48,
-      "pl_percent": 0.05,
-      "exit_timestamp": "2026-05-15T19:45:03.966852",
-      "setup_quality": "B",
-      "position_size_dollars": 9.64
     }
   ]
 }
