@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T10:30:05.848009-04:00",
+  "generated_at": "2026-06-03T10:45:06.028774-04:00",
   "summary": {
     "total_pl_dollars": -9.49,
     "wins": 16,
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 18.12,
-      "current_price": 21.67,
-      "unrealized_pct": 0.14353562005277057,
-      "unrealized_dollars": 1.25
+      "current_price": 21.38,
+      "unrealized_pct": 0.12823218997361477,
+      "unrealized_dollars": 1.12
     },
     {
       "ticker": "JZXN",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.44,
-      "current_price": 1.25,
-      "unrealized_pct": -0.05303030303030307,
-      "unrealized_dollars": -0.45
+      "current_price": 1.24,
+      "unrealized_pct": -0.060606060606060656,
+      "unrealized_dollars": -0.51
     },
     {
       "ticker": "BOSC",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.86,
-      "current_price": 4.745,
-      "unrealized_pct": 0.35571428571428576,
-      "unrealized_dollars": 3.43
+      "current_price": 4.73,
+      "unrealized_pct": 0.35142857142857153,
+      "unrealized_dollars": 3.39
     },
     {
       "ticker": "LNKS",
@@ -101,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.52,
-      "unrealized_pct": 0.04052573932091998,
-      "unrealized_dollars": 0.33
+      "current_price": 1.5428,
+      "unrealized_pct": 0.05613362541073374,
+      "unrealized_dollars": 0.45
     }
   ],
   "closed_trades": [
