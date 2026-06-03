@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T12:00:09.565915-04:00",
+  "generated_at": "2026-06-03T12:15:05.303109-04:00",
   "summary": {
     "total_pl_dollars": -10.01,
     "wins": 15,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.35,
-      "current_price": 1.515,
-      "unrealized_pct": -0.006557377049180334,
-      "unrealized_dollars": -0.01
+      "current_price": 1.55,
+      "unrealized_pct": 0.016393442622950907,
+      "unrealized_dollars": 0.03
     },
     {
       "ticker": "LYEL",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.06,
-      "current_price": 12.781,
-      "unrealized_pct": -0.016467872258560882,
-      "unrealized_dollars": -0.14
+      "current_price": 12.6901,
+      "unrealized_pct": -0.02346287033474413,
+      "unrealized_dollars": -0.2
     },
     {
       "ticker": "ELMT",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 18.12,
-      "current_price": 20.8,
-      "unrealized_pct": 0.0976253298153035,
-      "unrealized_dollars": 0.85
+      "current_price": 20.42,
+      "unrealized_pct": 0.07757255936675475,
+      "unrealized_dollars": 0.68
     },
     {
       "ticker": "JZXN",
@@ -59,8 +59,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.44,
-      "current_price": 1.2202,
-      "unrealized_pct": -0.07560606060606069,
+      "current_price": 1.2199,
+      "unrealized_pct": -0.07583333333333339,
       "unrealized_dollars": -0.64
     },
     {
