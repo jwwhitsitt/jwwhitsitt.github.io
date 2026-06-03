@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-03T09:45:05.851934-04:00",
+  "generated_at": "2026-06-03T10:00:05.380448-04:00",
   "summary": {
-    "total_pl_dollars": -10.98,
+    "total_pl_dollars": -9.49,
     "wins": 16,
     "losses": 32,
-    "open_count": 9
+    "open_count": 7
   },
   "open_trades": [
     {
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 18.12,
-      "current_price": 20.83,
-      "unrealized_pct": 0.09920844327176775,
-      "unrealized_dollars": 0.87
+      "current_price": 20.72,
+      "unrealized_pct": 0.0934036939313984,
+      "unrealized_dollars": 0.82
     },
     {
       "ticker": "JZXN",
@@ -45,37 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.44,
-      "current_price": 1.245,
-      "unrealized_pct": -0.05681818181818178,
-      "unrealized_dollars": -0.48
-    },
-    {
-      "ticker": "DAIO",
-      "entry_price": 4.08,
-      "stop_loss_price": 3.93,
-      "profit_target_price": 4.4,
-      "position_size_dollars": 8.76,
-      "entry_timestamp": "2026-06-01T17:03:34.721414",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 2.13,
-      "current_price": 3.92,
-      "unrealized_pct": -0.03921568627450984,
-      "unrealized_dollars": -0.34
-    },
-    {
-      "ticker": "EZRA",
-      "entry_price": 3.89,
-      "stop_loss_price": 3.8005,
-      "profit_target_price": 4.18,
-      "position_size_dollars": 2.02,
-      "entry_timestamp": "2026-05-29T19:06:03.135718",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 3.24,
-      "current_price": 3.78,
-      "unrealized_pct": -0.02827763496143967,
-      "unrealized_dollars": -0.06
+      "current_price": 1.21,
+      "unrealized_pct": -0.0833333333333334,
+      "unrealized_dollars": -0.71
     },
     {
       "ticker": "BOSC",
@@ -87,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.27,
-      "unrealized_pct": -0.029545454545454722,
-      "unrealized_dollars": -0.14
+      "current_price": 4.26,
+      "unrealized_pct": -0.03181818181818195,
+      "unrealized_dollars": -0.15
     },
     {
       "ticker": "THCH",
@@ -129,12 +101,34 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.5001,
-      "unrealized_pct": 0.026903066812705292,
+      "current_price": 1.5,
+      "unrealized_pct": 0.0268346111719605,
       "unrealized_dollars": 0.22
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "DAIO",
+      "entry_price": 4.08,
+      "exit_price": 3.92,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.34,
+      "pl_percent": -0.039216,
+      "exit_timestamp": "2026-06-03T13:45:04.082759",
+      "setup_quality": "B",
+      "position_size_dollars": 8.76
+    },
+    {
+      "ticker": "EZRA",
+      "entry_price": 3.89,
+      "exit_price": 3.78,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.06,
+      "pl_percent": -0.028278,
+      "exit_timestamp": "2026-06-03T13:45:03.787031",
+      "setup_quality": "B",
+      "position_size_dollars": 2.02
+    },
     {
       "ticker": "STG",
       "entry_price": 4.57,
@@ -660,28 +654,6 @@
       "pl_dollars": 0.48,
       "pl_percent": 0.05,
       "exit_timestamp": "2026-05-15T19:45:03.966852",
-      "setup_quality": "B",
-      "position_size_dollars": 9.64
-    },
-    {
-      "ticker": "FAMI",
-      "entry_price": 1.445,
-      "exit_price": 1.22,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -1.58,
-      "pl_percent": -0.155709,
-      "exit_timestamp": "2026-05-15T15:45:02.718220",
-      "setup_quality": "B",
-      "position_size_dollars": 10.16
-    },
-    {
-      "ticker": "AKA",
-      "entry_price": 10.35,
-      "exit_price": 10.02,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -0.31,
-      "pl_percent": -0.031884,
-      "exit_timestamp": "2026-05-15T15:15:04.283074",
       "setup_quality": "B",
       "position_size_dollars": 9.64
     }
