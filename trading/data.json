@@ -1,12 +1,26 @@
 {
-  "generated_at": "2026-06-03T15:00:09.433655-04:00",
+  "generated_at": "2026-06-03T15:15:05.405550-04:00",
   "summary": {
     "total_pl_dollars": -9.36,
     "wins": 15,
     "losses": 33,
-    "open_count": 7
+    "open_count": 8
   },
   "open_trades": [
+    {
+      "ticker": "RNAZ",
+      "entry_price": 4.99,
+      "stop_loss_price": 3.85,
+      "profit_target_price": 4.99,
+      "position_size_dollars": 8.47,
+      "entry_timestamp": "2026-06-03T19:04:28.812435",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 0.0,
+      "current_price": 4.99,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
+    },
     {
       "ticker": "BNRG",
       "entry_price": 1.525,
@@ -17,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.35,
-      "current_price": 1.72,
-      "unrealized_pct": 0.12786885245901644,
-      "unrealized_dollars": 0.26
+      "current_price": 1.85,
+      "unrealized_pct": 0.21311475409836078,
+      "unrealized_dollars": 0.43
     },
     {
       "ticker": "ELMT",
@@ -31,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 18.12,
-      "current_price": 19.597,
-      "unrealized_pct": 0.034142480211081905,
-      "unrealized_dollars": 0.3
+      "current_price": 19.42,
+      "unrealized_pct": 0.02480211081794208,
+      "unrealized_dollars": 0.22
     },
     {
       "ticker": "JZXN",
@@ -59,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.262,
-      "unrealized_pct": -0.03136363636363654,
-      "unrealized_dollars": -0.15
+      "current_price": 4.255,
+      "unrealized_pct": -0.032954545454545556,
+      "unrealized_dollars": -0.16
     },
     {
       "ticker": "THCH",
@@ -73,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.65,
-      "current_price": 1.8,
-      "unrealized_pct": -0.010989010989010999,
-      "unrealized_dollars": -0.01
+      "current_price": 1.86,
+      "unrealized_pct": 0.021978021978021997,
+      "unrealized_dollars": 0.03
     },
     {
       "ticker": "TACT",
@@ -101,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.52,
-      "unrealized_pct": 0.04052573932091998,
-      "unrealized_dollars": 0.33
+      "current_price": 1.51,
+      "unrealized_pct": 0.03368017524644024,
+      "unrealized_dollars": 0.27
     }
   ],
   "closed_trades": [
