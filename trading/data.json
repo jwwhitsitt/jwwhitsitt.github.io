@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-04T12:45:05.871540-04:00",
+  "generated_at": "2026-06-04T13:00:10.504761-04:00",
   "summary": {
     "total_pl_dollars": -5.94,
     "wins": 14,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.22,
-      "current_price": 5.7072,
-      "unrealized_pct": 0.13350546176762665,
-      "unrealized_dollars": 1.18
+      "current_price": 5.4001,
+      "unrealized_pct": 0.0725124131082423,
+      "unrealized_dollars": 0.64
     },
     {
       "ticker": "BNRG",
@@ -31,8 +31,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.35,
-      "current_price": 1.5601,
-      "unrealized_pct": 0.02301639344262304,
+      "current_price": 1.56,
+      "unrealized_pct": 0.022950819672131244,
       "unrealized_dollars": 0.05
     },
     {
@@ -45,8 +45,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.44,
-      "current_price": 1.22,
-      "unrealized_pct": -0.07575757575757582,
+      "current_price": 1.2201,
+      "unrealized_pct": -0.07568181818181825,
       "unrealized_dollars": -0.64
     },
     {
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.2,
-      "unrealized_pct": -0.04545454545454549,
-      "unrealized_dollars": -0.22
+      "current_price": 4.1919,
+      "unrealized_pct": -0.04729545454545453,
+      "unrealized_dollars": -0.23
     },
     {
       "ticker": "THCH",
@@ -101,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.5,
-      "unrealized_pct": 0.0268346111719605,
-      "unrealized_dollars": 0.22
+      "current_price": 1.5297,
+      "unrealized_pct": 0.04716593647316536,
+      "unrealized_dollars": 0.38
     }
   ],
   "closed_trades": [
