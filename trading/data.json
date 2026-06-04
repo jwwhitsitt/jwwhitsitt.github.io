@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-04T10:00:10.546862-04:00",
+  "generated_at": "2026-06-04T10:15:05.247200-04:00",
   "summary": {
     "total_pl_dollars": -8.2,
     "wins": 15,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.44,
-      "current_price": 3.255,
-      "unrealized_pct": 0.0742574257425743,
-      "unrealized_dollars": 0.58
+      "current_price": 4.43,
+      "unrealized_pct": 0.46204620462046203,
+      "unrealized_dollars": 3.6
     },
     {
       "ticker": "NUWE",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 13.36,
-      "current_price": 0.51,
-      "unrealized_pct": 0.05046343975283218,
-      "unrealized_dollars": 0.43
+      "current_price": 0.5084,
+      "unrealized_pct": 0.047167868177136925,
+      "unrealized_dollars": 0.4
     },
     {
       "ticker": "BNRG",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.35,
-      "current_price": 1.5301,
-      "unrealized_pct": 0.003344262295082036,
-      "unrealized_dollars": 0.01
+      "current_price": 1.538,
+      "unrealized_pct": 0.008524590163934507,
+      "unrealized_dollars": 0.02
     },
     {
       "ticker": "JZXN",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.44,
-      "current_price": 1.19,
-      "unrealized_pct": -0.09848484848484856,
-      "unrealized_dollars": -0.84
+      "current_price": 1.1815,
+      "unrealized_pct": -0.10492424242424248,
+      "unrealized_dollars": -0.89
     },
     {
       "ticker": "BOSC",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.2699,
-      "unrealized_pct": -0.02956818181818194,
-      "unrealized_dollars": -0.14
+      "current_price": 4.215,
+      "unrealized_pct": -0.04204545454545466,
+      "unrealized_dollars": -0.2
     },
     {
       "ticker": "THCH",
@@ -115,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.5182,
-      "unrealized_pct": 0.03929353778751362,
-      "unrealized_dollars": 0.32
+      "current_price": 1.6,
+      "unrealized_pct": 0.09529025191675793,
+      "unrealized_dollars": 0.77
     }
   ],
   "closed_trades": [
