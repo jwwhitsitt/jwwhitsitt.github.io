@@ -1,26 +1,12 @@
 {
-  "generated_at": "2026-06-04T10:15:05.247200-04:00",
+  "generated_at": "2026-06-04T10:30:05.833755-04:00",
   "summary": {
-    "total_pl_dollars": -8.2,
-    "wins": 15,
-    "losses": 32,
-    "open_count": 8
+    "total_pl_dollars": -4.57,
+    "wins": 16,
+    "losses": 31,
+    "open_count": 7
   },
   "open_trades": [
-    {
-      "ticker": "RPGL",
-      "entry_price": 3.03,
-      "stop_loss_price": 2.53,
-      "profit_target_price": 3.65,
-      "position_size_dollars": 7.8,
-      "entry_timestamp": "2026-06-04T13:20:06.166454",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 1.44,
-      "current_price": 4.43,
-      "unrealized_pct": 0.46204620462046203,
-      "unrealized_dollars": 3.6
-    },
     {
       "ticker": "NUWE",
       "entry_price": 0.4855,
@@ -31,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 13.36,
-      "current_price": 0.5084,
-      "unrealized_pct": 0.047167868177136925,
-      "unrealized_dollars": 0.4
+      "current_price": 0.5018,
+      "unrealized_pct": 0.03357363542739451,
+      "unrealized_dollars": 0.28
     },
     {
       "ticker": "BNRG",
@@ -45,8 +31,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.35,
-      "current_price": 1.538,
-      "unrealized_pct": 0.008524590163934507,
+      "current_price": 1.54,
+      "unrealized_pct": 0.009836065573770574,
       "unrealized_dollars": 0.02
     },
     {
@@ -59,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.44,
-      "current_price": 1.1815,
-      "unrealized_pct": -0.10492424242424248,
-      "unrealized_dollars": -0.89
+      "current_price": 1.21,
+      "unrealized_pct": -0.0833333333333334,
+      "unrealized_dollars": -0.71
     },
     {
       "ticker": "BOSC",
@@ -73,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.215,
-      "unrealized_pct": -0.04204545454545466,
-      "unrealized_dollars": -0.2
+      "current_price": 4.195,
+      "unrealized_pct": -0.046590909090909106,
+      "unrealized_dollars": -0.23
     },
     {
       "ticker": "THCH",
@@ -101,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.86,
-      "current_price": 4.665,
-      "unrealized_pct": 0.33285714285714285,
-      "unrealized_dollars": 3.21
+      "current_price": 4.65,
+      "unrealized_pct": 0.3285714285714287,
+      "unrealized_dollars": 3.17
     },
     {
       "ticker": "LNKS",
@@ -115,12 +101,23 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.6,
-      "unrealized_pct": 0.09529025191675793,
-      "unrealized_dollars": 0.77
+      "current_price": 1.5751,
+      "unrealized_pct": 0.07824479737130328,
+      "unrealized_dollars": 0.63
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "RPGL",
+      "entry_price": 3.03,
+      "exit_price": 4.43,
+      "exit_reason": "target_hit",
+      "pl_dollars": 3.6,
+      "pl_percent": 0.462046,
+      "exit_timestamp": "2026-06-04T14:15:04.327646",
+      "setup_quality": "B",
+      "position_size_dollars": 7.8
+    },
     {
       "ticker": "ELMT",
       "entry_price": 18.95,
@@ -659,17 +656,6 @@
       "exit_timestamp": "2026-05-18T19:15:03.779647",
       "setup_quality": "B",
       "position_size_dollars": 9.45
-    },
-    {
-      "ticker": "JRSH",
-      "entry_price": 3.28,
-      "exit_price": 3.2113,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -0.03,
-      "pl_percent": -0.020945,
-      "exit_timestamp": "2026-05-18T15:30:03.444666",
-      "setup_quality": "B",
-      "position_size_dollars": 1.26
     }
   ]
 }
