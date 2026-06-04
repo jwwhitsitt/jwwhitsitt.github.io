@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-04T14:45:05.205243-04:00",
+  "generated_at": "2026-06-04T15:00:05.574914-04:00",
   "summary": {
     "total_pl_dollars": -6.2,
     "wins": 14,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.22,
-      "current_price": 5.4296,
-      "unrealized_pct": 0.07837140019860965,
-      "unrealized_dollars": 0.69
+      "current_price": 5.46,
+      "unrealized_pct": 0.0844091360476663,
+      "unrealized_dollars": 0.74
     },
     {
       "ticker": "BNRG",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.35,
-      "current_price": 1.5785,
-      "unrealized_pct": 0.03508196721311482,
-      "unrealized_dollars": 0.07
+      "current_price": 1.57,
+      "unrealized_pct": 0.029508196721311577,
+      "unrealized_dollars": 0.06
     },
     {
       "ticker": "JZXN",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.86,
-      "current_price": 4.675,
-      "unrealized_pct": 0.3357142857142857,
-      "unrealized_dollars": 3.24
+      "current_price": 4.6875,
+      "unrealized_pct": 0.3392857142857143,
+      "unrealized_dollars": 3.27
     },
     {
       "ticker": "LNKS",
@@ -101,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.5399,
-      "unrealized_pct": 0.054148411829134685,
-      "unrealized_dollars": 0.44
+      "current_price": 1.5599,
+      "unrealized_pct": 0.06783953997809417,
+      "unrealized_dollars": 0.55
     }
   ],
   "closed_trades": [
