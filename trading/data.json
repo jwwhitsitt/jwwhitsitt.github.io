@@ -1,12 +1,40 @@
 {
-  "generated_at": "2026-06-04T09:15:05.319669-04:00",
+  "generated_at": "2026-06-04T09:30:06.894103-04:00",
   "summary": {
     "total_pl_dollars": -8.39,
     "wins": 15,
     "losses": 32,
-    "open_count": 7
+    "open_count": 9
   },
   "open_trades": [
+    {
+      "ticker": "RPGL",
+      "entry_price": 3.03,
+      "stop_loss_price": 2.53,
+      "profit_target_price": 3.65,
+      "position_size_dollars": 7.8,
+      "entry_timestamp": "2026-06-04T13:20:06.166454",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.44,
+      "current_price": 3.03,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
+    },
+    {
+      "ticker": "NUWE",
+      "entry_price": 0.4855,
+      "stop_loss_price": 0.4765,
+      "profit_target_price": 0.6057,
+      "position_size_dollars": 8.47,
+      "entry_timestamp": "2026-06-04T13:20:06.118980",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 13.36,
+      "current_price": 0.4855,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
+    },
     {
       "ticker": "BNRG",
       "entry_price": 1.525,
