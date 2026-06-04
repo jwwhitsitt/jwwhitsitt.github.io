@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-04T09:30:06.894103-04:00",
+  "generated_at": "2026-06-04T09:45:06.288115-04:00",
   "summary": {
     "total_pl_dollars": -8.39,
     "wins": 15,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.44,
-      "current_price": 3.03,
-      "unrealized_pct": 0.0,
-      "unrealized_dollars": null
+      "current_price": 3.15,
+      "unrealized_pct": 0.03960396039603964,
+      "unrealized_dollars": 0.31
     },
     {
       "ticker": "NUWE",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 13.36,
-      "current_price": 0.4855,
-      "unrealized_pct": 0.0,
-      "unrealized_dollars": null
+      "current_price": 0.4901,
+      "unrealized_pct": 0.00947476828012357,
+      "unrealized_dollars": 0.08
     },
     {
       "ticker": "BNRG",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.35,
-      "current_price": 1.82,
-      "unrealized_pct": 0.1934426229508198,
-      "unrealized_dollars": 0.39
+      "current_price": 1.555,
+      "unrealized_pct": 0.019672131147541003,
+      "unrealized_dollars": 0.04
     },
     {
       "ticker": "ELMT",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 18.12,
-      "current_price": 19.83,
-      "unrealized_pct": 0.046437994722955095,
-      "unrealized_dollars": 0.41
+      "current_price": 19.105,
+      "unrealized_pct": 0.008179419525066024,
+      "unrealized_dollars": 0.07
     },
     {
       "ticker": "JZXN",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.44,
-      "current_price": 1.22,
-      "unrealized_pct": -0.07575757575757582,
-      "unrealized_dollars": -0.64
+      "current_price": 1.215,
+      "unrealized_pct": -0.07954545454545453,
+      "unrealized_dollars": -0.67
     },
     {
       "ticker": "BOSC",
@@ -101,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.65,
-      "current_price": 1.75,
-      "unrealized_pct": -0.03846153846153849,
-      "unrealized_dollars": -0.05
+      "current_price": 1.775,
+      "unrealized_pct": -0.024725274725274807,
+      "unrealized_dollars": -0.03
     },
     {
       "ticker": "TACT",
@@ -115,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.86,
-      "current_price": 4.56,
-      "unrealized_pct": 0.30285714285714277,
-      "unrealized_dollars": 2.92
+      "current_price": 4.665,
+      "unrealized_pct": 0.33285714285714285,
+      "unrealized_dollars": 3.21
     },
     {
       "ticker": "LNKS",
@@ -129,9 +129,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.53,
-      "unrealized_pct": 0.04737130339539973,
-      "unrealized_dollars": 0.38
+      "current_price": 1.46,
+      "unrealized_pct": -0.0005476451259584706,
+      "unrealized_dollars": -0.0
     }
   ],
   "closed_trades": [
