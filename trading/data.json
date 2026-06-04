@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-04T12:15:05.001375-04:00",
+  "generated_at": "2026-06-04T12:30:05.453771-04:00",
   "summary": {
     "total_pl_dollars": -5.94,
     "wins": 14,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.22,
-      "current_price": 5.46,
-      "unrealized_pct": 0.0844091360476663,
-      "unrealized_dollars": 0.74
+      "current_price": 5.385,
+      "unrealized_pct": 0.06951340615690162,
+      "unrealized_dollars": 0.61
     },
     {
       "ticker": "BNRG",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.35,
-      "current_price": 1.58,
-      "unrealized_pct": 0.03606557377049191,
-      "unrealized_dollars": 0.07
+      "current_price": 1.565,
+      "unrealized_pct": 0.026229508196721336,
+      "unrealized_dollars": 0.05
     },
     {
       "ticker": "JZXN",
@@ -101,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.515,
-      "unrealized_pct": 0.03710295728368004,
-      "unrealized_dollars": 0.3
+      "current_price": 1.53,
+      "unrealized_pct": 0.04737130339539973,
+      "unrealized_dollars": 0.38
     }
   ],
   "closed_trades": [
