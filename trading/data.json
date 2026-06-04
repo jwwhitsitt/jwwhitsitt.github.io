@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-04T13:15:05.651496-04:00",
+  "generated_at": "2026-06-04T13:30:05.268163-04:00",
   "summary": {
-    "total_pl_dollars": -5.94,
+    "total_pl_dollars": -5.68,
     "wins": 14,
     "losses": 33,
-    "open_count": 9
+    "open_count": 8
   },
   "open_trades": [
     {
@@ -17,23 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.52,
-      "current_price": 1.0001,
-      "unrealized_pct": -0.00872237089899883,
-      "unrealized_dollars": -0.08
-    },
-    {
-      "ticker": "CDTG",
-      "entry_price": 5.5,
-      "stop_loss_price": 4.5,
-      "profit_target_price": 15.12,
-      "position_size_dollars": 8.76,
-      "entry_timestamp": "2026-06-04T17:03:49.002403",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 9.62,
-      "current_price": 3.5,
-      "unrealized_pct": -0.36363636363636365,
-      "unrealized_dollars": -3.19
+      "current_price": 0.9989,
+      "unrealized_pct": -0.00991178511249866,
+      "unrealized_dollars": -0.09
     },
     {
       "ticker": "XOS",
@@ -45,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.22,
-      "current_price": 5.61,
-      "unrealized_pct": 0.11420059582919566,
-      "unrealized_dollars": 1.01
+      "current_price": 5.51,
+      "unrealized_pct": 0.09433962264150936,
+      "unrealized_dollars": 0.83
     },
     {
       "ticker": "BNRG",
@@ -59,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.35,
-      "current_price": 1.565,
-      "unrealized_pct": 0.026229508196721336,
-      "unrealized_dollars": 0.05
+      "current_price": 1.5401,
+      "unrealized_pct": 0.00990163934426237,
+      "unrealized_dollars": 0.02
     },
     {
       "ticker": "JZXN",
@@ -129,12 +115,23 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.515,
-      "unrealized_pct": 0.03710295728368004,
-      "unrealized_dollars": 0.3
+      "current_price": 1.51,
+      "unrealized_pct": 0.03368017524644024,
+      "unrealized_dollars": 0.27
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "CDTG",
+      "entry_price": 5.5,
+      "exit_price": 3.5,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -3.19,
+      "pl_percent": -0.363636,
+      "exit_timestamp": "2026-06-04T17:15:04.497806",
+      "setup_quality": "B",
+      "position_size_dollars": 8.76
+    },
     {
       "ticker": "SUGP",
       "entry_price": 1.1279,
@@ -673,17 +670,6 @@
       "exit_timestamp": "2026-05-19T17:15:04.600618",
       "setup_quality": "B",
       "position_size_dollars": 9.3
-    },
-    {
-      "ticker": "WOK",
-      "entry_price": 0.38,
-      "exit_price": 0.24,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -3.45,
-      "pl_percent": -0.368421,
-      "exit_timestamp": "2026-05-19T14:00:04.161914",
-      "setup_quality": "B",
-      "position_size_dollars": 9.36
     }
   ]
 }
