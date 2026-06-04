@@ -1,26 +1,12 @@
 {
-  "generated_at": "2026-06-04T14:15:05.730059-04:00",
+  "generated_at": "2026-06-04T14:30:08.021010-04:00",
   "summary": {
-    "total_pl_dollars": -5.68,
+    "total_pl_dollars": -6.2,
     "wins": 14,
     "losses": 33,
-    "open_count": 8
+    "open_count": 7
   },
   "open_trades": [
-    {
-      "ticker": "IQST",
-      "entry_price": 1.0089,
-      "stop_loss_price": 0.9755,
-      "profit_target_price": 1.16,
-      "position_size_dollars": 8.76,
-      "entry_timestamp": "2026-06-04T17:03:49.045080",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 4.52,
-      "current_price": 0.935,
-      "unrealized_pct": -0.07324809198136571,
-      "unrealized_dollars": -0.64
-    },
     {
       "ticker": "XOS",
       "entry_price": 5.035,
@@ -31,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.22,
-      "current_price": 5.56,
-      "unrealized_pct": 0.10427010923535242,
-      "unrealized_dollars": 0.92
+      "current_price": 5.46,
+      "unrealized_pct": 0.0844091360476663,
+      "unrealized_dollars": 0.74
     },
     {
       "ticker": "BNRG",
@@ -45,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.35,
-      "current_price": 1.5201,
-      "unrealized_pct": -0.003213114754098298,
-      "unrealized_dollars": -0.01
+      "current_price": 1.59,
+      "unrealized_pct": 0.042622950819672246,
+      "unrealized_dollars": 0.09
     },
     {
       "ticker": "JZXN",
@@ -59,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.44,
-      "current_price": 1.2003,
-      "unrealized_pct": -0.09068181818181828,
-      "unrealized_dollars": -0.77
+      "current_price": 1.2283,
+      "unrealized_pct": -0.06946969696969706,
+      "unrealized_dollars": -0.59
     },
     {
       "ticker": "BOSC",
@@ -73,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.1765,
-      "unrealized_pct": -0.05079545454545465,
-      "unrealized_dollars": -0.25
+      "current_price": 4.1564,
+      "unrealized_pct": -0.05536363636363652,
+      "unrealized_dollars": -0.27
     },
     {
       "ticker": "THCH",
@@ -121,6 +107,17 @@
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "IQST",
+      "entry_price": 1.0089,
+      "exit_price": 0.935,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.64,
+      "pl_percent": -0.073248,
+      "exit_timestamp": "2026-06-04T18:15:04.802381",
+      "setup_quality": "B",
+      "position_size_dollars": 8.76
+    },
     {
       "ticker": "CDTG",
       "entry_price": 5.5,
@@ -659,17 +656,6 @@
       "exit_timestamp": "2026-05-22T15:15:03.866868",
       "setup_quality": "B",
       "position_size_dollars": 9.27
-    },
-    {
-      "ticker": "STG",
-      "entry_price": 3.03,
-      "exit_price": 2.99,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -0.12,
-      "pl_percent": -0.013201,
-      "exit_timestamp": "2026-05-19T17:15:04.600618",
-      "setup_quality": "B",
-      "position_size_dollars": 9.3
     }
   ]
 }
