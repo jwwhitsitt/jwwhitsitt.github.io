@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-04T09:45:06.288115-04:00",
+  "generated_at": "2026-06-04T10:00:10.546862-04:00",
   "summary": {
-    "total_pl_dollars": -8.39,
+    "total_pl_dollars": -8.2,
     "wins": 15,
     "losses": 32,
-    "open_count": 9
+    "open_count": 8
   },
   "open_trades": [
     {
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.44,
-      "current_price": 3.15,
-      "unrealized_pct": 0.03960396039603964,
-      "unrealized_dollars": 0.31
+      "current_price": 3.255,
+      "unrealized_pct": 0.0742574257425743,
+      "unrealized_dollars": 0.58
     },
     {
       "ticker": "NUWE",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 13.36,
-      "current_price": 0.4901,
-      "unrealized_pct": 0.00947476828012357,
-      "unrealized_dollars": 0.08
+      "current_price": 0.51,
+      "unrealized_pct": 0.05046343975283218,
+      "unrealized_dollars": 0.43
     },
     {
       "ticker": "BNRG",
@@ -45,23 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.35,
-      "current_price": 1.555,
-      "unrealized_pct": 0.019672131147541003,
-      "unrealized_dollars": 0.04
-    },
-    {
-      "ticker": "ELMT",
-      "entry_price": 18.95,
-      "stop_loss_price": 18.7541,
-      "profit_target_price": 22.5,
-      "position_size_dollars": 8.73,
-      "entry_timestamp": "2026-06-02T13:03:16.825188",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 18.12,
-      "current_price": 19.105,
-      "unrealized_pct": 0.008179419525066024,
-      "unrealized_dollars": 0.07
+      "current_price": 1.5301,
+      "unrealized_pct": 0.003344262295082036,
+      "unrealized_dollars": 0.01
     },
     {
       "ticker": "JZXN",
@@ -73,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.44,
-      "current_price": 1.215,
-      "unrealized_pct": -0.07954545454545453,
-      "unrealized_dollars": -0.67
+      "current_price": 1.19,
+      "unrealized_pct": -0.09848484848484856,
+      "unrealized_dollars": -0.84
     },
     {
       "ticker": "BOSC",
@@ -87,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.25,
-      "unrealized_pct": -0.03409090909090917,
-      "unrealized_dollars": -0.17
+      "current_price": 4.2699,
+      "unrealized_pct": -0.02956818181818194,
+      "unrealized_dollars": -0.14
     },
     {
       "ticker": "THCH",
@@ -101,8 +87,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.65,
-      "current_price": 1.775,
-      "unrealized_pct": -0.024725274725274807,
+      "current_price": 1.78,
+      "unrealized_pct": -0.021978021978021997,
       "unrealized_dollars": -0.03
     },
     {
@@ -129,12 +115,23 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.46,
-      "unrealized_pct": -0.0005476451259584706,
-      "unrealized_dollars": -0.0
+      "current_price": 1.5182,
+      "unrealized_pct": 0.03929353778751362,
+      "unrealized_dollars": 0.32
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "ELMT",
+      "entry_price": 18.95,
+      "exit_price": 18.65,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.14,
+      "pl_percent": -0.015831,
+      "exit_timestamp": "2026-06-04T14:00:04.686279",
+      "setup_quality": "B",
+      "position_size_dollars": 8.73
+    },
     {
       "ticker": "RNAZ",
       "entry_price": 4.99,
@@ -673,17 +670,6 @@
       "exit_timestamp": "2026-05-18T15:30:03.444666",
       "setup_quality": "B",
       "position_size_dollars": 1.26
-    },
-    {
-      "ticker": "WYY",
-      "entry_price": 9.615,
-      "exit_price": 9.26,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -0.33,
-      "pl_percent": -0.036921,
-      "exit_timestamp": "2026-05-18T14:30:04.062735",
-      "setup_quality": "B",
-      "position_size_dollars": 9.03
     }
   ]
 }
