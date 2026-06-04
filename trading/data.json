@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-04T13:30:05.268163-04:00",
+  "generated_at": "2026-06-04T13:45:05.684930-04:00",
   "summary": {
     "total_pl_dollars": -5.68,
     "wins": 14,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.52,
-      "current_price": 0.9989,
-      "unrealized_pct": -0.00991178511249866,
-      "unrealized_dollars": -0.09
+      "current_price": 0.9901,
+      "unrealized_pct": -0.0186341560114976,
+      "unrealized_dollars": -0.16
     },
     {
       "ticker": "XOS",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.22,
-      "current_price": 5.51,
-      "unrealized_pct": 0.09433962264150936,
-      "unrealized_dollars": 0.83
+      "current_price": 5.435,
+      "unrealized_pct": 0.07944389275074468,
+      "unrealized_dollars": 0.7
     },
     {
       "ticker": "BNRG",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.35,
-      "current_price": 1.5401,
-      "unrealized_pct": 0.00990163934426237,
-      "unrealized_dollars": 0.02
+      "current_price": 1.545,
+      "unrealized_pct": 0.013114754098360668,
+      "unrealized_dollars": 0.03
     },
     {
       "ticker": "JZXN",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.21,
-      "unrealized_pct": -0.043181818181818266,
-      "unrealized_dollars": -0.21
+      "current_price": 4.2,
+      "unrealized_pct": -0.04545454545454549,
+      "unrealized_dollars": -0.22
     },
     {
       "ticker": "THCH",
