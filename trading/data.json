@@ -1,12 +1,40 @@
 {
-  "generated_at": "2026-06-04T13:00:10.504761-04:00",
+  "generated_at": "2026-06-04T13:15:05.651496-04:00",
   "summary": {
     "total_pl_dollars": -5.94,
     "wins": 14,
     "losses": 33,
-    "open_count": 7
+    "open_count": 9
   },
   "open_trades": [
+    {
+      "ticker": "IQST",
+      "entry_price": 1.0089,
+      "stop_loss_price": 0.9755,
+      "profit_target_price": 1.16,
+      "position_size_dollars": 8.76,
+      "entry_timestamp": "2026-06-04T17:03:49.045080",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 4.52,
+      "current_price": 1.0001,
+      "unrealized_pct": -0.00872237089899883,
+      "unrealized_dollars": -0.08
+    },
+    {
+      "ticker": "CDTG",
+      "entry_price": 5.5,
+      "stop_loss_price": 4.5,
+      "profit_target_price": 15.12,
+      "position_size_dollars": 8.76,
+      "entry_timestamp": "2026-06-04T17:03:49.002403",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 9.62,
+      "current_price": 3.5,
+      "unrealized_pct": -0.36363636363636365,
+      "unrealized_dollars": -3.19
+    },
     {
       "ticker": "XOS",
       "entry_price": 5.035,
@@ -17,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.22,
-      "current_price": 5.4001,
-      "unrealized_pct": 0.0725124131082423,
-      "unrealized_dollars": 0.64
+      "current_price": 5.61,
+      "unrealized_pct": 0.11420059582919566,
+      "unrealized_dollars": 1.01
     },
     {
       "ticker": "BNRG",
@@ -31,8 +59,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.35,
-      "current_price": 1.56,
-      "unrealized_pct": 0.022950819672131244,
+      "current_price": 1.565,
+      "unrealized_pct": 0.026229508196721336,
       "unrealized_dollars": 0.05
     },
     {
@@ -45,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.44,
-      "current_price": 1.2201,
-      "unrealized_pct": -0.07568181818181825,
-      "unrealized_dollars": -0.64
+      "current_price": 1.2009,
+      "unrealized_pct": -0.09022727272727271,
+      "unrealized_dollars": -0.77
     },
     {
       "ticker": "BOSC",
@@ -59,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.1919,
-      "unrealized_pct": -0.04729545454545453,
-      "unrealized_dollars": -0.23
+      "current_price": 4.21,
+      "unrealized_pct": -0.043181818181818266,
+      "unrealized_dollars": -0.21
     },
     {
       "ticker": "THCH",
@@ -87,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.86,
-      "current_price": 4.625,
-      "unrealized_pct": 0.32142857142857145,
-      "unrealized_dollars": 3.1
+      "current_price": 4.675,
+      "unrealized_pct": 0.3357142857142857,
+      "unrealized_dollars": 3.24
     },
     {
       "ticker": "LNKS",
@@ -101,9 +129,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.5297,
-      "unrealized_pct": 0.04716593647316536,
-      "unrealized_dollars": 0.38
+      "current_price": 1.515,
+      "unrealized_pct": 0.03710295728368004,
+      "unrealized_dollars": 0.3
     }
   ],
   "closed_trades": [
