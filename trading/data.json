@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-05T10:15:05.568400-04:00",
+  "generated_at": "2026-06-05T10:30:06.413186-04:00",
   "summary": {
     "total_pl_dollars": -5.46,
     "wins": 14,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.21,
-      "current_price": 6.84,
-      "unrealized_pct": 0.09791332263242365,
-      "unrealized_dollars": 0.7
+      "current_price": 6.595,
+      "unrealized_pct": 0.05858747993579443,
+      "unrealized_dollars": 0.42
     },
     {
       "ticker": "AKA",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.22,
-      "current_price": 5.075,
-      "unrealized_pct": 0.007944389275074485,
-      "unrealized_dollars": 0.07
+      "current_price": 5.2,
+      "unrealized_pct": 0.03277060575968223,
+      "unrealized_dollars": 0.29
     },
     {
       "ticker": "JZXN",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.44,
-      "current_price": 1.18,
-      "unrealized_pct": -0.10606060606060615,
-      "unrealized_dollars": -0.9
+      "current_price": 1.2,
+      "unrealized_pct": -0.09090909090909098,
+      "unrealized_dollars": -0.77
     },
     {
       "ticker": "BOSC",
@@ -101,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.86,
-      "current_price": 4.69,
-      "unrealized_pct": 0.34000000000000014,
-      "unrealized_dollars": 3.28
+      "current_price": 4.63,
+      "unrealized_pct": 0.32285714285714284,
+      "unrealized_dollars": 3.11
     },
     {
       "ticker": "LNKS",
@@ -115,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.505,
-      "unrealized_pct": 0.030257393209200296,
-      "unrealized_dollars": 0.24
+      "current_price": 1.4601,
+      "unrealized_pct": -0.0004791894852136808,
+      "unrealized_dollars": -0.0
     }
   ],
   "closed_trades": [
