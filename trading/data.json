@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-05T14:30:07.389474-04:00",
+  "generated_at": "2026-06-05T14:45:05.721049-04:00",
   "summary": {
     "total_pl_dollars": -5.71,
     "wins": 14,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.82,
-      "current_price": 11.16,
-      "unrealized_pct": 0.032377428307123,
-      "unrealized_dollars": 0.06
+      "current_price": 10.93,
+      "unrealized_pct": 0.01110083256244211,
+      "unrealized_dollars": 0.02
     },
     {
       "ticker": "ROLR",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.21,
-      "current_price": 6.115,
-      "unrealized_pct": -0.018459069020866806,
-      "unrealized_dollars": -0.13
+      "current_price": 6.1921,
+      "unrealized_pct": -0.006083467094703128,
+      "unrealized_dollars": -0.04
     },
     {
       "ticker": "AKA",
@@ -45,9 +45,9 @@
       "setup_quality": "A",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.37,
-      "current_price": 9.01,
-      "unrealized_pct": 0.04282407407407398,
-      "unrealized_dollars": 0.36
+      "current_price": 9.1,
+      "unrealized_pct": 0.05324074074074063,
+      "unrealized_dollars": 0.45
     },
     {
       "ticker": "XOS",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.22,
-      "current_price": 4.87,
-      "unrealized_pct": -0.03277060575968223,
-      "unrealized_dollars": -0.29
+      "current_price": 4.8116,
+      "unrealized_pct": -0.04436941410129093,
+      "unrealized_dollars": -0.39
     },
     {
       "ticker": "BOSC",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.11,
-      "unrealized_pct": -0.06590909090909092,
-      "unrealized_dollars": -0.32
+      "current_price": 4.1401,
+      "unrealized_pct": -0.05906818181818182,
+      "unrealized_dollars": -0.29
     },
     {
       "ticker": "THCH",
