@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-05T13:45:06.114672-04:00",
+  "generated_at": "2026-06-05T14:00:09.826792-04:00",
   "summary": {
-    "total_pl_dollars": -5.46,
+    "total_pl_dollars": -5.71,
     "wins": 14,
     "losses": 33,
-    "open_count": 9
+    "open_count": 8
   },
   "open_trades": [
     {
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.82,
-      "current_price": 10.79,
-      "unrealized_pct": -0.0018501387604071553,
-      "unrealized_dollars": -0.0
+      "current_price": 11.135,
+      "unrealized_pct": 0.030064754856614178,
+      "unrealized_dollars": 0.06
     },
     {
       "ticker": "ROLR",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.21,
-      "current_price": 6.1968,
-      "unrealized_pct": -0.005329052969502533,
-      "unrealized_dollars": -0.04
+      "current_price": 6.105,
+      "unrealized_pct": -0.020064205457463884,
+      "unrealized_dollars": -0.14
     },
     {
       "ticker": "AKA",
@@ -59,23 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.22,
-      "current_price": 5.1603,
-      "unrealized_pct": 0.024885799404170843,
-      "unrealized_dollars": 0.22
-    },
-    {
-      "ticker": "JZXN",
-      "entry_price": 1.32,
-      "stop_loss_price": 1.16,
-      "profit_target_price": 2.35,
-      "position_size_dollars": 8.48,
-      "entry_timestamp": "2026-06-01T19:04:08.563739",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 6.44,
-      "current_price": 1.18,
-      "unrealized_pct": -0.10606060606060615,
-      "unrealized_dollars": -0.9
+      "current_price": 4.975,
+      "unrealized_pct": -0.011916583912611816,
+      "unrealized_dollars": -0.11
     },
     {
       "ticker": "BOSC",
@@ -101,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.65,
-      "current_price": 1.79,
-      "unrealized_pct": -0.016483516483516498,
-      "unrealized_dollars": -0.02
+      "current_price": 1.8399,
+      "unrealized_pct": 0.01093406593406595,
+      "unrealized_dollars": 0.01
     },
     {
       "ticker": "TACT",
@@ -115,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.86,
-      "current_price": 4.7,
-      "unrealized_pct": 0.3428571428571429,
-      "unrealized_dollars": 3.31
+      "current_price": 4.72,
+      "unrealized_pct": 0.3485714285714285,
+      "unrealized_dollars": 3.36
     },
     {
       "ticker": "LNKS",
@@ -135,6 +121,17 @@
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "JZXN",
+      "entry_price": 1.32,
+      "exit_price": 1.15,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -1.09,
+      "pl_percent": -0.128788,
+      "exit_timestamp": "2026-06-05T18:00:03.793055",
+      "setup_quality": "B",
+      "position_size_dollars": 8.48
+    },
     {
       "ticker": "BNRG",
       "entry_price": 1.525,
@@ -673,17 +670,6 @@
       "exit_timestamp": "2026-05-22T17:15:03.844422",
       "setup_quality": "B",
       "position_size_dollars": 9.0
-    },
-    {
-      "ticker": "LNZA",
-      "entry_price": 8.03,
-      "exit_price": 7.315,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -0.83,
-      "pl_percent": -0.089041,
-      "exit_timestamp": "2026-05-22T15:15:04.306884",
-      "setup_quality": "A",
-      "position_size_dollars": 9.36
     }
   ]
 }
