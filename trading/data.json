@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-05T12:00:06.739581-04:00",
+  "generated_at": "2026-06-05T12:15:05.650016-04:00",
   "summary": {
     "total_pl_dollars": -5.46,
     "wins": 14,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.82,
-      "current_price": 10.71,
-      "unrealized_pct": -0.00925069380203512,
-      "unrealized_dollars": -0.02
+      "current_price": 10.835,
+      "unrealized_pct": 0.002312673450508821,
+      "unrealized_dollars": 0.0
     },
     {
       "ticker": "ROLR",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.21,
-      "current_price": 6.2519,
-      "unrealized_pct": 0.003515248796147606,
-      "unrealized_dollars": 0.03
+      "current_price": 6.18,
+      "unrealized_pct": -0.008025682182985668,
+      "unrealized_dollars": -0.06
     },
     {
       "ticker": "AKA",
@@ -45,9 +45,9 @@
       "setup_quality": "A",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.37,
-      "current_price": 9.14,
-      "unrealized_pct": 0.057870370370370364,
-      "unrealized_dollars": 0.48
+      "current_price": 9.01,
+      "unrealized_pct": 0.04282407407407398,
+      "unrealized_dollars": 0.36
     },
     {
       "ticker": "XOS",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.22,
-      "current_price": 5.085,
-      "unrealized_pct": 0.009930486593843062,
-      "unrealized_dollars": 0.09
+      "current_price": 5.03,
+      "unrealized_pct": -0.0009930486593842886,
+      "unrealized_dollars": -0.01
     },
     {
       "ticker": "JZXN",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.44,
-      "current_price": 1.18,
-      "unrealized_pct": -0.10606060606060615,
-      "unrealized_dollars": -0.9
+      "current_price": 1.19,
+      "unrealized_pct": -0.09848484848484856,
+      "unrealized_dollars": -0.84
     },
     {
       "ticker": "BOSC",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.19,
-      "unrealized_pct": -0.047727272727272715,
-      "unrealized_dollars": -0.23
+      "current_price": 4.18,
+      "unrealized_pct": -0.05000000000000014,
+      "unrealized_dollars": -0.24
     },
     {
       "ticker": "THCH",
@@ -129,9 +129,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.4601,
-      "unrealized_pct": -0.0004791894852136808,
-      "unrealized_dollars": -0.0
+      "current_price": 1.47,
+      "unrealized_pct": 0.006297918948521272,
+      "unrealized_dollars": 0.05
     }
   ],
   "closed_trades": [
