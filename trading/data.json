@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-05T13:00:10.573739-04:00",
+  "generated_at": "2026-06-05T13:15:06.432115-04:00",
   "summary": {
     "total_pl_dollars": -5.46,
     "wins": 14,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.82,
-      "current_price": 10.8,
-      "unrealized_pct": -0.0009250693802034955,
-      "unrealized_dollars": -0.0
+      "current_price": 10.855,
+      "unrealized_pct": 0.004162812210915812,
+      "unrealized_dollars": 0.01
     },
     {
       "ticker": "ROLR",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.21,
-      "current_price": 6.4799,
-      "unrealized_pct": 0.04011235955056169,
-      "unrealized_dollars": 0.29
+      "current_price": 6.21,
+      "unrealized_pct": -0.003210272873194295,
+      "unrealized_dollars": -0.02
     },
     {
       "ticker": "AKA",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.22,
-      "current_price": 4.955,
-      "unrealized_pct": -0.01588877855014897,
-      "unrealized_dollars": -0.14
+      "current_price": 5.03,
+      "unrealized_pct": -0.0009930486593842886,
+      "unrealized_dollars": -0.01
     },
     {
       "ticker": "JZXN",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.18,
-      "unrealized_pct": -0.05000000000000014,
-      "unrealized_dollars": -0.24
+      "current_price": 4.2,
+      "unrealized_pct": -0.04545454545454549,
+      "unrealized_dollars": -0.22
     },
     {
       "ticker": "THCH",
@@ -129,8 +129,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.4698,
-      "unrealized_pct": 0.0061610076670316925,
+      "current_price": 1.47,
+      "unrealized_pct": 0.006297918948521272,
       "unrealized_dollars": 0.05
     }
   ],
