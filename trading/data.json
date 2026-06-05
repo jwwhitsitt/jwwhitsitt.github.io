@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-05T14:00:09.826792-04:00",
+  "generated_at": "2026-06-05T14:15:05.065315-04:00",
   "summary": {
     "total_pl_dollars": -5.71,
     "wins": 14,
@@ -17,8 +17,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.82,
-      "current_price": 11.135,
-      "unrealized_pct": 0.030064754856614178,
+      "current_price": 11.16,
+      "unrealized_pct": 0.032377428307123,
       "unrealized_dollars": 0.06
     },
     {
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.21,
-      "current_price": 6.105,
-      "unrealized_pct": -0.020064205457463884,
-      "unrealized_dollars": -0.14
+      "current_price": 6.2,
+      "unrealized_pct": -0.004815409309791372,
+      "unrealized_dollars": -0.03
     },
     {
       "ticker": "AKA",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.22,
-      "current_price": 4.975,
-      "unrealized_pct": -0.011916583912611816,
-      "unrealized_dollars": -0.11
+      "current_price": 4.895,
+      "unrealized_pct": -0.027805362462760788,
+      "unrealized_dollars": -0.25
     },
     {
       "ticker": "BOSC",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.2,
-      "unrealized_pct": -0.04545454545454549,
-      "unrealized_dollars": -0.22
+      "current_price": 4.145,
+      "unrealized_pct": -0.057954545454545627,
+      "unrealized_dollars": -0.28
     },
     {
       "ticker": "THCH",
@@ -115,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.465,
-      "unrealized_pct": 0.002875136911281477,
-      "unrealized_dollars": 0.02
+      "current_price": 1.4673,
+      "unrealized_pct": 0.004449616648411795,
+      "unrealized_dollars": 0.04
     }
   ],
   "closed_trades": [
