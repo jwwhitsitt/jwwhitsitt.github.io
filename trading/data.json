@@ -1,12 +1,26 @@
 {
-  "generated_at": "2026-06-05T15:00:05.431420-04:00",
+  "generated_at": "2026-06-05T15:15:05.430313-04:00",
   "summary": {
     "total_pl_dollars": -5.71,
     "wins": 14,
     "losses": 33,
-    "open_count": 8
+    "open_count": 9
   },
   "open_trades": [
+    {
+      "ticker": "RGNT",
+      "entry_price": 1.33,
+      "stop_loss_price": 0.0,
+      "profit_target_price": 0.0,
+      "position_size_dollars": 7.71,
+      "entry_timestamp": "2026-06-05T19:08:07.711398",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 0.0,
+      "current_price": 1.32,
+      "unrealized_pct": -0.0075187969924812095,
+      "unrealized_dollars": -0.06
+    },
     {
       "ticker": "WYY",
       "entry_price": 10.81,
@@ -17,8 +31,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.82,
-      "current_price": 10.975,
-      "unrealized_pct": 0.015263644773357923,
+      "current_price": 10.965,
+      "unrealized_pct": 0.014338575393154427,
       "unrealized_dollars": 0.03
     },
     {
@@ -31,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.21,
-      "current_price": 6.174,
-      "unrealized_pct": -0.008988764044943828,
-      "unrealized_dollars": -0.06
+      "current_price": 6.29,
+      "unrealized_pct": 0.009630818619582602,
+      "unrealized_dollars": 0.07
     },
     {
       "ticker": "AKA",
@@ -59,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.22,
-      "current_price": 4.96,
-      "unrealized_pct": -0.014895729890764682,
-      "unrealized_dollars": -0.13
+      "current_price": 4.9,
+      "unrealized_pct": -0.02681231380337632,
+      "unrealized_dollars": -0.24
     },
     {
       "ticker": "BOSC",
