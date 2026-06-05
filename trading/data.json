@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-05T10:30:06.413186-04:00",
+  "generated_at": "2026-06-05T10:45:05.925562-04:00",
   "summary": {
     "total_pl_dollars": -5.46,
     "wins": 14,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.21,
-      "current_price": 6.595,
-      "unrealized_pct": 0.05858747993579443,
-      "unrealized_dollars": 0.42
+      "current_price": 6.725,
+      "unrealized_pct": 0.07945425361155685,
+      "unrealized_dollars": 0.57
     },
     {
       "ticker": "AKA",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.22,
-      "current_price": 5.2,
-      "unrealized_pct": 0.03277060575968223,
-      "unrealized_dollars": 0.29
+      "current_price": 5.055,
+      "unrealized_pct": 0.003972194637537154,
+      "unrealized_dollars": 0.04
     },
     {
       "ticker": "JZXN",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.21,
-      "unrealized_pct": -0.043181818181818266,
-      "unrealized_dollars": -0.21
+      "current_price": 4.2,
+      "unrealized_pct": -0.04545454545454549,
+      "unrealized_dollars": -0.22
     },
     {
       "ticker": "THCH",
@@ -115,8 +115,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.4601,
-      "unrealized_pct": -0.0004791894852136808,
+      "current_price": 1.46,
+      "unrealized_pct": -0.0005476451259584706,
       "unrealized_dollars": -0.0
     }
   ],
