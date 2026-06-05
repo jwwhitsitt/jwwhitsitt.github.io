@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-05T09:45:05.266956-04:00",
+  "generated_at": "2026-06-05T10:00:05.880802-04:00",
   "summary": {
     "total_pl_dollars": -5.46,
     "wins": 14,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.21,
-      "current_price": 6.71,
-      "unrealized_pct": 0.07704654895666124,
-      "unrealized_dollars": 0.55
+      "current_price": 6.9,
+      "unrealized_pct": 0.1075441412520064,
+      "unrealized_dollars": 0.77
     },
     {
       "ticker": "AKA",
@@ -31,9 +31,9 @@
       "setup_quality": "A",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.37,
-      "current_price": 8.67,
-      "unrealized_pct": 0.003472222222222148,
-      "unrealized_dollars": 0.03
+      "current_price": 9.19,
+      "unrealized_pct": 0.06365740740740727,
+      "unrealized_dollars": 0.53
     },
     {
       "ticker": "XOS",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.22,
-      "current_price": 5.17,
-      "unrealized_pct": 0.02681231380337632,
-      "unrealized_dollars": 0.24
+      "current_price": 4.93,
+      "unrealized_pct": -0.02085402184707059,
+      "unrealized_dollars": -0.18
     },
     {
       "ticker": "JZXN",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.44,
-      "current_price": 1.22,
-      "unrealized_pct": -0.07575757575757582,
-      "unrealized_dollars": -0.64
+      "current_price": 1.1901,
+      "unrealized_pct": -0.098409090909091,
+      "unrealized_dollars": -0.83
     },
     {
       "ticker": "BOSC",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.65,
-      "current_price": 1.7649,
-      "unrealized_pct": -0.030274725274725356,
-      "unrealized_dollars": -0.04
+      "current_price": 1.75,
+      "unrealized_pct": -0.03846153846153849,
+      "unrealized_dollars": -0.05
     },
     {
       "ticker": "TACT",
