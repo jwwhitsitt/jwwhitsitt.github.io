@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-08T09:15:05.760237-04:00",
+  "generated_at": "2026-06-08T09:30:05.729071-04:00",
   "summary": {
     "total_pl_dollars": -5.71,
     "wins": 14,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 0.0,
-      "current_price": 1.32,
-      "unrealized_pct": -0.0075187969924812095,
-      "unrealized_dollars": -0.06
+      "current_price": 1.43,
+      "unrealized_pct": 0.07518796992481193,
+      "unrealized_dollars": 0.58
     },
     {
       "ticker": "WYY",
