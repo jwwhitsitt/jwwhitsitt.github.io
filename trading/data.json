@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-08T10:45:06.351917-04:00",
+  "generated_at": "2026-06-08T11:00:06.930522-04:00",
   "summary": {
     "total_pl_dollars": -5.58,
     "wins": 15,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.82,
-      "current_price": 10.975,
-      "unrealized_pct": 0.015263644773357923,
-      "unrealized_dollars": 0.03
+      "current_price": 11.15,
+      "unrealized_pct": 0.031452358926919506,
+      "unrealized_dollars": 0.06
     },
     {
       "ticker": "ROLR",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.21,
-      "current_price": 6.33,
-      "unrealized_pct": 0.01605136436597105,
-      "unrealized_dollars": 0.12
+      "current_price": 6.43,
+      "unrealized_pct": 0.0321027287319421,
+      "unrealized_dollars": 0.23
     },
     {
       "ticker": "AKA",
@@ -59,8 +59,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.392,
-      "unrealized_pct": -0.0018181818181818197,
+      "current_price": 4.3906,
+      "unrealized_pct": -0.0021363636363637035,
       "unrealized_dollars": -0.01
     },
     {
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.86,
-      "current_price": 4.76,
-      "unrealized_pct": 0.35999999999999993,
-      "unrealized_dollars": 3.47
+      "current_price": 4.85,
+      "unrealized_pct": 0.3857142857142856,
+      "unrealized_dollars": 3.72
     },
     {
       "ticker": "LNKS",
