@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-08T11:15:05.521544-04:00",
+  "generated_at": "2026-06-08T11:30:05.794455-04:00",
   "summary": {
     "total_pl_dollars": -5.58,
     "wins": 15,
@@ -17,8 +17,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.82,
-      "current_price": 11.2429,
-      "unrealized_pct": 0.04004625346901018,
+      "current_price": 11.29,
+      "unrealized_pct": 0.044403330249768606,
       "unrealized_dollars": 0.08
     },
     {
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.21,
-      "current_price": 6.4067,
-      "unrealized_pct": 0.02836276083467085,
-      "unrealized_dollars": 0.2
+      "current_price": 6.43,
+      "unrealized_pct": 0.0321027287319421,
+      "unrealized_dollars": 0.23
     },
     {
       "ticker": "AKA",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.45,
-      "unrealized_pct": 0.011363636363636322,
-      "unrealized_dollars": 0.06
+      "current_price": 4.34,
+      "unrealized_pct": -0.013636363636363748,
+      "unrealized_dollars": -0.07
     },
     {
       "ticker": "THCH",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.86,
-      "current_price": 4.78,
-      "unrealized_pct": 0.36571428571428577,
-      "unrealized_dollars": 3.53
+      "current_price": 4.81,
+      "unrealized_pct": 0.37428571428571417,
+      "unrealized_dollars": 3.61
     },
     {
       "ticker": "LNKS",
@@ -101,8 +101,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.45,
-      "unrealized_pct": -0.007393209200438213,
+      "current_price": 1.4501,
+      "unrealized_pct": -0.007324753559693423,
       "unrealized_dollars": -0.06
     }
   ],
