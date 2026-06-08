@@ -1,26 +1,12 @@
 {
-  "generated_at": "2026-06-08T15:45:06.782999-04:00",
+  "generated_at": "2026-06-08T16:00:05.798850-04:00",
   "summary": {
-    "total_pl_dollars": -6.74,
+    "total_pl_dollars": -6.44,
     "wins": 13,
     "losses": 33,
-    "open_count": 9
+    "open_count": 8
   },
   "open_trades": [
-    {
-      "ticker": "OPTH",
-      "entry_price": 5.31,
-      "stop_loss_price": 5.25,
-      "profit_target_price": 5.9881,
-      "position_size_dollars": 7.56,
-      "entry_timestamp": "2026-06-08T19:38:21.315830",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 11.3,
-      "current_price": 5.24,
-      "unrealized_pct": -0.01318267419962324,
-      "unrealized_dollars": -0.1
-    },
     {
       "ticker": "PN",
       "entry_price": 4.13,
@@ -31,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 4.2105,
-      "unrealized_pct": 0.019491525423728763,
-      "unrealized_dollars": 0.16
+      "current_price": 4.33,
+      "unrealized_pct": 0.04842615012106542,
+      "unrealized_dollars": 0.39
     },
     {
       "ticker": "WYY",
@@ -45,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.82,
-      "current_price": 11.22,
-      "unrealized_pct": 0.03792784458834414,
-      "unrealized_dollars": 0.07
+      "current_price": 11.35,
+      "unrealized_pct": 0.049953746530989745,
+      "unrealized_dollars": 0.09
     },
     {
       "ticker": "ROLR",
@@ -59,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.21,
-      "current_price": 6.34,
-      "unrealized_pct": 0.017656500802568125,
-      "unrealized_dollars": 0.13
+      "current_price": 6.27,
+      "unrealized_pct": 0.006420545746388306,
+      "unrealized_dollars": 0.05
     },
     {
       "ticker": "AKA",
@@ -115,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.86,
-      "current_price": 4.8,
-      "unrealized_pct": 0.3714285714285714,
-      "unrealized_dollars": 3.58
+      "current_price": 4.78,
+      "unrealized_pct": 0.36571428571428577,
+      "unrealized_dollars": 3.53
     },
     {
       "ticker": "LNKS",
@@ -129,12 +115,23 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.71,
-      "unrealized_pct": 0.17059145673603496,
-      "unrealized_dollars": 1.37
+      "current_price": 1.79,
+      "unrealized_pct": 0.22535596933187288,
+      "unrealized_dollars": 1.82
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "OPTH",
+      "entry_price": 5.31,
+      "exit_price": 5.24,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.1,
+      "pl_percent": -0.013183,
+      "exit_timestamp": "2026-06-08T19:45:04.846240",
+      "setup_quality": "B",
+      "position_size_dollars": 7.56
+    },
     {
       "ticker": "FDSB",
       "entry_price": 15.25,
@@ -673,17 +670,6 @@
       "exit_timestamp": "2026-05-26T19:15:04.673977",
       "setup_quality": "B",
       "position_size_dollars": 7.78
-    },
-    {
-      "ticker": "QNTM",
-      "entry_price": 7.135,
-      "exit_price": 6.79,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -0.41,
-      "pl_percent": -0.048353,
-      "exit_timestamp": "2026-05-26T19:15:04.413841",
-      "setup_quality": "B",
-      "position_size_dollars": 8.39
     }
   ]
 }
