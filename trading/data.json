@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-08T10:00:10.142268-04:00",
+  "generated_at": "2026-06-08T10:15:06.006761-04:00",
   "summary": {
     "total_pl_dollars": -5.58,
     "wins": 15,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.82,
-      "current_price": 10.87,
-      "unrealized_pct": 0.005550416281220973,
-      "unrealized_dollars": 0.01
+      "current_price": 10.9587,
+      "unrealized_pct": 0.013755781683626256,
+      "unrealized_dollars": 0.03
     },
     {
       "ticker": "ROLR",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.21,
-      "current_price": 6.245,
-      "unrealized_pct": 0.002407704654895615,
-      "unrealized_dollars": 0.02
+      "current_price": 6.33,
+      "unrealized_pct": 0.01605136436597105,
+      "unrealized_dollars": 0.12
     },
     {
       "ticker": "AKA",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.3883,
-      "unrealized_pct": -0.0026590909090909694,
-      "unrealized_dollars": -0.01
+      "current_price": 4.302,
+      "unrealized_pct": -0.02227272727272744,
+      "unrealized_dollars": -0.11
     },
     {
       "ticker": "THCH",
@@ -101,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.433,
-      "unrealized_pct": -0.0190306681270537,
-      "unrealized_dollars": -0.15
+      "current_price": 1.43,
+      "unrealized_pct": -0.0210843373493977,
+      "unrealized_dollars": -0.17
     }
   ],
   "closed_trades": [
