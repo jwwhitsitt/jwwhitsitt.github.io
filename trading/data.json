@@ -1,26 +1,12 @@
 {
-  "generated_at": "2026-06-08T09:30:05.729071-04:00",
+  "generated_at": "2026-06-08T09:45:05.362826-04:00",
   "summary": {
-    "total_pl_dollars": -5.71,
-    "wins": 14,
-    "losses": 33,
-    "open_count": 9
+    "total_pl_dollars": -4.49,
+    "wins": 15,
+    "losses": 32,
+    "open_count": 8
   },
   "open_trades": [
-    {
-      "ticker": "RGNT",
-      "entry_price": 1.33,
-      "stop_loss_price": 0.0,
-      "profit_target_price": 0.0,
-      "position_size_dollars": 7.71,
-      "entry_timestamp": "2026-06-05T19:08:07.711398",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 0.0,
-      "current_price": 1.43,
-      "unrealized_pct": 0.07518796992481193,
-      "unrealized_dollars": 0.58
-    },
     {
       "ticker": "WYY",
       "entry_price": 10.81,
@@ -31,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.82,
-      "current_price": 10.97,
-      "unrealized_pct": 0.014801110083256257,
-      "unrealized_dollars": 0.03
+      "current_price": 10.88,
+      "unrealized_pct": 0.0064754856614246325,
+      "unrealized_dollars": 0.01
     },
     {
       "ticker": "ROLR",
@@ -45,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.21,
-      "current_price": 6.33,
-      "unrealized_pct": 0.01605136436597105,
-      "unrealized_dollars": 0.12
+      "current_price": 6.0397,
+      "unrealized_pct": -0.03054574638844311,
+      "unrealized_dollars": -0.22
     },
     {
       "ticker": "AKA",
@@ -73,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.22,
-      "current_price": 4.74,
-      "unrealized_pct": -0.05858987090367426,
-      "unrealized_dollars": -0.52
+      "current_price": 4.3293,
+      "unrealized_pct": -0.14015888778550153,
+      "unrealized_dollars": -1.24
     },
     {
       "ticker": "BOSC",
@@ -87,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.15,
-      "unrealized_pct": -0.056818181818181816,
-      "unrealized_dollars": -0.28
+      "current_price": 4.2759,
+      "unrealized_pct": -0.028204545454545524,
+      "unrealized_dollars": -0.14
     },
     {
       "ticker": "THCH",
@@ -115,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.86,
-      "current_price": 4.8,
-      "unrealized_pct": 0.3714285714285714,
-      "unrealized_dollars": 3.58
+      "current_price": 4.79,
+      "unrealized_pct": 0.3685714285714286,
+      "unrealized_dollars": 3.55
     },
     {
       "ticker": "LNKS",
@@ -129,12 +115,23 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.46,
-      "unrealized_pct": -0.0005476451259584706,
-      "unrealized_dollars": -0.0
+      "current_price": 1.445,
+      "unrealized_pct": -0.010815991237678008,
+      "unrealized_dollars": -0.09
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "RGNT",
+      "entry_price": 1.33,
+      "exit_price": 1.43,
+      "exit_reason": "stale_no_levels",
+      "pl_dollars": 0.58,
+      "pl_percent": 0.075188,
+      "exit_timestamp": "2026-06-08T13:30:04.734009",
+      "setup_quality": "B",
+      "position_size_dollars": 7.71
+    },
     {
       "ticker": "JZXN",
       "entry_price": 1.32,
@@ -673,17 +670,6 @@
       "exit_timestamp": "2026-05-22T19:15:05.368745",
       "setup_quality": "B",
       "position_size_dollars": 8.55
-    },
-    {
-      "ticker": "CDT",
-      "entry_price": 1.25,
-      "exit_price": 1.16,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -0.65,
-      "pl_percent": -0.072,
-      "exit_timestamp": "2026-05-22T17:15:03.844422",
-      "setup_quality": "B",
-      "position_size_dollars": 9.0
     }
   ]
 }
