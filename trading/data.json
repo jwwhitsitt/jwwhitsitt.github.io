@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-08T14:00:06.643609-04:00",
+  "generated_at": "2026-06-08T14:15:05.230817-04:00",
   "summary": {
     "total_pl_dollars": -6.74,
     "wins": 13,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 4.21,
-      "unrealized_pct": 0.01937046004842617,
-      "unrealized_dollars": 0.16
+      "current_price": 4.06,
+      "unrealized_pct": -0.01694915254237295,
+      "unrealized_dollars": -0.14
     },
     {
       "ticker": "WYY",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.82,
-      "current_price": 11.31,
-      "unrealized_pct": 0.04625346901017576,
-      "unrealized_dollars": 0.09
+      "current_price": 11.23,
+      "unrealized_pct": 0.038852913968547634,
+      "unrealized_dollars": 0.07
     },
     {
       "ticker": "ROLR",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.21,
-      "current_price": 6.33,
-      "unrealized_pct": 0.01605136436597105,
-      "unrealized_dollars": 0.12
+      "current_price": 6.41,
+      "unrealized_pct": 0.028892455858747945,
+      "unrealized_dollars": 0.21
     },
     {
       "ticker": "AKA",
@@ -115,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.49,
-      "unrealized_pct": 0.01998904709748076,
-      "unrealized_dollars": 0.16
+      "current_price": 1.485,
+      "unrealized_pct": 0.01656626506024096,
+      "unrealized_dollars": 0.13
     }
   ],
   "closed_trades": [
