@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-08T16:00:05.798850-04:00",
+  "generated_at": "2026-06-08T16:15:05.506140-04:00",
   "summary": {
     "total_pl_dollars": -6.44,
     "wins": 13,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 4.33,
-      "unrealized_pct": 0.04842615012106542,
-      "unrealized_dollars": 0.39
+      "current_price": 4.21,
+      "unrealized_pct": 0.01937046004842617,
+      "unrealized_dollars": 0.16
     },
     {
       "ticker": "WYY",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.82,
-      "current_price": 11.35,
-      "unrealized_pct": 0.049953746530989745,
-      "unrealized_dollars": 0.09
+      "current_price": 11.27,
+      "unrealized_pct": 0.04255319148936162,
+      "unrealized_dollars": 0.08
     },
     {
       "ticker": "ROLR",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.21,
-      "current_price": 6.27,
-      "unrealized_pct": 0.006420545746388306,
-      "unrealized_dollars": 0.05
+      "current_price": 6.51,
+      "unrealized_pct": 0.044943820224718996,
+      "unrealized_dollars": 0.32
     },
     {
       "ticker": "AKA",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.29,
-      "unrealized_pct": -0.02500000000000007,
-      "unrealized_dollars": -0.12
+      "current_price": 4.23,
+      "unrealized_pct": -0.038636363636363615,
+      "unrealized_dollars": -0.19
     },
     {
       "ticker": "THCH",
@@ -101,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.86,
-      "current_price": 4.78,
-      "unrealized_pct": 0.36571428571428577,
-      "unrealized_dollars": 3.53
+      "current_price": 4.79,
+      "unrealized_pct": 0.3685714285714286,
+      "unrealized_dollars": 3.55
     },
     {
       "ticker": "LNKS",
