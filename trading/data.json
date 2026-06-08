@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-08T13:30:08.720979-04:00",
+  "generated_at": "2026-06-08T13:45:05.156062-04:00",
   "summary": {
     "total_pl_dollars": -6.74,
     "wins": 13,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 4.28,
-      "unrealized_pct": 0.03631961259079912,
-      "unrealized_dollars": 0.3
+      "current_price": 4.18,
+      "unrealized_pct": 0.012106537530266302,
+      "unrealized_dollars": 0.1
     },
     {
       "ticker": "WYY",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.21,
-      "current_price": 6.36,
-      "unrealized_pct": 0.02086677367576242,
-      "unrealized_dollars": 0.15
+      "current_price": 6.33,
+      "unrealized_pct": 0.01605136436597105,
+      "unrealized_dollars": 0.12
     },
     {
       "ticker": "AKA",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.25,
-      "unrealized_pct": -0.03409090909090917,
-      "unrealized_dollars": -0.17
+      "current_price": 4.2953,
+      "unrealized_pct": -0.0237954545454546,
+      "unrealized_dollars": -0.12
     },
     {
       "ticker": "THCH",
@@ -115,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.5,
-      "unrealized_pct": 0.0268346111719605,
-      "unrealized_dollars": 0.22
+      "current_price": 1.49,
+      "unrealized_pct": 0.01998904709748076,
+      "unrealized_dollars": 0.16
     }
   ],
   "closed_trades": [
