@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-08T12:45:05.208469-04:00",
+  "generated_at": "2026-06-08T13:00:06.993137-04:00",
   "summary": {
     "total_pl_dollars": -5.53,
     "wins": 14,
@@ -17,8 +17,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.82,
-      "current_price": 11.255,
-      "unrealized_pct": 0.04116558741905645,
+      "current_price": 11.2601,
+      "unrealized_pct": 0.041637372802960135,
       "unrealized_dollars": 0.08
     },
     {
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.21,
-      "current_price": 6.46,
-      "unrealized_pct": 0.036918138041733474,
-      "unrealized_dollars": 0.27
+      "current_price": 6.5,
+      "unrealized_pct": 0.04333868378812192,
+      "unrealized_dollars": 0.31
     },
     {
       "ticker": "AKA",
@@ -101,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.47,
-      "unrealized_pct": 0.006297918948521272,
-      "unrealized_dollars": 0.05
+      "current_price": 1.495,
+      "unrealized_pct": 0.023411829134720705,
+      "unrealized_dollars": 0.19
     }
   ],
   "closed_trades": [
