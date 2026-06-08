@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-08T13:45:05.156062-04:00",
+  "generated_at": "2026-06-08T14:00:06.643609-04:00",
   "summary": {
     "total_pl_dollars": -6.74,
     "wins": 13,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 4.18,
-      "unrealized_pct": 0.012106537530266302,
-      "unrealized_dollars": 0.1
+      "current_price": 4.21,
+      "unrealized_pct": 0.01937046004842617,
+      "unrealized_dollars": 0.16
     },
     {
       "ticker": "WYY",
@@ -31,8 +31,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.82,
-      "current_price": 11.335,
-      "unrealized_pct": 0.04856614246068458,
+      "current_price": 11.31,
+      "unrealized_pct": 0.04625346901017576,
       "unrealized_dollars": 0.09
     },
     {
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.2953,
-      "unrealized_pct": -0.0237954545454546,
-      "unrealized_dollars": -0.12
+      "current_price": 4.25,
+      "unrealized_pct": -0.03409090909090917,
+      "unrealized_dollars": -0.17
     },
     {
       "ticker": "THCH",
@@ -101,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.86,
-      "current_price": 4.81,
-      "unrealized_pct": 0.37428571428571417,
-      "unrealized_dollars": 3.61
+      "current_price": 4.825,
+      "unrealized_pct": 0.3785714285714286,
+      "unrealized_dollars": 3.65
     },
     {
       "ticker": "LNKS",
