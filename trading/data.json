@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-08T12:00:06.576699-04:00",
+  "generated_at": "2026-06-08T12:15:05.435863-04:00",
   "summary": {
     "total_pl_dollars": -5.21,
     "wins": 15,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.07,
-      "current_price": 2.44,
-      "unrealized_pct": -0.01014198782961457,
-      "unrealized_dollars": -0.08
+      "current_price": 2.43,
+      "unrealized_pct": -0.014198782961460325,
+      "unrealized_dollars": -0.12
     },
     {
       "ticker": "WYY",
@@ -31,8 +31,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.82,
-      "current_price": 11.43,
-      "unrealized_pct": 0.05735430157261787,
+      "current_price": 11.42,
+      "unrealized_pct": 0.05642923219241438,
       "unrealized_dollars": 0.11
     },
     {
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.21,
-      "current_price": 6.43,
-      "unrealized_pct": 0.0321027287319421,
-      "unrealized_dollars": 0.23
+      "current_price": 6.265,
+      "unrealized_pct": 0.005617977528089768,
+      "unrealized_dollars": 0.04
     },
     {
       "ticker": "AKA",
@@ -101,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.86,
-      "current_price": 4.755,
-      "unrealized_pct": 0.35857142857142854,
-      "unrealized_dollars": 3.46
+      "current_price": 4.805,
+      "unrealized_pct": 0.3728571428571428,
+      "unrealized_dollars": 3.59
     },
     {
       "ticker": "LNKS",
@@ -115,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.46,
-      "unrealized_pct": -0.0005476451259584706,
-      "unrealized_dollars": -0.0
+      "current_price": 1.462,
+      "unrealized_pct": 0.0008214676889374779,
+      "unrealized_dollars": 0.01
     }
   ],
   "closed_trades": [
