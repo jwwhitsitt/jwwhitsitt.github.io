@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-08T09:45:05.362826-04:00",
+  "generated_at": "2026-06-08T10:00:10.142268-04:00",
   "summary": {
-    "total_pl_dollars": -4.49,
+    "total_pl_dollars": -5.58,
     "wins": 15,
     "losses": 32,
-    "open_count": 8
+    "open_count": 7
   },
   "open_trades": [
     {
@@ -17,8 +17,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.82,
-      "current_price": 10.88,
-      "unrealized_pct": 0.0064754856614246325,
+      "current_price": 10.87,
+      "unrealized_pct": 0.005550416281220973,
       "unrealized_dollars": 0.01
     },
     {
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.21,
-      "current_price": 6.0397,
-      "unrealized_pct": -0.03054574638844311,
-      "unrealized_dollars": -0.22
+      "current_price": 6.245,
+      "unrealized_pct": 0.002407704654895615,
+      "unrealized_dollars": 0.02
     },
     {
       "ticker": "AKA",
@@ -45,23 +45,9 @@
       "setup_quality": "A",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.37,
-      "current_price": 8.75,
-      "unrealized_pct": 0.012731481481481415,
-      "unrealized_dollars": 0.11
-    },
-    {
-      "ticker": "XOS",
-      "entry_price": 5.035,
-      "stop_loss_price": 4.51,
-      "profit_target_price": 6.2,
-      "position_size_dollars": 8.82,
-      "entry_timestamp": "2026-06-04T15:13:01.487878",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 2.22,
-      "current_price": 4.3293,
-      "unrealized_pct": -0.14015888778550153,
-      "unrealized_dollars": -1.24
+      "current_price": 8.6,
+      "unrealized_pct": -0.004629629629629736,
+      "unrealized_dollars": -0.04
     },
     {
       "ticker": "BOSC",
@@ -73,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.2759,
-      "unrealized_pct": -0.028204545454545524,
-      "unrealized_dollars": -0.14
+      "current_price": 4.3883,
+      "unrealized_pct": -0.0026590909090909694,
+      "unrealized_dollars": -0.01
     },
     {
       "ticker": "THCH",
@@ -101,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.86,
-      "current_price": 4.79,
-      "unrealized_pct": 0.3685714285714286,
-      "unrealized_dollars": 3.55
+      "current_price": 4.8,
+      "unrealized_pct": 0.3714285714285714,
+      "unrealized_dollars": 3.58
     },
     {
       "ticker": "LNKS",
@@ -115,12 +101,23 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.445,
-      "unrealized_pct": -0.010815991237678008,
-      "unrealized_dollars": -0.09
+      "current_price": 1.433,
+      "unrealized_pct": -0.0190306681270537,
+      "unrealized_dollars": -0.15
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "XOS",
+      "entry_price": 5.035,
+      "exit_price": 4.3293,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -1.24,
+      "pl_percent": -0.140159,
+      "exit_timestamp": "2026-06-08T13:45:03.570083",
+      "setup_quality": "B",
+      "position_size_dollars": 8.82
+    },
     {
       "ticker": "RGNT",
       "entry_price": 1.33,
@@ -659,17 +656,6 @@
       "exit_timestamp": "2026-05-25T13:30:04.853864",
       "setup_quality": "B",
       "position_size_dollars": 8.8
-    },
-    {
-      "ticker": "WTF",
-      "entry_price": 3.08,
-      "exit_price": 3.03,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -0.14,
-      "pl_percent": -0.016234,
-      "exit_timestamp": "2026-05-22T19:15:05.368745",
-      "setup_quality": "B",
-      "position_size_dollars": 8.55
     }
   ]
 }
