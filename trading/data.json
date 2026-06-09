@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-09T09:45:06.115089-04:00",
+  "generated_at": "2026-06-09T10:00:05.579007-04:00",
   "summary": {
-    "total_pl_dollars": -6.44,
-    "wins": 13,
+    "total_pl_dollars": -5.51,
+    "wins": 14,
     "losses": 33,
-    "open_count": 8
+    "open_count": 7
   },
   "open_trades": [
     {
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 3.6,
-      "unrealized_pct": -0.1283292978208232,
-      "unrealized_dollars": -1.04
+      "current_price": 3.5001,
+      "unrealized_pct": -0.15251815980629532,
+      "unrealized_dollars": -1.24
     },
     {
       "ticker": "WYY",
@@ -31,8 +31,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.82,
-      "current_price": 11.27,
-      "unrealized_pct": 0.04255319148936162,
+      "current_price": 11.26,
+      "unrealized_pct": 0.04162812210915812,
       "unrealized_dollars": 0.08
     },
     {
@@ -45,23 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.21,
-      "current_price": 6.8,
-      "unrealized_pct": 0.09149277688603522,
-      "unrealized_dollars": 0.66
-    },
-    {
-      "ticker": "AKA",
-      "entry_price": 8.64,
-      "stop_loss_price": 8.46,
-      "profit_target_price": 9.2461,
-      "position_size_dollars": 8.38,
-      "entry_timestamp": "2026-06-04T19:01:21.274103",
-      "setup_quality": "A",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 3.37,
-      "current_price": 9.6019,
-      "unrealized_pct": 0.11133101851851851,
-      "unrealized_dollars": 0.93
+      "current_price": 6.8501,
+      "unrealized_pct": 0.0995345104333868,
+      "unrealized_dollars": 0.71
     },
     {
       "ticker": "BOSC",
@@ -87,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.65,
-      "current_price": 1.795,
-      "unrealized_pct": -0.013736263736263809,
-      "unrealized_dollars": -0.02
+      "current_price": 1.81,
+      "unrealized_pct": -0.005494505494505499,
+      "unrealized_dollars": -0.01
     },
     {
       "ticker": "TACT",
@@ -101,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.86,
-      "current_price": 4.8,
-      "unrealized_pct": 0.3714285714285714,
-      "unrealized_dollars": 3.58
+      "current_price": 4.81,
+      "unrealized_pct": 0.37428571428571417,
+      "unrealized_dollars": 3.61
     },
     {
       "ticker": "LNKS",
@@ -115,12 +101,23 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.7807,
-      "unrealized_pct": 0.21898959474260668,
-      "unrealized_dollars": 1.77
+      "current_price": 1.8665,
+      "unrealized_pct": 0.27772453450164286,
+      "unrealized_dollars": 2.24
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "AKA",
+      "entry_price": 8.64,
+      "exit_price": 9.6019,
+      "exit_reason": "target_hit",
+      "pl_dollars": 0.93,
+      "pl_percent": 0.111331,
+      "exit_timestamp": "2026-06-09T13:45:04.268913",
+      "setup_quality": "A",
+      "position_size_dollars": 8.38
+    },
     {
       "ticker": "OPTH",
       "entry_price": 5.31,
@@ -659,17 +656,6 @@
       "exit_timestamp": "2026-05-27T13:45:06.577726",
       "setup_quality": "B",
       "position_size_dollars": 8.77
-    },
-    {
-      "ticker": "FGBI",
-      "entry_price": 9.49,
-      "exit_price": 9.49,
-      "exit_reason": "target_hit",
-      "pl_dollars": 0,
-      "pl_percent": 0.0,
-      "exit_timestamp": "2026-05-26T19:15:04.673977",
-      "setup_quality": "B",
-      "position_size_dollars": 7.78
     }
   ]
 }
