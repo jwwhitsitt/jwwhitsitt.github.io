@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-09T10:45:05.554207-04:00",
+  "generated_at": "2026-06-09T11:00:11.675630-04:00",
   "summary": {
     "total_pl_dollars": -5.51,
     "wins": 14,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 3.53,
-      "unrealized_pct": -0.14527845036319614,
-      "unrealized_dollars": -1.18
+      "current_price": 3.6588,
+      "unrealized_pct": -0.11409200968523005,
+      "unrealized_dollars": -0.93
     },
     {
       "ticker": "WYY",
@@ -31,8 +31,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.82,
-      "current_price": 11.25,
-      "unrealized_pct": 0.04070305272895462,
+      "current_price": 11.26,
+      "unrealized_pct": 0.04162812210915812,
       "unrealized_dollars": 0.08
     },
     {
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.21,
-      "current_price": 7.385,
-      "unrealized_pct": 0.1853932584269662,
-      "unrealized_dollars": 1.33
+      "current_price": 7.4494,
+      "unrealized_pct": 0.19573033707865156,
+      "unrealized_dollars": 1.41
     },
     {
       "ticker": "BOSC",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.38,
-      "unrealized_pct": -0.00454545454545465,
-      "unrealized_dollars": -0.02
+      "current_price": 4.3001,
+      "unrealized_pct": -0.022704545454545626,
+      "unrealized_dollars": -0.11
     },
     {
       "ticker": "THCH",
@@ -101,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.735,
-      "unrealized_pct": 0.18770536692223438,
-      "unrealized_dollars": 1.51
+      "current_price": 1.8726,
+      "unrealized_pct": 0.28190032858707553,
+      "unrealized_dollars": 2.27
     }
   ],
   "closed_trades": [
