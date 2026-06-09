@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-09T11:00:11.675630-04:00",
+  "generated_at": "2026-06-09T11:15:05.133377-04:00",
   "summary": {
     "total_pl_dollars": -5.51,
     "wins": 14,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 3.6588,
-      "unrealized_pct": -0.11409200968523005,
-      "unrealized_dollars": -0.93
+      "current_price": 3.6,
+      "unrealized_pct": -0.1283292978208232,
+      "unrealized_dollars": -1.04
     },
     {
       "ticker": "WYY",
@@ -31,8 +31,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.82,
-      "current_price": 11.26,
-      "unrealized_pct": 0.04162812210915812,
+      "current_price": 11.2475,
+      "unrealized_pct": 0.040471785383903794,
       "unrealized_dollars": 0.08
     },
     {
@@ -45,8 +45,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.21,
-      "current_price": 7.4494,
-      "unrealized_pct": 0.19573033707865156,
+      "current_price": 7.45,
+      "unrealized_pct": 0.19582664526484747,
       "unrealized_dollars": 1.41
     },
     {
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.86,
-      "current_price": 4.81,
-      "unrealized_pct": 0.37428571428571417,
-      "unrealized_dollars": 3.61
+      "current_price": 4.82,
+      "unrealized_pct": 0.3771428571428572,
+      "unrealized_dollars": 3.64
     },
     {
       "ticker": "LNKS",
@@ -101,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.8726,
-      "unrealized_pct": 0.28190032858707553,
-      "unrealized_dollars": 2.27
+      "current_price": 1.8311,
+      "unrealized_pct": 0.25349123767798454,
+      "unrealized_dollars": 2.04
     }
   ],
   "closed_trades": [
