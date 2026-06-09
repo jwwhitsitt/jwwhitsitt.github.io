@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-09T14:30:09.713840-04:00",
+  "generated_at": "2026-06-09T14:45:05.202179-04:00",
   "summary": {
     "total_pl_dollars": -4.0,
     "wins": 14,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 11.47,
-      "current_price": 19.3851,
-      "unrealized_pct": 0.11665965817775457,
-      "unrealized_dollars": 0.93
+      "current_price": 19.675,
+      "unrealized_pct": 0.1333590631282439,
+      "unrealized_dollars": 1.06
     },
     {
       "ticker": "WOK",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.76,
-      "current_price": 0.1028,
-      "unrealized_pct": 0.026973026973027055,
-      "unrealized_dollars": 0.22
+      "current_price": 0.103,
+      "unrealized_pct": 0.028971028971028972,
+      "unrealized_dollars": 0.24
     },
     {
       "ticker": "PN",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 3.63,
-      "unrealized_pct": -0.12106537530266344,
-      "unrealized_dollars": -0.98
+      "current_price": 3.57,
+      "unrealized_pct": -0.13559322033898308,
+      "unrealized_dollars": -1.1
     },
     {
       "ticker": "WYY",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.82,
-      "current_price": 11.62,
-      "unrealized_pct": 0.07493061979648462,
-      "unrealized_dollars": 0.14
+      "current_price": 11.46,
+      "unrealized_pct": 0.06012950971322852,
+      "unrealized_dollars": 0.11
     },
     {
       "ticker": "ROLR",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.21,
-      "current_price": 7.32,
-      "unrealized_pct": 0.17495987158908505,
-      "unrealized_dollars": 1.26
+      "current_price": 7.22,
+      "unrealized_pct": 0.15890850722311384,
+      "unrealized_dollars": 1.14
     },
     {
       "ticker": "BOSC",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.285,
-      "unrealized_pct": -0.026136363636363683,
-      "unrealized_dollars": -0.13
+      "current_price": 4.265,
+      "unrealized_pct": -0.030681818181818334,
+      "unrealized_dollars": -0.15
     },
     {
       "ticker": "THCH",
@@ -115,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.86,
-      "current_price": 4.7821,
-      "unrealized_pct": 0.36631428571428565,
-      "unrealized_dollars": 3.53
+      "current_price": 4.875,
+      "unrealized_pct": 0.39285714285714285,
+      "unrealized_dollars": 3.79
     },
     {
       "ticker": "LNKS",
@@ -129,9 +129,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.64,
-      "unrealized_pct": 0.12267250821467675,
-      "unrealized_dollars": 0.99
+      "current_price": 1.69,
+      "unrealized_pct": 0.15690032858707545,
+      "unrealized_dollars": 1.26
     }
   ],
   "closed_trades": [
