@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-09T11:30:09.547423-04:00",
+  "generated_at": "2026-06-09T11:45:05.784259-04:00",
   "summary": {
     "total_pl_dollars": -5.51,
     "wins": 14,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 3.73,
-      "unrealized_pct": -0.09685230024213073,
-      "unrealized_dollars": -0.79
+      "current_price": 3.885,
+      "unrealized_pct": -0.059322033898305114,
+      "unrealized_dollars": -0.48
     },
     {
       "ticker": "WYY",
@@ -31,8 +31,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.82,
-      "current_price": 11.07,
-      "unrealized_pct": 0.024051803885291375,
+      "current_price": 11.0931,
+      "unrealized_pct": 0.026188714153561447,
       "unrealized_dollars": 0.05
     },
     {
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.21,
-      "current_price": 7.2,
-      "unrealized_pct": 0.1556982343499197,
-      "unrealized_dollars": 1.12
+      "current_price": 7.245,
+      "unrealized_pct": 0.16292134831460667,
+      "unrealized_dollars": 1.17
     },
     {
       "ticker": "BOSC",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.25,
-      "unrealized_pct": -0.03409090909090917,
-      "unrealized_dollars": -0.17
+      "current_price": 4.28,
+      "unrealized_pct": -0.027272727272727296,
+      "unrealized_dollars": -0.13
     },
     {
       "ticker": "THCH",
@@ -101,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.66,
-      "unrealized_pct": 0.13636363636363624,
-      "unrealized_dollars": 1.1
+      "current_price": 1.72,
+      "unrealized_pct": 0.17743702081051468,
+      "unrealized_dollars": 1.43
     }
   ],
   "closed_trades": [
