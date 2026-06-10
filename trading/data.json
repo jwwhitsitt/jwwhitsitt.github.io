@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-10T10:15:06.652054-04:00",
+  "generated_at": "2026-06-10T10:30:07.789758-04:00",
   "summary": {
     "total_pl_dollars": 3.66,
     "wins": 15,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.76,
-      "current_price": 0.1013,
-      "unrealized_pct": 0.011988011988012054,
-      "unrealized_dollars": 0.1
+      "current_price": 0.1,
+      "unrealized_pct": -0.000999000999000889,
+      "unrealized_dollars": -0.01
     },
     {
       "ticker": "PN",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.82,
-      "current_price": 11.9031,
-      "unrealized_pct": 0.10111933395004623,
-      "unrealized_dollars": 0.19
+      "current_price": 12.06,
+      "unrealized_pct": 0.11563367252543941,
+      "unrealized_dollars": 0.22
     },
     {
       "ticker": "ROLR",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.21,
-      "current_price": 7.363,
-      "unrealized_pct": 0.18186195826645263,
-      "unrealized_dollars": 1.31
+      "current_price": 7.3301,
+      "unrealized_pct": 0.17658105939004803,
+      "unrealized_dollars": 1.27
     },
     {
       "ticker": "BOSC",
@@ -101,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.64,
-      "unrealized_pct": 0.12267250821467675,
-      "unrealized_dollars": 0.99
+      "current_price": 1.68,
+      "unrealized_pct": 0.15005476451259572,
+      "unrealized_dollars": 1.21
     }
   ],
   "closed_trades": [
