@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-10T13:15:05.688737-04:00",
+  "generated_at": "2026-06-10T13:30:08.652638-04:00",
   "summary": {
     "total_pl_dollars": 6.57,
     "wins": 16,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.76,
-      "current_price": 0.0977,
-      "unrealized_pct": -0.023976023976023973,
-      "unrealized_dollars": -0.2
+      "current_price": 0.0976,
+      "unrealized_pct": -0.02497502497502486,
+      "unrealized_dollars": -0.21
     },
     {
       "ticker": "PN",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.21,
-      "current_price": 7.01,
-      "unrealized_pct": 0.12520064205457454,
-      "unrealized_dollars": 0.9
+      "current_price": 7.02,
+      "unrealized_pct": 0.1268057784911716,
+      "unrealized_dollars": 0.91
     },
     {
       "ticker": "BOSC",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.29,
-      "unrealized_pct": -0.02500000000000007,
-      "unrealized_dollars": -0.12
+      "current_price": 4.28,
+      "unrealized_pct": -0.027272727272727296,
+      "unrealized_dollars": -0.13
     },
     {
       "ticker": "THCH",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.6306,
-      "unrealized_pct": 0.1162376779846659,
-      "unrealized_dollars": 0.94
+      "current_price": 1.6101,
+      "unrealized_pct": 0.10220427163198247,
+      "unrealized_dollars": 0.82
     }
   ],
   "closed_trades": [
