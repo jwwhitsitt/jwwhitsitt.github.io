@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-10T14:15:04.949894-04:00",
+  "generated_at": "2026-06-10T14:30:06.061548-04:00",
   "summary": {
     "total_pl_dollars": 6.57,
     "wins": 16,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.76,
-      "current_price": 0.0986,
-      "unrealized_pct": -0.014985014985015,
-      "unrealized_dollars": -0.12
+      "current_price": 0.0982,
+      "unrealized_pct": -0.01898101898101897,
+      "unrealized_dollars": -0.16
     },
     {
       "ticker": "PN",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 3.969,
-      "unrealized_pct": -0.03898305084745764,
-      "unrealized_dollars": -0.32
+      "current_price": 3.96,
+      "unrealized_pct": -0.041162227602905554,
+      "unrealized_dollars": -0.33
     },
     {
       "ticker": "ROLR",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.21,
-      "current_price": 7.09,
-      "unrealized_pct": 0.13804173354735141,
-      "unrealized_dollars": 0.99
+      "current_price": 7.07,
+      "unrealized_pct": 0.13483146067415727,
+      "unrealized_dollars": 0.97
     },
     {
       "ticker": "BOSC",
@@ -59,8 +59,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.2801,
-      "unrealized_pct": -0.027250000000000076,
+      "current_price": 4.28,
+      "unrealized_pct": -0.027272727272727296,
       "unrealized_dollars": -0.13
     },
     {
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.632,
-      "unrealized_pct": 0.11719605695509296,
-      "unrealized_dollars": 0.94
+      "current_price": 1.6366,
+      "unrealized_pct": 0.12034501642935375,
+      "unrealized_dollars": 0.97
     }
   ],
   "closed_trades": [
