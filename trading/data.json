@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-10T10:45:05.587099-04:00",
+  "generated_at": "2026-06-10T11:00:10.295676-04:00",
   "summary": {
-    "total_pl_dollars": 3.66,
-    "wins": 15,
-    "losses": 32,
-    "open_count": 7
+    "total_pl_dollars": 6.57,
+    "wins": 16,
+    "losses": 31,
+    "open_count": 6
   },
   "open_trades": [
     {
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.76,
-      "current_price": 0.1003,
-      "unrealized_pct": 0.0019980019980020552,
-      "unrealized_dollars": 0.02
+      "current_price": 0.0999,
+      "unrealized_pct": -0.001998001998001917,
+      "unrealized_dollars": -0.02
     },
     {
       "ticker": "PN",
@@ -31,23 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 3.89,
-      "unrealized_pct": -0.0581113801452784,
-      "unrealized_dollars": -0.47
-    },
-    {
-      "ticker": "WYY",
-      "entry_price": 10.81,
-      "stop_loss_price": 10.47,
-      "profit_target_price": 12.11,
-      "position_size_dollars": 1.89,
-      "entry_timestamp": "2026-06-05T15:01:40.601964",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 3.82,
-      "current_price": 12.08,
-      "unrealized_pct": 0.1174838112858464,
-      "unrealized_dollars": 0.22
+      "current_price": 3.948,
+      "unrealized_pct": -0.04406779661016948,
+      "unrealized_dollars": -0.36
     },
     {
       "ticker": "ROLR",
@@ -59,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.21,
-      "current_price": 7.4,
-      "unrealized_pct": 0.18780096308186192,
-      "unrealized_dollars": 1.35
+      "current_price": 7.31,
+      "unrealized_pct": 0.1733547351524878,
+      "unrealized_dollars": 1.24
     },
     {
       "ticker": "BOSC",
@@ -73,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.29,
-      "unrealized_pct": -0.02500000000000007,
-      "unrealized_dollars": -0.12
+      "current_price": 4.355,
+      "unrealized_pct": -0.01022727272727271,
+      "unrealized_dollars": -0.05
     },
     {
       "ticker": "THCH",
@@ -107,6 +93,17 @@
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "WYY",
+      "entry_price": 10.81,
+      "exit_price": 12.3,
+      "exit_reason": "target_hit",
+      "pl_dollars": 0.26,
+      "pl_percent": 0.137835,
+      "exit_timestamp": "2026-06-10T15:00:04.792158",
+      "setup_quality": "B",
+      "position_size_dollars": 1.89
+    },
     {
       "ticker": "OCC",
       "entry_price": 17.3599,
@@ -645,17 +642,6 @@
       "exit_timestamp": "2026-05-28T15:30:03.142262",
       "setup_quality": "B",
       "position_size_dollars": 9.27
-    },
-    {
-      "ticker": "WCT",
-      "entry_price": 2.15,
-      "exit_price": 1.35,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -2.65,
-      "pl_percent": -0.372093,
-      "exit_timestamp": "2026-05-28T13:45:04.774783",
-      "setup_quality": "B",
-      "position_size_dollars": 7.12
     }
   ]
 }
