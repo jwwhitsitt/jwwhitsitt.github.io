@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-10T12:30:07.675746-04:00",
+  "generated_at": "2026-06-10T12:45:04.871733-04:00",
   "summary": {
     "total_pl_dollars": 6.57,
     "wins": 16,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.76,
-      "current_price": 0.0982,
-      "unrealized_pct": -0.01898101898101897,
-      "unrealized_dollars": -0.16
+      "current_price": 0.0971,
+      "unrealized_pct": -0.02997002997002986,
+      "unrealized_dollars": -0.25
     },
     {
       "ticker": "PN",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 3.945,
-      "unrealized_pct": -0.04479418886198549,
-      "unrealized_dollars": -0.36
+      "current_price": 4.0591,
+      "unrealized_pct": -0.017167070217917666,
+      "unrealized_dollars": -0.14
     },
     {
       "ticker": "ROLR",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.21,
-      "current_price": 6.9348,
-      "unrealized_pct": 0.1131300160513643,
-      "unrealized_dollars": 0.81
+      "current_price": 7.02,
+      "unrealized_pct": 0.1268057784911716,
+      "unrealized_dollars": 0.91
     },
     {
       "ticker": "BOSC",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.65,
-      "current_price": 1.77,
-      "unrealized_pct": -0.027472527472527496,
-      "unrealized_dollars": -0.03
+      "current_price": 1.88,
+      "unrealized_pct": 0.03296703296703287,
+      "unrealized_dollars": 0.04
     },
     {
       "ticker": "LNKS",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.63,
-      "unrealized_pct": 0.11582694414019701,
-      "unrealized_dollars": 0.93
+      "current_price": 1.645,
+      "unrealized_pct": 0.12609529025191668,
+      "unrealized_dollars": 1.02
     }
   ],
   "closed_trades": [
