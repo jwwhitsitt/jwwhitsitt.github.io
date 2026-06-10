@@ -1,26 +1,12 @@
 {
-  "generated_at": "2026-06-10T09:45:06.065222-04:00",
+  "generated_at": "2026-06-10T10:00:10.204475-04:00",
   "summary": {
-    "total_pl_dollars": -0.05,
-    "wins": 14,
-    "losses": 33,
-    "open_count": 8
+    "total_pl_dollars": 3.66,
+    "wins": 15,
+    "losses": 32,
+    "open_count": 7
   },
   "open_trades": [
-    {
-      "ticker": "OCC",
-      "entry_price": 17.3599,
-      "stop_loss_price": 17.0,
-      "profit_target_price": 21.4865,
-      "position_size_dollars": 7.96,
-      "entry_timestamp": "2026-06-09T17:10:26.096354",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 11.47,
-      "current_price": 25.382,
-      "unrealized_pct": 0.46210519645850506,
-      "unrealized_dollars": 3.68
-    },
     {
       "ticker": "WOK",
       "entry_price": 0.1001,
@@ -31,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.76,
-      "current_price": 0.1015,
-      "unrealized_pct": 0.013986013986014111,
-      "unrealized_dollars": 0.11
+      "current_price": 0.1038,
+      "unrealized_pct": 0.03696303696303705,
+      "unrealized_dollars": 0.3
     },
     {
       "ticker": "PN",
@@ -45,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 3.81,
-      "unrealized_pct": -0.07748184019370456,
-      "unrealized_dollars": -0.63
+      "current_price": 3.825,
+      "unrealized_pct": -0.07384987893462464,
+      "unrealized_dollars": -0.6
     },
     {
       "ticker": "WYY",
@@ -59,8 +45,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.82,
-      "current_price": 11.9072,
-      "unrealized_pct": 0.10149861239592961,
+      "current_price": 11.89,
+      "unrealized_pct": 0.09990749306197964,
       "unrealized_dollars": 0.19
     },
     {
@@ -73,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.21,
-      "current_price": 7.29,
-      "unrealized_pct": 0.17014446227929367,
-      "unrealized_dollars": 1.22
+      "current_price": 7.5,
+      "unrealized_pct": 0.203852327447833,
+      "unrealized_dollars": 1.46
     },
     {
       "ticker": "BOSC",
@@ -87,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.25,
-      "unrealized_pct": -0.03409090909090917,
-      "unrealized_dollars": -0.17
+      "current_price": 4.29,
+      "unrealized_pct": -0.02500000000000007,
+      "unrealized_dollars": -0.12
     },
     {
       "ticker": "THCH",
@@ -115,12 +101,23 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.59,
-      "unrealized_pct": 0.08844468784227819,
-      "unrealized_dollars": 0.71
+      "current_price": 1.615,
+      "unrealized_pct": 0.10555859802847746,
+      "unrealized_dollars": 0.85
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "OCC",
+      "entry_price": 17.3599,
+      "exit_price": 24.98,
+      "exit_reason": "target_hit",
+      "pl_dollars": 3.49,
+      "pl_percent": 0.438948,
+      "exit_timestamp": "2026-06-10T13:45:05.094648",
+      "setup_quality": "B",
+      "position_size_dollars": 7.96
+    },
     {
       "ticker": "TACT",
       "entry_price": 3.5,
@@ -659,17 +656,6 @@
       "exit_timestamp": "2026-05-28T13:45:04.774783",
       "setup_quality": "B",
       "position_size_dollars": 7.12
-    },
-    {
-      "ticker": "EXOZ",
-      "entry_price": 9.87,
-      "exit_price": 9.62,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -0.22,
-      "pl_percent": -0.025329,
-      "exit_timestamp": "2026-05-28T13:45:04.254364",
-      "setup_quality": "B",
-      "position_size_dollars": 8.83
     }
   ]
 }
