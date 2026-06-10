@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-10T10:00:10.204475-04:00",
+  "generated_at": "2026-06-10T10:15:06.652054-04:00",
   "summary": {
     "total_pl_dollars": 3.66,
     "wins": 15,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.76,
-      "current_price": 0.1038,
-      "unrealized_pct": 0.03696303696303705,
-      "unrealized_dollars": 0.3
+      "current_price": 0.1013,
+      "unrealized_pct": 0.011988011988012054,
+      "unrealized_dollars": 0.1
     },
     {
       "ticker": "PN",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 3.825,
-      "unrealized_pct": -0.07384987893462464,
-      "unrealized_dollars": -0.6
+      "current_price": 3.81,
+      "unrealized_pct": -0.07748184019370456,
+      "unrealized_dollars": -0.63
     },
     {
       "ticker": "WYY",
@@ -45,8 +45,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.82,
-      "current_price": 11.89,
-      "unrealized_pct": 0.09990749306197964,
+      "current_price": 11.9031,
+      "unrealized_pct": 0.10111933395004623,
       "unrealized_dollars": 0.19
     },
     {
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.21,
-      "current_price": 7.5,
-      "unrealized_pct": 0.203852327447833,
-      "unrealized_dollars": 1.46
+      "current_price": 7.363,
+      "unrealized_pct": 0.18186195826645263,
+      "unrealized_dollars": 1.31
     },
     {
       "ticker": "BOSC",
@@ -101,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.615,
-      "unrealized_pct": 0.10555859802847746,
-      "unrealized_dollars": 0.85
+      "current_price": 1.64,
+      "unrealized_pct": 0.12267250821467675,
+      "unrealized_dollars": 0.99
     }
   ],
   "closed_trades": [
