@@ -1,12 +1,40 @@
 {
-  "generated_at": "2026-06-11T09:00:05.903863-04:00",
+  "generated_at": "2026-06-11T09:15:10.357015-04:00",
   "summary": {
     "total_pl_dollars": 5.71,
     "wins": 15,
     "losses": 31,
-    "open_count": 7
+    "open_count": 9
   },
   "open_trades": [
+    {
+      "ticker": "APM",
+      "entry_price": 0.9038,
+      "stop_loss_price": 0.8362,
+      "profit_target_price": 1.04,
+      "position_size_dollars": 8.89,
+      "entry_timestamp": "2026-06-11T13:01:47.045849",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 2.01,
+      "current_price": 0.9038,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
+    },
+    {
+      "ticker": "AGMH",
+      "entry_price": 1.09,
+      "stop_loss_price": 1.05,
+      "profit_target_price": 1.19,
+      "position_size_dollars": 8.95,
+      "entry_timestamp": "2026-06-11T13:01:47.003277",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 2.5,
+      "current_price": 1.09,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
+    },
     {
       "ticker": "LUD",
       "entry_price": 3.95,
