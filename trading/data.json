@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-11T09:15:10.357015-04:00",
+  "generated_at": "2026-06-11T09:30:06.400983-04:00",
   "summary": {
     "total_pl_dollars": 5.71,
     "wins": 15,
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.76,
-      "current_price": 0.1,
-      "unrealized_pct": -0.000999000999000889,
-      "unrealized_dollars": -0.01
+      "current_price": 0.0955,
+      "unrealized_pct": -0.04595404595404589,
+      "unrealized_dollars": -0.38
     },
     {
       "ticker": "PN",
