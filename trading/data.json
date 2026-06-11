@@ -1,26 +1,12 @@
 {
-  "generated_at": "2026-06-11T11:15:06.527484-04:00",
+  "generated_at": "2026-06-11T11:30:09.218890-04:00",
   "summary": {
-    "total_pl_dollars": 6.22,
+    "total_pl_dollars": 2.81,
     "wins": 16,
     "losses": 31,
-    "open_count": 9
+    "open_count": 8
   },
   "open_trades": [
-    {
-      "ticker": "DAIC",
-      "entry_price": 2.31,
-      "stop_loss_price": 1.93,
-      "profit_target_price": 2.31,
-      "position_size_dollars": 8.38,
-      "entry_timestamp": "2026-06-11T15:03:27.375403",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 0.0,
-      "current_price": 2.3603,
-      "unrealized_pct": 0.02177489177489178,
-      "unrealized_dollars": 0.18
-    },
     {
       "ticker": "JZXN",
       "entry_price": 1.52,
@@ -31,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.93,
-      "current_price": 1.525,
-      "unrealized_pct": 0.0032894736842104563,
-      "unrealized_dollars": 0.03
+      "current_price": 1.4601,
+      "unrealized_pct": -0.03940789473684215,
+      "unrealized_dollars": -0.35
     },
     {
       "ticker": "APM",
@@ -45,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.01,
-      "current_price": 0.8601,
-      "unrealized_pct": -0.04835140517813683,
-      "unrealized_dollars": -0.43
+      "current_price": 0.8631,
+      "unrealized_pct": -0.04503208674485513,
+      "unrealized_dollars": -0.4
     },
     {
       "ticker": "LUD",
@@ -73,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 4.1423,
-      "unrealized_pct": 0.0029782082324454613,
-      "unrealized_dollars": 0.02
+      "current_price": 4.2282,
+      "unrealized_pct": 0.02377723970944317,
+      "unrealized_dollars": 0.19
     },
     {
       "ticker": "ROLR",
@@ -87,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.21,
-      "current_price": 7.4,
-      "unrealized_pct": 0.18780096308186192,
-      "unrealized_dollars": 1.35
+      "current_price": 7.305,
+      "unrealized_pct": 0.1725521669341893,
+      "unrealized_dollars": 1.24
     },
     {
       "ticker": "BOSC",
@@ -129,12 +115,23 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.8099,
-      "unrealized_pct": 0.23897864184008757,
-      "unrealized_dollars": 1.93
+      "current_price": 1.745,
+      "unrealized_pct": 0.1945509309967141,
+      "unrealized_dollars": 1.57
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "DAIC",
+      "entry_price": 2.31,
+      "exit_price": 2.3603,
+      "exit_reason": "target_hit",
+      "pl_dollars": 0.18,
+      "pl_percent": 0.021775,
+      "exit_timestamp": "2026-06-11T15:15:05.102004",
+      "setup_quality": "B",
+      "position_size_dollars": 8.38
+    },
     {
       "ticker": "WOK",
       "entry_price": 0.1001,
@@ -673,17 +670,6 @@
       "exit_timestamp": "2026-05-28T19:30:03.506211",
       "setup_quality": "B",
       "position_size_dollars": 8.3
-    },
-    {
-      "ticker": "ASTC",
-      "entry_price": 18.4762,
-      "exit_price": 26.43,
-      "exit_reason": "target_hit",
-      "pl_dollars": 3.59,
-      "pl_percent": 0.430489,
-      "exit_timestamp": "2026-05-28T17:45:04.348471",
-      "setup_quality": "B",
-      "position_size_dollars": 8.35
     }
   ]
 }
