@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-11T15:30:06.744057-04:00",
+  "generated_at": "2026-06-11T15:45:05.465644-04:00",
   "summary": {
     "total_pl_dollars": 0.95,
     "wins": 15,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 10.63,
-      "current_price": 1.895,
-      "unrealized_pct": 0.03710595446584943,
-      "unrealized_dollars": 0.29
+      "current_price": 1.93,
+      "unrealized_pct": 0.056260945709281966,
+      "unrealized_dollars": 0.44
     },
     {
       "ticker": "HUHU",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.01,
-      "current_price": 0.8595,
-      "unrealized_pct": -0.0490152688647931,
-      "unrealized_dollars": -0.44
+      "current_price": 0.8501,
+      "unrealized_pct": -0.059415799955742504,
+      "unrealized_dollars": -0.53
     },
     {
       "ticker": "LUD",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.21,
-      "current_price": 7.55,
-      "unrealized_pct": 0.21187800963081851,
-      "unrealized_dollars": 1.52
+      "current_price": 7.5,
+      "unrealized_pct": 0.203852327447833,
+      "unrealized_dollars": 1.46
     },
     {
       "ticker": "BOSC",
@@ -129,9 +129,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.7208,
-      "unrealized_pct": 0.17798466593647316,
-      "unrealized_dollars": 1.43
+      "current_price": 1.7569,
+      "unrealized_pct": 0.20269715224534487,
+      "unrealized_dollars": 1.63
     }
   ],
   "closed_trades": [
