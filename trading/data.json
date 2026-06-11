@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-11T11:45:05.822584-04:00",
+  "generated_at": "2026-06-11T12:00:07.192043-04:00",
   "summary": {
     "total_pl_dollars": 2.81,
     "wins": 16,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.93,
-      "current_price": 1.51,
-      "unrealized_pct": -0.006578947368421058,
-      "unrealized_dollars": -0.06
+      "current_price": 1.47,
+      "unrealized_pct": -0.03289473684210529,
+      "unrealized_dollars": -0.3
     },
     {
       "ticker": "APM",
@@ -45,8 +45,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.46,
-      "current_price": 3.975,
-      "unrealized_pct": 0.00632911392405061,
+      "current_price": 3.97,
+      "unrealized_pct": 0.005063291139240511,
       "unrealized_dollars": 0.04
     },
     {
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 4.15,
-      "unrealized_pct": 0.00484261501210665,
-      "unrealized_dollars": 0.04
+      "current_price": 4.2,
+      "unrealized_pct": 0.01694915254237295,
+      "unrealized_dollars": 0.14
     },
     {
       "ticker": "ROLR",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.21,
-      "current_price": 7.405,
-      "unrealized_pct": 0.18860353130016047,
-      "unrealized_dollars": 1.35
+      "current_price": 7.5,
+      "unrealized_pct": 0.203852327447833,
+      "unrealized_dollars": 1.46
     },
     {
       "ticker": "BOSC",
@@ -115,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.7583,
-      "unrealized_pct": 0.20365553121577207,
-      "unrealized_dollars": 1.64
+      "current_price": 1.72,
+      "unrealized_pct": 0.17743702081051468,
+      "unrealized_dollars": 1.43
     }
   ],
   "closed_trades": [
