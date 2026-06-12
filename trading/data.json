@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T14:15:05.533032-04:00",
+  "generated_at": "2026-06-12T14:30:06.821664-04:00",
   "summary": {
     "total_pl_dollars": 0.43,
     "wins": 15,
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.46,
-      "current_price": 4.25,
-      "unrealized_pct": 0.07594936708860754,
-      "unrealized_dollars": 0.54
+      "current_price": 4.27,
+      "unrealized_pct": 0.08101265822784795,
+      "unrealized_dollars": 0.58
     },
     {
       "ticker": "PN",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 4.33,
-      "unrealized_pct": 0.04842615012106542,
-      "unrealized_dollars": 0.39
+      "current_price": 4.2323,
+      "unrealized_pct": 0.024769975786925063,
+      "unrealized_dollars": 0.2
     },
     {
       "ticker": "ROLR",
@@ -101,8 +101,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.21,
-      "current_price": 6.425,
-      "unrealized_pct": 0.03130016051364356,
+      "current_price": 6.42,
+      "unrealized_pct": 0.030497592295345023,
       "unrealized_dollars": 0.22
     },
     {
@@ -115,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.3301,
-      "unrealized_pct": -0.015886363636363754,
-      "unrealized_dollars": -0.08
+      "current_price": 4.3,
+      "unrealized_pct": -0.022727272727272846,
+      "unrealized_dollars": -0.11
     },
     {
       "ticker": "LNKS",
@@ -129,9 +129,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.5523,
-      "unrealized_pct": 0.06263691128148953,
-      "unrealized_dollars": 0.5
+      "current_price": 1.5799,
+      "unrealized_pct": 0.08153066812705365,
+      "unrealized_dollars": 0.66
     }
   ],
   "closed_trades": [
