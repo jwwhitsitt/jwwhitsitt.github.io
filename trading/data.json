@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-12T10:00:05.740834-04:00",
+  "generated_at": "2026-06-12T10:15:05.859174-04:00",
   "summary": {
-    "total_pl_dollars": 0.95,
+    "total_pl_dollars": 0.45,
     "wins": 15,
     "losses": 32,
-    "open_count": 9
+    "open_count": 8
   },
   "open_trades": [
     {
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 10.63,
-      "current_price": 1.89,
-      "unrealized_pct": 0.034369527145359,
-      "unrealized_dollars": 0.27
+      "current_price": 1.86,
+      "unrealized_pct": 0.0179509632224169,
+      "unrealized_dollars": 0.14
     },
     {
       "ticker": "HUHU",
@@ -36,20 +36,6 @@
       "unrealized_dollars": 0.02
     },
     {
-      "ticker": "APM",
-      "entry_price": 0.9038,
-      "stop_loss_price": 0.8362,
-      "profit_target_price": 1.04,
-      "position_size_dollars": 8.89,
-      "entry_timestamp": "2026-06-11T13:01:47.045849",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 2.01,
-      "current_price": 0.8149,
-      "unrealized_pct": -0.09836246957291446,
-      "unrealized_dollars": -0.87
-    },
-    {
       "ticker": "LUD",
       "entry_price": 3.95,
       "stop_loss_price": 3.71,
@@ -59,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.46,
-      "current_price": 3.96,
-      "unrealized_pct": 0.002531645569620199,
-      "unrealized_dollars": 0.02
+      "current_price": 3.95,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
     },
     {
       "ticker": "PN",
@@ -73,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 4.1,
-      "unrealized_pct": -0.0072639225181598665,
-      "unrealized_dollars": -0.06
+      "current_price": 4.205,
+      "unrealized_pct": 0.01815980629539956,
+      "unrealized_dollars": 0.15
     },
     {
       "ticker": "ROLR",
@@ -87,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.21,
-      "current_price": 6.93,
-      "unrealized_pct": 0.11235955056179762,
-      "unrealized_dollars": 0.81
+      "current_price": 6.82,
+      "unrealized_pct": 0.09470304975922951,
+      "unrealized_dollars": 0.68
     },
     {
       "ticker": "BOSC",
@@ -115,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.65,
-      "current_price": 1.69,
-      "unrealized_pct": -0.0714285714285715,
-      "unrealized_dollars": -0.09
+      "current_price": 1.73,
+      "unrealized_pct": -0.04945054945054949,
+      "unrealized_dollars": -0.06
     },
     {
       "ticker": "LNKS",
@@ -129,12 +115,23 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.65,
-      "unrealized_pct": 0.1295180722891565,
-      "unrealized_dollars": 1.04
+      "current_price": 1.584,
+      "unrealized_pct": 0.08433734939759034,
+      "unrealized_dollars": 0.68
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "APM",
+      "entry_price": 0.9038,
+      "exit_price": 0.8149,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.87,
+      "pl_percent": -0.098362,
+      "exit_timestamp": "2026-06-12T14:00:04.191851",
+      "setup_quality": "B",
+      "position_size_dollars": 8.89
+    },
     {
       "ticker": "JZXN",
       "entry_price": 1.52,
@@ -673,17 +670,6 @@
       "exit_timestamp": "2026-05-29T14:00:03.884910",
       "setup_quality": "B",
       "position_size_dollars": 8.71
-    },
-    {
-      "ticker": "SUGP",
-      "entry_price": 1.475,
-      "exit_price": 1.05,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -0.38,
-      "pl_percent": -0.288136,
-      "exit_timestamp": "2026-05-29T13:45:03.681399",
-      "setup_quality": "B",
-      "position_size_dollars": 1.31
     }
   ]
 }
