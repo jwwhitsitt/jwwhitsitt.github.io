@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-12T14:45:05.316549-04:00",
+  "generated_at": "2026-06-12T15:00:05.923547-04:00",
   "summary": {
-    "total_pl_dollars": 0.43,
+    "total_pl_dollars": 0.69,
     "wins": 15,
     "losses": 32,
-    "open_count": 9
+    "open_count": 8
   },
   "open_trades": [
     {
@@ -36,20 +36,6 @@
       "unrealized_dollars": -0.16
     },
     {
-      "ticker": "NA",
-      "entry_price": 1.8272,
-      "stop_loss_price": 1.81,
-      "profit_target_price": 2.01,
-      "position_size_dollars": 7.81,
-      "entry_timestamp": "2026-06-11T17:02:37.642390",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 10.63,
-      "current_price": 1.795,
-      "unrealized_pct": -0.017622591943957974,
-      "unrealized_dollars": -0.14
-    },
-    {
       "ticker": "HUHU",
       "entry_price": 8.99,
       "stop_loss_price": 8.7,
@@ -73,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.46,
-      "current_price": 4.27,
-      "unrealized_pct": 0.08101265822784795,
-      "unrealized_dollars": 0.58
+      "current_price": 4.21,
+      "unrealized_pct": 0.06582278481012653,
+      "unrealized_dollars": 0.47
     },
     {
       "ticker": "PN",
@@ -87,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 4.2323,
-      "unrealized_pct": 0.024769975786925063,
-      "unrealized_dollars": 0.2
+      "current_price": 4.295,
+      "unrealized_pct": 0.03995157384987894,
+      "unrealized_dollars": 0.32
     },
     {
       "ticker": "ROLR",
@@ -101,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.21,
-      "current_price": 6.35,
-      "unrealized_pct": 0.019261637239165203,
-      "unrealized_dollars": 0.14
+      "current_price": 6.5199,
+      "unrealized_pct": 0.04653290529695014,
+      "unrealized_dollars": 0.33
     },
     {
       "ticker": "BOSC",
@@ -135,6 +121,17 @@
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "NA",
+      "entry_price": 1.8272,
+      "exit_price": 1.795,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.14,
+      "pl_percent": -0.017623,
+      "exit_timestamp": "2026-06-12T18:45:03.984188",
+      "setup_quality": "B",
+      "position_size_dollars": 7.81
+    },
     {
       "ticker": "THCH",
       "entry_price": 1.82,
@@ -673,17 +670,6 @@
       "exit_timestamp": "2026-05-29T14:30:03.969178",
       "setup_quality": "B",
       "position_size_dollars": 8.79
-    },
-    {
-      "ticker": "RGNT",
-      "entry_price": 1.8913,
-      "exit_price": 1.8,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -0.4,
-      "pl_percent": -0.048274,
-      "exit_timestamp": "2026-05-29T14:30:03.873004",
-      "setup_quality": "B",
-      "position_size_dollars": 8.35
     }
   ]
 }
