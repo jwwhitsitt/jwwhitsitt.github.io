@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T15:30:06.324470-04:00",
+  "generated_at": "2026-06-12T15:45:06.169123-04:00",
   "summary": {
     "total_pl_dollars": 0.69,
     "wins": 15,
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.46,
-      "current_price": 4.16,
-      "unrealized_pct": 0.05316455696202531,
-      "unrealized_dollars": 0.38
+      "current_price": 4.2,
+      "unrealized_pct": 0.06329113924050632,
+      "unrealized_dollars": 0.45
     },
     {
       "ticker": "PN",
@@ -101,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.21,
-      "current_price": 6.51,
-      "unrealized_pct": 0.044943820224718996,
-      "unrealized_dollars": 0.32
+      "current_price": 6.53,
+      "unrealized_pct": 0.04815409309791329,
+      "unrealized_dollars": 0.35
     },
     {
       "ticker": "BOSC",
