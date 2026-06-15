@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T14:00:11.204433-04:00",
+  "generated_at": "2026-06-15T14:15:05.836511-04:00",
   "summary": {
     "total_pl_dollars": 3.69,
     "wins": 15,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 9.42,
-      "current_price": 1.52,
-      "unrealized_pct": 6.579380222382327e-05,
-      "unrealized_dollars": 0.0
+      "current_price": 1.505,
+      "unrealized_pct": -0.009803276531350836,
+      "unrealized_dollars": -0.09
     },
     {
       "ticker": "ATOS",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.75,
-      "current_price": 2.37,
-      "unrealized_pct": -0.01249999999999992,
-      "unrealized_dollars": -0.11
+      "current_price": 2.3752,
+      "unrealized_pct": -0.010333333333333306,
+      "unrealized_dollars": -0.09
     },
     {
       "ticker": "TCBS",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 4.0,
-      "unrealized_pct": -0.03147699757869247,
-      "unrealized_dollars": -0.26
+      "current_price": 3.965,
+      "unrealized_pct": -0.03995157384987894,
+      "unrealized_dollars": -0.32
     },
     {
       "ticker": "ROLR",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.21,
-      "current_price": 6.03,
-      "unrealized_pct": -0.03210272873194224,
-      "unrealized_dollars": -0.23
+      "current_price": 5.94,
+      "unrealized_pct": -0.04654895666131621,
+      "unrealized_dollars": -0.33
     },
     {
       "ticker": "BOSC",
@@ -115,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.64,
-      "unrealized_pct": 0.12267250821467675,
-      "unrealized_dollars": 0.99
+      "current_price": 1.6321,
+      "unrealized_pct": 0.1172645125958379,
+      "unrealized_dollars": 0.95
     }
   ],
   "closed_trades": [
