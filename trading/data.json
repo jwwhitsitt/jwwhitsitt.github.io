@@ -1,12 +1,40 @@
 {
-  "generated_at": "2026-06-15T13:00:06.568146-04:00",
+  "generated_at": "2026-06-15T13:15:05.534578-04:00",
   "summary": {
     "total_pl_dollars": 3.69,
     "wins": 15,
     "losses": 32,
-    "open_count": 6
+    "open_count": 8
   },
   "open_trades": [
+    {
+      "ticker": "BYAH",
+      "entry_price": 1.5199,
+      "stop_loss_price": 1.47,
+      "profit_target_price": 1.9899,
+      "position_size_dollars": 8.99,
+      "entry_timestamp": "2026-06-15T17:01:53.887196",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 9.42,
+      "current_price": 1.5194,
+      "unrealized_pct": -0.00032896901111911634,
+      "unrealized_dollars": -0.0
+    },
+    {
+      "ticker": "ATOS",
+      "entry_price": 2.4,
+      "stop_loss_price": 2.36,
+      "profit_target_price": 2.51,
+      "position_size_dollars": 8.99,
+      "entry_timestamp": "2026-06-15T17:01:53.857659",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 2.75,
+      "current_price": 2.4,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
+    },
     {
       "ticker": "TCBS",
       "entry_price": 17.0,
@@ -31,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.0,
-      "current_price": 2.2,
-      "unrealized_pct": 0.04761904761904766,
-      "unrealized_dollars": 0.39
+      "current_price": 2.12,
+      "unrealized_pct": 0.009523809523809532,
+      "unrealized_dollars": 0.08
     },
     {
       "ticker": "PN",
@@ -45,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 4.005,
-      "unrealized_pct": -0.03026634382566586,
-      "unrealized_dollars": -0.25
+      "current_price": 3.955,
+      "unrealized_pct": -0.04237288135593216,
+      "unrealized_dollars": -0.34
     },
     {
       "ticker": "ROLR",
@@ -59,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.21,
-      "current_price": 6.0101,
-      "unrealized_pct": -0.03529695024077046,
-      "unrealized_dollars": -0.25
+      "current_price": 6.0869,
+      "unrealized_pct": -0.022969502407704727,
+      "unrealized_dollars": -0.16
     },
     {
       "ticker": "BOSC",
@@ -87,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.615,
-      "unrealized_pct": 0.10555859802847746,
-      "unrealized_dollars": 0.85
+      "current_price": 1.645,
+      "unrealized_pct": 0.12609529025191668,
+      "unrealized_dollars": 1.02
     }
   ],
   "closed_trades": [
