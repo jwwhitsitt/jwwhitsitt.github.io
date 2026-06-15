@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T11:45:05.705686-04:00",
+  "generated_at": "2026-06-15T12:00:05.511526-04:00",
   "summary": {
     "total_pl_dollars": 0.83,
     "wins": 15,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.5,
-      "current_price": 3.65,
-      "unrealized_pct": 0.0027472527472526885,
-      "unrealized_dollars": 0.0
+      "current_price": 3.57,
+      "unrealized_pct": -0.019230769230769308,
+      "unrealized_dollars": -0.02
     },
     {
       "ticker": "TCBS",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.0,
-      "current_price": 2.27,
-      "unrealized_pct": 0.08095238095238091,
-      "unrealized_dollars": 0.67
+      "current_price": 2.2301,
+      "unrealized_pct": 0.061952380952381,
+      "unrealized_dollars": 0.51
     },
     {
       "ticker": "LUD",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 4.18,
-      "unrealized_pct": 0.012106537530266302,
-      "unrealized_dollars": 0.1
+      "current_price": 4.0615,
+      "unrealized_pct": -0.016585956416464948,
+      "unrealized_dollars": -0.13
     },
     {
       "ticker": "ROLR",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.21,
-      "current_price": 6.03,
-      "unrealized_pct": -0.03210272873194224,
-      "unrealized_dollars": -0.23
+      "current_price": 6.165,
+      "unrealized_pct": -0.010433386837881281,
+      "unrealized_dollars": -0.07
     },
     {
       "ticker": "BOSC",
@@ -115,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.5974,
-      "unrealized_pct": 0.09351040525739308,
-      "unrealized_dollars": 0.75
+      "current_price": 1.65,
+      "unrealized_pct": 0.1295180722891565,
+      "unrealized_dollars": 1.04
     }
   ],
   "closed_trades": [
