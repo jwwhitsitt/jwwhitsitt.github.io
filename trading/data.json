@@ -1,12 +1,26 @@
 {
-  "generated_at": "2026-06-15T11:00:09.886970-04:00",
+  "generated_at": "2026-06-15T11:15:05.863710-04:00",
   "summary": {
     "total_pl_dollars": 0.97,
     "wins": 15,
     "losses": 32,
-    "open_count": 8
+    "open_count": 9
   },
   "open_trades": [
+    {
+      "ticker": "BCAB",
+      "entry_price": 3.64,
+      "stop_loss_price": 3.54,
+      "profit_target_price": 3.99,
+      "position_size_dollars": 1.12,
+      "entry_timestamp": "2026-06-15T15:01:29.506299",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 3.5,
+      "current_price": 3.65,
+      "unrealized_pct": 0.0027472527472526885,
+      "unrealized_dollars": 0.0
+    },
     {
       "ticker": "TCBS",
       "entry_price": 17.0,
@@ -31,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.0,
-      "current_price": 2.225,
-      "unrealized_pct": 0.05952380952380952,
-      "unrealized_dollars": 0.49
+      "current_price": 2.3,
+      "unrealized_pct": 0.09523809523809511,
+      "unrealized_dollars": 0.79
     },
     {
       "ticker": "HUHU",
@@ -45,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.55,
-      "current_price": 8.81,
-      "unrealized_pct": -0.020022246941045575,
-      "unrealized_dollars": -0.18
+      "current_price": 8.9,
+      "unrealized_pct": -0.010011123470522788,
+      "unrealized_dollars": -0.09
     },
     {
       "ticker": "LUD",
@@ -59,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.46,
-      "current_price": 4.61,
-      "unrealized_pct": 0.16708860759493674,
-      "unrealized_dollars": 1.19
+      "current_price": 4.58,
+      "unrealized_pct": 0.1594936708860759,
+      "unrealized_dollars": 1.13
     },
     {
       "ticker": "PN",
@@ -73,8 +87,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 4.08,
-      "unrealized_pct": -0.012106537530266302,
+      "current_price": 4.0801,
+      "unrealized_pct": -0.012082324455205825,
       "unrealized_dollars": -0.1
     },
     {
@@ -87,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.21,
-      "current_price": 6.16,
-      "unrealized_pct": -0.01123595505617982,
-      "unrealized_dollars": -0.08
+      "current_price": 6.05,
+      "unrealized_pct": -0.028892455858748087,
+      "unrealized_dollars": -0.21
     },
     {
       "ticker": "BOSC",
@@ -115,9 +129,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.5706,
-      "unrealized_pct": 0.07516429353778743,
-      "unrealized_dollars": 0.61
+      "current_price": 1.58,
+      "unrealized_pct": 0.08159912376779845,
+      "unrealized_dollars": 0.66
     }
   ],
   "closed_trades": [
