@@ -1,40 +1,12 @@
 {
-  "generated_at": "2026-06-15T14:45:05.871472-04:00",
+  "generated_at": "2026-06-15T15:00:04.777167-04:00",
   "summary": {
-    "total_pl_dollars": 3.47,
-    "wins": 15,
-    "losses": 32,
-    "open_count": 7
+    "total_pl_dollars": 2.55,
+    "wins": 13,
+    "losses": 34,
+    "open_count": 5
   },
   "open_trades": [
-    {
-      "ticker": "BYAH",
-      "entry_price": 1.5199,
-      "stop_loss_price": 1.47,
-      "profit_target_price": 1.9899,
-      "position_size_dollars": 8.99,
-      "entry_timestamp": "2026-06-15T17:01:53.887196",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 9.42,
-      "current_price": 1.4495,
-      "unrealized_pct": -0.046318836765576694,
-      "unrealized_dollars": -0.42
-    },
-    {
-      "ticker": "ATOS",
-      "entry_price": 2.4,
-      "stop_loss_price": 2.36,
-      "profit_target_price": 2.51,
-      "position_size_dollars": 8.99,
-      "entry_timestamp": "2026-06-15T17:01:53.857659",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 2.75,
-      "current_price": 2.36,
-      "unrealized_pct": -0.016666666666666684,
-      "unrealized_dollars": -0.15
-    },
     {
       "ticker": "TCBS",
       "entry_price": 17.0,
@@ -59,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.0,
-      "current_price": 2.12,
-      "unrealized_pct": 0.009523809523809532,
-      "unrealized_dollars": 0.08
+      "current_price": 2.05,
+      "unrealized_pct": -0.023809523809523937,
+      "unrealized_dollars": -0.2
     },
     {
       "ticker": "PN",
@@ -87,8 +59,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.3165,
-      "unrealized_pct": -0.018977272727272905,
+      "current_price": 4.32,
+      "unrealized_pct": -0.018181818181818195,
       "unrealized_dollars": -0.09
     },
     {
@@ -101,12 +73,34 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.6306,
-      "unrealized_pct": 0.1162376779846659,
-      "unrealized_dollars": 0.94
+      "current_price": 1.63,
+      "unrealized_pct": 0.11582694414019701,
+      "unrealized_dollars": 0.93
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "BYAH",
+      "entry_price": 1.5199,
+      "exit_price": 1.4495,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.42,
+      "pl_percent": -0.046319,
+      "exit_timestamp": "2026-06-15T18:45:04.658122",
+      "setup_quality": "B",
+      "position_size_dollars": 8.99
+    },
+    {
+      "ticker": "ATOS",
+      "entry_price": 2.4,
+      "exit_price": 2.36,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.15,
+      "pl_percent": -0.016667,
+      "exit_timestamp": "2026-06-15T18:45:04.369516",
+      "setup_quality": "B",
+      "position_size_dollars": 8.99
+    },
     {
       "ticker": "ROLR",
       "entry_price": 6.23,
@@ -632,28 +626,6 @@
       "pl_dollars": -0.16,
       "pl_percent": -0.018121,
       "exit_timestamp": "2026-05-29T19:45:04.246702",
-      "setup_quality": "B",
-      "position_size_dollars": 8.61
-    },
-    {
-      "ticker": "RVSN",
-      "entry_price": 4.76,
-      "exit_price": 4.95,
-      "exit_reason": "target_hit",
-      "pl_dollars": 0.34,
-      "pl_percent": 0.039916,
-      "exit_timestamp": "2026-05-29T19:30:03.689368",
-      "setup_quality": "B",
-      "position_size_dollars": 8.61
-    },
-    {
-      "ticker": "FONR",
-      "entry_price": 19.045,
-      "exit_price": 19.06,
-      "exit_reason": "target_hit",
-      "pl_dollars": 0.01,
-      "pl_percent": 0.000788,
-      "exit_timestamp": "2026-05-29T18:45:05.035753",
       "setup_quality": "B",
       "position_size_dollars": 8.61
     }
