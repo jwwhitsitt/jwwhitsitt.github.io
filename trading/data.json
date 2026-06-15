@@ -1,26 +1,12 @@
 {
-  "generated_at": "2026-06-15T12:15:06.620352-04:00",
+  "generated_at": "2026-06-15T12:30:05.096847-04:00",
   "summary": {
-    "total_pl_dollars": 0.83,
+    "total_pl_dollars": 1.19,
     "wins": 15,
     "losses": 32,
-    "open_count": 8
+    "open_count": 7
   },
   "open_trades": [
-    {
-      "ticker": "BCAB",
-      "entry_price": 3.64,
-      "stop_loss_price": 3.54,
-      "profit_target_price": 3.99,
-      "position_size_dollars": 1.12,
-      "entry_timestamp": "2026-06-15T15:01:29.506299",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 3.5,
-      "current_price": 3.49,
-      "unrealized_pct": -0.04120879120879118,
-      "unrealized_dollars": -0.05
-    },
     {
       "ticker": "TCBS",
       "entry_price": 17.0,
@@ -45,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.0,
-      "current_price": 2.2,
-      "unrealized_pct": 0.04761904761904766,
-      "unrealized_dollars": 0.39
+      "current_price": 2.19,
+      "unrealized_pct": 0.04285714285714279,
+      "unrealized_dollars": 0.35
     },
     {
       "ticker": "LUD",
@@ -59,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.46,
-      "current_price": 5.1,
-      "unrealized_pct": 0.29113924050632894,
-      "unrealized_dollars": 2.07
+      "current_price": 5.4,
+      "unrealized_pct": 0.3670886075949367,
+      "unrealized_dollars": 2.61
     },
     {
       "ticker": "PN",
@@ -73,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 4.05,
-      "unrealized_pct": -0.01937046004842617,
-      "unrealized_dollars": -0.16
+      "current_price": 3.92,
+      "unrealized_pct": -0.050847457627118633,
+      "unrealized_dollars": -0.41
     },
     {
       "ticker": "ROLR",
@@ -87,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.21,
-      "current_price": 6.19,
-      "unrealized_pct": -0.006420545746388448,
-      "unrealized_dollars": -0.05
+      "current_price": 6.08,
+      "unrealized_pct": -0.024077046548956718,
+      "unrealized_dollars": -0.17
     },
     {
       "ticker": "BOSC",
@@ -101,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.32,
-      "unrealized_pct": -0.018181818181818195,
-      "unrealized_dollars": -0.09
+      "current_price": 4.3348,
+      "unrealized_pct": -0.0148181818181818,
+      "unrealized_dollars": -0.07
     },
     {
       "ticker": "LNKS",
@@ -115,12 +101,23 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.65,
-      "unrealized_pct": 0.1295180722891565,
-      "unrealized_dollars": 1.04
+      "current_price": 1.62,
+      "unrealized_pct": 0.1089813800657174,
+      "unrealized_dollars": 0.88
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "BCAB",
+      "entry_price": 3.64,
+      "exit_price": 3.49,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.05,
+      "pl_percent": -0.041209,
+      "exit_timestamp": "2026-06-15T16:15:04.996505",
+      "setup_quality": "B",
+      "position_size_dollars": 1.12
+    },
     {
       "ticker": "HUHU",
       "entry_price": 8.99,
@@ -659,17 +656,6 @@
       "exit_timestamp": "2026-05-29T15:15:04.871006",
       "setup_quality": "B",
       "position_size_dollars": 2.01
-    },
-    {
-      "ticker": "DUKR",
-      "entry_price": 7.01,
-      "exit_price": 6.687,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -0.41,
-      "pl_percent": -0.046077,
-      "exit_timestamp": "2026-05-29T15:00:03.993874",
-      "setup_quality": "B",
-      "position_size_dollars": 8.79
     }
   ]
 }
