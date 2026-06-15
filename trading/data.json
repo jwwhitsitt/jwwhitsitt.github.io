@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-15T11:30:06.219373-04:00",
+  "generated_at": "2026-06-15T11:45:05.705686-04:00",
   "summary": {
-    "total_pl_dollars": 0.97,
+    "total_pl_dollars": 0.83,
     "wins": 15,
     "losses": 32,
-    "open_count": 9
+    "open_count": 8
   },
   "open_trades": [
     {
@@ -45,23 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.0,
-      "current_price": 2.28,
-      "unrealized_pct": 0.08571428571428558,
-      "unrealized_dollars": 0.71
-    },
-    {
-      "ticker": "HUHU",
-      "entry_price": 8.99,
-      "stop_loss_price": 8.7,
-      "profit_target_price": 9.73,
-      "position_size_dollars": 8.88,
-      "entry_timestamp": "2026-06-11T17:02:37.598612",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 2.55,
-      "current_price": 8.68,
-      "unrealized_pct": -0.03448275862068971,
-      "unrealized_dollars": -0.31
+      "current_price": 2.27,
+      "unrealized_pct": 0.08095238095238091,
+      "unrealized_dollars": 0.67
     },
     {
       "ticker": "LUD",
@@ -73,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.46,
-      "current_price": 4.58,
-      "unrealized_pct": 0.1594936708860759,
-      "unrealized_dollars": 1.13
+      "current_price": 4.63,
+      "unrealized_pct": 0.17215189873417713,
+      "unrealized_dollars": 1.22
     },
     {
       "ticker": "PN",
@@ -87,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 4.08,
-      "unrealized_pct": -0.012106537530266302,
-      "unrealized_dollars": -0.1
+      "current_price": 4.18,
+      "unrealized_pct": 0.012106537530266302,
+      "unrealized_dollars": 0.1
     },
     {
       "ticker": "ROLR",
@@ -101,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.21,
-      "current_price": 6.065,
-      "unrealized_pct": -0.02648475120385233,
-      "unrealized_dollars": -0.19
+      "current_price": 6.03,
+      "unrealized_pct": -0.03210272873194224,
+      "unrealized_dollars": -0.23
     },
     {
       "ticker": "BOSC",
@@ -115,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.29,
-      "unrealized_pct": -0.02500000000000007,
-      "unrealized_dollars": -0.12
+      "current_price": 4.32,
+      "unrealized_pct": -0.018181818181818195,
+      "unrealized_dollars": -0.09
     },
     {
       "ticker": "LNKS",
@@ -129,12 +115,23 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.5798,
-      "unrealized_pct": 0.08146221248630886,
-      "unrealized_dollars": 0.66
+      "current_price": 1.5974,
+      "unrealized_pct": 0.09351040525739308,
+      "unrealized_dollars": 0.75
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "HUHU",
+      "entry_price": 8.99,
+      "exit_price": 8.68,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.31,
+      "pl_percent": -0.034483,
+      "exit_timestamp": "2026-06-15T15:30:04.024493",
+      "setup_quality": "B",
+      "position_size_dollars": 8.88
+    },
     {
       "ticker": "AERT",
       "entry_price": 5.75,
@@ -673,17 +670,6 @@
       "exit_timestamp": "2026-05-29T15:00:03.993874",
       "setup_quality": "B",
       "position_size_dollars": 8.79
-    },
-    {
-      "ticker": "ATPC",
-      "entry_price": 6.07,
-      "exit_price": 5.5,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -0.16,
-      "pl_percent": -0.093904,
-      "exit_timestamp": "2026-05-29T14:30:04.436389",
-      "setup_quality": "B",
-      "position_size_dollars": 1.74
     }
   ]
 }
