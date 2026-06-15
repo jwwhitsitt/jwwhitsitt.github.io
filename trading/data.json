@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T15:30:07.441659-04:00",
+  "generated_at": "2026-06-15T15:45:05.653895-04:00",
   "summary": {
     "total_pl_dollars": 2.49,
     "wins": 13,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 37.63,
-      "current_price": 9.42,
-      "unrealized_pct": 0.027565368210923702,
-      "unrealized_dollars": 0.25
+      "current_price": 9.25,
+      "unrealized_pct": 0.009021194899261602,
+      "unrealized_dollars": 0.08
     },
     {
       "ticker": "HUHU",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.4,
-      "current_price": 8.55,
-      "unrealized_pct": 0.00234466588511153,
-      "unrealized_dollars": 0.02
+      "current_price": 8.2,
+      "unrealized_pct": -0.03868698710433764,
+      "unrealized_dollars": -0.34
     },
     {
       "ticker": "TCBS",
@@ -101,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.62,
-      "unrealized_pct": 0.1089813800657174,
-      "unrealized_dollars": 0.88
+      "current_price": 1.6501,
+      "unrealized_pct": 0.12958652792990127,
+      "unrealized_dollars": 1.04
     }
   ],
   "closed_trades": [
