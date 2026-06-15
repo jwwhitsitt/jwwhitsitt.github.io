@@ -1,12 +1,54 @@
 {
-  "generated_at": "2026-06-15T15:00:04.777167-04:00",
+  "generated_at": "2026-06-15T15:15:05.679212-04:00",
   "summary": {
     "total_pl_dollars": 2.55,
     "wins": 13,
     "losses": 34,
-    "open_count": 5
+    "open_count": 8
   },
   "open_trades": [
+    {
+      "ticker": "FGMC",
+      "entry_price": 10.04,
+      "stop_loss_price": 10.0,
+      "profit_target_price": 10.59,
+      "position_size_dollars": 7.44,
+      "entry_timestamp": "2026-06-15T19:01:49.199463",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 13.75,
+      "current_price": 10.0001,
+      "unrealized_pct": -0.003974103585657309,
+      "unrealized_dollars": -0.03
+    },
+    {
+      "ticker": "CODA",
+      "entry_price": 9.1673,
+      "stop_loss_price": 9.1,
+      "profit_target_price": 11.7,
+      "position_size_dollars": 8.9,
+      "entry_timestamp": "2026-06-15T19:01:49.163662",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 37.63,
+      "current_price": 9.19,
+      "unrealized_pct": 0.002476192553969041,
+      "unrealized_dollars": 0.02
+    },
+    {
+      "ticker": "HUHU",
+      "entry_price": 8.53,
+      "stop_loss_price": 8.43,
+      "profit_target_price": 9.17,
+      "position_size_dollars": 8.9,
+      "entry_timestamp": "2026-06-15T19:01:49.112264",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 6.4,
+      "current_price": 8.55,
+      "unrealized_pct": 0.00234466588511153,
+      "unrealized_dollars": 0.02
+    },
     {
       "ticker": "TCBS",
       "entry_price": 17.0,
@@ -59,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.32,
-      "unrealized_pct": -0.018181818181818195,
-      "unrealized_dollars": -0.09
+      "current_price": 4.3299,
+      "unrealized_pct": -0.015931818181818193,
+      "unrealized_dollars": -0.08
     },
     {
       "ticker": "LNKS",
@@ -73,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.63,
-      "unrealized_pct": 0.11582694414019701,
-      "unrealized_dollars": 0.93
+      "current_price": 1.62,
+      "unrealized_pct": 0.1089813800657174,
+      "unrealized_dollars": 0.88
     }
   ],
   "closed_trades": [
