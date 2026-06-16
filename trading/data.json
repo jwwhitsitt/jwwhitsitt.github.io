@@ -1,12 +1,40 @@
 {
-  "generated_at": "2026-06-16T09:00:09.196173-04:00",
+  "generated_at": "2026-06-16T09:15:06.900918-04:00",
   "summary": {
     "total_pl_dollars": 1.98,
     "wins": 12,
     "losses": 35,
-    "open_count": 6
+    "open_count": 8
   },
   "open_trades": [
+    {
+      "ticker": "HUHU",
+      "entry_price": 8.03,
+      "stop_loss_price": 7.66,
+      "profit_target_price": 9.17,
+      "position_size_dollars": 7.11,
+      "entry_timestamp": "2026-06-16T13:05:59.535047",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 3.08,
+      "current_price": 8.03,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
+    },
+    {
+      "ticker": "CIIT",
+      "entry_price": 1.48,
+      "stop_loss_price": 1.32,
+      "profit_target_price": 1.975,
+      "position_size_dollars": 8.84,
+      "entry_timestamp": "2026-06-16T13:05:59.494580",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 3.09,
+      "current_price": 1.48,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
+    },
     {
       "ticker": "CODA",
       "entry_price": 9.1673,
