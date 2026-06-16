@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-16T09:45:05.513297-04:00",
+  "generated_at": "2026-06-16T10:00:09.009504-04:00",
   "summary": {
-    "total_pl_dollars": 2.18,
-    "wins": 12,
-    "losses": 35,
-    "open_count": 7
+    "total_pl_dollars": -5.25,
+    "wins": 10,
+    "losses": 37,
+    "open_count": 5
   },
   "open_trades": [
     {
@@ -17,37 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 8.14,
-      "unrealized_pct": 0.013698630136986453,
-      "unrealized_dollars": 0.1
-    },
-    {
-      "ticker": "CIIT",
-      "entry_price": 1.48,
-      "stop_loss_price": 1.32,
-      "profit_target_price": 1.975,
-      "position_size_dollars": 8.84,
-      "entry_timestamp": "2026-06-16T13:05:59.494580",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 3.09,
-      "current_price": 0.62,
-      "unrealized_pct": -0.581081081081081,
-      "unrealized_dollars": -5.14
-    },
-    {
-      "ticker": "CODA",
-      "entry_price": 9.1673,
-      "stop_loss_price": 9.1,
-      "profit_target_price": 11.7,
-      "position_size_dollars": 8.9,
-      "entry_timestamp": "2026-06-15T19:01:49.163662",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 37.63,
-      "current_price": 9.09,
-      "unrealized_pct": -0.0084321446881851,
-      "unrealized_dollars": -0.08
+      "current_price": 8.39,
+      "unrealized_pct": 0.044831880448318956,
+      "unrealized_dollars": 0.32
     },
     {
       "ticker": "TCBS",
@@ -73,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 3.94,
-      "unrealized_pct": -0.046004842615012094,
-      "unrealized_dollars": -0.37
+      "current_price": 3.9,
+      "unrealized_pct": -0.05569007263922518,
+      "unrealized_dollars": -0.45
     },
     {
       "ticker": "BOSC",
@@ -87,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.25,
-      "unrealized_pct": -0.03409090909090917,
-      "unrealized_dollars": -0.17
+      "current_price": 4.32,
+      "unrealized_pct": -0.018181818181818195,
+      "unrealized_dollars": -0.09
     },
     {
       "ticker": "LNKS",
@@ -107,6 +79,28 @@
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "CIIT",
+      "entry_price": 1.48,
+      "exit_price": 0.62,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -5.14,
+      "pl_percent": -0.581081,
+      "exit_timestamp": "2026-06-16T13:45:04.422834",
+      "setup_quality": "B",
+      "position_size_dollars": 8.84
+    },
+    {
+      "ticker": "CODA",
+      "entry_price": 9.1673,
+      "exit_price": 9.09,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.07,
+      "pl_percent": -0.008432,
+      "exit_timestamp": "2026-06-16T13:45:04.141052",
+      "setup_quality": "B",
+      "position_size_dollars": 8.9
+    },
     {
       "ticker": "NXTC",
       "entry_price": 2.1,
@@ -634,28 +628,6 @@
       "exit_timestamp": "2026-06-01T15:30:04.934445",
       "setup_quality": "B",
       "position_size_dollars": 8.8
-    },
-    {
-      "ticker": "NSYS",
-      "entry_price": 14.93,
-      "exit_price": 17.4999,
-      "exit_reason": "target_hit",
-      "pl_dollars": 1.49,
-      "pl_percent": 0.17213,
-      "exit_timestamp": "2026-06-01T15:00:03.709130",
-      "setup_quality": "B",
-      "position_size_dollars": 8.63
-    },
-    {
-      "ticker": "JFB",
-      "entry_price": 5.65,
-      "exit_price": 6.13,
-      "exit_reason": "target_hit",
-      "pl_dollars": 0.73,
-      "pl_percent": 0.084956,
-      "exit_timestamp": "2026-06-01T14:00:04.348286",
-      "setup_quality": "B",
-      "position_size_dollars": 8.61
     }
   ]
 }
