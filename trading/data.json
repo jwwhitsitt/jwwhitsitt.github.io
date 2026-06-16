@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T12:30:08.063213-04:00",
+  "generated_at": "2026-06-16T12:45:04.915452-04:00",
   "summary": {
     "total_pl_dollars": -3.97,
     "wins": 10,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 8.4,
-      "current_price": 1.95,
-      "unrealized_pct": 0.06557377049180321,
-      "unrealized_dollars": 0.54
+      "current_price": 1.935,
+      "unrealized_pct": 0.057377049180327856,
+      "unrealized_dollars": 0.47
     },
     {
       "ticker": "TCBS",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 17.775,
-      "unrealized_pct": 0.04558823529411756,
-      "unrealized_dollars": 0.35
+      "current_price": 17.71,
+      "unrealized_pct": 0.04176470588235299,
+      "unrealized_dollars": 0.32
     },
     {
       "ticker": "PN",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 3.555,
-      "unrealized_pct": -0.13922518159806288,
-      "unrealized_dollars": -1.13
+      "current_price": 3.6,
+      "unrealized_pct": -0.1283292978208232,
+      "unrealized_dollars": -1.04
     },
     {
       "ticker": "BOSC",
