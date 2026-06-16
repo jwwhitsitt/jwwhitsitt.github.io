@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T14:15:05.655506-04:00",
+  "generated_at": "2026-06-16T14:30:05.032434-04:00",
   "summary": {
     "total_pl_dollars": -2.06,
     "wins": 11,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.15,
-      "current_price": 1.94,
-      "unrealized_pct": -0.01020408163265307,
-      "unrealized_dollars": -0.09
+      "current_price": 1.91,
+      "unrealized_pct": -0.025510204081632678,
+      "unrealized_dollars": -0.21
     },
     {
       "ticker": "OPTX",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 8.36,
-      "current_price": 11.79,
-      "unrealized_pct": 0.025074772205606118,
-      "unrealized_dollars": 0.21
+      "current_price": 11.765,
+      "unrealized_pct": 0.022901161577519716,
+      "unrealized_dollars": 0.19
     },
     {
       "ticker": "NXTC",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 8.4,
-      "current_price": 1.875,
-      "unrealized_pct": 0.02459016393442619,
-      "unrealized_dollars": 0.2
+      "current_price": 1.87,
+      "unrealized_pct": 0.021857923497267777,
+      "unrealized_dollars": 0.18
     },
     {
       "ticker": "TCBS",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 3.6784,
-      "unrealized_pct": -0.10934624697336562,
-      "unrealized_dollars": -0.89
+      "current_price": 3.57,
+      "unrealized_pct": -0.13559322033898308,
+      "unrealized_dollars": -1.1
     },
     {
       "ticker": "BOSC",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.285,
-      "unrealized_pct": -0.026136363636363683,
-      "unrealized_dollars": -0.13
+      "current_price": 4.31,
+      "unrealized_pct": -0.02045454545454562,
+      "unrealized_dollars": -0.1
     },
     {
       "ticker": "LNKS",
