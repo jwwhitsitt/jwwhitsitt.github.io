@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-16T11:45:05.280994-04:00",
+  "generated_at": "2026-06-16T12:00:11.290955-04:00",
   "summary": {
-    "total_pl_dollars": -4.39,
+    "total_pl_dollars": -3.97,
     "wins": 10,
     "losses": 37,
-    "open_count": 6
+    "open_count": 5
   },
   "open_trades": [
     {
@@ -17,23 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 8.4,
-      "current_price": 1.9,
-      "unrealized_pct": 0.03825136612021849,
-      "unrealized_dollars": 0.32
-    },
-    {
-      "ticker": "HUHU",
-      "entry_price": 8.03,
-      "stop_loss_price": 7.66,
-      "profit_target_price": 9.17,
-      "position_size_dollars": 7.11,
-      "entry_timestamp": "2026-06-16T13:05:59.535047",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 3.08,
-      "current_price": 9.11,
-      "unrealized_pct": 0.13449564134495642,
-      "unrealized_dollars": 0.96
+      "current_price": 1.91,
+      "unrealized_pct": 0.043715846994535436,
+      "unrealized_dollars": 0.36
     },
     {
       "ticker": "TCBS",
@@ -59,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 3.438,
-      "unrealized_pct": -0.16755447941888613,
-      "unrealized_dollars": -1.36
+      "current_price": 3.6257,
+      "unrealized_pct": -0.12210653753026629,
+      "unrealized_dollars": -0.99
     },
     {
       "ticker": "BOSC",
@@ -93,6 +79,17 @@
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "HUHU",
+      "entry_price": 8.03,
+      "exit_price": 9.19,
+      "exit_reason": "target_hit",
+      "pl_dollars": 1.03,
+      "pl_percent": 0.144458,
+      "exit_timestamp": "2026-06-16T16:00:04.092003",
+      "setup_quality": "B",
+      "position_size_dollars": 7.11
+    },
     {
       "ticker": "SCLX",
       "entry_price": 5.81,
@@ -629,17 +626,6 @@
       "pl_dollars": -1.87,
       "pl_percent": -0.212254,
       "exit_timestamp": "2026-06-02T13:45:04.168565",
-      "setup_quality": "B",
-      "position_size_dollars": 8.8
-    },
-    {
-      "ticker": "TOYO",
-      "entry_price": 13.45,
-      "exit_price": 14.385,
-      "exit_reason": "target_hit",
-      "pl_dollars": 0.61,
-      "pl_percent": 0.069517,
-      "exit_timestamp": "2026-06-01T19:30:05.272131",
       "setup_quality": "B",
       "position_size_dollars": 8.8
     }
