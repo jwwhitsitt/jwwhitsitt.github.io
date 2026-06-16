@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T14:00:05.247461-04:00",
+  "generated_at": "2026-06-16T14:15:05.655506-04:00",
   "summary": {
     "total_pl_dollars": -2.06,
     "wins": 11,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.15,
-      "current_price": 1.93,
-      "unrealized_pct": -0.015306122448979605,
-      "unrealized_dollars": -0.13
+      "current_price": 1.94,
+      "unrealized_pct": -0.01020408163265307,
+      "unrealized_dollars": -0.09
     },
     {
       "ticker": "OPTX",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 8.36,
-      "current_price": 11.71,
-      "unrealized_pct": 0.01811921819572938,
-      "unrealized_dollars": 0.15
+      "current_price": 11.79,
+      "unrealized_pct": 0.025074772205606118,
+      "unrealized_dollars": 0.21
     },
     {
       "ticker": "NXTC",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 8.4,
-      "current_price": 1.93,
-      "unrealized_pct": 0.05464480874316932,
-      "unrealized_dollars": 0.45
+      "current_price": 1.875,
+      "unrealized_pct": 0.02459016393442619,
+      "unrealized_dollars": 0.2
     },
     {
       "ticker": "TCBS",
@@ -101,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.5872,
-      "unrealized_pct": 0.08652792990142377,
-      "unrealized_dollars": 0.7
+      "current_price": 1.59,
+      "unrealized_pct": 0.08844468784227819,
+      "unrealized_dollars": 0.71
     }
   ],
   "closed_trades": [
