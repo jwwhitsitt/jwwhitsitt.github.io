@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T14:45:05.219284-04:00",
+  "generated_at": "2026-06-16T15:00:06.245624-04:00",
   "summary": {
     "total_pl_dollars": -2.06,
     "wins": 11,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.15,
-      "current_price": 1.885,
-      "unrealized_pct": -0.03826530612244896,
-      "unrealized_dollars": -0.32
+      "current_price": 1.9199,
+      "unrealized_pct": -0.0204591836734694,
+      "unrealized_dollars": -0.17
     },
     {
       "ticker": "OPTX",
@@ -31,8 +31,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 8.36,
-      "current_price": 11.6501,
-      "unrealized_pct": 0.012911247130833997,
+      "current_price": 11.66,
+      "unrealized_pct": 0.013771996939556264,
       "unrealized_dollars": 0.11
     },
     {
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 8.4,
-      "current_price": 1.86,
-      "unrealized_pct": 0.016393442622950834,
-      "unrealized_dollars": 0.14
+      "current_price": 1.87,
+      "unrealized_pct": 0.021857923497267777,
+      "unrealized_dollars": 0.18
     },
     {
       "ticker": "TCBS",
@@ -101,8 +101,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.59,
-      "unrealized_pct": 0.08844468784227819,
+      "current_price": 1.5894,
+      "unrealized_pct": 0.08803395399780929,
       "unrealized_dollars": 0.71
     }
   ],
