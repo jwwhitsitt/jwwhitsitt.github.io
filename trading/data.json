@@ -1,12 +1,26 @@
 {
-  "generated_at": "2026-06-16T15:00:06.245624-04:00",
+  "generated_at": "2026-06-16T15:15:05.564894-04:00",
   "summary": {
     "total_pl_dollars": -2.06,
     "wins": 11,
     "losses": 36,
-    "open_count": 7
+    "open_count": 8
   },
   "open_trades": [
+    {
+      "ticker": "SNWV",
+      "entry_price": 8.6199,
+      "stop_loss_price": 8.3,
+      "profit_target_price": 10.0,
+      "position_size_dollars": 4.64,
+      "entry_timestamp": "2026-06-16T19:06:20.852587",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 4.31,
+      "current_price": 8.57,
+      "unrealized_pct": -0.005788930266012271,
+      "unrealized_dollars": -0.03
+    },
     {
       "ticker": "HUBC",
       "entry_price": 1.96,
@@ -17,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.15,
-      "current_price": 1.9199,
-      "unrealized_pct": -0.0204591836734694,
-      "unrealized_dollars": -0.17
+      "current_price": 1.93,
+      "unrealized_pct": -0.015306122448979605,
+      "unrealized_dollars": -0.13
     },
     {
       "ticker": "OPTX",
@@ -31,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 8.36,
-      "current_price": 11.66,
-      "unrealized_pct": 0.013771996939556264,
-      "unrealized_dollars": 0.11
+      "current_price": 11.675,
+      "unrealized_pct": 0.01507616331640823,
+      "unrealized_dollars": 0.13
     },
     {
       "ticker": "NXTC",
