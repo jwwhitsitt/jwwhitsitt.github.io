@@ -1,26 +1,12 @@
 {
-  "generated_at": "2026-06-16T13:15:05.826645-04:00",
+  "generated_at": "2026-06-16T13:30:05.261358-04:00",
   "summary": {
-    "total_pl_dollars": -3.97,
-    "wins": 10,
-    "losses": 37,
-    "open_count": 8
+    "total_pl_dollars": -2.06,
+    "wins": 11,
+    "losses": 36,
+    "open_count": 7
   },
   "open_trades": [
-    {
-      "ticker": "VNCE",
-      "entry_price": 7.09,
-      "stop_loss_price": 4.96,
-      "profit_target_price": 7.1,
-      "position_size_dollars": 4.61,
-      "entry_timestamp": "2026-06-16T17:07:31.054801",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 0.0,
-      "current_price": 7.1547,
-      "unrealized_pct": 0.009125528913963357,
-      "unrealized_dollars": 0.04
-    },
     {
       "ticker": "HUBC",
       "entry_price": 1.96,
@@ -31,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.15,
-      "current_price": 1.92,
-      "unrealized_pct": -0.02040816326530614,
-      "unrealized_dollars": -0.17
+      "current_price": 1.9033,
+      "unrealized_pct": -0.028928571428571415,
+      "unrealized_dollars": -0.24
     },
     {
       "ticker": "OPTX",
@@ -45,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 8.36,
-      "current_price": 11.56,
-      "unrealized_pct": 0.005077554427210186,
-      "unrealized_dollars": 0.04
+      "current_price": 11.66,
+      "unrealized_pct": 0.013771996939556264,
+      "unrealized_dollars": 0.11
     },
     {
       "ticker": "NXTC",
@@ -115,12 +101,23 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.5999,
-      "unrealized_pct": 0.09522179627601314,
-      "unrealized_dollars": 0.77
+      "current_price": 1.57,
+      "unrealized_pct": 0.0747535596933187,
+      "unrealized_dollars": 0.6
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "VNCE",
+      "entry_price": 7.09,
+      "exit_price": 7.1547,
+      "exit_reason": "target_hit",
+      "pl_dollars": 0.04,
+      "pl_percent": 0.009126,
+      "exit_timestamp": "2026-06-16T17:15:04.595277",
+      "setup_quality": "B",
+      "position_size_dollars": 4.61
+    },
     {
       "ticker": "HUHU",
       "entry_price": 8.03,
@@ -659,17 +656,6 @@
       "exit_timestamp": "2026-06-03T13:45:03.787031",
       "setup_quality": "B",
       "position_size_dollars": 2.02
-    },
-    {
-      "ticker": "STG",
-      "entry_price": 4.57,
-      "exit_price": 3.6,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -1.87,
-      "pl_percent": -0.212254,
-      "exit_timestamp": "2026-06-02T13:45:04.168565",
-      "setup_quality": "B",
-      "position_size_dollars": 8.8
     }
   ]
 }
