@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T12:15:05.734722-04:00",
+  "generated_at": "2026-06-16T12:30:08.063213-04:00",
   "summary": {
     "total_pl_dollars": -3.97,
     "wins": 10,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 8.4,
-      "current_price": 1.91,
-      "unrealized_pct": 0.043715846994535436,
-      "unrealized_dollars": 0.36
+      "current_price": 1.95,
+      "unrealized_pct": 0.06557377049180321,
+      "unrealized_dollars": 0.54
     },
     {
       "ticker": "TCBS",
@@ -73,8 +73,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.6,
-      "unrealized_pct": 0.09529025191675793,
+      "current_price": 1.5999,
+      "unrealized_pct": 0.09522179627601314,
       "unrealized_dollars": 0.77
     }
   ],
