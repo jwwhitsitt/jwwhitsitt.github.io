@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T12:45:04.915452-04:00",
+  "generated_at": "2026-06-16T13:00:05.151343-04:00",
   "summary": {
     "total_pl_dollars": -3.97,
     "wins": 10,
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 3.6,
-      "unrealized_pct": -0.1283292978208232,
-      "unrealized_dollars": -1.04
+      "current_price": 3.605,
+      "unrealized_pct": -0.1271186440677966,
+      "unrealized_dollars": -1.03
     },
     {
       "ticker": "BOSC",
