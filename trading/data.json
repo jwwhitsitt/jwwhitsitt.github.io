@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T13:30:05.261358-04:00",
+  "generated_at": "2026-06-16T13:45:05.766350-04:00",
   "summary": {
     "total_pl_dollars": -2.06,
     "wins": 11,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.15,
-      "current_price": 1.9033,
-      "unrealized_pct": -0.028928571428571415,
-      "unrealized_dollars": -0.24
+      "current_price": 1.94,
+      "unrealized_pct": -0.01020408163265307,
+      "unrealized_dollars": -0.09
     },
     {
       "ticker": "OPTX",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 8.36,
-      "current_price": 11.66,
-      "unrealized_pct": 0.013771996939556264,
-      "unrealized_dollars": 0.11
+      "current_price": 11.695,
+      "unrealized_pct": 0.016815051818877415,
+      "unrealized_dollars": 0.14
     },
     {
       "ticker": "NXTC",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 3.605,
-      "unrealized_pct": -0.1271186440677966,
-      "unrealized_dollars": -1.03
+      "current_price": 3.6758,
+      "unrealized_pct": -0.1099757869249394,
+      "unrealized_dollars": -0.89
     },
     {
       "ticker": "BOSC",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.26,
-      "unrealized_pct": -0.03181818181818195,
-      "unrealized_dollars": -0.15
+      "current_price": 4.2701,
+      "unrealized_pct": -0.029522727272727298,
+      "unrealized_dollars": -0.14
     },
     {
       "ticker": "LNKS",
