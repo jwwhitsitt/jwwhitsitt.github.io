@@ -1,12 +1,54 @@
 {
-  "generated_at": "2026-06-16T11:00:05.175251-04:00",
+  "generated_at": "2026-06-16T11:15:05.991807-04:00",
   "summary": {
     "total_pl_dollars": -5.25,
     "wins": 10,
     "losses": 37,
-    "open_count": 5
+    "open_count": 8
   },
   "open_trades": [
+    {
+      "ticker": "SCLX",
+      "entry_price": 5.81,
+      "stop_loss_price": 5.59,
+      "profit_target_price": 6.7,
+      "position_size_dollars": 5.49,
+      "entry_timestamp": "2026-06-16T15:06:59.118554",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 4.05,
+      "current_price": 5.7,
+      "unrealized_pct": -0.018932874354561004,
+      "unrealized_dollars": -0.1
+    },
+    {
+      "ticker": "NXTC",
+      "entry_price": 1.83,
+      "stop_loss_price": 1.78,
+      "profit_target_price": 2.2499,
+      "position_size_dollars": 8.27,
+      "entry_timestamp": "2026-06-16T15:06:59.072762",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 8.4,
+      "current_price": 1.83,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
+    },
+    {
+      "ticker": "RDGT",
+      "entry_price": 1.51,
+      "stop_loss_price": 1.4805,
+      "profit_target_price": 1.7294,
+      "position_size_dollars": 8.27,
+      "entry_timestamp": "2026-06-16T15:06:59.043763",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 7.44,
+      "current_price": 1.495,
+      "unrealized_pct": -0.00993377483443702,
+      "unrealized_dollars": -0.08
+    },
     {
       "ticker": "HUHU",
       "entry_price": 8.03,
@@ -17,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 8.69,
-      "unrealized_pct": 0.08219178082191783,
-      "unrealized_dollars": 0.58
+      "current_price": 8.775,
+      "unrealized_pct": 0.092777085927771,
+      "unrealized_dollars": 0.66
     },
     {
       "ticker": "TCBS",
@@ -45,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 3.75,
-      "unrealized_pct": -0.09200968523002419,
-      "unrealized_dollars": -0.75
+      "current_price": 3.41,
+      "unrealized_pct": -0.17433414043583528,
+      "unrealized_dollars": -1.42
     },
     {
       "ticker": "BOSC",
