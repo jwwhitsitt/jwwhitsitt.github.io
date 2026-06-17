@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-17T15:15:05.949777-04:00",
+  "generated_at": "2026-06-17T15:30:05.510035-04:00",
   "summary": {
     "total_pl_dollars": -0.57,
     "wins": 13,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.52,
-      "current_price": 5.62,
-      "unrealized_pct": 0.040740740740740695,
-      "unrealized_dollars": 0.34
+      "current_price": 5.71,
+      "unrealized_pct": 0.05740740740740733,
+      "unrealized_dollars": 0.48
     },
     {
       "ticker": "ATOS",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 10.0,
-      "current_price": 2.005,
-      "unrealized_pct": -0.0024875621890546734,
-      "unrealized_dollars": -0.02
+      "current_price": 1.975,
+      "unrealized_pct": -0.017412935323382936,
+      "unrealized_dollars": -0.15
     },
     {
       "ticker": "SNWV",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.31,
-      "current_price": 9.07,
-      "unrealized_pct": 0.05221638302068479,
-      "unrealized_dollars": 0.24
+      "current_price": 9.0,
+      "unrealized_pct": 0.04409563916054717,
+      "unrealized_dollars": 0.2
     },
     {
       "ticker": "NXTC",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 8.4,
-      "current_price": 2.13,
-      "unrealized_pct": 0.1639344262295081,
-      "unrealized_dollars": 1.36
+      "current_price": 2.06,
+      "unrealized_pct": 0.1256830601092896,
+      "unrealized_dollars": 1.04
     },
     {
       "ticker": "TCBS",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 3.64,
-      "unrealized_pct": -0.11864406779661012,
-      "unrealized_dollars": -0.96
+      "current_price": 3.59,
+      "unrealized_pct": -0.13075060532687652,
+      "unrealized_dollars": -1.06
     },
     {
       "ticker": "BOSC",
@@ -101,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.3,
-      "unrealized_pct": -0.022727272727272846,
-      "unrealized_dollars": -0.11
+      "current_price": 4.355,
+      "unrealized_pct": -0.01022727272727271,
+      "unrealized_dollars": -0.05
     },
     {
       "ticker": "LNKS",
@@ -115,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.585,
-      "unrealized_pct": 0.08502190580503824,
-      "unrealized_dollars": 0.69
+      "current_price": 1.5548,
+      "unrealized_pct": 0.06434830230010943,
+      "unrealized_dollars": 0.52
     }
   ],
   "closed_trades": [
