@@ -1,12 +1,26 @@
 {
-  "generated_at": "2026-06-17T11:00:05.779625-04:00",
+  "generated_at": "2026-06-17T11:15:05.433105-04:00",
   "summary": {
     "total_pl_dollars": -2.83,
     "wins": 11,
     "losses": 36,
-    "open_count": 7
+    "open_count": 8
   },
   "open_trades": [
+    {
+      "ticker": "SNWV",
+      "entry_price": 8.5101,
+      "stop_loss_price": 8.34,
+      "profit_target_price": 9.19,
+      "position_size_dollars": 7.75,
+      "entry_timestamp": "2026-06-17T15:06:42.123513",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 4.0,
+      "current_price": 8.49,
+      "unrealized_pct": -0.0023618993901363488,
+      "unrealized_dollars": -0.02
+    },
     {
       "ticker": "SNWV",
       "entry_price": 8.6199,
@@ -17,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.31,
-      "current_price": 8.525,
-      "unrealized_pct": -0.011009408461814998,
-      "unrealized_dollars": -0.05
+      "current_price": 8.49,
+      "unrealized_pct": -0.01506978039188381,
+      "unrealized_dollars": -0.07
     },
     {
       "ticker": "OPTX",
@@ -31,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 8.36,
-      "current_price": 12.11,
-      "unrealized_pct": 0.05289698824511369,
-      "unrealized_dollars": 0.44
+      "current_price": 12.17,
+      "unrealized_pct": 0.0581136537525214,
+      "unrealized_dollars": 0.48
     },
     {
       "ticker": "NXTC",
@@ -73,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 3.6218,
-      "unrealized_pct": -0.12305084745762712,
-      "unrealized_dollars": -1.0
+      "current_price": 3.61,
+      "unrealized_pct": -0.12590799031476999,
+      "unrealized_dollars": -1.02
     },
     {
       "ticker": "BOSC",
@@ -101,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.915,
-      "unrealized_pct": 0.31092552026286957,
-      "unrealized_dollars": 2.51
+      "current_price": 1.9508,
+      "unrealized_pct": 0.3354326396495071,
+      "unrealized_dollars": 2.7
     }
   ],
   "closed_trades": [
