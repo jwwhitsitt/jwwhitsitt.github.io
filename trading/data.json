@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-17T15:30:05.510035-04:00",
+  "generated_at": "2026-06-17T15:45:05.891827-04:00",
   "summary": {
-    "total_pl_dollars": -0.57,
+    "total_pl_dollars": -0.45,
     "wins": 13,
     "losses": 34,
-    "open_count": 8
+    "open_count": 7
   },
   "open_trades": [
     {
@@ -17,23 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.52,
-      "current_price": 5.71,
-      "unrealized_pct": 0.05740740740740733,
-      "unrealized_dollars": 0.48
-    },
-    {
-      "ticker": "ATOS",
-      "entry_price": 2.01,
-      "stop_loss_price": 1.99,
-      "profit_target_price": 2.21,
-      "position_size_dollars": 8.44,
-      "entry_timestamp": "2026-06-17T19:01:29.627626",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 10.0,
-      "current_price": 1.975,
-      "unrealized_pct": -0.017412935323382936,
-      "unrealized_dollars": -0.15
+      "current_price": 5.65,
+      "unrealized_pct": 0.046296296296296294,
+      "unrealized_dollars": 0.39
     },
     {
       "ticker": "SNWV",
@@ -45,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.31,
-      "current_price": 9.0,
-      "unrealized_pct": 0.04409563916054717,
-      "unrealized_dollars": 0.2
+      "current_price": 9.37,
+      "unrealized_pct": 0.08701957099270291,
+      "unrealized_dollars": 0.4
     },
     {
       "ticker": "NXTC",
@@ -59,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 8.4,
-      "current_price": 2.06,
-      "unrealized_pct": 0.1256830601092896,
-      "unrealized_dollars": 1.04
+      "current_price": 2.13,
+      "unrealized_pct": 0.1639344262295081,
+      "unrealized_dollars": 1.36
     },
     {
       "ticker": "TCBS",
@@ -115,12 +101,23 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.08,
-      "current_price": 1.5548,
-      "unrealized_pct": 0.06434830230010943,
-      "unrealized_dollars": 0.52
+      "current_price": 1.57,
+      "unrealized_pct": 0.0747535596933187,
+      "unrealized_dollars": 0.6
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "ATOS",
+      "entry_price": 2.01,
+      "exit_price": 1.975,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.15,
+      "pl_percent": -0.017413,
+      "exit_timestamp": "2026-06-17T19:30:04.168410",
+      "setup_quality": "B",
+      "position_size_dollars": 8.44
+    },
     {
       "ticker": "OPTX",
       "entry_price": 11.5016,
@@ -659,17 +656,6 @@
       "exit_timestamp": "2026-06-03T19:15:04.280951",
       "setup_quality": "B",
       "position_size_dollars": 8.47
-    },
-    {
-      "ticker": "LYEL",
-      "entry_price": 12.995,
-      "exit_price": 12.5801,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -0.27,
-      "pl_percent": -0.031928,
-      "exit_timestamp": "2026-06-03T16:30:04.618074",
-      "setup_quality": "B",
-      "position_size_dollars": 8.5
     }
   ]
 }
