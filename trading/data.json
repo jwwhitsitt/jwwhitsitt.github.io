@@ -1,12 +1,68 @@
 {
-  "generated_at": "2026-06-18T11:00:09.312358-04:00",
+  "generated_at": "2026-06-18T11:15:05.794333-04:00",
   "summary": {
     "total_pl_dollars": 5.32,
     "wins": 14,
     "losses": 34,
-    "open_count": 5
+    "open_count": 9
   },
   "open_trades": [
+    {
+      "ticker": "ICCM",
+      "entry_price": 5.275,
+      "stop_loss_price": 5.0,
+      "profit_target_price": 6.79,
+      "position_size_dollars": 3.77,
+      "entry_timestamp": "2026-06-18T15:05:52.743778",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 5.51,
+      "current_price": 5.44,
+      "unrealized_pct": 0.03127962085308057,
+      "unrealized_dollars": 0.12
+    },
+    {
+      "ticker": "VRM",
+      "entry_price": 10.0,
+      "stop_loss_price": 9.54,
+      "profit_target_price": 10.94,
+      "position_size_dollars": 9.35,
+      "entry_timestamp": "2026-06-18T15:05:52.703092",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 2.04,
+      "current_price": 9.5701,
+      "unrealized_pct": -0.042989999999999993,
+      "unrealized_dollars": -0.4
+    },
+    {
+      "ticker": "VNCE",
+      "entry_price": 7.35,
+      "stop_loss_price": 7.11,
+      "profit_target_price": 8.2,
+      "position_size_dollars": 9.35,
+      "entry_timestamp": "2026-06-18T15:05:52.657612",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 3.54,
+      "current_price": 7.18,
+      "unrealized_pct": -0.023129251700680264,
+      "unrealized_dollars": -0.22
+    },
+    {
+      "ticker": "ACR",
+      "entry_price": 15.96,
+      "stop_loss_price": 15.76,
+      "profit_target_price": 16.7217,
+      "position_size_dollars": 9.35,
+      "entry_timestamp": "2026-06-18T15:05:52.617728",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 3.81,
+      "current_price": 15.96,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
+    },
     {
       "ticker": "SNWV",
       "entry_price": 8.6199,
@@ -17,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.31,
-      "current_price": 9.26,
-      "unrealized_pct": 0.07425840206962962,
-      "unrealized_dollars": 0.34
+      "current_price": 9.15,
+      "unrealized_pct": 0.061497233146556335,
+      "unrealized_dollars": 0.29
     },
     {
       "ticker": "NXTC",
