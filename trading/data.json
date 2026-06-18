@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-18T11:30:08.204352-04:00",
+  "generated_at": "2026-06-18T11:45:05.552097-04:00",
   "summary": {
     "total_pl_dollars": 5.21,
     "wins": 14,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.51,
-      "current_price": 5.25,
-      "unrealized_pct": -0.004739336492891062,
-      "unrealized_dollars": -0.02
+      "current_price": 4.96,
+      "unrealized_pct": -0.05971563981042661,
+      "unrealized_dollars": -0.23
     },
     {
       "ticker": "VRM",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.04,
-      "current_price": 9.58,
-      "unrealized_pct": -0.041999999999999996,
-      "unrealized_dollars": -0.39
+      "current_price": 9.72,
+      "unrealized_pct": -0.027999999999999935,
+      "unrealized_dollars": -0.26
     },
     {
       "ticker": "VNCE",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.54,
-      "current_price": 7.33,
-      "unrealized_pct": -0.002721088435374092,
-      "unrealized_dollars": -0.03
+      "current_price": 7.43,
+      "unrealized_pct": 0.010884353741496608,
+      "unrealized_dollars": 0.1
     },
     {
       "ticker": "SNWV",
@@ -59,8 +59,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.31,
-      "current_price": 9.07,
-      "unrealized_pct": 0.05221638302068479,
+      "current_price": 9.06,
+      "unrealized_pct": 0.05105627675495088,
       "unrealized_dollars": 0.24
     },
     {
@@ -101,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 3.5001,
-      "unrealized_pct": -0.15251815980629532,
-      "unrealized_dollars": -1.24
+      "current_price": 3.625,
+      "unrealized_pct": -0.12227602905569004,
+      "unrealized_dollars": -0.99
     },
     {
       "ticker": "BOSC",
