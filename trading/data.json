@@ -1,12 +1,26 @@
 {
-  "generated_at": "2026-06-18T09:00:06.034268-04:00",
+  "generated_at": "2026-06-18T09:15:07.146132-04:00",
   "summary": {
     "total_pl_dollars": -0.45,
     "wins": 13,
     "losses": 34,
-    "open_count": 7
+    "open_count": 8
   },
   "open_trades": [
+    {
+      "ticker": "JG",
+      "entry_price": 4.4722,
+      "stop_loss_price": 4.44,
+      "profit_target_price": 4.8894,
+      "position_size_dollars": 8.42,
+      "entry_timestamp": "2026-06-18T13:01:20.614961",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 12.96,
+      "current_price": 4.4722,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
+    },
     {
       "ticker": "QXL",
       "entry_price": 5.4,
