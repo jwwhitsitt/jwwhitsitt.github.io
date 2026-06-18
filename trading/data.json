@@ -1,26 +1,12 @@
 {
-  "generated_at": "2026-06-18T11:45:05.552097-04:00",
+  "generated_at": "2026-06-18T12:00:05.986095-04:00",
   "summary": {
-    "total_pl_dollars": 5.21,
+    "total_pl_dollars": 5.26,
     "wins": 14,
     "losses": 34,
-    "open_count": 8
+    "open_count": 7
   },
   "open_trades": [
-    {
-      "ticker": "ICCM",
-      "entry_price": 5.275,
-      "stop_loss_price": 5.0,
-      "profit_target_price": 6.79,
-      "position_size_dollars": 3.77,
-      "entry_timestamp": "2026-06-18T15:05:52.743778",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 5.51,
-      "current_price": 4.96,
-      "unrealized_pct": -0.05971563981042661,
-      "unrealized_dollars": -0.23
-    },
     {
       "ticker": "VRM",
       "entry_price": 10.0,
@@ -31,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.04,
-      "current_price": 9.72,
-      "unrealized_pct": -0.027999999999999935,
-      "unrealized_dollars": -0.26
+      "current_price": 9.9599,
+      "unrealized_pct": -0.004010000000000069,
+      "unrealized_dollars": -0.04
     },
     {
       "ticker": "VNCE",
@@ -45,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.54,
-      "current_price": 7.43,
-      "unrealized_pct": 0.010884353741496608,
-      "unrealized_dollars": 0.1
+      "current_price": 7.57,
+      "unrealized_pct": 0.029931972789115736,
+      "unrealized_dollars": 0.28
     },
     {
       "ticker": "SNWV",
@@ -59,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.31,
-      "current_price": 9.06,
-      "unrealized_pct": 0.05105627675495088,
-      "unrealized_dollars": 0.24
+      "current_price": 9.2,
+      "unrealized_pct": 0.06729776447522591,
+      "unrealized_dollars": 0.31
     },
     {
       "ticker": "NXTC",
@@ -101,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 3.625,
-      "unrealized_pct": -0.12227602905569004,
-      "unrealized_dollars": -0.99
+      "current_price": 3.58,
+      "unrealized_pct": -0.13317191283292976,
+      "unrealized_dollars": -1.08
     },
     {
       "ticker": "BOSC",
@@ -121,6 +107,17 @@
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "ICCM",
+      "entry_price": 5.275,
+      "exit_price": 4.96,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.23,
+      "pl_percent": -0.059716,
+      "exit_timestamp": "2026-06-18T15:45:04.834685",
+      "setup_quality": "B",
+      "position_size_dollars": 3.77
+    },
     {
       "ticker": "ACR",
       "entry_price": 15.96,
@@ -659,17 +656,6 @@
       "exit_timestamp": "2026-06-04T16:00:05.374803",
       "setup_quality": "B",
       "position_size_dollars": 1.31
-    },
-    {
-      "ticker": "NUWE",
-      "entry_price": 0.4855,
-      "exit_price": 0.47,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -0.27,
-      "pl_percent": -0.031926,
-      "exit_timestamp": "2026-06-04T16:00:04.788411",
-      "setup_quality": "B",
-      "position_size_dollars": 8.47
     }
   ]
 }
