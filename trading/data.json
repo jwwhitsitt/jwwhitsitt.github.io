@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-18T11:15:05.794333-04:00",
+  "generated_at": "2026-06-18T11:30:08.204352-04:00",
   "summary": {
-    "total_pl_dollars": 5.32,
+    "total_pl_dollars": 5.21,
     "wins": 14,
     "losses": 34,
-    "open_count": 9
+    "open_count": 8
   },
   "open_trades": [
     {
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.51,
-      "current_price": 5.44,
-      "unrealized_pct": 0.03127962085308057,
-      "unrealized_dollars": 0.12
+      "current_price": 5.25,
+      "unrealized_pct": -0.004739336492891062,
+      "unrealized_dollars": -0.02
     },
     {
       "ticker": "VRM",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.04,
-      "current_price": 9.5701,
-      "unrealized_pct": -0.042989999999999993,
-      "unrealized_dollars": -0.4
+      "current_price": 9.58,
+      "unrealized_pct": -0.041999999999999996,
+      "unrealized_dollars": -0.39
     },
     {
       "ticker": "VNCE",
@@ -45,23 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.54,
-      "current_price": 7.18,
-      "unrealized_pct": -0.023129251700680264,
-      "unrealized_dollars": -0.22
-    },
-    {
-      "ticker": "ACR",
-      "entry_price": 15.96,
-      "stop_loss_price": 15.76,
-      "profit_target_price": 16.7217,
-      "position_size_dollars": 9.35,
-      "entry_timestamp": "2026-06-18T15:05:52.617728",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 3.81,
-      "current_price": 15.96,
-      "unrealized_pct": 0.0,
-      "unrealized_dollars": null
+      "current_price": 7.33,
+      "unrealized_pct": -0.002721088435374092,
+      "unrealized_dollars": -0.03
     },
     {
       "ticker": "SNWV",
@@ -73,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.31,
-      "current_price": 9.15,
-      "unrealized_pct": 0.061497233146556335,
-      "unrealized_dollars": 0.29
+      "current_price": 9.07,
+      "unrealized_pct": 0.05221638302068479,
+      "unrealized_dollars": 0.24
     },
     {
       "ticker": "NXTC",
@@ -135,6 +121,17 @@
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "ACR",
+      "entry_price": 15.96,
+      "exit_price": 15.76,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.12,
+      "pl_percent": -0.012531,
+      "exit_timestamp": "2026-06-18T15:30:04.078181",
+      "setup_quality": "B",
+      "position_size_dollars": 9.35
+    },
     {
       "ticker": "JG",
       "entry_price": 4.4722,
@@ -673,17 +670,6 @@
       "exit_timestamp": "2026-06-04T16:00:04.788411",
       "setup_quality": "B",
       "position_size_dollars": 8.47
-    },
-    {
-      "ticker": "FDSB",
-      "entry_price": 15.09,
-      "exit_price": 15.07,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -0.01,
-      "pl_percent": -0.001325,
-      "exit_timestamp": "2026-06-04T15:15:05.042198",
-      "setup_quality": "B",
-      "position_size_dollars": 8.82
     }
   ]
 }
