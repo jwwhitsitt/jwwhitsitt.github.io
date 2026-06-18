@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-18T14:30:09.069822-04:00",
+  "generated_at": "2026-06-18T14:45:06.312244-04:00",
   "summary": {
     "total_pl_dollars": 5.26,
     "wins": 14,
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.6,
-      "current_price": 1.5,
-      "unrealized_pct": 0.056338028169014134,
-      "unrealized_dollars": 0.52
+      "current_price": 1.4544,
+      "unrealized_pct": 0.024225352112676048,
+      "unrealized_dollars": 0.23
     },
     {
       "ticker": "VRM",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.54,
-      "current_price": 7.455,
-      "unrealized_pct": 0.014285714285714344,
-      "unrealized_dollars": 0.13
+      "current_price": 7.47,
+      "unrealized_pct": 0.016326530612244913,
+      "unrealized_dollars": 0.15
     },
     {
       "ticker": "SNWV",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.31,
-      "current_price": 9.17,
-      "unrealized_pct": 0.06381744567802417,
-      "unrealized_dollars": 0.3
+      "current_price": 9.225,
+      "unrealized_pct": 0.07019803013956082,
+      "unrealized_dollars": 0.33
     },
     {
       "ticker": "NXTC",
@@ -101,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 17.5,
-      "unrealized_pct": 0.029411764705882353,
-      "unrealized_dollars": 0.23
+      "current_price": 17.8,
+      "unrealized_pct": 0.047058823529411806,
+      "unrealized_dollars": 0.36
     },
     {
       "ticker": "PN",
