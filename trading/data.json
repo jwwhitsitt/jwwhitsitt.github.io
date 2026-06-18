@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-18T14:45:06.312244-04:00",
+  "generated_at": "2026-06-18T15:00:06.386211-04:00",
   "summary": {
     "total_pl_dollars": 5.26,
     "wins": 14,
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.6,
-      "current_price": 1.4544,
-      "unrealized_pct": 0.024225352112676048,
-      "unrealized_dollars": 0.23
+      "current_price": 1.44,
+      "unrealized_pct": 0.014084507042253534,
+      "unrealized_dollars": 0.13
     },
     {
       "ticker": "VRM",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.31,
-      "current_price": 9.225,
-      "unrealized_pct": 0.07019803013956082,
-      "unrealized_dollars": 0.33
+      "current_price": 9.26,
+      "unrealized_pct": 0.07425840206962962,
+      "unrealized_dollars": 0.34
     },
     {
       "ticker": "NXTC",
