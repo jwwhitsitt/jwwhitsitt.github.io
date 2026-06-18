@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-18T15:00:06.386211-04:00",
+  "generated_at": "2026-06-18T15:15:05.904506-04:00",
   "summary": {
     "total_pl_dollars": 5.26,
     "wins": 14,
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.6,
-      "current_price": 1.44,
-      "unrealized_pct": 0.014084507042253534,
-      "unrealized_dollars": 0.13
+      "current_price": 1.445,
+      "unrealized_pct": 0.017605633802816996,
+      "unrealized_dollars": 0.16
     },
     {
       "ticker": "VRM",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.04,
-      "current_price": 10.175,
-      "unrealized_pct": 0.01750000000000007,
-      "unrealized_dollars": 0.16
+      "current_price": 9.92,
+      "unrealized_pct": -0.008000000000000007,
+      "unrealized_dollars": -0.07
     },
     {
       "ticker": "VNCE",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.54,
-      "current_price": 7.47,
-      "unrealized_pct": 0.016326530612244913,
-      "unrealized_dollars": 0.15
+      "current_price": 7.35,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
     },
     {
       "ticker": "SNWV",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.31,
-      "current_price": 9.26,
-      "unrealized_pct": 0.07425840206962962,
-      "unrealized_dollars": 0.34
+      "current_price": 9.33,
+      "unrealized_pct": 0.08237914592976725,
+      "unrealized_dollars": 0.38
     },
     {
       "ticker": "NXTC",
@@ -115,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 3.65,
-      "unrealized_pct": -0.1162227602905569,
-      "unrealized_dollars": -0.94
+      "current_price": 3.69,
+      "unrealized_pct": -0.10653753026634381,
+      "unrealized_dollars": -0.87
     },
     {
       "ticker": "BOSC",
