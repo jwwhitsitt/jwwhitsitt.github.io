@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-18T13:15:06.370494-04:00",
+  "generated_at": "2026-06-18T13:30:06.454213-04:00",
   "summary": {
     "total_pl_dollars": 5.26,
     "wins": 14,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 0.0,
-      "current_price": 1.94,
-      "unrealized_pct": -0.04433497536945806,
-      "unrealized_dollars": -0.16
+      "current_price": 1.97,
+      "unrealized_pct": -0.029556650246305338,
+      "unrealized_dollars": -0.11
     },
     {
       "ticker": "BYAH",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.6,
-      "current_price": 1.44,
-      "unrealized_pct": 0.014084507042253534,
-      "unrealized_dollars": 0.13
+      "current_price": 1.47,
+      "unrealized_pct": 0.03521126760563384,
+      "unrealized_dollars": 0.33
     },
     {
       "ticker": "VRM",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.04,
-      "current_price": 10.56,
-      "unrealized_pct": 0.05600000000000005,
-      "unrealized_dollars": 0.52
+      "current_price": 10.35,
+      "unrealized_pct": 0.03499999999999996,
+      "unrealized_dollars": 0.33
     },
     {
       "ticker": "VNCE",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.54,
-      "current_price": 7.355,
-      "unrealized_pct": 0.0006802721088436438,
-      "unrealized_dollars": 0.01
+      "current_price": 7.37,
+      "unrealized_pct": 0.002721088435374213,
+      "unrealized_dollars": 0.03
     },
     {
       "ticker": "SNWV",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.31,
-      "current_price": 9.42,
-      "unrealized_pct": 0.0928201023213727,
-      "unrealized_dollars": 0.43
+      "current_price": 9.33,
+      "unrealized_pct": 0.08237914592976725,
+      "unrealized_dollars": 0.38
     },
     {
       "ticker": "NXTC",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 8.4,
-      "current_price": 2.03,
-      "unrealized_pct": 0.10928961748633864,
-      "unrealized_dollars": 0.9
+      "current_price": 2.09,
+      "unrealized_pct": 0.14207650273224032,
+      "unrealized_dollars": 1.17
     },
     {
       "ticker": "TCBS",
