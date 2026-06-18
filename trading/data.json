@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-18T13:45:05.758394-04:00",
+  "generated_at": "2026-06-18T14:00:09.610725-04:00",
   "summary": {
     "total_pl_dollars": 5.26,
     "wins": 14,
@@ -17,8 +17,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 0.0,
-      "current_price": 1.94,
-      "unrealized_pct": -0.04433497536945806,
+      "current_price": 1.9401,
+      "unrealized_pct": -0.04428571428571423,
       "unrealized_dollars": -0.16
     },
     {
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.6,
-      "current_price": 1.4899,
-      "unrealized_pct": 0.04922535211267611,
-      "unrealized_dollars": 0.46
+      "current_price": 1.45,
+      "unrealized_pct": 0.021126760563380302,
+      "unrealized_dollars": 0.2
     },
     {
       "ticker": "VRM",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.04,
-      "current_price": 10.01,
-      "unrealized_pct": 0.0009999999999999788,
-      "unrealized_dollars": 0.01
+      "current_price": 10.175,
+      "unrealized_pct": 0.01750000000000007,
+      "unrealized_dollars": 0.16
     },
     {
       "ticker": "VNCE",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.54,
-      "current_price": 7.42,
-      "unrealized_pct": 0.009523809523809563,
-      "unrealized_dollars": 0.09
+      "current_price": 7.385,
+      "unrealized_pct": 0.004761904761904781,
+      "unrealized_dollars": 0.04
     },
     {
       "ticker": "SNWV",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.31,
-      "current_price": 9.41,
-      "unrealized_pct": 0.09165999605563878,
-      "unrealized_dollars": 0.43
+      "current_price": 9.21,
+      "unrealized_pct": 0.06845787074096003,
+      "unrealized_dollars": 0.32
     },
     {
       "ticker": "NXTC",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 8.4,
-      "current_price": 2.07,
-      "unrealized_pct": 0.13114754098360643,
-      "unrealized_dollars": 1.08
+      "current_price": 2.04,
+      "unrealized_pct": 0.11475409836065571,
+      "unrealized_dollars": 0.95
     },
     {
       "ticker": "TCBS",
@@ -115,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 3.84,
-      "unrealized_pct": -0.0702179176755448,
-      "unrealized_dollars": -0.57
+      "current_price": 3.65,
+      "unrealized_pct": -0.1162227602905569,
+      "unrealized_dollars": -0.94
     },
     {
       "ticker": "BOSC",
@@ -129,8 +129,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.37,
-      "unrealized_pct": -0.006818181818181874,
+      "current_price": 4.375,
+      "unrealized_pct": -0.005681818181818262,
       "unrealized_dollars": -0.03
     }
   ],
