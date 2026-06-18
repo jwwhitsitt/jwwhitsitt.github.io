@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-18T10:30:05.336397-04:00",
+  "generated_at": "2026-06-18T10:45:05.010239-04:00",
   "summary": {
     "total_pl_dollars": 5.32,
     "wins": 14,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.31,
-      "current_price": 9.32,
-      "unrealized_pct": 0.08121903966403332,
-      "unrealized_dollars": 0.38
+      "current_price": 9.0,
+      "unrealized_pct": 0.04409563916054717,
+      "unrealized_dollars": 0.2
     },
     {
       "ticker": "NXTC",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 3.48,
-      "unrealized_pct": -0.15738498789346245,
-      "unrealized_dollars": -1.28
+      "current_price": 3.5001,
+      "unrealized_pct": -0.15251815980629532,
+      "unrealized_dollars": -1.24
     },
     {
       "ticker": "BOSC",
