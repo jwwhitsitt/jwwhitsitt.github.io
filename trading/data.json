@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-18T14:15:05.987136-04:00",
+  "generated_at": "2026-06-18T14:30:09.069822-04:00",
   "summary": {
     "total_pl_dollars": 5.26,
     "wins": 14,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 0.0,
-      "current_price": 1.9401,
-      "unrealized_pct": -0.04428571428571423,
-      "unrealized_dollars": -0.16
+      "current_price": 1.9699,
+      "unrealized_pct": -0.029605911330049174,
+      "unrealized_dollars": -0.11
     },
     {
       "ticker": "BYAH",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.6,
-      "current_price": 1.4901,
-      "unrealized_pct": 0.04936619718309863,
-      "unrealized_dollars": 0.46
+      "current_price": 1.5,
+      "unrealized_pct": 0.056338028169014134,
+      "unrealized_dollars": 0.52
     },
     {
       "ticker": "VRM",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.54,
-      "current_price": 7.41,
-      "unrealized_pct": 0.008163265306122517,
-      "unrealized_dollars": 0.08
+      "current_price": 7.455,
+      "unrealized_pct": 0.014285714285714344,
+      "unrealized_dollars": 0.13
     },
     {
       "ticker": "SNWV",
@@ -73,8 +73,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.31,
-      "current_price": 9.175,
-      "unrealized_pct": 0.06439749881089123,
+      "current_price": 9.17,
+      "unrealized_pct": 0.06381744567802417,
       "unrealized_dollars": 0.3
     },
     {
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 8.4,
-      "current_price": 2.04,
-      "unrealized_pct": 0.11475409836065571,
-      "unrealized_dollars": 0.95
+      "current_price": 2.02,
+      "unrealized_pct": 0.10382513661202182,
+      "unrealized_dollars": 0.86
     },
     {
       "ticker": "TCBS",
