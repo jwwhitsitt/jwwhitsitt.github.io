@@ -1,12 +1,40 @@
 {
-  "generated_at": "2026-06-19T11:00:06.135794-04:00",
+  "generated_at": "2026-06-19T11:15:06.040055-04:00",
   "summary": {
     "total_pl_dollars": 7.71,
     "wins": 14,
     "losses": 34,
-    "open_count": 7
+    "open_count": 9
   },
   "open_trades": [
+    {
+      "ticker": "MKZR",
+      "entry_price": 1.69,
+      "stop_loss_price": 1.685,
+      "profit_target_price": 2.03,
+      "position_size_dollars": 8.76,
+      "entry_timestamp": "2026-06-19T15:01:08.376768",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 68.0,
+      "current_price": 1.69,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
+    },
+    {
+      "ticker": "ACCS",
+      "entry_price": 5.8,
+      "stop_loss_price": 5.34,
+      "profit_target_price": 6.55,
+      "position_size_dollars": 9.22,
+      "entry_timestamp": "2026-06-19T15:01:08.359117",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.1,
+      "current_price": 5.8,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
+    },
     {
       "ticker": "MKZR",
       "entry_price": 2.03,
