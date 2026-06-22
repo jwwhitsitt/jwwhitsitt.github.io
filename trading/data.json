@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T12:00:06.386294-04:00",
+  "generated_at": "2026-06-22T12:15:05.322482-04:00",
   "summary": {
     "total_pl_dollars": 9.47,
     "wins": 15,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.35,
-      "current_price": 0.0169,
-      "unrealized_pct": -0.023121387283237056,
-      "unrealized_dollars": -0.22
+      "current_price": 0.017,
+      "unrealized_pct": -0.01734104046242764,
+      "unrealized_dollars": -0.16
     },
     {
       "ticker": "MKZR",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 68.0,
-      "current_price": 1.785,
-      "unrealized_pct": 0.05621301775147928,
-      "unrealized_dollars": 0.49
+      "current_price": 1.85,
+      "unrealized_pct": 0.09467455621301783,
+      "unrealized_dollars": 0.83
     },
     {
       "ticker": "ACCS",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.1,
-      "current_price": 6.15,
-      "unrealized_pct": 0.06034482758620699,
-      "unrealized_dollars": 0.56
+      "current_price": 6.12,
+      "unrealized_pct": 0.055172413793103496,
+      "unrealized_dollars": 0.51
     },
     {
       "ticker": "MKZR",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 0.0,
-      "current_price": 1.785,
-      "unrealized_pct": -0.12068965517241374,
-      "unrealized_dollars": -0.43
+      "current_price": 1.85,
+      "unrealized_pct": -0.08866995073891612,
+      "unrealized_dollars": -0.32
     },
     {
       "ticker": "SNWV",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.31,
-      "current_price": 9.51,
-      "unrealized_pct": 0.10326105871297815,
-      "unrealized_dollars": 0.48
+      "current_price": 9.27,
+      "unrealized_pct": 0.07541850833536354,
+      "unrealized_dollars": 0.35
     },
     {
       "ticker": "TCBS",
@@ -115,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.3299,
-      "unrealized_pct": -0.015931818181818193,
-      "unrealized_dollars": -0.08
+      "current_price": 4.32,
+      "unrealized_pct": -0.018181818181818195,
+      "unrealized_dollars": -0.09
     }
   ],
   "closed_trades": [
