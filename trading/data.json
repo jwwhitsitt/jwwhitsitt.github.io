@@ -1,12 +1,26 @@
 {
-  "generated_at": "2026-06-22T11:15:05.410629-04:00",
+  "generated_at": "2026-06-22T11:30:07.160842-04:00",
   "summary": {
-    "total_pl_dollars": 9.76,
+    "total_pl_dollars": 9.47,
     "wins": 15,
     "losses": 33,
     "open_count": 8
   },
   "open_trades": [
+    {
+      "ticker": "ADTX",
+      "entry_price": 0.0173,
+      "stop_loss_price": 0.0153,
+      "profit_target_price": 0.022,
+      "position_size_dollars": 9.31,
+      "entry_timestamp": "2026-06-22T15:17:41.640421",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 2.35,
+      "current_price": 0.0172,
+      "unrealized_pct": -0.005780346820809214,
+      "unrealized_dollars": -0.05
+    },
     {
       "ticker": "MKZR",
       "entry_price": 1.69,
@@ -17,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 68.0,
-      "current_price": 1.785,
-      "unrealized_pct": 0.05621301775147928,
-      "unrealized_dollars": 0.49
+      "current_price": 1.769,
+      "unrealized_pct": 0.04674556213017749,
+      "unrealized_dollars": 0.41
     },
     {
       "ticker": "ACCS",
@@ -31,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.1,
-      "current_price": 6.101,
-      "unrealized_pct": 0.05189655172413796,
-      "unrealized_dollars": 0.48
+      "current_price": 6.15,
+      "unrealized_pct": 0.06034482758620699,
+      "unrealized_dollars": 0.56
     },
     {
       "ticker": "MKZR",
@@ -45,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 0.0,
-      "current_price": 1.785,
-      "unrealized_pct": -0.12068965517241374,
-      "unrealized_dollars": -0.43
+      "current_price": 1.769,
+      "unrealized_pct": -0.12857142857142853,
+      "unrealized_dollars": -0.46
     },
     {
       "ticker": "SNWV",
@@ -59,23 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.31,
-      "current_price": 9.295,
-      "unrealized_pct": 0.07831877399969843,
-      "unrealized_dollars": 0.36
-    },
-    {
-      "ticker": "NXTC",
-      "entry_price": 1.83,
-      "stop_loss_price": 1.78,
-      "profit_target_price": 2.2499,
-      "position_size_dollars": 8.27,
-      "entry_timestamp": "2026-06-16T15:06:59.072762",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 8.4,
-      "current_price": 1.73,
-      "unrealized_pct": -0.054644808743169446,
-      "unrealized_dollars": -0.45
+      "current_price": 9.465,
+      "unrealized_pct": 0.09804058051717543,
+      "unrealized_dollars": 0.45
     },
     {
       "ticker": "TCBS",
@@ -121,6 +121,17 @@
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "NXTC",
+      "entry_price": 1.83,
+      "exit_price": 1.73,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.45,
+      "pl_percent": -0.054645,
+      "exit_timestamp": "2026-06-22T15:15:03.253756",
+      "setup_quality": "B",
+      "position_size_dollars": 8.27
+    },
     {
       "ticker": "VRM",
       "entry_price": 10.0,
@@ -659,17 +670,6 @@
       "exit_timestamp": "2026-06-05T18:00:03.793055",
       "setup_quality": "B",
       "position_size_dollars": 8.48
-    },
-    {
-      "ticker": "BNRG",
-      "entry_price": 1.525,
-      "exit_price": 1.4,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -0.16,
-      "pl_percent": -0.081967,
-      "exit_timestamp": "2026-06-05T13:30:04.297862",
-      "setup_quality": "B",
-      "position_size_dollars": 2.0
     }
   ]
 }
