@@ -1,12 +1,26 @@
 {
-  "generated_at": "2026-06-22T13:00:10.130575-04:00",
+  "generated_at": "2026-06-22T13:15:06.606446-04:00",
   "summary": {
     "total_pl_dollars": 9.47,
     "wins": 15,
     "losses": 33,
-    "open_count": 8
+    "open_count": 9
   },
   "open_trades": [
+    {
+      "ticker": "FRGT",
+      "entry_price": 4.4,
+      "stop_loss_price": 3.765,
+      "profit_target_price": 5.9,
+      "position_size_dollars": 8.99,
+      "entry_timestamp": "2026-06-22T17:01:46.641543",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 2.36,
+      "current_price": 4.44,
+      "unrealized_pct": 0.009090909090909097,
+      "unrealized_dollars": 0.08
+    },
     {
       "ticker": "ADTX",
       "entry_price": 0.0173,
@@ -17,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.35,
-      "current_price": 0.0163,
-      "unrealized_pct": -0.05780346820809254,
-      "unrealized_dollars": -0.54
+      "current_price": 0.0165,
+      "unrealized_pct": -0.04624277456647391,
+      "unrealized_dollars": -0.43
     },
     {
       "ticker": "MKZR",
@@ -73,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.31,
-      "current_price": 8.955,
-      "unrealized_pct": 0.03887516096474444,
-      "unrealized_dollars": 0.18
+      "current_price": 8.975,
+      "unrealized_pct": 0.04119537349621228,
+      "unrealized_dollars": 0.19
     },
     {
       "ticker": "TCBS",
@@ -115,8 +129,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.33,
-      "unrealized_pct": -0.015909090909090973,
+      "current_price": 4.325,
+      "unrealized_pct": -0.017045454545454586,
       "unrealized_dollars": -0.08
     }
   ],
