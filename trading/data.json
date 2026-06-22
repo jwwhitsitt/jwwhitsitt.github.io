@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T10:45:06.026864-04:00",
+  "generated_at": "2026-06-22T11:00:06.511943-04:00",
   "summary": {
     "total_pl_dollars": 9.76,
     "wins": 15,
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.31,
-      "current_price": 9.35,
-      "unrealized_pct": 0.08469935846123508,
-      "unrealized_dollars": 0.39
+      "current_price": 9.295,
+      "unrealized_pct": 0.07831877399969843,
+      "unrealized_dollars": 0.36
     },
     {
       "ticker": "NXTC",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 8.4,
-      "current_price": 1.9753,
-      "unrealized_pct": 0.07939890710382512,
-      "unrealized_dollars": 0.66
+      "current_price": 1.8,
+      "unrealized_pct": -0.016393442622950834,
+      "unrealized_dollars": -0.14
     },
     {
       "ticker": "TCBS",
@@ -101,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 3.6821,
-      "unrealized_pct": -0.10845036319612585,
-      "unrealized_dollars": -0.88
+      "current_price": 3.5391,
+      "unrealized_pct": -0.14307506053268765,
+      "unrealized_dollars": -1.16
     },
     {
       "ticker": "BOSC",
