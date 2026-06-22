@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T15:30:07.488536-04:00",
+  "generated_at": "2026-06-22T15:45:06.511583-04:00",
   "summary": {
     "total_pl_dollars": 9.47,
     "wins": 15,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 4.18,
-      "unrealized_pct": -0.05000000000000014,
-      "unrealized_dollars": -0.45
+      "current_price": 4.245,
+      "unrealized_pct": -0.03522727272727278,
+      "unrealized_dollars": -0.32
     },
     {
       "ticker": "ADTX",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.35,
-      "current_price": 0.0188,
-      "unrealized_pct": 0.08670520231213881,
-      "unrealized_dollars": 0.81
+      "current_price": 0.0185,
+      "unrealized_pct": 0.06936416184971096,
+      "unrealized_dollars": 0.65
     },
     {
       "ticker": "MKZR",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 68.0,
-      "current_price": 1.81,
-      "unrealized_pct": 0.07100591715976338,
-      "unrealized_dollars": 0.62
+      "current_price": 1.7435,
+      "unrealized_pct": 0.031656804733727874,
+      "unrealized_dollars": 0.28
     },
     {
       "ticker": "ACCS",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 0.0,
-      "current_price": 1.81,
-      "unrealized_pct": -0.10837438423645308,
-      "unrealized_dollars": -0.39
+      "current_price": 1.7435,
+      "unrealized_pct": -0.14113300492610828,
+      "unrealized_dollars": -0.5
     },
     {
       "ticker": "SNWV",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.31,
-      "current_price": 9.05,
-      "unrealized_pct": 0.04989617048921696,
-      "unrealized_dollars": 0.23
+      "current_price": 9.06,
+      "unrealized_pct": 0.05105627675495088,
+      "unrealized_dollars": 0.24
     },
     {
       "ticker": "TCBS",
