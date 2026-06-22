@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T10:30:06.179719-04:00",
+  "generated_at": "2026-06-22T10:45:06.026864-04:00",
   "summary": {
     "total_pl_dollars": 9.76,
     "wins": 15,
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.31,
-      "current_price": 9.155,
-      "unrealized_pct": 0.06207728627942319,
-      "unrealized_dollars": 0.29
+      "current_price": 9.35,
+      "unrealized_pct": 0.08469935846123508,
+      "unrealized_dollars": 0.39
     },
     {
       "ticker": "NXTC",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 8.4,
-      "current_price": 2.11,
-      "unrealized_pct": 0.1530054644808742,
-      "unrealized_dollars": 1.27
+      "current_price": 1.9753,
+      "unrealized_pct": 0.07939890710382512,
+      "unrealized_dollars": 0.66
     },
     {
       "ticker": "TCBS",
