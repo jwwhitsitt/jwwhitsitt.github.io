@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T14:00:07.054688-04:00",
+  "generated_at": "2026-06-22T14:15:05.986685-04:00",
   "summary": {
     "total_pl_dollars": 9.47,
     "wins": 15,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 4.42,
-      "unrealized_pct": 0.004545454545454448,
-      "unrealized_dollars": 0.04
+      "current_price": 4.4,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
     },
     {
       "ticker": "ADTX",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.35,
-      "current_price": 0.0158,
-      "unrealized_pct": -0.0867052023121386,
-      "unrealized_dollars": -0.81
+      "current_price": 0.0162,
+      "unrealized_pct": -0.06358381502890176,
+      "unrealized_dollars": -0.59
     },
     {
       "ticker": "MKZR",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 68.0,
-      "current_price": 1.8,
-      "unrealized_pct": 0.06508875739644976,
-      "unrealized_dollars": 0.57
+      "current_price": 1.81,
+      "unrealized_pct": 0.07100591715976338,
+      "unrealized_dollars": 0.62
     },
     {
       "ticker": "ACCS",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 0.0,
-      "current_price": 1.8,
-      "unrealized_pct": -0.11330049261083733,
-      "unrealized_dollars": -0.4
+      "current_price": 1.81,
+      "unrealized_pct": -0.10837438423645308,
+      "unrealized_dollars": -0.39
     },
     {
       "ticker": "SNWV",
@@ -129,9 +129,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.33,
-      "unrealized_pct": -0.015909090909090973,
-      "unrealized_dollars": -0.08
+      "current_price": 4.34,
+      "unrealized_pct": -0.013636363636363748,
+      "unrealized_dollars": -0.07
     }
   ],
   "closed_trades": [
