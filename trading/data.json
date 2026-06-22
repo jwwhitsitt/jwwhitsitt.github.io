@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T14:45:06.794567-04:00",
+  "generated_at": "2026-06-22T15:00:05.591301-04:00",
   "summary": {
     "total_pl_dollars": 9.47,
     "wins": 15,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 4.22,
-      "unrealized_pct": -0.04090909090909104,
-      "unrealized_dollars": -0.37
+      "current_price": 4.3,
+      "unrealized_pct": -0.022727272727272846,
+      "unrealized_dollars": -0.2
     },
     {
       "ticker": "ADTX",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.35,
-      "current_price": 0.0199,
-      "unrealized_pct": 0.15028901734104055,
-      "unrealized_dollars": 1.4
+      "current_price": 0.0209,
+      "unrealized_pct": 0.2080924855491329,
+      "unrealized_dollars": 1.94
     },
     {
       "ticker": "MKZR",
@@ -115,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 3.7599,
-      "unrealized_pct": -0.08961259079903144,
-      "unrealized_dollars": -0.73
+      "current_price": 3.65,
+      "unrealized_pct": -0.1162227602905569,
+      "unrealized_dollars": -0.94
     },
     {
       "ticker": "BOSC",
