@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T15:15:05.557949-04:00",
+  "generated_at": "2026-06-22T15:30:07.488536-04:00",
   "summary": {
     "total_pl_dollars": 9.47,
     "wins": 15,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 4.38,
-      "unrealized_pct": -0.00454545454545465,
-      "unrealized_dollars": -0.04
+      "current_price": 4.18,
+      "unrealized_pct": -0.05000000000000014,
+      "unrealized_dollars": -0.45
     },
     {
       "ticker": "ADTX",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.35,
-      "current_price": 0.0186,
-      "unrealized_pct": 0.07514450867052018,
-      "unrealized_dollars": 0.7
+      "current_price": 0.0188,
+      "unrealized_pct": 0.08670520231213881,
+      "unrealized_dollars": 0.81
     },
     {
       "ticker": "MKZR",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.31,
-      "current_price": 8.98,
-      "unrealized_pct": 0.04177542662907934,
-      "unrealized_dollars": 0.19
+      "current_price": 9.05,
+      "unrealized_pct": 0.04989617048921696,
+      "unrealized_dollars": 0.23
     },
     {
       "ticker": "TCBS",
