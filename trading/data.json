@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-23T10:15:05.808078-04:00",
+  "generated_at": "2026-06-23T10:30:05.227846-04:00",
   "summary": {
     "total_pl_dollars": 13.46,
     "wins": 16,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 4.05,
-      "unrealized_pct": -0.07954545454545466,
-      "unrealized_dollars": -0.72
+      "current_price": 4.06,
+      "unrealized_pct": -0.07727272727272744,
+      "unrealized_dollars": -0.69
     },
     {
       "ticker": "MKZR",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.31,
-      "current_price": 9.02,
-      "unrealized_pct": 0.04641585169201501,
-      "unrealized_dollars": 0.22
+      "current_price": 8.905,
+      "unrealized_pct": 0.03307462963607466,
+      "unrealized_dollars": 0.15
     },
     {
       "ticker": "PN",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 3.82,
-      "unrealized_pct": -0.07506053268765135,
-      "unrealized_dollars": -0.61
+      "current_price": 3.77,
+      "unrealized_pct": -0.08716707021791764,
+      "unrealized_dollars": -0.71
     },
     {
       "ticker": "BOSC",
