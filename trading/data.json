@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-23T15:15:05.207551-04:00",
+  "generated_at": "2026-06-23T15:30:05.052249-04:00",
   "summary": {
     "total_pl_dollars": 12.45,
     "wins": 17,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.4,
-      "current_price": 2.66,
-      "unrealized_pct": 0.031007751937984523,
-      "unrealized_dollars": 0.3
+      "current_price": 2.69,
+      "unrealized_pct": 0.04263565891472863,
+      "unrealized_dollars": 0.42
     },
     {
       "ticker": "MKZR",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 68.0,
-      "current_price": 1.8,
-      "unrealized_pct": 0.06508875739644976,
-      "unrealized_dollars": 0.57
+      "current_price": 1.7624,
+      "unrealized_pct": 0.042840236686390545,
+      "unrealized_dollars": 0.38
     },
     {
       "ticker": "MKZR",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 0.0,
-      "current_price": 1.8,
-      "unrealized_pct": -0.11330049261083733,
-      "unrealized_dollars": -0.4
+      "current_price": 1.7624,
+      "unrealized_pct": -0.1318226600985221,
+      "unrealized_dollars": -0.47
     },
     {
       "ticker": "SNWV",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.31,
-      "current_price": 8.45,
-      "unrealized_pct": -0.01971020545481968,
-      "unrealized_dollars": -0.09
+      "current_price": 8.385,
+      "unrealized_pct": -0.027250896182090242,
+      "unrealized_dollars": -0.13
     },
     {
       "ticker": "PN",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.401,
-      "unrealized_pct": 0.0002272727272726013,
-      "unrealized_dollars": 0.0
+      "current_price": 4.425,
+      "unrealized_pct": 0.0056818181818180605,
+      "unrealized_dollars": 0.03
     }
   ],
   "closed_trades": [
