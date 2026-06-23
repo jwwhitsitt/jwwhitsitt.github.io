@@ -1,12 +1,54 @@
 {
-  "generated_at": "2026-06-23T11:00:08.245760-04:00",
+  "generated_at": "2026-06-23T11:15:05.955366-04:00",
   "summary": {
     "total_pl_dollars": 15.9,
     "wins": 17,
     "losses": 31,
-    "open_count": 6
+    "open_count": 9
   },
   "open_trades": [
+    {
+      "ticker": "RDGT",
+      "entry_price": 1.98,
+      "stop_loss_price": 1.77,
+      "profit_target_price": 3.0799,
+      "position_size_dollars": 9.78,
+      "entry_timestamp": "2026-06-23T15:03:39.242051",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 5.24,
+      "current_price": 1.9599,
+      "unrealized_pct": -0.010151515151515154,
+      "unrealized_dollars": -0.1
+    },
+    {
+      "ticker": "MBRX",
+      "entry_price": 2.58,
+      "stop_loss_price": 2.53,
+      "profit_target_price": 2.85,
+      "position_size_dollars": 9.78,
+      "entry_timestamp": "2026-06-23T15:03:39.195501",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 5.4,
+      "current_price": 2.57,
+      "unrealized_pct": -0.0038759689922481513,
+      "unrealized_dollars": -0.04
+    },
+    {
+      "ticker": "ORIS",
+      "entry_price": 2.255,
+      "stop_loss_price": 2.11,
+      "profit_target_price": 3.35,
+      "position_size_dollars": 9.78,
+      "entry_timestamp": "2026-06-23T15:03:39.166725",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 7.55,
+      "current_price": 1.9899,
+      "unrealized_pct": -0.11756097560975605,
+      "unrealized_dollars": -1.15
+    },
     {
       "ticker": "FRGT",
       "entry_price": 4.4,
@@ -17,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 4.0101,
-      "unrealized_pct": -0.08861363636363634,
-      "unrealized_dollars": -0.8
+      "current_price": 4.0002,
+      "unrealized_pct": -0.09086363636363634,
+      "unrealized_dollars": -0.82
     },
     {
       "ticker": "MKZR",
@@ -59,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.31,
-      "current_price": 8.625,
-      "unrealized_pct": 0.0005916541955243737,
-      "unrealized_dollars": 0.0
+      "current_price": 8.69,
+      "unrealized_pct": 0.008132344922794934,
+      "unrealized_dollars": 0.04
     },
     {
       "ticker": "PN",
@@ -73,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 3.76,
-      "unrealized_pct": -0.08958837772397098,
-      "unrealized_dollars": -0.73
+      "current_price": 3.7985,
+      "unrealized_pct": -0.08026634382566579,
+      "unrealized_dollars": -0.65
     },
     {
       "ticker": "BOSC",
@@ -87,9 +129,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.39,
-      "unrealized_pct": -0.002272727272727426,
-      "unrealized_dollars": -0.01
+      "current_price": 4.4,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
     }
   ],
   "closed_trades": [
