@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-23T12:45:04.864478-04:00",
+  "generated_at": "2026-06-23T13:00:05.137290-04:00",
   "summary": {
     "total_pl_dollars": 13.96,
     "wins": 17,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.24,
-      "current_price": 1.9008,
-      "unrealized_pct": -0.039999999999999966,
-      "unrealized_dollars": -0.39
+      "current_price": 1.91,
+      "unrealized_pct": -0.03535353535353539,
+      "unrealized_dollars": -0.35
     },
     {
       "ticker": "MBRX",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.4,
-      "current_price": 2.6122,
-      "unrealized_pct": 0.012480620155038763,
-      "unrealized_dollars": 0.12
+      "current_price": 2.62,
+      "unrealized_pct": 0.015503875968992262,
+      "unrealized_dollars": 0.15
     },
     {
       "ticker": "MKZR",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.31,
-      "current_price": 8.59,
-      "unrealized_pct": -0.0034687177345444375,
-      "unrealized_dollars": -0.02
+      "current_price": 8.545,
+      "unrealized_pct": -0.008689195930347164,
+      "unrealized_dollars": -0.04
     },
     {
       "ticker": "PN",
@@ -101,8 +101,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.5,
-      "unrealized_pct": 0.022727272727272645,
+      "current_price": 4.4981,
+      "unrealized_pct": 0.02229545454545446,
       "unrealized_dollars": 0.11
     }
   ],
