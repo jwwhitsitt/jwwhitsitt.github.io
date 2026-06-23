@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-23T09:15:06.359874-04:00",
+  "generated_at": "2026-06-23T09:30:09.425792-04:00",
   "summary": {
     "total_pl_dollars": 9.47,
     "wins": 15,
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 68.0,
-      "current_price": 1.7435,
-      "unrealized_pct": 0.031656804733727874,
-      "unrealized_dollars": 0.28
+      "current_price": 1.8,
+      "unrealized_pct": 0.06508875739644976,
+      "unrealized_dollars": 0.57
     },
     {
       "ticker": "ACCS",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 0.0,
-      "current_price": 1.7435,
-      "unrealized_pct": -0.14113300492610828,
-      "unrealized_dollars": -0.5
+      "current_price": 1.8,
+      "unrealized_pct": -0.11330049261083733,
+      "unrealized_dollars": -0.4
     },
     {
       "ticker": "SNWV",
