@@ -1,26 +1,12 @@
 {
-  "generated_at": "2026-06-23T14:15:05.022544-04:00",
+  "generated_at": "2026-06-23T14:30:04.911428-04:00",
   "summary": {
-    "total_pl_dollars": 13.96,
+    "total_pl_dollars": 12.45,
     "wins": 17,
-    "losses": 31,
-    "open_count": 7
+    "losses": 32,
+    "open_count": 6
   },
   "open_trades": [
-    {
-      "ticker": "RDGT",
-      "entry_price": 1.98,
-      "stop_loss_price": 1.77,
-      "profit_target_price": 3.0799,
-      "position_size_dollars": 9.78,
-      "entry_timestamp": "2026-06-23T15:03:39.242051",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 5.24,
-      "current_price": 1.675,
-      "unrealized_pct": -0.154040404040404,
-      "unrealized_dollars": -1.51
-    },
     {
       "ticker": "MBRX",
       "entry_price": 2.58,
@@ -31,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.4,
-      "current_price": 2.68,
-      "unrealized_pct": 0.038759689922480654,
-      "unrealized_dollars": 0.38
+      "current_price": 2.665,
+      "unrealized_pct": 0.03294573643410851,
+      "unrealized_dollars": 0.32
     },
     {
       "ticker": "MKZR",
@@ -45,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 68.0,
-      "current_price": 1.81,
-      "unrealized_pct": 0.07100591715976338,
-      "unrealized_dollars": 0.62
+      "current_price": 1.8,
+      "unrealized_pct": 0.06508875739644976,
+      "unrealized_dollars": 0.57
     },
     {
       "ticker": "MKZR",
@@ -59,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 0.0,
-      "current_price": 1.81,
-      "unrealized_pct": -0.10837438423645308,
-      "unrealized_dollars": -0.39
+      "current_price": 1.8,
+      "unrealized_pct": -0.11330049261083733,
+      "unrealized_dollars": -0.4
     },
     {
       "ticker": "SNWV",
@@ -73,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.31,
-      "current_price": 8.545,
-      "unrealized_pct": -0.008689195930347164,
-      "unrealized_dollars": -0.04
+      "current_price": 8.535,
+      "unrealized_pct": -0.009849302196081081,
+      "unrealized_dollars": -0.05
     },
     {
       "ticker": "PN",
@@ -87,8 +73,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 3.62,
-      "unrealized_pct": -0.12348668280871666,
+      "current_price": 3.6234,
+      "unrealized_pct": -0.12266343825665853,
       "unrealized_dollars": -1.0
     },
     {
@@ -107,6 +93,17 @@
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "RDGT",
+      "entry_price": 1.98,
+      "exit_price": 1.675,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -1.51,
+      "pl_percent": -0.15404,
+      "exit_timestamp": "2026-06-23T18:15:04.214906",
+      "setup_quality": "B",
+      "position_size_dollars": 9.78
+    },
     {
       "ticker": "FRGT",
       "entry_price": 4.4,
@@ -643,17 +640,6 @@
       "pl_dollars": -0.1,
       "pl_percent": -0.013183,
       "exit_timestamp": "2026-06-08T19:45:04.846240",
-      "setup_quality": "B",
-      "position_size_dollars": 7.56
-    },
-    {
-      "ticker": "FDSB",
-      "entry_price": 15.25,
-      "exit_price": 15.25,
-      "exit_reason": "target_hit",
-      "pl_dollars": 0,
-      "pl_percent": 0.0,
-      "exit_timestamp": "2026-06-08T17:15:05.214935",
       "setup_quality": "B",
       "position_size_dollars": 7.56
     }
