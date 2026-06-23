@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-23T13:45:04.915144-04:00",
+  "generated_at": "2026-06-23T14:00:05.774219-04:00",
   "summary": {
     "total_pl_dollars": 13.96,
     "wins": 17,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.24,
-      "current_price": 1.865,
-      "unrealized_pct": -0.05808080808080808,
-      "unrealized_dollars": -0.57
+      "current_price": 1.775,
+      "unrealized_pct": -0.10353535353535358,
+      "unrealized_dollars": -1.01
     },
     {
       "ticker": "MBRX",
@@ -31,8 +31,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.4,
-      "current_price": 2.68,
-      "unrealized_pct": 0.038759689922480654,
+      "current_price": 2.6808,
+      "unrealized_pct": 0.03906976744186046,
       "unrealized_dollars": 0.38
     },
     {
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.31,
-      "current_price": 8.395,
-      "unrealized_pct": -0.026090789916356327,
-      "unrealized_dollars": -0.12
+      "current_price": 8.42,
+      "unrealized_pct": -0.023190524252021432,
+      "unrealized_dollars": -0.11
     },
     {
       "ticker": "PN",
