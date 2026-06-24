@@ -1,26 +1,12 @@
 {
-  "generated_at": "2026-06-24T13:15:05.573726-04:00",
+  "generated_at": "2026-06-24T13:30:09.345917-04:00",
   "summary": {
-    "total_pl_dollars": 8.91,
+    "total_pl_dollars": 8.33,
     "wins": 15,
     "losses": 35,
-    "open_count": 7
+    "open_count": 6
   },
   "open_trades": [
-    {
-      "ticker": "MODD",
-      "entry_price": 4.25,
-      "stop_loss_price": 3.9682,
-      "profit_target_price": 5.1,
-      "position_size_dollars": 9.98,
-      "entry_timestamp": "2026-06-24T15:47:13.443229",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 3.02,
-      "current_price": 3.955,
-      "unrealized_pct": -0.06941176470588234,
-      "unrealized_dollars": -0.69
-    },
     {
       "ticker": "HSCS",
       "entry_price": 2.75,
@@ -31,9 +17,9 @@
       "setup_quality": "A",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.17,
-      "current_price": 2.64,
-      "unrealized_pct": -0.03999999999999995,
-      "unrealized_dollars": -0.09
+      "current_price": 2.635,
+      "unrealized_pct": -0.04181818181818189,
+      "unrealized_dollars": -0.1
     },
     {
       "ticker": "ORIS",
@@ -87,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 3.79,
-      "unrealized_pct": -0.08232445520581111,
-      "unrealized_dollars": -0.67
+      "current_price": 3.735,
+      "unrealized_pct": -0.09564164648910413,
+      "unrealized_dollars": -0.78
     },
     {
       "ticker": "BOSC",
@@ -107,6 +93,17 @@
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "MODD",
+      "entry_price": 4.25,
+      "exit_price": 3.955,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.69,
+      "pl_percent": -0.069412,
+      "exit_timestamp": "2026-06-24T17:15:04.217491",
+      "setup_quality": "B",
+      "position_size_dollars": 9.98
+    },
     {
       "ticker": "PLSM",
       "entry_price": 10.25,
@@ -645,17 +642,6 @@
       "exit_timestamp": "2026-06-11T14:00:05.142800",
       "setup_quality": "B",
       "position_size_dollars": 8.95
-    },
-    {
-      "ticker": "LSTA",
-      "entry_price": 3.675,
-      "exit_price": 3.63,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -0.11,
-      "pl_percent": -0.012245,
-      "exit_timestamp": "2026-06-10T19:45:04.722729",
-      "setup_quality": "B",
-      "position_size_dollars": 8.96
     }
   ]
 }
