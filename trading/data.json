@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T16:00:05.665805-04:00",
+  "generated_at": "2026-06-24T16:15:04.311274-04:00",
   "summary": {
     "total_pl_dollars": 7.16,
     "wins": 14,
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 68.0,
-      "current_price": 1.81,
-      "unrealized_pct": 0.07100591715976338,
-      "unrealized_dollars": 0.62
+      "current_price": 1.78,
+      "unrealized_pct": 0.053254437869822535,
+      "unrealized_dollars": 0.47
     },
     {
       "ticker": "MKZR",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 0.0,
-      "current_price": 1.81,
-      "unrealized_pct": -0.10837438423645308,
-      "unrealized_dollars": -0.39
+      "current_price": 1.78,
+      "unrealized_pct": -0.12315270935960582,
+      "unrealized_dollars": -0.44
     },
     {
       "ticker": "PN",
