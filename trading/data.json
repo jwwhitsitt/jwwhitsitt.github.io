@@ -1,26 +1,12 @@
 {
-  "generated_at": "2026-06-24T12:00:06.570705-04:00",
+  "generated_at": "2026-06-24T12:15:05.895447-04:00",
   "summary": {
-    "total_pl_dollars": 13.97,
-    "wins": 17,
-    "losses": 32,
-    "open_count": 10
+    "total_pl_dollars": 8.91,
+    "wins": 15,
+    "losses": 35,
+    "open_count": 7
   },
   "open_trades": [
-    {
-      "ticker": "PLSM",
-      "entry_price": 10.25,
-      "stop_loss_price": 9.16,
-      "profit_target_price": 12.97,
-      "position_size_dollars": 2.92,
-      "entry_timestamp": "2026-06-24T15:47:13.460755",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 2.5,
-      "current_price": 8.67,
-      "unrealized_pct": -0.15414634146341463,
-      "unrealized_dollars": -0.45
-    },
     {
       "ticker": "MODD",
       "entry_price": 4.25,
@@ -31,37 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.02,
-      "current_price": 4.13,
-      "unrealized_pct": -0.028235294117647084,
-      "unrealized_dollars": -0.28
-    },
-    {
-      "ticker": "TOYO",
-      "entry_price": 8.615,
-      "stop_loss_price": 8.5,
-      "profit_target_price": 9.75,
-      "position_size_dollars": 9.98,
-      "entry_timestamp": "2026-06-24T15:47:13.425963",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 9.87,
-      "current_price": 8.28,
-      "unrealized_pct": -0.03888566453859557,
-      "unrealized_dollars": -0.39
-    },
-    {
-      "ticker": "TGL",
-      "entry_price": 3.95,
-      "stop_loss_price": 3.88,
-      "profit_target_price": 4.11,
-      "position_size_dollars": 9.98,
-      "entry_timestamp": "2026-06-24T15:47:13.400140",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 2.29,
-      "current_price": 3.76,
-      "unrealized_pct": -0.04810126582278491,
-      "unrealized_dollars": -0.48
+      "current_price": 4.15,
+      "unrealized_pct": -0.0235294117647058,
+      "unrealized_dollars": -0.23
     },
     {
       "ticker": "HSCS",
@@ -73,9 +31,9 @@
       "setup_quality": "A",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.17,
-      "current_price": 2.63,
-      "unrealized_pct": -0.043636363636363674,
-      "unrealized_dollars": -0.1
+      "current_price": 2.655,
+      "unrealized_pct": -0.034545454545454615,
+      "unrealized_dollars": -0.08
     },
     {
       "ticker": "ORIS",
@@ -149,6 +107,39 @@
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "PLSM",
+      "entry_price": 10.25,
+      "exit_price": 8.725,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.43,
+      "pl_percent": -0.14878,
+      "exit_timestamp": "2026-06-24T16:00:05.457313",
+      "setup_quality": "B",
+      "position_size_dollars": 2.92
+    },
+    {
+      "ticker": "TOYO",
+      "entry_price": 8.615,
+      "exit_price": 8.28,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.39,
+      "pl_percent": -0.038886,
+      "exit_timestamp": "2026-06-24T16:00:04.881492",
+      "setup_quality": "B",
+      "position_size_dollars": 9.98
+    },
+    {
+      "ticker": "TGL",
+      "entry_price": 3.95,
+      "exit_price": 3.76,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.48,
+      "pl_percent": -0.048101,
+      "exit_timestamp": "2026-06-24T16:00:04.592411",
+      "setup_quality": "B",
+      "position_size_dollars": 9.98
+    },
     {
       "ticker": "MBRX",
       "entry_price": 2.58,
@@ -665,39 +656,6 @@
       "exit_timestamp": "2026-06-10T19:45:04.722729",
       "setup_quality": "B",
       "position_size_dollars": 8.96
-    },
-    {
-      "ticker": "TCBS",
-      "entry_price": 16.9501,
-      "exit_price": 16.9501,
-      "exit_reason": "stop_hit",
-      "pl_dollars": 0,
-      "pl_percent": 0.0,
-      "exit_timestamp": "2026-06-10T19:00:05.495781",
-      "setup_quality": "B",
-      "position_size_dollars": 8.96
-    },
-    {
-      "ticker": "WYY",
-      "entry_price": 10.81,
-      "exit_price": 12.3,
-      "exit_reason": "target_hit",
-      "pl_dollars": 0.26,
-      "pl_percent": 0.137835,
-      "exit_timestamp": "2026-06-10T15:00:04.792158",
-      "setup_quality": "B",
-      "position_size_dollars": 1.89
-    },
-    {
-      "ticker": "OCC",
-      "entry_price": 17.3599,
-      "exit_price": 24.98,
-      "exit_reason": "target_hit",
-      "pl_dollars": 3.49,
-      "pl_percent": 0.438948,
-      "exit_timestamp": "2026-06-10T13:45:05.094648",
-      "setup_quality": "B",
-      "position_size_dollars": 7.96
     }
   ]
 }
