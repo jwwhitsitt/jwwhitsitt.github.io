@@ -1,26 +1,12 @@
 {
-  "generated_at": "2026-06-24T14:00:04.855947-04:00",
+  "generated_at": "2026-06-24T14:15:04.954323-04:00",
   "summary": {
-    "total_pl_dollars": 8.33,
-    "wins": 15,
-    "losses": 35,
-    "open_count": 6
+    "total_pl_dollars": 7.16,
+    "wins": 14,
+    "losses": 36,
+    "open_count": 5
   },
   "open_trades": [
-    {
-      "ticker": "HSCS",
-      "entry_price": 2.75,
-      "stop_loss_price": 2.51,
-      "profit_target_price": 3.7499,
-      "position_size_dollars": 2.34,
-      "entry_timestamp": "2026-06-24T13:41:38.206272",
-      "setup_quality": "A",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 4.17,
-      "current_price": 2.44,
-      "unrealized_pct": -0.11272727272727275,
-      "unrealized_dollars": -0.26
-    },
     {
       "ticker": "ORIS",
       "entry_price": 1.83,
@@ -45,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 68.0,
-      "current_price": 1.81,
-      "unrealized_pct": 0.07100591715976338,
-      "unrealized_dollars": 0.62
+      "current_price": 1.77,
+      "unrealized_pct": 0.047337278106508916,
+      "unrealized_dollars": 0.41
     },
     {
       "ticker": "MKZR",
@@ -59,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 0.0,
-      "current_price": 1.81,
-      "unrealized_pct": -0.10837438423645308,
-      "unrealized_dollars": -0.39
+      "current_price": 1.77,
+      "unrealized_pct": -0.12807881773399005,
+      "unrealized_dollars": -0.46
     },
     {
       "ticker": "PN",
@@ -93,6 +79,17 @@
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "HSCS",
+      "entry_price": 2.75,
+      "exit_price": 2.44,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.26,
+      "pl_percent": -0.112727,
+      "exit_timestamp": "2026-06-24T18:00:03.794438",
+      "setup_quality": "A",
+      "position_size_dollars": 2.34
+    },
     {
       "ticker": "MODD",
       "entry_price": 4.25,
@@ -631,17 +628,6 @@
       "exit_timestamp": "2026-06-11T15:00:03.886461",
       "setup_quality": "B",
       "position_size_dollars": 8.22
-    },
-    {
-      "ticker": "AGMH",
-      "entry_price": 1.09,
-      "exit_price": 1.2,
-      "exit_reason": "target_hit",
-      "pl_dollars": 0.9,
-      "pl_percent": 0.100917,
-      "exit_timestamp": "2026-06-11T14:00:05.142800",
-      "setup_quality": "B",
-      "position_size_dollars": 8.95
     }
   ]
 }
