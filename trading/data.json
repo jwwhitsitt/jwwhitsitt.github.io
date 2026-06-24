@@ -1,12 +1,68 @@
 {
-  "generated_at": "2026-06-24T11:45:04.397721-04:00",
+  "generated_at": "2026-06-24T12:00:06.570705-04:00",
   "summary": {
     "total_pl_dollars": 13.97,
     "wins": 17,
     "losses": 32,
-    "open_count": 6
+    "open_count": 10
   },
   "open_trades": [
+    {
+      "ticker": "PLSM",
+      "entry_price": 10.25,
+      "stop_loss_price": 9.16,
+      "profit_target_price": 12.97,
+      "position_size_dollars": 2.92,
+      "entry_timestamp": "2026-06-24T15:47:13.460755",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 2.5,
+      "current_price": 8.67,
+      "unrealized_pct": -0.15414634146341463,
+      "unrealized_dollars": -0.45
+    },
+    {
+      "ticker": "MODD",
+      "entry_price": 4.25,
+      "stop_loss_price": 3.9682,
+      "profit_target_price": 5.1,
+      "position_size_dollars": 9.98,
+      "entry_timestamp": "2026-06-24T15:47:13.443229",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 3.02,
+      "current_price": 4.13,
+      "unrealized_pct": -0.028235294117647084,
+      "unrealized_dollars": -0.28
+    },
+    {
+      "ticker": "TOYO",
+      "entry_price": 8.615,
+      "stop_loss_price": 8.5,
+      "profit_target_price": 9.75,
+      "position_size_dollars": 9.98,
+      "entry_timestamp": "2026-06-24T15:47:13.425963",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 9.87,
+      "current_price": 8.28,
+      "unrealized_pct": -0.03888566453859557,
+      "unrealized_dollars": -0.39
+    },
+    {
+      "ticker": "TGL",
+      "entry_price": 3.95,
+      "stop_loss_price": 3.88,
+      "profit_target_price": 4.11,
+      "position_size_dollars": 9.98,
+      "entry_timestamp": "2026-06-24T15:47:13.400140",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 2.29,
+      "current_price": 3.76,
+      "unrealized_pct": -0.04810126582278491,
+      "unrealized_dollars": -0.48
+    },
     {
       "ticker": "HSCS",
       "entry_price": 2.75,
@@ -17,9 +73,9 @@
       "setup_quality": "A",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.17,
-      "current_price": 2.68,
-      "unrealized_pct": -0.025454545454545396,
-      "unrealized_dollars": -0.06
+      "current_price": 2.63,
+      "unrealized_pct": -0.043636363636363674,
+      "unrealized_dollars": -0.1
     },
     {
       "ticker": "ORIS",
@@ -45,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 68.0,
-      "current_price": 1.78,
-      "unrealized_pct": 0.053254437869822535,
-      "unrealized_dollars": 0.47
+      "current_price": 1.81,
+      "unrealized_pct": 0.07100591715976338,
+      "unrealized_dollars": 0.62
     },
     {
       "ticker": "MKZR",
@@ -59,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 0.0,
-      "current_price": 1.78,
-      "unrealized_pct": -0.12315270935960582,
-      "unrealized_dollars": -0.44
+      "current_price": 1.81,
+      "unrealized_pct": -0.10837438423645308,
+      "unrealized_dollars": -0.39
     },
     {
       "ticker": "PN",
@@ -73,9 +129,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 3.76,
-      "unrealized_pct": -0.08958837772397098,
-      "unrealized_dollars": -0.73
+      "current_price": 3.79,
+      "unrealized_pct": -0.08232445520581111,
+      "unrealized_dollars": -0.67
     },
     {
       "ticker": "BOSC",
