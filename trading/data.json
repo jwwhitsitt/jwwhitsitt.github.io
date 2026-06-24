@@ -1,12 +1,68 @@
 {
-  "generated_at": "2026-06-24T09:30:05.533689-04:00",
+  "generated_at": "2026-06-24T09:45:05.744389-04:00",
   "summary": {
-    "total_pl_dollars": 12.45,
+    "total_pl_dollars": 12.33,
     "wins": 17,
     "losses": 32,
-    "open_count": 6
+    "open_count": 9
   },
   "open_trades": [
+    {
+      "ticker": "HSCS",
+      "entry_price": 2.75,
+      "stop_loss_price": 2.51,
+      "profit_target_price": 3.7499,
+      "position_size_dollars": 2.34,
+      "entry_timestamp": "2026-06-24T13:41:38.206272",
+      "setup_quality": "A",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 4.17,
+      "current_price": 2.62,
+      "unrealized_pct": -0.04727272727272724,
+      "unrealized_dollars": -0.11
+    },
+    {
+      "ticker": "RDGT",
+      "entry_price": 1.73,
+      "stop_loss_price": 1.6303,
+      "profit_target_price": 3.0799,
+      "position_size_dollars": 9.36,
+      "entry_timestamp": "2026-06-24T13:41:38.184127",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 13.54,
+      "current_price": 1.5101,
+      "unrealized_pct": -0.12710982658959538,
+      "unrealized_dollars": -1.19
+    },
+    {
+      "ticker": "VTAK",
+      "entry_price": 0.92,
+      "stop_loss_price": 0.79,
+      "profit_target_price": 1.38,
+      "position_size_dollars": 9.36,
+      "entry_timestamp": "2026-06-24T13:41:38.160102",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.5,
+      "current_price": 1.5389,
+      "unrealized_pct": 0.6727173913043477,
+      "unrealized_dollars": 6.3
+    },
+    {
+      "ticker": "ORIS",
+      "entry_price": 1.83,
+      "stop_loss_price": 1.5422,
+      "profit_target_price": 3.35,
+      "position_size_dollars": 9.36,
+      "entry_timestamp": "2026-06-24T13:41:38.141026",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 5.28,
+      "current_price": 1.83,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
+    },
     {
       "ticker": "MBRX",
       "entry_price": 2.58,
@@ -17,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.4,
-      "current_price": 2.75,
-      "unrealized_pct": 0.06589147286821702,
-      "unrealized_dollars": 0.64
+      "current_price": 2.73,
+      "unrealized_pct": 0.058139534883720895,
+      "unrealized_dollars": 0.57
     },
     {
       "ticker": "MKZR",
@@ -31,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 68.0,
-      "current_price": 1.77,
-      "unrealized_pct": 0.047337278106508916,
-      "unrealized_dollars": 0.41
+      "current_price": 1.78,
+      "unrealized_pct": 0.053254437869822535,
+      "unrealized_dollars": 0.47
     },
     {
       "ticker": "MKZR",
@@ -45,23 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 0.0,
-      "current_price": 1.77,
-      "unrealized_pct": -0.12807881773399005,
-      "unrealized_dollars": -0.46
-    },
-    {
-      "ticker": "SNWV",
-      "entry_price": 8.6199,
-      "stop_loss_price": 8.3,
-      "profit_target_price": 10.0,
-      "position_size_dollars": 4.64,
-      "entry_timestamp": "2026-06-16T19:06:20.852587",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 4.31,
-      "current_price": 8.2,
-      "unrealized_pct": -0.04871286209816821,
-      "unrealized_dollars": -0.23
+      "current_price": 1.78,
+      "unrealized_pct": -0.12315270935960582,
+      "unrealized_dollars": -0.44
     },
     {
       "ticker": "PN",
@@ -73,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 3.66,
-      "unrealized_pct": -0.11380145278450357,
-      "unrealized_dollars": -0.93
+      "current_price": 3.805,
+      "unrealized_pct": -0.07869249394673117,
+      "unrealized_dollars": -0.64
     },
     {
       "ticker": "BOSC",
@@ -93,6 +135,17 @@
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "SNWV",
+      "entry_price": 8.6199,
+      "exit_price": 8.2,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.23,
+      "pl_percent": -0.048713,
+      "exit_timestamp": "2026-06-24T13:30:03.820479",
+      "setup_quality": "B",
+      "position_size_dollars": 4.64
+    },
     {
       "ticker": "RDGT",
       "entry_price": 1.98,
@@ -631,17 +684,6 @@
       "exit_timestamp": "2026-06-09T13:45:04.268913",
       "setup_quality": "A",
       "position_size_dollars": 8.38
-    },
-    {
-      "ticker": "OPTH",
-      "entry_price": 5.31,
-      "exit_price": 5.24,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -0.1,
-      "pl_percent": -0.013183,
-      "exit_timestamp": "2026-06-08T19:45:04.846240",
-      "setup_quality": "B",
-      "position_size_dollars": 7.56
     }
   ]
 }
