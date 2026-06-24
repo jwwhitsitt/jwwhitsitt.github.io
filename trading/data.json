@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-24T09:45:05.744389-04:00",
+  "generated_at": "2026-06-24T10:00:09.992155-04:00",
   "summary": {
-    "total_pl_dollars": 12.33,
+    "total_pl_dollars": 16.99,
     "wins": 17,
     "losses": 32,
-    "open_count": 9
+    "open_count": 7
   },
   "open_trades": [
     {
@@ -17,37 +17,9 @@
       "setup_quality": "A",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.17,
-      "current_price": 2.62,
-      "unrealized_pct": -0.04727272727272724,
-      "unrealized_dollars": -0.11
-    },
-    {
-      "ticker": "RDGT",
-      "entry_price": 1.73,
-      "stop_loss_price": 1.6303,
-      "profit_target_price": 3.0799,
-      "position_size_dollars": 9.36,
-      "entry_timestamp": "2026-06-24T13:41:38.184127",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 13.54,
-      "current_price": 1.5101,
-      "unrealized_pct": -0.12710982658959538,
-      "unrealized_dollars": -1.19
-    },
-    {
-      "ticker": "VTAK",
-      "entry_price": 0.92,
-      "stop_loss_price": 0.79,
-      "profit_target_price": 1.38,
-      "position_size_dollars": 9.36,
-      "entry_timestamp": "2026-06-24T13:41:38.160102",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 1.5,
-      "current_price": 1.5389,
-      "unrealized_pct": 0.6727173913043477,
-      "unrealized_dollars": 6.3
+      "current_price": 2.595,
+      "unrealized_pct": -0.05636363636363629,
+      "unrealized_dollars": -0.13
     },
     {
       "ticker": "ORIS",
@@ -73,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.4,
-      "current_price": 2.73,
-      "unrealized_pct": 0.058139534883720895,
-      "unrealized_dollars": 0.57
+      "current_price": 2.835,
+      "unrealized_pct": 0.09883720930232553,
+      "unrealized_dollars": 0.97
     },
     {
       "ticker": "MKZR",
@@ -115,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 3.805,
-      "unrealized_pct": -0.07869249394673117,
-      "unrealized_dollars": -0.64
+      "current_price": 3.82,
+      "unrealized_pct": -0.07506053268765135,
+      "unrealized_dollars": -0.61
     },
     {
       "ticker": "BOSC",
@@ -129,12 +101,34 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.45,
-      "unrealized_pct": 0.011363636363636322,
-      "unrealized_dollars": 0.06
+      "current_price": 4.382,
+      "unrealized_pct": -0.004090909090909246,
+      "unrealized_dollars": -0.02
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "RDGT",
+      "entry_price": 1.73,
+      "exit_price": 1.5101,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -1.19,
+      "pl_percent": -0.12711,
+      "exit_timestamp": "2026-06-24T13:45:04.789403",
+      "setup_quality": "B",
+      "position_size_dollars": 9.36
+    },
+    {
+      "ticker": "VTAK",
+      "entry_price": 0.92,
+      "exit_price": 1.5386,
+      "exit_reason": "target_hit",
+      "pl_dollars": 6.29,
+      "pl_percent": 0.672391,
+      "exit_timestamp": "2026-06-24T13:45:04.347472",
+      "setup_quality": "B",
+      "position_size_dollars": 9.36
+    },
     {
       "ticker": "SNWV",
       "entry_price": 8.6199,
@@ -662,28 +656,6 @@
       "exit_timestamp": "2026-06-10T13:45:03.250002",
       "setup_quality": "B",
       "position_size_dollars": 9.64
-    },
-    {
-      "ticker": "OPTH",
-      "entry_price": 5.16,
-      "exit_price": 4.85,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -0.49,
-      "pl_percent": -0.060078,
-      "exit_timestamp": "2026-06-09T16:30:04.317104",
-      "setup_quality": "B",
-      "position_size_dollars": 8.22
-    },
-    {
-      "ticker": "AKA",
-      "entry_price": 8.64,
-      "exit_price": 9.6019,
-      "exit_reason": "target_hit",
-      "pl_dollars": 0.93,
-      "pl_percent": 0.111331,
-      "exit_timestamp": "2026-06-09T13:45:04.268913",
-      "setup_quality": "A",
-      "position_size_dollars": 8.38
     }
   ]
 }
