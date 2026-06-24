@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T11:15:05.327929-04:00",
+  "generated_at": "2026-06-24T11:30:05.599112-04:00",
   "summary": {
     "total_pl_dollars": 13.97,
     "wins": 17,
@@ -17,9 +17,9 @@
       "setup_quality": "A",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.17,
-      "current_price": 2.6015,
-      "unrealized_pct": -0.053999999999999944,
-      "unrealized_dollars": -0.13
+      "current_price": 2.6445,
+      "unrealized_pct": -0.03836363636363642,
+      "unrealized_dollars": -0.09
     },
     {
       "ticker": "ORIS",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.51,
-      "unrealized_pct": 0.02499999999999987,
-      "unrealized_dollars": 0.12
+      "current_price": 4.53,
+      "unrealized_pct": 0.029545454545454517,
+      "unrealized_dollars": 0.14
     }
   ],
   "closed_trades": [
