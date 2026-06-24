@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T12:30:05.169035-04:00",
+  "generated_at": "2026-06-24T12:45:05.231695-04:00",
   "summary": {
     "total_pl_dollars": 8.91,
     "wins": 15,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.02,
-      "current_price": 4.125,
-      "unrealized_pct": -0.029411764705882353,
-      "unrealized_dollars": -0.29
+      "current_price": 4.1299,
+      "unrealized_pct": -0.028258823529411736,
+      "unrealized_dollars": -0.28
     },
     {
       "ticker": "HSCS",
@@ -31,9 +31,9 @@
       "setup_quality": "A",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.17,
-      "current_price": 2.695,
-      "unrealized_pct": -0.02000000000000006,
-      "unrealized_dollars": -0.05
+      "current_price": 2.5804,
+      "unrealized_pct": -0.06167272727272726,
+      "unrealized_dollars": -0.14
     },
     {
       "ticker": "ORIS",
