@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T13:30:05.799277-04:00",
+  "generated_at": "2026-06-25T13:45:05.308431-04:00",
   "summary": {
     "total_pl_dollars": 6.22,
     "wins": 14,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 8.11,
-      "current_price": 1.658,
-      "unrealized_pct": 0.06967741935483862,
-      "unrealized_dollars": 0.62
+      "current_price": 1.65,
+      "unrealized_pct": 0.06451612903225798,
+      "unrealized_dollars": 0.58
     },
     {
       "ticker": "DFSC",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.14,
-      "current_price": 2.161,
-      "unrealized_pct": 0.0193396226415094,
-      "unrealized_dollars": 0.19
+      "current_price": 2.15,
+      "unrealized_pct": 0.014150943396226322,
+      "unrealized_dollars": 0.14
     },
     {
       "ticker": "MODD",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.42,
-      "current_price": 4.0201,
-      "unrealized_pct": -0.04169249106078666,
-      "unrealized_dollars": -0.18
+      "current_price": 4.07,
+      "unrealized_pct": -0.02979737783075089,
+      "unrealized_dollars": -0.13
     },
     {
       "ticker": "EHGO",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 7.97,
-      "current_price": 4.36,
-      "unrealized_pct": 0.17837837837837842,
-      "unrealized_dollars": 1.74
+      "current_price": 4.4316,
+      "unrealized_pct": 0.1977297297297298,
+      "unrealized_dollars": 1.93
     },
     {
       "ticker": "ORIS",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 68.0,
-      "current_price": 1.775,
-      "unrealized_pct": 0.05029585798816566,
-      "unrealized_dollars": 0.44
+      "current_price": 1.7579,
+      "unrealized_pct": 0.04017751479289945,
+      "unrealized_dollars": 0.35
     },
     {
       "ticker": "MKZR",
@@ -101,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 0.0,
-      "current_price": 1.775,
-      "unrealized_pct": -0.125615763546798,
-      "unrealized_dollars": -0.45
+      "current_price": 1.7579,
+      "unrealized_pct": -0.13403940886699497,
+      "unrealized_dollars": -0.48
     },
     {
       "ticker": "PN",
@@ -115,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 3.73,
-      "unrealized_pct": -0.09685230024213073,
-      "unrealized_dollars": -0.79
+      "current_price": 3.74,
+      "unrealized_pct": -0.09443099273607741,
+      "unrealized_dollars": -0.77
     },
     {
       "ticker": "BOSC",
