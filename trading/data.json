@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-25T09:45:06.497313-04:00",
+  "generated_at": "2026-06-25T10:00:06.300281-04:00",
   "summary": {
-    "total_pl_dollars": 7.16,
+    "total_pl_dollars": 6.22,
     "wins": 14,
     "losses": 36,
-    "open_count": 9
+    "open_count": 7
   },
   "open_trades": [
     {
@@ -17,37 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.42,
-      "current_price": 4.07,
-      "unrealized_pct": -0.02979737783075089,
-      "unrealized_dollars": -0.13
-    },
-    {
-      "ticker": "PASG",
-      "entry_price": 5.88,
-      "stop_loss_price": 5.78,
-      "profit_target_price": 6.3,
-      "position_size_dollars": 9.76,
-      "entry_timestamp": "2026-06-25T13:31:21.604298",
-      "setup_quality": "A",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 4.2,
-      "current_price": 4.745,
-      "unrealized_pct": -0.1930272108843537,
-      "unrealized_dollars": -1.88
-    },
-    {
-      "ticker": "AMS",
-      "entry_price": 1.41,
-      "stop_loss_price": 1.41,
-      "profit_target_price": 1.47,
-      "position_size_dollars": 9.76,
-      "entry_timestamp": "2026-06-25T13:31:21.580324",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 1797559.72,
-      "current_price": 1.5001,
-      "unrealized_pct": 0.06390070921985821,
-      "unrealized_dollars": 0.62
+      "current_price": 4.03,
+      "unrealized_pct": -0.039332538736591184,
+      "unrealized_dollars": -0.17
     },
     {
       "ticker": "EHGO",
@@ -59,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 7.97,
-      "current_price": 4.485,
-      "unrealized_pct": 0.2121621621621622,
-      "unrealized_dollars": 2.07
+      "current_price": 4.2502,
+      "unrealized_pct": 0.14870270270270275,
+      "unrealized_dollars": 1.45
     },
     {
       "ticker": "ORIS",
@@ -115,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 3.7194,
-      "unrealized_pct": -0.09941888619854723,
-      "unrealized_dollars": -0.81
+      "current_price": 3.69,
+      "unrealized_pct": -0.10653753026634381,
+      "unrealized_dollars": -0.87
     },
     {
       "ticker": "BOSC",
@@ -135,6 +107,28 @@
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "PASG",
+      "entry_price": 5.88,
+      "exit_price": 4.65,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -2.04,
+      "pl_percent": -0.209184,
+      "exit_timestamp": "2026-06-25T13:45:05.193149",
+      "setup_quality": "A",
+      "position_size_dollars": 9.76
+    },
+    {
+      "ticker": "AMS",
+      "entry_price": 1.41,
+      "exit_price": 1.5001,
+      "exit_reason": "target_hit",
+      "pl_dollars": 0.62,
+      "pl_percent": 0.063901,
+      "exit_timestamp": "2026-06-25T13:45:04.865614",
+      "setup_quality": "B",
+      "position_size_dollars": 9.76
+    },
     {
       "ticker": "HSCS",
       "entry_price": 2.75,
@@ -662,28 +656,6 @@
       "exit_timestamp": "2026-06-11T17:00:05.390218",
       "setup_quality": "B",
       "position_size_dollars": 8.97
-    },
-    {
-      "ticker": "DAIC",
-      "entry_price": 2.31,
-      "exit_price": 2.3603,
-      "exit_reason": "target_hit",
-      "pl_dollars": 0.18,
-      "pl_percent": 0.021775,
-      "exit_timestamp": "2026-06-11T15:15:05.102004",
-      "setup_quality": "B",
-      "position_size_dollars": 8.38
-    },
-    {
-      "ticker": "WOK",
-      "entry_price": 0.1001,
-      "exit_price": 0.0921,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -0.66,
-      "pl_percent": -0.07992,
-      "exit_timestamp": "2026-06-11T15:00:03.886461",
-      "setup_quality": "B",
-      "position_size_dollars": 8.22
     }
   ]
 }
