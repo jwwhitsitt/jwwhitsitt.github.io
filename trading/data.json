@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T10:00:06.300281-04:00",
+  "generated_at": "2026-06-25T10:15:05.401385-04:00",
   "summary": {
     "total_pl_dollars": 6.22,
     "wins": 14,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.42,
-      "current_price": 4.03,
-      "unrealized_pct": -0.039332538736591184,
-      "unrealized_dollars": -0.17
+      "current_price": 4.06,
+      "unrealized_pct": -0.03218116805721112,
+      "unrealized_dollars": -0.14
     },
     {
       "ticker": "EHGO",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 7.97,
-      "current_price": 4.2502,
-      "unrealized_pct": 0.14870270270270275,
-      "unrealized_dollars": 1.45
+      "current_price": 4.3775,
+      "unrealized_pct": 0.18310810810810815,
+      "unrealized_dollars": 1.79
     },
     {
       "ticker": "ORIS",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 68.0,
-      "current_price": 1.78,
-      "unrealized_pct": 0.053254437869822535,
-      "unrealized_dollars": 0.47
+      "current_price": 1.73,
+      "unrealized_pct": 0.023668639053254458,
+      "unrealized_dollars": 0.21
     },
     {
       "ticker": "MKZR",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 0.0,
-      "current_price": 1.78,
-      "unrealized_pct": -0.12315270935960582,
-      "unrealized_dollars": -0.44
+      "current_price": 1.73,
+      "unrealized_pct": -0.14778325123152702,
+      "unrealized_dollars": -0.53
     },
     {
       "ticker": "PN",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 3.69,
-      "unrealized_pct": -0.10653753026634381,
-      "unrealized_dollars": -0.87
+      "current_price": 3.8,
+      "unrealized_pct": -0.07990314769975788,
+      "unrealized_dollars": -0.65
     },
     {
       "ticker": "BOSC",
