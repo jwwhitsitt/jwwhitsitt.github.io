@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T15:15:05.970272-04:00",
+  "generated_at": "2026-06-25T15:30:09.052049-04:00",
   "summary": {
     "total_pl_dollars": 6.22,
     "wins": 14,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 8.11,
-      "current_price": 1.55,
-      "unrealized_pct": 0.0,
-      "unrealized_dollars": null
+      "current_price": 1.57,
+      "unrealized_pct": 0.012903225806451623,
+      "unrealized_dollars": 0.12
     },
     {
       "ticker": "DFSC",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.14,
-      "current_price": 2.19,
-      "unrealized_pct": 0.033018867924528225,
-      "unrealized_dollars": 0.32
+      "current_price": 2.07,
+      "unrealized_pct": -0.02358490566037748,
+      "unrealized_dollars": -0.23
     },
     {
       "ticker": "MODD",
