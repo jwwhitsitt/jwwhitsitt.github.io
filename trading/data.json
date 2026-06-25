@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T11:30:05.864288-04:00",
+  "generated_at": "2026-06-25T11:45:05.596628-04:00",
   "summary": {
     "total_pl_dollars": 6.22,
     "wins": 14,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 8.11,
-      "current_price": 1.6,
-      "unrealized_pct": 0.03225806451612906,
-      "unrealized_dollars": 0.29
+      "current_price": 1.655,
+      "unrealized_pct": 0.06774193548387096,
+      "unrealized_dollars": 0.6
     },
     {
       "ticker": "DFSC",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.14,
-      "current_price": 2.1,
-      "unrealized_pct": -0.009433962264150952,
-      "unrealized_dollars": -0.09
+      "current_price": 2.085,
+      "unrealized_pct": -0.016509433962264217,
+      "unrealized_dollars": -0.16
     },
     {
       "ticker": "MODD",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 7.97,
-      "current_price": 4.3388,
-      "unrealized_pct": 0.1726486486486486,
-      "unrealized_dollars": 1.69
+      "current_price": 4.33,
+      "unrealized_pct": 0.17027027027027022,
+      "unrealized_dollars": 1.66
     },
     {
       "ticker": "ORIS",
