@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T12:00:10.414266-04:00",
+  "generated_at": "2026-06-25T12:15:06.060522-04:00",
   "summary": {
     "total_pl_dollars": 6.22,
     "wins": 14,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 8.11,
-      "current_price": 1.65,
-      "unrealized_pct": 0.06451612903225798,
-      "unrealized_dollars": 0.58
+      "current_price": 1.6203,
+      "unrealized_pct": 0.045354838709677436,
+      "unrealized_dollars": 0.4
     },
     {
       "ticker": "DFSC",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.14,
-      "current_price": 2.09,
-      "unrealized_pct": -0.014150943396226532,
-      "unrealized_dollars": -0.14
+      "current_price": 2.08,
+      "unrealized_pct": -0.018867924528301903,
+      "unrealized_dollars": -0.18
     },
     {
       "ticker": "MODD",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 7.97,
-      "current_price": 4.2604,
-      "unrealized_pct": 0.15145945945945932,
-      "unrealized_dollars": 1.48
+      "current_price": 4.25,
+      "unrealized_pct": 0.1486486486486486,
+      "unrealized_dollars": 1.45
     },
     {
       "ticker": "ORIS",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 68.0,
-      "current_price": 1.7508,
-      "unrealized_pct": 0.035976331360946724,
-      "unrealized_dollars": 0.32
+      "current_price": 1.79,
+      "unrealized_pct": 0.05917159763313615,
+      "unrealized_dollars": 0.52
     },
     {
       "ticker": "MKZR",
@@ -101,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 0.0,
-      "current_price": 1.7508,
-      "unrealized_pct": -0.13753694581280784,
-      "unrealized_dollars": -0.49
+      "current_price": 1.79,
+      "unrealized_pct": -0.11822660098522157,
+      "unrealized_dollars": -0.42
     },
     {
       "ticker": "PN",
