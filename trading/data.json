@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T13:45:05.308431-04:00",
+  "generated_at": "2026-06-25T14:00:06.532336-04:00",
   "summary": {
     "total_pl_dollars": 6.22,
     "wins": 14,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 8.11,
-      "current_price": 1.65,
-      "unrealized_pct": 0.06451612903225798,
-      "unrealized_dollars": 0.58
+      "current_price": 1.6199,
+      "unrealized_pct": 0.04509677419354829,
+      "unrealized_dollars": 0.4
     },
     {
       "ticker": "DFSC",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.14,
-      "current_price": 2.15,
-      "unrealized_pct": 0.014150943396226322,
-      "unrealized_dollars": 0.14
+      "current_price": 2.101,
+      "unrealized_pct": -0.008962264150943457,
+      "unrealized_dollars": -0.09
     },
     {
       "ticker": "MODD",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.42,
-      "current_price": 4.07,
-      "unrealized_pct": -0.02979737783075089,
-      "unrealized_dollars": -0.13
+      "current_price": 4.06,
+      "unrealized_pct": -0.03218116805721112,
+      "unrealized_dollars": -0.14
     },
     {
       "ticker": "EHGO",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 7.97,
-      "current_price": 4.4316,
-      "unrealized_pct": 0.1977297297297298,
-      "unrealized_dollars": 1.93
+      "current_price": 4.7804,
+      "unrealized_pct": 0.292,
+      "unrealized_dollars": 2.85
     },
     {
       "ticker": "ORIS",
