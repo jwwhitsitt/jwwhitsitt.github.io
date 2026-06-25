@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T10:15:05.401385-04:00",
+  "generated_at": "2026-06-25T10:30:05.962108-04:00",
   "summary": {
     "total_pl_dollars": 6.22,
     "wins": 14,
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 7.97,
-      "current_price": 4.3775,
-      "unrealized_pct": 0.18310810810810815,
-      "unrealized_dollars": 1.79
+      "current_price": 4.4,
+      "unrealized_pct": 0.18918918918918923,
+      "unrealized_dollars": 1.85
     },
     {
       "ticker": "ORIS",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 3.8,
-      "unrealized_pct": -0.07990314769975788,
-      "unrealized_dollars": -0.65
+      "current_price": 3.8071,
+      "unrealized_pct": -0.07818401937045999,
+      "unrealized_dollars": -0.64
     },
     {
       "ticker": "BOSC",
