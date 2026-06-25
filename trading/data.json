@@ -1,12 +1,40 @@
 {
-  "generated_at": "2026-06-25T11:00:05.484041-04:00",
+  "generated_at": "2026-06-25T11:15:06.113537-04:00",
   "summary": {
     "total_pl_dollars": 6.22,
     "wins": 14,
     "losses": 36,
-    "open_count": 7
+    "open_count": 9
   },
   "open_trades": [
+    {
+      "ticker": "PRFX",
+      "entry_price": 1.55,
+      "stop_loss_price": 1.46,
+      "profit_target_price": 2.28,
+      "position_size_dollars": 8.92,
+      "entry_timestamp": "2026-06-25T15:01:27.575216",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 8.11,
+      "current_price": 1.61,
+      "unrealized_pct": 0.038709677419354875,
+      "unrealized_dollars": 0.35
+    },
+    {
+      "ticker": "DFSC",
+      "entry_price": 2.12,
+      "stop_loss_price": 2.05,
+      "profit_target_price": 2.27,
+      "position_size_dollars": 9.61,
+      "entry_timestamp": "2026-06-25T15:01:27.534873",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 2.14,
+      "current_price": 2.125,
+      "unrealized_pct": 0.0023584905660376855,
+      "unrealized_dollars": 0.02
+    },
     {
       "ticker": "MODD",
       "entry_price": 4.195,
@@ -17,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.42,
-      "current_price": 4.0017,
-      "unrealized_pct": -0.046078665077473345,
-      "unrealized_dollars": -0.2
+      "current_price": 4.24,
+      "unrealized_pct": 0.010727056019070305,
+      "unrealized_dollars": 0.05
     },
     {
       "ticker": "EHGO",
@@ -31,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 7.97,
-      "current_price": 4.289,
-      "unrealized_pct": 0.15918918918918906,
-      "unrealized_dollars": 1.55
+      "current_price": 4.3,
+      "unrealized_pct": 0.16216216216216206,
+      "unrealized_dollars": 1.58
     },
     {
       "ticker": "ORIS",
@@ -87,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 3.88,
-      "unrealized_pct": -0.06053268765133172,
-      "unrealized_dollars": -0.49
+      "current_price": 3.75,
+      "unrealized_pct": -0.09200968523002419,
+      "unrealized_dollars": -0.75
     },
     {
       "ticker": "BOSC",
