@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T09:15:06.307057-04:00",
+  "generated_at": "2026-06-26T09:30:06.455169-04:00",
   "summary": {
     "total_pl_dollars": 6.22,
     "wins": 14,
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.42,
-      "current_price": 4.12,
-      "unrealized_pct": -0.017878426698450578,
-      "unrealized_dollars": -0.08
+      "current_price": 4.24,
+      "unrealized_pct": 0.010727056019070305,
+      "unrealized_dollars": 0.05
     },
     {
       "ticker": "EHGO",
