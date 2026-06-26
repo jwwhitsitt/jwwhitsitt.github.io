@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T11:30:06.139025-04:00",
+  "generated_at": "2026-06-26T11:45:05.985716-04:00",
   "summary": {
     "total_pl_dollars": 8.74,
     "wins": 15,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.53,
-      "current_price": 15.955,
-      "unrealized_pct": 0.022756410256410283,
-      "unrealized_dollars": 0.11
+      "current_price": 15.85,
+      "unrealized_pct": 0.016025641025641028,
+      "unrealized_dollars": 0.07
     },
     {
       "ticker": "OPTH",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 8.11,
-      "current_price": 1.5351,
-      "unrealized_pct": -0.00961290322580654,
-      "unrealized_dollars": -0.09
+      "current_price": 1.525,
+      "unrealized_pct": -0.016129032258064602,
+      "unrealized_dollars": -0.14
     },
     {
       "ticker": "EHGO",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 7.97,
-      "current_price": 4.0,
-      "unrealized_pct": 0.08108108108108103,
-      "unrealized_dollars": 0.79
+      "current_price": 3.93,
+      "unrealized_pct": 0.06216216216216215,
+      "unrealized_dollars": 0.61
     },
     {
       "ticker": "ORIS",
@@ -115,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 3.71,
-      "unrealized_pct": -0.10169491525423727,
-      "unrealized_dollars": -0.83
+      "current_price": 3.785,
+      "unrealized_pct": -0.08353510895883771,
+      "unrealized_dollars": -0.68
     },
     {
       "ticker": "BOSC",
