@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T15:00:05.371169-04:00",
+  "generated_at": "2026-06-26T15:15:05.840646-04:00",
   "summary": {
     "total_pl_dollars": 8.74,
     "wins": 15,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.53,
-      "current_price": 15.79,
-      "unrealized_pct": 0.012179487179487148,
-      "unrealized_dollars": 0.06
+      "current_price": 15.89,
+      "unrealized_pct": 0.01858974358974365,
+      "unrealized_dollars": 0.09
     },
     {
       "ticker": "OPTH",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.7,
-      "current_price": 4.0102,
-      "unrealized_pct": -0.015273548767311613,
-      "unrealized_dollars": -0.15
+      "current_price": 4.05,
+      "unrealized_pct": -0.0055004419998036045,
+      "unrealized_dollars": -0.05
     },
     {
       "ticker": "PRFX",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 8.11,
-      "current_price": 1.5105,
-      "unrealized_pct": -0.025483870967741993,
-      "unrealized_dollars": -0.23
+      "current_price": 1.53,
+      "unrealized_pct": -0.012903225806451623,
+      "unrealized_dollars": -0.12
     },
     {
       "ticker": "EHGO",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 7.97,
-      "current_price": 3.77,
-      "unrealized_pct": 0.018918918918918875,
-      "unrealized_dollars": 0.18
+      "current_price": 3.75,
+      "unrealized_pct": 0.013513513513513466,
+      "unrealized_dollars": 0.13
     },
     {
       "ticker": "ORIS",
@@ -129,8 +129,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.505,
-      "unrealized_pct": 0.023863636363636257,
+      "current_price": 4.5099,
+      "unrealized_pct": 0.02497727272727265,
       "unrealized_dollars": 0.12
     }
   ],
