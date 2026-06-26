@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T10:15:05.569267-04:00",
+  "generated_at": "2026-06-26T10:30:07.908237-04:00",
   "summary": {
     "total_pl_dollars": 8.74,
     "wins": 15,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 8.11,
-      "current_price": 1.57,
-      "unrealized_pct": 0.012903225806451623,
-      "unrealized_dollars": 0.12
+      "current_price": 1.54,
+      "unrealized_pct": -0.006451612903225812,
+      "unrealized_dollars": -0.06
     },
     {
       "ticker": "EHGO",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 7.97,
-      "current_price": 4.03,
-      "unrealized_pct": 0.08918918918918921,
-      "unrealized_dollars": 0.87
+      "current_price": 4.025,
+      "unrealized_pct": 0.08783783783783788,
+      "unrealized_dollars": 0.86
     },
     {
       "ticker": "ORIS",
@@ -101,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.44,
-      "unrealized_pct": 0.009090909090909097,
-      "unrealized_dollars": 0.04
+      "current_price": 4.49,
+      "unrealized_pct": 0.02045454545454542,
+      "unrealized_dollars": 0.1
     }
   ],
   "closed_trades": [
