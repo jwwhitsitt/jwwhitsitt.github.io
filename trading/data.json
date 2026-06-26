@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-26T15:45:05.605779-04:00",
+  "generated_at": "2026-06-26T16:00:05.271804-04:00",
   "summary": {
-    "total_pl_dollars": 8.74,
+    "total_pl_dollars": 8.27,
     "wins": 15,
     "losses": 35,
-    "open_count": 9
+    "open_count": 7
   },
   "open_trades": [
     {
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.53,
-      "current_price": 16.04,
-      "unrealized_pct": 0.028205128205128174,
-      "unrealized_dollars": 0.13
+      "current_price": 16.0,
+      "unrealized_pct": 0.025641025641025664,
+      "unrealized_dollars": 0.12
     },
     {
       "ticker": "OPTH",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.7,
-      "current_price": 4.17,
-      "unrealized_pct": 0.02396621157057261,
-      "unrealized_dollars": 0.23
+      "current_price": 4.15,
+      "unrealized_pct": 0.019055102642176684,
+      "unrealized_dollars": 0.18
     },
     {
       "ticker": "PRFX",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 8.11,
-      "current_price": 1.56,
-      "unrealized_pct": 0.006451612903225812,
-      "unrealized_dollars": 0.06
+      "current_price": 1.53,
+      "unrealized_pct": -0.012903225806451623,
+      "unrealized_dollars": -0.12
     },
     {
       "ticker": "EHGO",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 7.97,
-      "current_price": 3.79,
-      "unrealized_pct": 0.024324324324324284,
-      "unrealized_dollars": 0.24
+      "current_price": 3.825,
+      "unrealized_pct": 0.03378378378378378,
+      "unrealized_dollars": 0.33
     },
     {
       "ticker": "ORIS",
@@ -76,34 +76,6 @@
       "current_price": 1.83,
       "unrealized_pct": 0.0,
       "unrealized_dollars": null
-    },
-    {
-      "ticker": "MKZR",
-      "entry_price": 1.69,
-      "stop_loss_price": 1.685,
-      "profit_target_price": 2.03,
-      "position_size_dollars": 8.76,
-      "entry_timestamp": "2026-06-19T15:01:08.376768",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 68.0,
-      "current_price": 1.67,
-      "unrealized_pct": -0.011834319526627229,
-      "unrealized_dollars": -0.1
-    },
-    {
-      "ticker": "MKZR",
-      "entry_price": 2.03,
-      "stop_loss_price": 1.685,
-      "profit_target_price": 2.03,
-      "position_size_dollars": 3.56,
-      "entry_timestamp": "2026-06-18T17:01:54.422861",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 0.0,
-      "current_price": 1.67,
-      "unrealized_pct": -0.17733990147783246,
-      "unrealized_dollars": -0.63
     },
     {
       "ticker": "PN",
@@ -129,12 +101,34 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.53,
-      "unrealized_pct": 0.029545454545454517,
-      "unrealized_dollars": 0.14
+      "current_price": 4.51,
+      "unrealized_pct": 0.02499999999999987,
+      "unrealized_dollars": 0.12
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "MKZR",
+      "entry_price": 1.69,
+      "exit_price": 1.67,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.1,
+      "pl_percent": -0.011834,
+      "exit_timestamp": "2026-06-26T19:45:03.617388",
+      "setup_quality": "B",
+      "position_size_dollars": 8.76
+    },
+    {
+      "ticker": "MKZR",
+      "entry_price": 2.03,
+      "exit_price": 1.67,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.63,
+      "pl_percent": -0.17734,
+      "exit_timestamp": "2026-06-26T19:45:03.535710",
+      "setup_quality": "B",
+      "position_size_dollars": 3.56
+    },
     {
       "ticker": "DFSC",
       "entry_price": 2.12,
@@ -662,28 +656,6 @@
       "exit_timestamp": "2026-06-15T13:45:04.560082",
       "setup_quality": "B",
       "position_size_dollars": 1.14
-    },
-    {
-      "ticker": "NA",
-      "entry_price": 1.8272,
-      "exit_price": 1.795,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -0.14,
-      "pl_percent": -0.017623,
-      "exit_timestamp": "2026-06-12T18:45:03.984188",
-      "setup_quality": "B",
-      "position_size_dollars": 7.81
-    },
-    {
-      "ticker": "THCH",
-      "entry_price": 1.82,
-      "exit_price": 1.6201,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -0.14,
-      "pl_percent": -0.109835,
-      "exit_timestamp": "2026-06-12T16:15:02.802860",
-      "setup_quality": "B",
-      "position_size_dollars": 1.24
     }
   ]
 }
