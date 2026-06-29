@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T14:45:05.606879-04:00",
+  "generated_at": "2026-06-29T15:00:04.685705-04:00",
   "summary": {
     "total_pl_dollars": 3.18,
     "wins": 16,
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2862611.5,
-      "current_price": 3.045,
-      "unrealized_pct": 0.00827814569536421,
-      "unrealized_dollars": 0.08
+      "current_price": 3.02,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
     },
     {
       "ticker": "CPHC",
@@ -87,8 +87,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.5016,
-      "unrealized_pct": 0.023090909090908968,
+      "current_price": 4.5,
+      "unrealized_pct": 0.022727272727272645,
       "unrealized_dollars": 0.11
     }
   ],
