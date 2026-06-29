@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-29T12:15:05.814078-04:00",
+  "generated_at": "2026-06-29T12:30:04.970794-04:00",
   "summary": {
-    "total_pl_dollars": 1.87,
-    "wins": 14,
-    "losses": 36,
-    "open_count": 7
+    "total_pl_dollars": 2.74,
+    "wins": 15,
+    "losses": 35,
+    "open_count": 6
   },
   "open_trades": [
     {
@@ -50,20 +50,6 @@
       "unrealized_dollars": 0.02
     },
     {
-      "ticker": "OPTH",
-      "entry_price": 4.0724,
-      "stop_loss_price": 4.0,
-      "profit_target_price": 4.34,
-      "position_size_dollars": 9.67,
-      "entry_timestamp": "2026-06-26T15:16:00.342598",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 3.7,
-      "current_price": 4.375,
-      "unrealized_pct": 0.07430507808663196,
-      "unrealized_dollars": 0.72
-    },
-    {
       "ticker": "ORIS",
       "entry_price": 1.83,
       "stop_loss_price": 1.5422,
@@ -101,12 +87,23 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.4523,
-      "unrealized_pct": 0.011886363636363587,
-      "unrealized_dollars": 0.06
+      "current_price": 4.4591,
+      "unrealized_pct": 0.013431818181818165,
+      "unrealized_dollars": 0.07
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "OPTH",
+      "entry_price": 4.0724,
+      "exit_price": 4.375,
+      "exit_reason": "target_hit",
+      "pl_dollars": 0.72,
+      "pl_percent": 0.074305,
+      "exit_timestamp": "2026-06-29T16:15:03.821115",
+      "setup_quality": "B",
+      "position_size_dollars": 9.67
+    },
     {
       "ticker": "UPC",
       "entry_price": 12.935,
@@ -643,17 +640,6 @@
       "pl_dollars": -0.42,
       "pl_percent": -0.046319,
       "exit_timestamp": "2026-06-15T18:45:04.658122",
-      "setup_quality": "B",
-      "position_size_dollars": 8.99
-    },
-    {
-      "ticker": "ATOS",
-      "entry_price": 2.4,
-      "exit_price": 2.36,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -0.15,
-      "pl_percent": -0.016667,
-      "exit_timestamp": "2026-06-15T18:45:04.369516",
       "setup_quality": "B",
       "position_size_dollars": 8.99
     }
