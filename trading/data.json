@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T12:30:04.970794-04:00",
+  "generated_at": "2026-06-29T12:45:04.909309-04:00",
   "summary": {
     "total_pl_dollars": 2.74,
     "wins": 15,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.99,
-      "current_price": 4.835,
-      "unrealized_pct": -0.01695673389720237,
-      "unrealized_dollars": -0.16
+      "current_price": 4.8246,
+      "unrealized_pct": -0.019071242680546496,
+      "unrealized_dollars": -0.18
     },
     {
       "ticker": "AIRI",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2862611.5,
-      "current_price": 3.045,
-      "unrealized_pct": 0.00827814569536421,
-      "unrealized_dollars": 0.08
+      "current_price": 3.0228,
+      "unrealized_pct": 0.0009271523178808396,
+      "unrealized_dollars": 0.01
     },
     {
       "ticker": "CPHC",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.53,
-      "current_price": 15.6649,
-      "unrealized_pct": 0.004160256410256393,
-      "unrealized_dollars": 0.02
+      "current_price": 15.7099,
+      "unrealized_pct": 0.007044871794871774,
+      "unrealized_dollars": 0.03
     },
     {
       "ticker": "ORIS",
@@ -87,8 +87,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.4591,
-      "unrealized_pct": 0.013431818181818165,
+      "current_price": 4.46,
+      "unrealized_pct": 0.013636363636363547,
       "unrealized_dollars": 0.07
     }
   ],
