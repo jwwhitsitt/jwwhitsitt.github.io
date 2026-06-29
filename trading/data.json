@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T10:00:10.298169-04:00",
+  "generated_at": "2026-06-29T10:15:05.541758-04:00",
   "summary": {
     "total_pl_dollars": 6.04,
     "wins": 15,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.24,
-      "current_price": 6.3352,
-      "unrealized_pct": -0.0038993710691823794,
-      "unrealized_dollars": -0.01
+      "current_price": 6.0899,
+      "unrealized_pct": -0.04246855345911953,
+      "unrealized_dollars": -0.09
     },
     {
       "ticker": "EVI",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.87,
-      "current_price": 14.55,
-      "unrealized_pct": 0.0034482758620690145,
-      "unrealized_dollars": 0.03
+      "current_price": 14.535,
+      "unrealized_pct": 0.0024137931034482855,
+      "unrealized_dollars": 0.02
     },
     {
       "ticker": "CPHC",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.7,
-      "current_price": 4.15,
-      "unrealized_pct": 0.019055102642176684,
-      "unrealized_dollars": 0.18
+      "current_price": 4.11,
+      "unrealized_pct": 0.009232884785384613,
+      "unrealized_dollars": 0.09
     },
     {
       "ticker": "ORIS",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 3.7202,
-      "unrealized_pct": -0.09922518159806289,
-      "unrealized_dollars": -0.81
+      "current_price": 3.747,
+      "unrealized_pct": -0.09273607748184019,
+      "unrealized_dollars": -0.75
     },
     {
       "ticker": "BOSC",
