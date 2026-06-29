@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T16:00:06.069686-04:00",
+  "generated_at": "2026-06-29T16:15:05.645430-04:00",
   "summary": {
     "total_pl_dollars": 3.39,
     "wins": 16,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.33,
-      "current_price": 1.205,
-      "unrealized_pct": -0.0436507936507936,
-      "unrealized_dollars": -0.4
+      "current_price": 1.23,
+      "unrealized_pct": -0.02380952380952383,
+      "unrealized_dollars": -0.22
     },
     {
       "ticker": "MODD",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.99,
-      "current_price": 4.81,
-      "unrealized_pct": -0.022039687703318253,
-      "unrealized_dollars": -0.2
+      "current_price": 4.88,
+      "unrealized_pct": -0.007807417046193927,
+      "unrealized_dollars": -0.07
     },
     {
       "ticker": "CPHC",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 3.74,
-      "unrealized_pct": -0.09443099273607741,
-      "unrealized_dollars": -0.77
+      "current_price": 3.72,
+      "unrealized_pct": -0.09927360774818395,
+      "unrealized_dollars": -0.81
     },
     {
       "ticker": "BOSC",
