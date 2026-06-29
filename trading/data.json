@@ -1,26 +1,12 @@
 {
-  "generated_at": "2026-06-29T12:00:05.924348-04:00",
+  "generated_at": "2026-06-29T12:15:05.814078-04:00",
   "summary": {
-    "total_pl_dollars": 3.11,
+    "total_pl_dollars": 1.87,
     "wins": 14,
     "losses": 36,
-    "open_count": 8
+    "open_count": 7
   },
   "open_trades": [
-    {
-      "ticker": "UPC",
-      "entry_price": 12.935,
-      "stop_loss_price": 12.0,
-      "profit_target_price": 17.96,
-      "position_size_dollars": 9.3,
-      "entry_timestamp": "2026-06-29T15:02:15.367955",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 5.37,
-      "current_price": 10.81,
-      "unrealized_pct": -0.16428295322767683,
-      "unrealized_dollars": -1.53
-    },
     {
       "ticker": "MODD",
       "entry_price": 4.9184,
@@ -31,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.99,
-      "current_price": 4.84,
-      "unrealized_pct": -0.01594014313597923,
-      "unrealized_dollars": -0.15
+      "current_price": 4.835,
+      "unrealized_pct": -0.01695673389720237,
+      "unrealized_dollars": -0.16
     },
     {
       "ticker": "AIRI",
@@ -73,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.7,
-      "current_price": 4.2701,
-      "unrealized_pct": 0.04854631175719482,
-      "unrealized_dollars": 0.47
+      "current_price": 4.375,
+      "unrealized_pct": 0.07430507808663196,
+      "unrealized_dollars": 0.72
     },
     {
       "ticker": "ORIS",
@@ -121,6 +107,17 @@
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "UPC",
+      "entry_price": 12.935,
+      "exit_price": 10.745,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -1.57,
+      "pl_percent": -0.169308,
+      "exit_timestamp": "2026-06-29T16:00:04.708156",
+      "setup_quality": "B",
+      "position_size_dollars": 9.3
+    },
     {
       "ticker": "EVI",
       "entry_price": 14.5,
@@ -659,17 +656,6 @@
       "exit_timestamp": "2026-06-15T18:45:04.369516",
       "setup_quality": "B",
       "position_size_dollars": 8.99
-    },
-    {
-      "ticker": "ROLR",
-      "entry_price": 6.23,
-      "exit_price": 5.94,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -0.33,
-      "pl_percent": -0.046549,
-      "exit_timestamp": "2026-06-15T18:15:03.490983",
-      "setup_quality": "B",
-      "position_size_dollars": 7.18
     }
   ]
 }
