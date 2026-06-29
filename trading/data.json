@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-29T09:45:05.444510-04:00",
+  "generated_at": "2026-06-29T10:00:10.298169-04:00",
   "summary": {
-    "total_pl_dollars": 7.51,
+    "total_pl_dollars": 6.04,
     "wins": 15,
     "losses": 35,
-    "open_count": 8
+    "open_count": 7
   },
   "open_trades": [
     {
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.24,
-      "current_price": 6.24,
-      "unrealized_pct": -0.018867924528301903,
-      "unrealized_dollars": -0.04
+      "current_price": 6.3352,
+      "unrealized_pct": -0.0038993710691823794,
+      "unrealized_dollars": -0.01
     },
     {
       "ticker": "EVI",
@@ -59,23 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.7,
-      "current_price": 4.1774,
-      "unrealized_pct": 0.025783321874079054,
-      "unrealized_dollars": 0.25
-    },
-    {
-      "ticker": "EHGO",
-      "entry_price": 3.7,
-      "stop_loss_price": 3.3701,
-      "profit_target_price": 6.33,
-      "position_size_dollars": 9.76,
-      "entry_timestamp": "2026-06-25T13:31:21.555811",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 7.97,
-      "current_price": 3.025,
-      "unrealized_pct": -0.18243243243243248,
-      "unrealized_dollars": -1.78
+      "current_price": 4.15,
+      "unrealized_pct": 0.019055102642176684,
+      "unrealized_dollars": 0.18
     },
     {
       "ticker": "ORIS",
@@ -101,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 3.8,
-      "unrealized_pct": -0.07990314769975788,
-      "unrealized_dollars": -0.65
+      "current_price": 3.7202,
+      "unrealized_pct": -0.09922518159806289,
+      "unrealized_dollars": -0.81
     },
     {
       "ticker": "BOSC",
@@ -115,12 +101,23 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.54,
-      "unrealized_pct": 0.031818181818181746,
-      "unrealized_dollars": 0.15
+      "current_price": 4.52,
+      "unrealized_pct": 0.027272727272727094,
+      "unrealized_dollars": 0.13
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "EHGO",
+      "entry_price": 3.7,
+      "exit_price": 3.025,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -1.78,
+      "pl_percent": -0.182432,
+      "exit_timestamp": "2026-06-29T13:45:03.325349",
+      "setup_quality": "B",
+      "position_size_dollars": 9.76
+    },
     {
       "ticker": "PRFX",
       "entry_price": 1.55,
@@ -659,17 +656,6 @@
       "exit_timestamp": "2026-06-15T16:15:04.996505",
       "setup_quality": "B",
       "position_size_dollars": 1.12
-    },
-    {
-      "ticker": "HUHU",
-      "entry_price": 8.99,
-      "exit_price": 8.68,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -0.31,
-      "pl_percent": -0.034483,
-      "exit_timestamp": "2026-06-15T15:30:04.024493",
-      "setup_quality": "B",
-      "position_size_dollars": 8.88
     }
   ]
 }
