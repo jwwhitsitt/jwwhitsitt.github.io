@@ -1,12 +1,26 @@
 {
-  "generated_at": "2026-06-29T13:00:05.158121-04:00",
+  "generated_at": "2026-06-29T13:15:05.606001-04:00",
   "summary": {
     "total_pl_dollars": 2.74,
     "wins": 15,
     "losses": 35,
-    "open_count": 6
+    "open_count": 7
   },
   "open_trades": [
+    {
+      "ticker": "CREX",
+      "entry_price": 3.94,
+      "stop_loss_price": 3.52,
+      "profit_target_price": 3.94,
+      "position_size_dollars": 9.21,
+      "entry_timestamp": "2026-06-29T17:01:55.931165",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 0.0,
+      "current_price": 3.95,
+      "unrealized_pct": 0.0025380710659899065,
+      "unrealized_dollars": 0.02
+    },
     {
       "ticker": "MODD",
       "entry_price": 4.9184,
@@ -17,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.99,
-      "current_price": 4.75,
-      "unrealized_pct": -0.034238776837996115,
-      "unrealized_dollars": -0.32
+      "current_price": 4.78,
+      "unrealized_pct": -0.028139232270657094,
+      "unrealized_dollars": -0.26
     },
     {
       "ticker": "AIRI",
@@ -45,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.53,
-      "current_price": 15.7099,
-      "unrealized_pct": 0.007044871794871774,
-      "unrealized_dollars": 0.03
+      "current_price": 16.265,
+      "unrealized_pct": 0.042628205128205185,
+      "unrealized_dollars": 0.2
     },
     {
       "ticker": "ORIS",
