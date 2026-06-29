@@ -1,12 +1,26 @@
 {
-  "generated_at": "2026-06-29T15:00:04.685705-04:00",
+  "generated_at": "2026-06-29T15:15:06.412221-04:00",
   "summary": {
-    "total_pl_dollars": 3.18,
+    "total_pl_dollars": 3.39,
     "wins": 16,
-    "losses": 34,
+    "losses": 33,
     "open_count": 6
   },
   "open_trades": [
+    {
+      "ticker": "BTOG",
+      "entry_price": 1.26,
+      "stop_loss_price": 1.14,
+      "profit_target_price": 1.78,
+      "position_size_dollars": 9.22,
+      "entry_timestamp": "2026-06-29T19:02:01.423254",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 4.33,
+      "current_price": 1.2189,
+      "unrealized_pct": -0.03261904761904755,
+      "unrealized_dollars": -0.3
+    },
     {
       "ticker": "MODD",
       "entry_price": 4.9184,
@@ -17,23 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.99,
-      "current_price": 4.81,
-      "unrealized_pct": -0.022039687703318253,
-      "unrealized_dollars": -0.2
-    },
-    {
-      "ticker": "AIRI",
-      "entry_price": 3.02,
-      "stop_loss_price": 3.02,
-      "profit_target_price": 3.0746,
-      "position_size_dollars": 9.3,
-      "entry_timestamp": "2026-06-29T15:02:15.287774",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 2862611.5,
-      "current_price": 3.02,
-      "unrealized_pct": 0.0,
-      "unrealized_dollars": null
+      "current_price": 4.79,
+      "unrealized_pct": -0.026106050748210815,
+      "unrealized_dollars": -0.24
     },
     {
       "ticker": "CPHC",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 3.7398,
-      "unrealized_pct": -0.09447941888619857,
-      "unrealized_dollars": -0.77
+      "current_price": 3.78,
+      "unrealized_pct": -0.08474576271186443,
+      "unrealized_dollars": -0.69
     },
     {
       "ticker": "BOSC",
@@ -93,6 +93,17 @@
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "AIRI",
+      "entry_price": 3.02,
+      "exit_price": 3.02,
+      "exit_reason": "stop_hit",
+      "pl_dollars": 0,
+      "pl_percent": 0.0,
+      "exit_timestamp": "2026-06-29T19:00:03.499793",
+      "setup_quality": "B",
+      "position_size_dollars": 9.3
+    },
     {
       "ticker": "CREX",
       "entry_price": 3.94,
@@ -631,17 +642,6 @@
       "exit_timestamp": "2026-06-15T19:45:04.127419",
       "setup_quality": "B",
       "position_size_dollars": 8.9
-    },
-    {
-      "ticker": "FGMC",
-      "entry_price": 10.04,
-      "exit_price": 9.75,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -0.21,
-      "pl_percent": -0.028884,
-      "exit_timestamp": "2026-06-15T19:30:04.581488",
-      "setup_quality": "B",
-      "position_size_dollars": 7.44
     }
   ]
 }
