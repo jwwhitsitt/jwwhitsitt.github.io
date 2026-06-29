@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T12:45:04.909309-04:00",
+  "generated_at": "2026-06-29T13:00:05.158121-04:00",
   "summary": {
     "total_pl_dollars": 2.74,
     "wins": 15,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.99,
-      "current_price": 4.8246,
-      "unrealized_pct": -0.019071242680546496,
-      "unrealized_dollars": -0.18
+      "current_price": 4.75,
+      "unrealized_pct": -0.034238776837996115,
+      "unrealized_dollars": -0.32
     },
     {
       "ticker": "AIRI",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.46,
-      "unrealized_pct": 0.013636363636363547,
-      "unrealized_dollars": 0.07
+      "current_price": 4.505,
+      "unrealized_pct": 0.023863636363636257,
+      "unrealized_dollars": 0.12
     }
   ],
   "closed_trades": [
