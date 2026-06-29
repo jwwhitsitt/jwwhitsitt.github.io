@@ -1,26 +1,12 @@
 {
-  "generated_at": "2026-06-29T10:15:05.541758-04:00",
+  "generated_at": "2026-06-29T10:30:04.856511-04:00",
   "summary": {
-    "total_pl_dollars": 6.04,
+    "total_pl_dollars": 5.99,
     "wins": 15,
     "losses": 35,
-    "open_count": 7
+    "open_count": 6
   },
   "open_trades": [
-    {
-      "ticker": "SEAT",
-      "entry_price": 6.36,
-      "stop_loss_price": 6.115,
-      "profit_target_price": 7.155,
-      "position_size_dollars": 2.22,
-      "entry_timestamp": "2026-06-29T13:28:39.609411",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 3.24,
-      "current_price": 6.0899,
-      "unrealized_pct": -0.04246855345911953,
-      "unrealized_dollars": -0.09
-    },
     {
       "ticker": "EVI",
       "entry_price": 14.5,
@@ -31,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.87,
-      "current_price": 14.535,
-      "unrealized_pct": 0.0024137931034482855,
-      "unrealized_dollars": 0.02
+      "current_price": 14.095,
+      "unrealized_pct": -0.027931034482758577,
+      "unrealized_dollars": -0.27
     },
     {
       "ticker": "CPHC",
@@ -45,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.53,
-      "current_price": 15.25,
-      "unrealized_pct": -0.022435897435897415,
-      "unrealized_dollars": -0.1
+      "current_price": 15.6649,
+      "unrealized_pct": 0.004160256410256393,
+      "unrealized_dollars": 0.02
     },
     {
       "ticker": "OPTH",
@@ -59,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.7,
-      "current_price": 4.11,
-      "unrealized_pct": 0.009232884785384613,
-      "unrealized_dollars": 0.09
+      "current_price": 4.17,
+      "unrealized_pct": 0.02396621157057261,
+      "unrealized_dollars": 0.23
     },
     {
       "ticker": "ORIS",
@@ -87,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.36,
-      "current_price": 3.747,
-      "unrealized_pct": -0.09273607748184019,
-      "unrealized_dollars": -0.75
+      "current_price": 3.81,
+      "unrealized_pct": -0.07748184019370456,
+      "unrealized_dollars": -0.63
     },
     {
       "ticker": "BOSC",
@@ -101,12 +87,23 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 4.52,
-      "unrealized_pct": 0.027272727272727094,
-      "unrealized_dollars": 0.13
+      "current_price": 4.51,
+      "unrealized_pct": 0.02499999999999987,
+      "unrealized_dollars": 0.12
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "SEAT",
+      "entry_price": 6.36,
+      "exit_price": 6.0899,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.09,
+      "pl_percent": -0.042469,
+      "exit_timestamp": "2026-06-29T14:15:05.014175",
+      "setup_quality": "B",
+      "position_size_dollars": 2.22
+    },
     {
       "ticker": "EHGO",
       "entry_price": 3.7,
@@ -645,17 +642,6 @@
       "exit_timestamp": "2026-06-15T16:30:03.553102",
       "setup_quality": "B",
       "position_size_dollars": 7.11
-    },
-    {
-      "ticker": "BCAB",
-      "entry_price": 3.64,
-      "exit_price": 3.49,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -0.05,
-      "pl_percent": -0.041209,
-      "exit_timestamp": "2026-06-15T16:15:04.996505",
-      "setup_quality": "B",
-      "position_size_dollars": 1.12
     }
   ]
 }
