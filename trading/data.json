@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T14:30:05.369753-04:00",
+  "generated_at": "2026-07-08T14:45:06.745420-04:00",
   "summary": {
     "total_pl_dollars": 1.3,
     "wins": 16,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.56,
-      "current_price": 4.4262,
-      "unrealized_pct": -0.062245762711864425,
-      "unrealized_dollars": -0.54
+      "current_price": 4.48,
+      "unrealized_pct": -0.0508474576271185,
+      "unrealized_dollars": -0.44
     },
     {
       "ticker": "CCHH",
@@ -31,8 +31,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.01,
-      "current_price": 0.2499,
-      "unrealized_pct": 0.01092233009708741,
+      "current_price": 0.25,
+      "unrealized_pct": 0.011326860841423935,
       "unrealized_dollars": 0.1
     },
     {
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 7.63,
-      "current_price": 1.48,
-      "unrealized_pct": 0.004138679693330615,
-      "unrealized_dollars": 0.04
+      "current_price": 1.505,
+      "unrealized_pct": 0.021100481715177356,
+      "unrealized_dollars": 0.19
     },
     {
       "ticker": "PLUR",
