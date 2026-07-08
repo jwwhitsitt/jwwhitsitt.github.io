@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T13:15:05.401327-04:00",
+  "generated_at": "2026-07-08T13:30:05.859162-04:00",
   "summary": {
     "total_pl_dollars": 1.3,
     "wins": 16,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.56,
-      "current_price": 4.58,
-      "unrealized_pct": -0.029661016949152477,
-      "unrealized_dollars": -0.26
+      "current_price": 4.5601,
+      "unrealized_pct": -0.03387711864406769,
+      "unrealized_dollars": -0.3
     },
     {
       "ticker": "CCHH",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.01,
-      "current_price": 0.2449,
-      "unrealized_pct": -0.009304207119741085,
-      "unrealized_dollars": -0.08
+      "current_price": 0.2583,
+      "unrealized_pct": 0.044902912621359106,
+      "unrealized_dollars": 0.4
     },
     {
       "ticker": "SXTP",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 7.63,
-      "current_price": 1.4739,
-      "unrealized_pct": 0.0,
-      "unrealized_dollars": null
+      "current_price": 1.4702,
+      "unrealized_pct": -0.0025103466992333514,
+      "unrealized_dollars": -0.02
     },
     {
       "ticker": "PLUR",
