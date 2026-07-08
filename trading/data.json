@@ -1,26 +1,12 @@
 {
-  "generated_at": "2026-07-08T12:00:06.662090-04:00",
+  "generated_at": "2026-07-08T12:15:04.728784-04:00",
   "summary": {
-    "total_pl_dollars": 2.0,
+    "total_pl_dollars": 1.3,
     "wins": 16,
     "losses": 33,
-    "open_count": 5
+    "open_count": 4
   },
   "open_trades": [
-    {
-      "ticker": "BTOG",
-      "entry_price": 1.26,
-      "stop_loss_price": 1.14,
-      "profit_target_price": 1.78,
-      "position_size_dollars": 9.22,
-      "entry_timestamp": "2026-06-29T19:02:01.423254",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 4.33,
-      "current_price": 1.1,
-      "unrealized_pct": -0.12698412698412692,
-      "unrealized_dollars": -1.17
-    },
     {
       "ticker": "CPHC",
       "entry_price": 15.6,
@@ -79,6 +65,17 @@
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "BTOG",
+      "entry_price": 1.26,
+      "exit_price": 1.1,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -1.17,
+      "pl_percent": -0.126984,
+      "exit_timestamp": "2026-07-08T16:00:05.133985",
+      "setup_quality": "B",
+      "position_size_dollars": 9.22
+    },
     {
       "ticker": "MODD",
       "entry_price": 4.9184,
@@ -617,17 +614,6 @@
       "exit_timestamp": "2026-06-16T13:45:04.141052",
       "setup_quality": "B",
       "position_size_dollars": 8.9
-    },
-    {
-      "ticker": "NXTC",
-      "entry_price": 2.1,
-      "exit_price": 1.98,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -0.47,
-      "pl_percent": -0.057143,
-      "exit_timestamp": "2026-06-16T13:30:03.549492",
-      "setup_quality": "B",
-      "position_size_dollars": 8.28
     }
   ]
 }
