@@ -1,69 +1,12 @@
 {
-  "generated_at": "2026-07-08T23:30:04.845267-04:00",
+  "generated_at": "2026-07-08T23:45:02.923606-04:00",
   "summary": {
-    "total_pl_dollars": 5.13,
+    "total_pl_dollars": 5.15,
     "wins": 17,
     "losses": 32,
-    "open_count": 4
+    "open_count": 0
   },
-  "open_trades": [
-    {
-      "ticker": "VEEE",
-      "entry_price": 4.72,
-      "stop_loss_price": 4.22,
-      "profit_target_price": 6.0,
-      "position_size_dollars": 8.72,
-      "entry_timestamp": "2026-07-08T17:04:59.068884",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 2.56,
-      "current_price": 4.64,
-      "unrealized_pct": -0.0169491525423729,
-      "unrealized_dollars": -0.15
-    },
-    {
-      "ticker": "CCHH",
-      "entry_price": 0.2472,
-      "stop_loss_price": 0.2182,
-      "profit_target_price": 0.3636,
-      "position_size_dollars": 8.92,
-      "entry_timestamp": "2026-07-08T17:04:59.024761",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 4.01,
-      "current_price": 0.2599,
-      "unrealized_pct": 0.051375404530744406,
-      "unrealized_dollars": 0.46
-    },
-    {
-      "ticker": "SXTP",
-      "entry_price": 1.4739,
-      "stop_loss_price": 1.46,
-      "profit_target_price": 1.58,
-      "position_size_dollars": 8.92,
-      "entry_timestamp": "2026-07-08T17:04:58.993530",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 7.63,
-      "current_price": 1.55,
-      "unrealized_pct": 0.0516317253545017,
-      "unrealized_dollars": 0.46
-    },
-    {
-      "ticker": "PLUR",
-      "entry_price": 1.9299,
-      "stop_loss_price": 1.88,
-      "profit_target_price": 2.05,
-      "position_size_dollars": 8.92,
-      "entry_timestamp": "2026-07-08T17:04:58.945709",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 2.41,
-      "current_price": 1.9,
-      "unrealized_pct": -0.015493030726980692,
-      "unrealized_dollars": -0.14
-    }
-  ],
+  "open_trades": [],
   "closed_trades": [
     {
       "ticker": "BTOG",
@@ -97,6 +40,50 @@
       "exit_timestamp": "2026-07-08T16:00:00",
       "setup_quality": "B",
       "position_size_dollars": 4.64
+    },
+    {
+      "ticker": "PLUR",
+      "entry_price": 1.9299,
+      "exit_price": 1.899999976158142,
+      "exit_reason": "eod_close_manual",
+      "pl_dollars": -0.14,
+      "pl_percent": -1.5493043080915,
+      "exit_timestamp": "2026-07-08T16:00:00",
+      "setup_quality": "B",
+      "position_size_dollars": 8.92
+    },
+    {
+      "ticker": "SXTP",
+      "entry_price": 1.4739,
+      "exit_price": 1.5499999523162842,
+      "exit_reason": "eod_close_manual",
+      "pl_dollars": 0.46,
+      "pl_percent": 5.163169300243178,
+      "exit_timestamp": "2026-07-08T16:00:00",
+      "setup_quality": "B",
+      "position_size_dollars": 8.92
+    },
+    {
+      "ticker": "CCHH",
+      "entry_price": 0.2472,
+      "exit_price": 0.2599000036716461,
+      "exit_reason": "eod_close_manual",
+      "pl_dollars": 0.46,
+      "pl_percent": 5.1375419383681695,
+      "exit_timestamp": "2026-07-08T16:00:00",
+      "setup_quality": "B",
+      "position_size_dollars": 8.92
+    },
+    {
+      "ticker": "VEEE",
+      "entry_price": 4.72,
+      "exit_price": 4.639999866485596,
+      "exit_reason": "eod_close_manual",
+      "pl_dollars": -0.15,
+      "pl_percent": -1.6949180829322892,
+      "exit_timestamp": "2026-07-08T16:00:00",
+      "setup_quality": "B",
+      "position_size_dollars": 8.72
     },
     {
       "ticker": "AIRI",
@@ -570,50 +557,6 @@
       "exit_timestamp": "2026-06-17T13:45:05.460416",
       "setup_quality": "B",
       "position_size_dollars": 8.33
-    },
-    {
-      "ticker": "VNCE",
-      "entry_price": 7.09,
-      "exit_price": 7.1547,
-      "exit_reason": "target_hit",
-      "pl_dollars": 0.04,
-      "pl_percent": 0.009126,
-      "exit_timestamp": "2026-06-16T17:15:04.595277",
-      "setup_quality": "B",
-      "position_size_dollars": 4.61
-    },
-    {
-      "ticker": "HUHU",
-      "entry_price": 8.03,
-      "exit_price": 9.19,
-      "exit_reason": "target_hit",
-      "pl_dollars": 1.03,
-      "pl_percent": 0.144458,
-      "exit_timestamp": "2026-06-16T16:00:04.092003",
-      "setup_quality": "B",
-      "position_size_dollars": 7.11
-    },
-    {
-      "ticker": "SCLX",
-      "entry_price": 5.81,
-      "exit_price": 5.495,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -0.3,
-      "pl_percent": -0.054217,
-      "exit_timestamp": "2026-06-16T15:30:04.896010",
-      "setup_quality": "B",
-      "position_size_dollars": 5.49
-    },
-    {
-      "ticker": "RDGT",
-      "entry_price": 1.51,
-      "exit_price": 1.4801,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -0.16,
-      "pl_percent": -0.019801,
-      "exit_timestamp": "2026-06-16T15:30:04.186149",
-      "setup_quality": "B",
-      "position_size_dollars": 8.27
     }
   ]
 }
