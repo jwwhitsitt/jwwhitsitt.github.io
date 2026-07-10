@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T12:15:06.931571-04:00",
+  "generated_at": "2026-07-10T12:30:06.175489-04:00",
   "summary": {
     "total_pl_dollars": 7.86,
     "wins": 16,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.5,
-      "current_price": 14.04,
-      "unrealized_pct": 0.5687150837988827,
-      "unrealized_dollars": 5.11
+      "current_price": 17.224,
+      "unrealized_pct": 0.9244692737430169,
+      "unrealized_dollars": 8.31
     },
     {
       "ticker": "YYGH",
@@ -31,9 +31,9 @@
       "setup_quality": "A",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.14,
-      "current_price": 1.385,
-      "unrealized_pct": -0.017730496453900648,
-      "unrealized_dollars": -0.16
+      "current_price": 1.3499,
+      "unrealized_pct": -0.04262411347517718,
+      "unrealized_dollars": -0.38
     },
     {
       "ticker": "ALAR",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.8,
-      "current_price": 2.28,
-      "unrealized_pct": 0.027027027027026848,
-      "unrealized_dollars": 0.24
+      "current_price": 2.26,
+      "unrealized_pct": 0.018018018018017834,
+      "unrealized_dollars": 0.16
     },
     {
       "ticker": "DFSC",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.44,
-      "current_price": 2.085,
-      "unrealized_pct": -0.007142857142857202,
-      "unrealized_dollars": -0.06
+      "current_price": 2.09,
+      "unrealized_pct": -0.004761904761904872,
+      "unrealized_dollars": -0.04
     },
     {
       "ticker": "AEON",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 65.67,
-      "current_price": 0.5001,
-      "unrealized_pct": -0.005172070817585133,
-      "unrealized_dollars": -0.04
+      "current_price": 0.5,
+      "unrealized_pct": -0.005370996618261459,
+      "unrealized_dollars": -0.05
     },
     {
       "ticker": "PLBL",
@@ -87,9 +87,9 @@
       "setup_quality": "A",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.56,
-      "current_price": 7.08,
-      "unrealized_pct": 0.10280373831775703,
-      "unrealized_dollars": 0.89
+      "current_price": 7.06,
+      "unrealized_pct": 0.09968847352024918,
+      "unrealized_dollars": 0.86
     },
     {
       "ticker": "CPBI",
