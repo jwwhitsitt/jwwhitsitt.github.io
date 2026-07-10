@@ -1,26 +1,12 @@
 {
-  "generated_at": "2026-07-10T09:30:05.671521-04:00",
+  "generated_at": "2026-07-10T09:45:05.728762-04:00",
   "summary": {
-    "total_pl_dollars": 5.15,
+    "total_pl_dollars": 4.03,
     "wins": 17,
     "losses": 32,
-    "open_count": 6
+    "open_count": 5
   },
   "open_trades": [
-    {
-      "ticker": "VRAX",
-      "entry_price": 6.36,
-      "stop_loss_price": 5.8632,
-      "profit_target_price": 13.17,
-      "position_size_dollars": 8.61,
-      "entry_timestamp": "2026-07-10T12:24:21.513344",
-      "setup_quality": "A",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 13.71,
-      "current_price": 4.92,
-      "unrealized_pct": -0.2264150943396227,
-      "unrealized_dollars": -1.95
-    },
     {
       "ticker": "ZBAO",
       "entry_price": 0.296,
@@ -31,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.69,
-      "current_price": 0.296,
-      "unrealized_pct": 0.0,
-      "unrealized_dollars": null
+      "current_price": 0.4291,
+      "unrealized_pct": 0.44966216216216215,
+      "unrealized_dollars": 3.87
     },
     {
       "ticker": "AFJK",
@@ -45,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 12.46,
-      "current_price": 12.89,
-      "unrealized_pct": 0.0,
-      "unrealized_dollars": null
+      "current_price": 12.675,
+      "unrealized_pct": -0.01667959658650115,
+      "unrealized_dollars": -0.14
     },
     {
       "ticker": "AEON",
@@ -59,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 65.67,
-      "current_price": 0.5027,
-      "unrealized_pct": 0.0,
-      "unrealized_dollars": null
+      "current_price": 0.5177,
+      "unrealized_pct": 0.029838870101452183,
+      "unrealized_dollars": 0.26
     },
     {
       "ticker": "PLBL",
@@ -73,8 +59,8 @@
       "setup_quality": "A",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.56,
-      "current_price": 6.3,
-      "unrealized_pct": -0.018691588785046745,
+      "current_price": 6.301,
+      "unrealized_pct": -0.018535825545171303,
       "unrealized_dollars": -0.16
     },
     {
@@ -93,6 +79,17 @@
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "VRAX",
+      "entry_price": 6.36,
+      "exit_price": 4.92,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -1.95,
+      "pl_percent": -0.226415,
+      "exit_timestamp": "2026-07-10T13:30:04.631876",
+      "setup_quality": "A",
+      "position_size_dollars": 8.61
+    },
     {
       "ticker": "BTOG",
       "entry_price": 1.26,
@@ -631,17 +628,6 @@
       "exit_timestamp": "2026-06-17T17:15:04.120964",
       "setup_quality": "B",
       "position_size_dollars": 7.75
-    },
-    {
-      "ticker": "HUBC",
-      "entry_price": 1.96,
-      "exit_price": 1.765,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -0.83,
-      "pl_percent": -0.09949,
-      "exit_timestamp": "2026-06-17T13:45:05.460416",
-      "setup_quality": "B",
-      "position_size_dollars": 8.33
     }
   ]
 }
