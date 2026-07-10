@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T11:30:06.382331-04:00",
+  "generated_at": "2026-07-10T11:45:06.401151-04:00",
   "summary": {
     "total_pl_dollars": 7.86,
     "wins": 16,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.22,
-      "current_price": 3.85,
-      "unrealized_pct": -0.07199845734808488,
-      "unrealized_dollars": -0.08
+      "current_price": 3.6,
+      "unrealized_pct": -0.13225829778002743,
+      "unrealized_dollars": -0.15
     },
     {
       "ticker": "JLHL",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.5,
-      "current_price": 10.79,
-      "unrealized_pct": 0.20558659217877095,
-      "unrealized_dollars": 1.85
+      "current_price": 13.44,
+      "unrealized_pct": 0.5016759776536314,
+      "unrealized_dollars": 4.51
     },
     {
       "ticker": "YYGH",
@@ -45,9 +45,9 @@
       "setup_quality": "A",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.14,
-      "current_price": 1.4201,
-      "unrealized_pct": 0.007163120567375885,
-      "unrealized_dollars": 0.06
+      "current_price": 1.4013,
+      "unrealized_pct": -0.006170212765957398,
+      "unrealized_dollars": -0.06
     },
     {
       "ticker": "ALAR",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.8,
-      "current_price": 2.245,
-      "unrealized_pct": 0.01126126126126122,
-      "unrealized_dollars": 0.1
+      "current_price": 2.25,
+      "unrealized_pct": 0.013513513513513424,
+      "unrealized_dollars": 0.12
     },
     {
       "ticker": "DFSC",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.44,
-      "current_price": 2.105,
-      "unrealized_pct": 0.00238095238095233,
-      "unrealized_dollars": 0.02
+      "current_price": 2.07,
+      "unrealized_pct": -0.014285714285714403,
+      "unrealized_dollars": -0.13
     },
     {
       "ticker": "AEON",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 65.67,
-      "current_price": 0.5101,
-      "unrealized_pct": 0.014720509250049656,
-      "unrealized_dollars": 0.13
+      "current_price": 0.5045,
+      "unrealized_pct": 0.003580664412174085,
+      "unrealized_dollars": 0.03
     },
     {
       "ticker": "PLBL",
@@ -101,9 +101,9 @@
       "setup_quality": "A",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.56,
-      "current_price": 7.02,
-      "unrealized_pct": 0.09345794392523359,
-      "unrealized_dollars": 0.8
+      "current_price": 7.0608,
+      "unrealized_pct": 0.0998130841121496,
+      "unrealized_dollars": 0.86
     },
     {
       "ticker": "CPBI",
