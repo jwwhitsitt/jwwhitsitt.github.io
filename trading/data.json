@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T10:30:06.161557-04:00",
+  "generated_at": "2026-07-10T10:45:04.912767-04:00",
   "summary": {
     "total_pl_dollars": 9.48,
     "wins": 17,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 12.46,
-      "current_price": 12.65,
-      "unrealized_pct": -0.018619084561675735,
-      "unrealized_dollars": -0.16
+      "current_price": 12.3,
+      "unrealized_pct": -0.04577191621411946,
+      "unrealized_dollars": -0.39
     },
     {
       "ticker": "AEON",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 65.67,
-      "current_price": 0.5124,
-      "unrealized_pct": 0.01929580266560559,
-      "unrealized_dollars": 0.17
+      "current_price": 0.5101,
+      "unrealized_pct": 0.014720509250049656,
+      "unrealized_dollars": 0.13
     },
     {
       "ticker": "PLBL",
@@ -45,9 +45,9 @@
       "setup_quality": "A",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.56,
-      "current_price": 6.875,
-      "unrealized_pct": 0.07087227414330219,
-      "unrealized_dollars": 0.61
+      "current_price": 7.7208,
+      "unrealized_pct": 0.2026168224299065,
+      "unrealized_dollars": 1.74
     },
     {
       "ticker": "CPBI",
