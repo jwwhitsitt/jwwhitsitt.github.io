@@ -1,12 +1,97 @@
 {
-  "generated_at": "2026-07-10T08:15:03.273746-04:00",
+  "generated_at": "2026-07-10T08:30:05.996998-04:00",
   "summary": {
     "total_pl_dollars": 5.15,
     "wins": 17,
     "losses": 32,
-    "open_count": 0
+    "open_count": 6
   },
-  "open_trades": [],
+  "open_trades": [
+    {
+      "ticker": "VRAX",
+      "entry_price": 6.36,
+      "stop_loss_price": 5.8632,
+      "profit_target_price": 13.17,
+      "position_size_dollars": 8.61,
+      "entry_timestamp": "2026-07-10T12:24:21.513344",
+      "setup_quality": "A",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 13.71,
+      "current_price": 6.36,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
+    },
+    {
+      "ticker": "ZBAO",
+      "entry_price": 0.296,
+      "stop_loss_price": 0.2281,
+      "profit_target_price": 0.4788,
+      "position_size_dollars": 8.61,
+      "entry_timestamp": "2026-07-10T12:24:21.491376",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 2.69,
+      "current_price": 0.296,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
+    },
+    {
+      "ticker": "AFJK",
+      "entry_price": 12.89,
+      "stop_loss_price": 12.48,
+      "profit_target_price": 18.0,
+      "position_size_dollars": 8.61,
+      "entry_timestamp": "2026-07-10T12:24:21.473149",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 12.46,
+      "current_price": 12.89,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
+    },
+    {
+      "ticker": "AEON",
+      "entry_price": 0.5027,
+      "stop_loss_price": 0.5,
+      "profit_target_price": 0.68,
+      "position_size_dollars": 8.61,
+      "entry_timestamp": "2026-07-10T12:24:21.451156",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 65.67,
+      "current_price": 0.5027,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
+    },
+    {
+      "ticker": "PLBL",
+      "entry_price": 6.42,
+      "stop_loss_price": 5.752,
+      "profit_target_price": 8.8,
+      "position_size_dollars": 8.61,
+      "entry_timestamp": "2026-07-10T12:24:21.426272",
+      "setup_quality": "A",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 3.56,
+      "current_price": 6.42,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
+    },
+    {
+      "ticker": "CPBI",
+      "entry_price": 19.1123,
+      "stop_loss_price": 18.95,
+      "profit_target_price": 21.8349,
+      "position_size_dollars": 8.61,
+      "entry_timestamp": "2026-07-10T12:24:21.404446",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 16.78,
+      "current_price": 19.1123,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
+    }
+  ],
   "closed_trades": [
     {
       "ticker": "BTOG",
