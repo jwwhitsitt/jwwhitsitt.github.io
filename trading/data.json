@@ -1,26 +1,12 @@
 {
-  "generated_at": "2026-07-10T10:45:04.912767-04:00",
+  "generated_at": "2026-07-10T11:00:04.895252-04:00",
   "summary": {
-    "total_pl_dollars": 9.48,
-    "wins": 17,
-    "losses": 32,
-    "open_count": 4
+    "total_pl_dollars": 7.86,
+    "wins": 16,
+    "losses": 33,
+    "open_count": 3
   },
   "open_trades": [
-    {
-      "ticker": "AFJK",
-      "entry_price": 12.89,
-      "stop_loss_price": 12.48,
-      "profit_target_price": 18.0,
-      "position_size_dollars": 8.61,
-      "entry_timestamp": "2026-07-10T12:24:21.473149",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 12.46,
-      "current_price": 12.3,
-      "unrealized_pct": -0.04577191621411946,
-      "unrealized_dollars": -0.39
-    },
     {
       "ticker": "AEON",
       "entry_price": 0.5027,
@@ -45,9 +31,9 @@
       "setup_quality": "A",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.56,
-      "current_price": 7.7208,
-      "unrealized_pct": 0.2026168224299065,
-      "unrealized_dollars": 1.74
+      "current_price": 7.01,
+      "unrealized_pct": 0.09190031152647973,
+      "unrealized_dollars": 0.79
     },
     {
       "ticker": "CPBI",
@@ -65,6 +51,17 @@
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "AFJK",
+      "entry_price": 12.89,
+      "exit_price": 12.3,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.39,
+      "pl_percent": -0.045772,
+      "exit_timestamp": "2026-07-10T14:45:04.263860",
+      "setup_quality": "B",
+      "position_size_dollars": 8.61
+    },
     {
       "ticker": "ZBAO",
       "entry_price": 0.296,
@@ -603,17 +600,6 @@
       "exit_timestamp": "2026-06-17T19:30:04.168410",
       "setup_quality": "B",
       "position_size_dollars": 8.44
-    },
-    {
-      "ticker": "OPTX",
-      "entry_price": 11.5016,
-      "exit_price": 13.2,
-      "exit_reason": "target_hit",
-      "pl_dollars": 1.23,
-      "pl_percent": 0.147666,
-      "exit_timestamp": "2026-06-17T18:45:04.908828",
-      "setup_quality": "B",
-      "position_size_dollars": 8.33
     }
   ]
 }
