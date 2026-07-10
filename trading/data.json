@@ -1,26 +1,12 @@
 {
-  "generated_at": "2026-07-10T10:00:06.282566-04:00",
+  "generated_at": "2026-07-10T10:15:05.315658-04:00",
   "summary": {
-    "total_pl_dollars": 4.03,
+    "total_pl_dollars": 9.48,
     "wins": 17,
     "losses": 32,
-    "open_count": 5
+    "open_count": 4
   },
   "open_trades": [
-    {
-      "ticker": "ZBAO",
-      "entry_price": 0.296,
-      "stop_loss_price": 0.2281,
-      "profit_target_price": 0.4788,
-      "position_size_dollars": 8.61,
-      "entry_timestamp": "2026-07-10T12:24:21.491376",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 2.69,
-      "current_price": 0.5055,
-      "unrealized_pct": 0.7077702702702702,
-      "unrealized_dollars": 6.09
-    },
     {
       "ticker": "AFJK",
       "entry_price": 12.89,
@@ -31,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 12.46,
-      "current_price": 12.696,
-      "unrealized_pct": -0.015050426687354602,
-      "unrealized_dollars": -0.13
+      "current_price": 12.6101,
+      "unrealized_pct": -0.02171450737005441,
+      "unrealized_dollars": -0.19
     },
     {
       "ticker": "AEON",
@@ -45,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 65.67,
-      "current_price": 0.5177,
-      "unrealized_pct": 0.029838870101452183,
-      "unrealized_dollars": 0.26
+      "current_price": 0.514,
+      "unrealized_pct": 0.022478615476427245,
+      "unrealized_dollars": 0.19
     },
     {
       "ticker": "PLBL",
@@ -59,9 +45,9 @@
       "setup_quality": "A",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.56,
-      "current_price": 6.63,
-      "unrealized_pct": 0.03271028037383177,
-      "unrealized_dollars": 0.28
+      "current_price": 6.62,
+      "unrealized_pct": 0.03115264797507791,
+      "unrealized_dollars": 0.27
     },
     {
       "ticker": "CPBI",
@@ -73,12 +59,23 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 16.78,
-      "current_price": 19.1123,
-      "unrealized_pct": 0.0,
-      "unrealized_dollars": null
+      "current_price": 20.01,
+      "unrealized_pct": 0.046969752463073534,
+      "unrealized_dollars": 0.4
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "ZBAO",
+      "entry_price": 0.296,
+      "exit_price": 0.5055,
+      "exit_reason": "target_hit",
+      "pl_dollars": 6.09,
+      "pl_percent": 0.70777,
+      "exit_timestamp": "2026-07-10T14:00:04.148896",
+      "setup_quality": "B",
+      "position_size_dollars": 8.61
+    },
     {
       "ticker": "VRAX",
       "entry_price": 6.36,
@@ -617,17 +614,6 @@
       "exit_timestamp": "2026-06-17T18:45:04.908828",
       "setup_quality": "B",
       "position_size_dollars": 8.33
-    },
-    {
-      "ticker": "SNWV",
-      "entry_price": 8.5101,
-      "exit_price": 9.2201,
-      "exit_reason": "target_hit",
-      "pl_dollars": 0.65,
-      "pl_percent": 0.08343,
-      "exit_timestamp": "2026-06-17T17:15:04.120964",
-      "setup_quality": "B",
-      "position_size_dollars": 7.75
     }
   ]
 }
