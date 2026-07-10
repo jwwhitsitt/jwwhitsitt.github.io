@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-10T14:45:05.777901-04:00",
+  "generated_at": "2026-07-10T15:00:04.370322-04:00",
   "summary": {
-    "total_pl_dollars": 6.59,
-    "wins": 15,
-    "losses": 34,
-    "open_count": 5
+    "total_pl_dollars": 10.02,
+    "wins": 16,
+    "losses": 33,
+    "open_count": 4
   },
   "open_trades": [
     {
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.5,
-      "current_price": 2.0605,
-      "unrealized_pct": 0.06211340206185581,
-      "unrealized_dollars": 0.61
+      "current_price": 1.98,
+      "unrealized_pct": 0.020618556701030948,
+      "unrealized_dollars": 0.2
     },
     {
       "ticker": "ALAR",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.8,
-      "current_price": 2.275,
-      "unrealized_pct": 0.024774774774774643,
-      "unrealized_dollars": 0.22
+      "current_price": 2.26,
+      "unrealized_pct": 0.018018018018017834,
+      "unrealized_dollars": 0.16
     },
     {
       "ticker": "DFSC",
@@ -45,23 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.44,
-      "current_price": 2.06,
-      "unrealized_pct": -0.019047619047619063,
-      "unrealized_dollars": -0.17
-    },
-    {
-      "ticker": "PLBL",
-      "entry_price": 6.42,
-      "stop_loss_price": 5.752,
-      "profit_target_price": 8.8,
-      "position_size_dollars": 8.61,
-      "entry_timestamp": "2026-07-10T12:24:21.426272",
-      "setup_quality": "A",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 3.56,
-      "current_price": 8.91,
-      "unrealized_pct": 0.38785046728971967,
-      "unrealized_dollars": 3.34
+      "current_price": 2.09,
+      "unrealized_pct": -0.004761904761904872,
+      "unrealized_dollars": -0.04
     },
     {
       "ticker": "CPBI",
@@ -73,12 +59,23 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 16.78,
-      "current_price": 20.01,
-      "unrealized_pct": 0.046969752463073534,
+      "current_price": 20.0,
+      "unrealized_pct": 0.046446529198474217,
       "unrealized_dollars": 0.4
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "PLBL",
+      "entry_price": 6.42,
+      "exit_price": 8.89,
+      "exit_reason": "target_hit",
+      "pl_dollars": 3.31,
+      "pl_percent": 0.384735,
+      "exit_timestamp": "2026-07-10T18:45:04.153502",
+      "setup_quality": "A",
+      "position_size_dollars": 8.61
+    },
     {
       "ticker": "YYGH",
       "entry_price": 1.41,
@@ -617,17 +614,6 @@
       "exit_timestamp": "2026-06-18T15:45:04.834685",
       "setup_quality": "B",
       "position_size_dollars": 3.77
-    },
-    {
-      "ticker": "ACR",
-      "entry_price": 15.96,
-      "exit_price": 15.76,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -0.12,
-      "pl_percent": -0.012531,
-      "exit_timestamp": "2026-06-18T15:30:04.078181",
-      "setup_quality": "B",
-      "position_size_dollars": 9.35
     }
   ]
 }
