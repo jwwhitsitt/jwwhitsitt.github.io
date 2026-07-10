@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T09:15:05.057126-04:00",
+  "generated_at": "2026-07-10T09:30:05.671521-04:00",
   "summary": {
     "total_pl_dollars": 5.15,
     "wins": 17,
@@ -17,9 +17,9 @@
       "setup_quality": "A",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 13.71,
-      "current_price": 6.36,
-      "unrealized_pct": 0.0,
-      "unrealized_dollars": null
+      "current_price": 4.92,
+      "unrealized_pct": -0.2264150943396227,
+      "unrealized_dollars": -1.95
     },
     {
       "ticker": "ZBAO",
@@ -73,9 +73,9 @@
       "setup_quality": "A",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.56,
-      "current_price": 6.42,
-      "unrealized_pct": 0.0,
-      "unrealized_dollars": null
+      "current_price": 6.3,
+      "unrealized_pct": -0.018691588785046745,
+      "unrealized_dollars": -0.16
     },
     {
       "ticker": "CPBI",
