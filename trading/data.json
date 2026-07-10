@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T11:15:07.977514-04:00",
+  "generated_at": "2026-07-10T11:30:06.382331-04:00",
   "summary": {
     "total_pl_dollars": 7.86,
     "wins": 16,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.22,
-      "current_price": 4.1697,
-      "unrealized_pct": 0.005061826596283151,
-      "unrealized_dollars": 0.01
+      "current_price": 3.85,
+      "unrealized_pct": -0.07199845734808488,
+      "unrealized_dollars": -0.08
     },
     {
       "ticker": "JLHL",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.5,
-      "current_price": 11.92,
-      "unrealized_pct": 0.3318435754189945,
-      "unrealized_dollars": 2.98
+      "current_price": 10.79,
+      "unrealized_pct": 0.20558659217877095,
+      "unrealized_dollars": 1.85
     },
     {
       "ticker": "YYGH",
@@ -45,9 +45,9 @@
       "setup_quality": "A",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.14,
-      "current_price": 1.405,
-      "unrealized_pct": -0.0035460992907800663,
-      "unrealized_dollars": -0.03
+      "current_price": 1.4201,
+      "unrealized_pct": 0.007163120567375885,
+      "unrealized_dollars": 0.06
     },
     {
       "ticker": "ALAR",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.8,
-      "current_price": 2.26,
-      "unrealized_pct": 0.018018018018017834,
-      "unrealized_dollars": 0.16
+      "current_price": 2.245,
+      "unrealized_pct": 0.01126126126126122,
+      "unrealized_dollars": 0.1
     },
     {
       "ticker": "DFSC",
@@ -101,9 +101,9 @@
       "setup_quality": "A",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.56,
-      "current_price": 7.08,
-      "unrealized_pct": 0.10280373831775703,
-      "unrealized_dollars": 0.89
+      "current_price": 7.02,
+      "unrealized_pct": 0.09345794392523359,
+      "unrealized_dollars": 0.8
     },
     {
       "ticker": "CPBI",
