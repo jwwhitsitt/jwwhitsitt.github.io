@@ -1,26 +1,12 @@
 {
-  "generated_at": "2026-07-10T12:45:06.007057-04:00",
+  "generated_at": "2026-07-10T13:00:04.721424-04:00",
   "summary": {
-    "total_pl_dollars": 6.86,
+    "total_pl_dollars": 6.59,
     "wins": 15,
     "losses": 34,
-    "open_count": 5
+    "open_count": 4
   },
   "open_trades": [
-    {
-      "ticker": "YYGH",
-      "entry_price": 1.41,
-      "stop_loss_price": 1.34,
-      "profit_target_price": 1.56,
-      "position_size_dollars": 8.99,
-      "entry_timestamp": "2026-07-10T15:07:05.377751",
-      "setup_quality": "A",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 2.14,
-      "current_price": 1.335,
-      "unrealized_pct": -0.0531914893617021,
-      "unrealized_dollars": -0.48
-    },
     {
       "ticker": "ALAR",
       "entry_price": 2.22,
@@ -31,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.8,
-      "current_price": 2.295,
-      "unrealized_pct": 0.03378378378378366,
-      "unrealized_dollars": 0.3
+      "current_price": 2.25,
+      "unrealized_pct": 0.013513513513513424,
+      "unrealized_dollars": 0.12
     },
     {
       "ticker": "DFSC",
@@ -59,9 +45,9 @@
       "setup_quality": "A",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.56,
-      "current_price": 7.3001,
-      "unrealized_pct": 0.13708722741433016,
-      "unrealized_dollars": 1.18
+      "current_price": 7.9078,
+      "unrealized_pct": 0.23174454828660437,
+      "unrealized_dollars": 2.0
     },
     {
       "ticker": "CPBI",
@@ -79,6 +65,17 @@
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "YYGH",
+      "entry_price": 1.41,
+      "exit_price": 1.335,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.48,
+      "pl_percent": -0.053191,
+      "exit_timestamp": "2026-07-10T16:45:05.115066",
+      "setup_quality": "A",
+      "position_size_dollars": 8.99
+    },
     {
       "ticker": "JLHL",
       "entry_price": 8.95,
@@ -617,17 +614,6 @@
       "exit_timestamp": "2026-06-18T15:30:04.078181",
       "setup_quality": "B",
       "position_size_dollars": 9.35
-    },
-    {
-      "ticker": "JG",
-      "entry_price": 4.4722,
-      "exit_price": 4.36,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -0.21,
-      "pl_percent": -0.025088,
-      "exit_timestamp": "2026-06-18T13:45:05.261889",
-      "setup_quality": "B",
-      "position_size_dollars": 8.42
     }
   ]
 }
