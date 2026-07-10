@@ -1,12 +1,82 @@
 {
-  "generated_at": "2026-07-10T11:00:04.895252-04:00",
+  "generated_at": "2026-07-10T11:15:07.977514-04:00",
   "summary": {
     "total_pl_dollars": 7.86,
     "wins": 16,
     "losses": 33,
-    "open_count": 3
+    "open_count": 8
   },
   "open_trades": [
+    {
+      "ticker": "GMM",
+      "entry_price": 4.1487,
+      "stop_loss_price": 3.76,
+      "profit_target_price": 5.7899,
+      "position_size_dollars": 1.12,
+      "entry_timestamp": "2026-07-10T15:07:05.416943",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 4.22,
+      "current_price": 4.1697,
+      "unrealized_pct": 0.005061826596283151,
+      "unrealized_dollars": 0.01
+    },
+    {
+      "ticker": "JLHL",
+      "entry_price": 8.95,
+      "stop_loss_price": 7.32,
+      "profit_target_price": 14.66,
+      "position_size_dollars": 8.99,
+      "entry_timestamp": "2026-07-10T15:07:05.395020",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 3.5,
+      "current_price": 11.92,
+      "unrealized_pct": 0.3318435754189945,
+      "unrealized_dollars": 2.98
+    },
+    {
+      "ticker": "YYGH",
+      "entry_price": 1.41,
+      "stop_loss_price": 1.34,
+      "profit_target_price": 1.56,
+      "position_size_dollars": 8.99,
+      "entry_timestamp": "2026-07-10T15:07:05.377751",
+      "setup_quality": "A",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 2.14,
+      "current_price": 1.405,
+      "unrealized_pct": -0.0035460992907800663,
+      "unrealized_dollars": -0.03
+    },
+    {
+      "ticker": "ALAR",
+      "entry_price": 2.22,
+      "stop_loss_price": 2.17,
+      "profit_target_price": 2.36,
+      "position_size_dollars": 8.99,
+      "entry_timestamp": "2026-07-10T15:07:05.359084",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 2.8,
+      "current_price": 2.26,
+      "unrealized_pct": 0.018018018018017834,
+      "unrealized_dollars": 0.16
+    },
+    {
+      "ticker": "DFSC",
+      "entry_price": 2.1,
+      "stop_loss_price": 2.0,
+      "profit_target_price": 2.3444,
+      "position_size_dollars": 8.99,
+      "entry_timestamp": "2026-07-10T15:07:05.334096",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 2.44,
+      "current_price": 2.105,
+      "unrealized_pct": 0.00238095238095233,
+      "unrealized_dollars": 0.02
+    },
     {
       "ticker": "AEON",
       "entry_price": 0.5027,
@@ -31,9 +101,9 @@
       "setup_quality": "A",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.56,
-      "current_price": 7.01,
-      "unrealized_pct": 0.09190031152647973,
-      "unrealized_dollars": 0.79
+      "current_price": 7.08,
+      "unrealized_pct": 0.10280373831775703,
+      "unrealized_dollars": 0.89
     },
     {
       "ticker": "CPBI",
