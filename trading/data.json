@@ -1,26 +1,12 @@
 {
-  "generated_at": "2026-07-10T11:45:06.401151-04:00",
+  "generated_at": "2026-07-10T12:00:07.144530-04:00",
   "summary": {
     "total_pl_dollars": 7.86,
     "wins": 16,
     "losses": 33,
-    "open_count": 8
+    "open_count": 7
   },
   "open_trades": [
-    {
-      "ticker": "GMM",
-      "entry_price": 4.1487,
-      "stop_loss_price": 3.76,
-      "profit_target_price": 5.7899,
-      "position_size_dollars": 1.12,
-      "entry_timestamp": "2026-07-10T15:07:05.416943",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 4.22,
-      "current_price": 3.6,
-      "unrealized_pct": -0.13225829778002743,
-      "unrealized_dollars": -0.15
-    },
     {
       "ticker": "JLHL",
       "entry_price": 8.95,
@@ -31,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.5,
-      "current_price": 13.44,
-      "unrealized_pct": 0.5016759776536314,
-      "unrealized_dollars": 4.51
+      "current_price": 11.87,
+      "unrealized_pct": 0.3262569832402235,
+      "unrealized_dollars": 2.93
     },
     {
       "ticker": "YYGH",
@@ -45,8 +31,8 @@
       "setup_quality": "A",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.14,
-      "current_price": 1.4013,
-      "unrealized_pct": -0.006170212765957398,
+      "current_price": 1.4,
+      "unrealized_pct": -0.0070921985815602905,
       "unrealized_dollars": -0.06
     },
     {
@@ -59,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.8,
-      "current_price": 2.25,
-      "unrealized_pct": 0.013513513513513424,
-      "unrealized_dollars": 0.12
+      "current_price": 2.295,
+      "unrealized_pct": 0.03378378378378366,
+      "unrealized_dollars": 0.3
     },
     {
       "ticker": "DFSC",
@@ -73,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.44,
-      "current_price": 2.07,
-      "unrealized_pct": -0.014285714285714403,
-      "unrealized_dollars": -0.13
+      "current_price": 2.08,
+      "unrealized_pct": -0.009523809523809532,
+      "unrealized_dollars": -0.09
     },
     {
       "ticker": "AEON",
@@ -87,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 65.67,
-      "current_price": 0.5045,
-      "unrealized_pct": 0.003580664412174085,
-      "unrealized_dollars": 0.03
+      "current_price": 0.5003,
+      "unrealized_pct": -0.004774219216232482,
+      "unrealized_dollars": -0.04
     },
     {
       "ticker": "PLBL",
@@ -101,9 +87,9 @@
       "setup_quality": "A",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.56,
-      "current_price": 7.0608,
-      "unrealized_pct": 0.0998130841121496,
-      "unrealized_dollars": 0.86
+      "current_price": 7.145,
+      "unrealized_pct": 0.11292834890965726,
+      "unrealized_dollars": 0.97
     },
     {
       "ticker": "CPBI",
@@ -121,6 +107,17 @@
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "GMM",
+      "entry_price": 4.1487,
+      "exit_price": 3.614,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.14,
+      "pl_percent": -0.128884,
+      "exit_timestamp": "2026-07-10T15:45:07.088020",
+      "setup_quality": "B",
+      "position_size_dollars": 1.12
+    },
     {
       "ticker": "AFJK",
       "entry_price": 12.89,
@@ -659,17 +656,6 @@
       "exit_timestamp": "2026-06-18T13:45:03.300216",
       "setup_quality": "B",
       "position_size_dollars": 8.06
-    },
-    {
-      "ticker": "ATOS",
-      "entry_price": 2.01,
-      "exit_price": 1.975,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -0.15,
-      "pl_percent": -0.017413,
-      "exit_timestamp": "2026-06-17T19:30:04.168410",
-      "setup_quality": "B",
-      "position_size_dollars": 8.44
     }
   ]
 }
