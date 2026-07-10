@@ -1,12 +1,27 @@
 {
-  "generated_at": "2026-07-10T16:45:03.045967-04:00",
+  "generated_at": "2026-07-10T17:00:04.164375-04:00",
   "summary": {
     "total_pl_dollars": 11.09,
     "wins": 17,
     "losses": 32,
-    "open_count": 0
+    "open_count": 1
   },
-  "open_trades": [],
+  "open_trades": [
+    {
+      "ticker": "ELAB",
+      "entry_price": 1.089,
+      "stop_loss_price": 1.03,
+      "profit_target_price": 1.56,
+      "position_size_dollars": 10.23,
+      "entry_timestamp": "2026-07-10T20:47:13.632104",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 7.98,
+      "current_price": 1.12,
+      "unrealized_pct": 0.028466483011937684,
+      "unrealized_dollars": 0.29
+    }
+  ],
   "closed_trades": [
     {
       "ticker": "JZXN",
