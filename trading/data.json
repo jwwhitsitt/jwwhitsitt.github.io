@@ -1,26 +1,12 @@
 {
-  "generated_at": "2026-07-10T12:30:06.175489-04:00",
+  "generated_at": "2026-07-10T12:45:06.007057-04:00",
   "summary": {
-    "total_pl_dollars": 7.86,
-    "wins": 16,
-    "losses": 33,
-    "open_count": 7
+    "total_pl_dollars": 6.86,
+    "wins": 15,
+    "losses": 34,
+    "open_count": 5
   },
   "open_trades": [
-    {
-      "ticker": "JLHL",
-      "entry_price": 8.95,
-      "stop_loss_price": 7.32,
-      "profit_target_price": 14.66,
-      "position_size_dollars": 8.99,
-      "entry_timestamp": "2026-07-10T15:07:05.395020",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 3.5,
-      "current_price": 17.224,
-      "unrealized_pct": 0.9244692737430169,
-      "unrealized_dollars": 8.31
-    },
     {
       "ticker": "YYGH",
       "entry_price": 1.41,
@@ -31,9 +17,9 @@
       "setup_quality": "A",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.14,
-      "current_price": 1.3499,
-      "unrealized_pct": -0.04262411347517718,
-      "unrealized_dollars": -0.38
+      "current_price": 1.335,
+      "unrealized_pct": -0.0531914893617021,
+      "unrealized_dollars": -0.48
     },
     {
       "ticker": "ALAR",
@@ -45,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.8,
-      "current_price": 2.26,
-      "unrealized_pct": 0.018018018018017834,
-      "unrealized_dollars": 0.16
+      "current_price": 2.295,
+      "unrealized_pct": 0.03378378378378366,
+      "unrealized_dollars": 0.3
     },
     {
       "ticker": "DFSC",
@@ -59,23 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.44,
-      "current_price": 2.09,
-      "unrealized_pct": -0.004761904761904872,
-      "unrealized_dollars": -0.04
-    },
-    {
-      "ticker": "AEON",
-      "entry_price": 0.5027,
-      "stop_loss_price": 0.5,
-      "profit_target_price": 0.68,
-      "position_size_dollars": 8.61,
-      "entry_timestamp": "2026-07-10T12:24:21.451156",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 65.67,
-      "current_price": 0.5,
-      "unrealized_pct": -0.005370996618261459,
-      "unrealized_dollars": -0.05
+      "current_price": 2.1,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
     },
     {
       "ticker": "PLBL",
@@ -87,9 +59,9 @@
       "setup_quality": "A",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.56,
-      "current_price": 7.06,
-      "unrealized_pct": 0.09968847352024918,
-      "unrealized_dollars": 0.86
+      "current_price": 7.3001,
+      "unrealized_pct": 0.13708722741433016,
+      "unrealized_dollars": 1.18
     },
     {
       "ticker": "CPBI",
@@ -107,6 +79,28 @@
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "JLHL",
+      "entry_price": 8.95,
+      "exit_price": 17.3999,
+      "exit_reason": "target_hit",
+      "pl_dollars": 8.49,
+      "pl_percent": 0.944123,
+      "exit_timestamp": "2026-07-10T16:30:05.143468",
+      "setup_quality": "B",
+      "position_size_dollars": 8.99
+    },
+    {
+      "ticker": "AEON",
+      "entry_price": 0.5027,
+      "exit_price": 0.5,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.05,
+      "pl_percent": -0.005371,
+      "exit_timestamp": "2026-07-10T16:30:03.477224",
+      "setup_quality": "B",
+      "position_size_dollars": 8.61
+    },
     {
       "ticker": "GMM",
       "entry_price": 4.1487,
@@ -634,28 +628,6 @@
       "exit_timestamp": "2026-06-18T13:45:05.261889",
       "setup_quality": "B",
       "position_size_dollars": 8.42
-    },
-    {
-      "ticker": "QXL",
-      "entry_price": 5.4,
-      "exit_price": 6.22,
-      "exit_reason": "target_hit",
-      "pl_dollars": 1.28,
-      "pl_percent": 0.151852,
-      "exit_timestamp": "2026-06-18T13:45:04.928527",
-      "setup_quality": "B",
-      "position_size_dollars": 8.44
-    },
-    {
-      "ticker": "LNKS",
-      "entry_price": 1.4608,
-      "exit_price": 2.9401,
-      "exit_reason": "target_hit",
-      "pl_dollars": 8.16,
-      "pl_percent": 1.012664,
-      "exit_timestamp": "2026-06-18T13:45:03.300216",
-      "setup_quality": "B",
-      "position_size_dollars": 8.06
     }
   ]
 }
