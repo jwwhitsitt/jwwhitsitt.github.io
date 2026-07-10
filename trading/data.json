@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T14:30:04.716557-04:00",
+  "generated_at": "2026-07-10T14:45:05.777901-04:00",
   "summary": {
     "total_pl_dollars": 6.59,
     "wins": 15,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.5,
-      "current_price": 2.025,
-      "unrealized_pct": 0.043814432989690705,
-      "unrealized_dollars": 0.43
+      "current_price": 2.0605,
+      "unrealized_pct": 0.06211340206185581,
+      "unrealized_dollars": 0.61
     },
     {
       "ticker": "ALAR",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.8,
-      "current_price": 2.26,
-      "unrealized_pct": 0.018018018018017834,
-      "unrealized_dollars": 0.16
+      "current_price": 2.275,
+      "unrealized_pct": 0.024774774774774643,
+      "unrealized_dollars": 0.22
     },
     {
       "ticker": "DFSC",
@@ -45,8 +45,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.44,
-      "current_price": 2.0604,
-      "unrealized_pct": -0.018857142857142895,
+      "current_price": 2.06,
+      "unrealized_pct": -0.019047619047619063,
       "unrealized_dollars": -0.17
     },
     {
@@ -59,9 +59,9 @@
       "setup_quality": "A",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.56,
-      "current_price": 8.625,
-      "unrealized_pct": 0.34345794392523366,
-      "unrealized_dollars": 2.96
+      "current_price": 8.91,
+      "unrealized_pct": 0.38785046728971967,
+      "unrealized_dollars": 3.34
     },
     {
       "ticker": "CPBI",
