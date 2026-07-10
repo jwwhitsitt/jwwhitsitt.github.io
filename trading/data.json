@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T15:00:04.370322-04:00",
+  "generated_at": "2026-07-10T15:15:04.866800-04:00",
   "summary": {
     "total_pl_dollars": 10.02,
     "wins": 16,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.5,
-      "current_price": 1.98,
-      "unrealized_pct": 0.020618556701030948,
-      "unrealized_dollars": 0.2
+      "current_price": 2.1101,
+      "unrealized_pct": 0.0876804123711341,
+      "unrealized_dollars": 0.86
     },
     {
       "ticker": "ALAR",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.8,
-      "current_price": 2.26,
-      "unrealized_pct": 0.018018018018017834,
-      "unrealized_dollars": 0.16
+      "current_price": 2.27,
+      "unrealized_pct": 0.02252252252252244,
+      "unrealized_dollars": 0.2
     },
     {
       "ticker": "DFSC",
