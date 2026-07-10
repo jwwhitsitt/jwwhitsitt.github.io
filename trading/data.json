@@ -1,12 +1,26 @@
 {
-  "generated_at": "2026-07-10T13:00:04.721424-04:00",
+  "generated_at": "2026-07-10T13:15:04.895222-04:00",
   "summary": {
     "total_pl_dollars": 6.59,
     "wins": 15,
     "losses": 34,
-    "open_count": 4
+    "open_count": 5
   },
   "open_trades": [
+    {
+      "ticker": "JZXN",
+      "entry_price": 1.94,
+      "stop_loss_price": 1.57,
+      "profit_target_price": 3.235,
+      "position_size_dollars": 9.77,
+      "entry_timestamp": "2026-07-10T17:07:28.006282",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 3.5,
+      "current_price": 1.91,
+      "unrealized_pct": -0.01546391752577321,
+      "unrealized_dollars": -0.15
+    },
     {
       "ticker": "ALAR",
       "entry_price": 2.22,
@@ -45,9 +59,9 @@
       "setup_quality": "A",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.56,
-      "current_price": 7.9078,
-      "unrealized_pct": 0.23174454828660437,
-      "unrealized_dollars": 2.0
+      "current_price": 8.29,
+      "unrealized_pct": 0.29127725856697806,
+      "unrealized_dollars": 2.51
     },
     {
       "ticker": "CPBI",
