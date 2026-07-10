@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T09:45:05.728762-04:00",
+  "generated_at": "2026-07-10T10:00:06.282566-04:00",
   "summary": {
     "total_pl_dollars": 4.03,
     "wins": 17,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.69,
-      "current_price": 0.4291,
-      "unrealized_pct": 0.44966216216216215,
-      "unrealized_dollars": 3.87
+      "current_price": 0.5055,
+      "unrealized_pct": 0.7077702702702702,
+      "unrealized_dollars": 6.09
     },
     {
       "ticker": "AFJK",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 12.46,
-      "current_price": 12.675,
-      "unrealized_pct": -0.01667959658650115,
-      "unrealized_dollars": -0.14
+      "current_price": 12.696,
+      "unrealized_pct": -0.015050426687354602,
+      "unrealized_dollars": -0.13
     },
     {
       "ticker": "AEON",
@@ -59,9 +59,9 @@
       "setup_quality": "A",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.56,
-      "current_price": 6.301,
-      "unrealized_pct": -0.018535825545171303,
-      "unrealized_dollars": -0.16
+      "current_price": 6.63,
+      "unrealized_pct": 0.03271028037383177,
+      "unrealized_dollars": 0.28
     },
     {
       "ticker": "CPBI",
