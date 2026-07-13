@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T11:30:06.192741-04:00",
+  "generated_at": "2026-07-13T11:45:08.107782-04:00",
   "summary": {
     "total_pl_dollars": 9.92,
     "wins": 16,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.32,
-      "current_price": 7.35,
-      "unrealized_pct": 0.012382749548904174,
-      "unrealized_dollars": 0.13
+      "current_price": 7.4499,
+      "unrealized_pct": 0.026142890593793468,
+      "unrealized_dollars": 0.27
     },
     {
       "ticker": "CVKD",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.45,
-      "current_price": 2.69,
-      "unrealized_pct": -0.02712477396021706,
-      "unrealized_dollars": -0.28
+      "current_price": 2.66,
+      "unrealized_pct": -0.03797468354430379,
+      "unrealized_dollars": -0.4
     },
     {
       "ticker": "CPHC",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.54,
-      "current_price": 5.4,
-      "unrealized_pct": 0.06090373280943036,
-      "unrealized_dollars": 0.62
+      "current_price": 5.11,
+      "unrealized_pct": 0.003929273084479462,
+      "unrealized_dollars": 0.04
     },
     {
       "ticker": "ELAB",
@@ -101,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 7.98,
-      "current_price": 1.12,
-      "unrealized_pct": 0.028466483011937684,
-      "unrealized_dollars": 0.29
+      "current_price": 1.095,
+      "unrealized_pct": 0.005509641873278242,
+      "unrealized_dollars": 0.06
     }
   ],
   "closed_trades": [
