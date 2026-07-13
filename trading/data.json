@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T10:45:04.509057-04:00",
+  "generated_at": "2026-07-13T11:00:04.515976-04:00",
   "summary": {
     "total_pl_dollars": 9.92,
     "wins": 16,
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.54,
-      "current_price": 5.34,
-      "unrealized_pct": 0.049115913555992145,
-      "unrealized_dollars": 0.5
+      "current_price": 5.5,
+      "unrealized_pct": 0.08055009823182714,
+      "unrealized_dollars": 0.82
     },
     {
       "ticker": "ELAB",
@@ -59,8 +59,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 7.98,
-      "current_price": 1.14,
-      "unrealized_pct": 0.04683195592286495,
+      "current_price": 1.1401,
+      "unrealized_pct": 0.046923783287419585,
       "unrealized_dollars": 0.48
     }
   ],
