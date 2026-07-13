@@ -1,12 +1,96 @@
 {
-  "generated_at": "2026-07-13T09:00:03.975492-04:00",
+  "generated_at": "2026-07-13T09:15:05.323554-04:00",
   "summary": {
     "total_pl_dollars": 11.09,
     "wins": 17,
     "losses": 32,
-    "open_count": 1
+    "open_count": 7
   },
   "open_trades": [
+    {
+      "ticker": "QTTB",
+      "entry_price": 11.21,
+      "stop_loss_price": 10.815,
+      "profit_target_price": 12.48,
+      "position_size_dollars": 10.22,
+      "entry_timestamp": "2026-07-13T13:02:07.514161",
+      "setup_quality": "A",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 3.22,
+      "current_price": 11.21,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
+    },
+    {
+      "ticker": "RBNE",
+      "entry_price": 6.45,
+      "stop_loss_price": 6.2125,
+      "profit_target_price": 7.8359,
+      "position_size_dollars": 10.23,
+      "entry_timestamp": "2026-07-13T13:02:07.476949",
+      "setup_quality": "A",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 5.84,
+      "current_price": 6.45,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
+    },
+    {
+      "ticker": "YSXT",
+      "entry_price": 1.01,
+      "stop_loss_price": 0.99,
+      "profit_target_price": 1.09,
+      "position_size_dollars": 10.23,
+      "entry_timestamp": "2026-07-13T13:02:07.435536",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 4.0,
+      "current_price": 1.01,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
+    },
+    {
+      "ticker": "CMND",
+      "entry_price": 2.03,
+      "stop_loss_price": 1.86,
+      "profit_target_price": 2.84,
+      "position_size_dollars": 10.23,
+      "entry_timestamp": "2026-07-13T13:02:07.399638",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.06,
+      "current_price": 2.03,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
+    },
+    {
+      "ticker": "BKHA",
+      "entry_price": 11.96,
+      "stop_loss_price": 0.0,
+      "profit_target_price": 0.0,
+      "position_size_dollars": 10.23,
+      "entry_timestamp": "2026-07-13T13:02:07.362947",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 0.0,
+      "current_price": 11.96,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
+    },
+    {
+      "ticker": "QXL",
+      "entry_price": 5.09,
+      "stop_loss_price": 4.86,
+      "profit_target_price": 5.61,
+      "position_size_dollars": 10.23,
+      "entry_timestamp": "2026-07-13T13:02:07.315590",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.54,
+      "current_price": 5.09,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
+    },
     {
       "ticker": "ELAB",
       "entry_price": 1.089,
