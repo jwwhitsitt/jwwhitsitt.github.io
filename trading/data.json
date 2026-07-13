@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T14:30:05.724595-04:00",
+  "generated_at": "2026-07-13T14:45:05.506062-04:00",
   "summary": {
     "total_pl_dollars": 8.05,
     "wins": 15,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.72,
-      "current_price": 1.66,
-      "unrealized_pct": 0.017281529599215594,
-      "unrealized_dollars": 0.18
+      "current_price": 1.665,
+      "unrealized_pct": 0.020345630591984385,
+      "unrealized_dollars": 0.21
     },
     {
       "ticker": "XAIR",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.54,
-      "current_price": 5.36,
-      "unrealized_pct": 0.05304518664047161,
-      "unrealized_dollars": 0.54
+      "current_price": 5.44,
+      "unrealized_pct": 0.0687622789783891,
+      "unrealized_dollars": 0.7
     },
     {
       "ticker": "ELAB",
@@ -101,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 7.98,
-      "current_price": 1.07,
-      "unrealized_pct": -0.017447199265381,
-      "unrealized_dollars": -0.18
+      "current_price": 1.064,
+      "unrealized_pct": -0.02295684113865924,
+      "unrealized_dollars": -0.23
     }
   ],
   "closed_trades": [
