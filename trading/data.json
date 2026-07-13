@@ -1,12 +1,26 @@
 {
-  "generated_at": "2026-07-13T13:00:05.802412-04:00",
+  "generated_at": "2026-07-13T13:15:05.275437-04:00",
   "summary": {
     "total_pl_dollars": 8.05,
     "wins": 15,
     "losses": 34,
-    "open_count": 6
+    "open_count": 7
   },
   "open_trades": [
+    {
+      "ticker": "BIVI",
+      "entry_price": 1.6318,
+      "stop_loss_price": 1.55,
+      "profit_target_price": 2.1,
+      "position_size_dollars": 10.35,
+      "entry_timestamp": "2026-07-13T17:01:45.833534",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.72,
+      "current_price": 1.655,
+      "unrealized_pct": 0.014217428606446937,
+      "unrealized_dollars": 0.15
+    },
     {
       "ticker": "XAIR",
       "entry_price": 7.2601,
@@ -17,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.32,
-      "current_price": 7.5,
-      "unrealized_pct": 0.03304362198867778,
-      "unrealized_dollars": 0.34
+      "current_price": 7.5999,
+      "unrealized_pct": 0.04680376303356695,
+      "unrealized_dollars": 0.49
     },
     {
       "ticker": "CPHC",
@@ -73,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.54,
-      "current_price": 5.38,
-      "unrealized_pct": 0.056974459724950896,
-      "unrealized_dollars": 0.58
+      "current_price": 5.385,
+      "unrealized_pct": 0.05795677799607071,
+      "unrealized_dollars": 0.59
     },
     {
       "ticker": "ELAB",
@@ -87,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 7.98,
-      "current_price": 1.075,
-      "unrealized_pct": -0.01285583103764923,
-      "unrealized_dollars": -0.13
+      "current_price": 1.07,
+      "unrealized_pct": -0.017447199265381,
+      "unrealized_dollars": -0.18
     }
   ],
   "closed_trades": [
