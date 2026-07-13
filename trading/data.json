@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T10:00:04.139148-04:00",
+  "generated_at": "2026-07-13T10:15:04.526329-04:00",
   "summary": {
     "total_pl_dollars": 9.92,
     "wins": 16,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.06,
-      "current_price": 1.94,
-      "unrealized_pct": -0.04433497536945806,
-      "unrealized_dollars": -0.45
+      "current_price": 2.05,
+      "unrealized_pct": 0.009852216748768483,
+      "unrealized_dollars": 0.1
     },
     {
       "ticker": "BKHA",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.54,
-      "current_price": 5.385,
-      "unrealized_pct": 0.05795677799607071,
-      "unrealized_dollars": 0.59
+      "current_price": 5.4,
+      "unrealized_pct": 0.06090373280943036,
+      "unrealized_dollars": 0.62
     },
     {
       "ticker": "ELAB",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 7.98,
-      "current_price": 1.085,
-      "unrealized_pct": -0.0036730945821854947,
-      "unrealized_dollars": -0.04
+      "current_price": 1.055,
+      "unrealized_pct": -0.031221303948576706,
+      "unrealized_dollars": -0.32
     }
   ],
   "closed_trades": [
