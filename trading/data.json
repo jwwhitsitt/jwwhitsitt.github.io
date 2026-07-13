@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T13:45:05.760895-04:00",
+  "generated_at": "2026-07-13T14:00:06.163327-04:00",
   "summary": {
     "total_pl_dollars": 8.05,
     "wins": 15,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.72,
-      "current_price": 1.67,
-      "unrealized_pct": 0.02340973158475304,
-      "unrealized_dollars": 0.24
+      "current_price": 1.635,
+      "unrealized_pct": 0.001961024635372038,
+      "unrealized_dollars": 0.02
     },
     {
       "ticker": "XAIR",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.32,
-      "current_price": 7.5,
-      "unrealized_pct": 0.03304362198867778,
-      "unrealized_dollars": 0.34
+      "current_price": 7.4108,
+      "unrealized_pct": 0.020757289844492446,
+      "unrealized_dollars": 0.22
     },
     {
       "ticker": "CPHC",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.54,
-      "current_price": 5.385,
-      "unrealized_pct": 0.05795677799607071,
-      "unrealized_dollars": 0.59
+      "current_price": 5.36,
+      "unrealized_pct": 0.05304518664047161,
+      "unrealized_dollars": 0.54
     },
     {
       "ticker": "ELAB",
@@ -101,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 7.98,
-      "current_price": 1.061,
-      "unrealized_pct": -0.02571166207529846,
-      "unrealized_dollars": -0.26
+      "current_price": 1.0601,
+      "unrealized_pct": -0.026538108356290106,
+      "unrealized_dollars": -0.27
     }
   ],
   "closed_trades": [
