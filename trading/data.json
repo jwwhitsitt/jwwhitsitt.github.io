@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T14:45:05.506062-04:00",
+  "generated_at": "2026-07-13T15:00:05.634706-04:00",
   "summary": {
     "total_pl_dollars": 8.05,
     "wins": 15,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.72,
-      "current_price": 1.665,
-      "unrealized_pct": 0.020345630591984385,
-      "unrealized_dollars": 0.21
+      "current_price": 1.6948,
+      "unrealized_pct": 0.038607672508886,
+      "unrealized_dollars": 0.4
     },
     {
       "ticker": "XAIR",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.06,
-      "current_price": 2.0,
-      "unrealized_pct": -0.014778325123152615,
-      "unrealized_dollars": -0.15
+      "current_price": 2.01,
+      "unrealized_pct": -0.009852216748768483,
+      "unrealized_dollars": -0.1
     },
     {
       "ticker": "BKHA",
@@ -101,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 7.98,
-      "current_price": 1.064,
-      "unrealized_pct": -0.02295684113865924,
-      "unrealized_dollars": -0.23
+      "current_price": 1.075,
+      "unrealized_pct": -0.01285583103764923,
+      "unrealized_dollars": -0.13
     }
   ],
   "closed_trades": [
