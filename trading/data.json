@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T14:00:06.163327-04:00",
+  "generated_at": "2026-07-13T14:15:06.054124-04:00",
   "summary": {
     "total_pl_dollars": 8.05,
     "wins": 15,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.72,
-      "current_price": 1.635,
-      "unrealized_pct": 0.001961024635372038,
-      "unrealized_dollars": 0.02
+      "current_price": 1.665,
+      "unrealized_pct": 0.020345630591984385,
+      "unrealized_dollars": 0.21
     },
     {
       "ticker": "XAIR",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.32,
-      "current_price": 7.4108,
-      "unrealized_pct": 0.020757289844492446,
-      "unrealized_dollars": 0.22
+      "current_price": 7.48,
+      "unrealized_pct": 0.03028883899670803,
+      "unrealized_dollars": 0.32
     },
     {
       "ticker": "CPHC",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.06,
-      "current_price": 2.02,
-      "unrealized_pct": -0.0049261083743841316,
-      "unrealized_dollars": -0.05
+      "current_price": 2.0,
+      "unrealized_pct": -0.014778325123152615,
+      "unrealized_dollars": -0.15
     },
     {
       "ticker": "BKHA",
@@ -101,8 +101,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 7.98,
-      "current_price": 1.0601,
-      "unrealized_pct": -0.026538108356290106,
+      "current_price": 1.06,
+      "unrealized_pct": -0.026629935720844735,
       "unrealized_dollars": -0.27
     }
   ],
