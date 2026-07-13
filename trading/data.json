@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-13T15:30:06.054888-04:00",
+  "generated_at": "2026-07-13T15:45:05.165221-04:00",
   "summary": {
-    "total_pl_dollars": 8.05,
+    "total_pl_dollars": 8.84,
     "wins": 15,
     "losses": 34,
-    "open_count": 7
+    "open_count": 6
   },
   "open_trades": [
     {
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.72,
-      "current_price": 1.6487,
-      "unrealized_pct": 0.010356661355558364,
-      "unrealized_dollars": 0.11
+      "current_price": 1.6503,
+      "unrealized_pct": 0.011337173673244383,
+      "unrealized_dollars": 0.12
     },
     {
       "ticker": "XAIR",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.32,
-      "current_price": 7.465,
-      "unrealized_pct": 0.028222751752730597,
-      "unrealized_dollars": 0.29
+      "current_price": 7.5,
+      "unrealized_pct": 0.03304362198867778,
+      "unrealized_dollars": 0.34
     },
     {
       "ticker": "CPHC",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.06,
-      "current_price": 2.0,
-      "unrealized_pct": -0.014778325123152615,
-      "unrealized_dollars": -0.15
+      "current_price": 2.025,
+      "unrealized_pct": -0.0024630541871920658,
+      "unrealized_dollars": -0.03
     },
     {
       "ticker": "BKHA",
@@ -87,26 +87,23 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.54,
-      "current_price": 5.3,
-      "unrealized_pct": 0.041257367387033395,
-      "unrealized_dollars": 0.42
-    },
-    {
-      "ticker": "ELAB",
-      "entry_price": 1.089,
-      "stop_loss_price": 1.03,
-      "profit_target_price": 1.56,
-      "position_size_dollars": 10.23,
-      "entry_timestamp": "2026-07-10T20:47:13.632104",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 7.98,
-      "current_price": 1.055,
-      "unrealized_pct": -0.031221303948576706,
-      "unrealized_dollars": -0.32
+      "current_price": 5.29,
+      "unrealized_pct": 0.03929273084479375,
+      "unrealized_dollars": 0.4
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "ELAB",
+      "entry_price": 1.089,
+      "exit_price": 1.05,
+      "exit_reason": "eod_close",
+      "pl_dollars": -0.37,
+      "pl_percent": -0.035813,
+      "exit_timestamp": "2026-07-13T19:45:02.924341",
+      "setup_quality": "B",
+      "position_size_dollars": 10.23
+    },
     {
       "ticker": "CVKD",
       "entry_price": 2.765,
@@ -645,17 +642,6 @@
       "exit_timestamp": "2026-06-23T16:00:03.606352",
       "setup_quality": "B",
       "position_size_dollars": 8.99
-    },
-    {
-      "ticker": "ORIS",
-      "entry_price": 2.255,
-      "exit_price": 1.9899,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -1.15,
-      "pl_percent": -0.117561,
-      "exit_timestamp": "2026-06-23T15:15:04.389526",
-      "setup_quality": "B",
-      "position_size_dollars": 9.78
     }
   ]
 }
