@@ -1,40 +1,12 @@
 {
-  "generated_at": "2026-07-13T09:45:06.581540-04:00",
+  "generated_at": "2026-07-13T10:00:04.139148-04:00",
   "summary": {
-    "total_pl_dollars": 11.16,
-    "wins": 17,
-    "losses": 32,
-    "open_count": 6
+    "total_pl_dollars": 9.92,
+    "wins": 16,
+    "losses": 33,
+    "open_count": 4
   },
   "open_trades": [
-    {
-      "ticker": "QTTB",
-      "entry_price": 11.21,
-      "stop_loss_price": 10.815,
-      "profit_target_price": 12.48,
-      "position_size_dollars": 10.22,
-      "entry_timestamp": "2026-07-13T13:02:07.514161",
-      "setup_quality": "A",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 3.22,
-      "current_price": 18.2133,
-      "unrealized_pct": 0.624736842105263,
-      "unrealized_dollars": 6.38
-    },
-    {
-      "ticker": "YSXT",
-      "entry_price": 1.01,
-      "stop_loss_price": 0.99,
-      "profit_target_price": 1.09,
-      "position_size_dollars": 10.23,
-      "entry_timestamp": "2026-07-13T13:02:07.435536",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 4.0,
-      "current_price": 0.6,
-      "unrealized_pct": -0.40594059405940597,
-      "unrealized_dollars": -4.15
-    },
     {
       "ticker": "CMND",
       "entry_price": 2.03,
@@ -45,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.06,
-      "current_price": 1.9201,
-      "unrealized_pct": -0.05413793103448271,
-      "unrealized_dollars": -0.55
+      "current_price": 1.94,
+      "unrealized_pct": -0.04433497536945806,
+      "unrealized_dollars": -0.45
     },
     {
       "ticker": "BKHA",
@@ -73,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.54,
-      "current_price": 5.44,
-      "unrealized_pct": 0.0687622789783891,
-      "unrealized_dollars": 0.7
+      "current_price": 5.385,
+      "unrealized_pct": 0.05795677799607071,
+      "unrealized_dollars": 0.59
     },
     {
       "ticker": "ELAB",
@@ -87,12 +59,34 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 7.98,
-      "current_price": 1.08,
-      "unrealized_pct": -0.00826446280991726,
-      "unrealized_dollars": -0.08
+      "current_price": 1.085,
+      "unrealized_pct": -0.0036730945821854947,
+      "unrealized_dollars": -0.04
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "QTTB",
+      "entry_price": 11.21,
+      "exit_price": 18.2133,
+      "exit_reason": "target_hit",
+      "pl_dollars": 6.38,
+      "pl_percent": 0.624737,
+      "exit_timestamp": "2026-07-13T13:45:04.895175",
+      "setup_quality": "A",
+      "position_size_dollars": 10.22
+    },
+    {
+      "ticker": "YSXT",
+      "entry_price": 1.01,
+      "exit_price": 0.6,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -4.15,
+      "pl_percent": -0.405941,
+      "exit_timestamp": "2026-07-13T13:45:04.515584",
+      "setup_quality": "B",
+      "position_size_dollars": 10.23
+    },
     {
       "ticker": "RBNE",
       "entry_price": 6.45,
@@ -620,28 +614,6 @@
       "exit_timestamp": "2026-06-23T15:00:04.349530",
       "setup_quality": "B",
       "position_size_dollars": 9.22
-    },
-    {
-      "ticker": "ADTX",
-      "entry_price": 0.0173,
-      "exit_price": 0.0225,
-      "exit_reason": "target_hit",
-      "pl_dollars": 2.8,
-      "pl_percent": 0.300578,
-      "exit_timestamp": "2026-06-23T13:45:05.152750",
-      "setup_quality": "B",
-      "position_size_dollars": 9.31
-    },
-    {
-      "ticker": "TCBS",
-      "entry_price": 17.0,
-      "exit_price": 18.48,
-      "exit_reason": "target_hit",
-      "pl_dollars": 0.67,
-      "pl_percent": 0.087059,
-      "exit_timestamp": "2026-06-23T13:45:03.908322",
-      "setup_quality": "B",
-      "position_size_dollars": 7.71
     }
   ]
 }
