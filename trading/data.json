@@ -1,98 +1,79 @@
 {
-  "generated_at": "2026-07-13T15:45:05.165221-04:00",
+  "generated_at": "2026-07-13T16:00:03.912818-04:00",
   "summary": {
-    "total_pl_dollars": 8.84,
-    "wins": 15,
-    "losses": 34,
-    "open_count": 6
+    "total_pl_dollars": 6.49,
+    "wins": 16,
+    "losses": 32,
+    "open_count": 0
   },
-  "open_trades": [
+  "open_trades": [],
+  "closed_trades": [
     {
       "ticker": "BIVI",
       "entry_price": 1.6318,
-      "stop_loss_price": 1.55,
-      "profit_target_price": 2.1,
-      "position_size_dollars": 10.35,
-      "entry_timestamp": "2026-07-13T17:01:45.833534",
+      "exit_price": 1.6503,
+      "exit_reason": "eod_close",
+      "pl_dollars": 0.12,
+      "pl_percent": 0.011337,
+      "exit_timestamp": "2026-07-13T19:45:04.856866",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 1.72,
-      "current_price": 1.6503,
-      "unrealized_pct": 0.011337173673244383,
-      "unrealized_dollars": 0.12
+      "position_size_dollars": 10.35
     },
     {
       "ticker": "XAIR",
       "entry_price": 7.2601,
-      "stop_loss_price": 6.95,
-      "profit_target_price": 8.5,
-      "position_size_dollars": 10.41,
-      "entry_timestamp": "2026-07-13T15:20:56.452241",
+      "exit_price": 7.5,
+      "exit_reason": "eod_close",
+      "pl_dollars": 0.34,
+      "pl_percent": 0.033044,
+      "exit_timestamp": "2026-07-13T19:45:04.543555",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 1.32,
-      "current_price": 7.5,
-      "unrealized_pct": 0.03304362198867778,
-      "unrealized_dollars": 0.34
+      "position_size_dollars": 10.41
     },
     {
       "ticker": "CPHC",
       "entry_price": 16.013,
-      "stop_loss_price": 14.81,
-      "profit_target_price": 17.5,
-      "position_size_dollars": 10.41,
-      "entry_timestamp": "2026-07-13T15:20:56.409271",
+      "exit_price": 16.0,
+      "exit_reason": "eod_close",
+      "pl_dollars": -0.01,
+      "pl_percent": -0.000812,
+      "exit_timestamp": "2026-07-13T19:45:04.216958",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 1.13,
-      "current_price": 16.0,
-      "unrealized_pct": -0.0008118403796916053,
-      "unrealized_dollars": -0.01
+      "position_size_dollars": 10.41
     },
     {
       "ticker": "CMND",
       "entry_price": 2.03,
-      "stop_loss_price": 1.86,
-      "profit_target_price": 2.84,
-      "position_size_dollars": 10.23,
-      "entry_timestamp": "2026-07-13T13:02:07.399638",
+      "exit_price": 2.025,
+      "exit_reason": "eod_close",
+      "pl_dollars": -0.03,
+      "pl_percent": -0.002463,
+      "exit_timestamp": "2026-07-13T19:45:03.876885",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 1.06,
-      "current_price": 2.025,
-      "unrealized_pct": -0.0024630541871920658,
-      "unrealized_dollars": -0.03
+      "position_size_dollars": 10.23
     },
     {
       "ticker": "BKHA",
       "entry_price": 11.96,
-      "stop_loss_price": 0.0,
-      "profit_target_price": 0.0,
-      "position_size_dollars": 10.23,
-      "entry_timestamp": "2026-07-13T13:02:07.362947",
+      "exit_price": 11.96,
+      "exit_reason": "eod_close",
+      "pl_dollars": 0,
+      "pl_percent": 0.0,
+      "exit_timestamp": "2026-07-13T19:45:03.521115",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 0.0,
-      "current_price": 11.96,
-      "unrealized_pct": 0.0,
-      "unrealized_dollars": null
+      "position_size_dollars": 10.23
     },
     {
       "ticker": "QXL",
       "entry_price": 5.09,
-      "stop_loss_price": 4.86,
-      "profit_target_price": 5.61,
-      "position_size_dollars": 10.23,
-      "entry_timestamp": "2026-07-13T13:02:07.315590",
+      "exit_price": 5.29,
+      "exit_reason": "eod_close",
+      "pl_dollars": 0.4,
+      "pl_percent": 0.039293,
+      "exit_timestamp": "2026-07-13T19:45:03.302274",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 1.54,
-      "current_price": 5.29,
-      "unrealized_pct": 0.03929273084479375,
-      "unrealized_dollars": 0.4
-    }
-  ],
-  "closed_trades": [
+      "position_size_dollars": 10.23
+    },
     {
       "ticker": "ELAB",
       "entry_price": 1.089,
@@ -576,72 +557,6 @@
       "exit_timestamp": "2026-06-24T16:00:04.592411",
       "setup_quality": "B",
       "position_size_dollars": 9.98
-    },
-    {
-      "ticker": "MBRX",
-      "entry_price": 2.58,
-      "exit_price": 2.88,
-      "exit_reason": "target_hit",
-      "pl_dollars": 1.14,
-      "pl_percent": 0.116279,
-      "exit_timestamp": "2026-06-24T14:30:03.584879",
-      "setup_quality": "B",
-      "position_size_dollars": 9.78
-    },
-    {
-      "ticker": "RDGT",
-      "entry_price": 1.73,
-      "exit_price": 1.5101,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -1.19,
-      "pl_percent": -0.12711,
-      "exit_timestamp": "2026-06-24T13:45:04.789403",
-      "setup_quality": "B",
-      "position_size_dollars": 9.36
-    },
-    {
-      "ticker": "VTAK",
-      "entry_price": 0.92,
-      "exit_price": 1.5386,
-      "exit_reason": "target_hit",
-      "pl_dollars": 6.29,
-      "pl_percent": 0.672391,
-      "exit_timestamp": "2026-06-24T13:45:04.347472",
-      "setup_quality": "B",
-      "position_size_dollars": 9.36
-    },
-    {
-      "ticker": "SNWV",
-      "entry_price": 8.6199,
-      "exit_price": 8.2,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -0.23,
-      "pl_percent": -0.048713,
-      "exit_timestamp": "2026-06-24T13:30:03.820479",
-      "setup_quality": "B",
-      "position_size_dollars": 4.64
-    },
-    {
-      "ticker": "RDGT",
-      "entry_price": 1.98,
-      "exit_price": 1.675,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -1.51,
-      "pl_percent": -0.15404,
-      "exit_timestamp": "2026-06-23T18:15:04.214906",
-      "setup_quality": "B",
-      "position_size_dollars": 9.78
-    },
-    {
-      "ticker": "FRGT",
-      "entry_price": 4.4,
-      "exit_price": 3.75,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -1.33,
-      "pl_percent": -0.147727,
-      "exit_timestamp": "2026-06-23T16:00:03.606352",
-      "setup_quality": "B",
-      "position_size_dollars": 8.99
     }
   ]
 }
