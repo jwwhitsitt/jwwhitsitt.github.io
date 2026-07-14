@@ -1,12 +1,97 @@
 {
-  "generated_at": "2026-07-14T09:00:04.470693-04:00",
+  "generated_at": "2026-07-14T09:15:07.389979-04:00",
   "summary": {
     "total_pl_dollars": 6.49,
     "wins": 16,
     "losses": 32,
-    "open_count": 0
+    "open_count": 6
   },
-  "open_trades": [],
+  "open_trades": [
+    {
+      "ticker": "VMAR",
+      "entry_price": 1.41,
+      "stop_loss_price": 1.16,
+      "profit_target_price": 2.04,
+      "position_size_dollars": 10.39,
+      "entry_timestamp": "2026-07-14T13:07:16.840168",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 2.52,
+      "current_price": 1.41,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
+    },
+    {
+      "ticker": "VTAK",
+      "entry_price": 0.6504,
+      "stop_loss_price": 0.62,
+      "profit_target_price": 0.74,
+      "position_size_dollars": 10.39,
+      "entry_timestamp": "2026-07-14T13:07:16.801406",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 2.95,
+      "current_price": 0.6504,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
+    },
+    {
+      "ticker": "PLUR",
+      "entry_price": 1.63,
+      "stop_loss_price": 1.6,
+      "profit_target_price": 1.91,
+      "position_size_dollars": 10.39,
+      "entry_timestamp": "2026-07-14T13:07:16.761925",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 9.33,
+      "current_price": 1.63,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
+    },
+    {
+      "ticker": "CISS",
+      "entry_price": 1.61,
+      "stop_loss_price": 1.57,
+      "profit_target_price": 1.8,
+      "position_size_dollars": 10.39,
+      "entry_timestamp": "2026-07-14T13:07:16.720235",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 4.75,
+      "current_price": 1.61,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
+    },
+    {
+      "ticker": "AMIX",
+      "entry_price": 5.75,
+      "stop_loss_price": 5.54,
+      "profit_target_price": 6.66,
+      "position_size_dollars": 10.39,
+      "entry_timestamp": "2026-07-14T13:07:16.692071",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 4.33,
+      "current_price": 5.75,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
+    },
+    {
+      "ticker": "PLRZ",
+      "entry_price": 13.86,
+      "stop_loss_price": 13.4,
+      "profit_target_price": 15.0643,
+      "position_size_dollars": 10.39,
+      "entry_timestamp": "2026-07-14T13:07:16.641904",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 2.62,
+      "current_price": 13.86,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
+    }
+  ],
   "closed_trades": [
     {
       "ticker": "BIVI",
