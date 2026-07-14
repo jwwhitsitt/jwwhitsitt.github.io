@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T11:45:06.753666-04:00",
+  "generated_at": "2026-07-14T12:00:06.636219-04:00",
   "summary": {
     "total_pl_dollars": 6.67,
     "wins": 16,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.13,
-      "current_price": 12.99,
-      "unrealized_pct": -0.006120887528691665,
-      "unrealized_dollars": -0.06
+      "current_price": 12.935,
+      "unrealized_pct": -0.010328997704667161,
+      "unrealized_dollars": -0.11
     },
     {
       "ticker": "NDRA",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.36,
-      "current_price": 5.4019,
-      "unrealized_pct": -0.005174953959484226,
-      "unrealized_dollars": -0.05
+      "current_price": 5.535,
+      "unrealized_pct": 0.019337016574585714,
+      "unrealized_dollars": 0.2
     },
     {
       "ticker": "VMAR",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.52,
-      "current_price": 1.59,
-      "unrealized_pct": 0.12765957446808524,
-      "unrealized_dollars": 1.33
+      "current_price": 1.595,
+      "unrealized_pct": 0.1312056737588653,
+      "unrealized_dollars": 1.36
     },
     {
       "ticker": "CISS",
