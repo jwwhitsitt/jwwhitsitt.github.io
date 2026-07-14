@@ -1,12 +1,68 @@
 {
-  "generated_at": "2026-07-14T11:00:06.160730-04:00",
+  "generated_at": "2026-07-14T11:15:07.988482-04:00",
   "summary": {
     "total_pl_dollars": 7.49,
     "wins": 17,
     "losses": 31,
-    "open_count": 3
+    "open_count": 7
   },
   "open_trades": [
+    {
+      "ticker": "RPT",
+      "entry_price": 13.07,
+      "stop_loss_price": 12.52,
+      "profit_target_price": 14.24,
+      "position_size_dollars": 10.29,
+      "entry_timestamp": "2026-07-14T15:06:45.603570",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 2.13,
+      "current_price": 13.05,
+      "unrealized_pct": -0.0015302218821728825,
+      "unrealized_dollars": -0.02
+    },
+    {
+      "ticker": "JTAI",
+      "entry_price": 3.9104,
+      "stop_loss_price": 3.8601,
+      "profit_target_price": 4.86,
+      "position_size_dollars": 10.36,
+      "entry_timestamp": "2026-07-14T15:06:45.568437",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 18.88,
+      "current_price": 3.8201,
+      "unrealized_pct": -0.023092266775777425,
+      "unrealized_dollars": -0.24
+    },
+    {
+      "ticker": "NDRA",
+      "entry_price": 5.43,
+      "stop_loss_price": 5.32,
+      "profit_target_price": 5.91,
+      "position_size_dollars": 10.36,
+      "entry_timestamp": "2026-07-14T15:06:45.528556",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 4.36,
+      "current_price": 5.43,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
+    },
+    {
+      "ticker": "PSQH",
+      "entry_price": 4.2791,
+      "stop_loss_price": 4.201,
+      "profit_target_price": 4.75,
+      "position_size_dollars": 10.36,
+      "entry_timestamp": "2026-07-14T15:06:45.491134",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 6.03,
+      "current_price": 4.2797,
+      "unrealized_pct": 0.0001402164006450838,
+      "unrealized_dollars": 0.0
+    },
     {
       "ticker": "VMAR",
       "entry_price": 1.41,
@@ -17,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.52,
-      "current_price": 1.54,
-      "unrealized_pct": 0.09219858156028378,
-      "unrealized_dollars": 0.96
+      "current_price": 1.59,
+      "unrealized_pct": 0.12765957446808524,
+      "unrealized_dollars": 1.33
     },
     {
       "ticker": "PLUR",
@@ -31,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 9.33,
-      "current_price": 1.6392,
-      "unrealized_pct": 0.005644171779141164,
-      "unrealized_dollars": 0.06
+      "current_price": 1.585,
+      "unrealized_pct": -0.027607361963190143,
+      "unrealized_dollars": -0.29
     },
     {
       "ticker": "CISS",
@@ -45,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.75,
-      "current_price": 1.61,
-      "unrealized_pct": 0.0,
-      "unrealized_dollars": null
+      "current_price": 1.59,
+      "unrealized_pct": -0.012422360248447215,
+      "unrealized_dollars": -0.13
     }
   ],
   "closed_trades": [
