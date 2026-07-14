@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T12:00:06.636219-04:00",
+  "generated_at": "2026-07-14T12:15:10.949441-04:00",
   "summary": {
     "total_pl_dollars": 6.67,
     "wins": 16,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.13,
-      "current_price": 12.935,
-      "unrealized_pct": -0.010328997704667161,
-      "unrealized_dollars": -0.11
+      "current_price": 12.98,
+      "unrealized_pct": -0.006885998469778107,
+      "unrealized_dollars": -0.07
     },
     {
       "ticker": "NDRA",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.52,
-      "current_price": 1.595,
-      "unrealized_pct": 0.1312056737588653,
-      "unrealized_dollars": 1.36
+      "current_price": 1.5287,
+      "unrealized_pct": 0.0841843971631206,
+      "unrealized_dollars": 0.87
     },
     {
       "ticker": "CISS",
