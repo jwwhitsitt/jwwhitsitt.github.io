@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T12:15:10.949441-04:00",
+  "generated_at": "2026-07-14T12:30:11.666256-04:00",
   "summary": {
     "total_pl_dollars": 6.67,
     "wins": 16,
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.52,
-      "current_price": 1.5287,
-      "unrealized_pct": 0.0841843971631206,
-      "unrealized_dollars": 0.87
+      "current_price": 1.47,
+      "unrealized_pct": 0.04255319148936174,
+      "unrealized_dollars": 0.44
     },
     {
       "ticker": "CISS",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.75,
-      "current_price": 1.61,
-      "unrealized_pct": 0.0,
-      "unrealized_dollars": null
+      "current_price": 1.6,
+      "unrealized_pct": -0.006211180124223607,
+      "unrealized_dollars": -0.06
     }
   ],
   "closed_trades": [
