@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T10:30:06.552606-04:00",
+  "generated_at": "2026-07-14T10:45:06.615885-04:00",
   "summary": {
     "total_pl_dollars": 6.49,
     "wins": 16,
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.95,
-      "current_price": 0.6504,
-      "unrealized_pct": 0.0,
-      "unrealized_dollars": null
+      "current_price": 0.6162,
+      "unrealized_pct": -0.05258302583025832,
+      "unrealized_dollars": -0.55
     },
     {
       "ticker": "PLUR",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.75,
-      "current_price": 1.61,
-      "unrealized_pct": 0.0,
-      "unrealized_dollars": null
+      "current_price": 1.6013,
+      "unrealized_pct": -0.005403726708074629,
+      "unrealized_dollars": -0.06
     },
     {
       "ticker": "AMIX",
