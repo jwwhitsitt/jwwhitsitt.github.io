@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T10:45:04.382482-04:00",
+  "generated_at": "2026-07-16T11:00:04.083914-04:00",
   "summary": {
     "total_pl_dollars": 4.34,
     "wins": 15,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.75,
-      "current_price": 1.72,
-      "unrealized_pct": 0.06832298136645955,
-      "unrealized_dollars": 0.71
+      "current_price": 1.75,
+      "unrealized_pct": 0.08695652173913036,
+      "unrealized_dollars": 0.9
     }
   ],
   "closed_trades": [
