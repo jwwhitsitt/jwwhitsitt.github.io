@@ -1,40 +1,12 @@
 {
-  "generated_at": "2026-07-16T09:45:04.382314-04:00",
+  "generated_at": "2026-07-16T10:00:05.146140-04:00",
   "summary": {
-    "total_pl_dollars": 7.46,
-    "wins": 16,
-    "losses": 32,
-    "open_count": 3
+    "total_pl_dollars": 4.34,
+    "wins": 15,
+    "losses": 33,
+    "open_count": 1
   },
   "open_trades": [
-    {
-      "ticker": "NDRA",
-      "entry_price": 5.43,
-      "stop_loss_price": 5.32,
-      "profit_target_price": 5.91,
-      "position_size_dollars": 10.36,
-      "entry_timestamp": "2026-07-14T15:06:45.528556",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 4.36,
-      "current_price": 5.21,
-      "unrealized_pct": -0.04051565377532224,
-      "unrealized_dollars": -0.42
-    },
-    {
-      "ticker": "VMAR",
-      "entry_price": 1.41,
-      "stop_loss_price": 1.16,
-      "profit_target_price": 2.04,
-      "position_size_dollars": 10.39,
-      "entry_timestamp": "2026-07-14T13:07:16.840168",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 2.52,
-      "current_price": 1.2095,
-      "unrealized_pct": -0.14219858156028362,
-      "unrealized_dollars": -1.48
-    },
     {
       "ticker": "CISS",
       "entry_price": 1.61,
@@ -45,12 +17,34 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.75,
-      "current_price": 1.71,
-      "unrealized_pct": 0.06211180124223594,
-      "unrealized_dollars": 0.65
+      "current_price": 1.68,
+      "unrealized_pct": 0.04347826086956511,
+      "unrealized_dollars": 0.45
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "VMAR",
+      "entry_price": 1.41,
+      "exit_price": 1.115,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -2.17,
+      "pl_percent": -0.20922,
+      "exit_timestamp": "2026-07-16T14:00:04.054061",
+      "setup_quality": "B",
+      "position_size_dollars": 10.39
+    },
+    {
+      "ticker": "NDRA",
+      "entry_price": 5.43,
+      "exit_price": 5.21,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.42,
+      "pl_percent": -0.040516,
+      "exit_timestamp": "2026-07-16T13:45:04.805968",
+      "setup_quality": "B",
+      "position_size_dollars": 10.36
+    },
     {
       "ticker": "RPT",
       "entry_price": 13.07,
@@ -578,28 +572,6 @@
       "exit_timestamp": "2026-06-26T16:00:00",
       "setup_quality": "B",
       "position_size_dollars": 9.36
-    },
-    {
-      "ticker": "DFSC",
-      "entry_price": 2.12,
-      "exit_price": 2.01,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -0.5,
-      "pl_percent": -0.051887,
-      "exit_timestamp": "2026-06-26T13:45:05.507705",
-      "setup_quality": "B",
-      "position_size_dollars": 9.61
-    },
-    {
-      "ticker": "MODD",
-      "entry_price": 4.195,
-      "exit_price": 5.18,
-      "exit_reason": "target_hit",
-      "pl_dollars": 1.02,
-      "pl_percent": 0.234803,
-      "exit_timestamp": "2026-06-26T13:45:05.210194",
-      "setup_quality": "B",
-      "position_size_dollars": 4.34
     }
   ]
 }
