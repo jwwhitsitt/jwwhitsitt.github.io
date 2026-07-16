@@ -1,28 +1,24 @@
 {
-  "generated_at": "2026-07-16T11:15:04.243677-04:00",
+  "generated_at": "2026-07-16T11:30:03.482763-04:00",
   "summary": {
-    "total_pl_dollars": 4.34,
-    "wins": 15,
-    "losses": 33,
-    "open_count": 1
+    "total_pl_dollars": 7.1,
+    "wins": 16,
+    "losses": 32,
+    "open_count": 0
   },
-  "open_trades": [
+  "open_trades": [],
+  "closed_trades": [
     {
       "ticker": "CISS",
       "entry_price": 1.61,
-      "stop_loss_price": 1.57,
-      "profit_target_price": 1.8,
-      "position_size_dollars": 10.39,
-      "entry_timestamp": "2026-07-14T13:07:16.720235",
+      "exit_price": 1.81,
+      "exit_reason": "target_hit",
+      "pl_dollars": 1.29,
+      "pl_percent": 0.124224,
+      "exit_timestamp": "2026-07-16T15:15:03.260064",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 4.75,
-      "current_price": 1.81,
-      "unrealized_pct": 0.12422360248447202,
-      "unrealized_dollars": 1.29
-    }
-  ],
-  "closed_trades": [
+      "position_size_dollars": 10.39
+    },
     {
       "ticker": "VMAR",
       "entry_price": 1.41,
@@ -561,17 +557,6 @@
       "exit_timestamp": "2026-06-26T19:45:03.535710",
       "setup_quality": "B",
       "position_size_dollars": 3.56
-    },
-    {
-      "ticker": "ORIS",
-      "entry_price": 1.83,
-      "exit_price": 1.5422,
-      "exit_reason": "stop_loss_hit",
-      "pl_dollars": -1.47,
-      "pl_percent": -15.726775956284156,
-      "exit_timestamp": "2026-06-26T16:00:00",
-      "setup_quality": "B",
-      "position_size_dollars": 9.36
     }
   ]
 }
