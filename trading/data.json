@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T05:15:04.664809-04:00",
+  "generated_at": "2026-07-18T05:30:04.055888-04:00",
   "summary": {
     "total_pl_dollars": 7.1,
     "wins": 16,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.48,
-      "current_price": null,
-      "unrealized_pct": null,
-      "unrealized_dollars": null
+      "current_price": 4.14,
+      "unrealized_pct": -0.007170435741864429,
+      "unrealized_dollars": -0.04
     },
     {
       "ticker": "BIYA",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.48,
-      "current_price": null,
-      "unrealized_pct": null,
-      "unrealized_dollars": null
+      "current_price": 4.14,
+      "unrealized_pct": -0.007170435741864429,
+      "unrealized_dollars": -35.85
     },
     {
       "ticker": "GNPX",
