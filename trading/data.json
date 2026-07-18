@@ -1,125 +1,12 @@
 {
-  "generated_at": "2026-07-18T13:00:04.761654-04:00",
+  "generated_at": "2026-07-18T13:15:02.892463-04:00",
   "summary": {
     "total_pl_dollars": 7.1,
     "wins": 16,
     "losses": 32,
-    "open_count": 8
+    "open_count": 0
   },
-  "open_trades": [
-    {
-      "ticker": "BIYA",
-      "entry_price": 4.1699,
-      "stop_loss_price": 3.92,
-      "profit_target_price": 4.79,
-      "position_size_dollars": 5.0,
-      "entry_timestamp": "2026-07-18T00:28:12.247568",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 2.48,
-      "current_price": 4.14,
-      "unrealized_pct": -0.007170435741864429,
-      "unrealized_dollars": -0.04
-    },
-    {
-      "ticker": "BIYA",
-      "entry_price": 4.1699,
-      "stop_loss_price": 3.92,
-      "profit_target_price": 4.79,
-      "position_size_dollars": 5000.0,
-      "entry_timestamp": "2026-07-18T00:28:01.744298",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 2.48,
-      "current_price": 4.14,
-      "unrealized_pct": -0.007170435741864429,
-      "unrealized_dollars": -35.85
-    },
-    {
-      "ticker": "GNPX",
-      "entry_price": 7.1,
-      "stop_loss_price": 7.01,
-      "profit_target_price": 7.94,
-      "position_size_dollars": 5.0,
-      "entry_timestamp": "2026-07-18T00:27:51.986515",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 9.33,
-      "current_price": 7.67,
-      "unrealized_pct": 0.08028169014084512,
-      "unrealized_dollars": 0.4
-    },
-    {
-      "ticker": "VIVK",
-      "entry_price": 2.315,
-      "stop_loss_price": 2.1134,
-      "profit_target_price": 4.1826,
-      "position_size_dollars": 5.0,
-      "entry_timestamp": "2026-07-18T00:27:51.144252",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 9.26,
-      "current_price": 2.26,
-      "unrealized_pct": -0.023758099352051906,
-      "unrealized_dollars": -0.12
-    },
-    {
-      "ticker": "GNPX",
-      "entry_price": 7.1,
-      "stop_loss_price": 7.01,
-      "profit_target_price": 7.94,
-      "position_size_dollars": 5000.0,
-      "entry_timestamp": "2026-07-18T00:27:41.496332",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 9.33,
-      "current_price": 7.67,
-      "unrealized_pct": 0.08028169014084512,
-      "unrealized_dollars": 401.41
-    },
-    {
-      "ticker": "VIVK",
-      "entry_price": 2.315,
-      "stop_loss_price": 2.1134,
-      "profit_target_price": 4.1826,
-      "position_size_dollars": 5000.0,
-      "entry_timestamp": "2026-07-18T00:27:40.426394",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 9.26,
-      "current_price": 2.26,
-      "unrealized_pct": -0.023758099352051906,
-      "unrealized_dollars": -118.79
-    },
-    {
-      "ticker": "VIVK",
-      "entry_price": 2.1976,
-      "stop_loss_price": 2.1134,
-      "profit_target_price": 4.1826,
-      "position_size_dollars": 5.0,
-      "entry_timestamp": "2026-07-18T00:25:57.524394",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 23.57,
-      "current_price": 2.26,
-      "unrealized_pct": 0.028394612304331903,
-      "unrealized_dollars": 0.14
-    },
-    {
-      "ticker": "VIVK",
-      "entry_price": 2.1976,
-      "stop_loss_price": 2.1134,
-      "profit_target_price": 4.1826,
-      "position_size_dollars": 5000.0,
-      "entry_timestamp": "2026-07-18T00:25:46.764794",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 23.57,
-      "current_price": 2.26,
-      "unrealized_pct": 0.028394612304331903,
-      "unrealized_dollars": 141.97
-    }
-  ],
+  "open_trades": [],
   "closed_trades": [
     {
       "ticker": "CISS",
