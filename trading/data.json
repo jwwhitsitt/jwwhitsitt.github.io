@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T14:30:04.870623-04:00",
+  "generated_at": "2026-07-20T14:45:04.105833-04:00",
   "summary": {
     "total_pl_dollars": -1752.6,
     "wins": 16,
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.84,
-      "current_price": 1.9403,
-      "unrealized_pct": -0.029850000000000043,
-      "unrealized_dollars": -0.15
+      "current_price": 1.9,
+      "unrealized_pct": -0.050000000000000044,
+      "unrealized_dollars": -0.25
     },
     {
       "ticker": "BAOS",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.84,
-      "current_price": 1.9403,
-      "unrealized_pct": -0.029850000000000043,
-      "unrealized_dollars": -149.18
+      "current_price": 1.9,
+      "unrealized_pct": -0.050000000000000044,
+      "unrealized_dollars": -249.88
     }
   ],
   "closed_trades": [
