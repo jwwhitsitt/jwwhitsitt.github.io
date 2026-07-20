@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T14:45:04.105833-04:00",
+  "generated_at": "2026-07-20T15:00:04.212385-04:00",
   "summary": {
     "total_pl_dollars": -1752.6,
     "wins": 16,
@@ -17,8 +17,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 12.5,
-      "current_price": 1.43,
-      "unrealized_pct": -0.006944444444444451,
+      "current_price": 1.4306,
+      "unrealized_pct": -0.006527777777777676,
       "unrealized_dollars": -0.03
     },
     {
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 12.5,
-      "current_price": 1.43,
-      "unrealized_pct": -0.006944444444444451,
-      "unrealized_dollars": -34.71
+      "current_price": 1.4306,
+      "unrealized_pct": -0.006527777777777676,
+      "unrealized_dollars": -32.62
     },
     {
       "ticker": "BAOS",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.84,
-      "current_price": 1.9,
-      "unrealized_pct": -0.050000000000000044,
-      "unrealized_dollars": -0.25
+      "current_price": 1.895,
+      "unrealized_pct": -0.05249999999999999,
+      "unrealized_dollars": -0.26
     },
     {
       "ticker": "BAOS",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.84,
-      "current_price": 1.9,
-      "unrealized_pct": -0.050000000000000044,
-      "unrealized_dollars": -249.88
+      "current_price": 1.895,
+      "unrealized_pct": -0.05249999999999999,
+      "unrealized_dollars": -262.37
     }
   ],
   "closed_trades": [
