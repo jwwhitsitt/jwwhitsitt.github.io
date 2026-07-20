@@ -1,70 +1,57 @@
 {
-  "generated_at": "2026-07-20T15:45:04.126650-04:00",
+  "generated_at": "2026-07-20T16:00:03.252157-04:00",
   "summary": {
-    "total_pl_dollars": -1752.6,
-    "wins": 16,
-    "losses": 32,
-    "open_count": 4
+    "total_pl_dollars": -1787.55,
+    "wins": 18,
+    "losses": 30,
+    "open_count": 0
   },
-  "open_trades": [
-    {
-      "ticker": "GVH",
-      "entry_price": 1.44,
-      "stop_loss_price": 1.36,
-      "profit_target_price": 2.44,
-      "position_size_dollars": 5.0,
-      "entry_timestamp": "2026-07-20T17:16:29.517641",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 12.5,
-      "current_price": 1.4997,
-      "unrealized_pct": 0.041458333333333396,
-      "unrealized_dollars": 0.21
-    },
-    {
-      "ticker": "GVH",
-      "entry_price": 1.44,
-      "stop_loss_price": 1.36,
-      "profit_target_price": 2.44,
-      "position_size_dollars": 4997.53,
-      "entry_timestamp": "2026-07-20T17:16:18.802182",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 12.5,
-      "current_price": 1.4997,
-      "unrealized_pct": 0.041458333333333396,
-      "unrealized_dollars": 207.19
-    },
-    {
-      "ticker": "BAOS",
-      "entry_price": 2.0,
-      "stop_loss_price": 1.8204,
-      "profit_target_price": 2.69,
-      "position_size_dollars": 5.0,
-      "entry_timestamp": "2026-07-20T17:16:08.095024",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 3.84,
-      "current_price": 1.93,
-      "unrealized_pct": -0.03500000000000003,
-      "unrealized_dollars": -0.18
-    },
-    {
-      "ticker": "BAOS",
-      "entry_price": 2.0,
-      "stop_loss_price": 1.8204,
-      "profit_target_price": 2.69,
-      "position_size_dollars": 4997.53,
-      "entry_timestamp": "2026-07-20T17:15:57.294680",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 3.84,
-      "current_price": 1.93,
-      "unrealized_pct": -0.03500000000000003,
-      "unrealized_dollars": -174.91
-    }
-  ],
+  "open_trades": [],
   "closed_trades": [
+    {
+      "ticker": "GVH",
+      "entry_price": 1.44,
+      "exit_price": 1.47,
+      "exit_reason": "eod_close",
+      "pl_dollars": 0.1,
+      "pl_percent": 0.020833,
+      "exit_timestamp": "2026-07-20T19:45:35.166935",
+      "setup_quality": "B",
+      "position_size_dollars": 5.0
+    },
+    {
+      "ticker": "GVH",
+      "entry_price": 1.44,
+      "exit_price": 1.4795,
+      "exit_reason": "eod_close",
+      "pl_dollars": 137.09,
+      "pl_percent": 0.027431,
+      "exit_timestamp": "2026-07-20T19:45:24.697255",
+      "setup_quality": "B",
+      "position_size_dollars": 4997.53
+    },
+    {
+      "ticker": "BAOS",
+      "entry_price": 2.0,
+      "exit_price": 1.93,
+      "exit_reason": "eod_close",
+      "pl_dollars": -0.17,
+      "pl_percent": -0.035,
+      "exit_timestamp": "2026-07-20T19:45:13.971869",
+      "setup_quality": "B",
+      "position_size_dollars": 5.0
+    },
+    {
+      "ticker": "BAOS",
+      "entry_price": 2.0,
+      "exit_price": 1.93,
+      "exit_reason": "eod_close",
+      "pl_dollars": -174.91,
+      "pl_percent": -0.035,
+      "exit_timestamp": "2026-07-20T19:45:03.262150",
+      "setup_quality": "B",
+      "position_size_dollars": 4997.53
+    },
     {
       "ticker": "BIYA",
       "entry_price": 7.78,
@@ -570,50 +557,6 @@
       "exit_timestamp": "2026-06-29T16:00:04.708156",
       "setup_quality": "B",
       "position_size_dollars": 9.3
-    },
-    {
-      "ticker": "EVI",
-      "entry_price": 14.5,
-      "exit_price": 14.095,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -0.27,
-      "pl_percent": -0.027931,
-      "exit_timestamp": "2026-06-29T14:30:03.932425",
-      "setup_quality": "B",
-      "position_size_dollars": 9.59
-    },
-    {
-      "ticker": "SEAT",
-      "entry_price": 6.36,
-      "exit_price": 6.0899,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -0.09,
-      "pl_percent": -0.042469,
-      "exit_timestamp": "2026-06-29T14:15:05.014175",
-      "setup_quality": "B",
-      "position_size_dollars": 2.22
-    },
-    {
-      "ticker": "EHGO",
-      "entry_price": 3.7,
-      "exit_price": 3.025,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -1.78,
-      "pl_percent": -0.182432,
-      "exit_timestamp": "2026-06-29T13:45:03.325349",
-      "setup_quality": "B",
-      "position_size_dollars": 9.76
-    },
-    {
-      "ticker": "PRFX",
-      "entry_price": 1.55,
-      "exit_price": 1.41,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -0.81,
-      "pl_percent": -0.090323,
-      "exit_timestamp": "2026-06-29T13:30:03.826537",
-      "setup_quality": "B",
-      "position_size_dollars": 8.92
     }
   ]
 }
