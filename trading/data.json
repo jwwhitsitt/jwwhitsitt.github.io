@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T15:00:04.212385-04:00",
+  "generated_at": "2026-07-20T15:15:04.308745-04:00",
   "summary": {
     "total_pl_dollars": -1752.6,
     "wins": 16,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 12.5,
-      "current_price": 1.4306,
-      "unrealized_pct": -0.006527777777777676,
-      "unrealized_dollars": -0.03
+      "current_price": 1.4,
+      "unrealized_pct": -0.027777777777777804,
+      "unrealized_dollars": -0.14
     },
     {
       "ticker": "GVH",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 12.5,
-      "current_price": 1.4306,
-      "unrealized_pct": -0.006527777777777676,
-      "unrealized_dollars": -32.62
+      "current_price": 1.4,
+      "unrealized_pct": -0.027777777777777804,
+      "unrealized_dollars": -138.82
     },
     {
       "ticker": "BAOS",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.84,
-      "current_price": 1.895,
-      "unrealized_pct": -0.05249999999999999,
-      "unrealized_dollars": -0.26
+      "current_price": 1.91,
+      "unrealized_pct": -0.04500000000000004,
+      "unrealized_dollars": -0.23
     },
     {
       "ticker": "BAOS",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.84,
-      "current_price": 1.895,
-      "unrealized_pct": -0.05249999999999999,
-      "unrealized_dollars": -262.37
+      "current_price": 1.91,
+      "unrealized_pct": -0.04500000000000004,
+      "unrealized_dollars": -224.89
     }
   ],
   "closed_trades": [
