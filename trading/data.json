@@ -1,12 +1,69 @@
 {
-  "generated_at": "2026-07-20T13:15:02.736415-04:00",
+  "generated_at": "2026-07-20T13:30:04.726980-04:00",
   "summary": {
     "total_pl_dollars": -1752.6,
     "wins": 16,
     "losses": 32,
-    "open_count": 0
+    "open_count": 4
   },
-  "open_trades": [],
+  "open_trades": [
+    {
+      "ticker": "GVH",
+      "entry_price": 1.44,
+      "stop_loss_price": 1.36,
+      "profit_target_price": 2.44,
+      "position_size_dollars": 5.0,
+      "entry_timestamp": "2026-07-20T17:16:29.517641",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 12.5,
+      "current_price": 1.43,
+      "unrealized_pct": -0.006944444444444451,
+      "unrealized_dollars": -0.03
+    },
+    {
+      "ticker": "GVH",
+      "entry_price": 1.44,
+      "stop_loss_price": 1.36,
+      "profit_target_price": 2.44,
+      "position_size_dollars": 4997.53,
+      "entry_timestamp": "2026-07-20T17:16:18.802182",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 12.5,
+      "current_price": 1.43,
+      "unrealized_pct": -0.006944444444444451,
+      "unrealized_dollars": -34.71
+    },
+    {
+      "ticker": "BAOS",
+      "entry_price": 2.0,
+      "stop_loss_price": 1.8204,
+      "profit_target_price": 2.69,
+      "position_size_dollars": 5.0,
+      "entry_timestamp": "2026-07-20T17:16:08.095024",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 3.84,
+      "current_price": 1.905,
+      "unrealized_pct": -0.04749999999999999,
+      "unrealized_dollars": -0.24
+    },
+    {
+      "ticker": "BAOS",
+      "entry_price": 2.0,
+      "stop_loss_price": 1.8204,
+      "profit_target_price": 2.69,
+      "position_size_dollars": 4997.53,
+      "entry_timestamp": "2026-07-20T17:15:57.294680",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 3.84,
+      "current_price": 1.905,
+      "unrealized_pct": -0.04749999999999999,
+      "unrealized_dollars": -237.38
+    }
+  ],
   "closed_trades": [
     {
       "ticker": "BIYA",
