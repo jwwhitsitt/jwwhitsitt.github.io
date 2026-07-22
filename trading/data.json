@@ -1,12 +1,41 @@
 {
-  "generated_at": "2026-07-22T11:00:03.010698-04:00",
+  "generated_at": "2026-07-22T11:15:04.758933-04:00",
   "summary": {
     "total_pl_dollars": -1787.55,
     "wins": 18,
     "losses": 30,
-    "open_count": 0
+    "open_count": 2
   },
-  "open_trades": [],
+  "open_trades": [
+    {
+      "ticker": "INM",
+      "entry_price": 1.88,
+      "stop_loss_price": 1.85,
+      "profit_target_price": 2.33,
+      "position_size_dollars": 4.99,
+      "entry_timestamp": "2026-07-22T15:02:02.178420",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 15.0,
+      "current_price": 1.875,
+      "unrealized_pct": -0.00265957446808505,
+      "unrealized_dollars": -0.01
+    },
+    {
+      "ticker": "INM",
+      "entry_price": 1.88,
+      "stop_loss_price": 1.85,
+      "profit_target_price": 2.33,
+      "position_size_dollars": 4988.73,
+      "entry_timestamp": "2026-07-22T15:01:51.371601",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 15.0,
+      "current_price": 1.875,
+      "unrealized_pct": -0.00265957446808505,
+      "unrealized_dollars": -13.27
+    }
+  ],
   "closed_trades": [
     {
       "ticker": "GVH",
