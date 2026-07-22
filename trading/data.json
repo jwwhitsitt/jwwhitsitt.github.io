@@ -1,42 +1,35 @@
 {
-  "generated_at": "2026-07-22T11:45:03.968623-04:00",
+  "generated_at": "2026-07-22T12:00:03.638968-04:00",
   "summary": {
-    "total_pl_dollars": -1787.55,
-    "wins": 18,
-    "losses": 30,
-    "open_count": 2
+    "total_pl_dollars": -2065.6,
+    "wins": 17,
+    "losses": 31,
+    "open_count": 0
   },
-  "open_trades": [
+  "open_trades": [],
+  "closed_trades": [
     {
       "ticker": "INM",
       "entry_price": 1.88,
-      "stop_loss_price": 1.85,
-      "profit_target_price": 2.33,
-      "position_size_dollars": 4.99,
-      "entry_timestamp": "2026-07-22T15:02:02.178420",
+      "exit_price": 1.775,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.28,
+      "pl_percent": -0.055851,
+      "exit_timestamp": "2026-07-22T15:45:14.016854",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 15.0,
-      "current_price": 1.771,
-      "unrealized_pct": -0.05797872340425531,
-      "unrealized_dollars": -0.29
+      "position_size_dollars": 4.99
     },
     {
       "ticker": "INM",
       "entry_price": 1.88,
-      "stop_loss_price": 1.85,
-      "profit_target_price": 2.33,
-      "position_size_dollars": 4988.73,
-      "entry_timestamp": "2026-07-22T15:01:51.371601",
+      "exit_price": 1.775,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -278.63,
+      "pl_percent": -0.055851,
+      "exit_timestamp": "2026-07-22T15:45:03.278299",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 15.0,
-      "current_price": 1.771,
-      "unrealized_pct": -0.05797872340425531,
-      "unrealized_dollars": -289.24
-    }
-  ],
-  "closed_trades": [
+      "position_size_dollars": 4988.73
+    },
     {
       "ticker": "GVH",
       "entry_price": 1.44,
@@ -564,28 +557,6 @@
       "exit_timestamp": "2026-06-29T17:15:04.074128",
       "setup_quality": "B",
       "position_size_dollars": 9.21
-    },
-    {
-      "ticker": "OPTH",
-      "entry_price": 4.0724,
-      "exit_price": 4.375,
-      "exit_reason": "target_hit",
-      "pl_dollars": 0.72,
-      "pl_percent": 0.074305,
-      "exit_timestamp": "2026-06-29T16:15:03.821115",
-      "setup_quality": "B",
-      "position_size_dollars": 9.67
-    },
-    {
-      "ticker": "UPC",
-      "entry_price": 12.935,
-      "exit_price": 10.745,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -1.57,
-      "pl_percent": -0.169308,
-      "exit_timestamp": "2026-06-29T16:00:04.708156",
-      "setup_quality": "B",
-      "position_size_dollars": 9.3
     }
   ]
 }
