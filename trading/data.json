@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T11:30:03.876252-04:00",
+  "generated_at": "2026-07-22T11:45:03.968623-04:00",
   "summary": {
     "total_pl_dollars": -1787.55,
     "wins": 18,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 15.0,
-      "current_price": 1.921,
-      "unrealized_pct": 0.021808510638297952,
-      "unrealized_dollars": 0.11
+      "current_price": 1.771,
+      "unrealized_pct": -0.05797872340425531,
+      "unrealized_dollars": -0.29
     },
     {
       "ticker": "INM",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 15.0,
-      "current_price": 1.921,
-      "unrealized_pct": 0.021808510638297952,
-      "unrealized_dollars": 108.8
+      "current_price": 1.771,
+      "unrealized_pct": -0.05797872340425531,
+      "unrealized_dollars": -289.24
     }
   ],
   "closed_trades": [
