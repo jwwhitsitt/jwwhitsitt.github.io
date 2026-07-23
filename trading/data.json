@@ -1,12 +1,69 @@
 {
-  "generated_at": "2026-07-23T09:30:03.823058-04:00",
+  "generated_at": "2026-07-23T09:45:04.968809-04:00",
   "summary": {
     "total_pl_dollars": -2065.6,
     "wins": 17,
     "losses": 31,
-    "open_count": 0
+    "open_count": 4
   },
-  "open_trades": [],
+  "open_trades": [
+    {
+      "ticker": "WBUY",
+      "entry_price": 1.22,
+      "stop_loss_price": 1.19,
+      "profit_target_price": 1.35,
+      "position_size_dollars": 4.95,
+      "entry_timestamp": "2026-07-23T13:33:56.159286",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 4.33,
+      "current_price": 1.245,
+      "unrealized_pct": 0.020491803278688634,
+      "unrealized_dollars": 0.1
+    },
+    {
+      "ticker": "WBUY",
+      "entry_price": 1.22,
+      "stop_loss_price": 1.19,
+      "profit_target_price": 1.35,
+      "position_size_dollars": 4970.94,
+      "entry_timestamp": "2026-07-23T13:33:45.545045",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 4.33,
+      "current_price": 1.245,
+      "unrealized_pct": 0.020491803278688634,
+      "unrealized_dollars": 101.86
+    },
+    {
+      "ticker": "NEUP",
+      "entry_price": 3.7102,
+      "stop_loss_price": 3.34,
+      "profit_target_price": 4.5,
+      "position_size_dollars": 4.96,
+      "entry_timestamp": "2026-07-23T13:33:34.964752",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.04,
+      "current_price": 3.7895,
+      "unrealized_pct": 0.021373510861948122,
+      "unrealized_dollars": 0.11
+    },
+    {
+      "ticker": "NEUP",
+      "entry_price": 3.7102,
+      "stop_loss_price": 3.34,
+      "profit_target_price": 4.5,
+      "position_size_dollars": 4971.67,
+      "entry_timestamp": "2026-07-23T13:33:24.413878",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.04,
+      "current_price": 3.7895,
+      "unrealized_pct": 0.021373510861948122,
+      "unrealized_dollars": 106.26
+    }
+  ],
   "closed_trades": [
     {
       "ticker": "INM",
