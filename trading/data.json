@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T10:15:04.466664-04:00",
+  "generated_at": "2026-07-23T10:30:03.959397-04:00",
   "summary": {
     "total_pl_dollars": -2840.55,
     "wins": 16,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.04,
-      "current_price": 4.04,
-      "unrealized_pct": 0.08889008678777427,
-      "unrealized_dollars": 0.44
+      "current_price": 3.975,
+      "unrealized_pct": 0.07137081558945614,
+      "unrealized_dollars": 0.35
     },
     {
       "ticker": "NEUP",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.04,
-      "current_price": 4.04,
-      "unrealized_pct": 0.08889008678777427,
-      "unrealized_dollars": 441.93
+      "current_price": 3.975,
+      "unrealized_pct": 0.07137081558945614,
+      "unrealized_dollars": 354.83
     }
   ],
   "closed_trades": [
