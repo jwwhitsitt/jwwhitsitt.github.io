@@ -1,12 +1,40 @@
 {
-  "generated_at": "2026-07-23T15:00:06.087355-04:00",
+  "generated_at": "2026-07-23T15:15:10.694884-04:00",
   "summary": {
     "total_pl_dollars": -2840.55,
     "wins": 16,
     "losses": 33,
-    "open_count": 6
+    "open_count": 8
   },
   "open_trades": [
+    {
+      "ticker": "NVVE",
+      "entry_price": 3.14,
+      "stop_loss_price": 2.51,
+      "profit_target_price": 10.5,
+      "position_size_dollars": 5.03,
+      "entry_timestamp": "2026-07-23T19:01:15.404843",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 11.68,
+      "current_price": 3.115,
+      "unrealized_pct": -0.007961783439490418,
+      "unrealized_dollars": -0.04
+    },
+    {
+      "ticker": "NVVE",
+      "entry_price": 3.14,
+      "stop_loss_price": 2.51,
+      "profit_target_price": 10.5,
+      "position_size_dollars": 5023.58,
+      "entry_timestamp": "2026-07-23T19:01:04.611725",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 11.68,
+      "current_price": 3.115,
+      "unrealized_pct": -0.007961783439490418,
+      "unrealized_dollars": -40.0
+    },
     {
       "ticker": "WLDS",
       "entry_price": 1.8,
@@ -17,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.78,
-      "current_price": 2.2572,
-      "unrealized_pct": 0.254,
-      "unrealized_dollars": 1.25
+      "current_price": 2.3801,
+      "unrealized_pct": 0.32227777777777783,
+      "unrealized_dollars": 1.59
     },
     {
       "ticker": "WLDS",
@@ -31,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.78,
-      "current_price": 2.2572,
-      "unrealized_pct": 0.254,
-      "unrealized_dollars": 1259.69
+      "current_price": 2.3801,
+      "unrealized_pct": 0.32227777777777783,
+      "unrealized_dollars": 1598.3
     },
     {
       "ticker": "MODD",
@@ -45,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.2,
-      "current_price": 3.06,
-      "unrealized_pct": 0.03728813559322029,
-      "unrealized_dollars": 0.18
+      "current_price": 3.01,
+      "unrealized_pct": 0.020338983050847324,
+      "unrealized_dollars": 0.1
     },
     {
       "ticker": "MODD",
@@ -59,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.2,
-      "current_price": 3.06,
-      "unrealized_pct": 0.03728813559322029,
-      "unrealized_dollars": 185.13
+      "current_price": 3.01,
+      "unrealized_pct": 0.020338983050847324,
+      "unrealized_dollars": 100.98
     },
     {
       "ticker": "NEUP",
@@ -73,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.04,
-      "current_price": 3.91,
-      "unrealized_pct": 0.053851544391138,
-      "unrealized_dollars": 0.27
+      "current_price": 3.9,
+      "unrealized_pct": 0.05115627189908899,
+      "unrealized_dollars": 0.25
     },
     {
       "ticker": "NEUP",
@@ -87,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.04,
-      "current_price": 3.91,
-      "unrealized_pct": 0.053851544391138,
-      "unrealized_dollars": 267.73
+      "current_price": 3.9,
+      "unrealized_pct": 0.05115627189908899,
+      "unrealized_dollars": 254.33
     }
   ],
   "closed_trades": [
