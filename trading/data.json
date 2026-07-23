@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T15:15:10.694884-04:00",
+  "generated_at": "2026-07-23T15:30:06.314473-04:00",
   "summary": {
     "total_pl_dollars": -2840.55,
     "wins": 16,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 11.68,
-      "current_price": 3.115,
-      "unrealized_pct": -0.007961783439490418,
-      "unrealized_dollars": -0.04
+      "current_price": 3.19,
+      "unrealized_pct": 0.015923566878980836,
+      "unrealized_dollars": 0.08
     },
     {
       "ticker": "NVVE",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 11.68,
-      "current_price": 3.115,
-      "unrealized_pct": -0.007961783439490418,
-      "unrealized_dollars": -40.0
+      "current_price": 3.19,
+      "unrealized_pct": 0.015923566878980836,
+      "unrealized_dollars": 79.99
     },
     {
       "ticker": "WLDS",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.78,
-      "current_price": 2.3801,
-      "unrealized_pct": 0.32227777777777783,
-      "unrealized_dollars": 1.59
+      "current_price": 2.2735,
+      "unrealized_pct": 0.26305555555555543,
+      "unrealized_dollars": 1.3
     },
     {
       "ticker": "WLDS",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.78,
-      "current_price": 2.3801,
-      "unrealized_pct": 0.32227777777777783,
-      "unrealized_dollars": 1598.3
+      "current_price": 2.2735,
+      "unrealized_pct": 0.26305555555555543,
+      "unrealized_dollars": 1304.6
     },
     {
       "ticker": "MODD",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.2,
-      "current_price": 3.01,
-      "unrealized_pct": 0.020338983050847324,
-      "unrealized_dollars": 0.1
+      "current_price": 3.0343,
+      "unrealized_pct": 0.028576271186440617,
+      "unrealized_dollars": 0.14
     },
     {
       "ticker": "MODD",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.2,
-      "current_price": 3.01,
-      "unrealized_pct": 0.020338983050847324,
-      "unrealized_dollars": 100.98
+      "current_price": 3.0343,
+      "unrealized_pct": 0.028576271186440617,
+      "unrealized_dollars": 141.88
     },
     {
       "ticker": "NEUP",
@@ -101,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.04,
-      "current_price": 3.9,
-      "unrealized_pct": 0.05115627189908899,
-      "unrealized_dollars": 0.25
+      "current_price": 3.89,
+      "unrealized_pct": 0.0484609994070401,
+      "unrealized_dollars": 0.24
     },
     {
       "ticker": "NEUP",
@@ -115,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.04,
-      "current_price": 3.9,
-      "unrealized_pct": 0.05115627189908899,
-      "unrealized_dollars": 254.33
+      "current_price": 3.89,
+      "unrealized_pct": 0.0484609994070401,
+      "unrealized_dollars": 240.93
     }
   ],
   "closed_trades": [
