@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T14:00:05.332099-04:00",
+  "generated_at": "2026-07-23T14:15:05.897527-04:00",
   "summary": {
     "total_pl_dollars": -2840.55,
     "wins": 16,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.78,
-      "current_price": 1.939,
-      "unrealized_pct": 0.07722222222222223,
-      "unrealized_dollars": 0.38
+      "current_price": 1.96,
+      "unrealized_pct": 0.08888888888888884,
+      "unrealized_dollars": 0.44
     },
     {
       "ticker": "WLDS",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.78,
-      "current_price": 1.939,
-      "unrealized_pct": 0.07722222222222223,
-      "unrealized_dollars": 382.98
+      "current_price": 1.96,
+      "unrealized_pct": 0.08888888888888884,
+      "unrealized_dollars": 440.84
     },
     {
       "ticker": "MODD",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.2,
-      "current_price": 2.96,
-      "unrealized_pct": 0.0033898305084745037,
-      "unrealized_dollars": 0.02
+      "current_price": 2.98,
+      "unrealized_pct": 0.010169491525423662,
+      "unrealized_dollars": 0.05
     },
     {
       "ticker": "MODD",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.2,
-      "current_price": 2.96,
-      "unrealized_pct": 0.0033898305084745037,
-      "unrealized_dollars": 16.83
+      "current_price": 2.98,
+      "unrealized_pct": 0.010169491525423662,
+      "unrealized_dollars": 50.49
     },
     {
       "ticker": "NEUP",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.04,
-      "current_price": 3.98,
-      "unrealized_pct": 0.07271845183548058,
-      "unrealized_dollars": 0.36
+      "current_price": 3.945,
+      "unrealized_pct": 0.06328499811330923,
+      "unrealized_dollars": 0.31
     },
     {
       "ticker": "NEUP",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.04,
-      "current_price": 3.98,
-      "unrealized_pct": 0.07271845183548058,
-      "unrealized_dollars": 361.53
+      "current_price": 3.945,
+      "unrealized_pct": 0.06328499811330923,
+      "unrealized_dollars": 314.63
     }
   ],
   "closed_trades": [
