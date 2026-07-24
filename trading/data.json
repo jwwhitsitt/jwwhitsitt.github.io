@@ -1,42 +1,35 @@
 {
-  "generated_at": "2026-07-24T10:45:04.598747-04:00",
+  "generated_at": "2026-07-24T11:00:03.435755-04:00",
   "summary": {
-    "total_pl_dollars": -1626.13,
+    "total_pl_dollars": -2210.05,
     "wins": 20,
     "losses": 29,
-    "open_count": 2
+    "open_count": 0
   },
-  "open_trades": [
+  "open_trades": [],
+  "closed_trades": [
     {
       "ticker": "REBN",
       "entry_price": 1.21,
-      "stop_loss_price": 1.09,
-      "profit_target_price": 1.45,
-      "position_size_dollars": 5.01,
-      "entry_timestamp": "2026-07-24T13:33:49.453218",
+      "exit_price": 1.069,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.58,
+      "pl_percent": -0.116529,
+      "exit_timestamp": "2026-07-24T14:45:14.635219",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 1.65,
-      "current_price": 1.069,
-      "unrealized_pct": -0.11652892561983473,
-      "unrealized_dollars": -0.58
+      "position_size_dollars": 5.01
     },
     {
       "ticker": "REBN",
       "entry_price": 1.21,
-      "stop_loss_price": 1.09,
-      "profit_target_price": 1.45,
-      "position_size_dollars": 5007.6,
-      "entry_timestamp": "2026-07-24T13:33:38.646173",
+      "exit_price": 1.069,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -583.53,
+      "pl_percent": -0.116529,
+      "exit_timestamp": "2026-07-24T14:45:03.886523",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 1.65,
-      "current_price": 1.069,
-      "unrealized_pct": -0.11652892561983473,
-      "unrealized_dollars": -583.53
-    }
-  ],
-  "closed_trades": [
+      "position_size_dollars": 5007.6
+    },
     {
       "ticker": "VIVK",
       "entry_price": 3.235,
@@ -564,28 +557,6 @@
       "exit_timestamp": "2026-07-10T16:30:05.143468",
       "setup_quality": "B",
       "position_size_dollars": 8.99
-    },
-    {
-      "ticker": "AEON",
-      "entry_price": 0.5027,
-      "exit_price": 0.5,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -0.05,
-      "pl_percent": -0.005371,
-      "exit_timestamp": "2026-07-10T16:30:03.477224",
-      "setup_quality": "B",
-      "position_size_dollars": 8.61
-    },
-    {
-      "ticker": "GMM",
-      "entry_price": 4.1487,
-      "exit_price": 3.614,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -0.14,
-      "pl_percent": -0.128884,
-      "exit_timestamp": "2026-07-10T15:45:07.088020",
-      "setup_quality": "B",
-      "position_size_dollars": 1.12
     }
   ]
 }
