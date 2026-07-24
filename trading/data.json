@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-24T14:30:05.107893-04:00",
+  "generated_at": "2026-07-24T14:45:03.956240-04:00",
   "summary": {
-    "total_pl_dollars": -2210.05,
-    "wins": 20,
-    "losses": 29,
-    "open_count": 6
+    "total_pl_dollars": -2311.12,
+    "wins": 19,
+    "losses": 30,
+    "open_count": 4
   },
   "open_trades": [
     {
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.96,
-      "current_price": 3.0911,
-      "unrealized_pct": 0.010163398692810426,
-      "unrealized_dollars": 0.05
+      "current_price": 3.13,
+      "unrealized_pct": 0.022875816993464,
+      "unrealized_dollars": 0.11
     },
     {
       "ticker": "XBP",
@@ -31,37 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.96,
-      "current_price": 3.0911,
-      "unrealized_pct": 0.010163398692810426,
-      "unrealized_dollars": 50.39
-    },
-    {
-      "ticker": "FFAI",
-      "entry_price": 6.665,
-      "stop_loss_price": 6.5501,
-      "profit_target_price": 10.25,
-      "position_size_dollars": 4.94,
-      "entry_timestamp": "2026-07-24T17:01:28.735915",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 31.2,
-      "current_price": 6.54,
-      "unrealized_pct": -0.018754688672168042,
-      "unrealized_dollars": -0.09
-    },
-    {
-      "ticker": "FFAI",
-      "entry_price": 6.665,
-      "stop_loss_price": 6.5501,
-      "profit_target_price": 10.25,
-      "position_size_dollars": 4956.99,
-      "entry_timestamp": "2026-07-24T17:01:18.288568",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 31.2,
-      "current_price": 6.54,
-      "unrealized_pct": -0.018754688672168042,
-      "unrealized_dollars": -92.97
+      "current_price": 3.13,
+      "unrealized_pct": 0.022875816993464,
+      "unrealized_dollars": 113.43
     },
     {
       "ticker": "RBNE",
@@ -73,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 0.97,
-      "current_price": 3.2401,
-      "unrealized_pct": -0.002739304401354303,
-      "unrealized_dollars": -0.01
+      "current_price": 3.26,
+      "unrealized_pct": 0.003385657125269214,
+      "unrealized_dollars": 0.02
     },
     {
       "ticker": "RBNE",
@@ -87,12 +59,34 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 0.97,
-      "current_price": 3.2401,
-      "unrealized_pct": -0.002739304401354303,
-      "unrealized_dollars": -13.57
+      "current_price": 3.26,
+      "unrealized_pct": 0.003385657125269214,
+      "unrealized_dollars": 16.77
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "FFAI",
+      "entry_price": 6.665,
+      "exit_price": 6.545,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.09,
+      "pl_percent": -0.018005,
+      "exit_timestamp": "2026-07-24T18:30:15.059622",
+      "setup_quality": "B",
+      "position_size_dollars": 4.94
+    },
+    {
+      "ticker": "FFAI",
+      "entry_price": 6.665,
+      "exit_price": 6.54,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -92.97,
+      "pl_percent": -0.018755,
+      "exit_timestamp": "2026-07-24T18:30:03.910936",
+      "setup_quality": "B",
+      "position_size_dollars": 4956.99
+    },
     {
       "ticker": "REBN",
       "entry_price": 1.21,
@@ -620,28 +614,6 @@
       "exit_timestamp": "2026-07-10T18:45:04.153502",
       "setup_quality": "A",
       "position_size_dollars": 8.61
-    },
-    {
-      "ticker": "YYGH",
-      "entry_price": 1.41,
-      "exit_price": 1.335,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -0.48,
-      "pl_percent": -0.053191,
-      "exit_timestamp": "2026-07-10T16:45:05.115066",
-      "setup_quality": "A",
-      "position_size_dollars": 8.99
-    },
-    {
-      "ticker": "JLHL",
-      "entry_price": 8.95,
-      "exit_price": 17.3999,
-      "exit_reason": "target_hit",
-      "pl_dollars": 8.49,
-      "pl_percent": 0.944123,
-      "exit_timestamp": "2026-07-10T16:30:05.143468",
-      "setup_quality": "B",
-      "position_size_dollars": 8.99
     }
   ]
 }
