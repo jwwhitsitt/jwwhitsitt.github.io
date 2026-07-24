@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T10:00:06.833333-04:00",
+  "generated_at": "2026-07-24T10:15:16.062734-04:00",
   "summary": {
     "total_pl_dollars": -1626.13,
     "wins": 20,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.65,
-      "current_price": 1.1598,
-      "unrealized_pct": -0.041487603305785145,
-      "unrealized_dollars": -0.21
+      "current_price": null,
+      "unrealized_pct": null,
+      "unrealized_dollars": null
     },
     {
       "ticker": "REBN",
