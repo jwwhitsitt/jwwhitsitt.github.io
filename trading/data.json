@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T12:00:14.386832-04:00",
+  "generated_at": "2026-07-24T12:15:05.445285-04:00",
   "summary": {
     "total_pl_dollars": -2210.05,
     "wins": 20,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 0.97,
-      "current_price": 3.27,
-      "unrealized_pct": 0.006463527239150479,
-      "unrealized_dollars": 0.03
+      "current_price": 3.28,
+      "unrealized_pct": 0.009541397353031607,
+      "unrealized_dollars": 0.05
     },
     {
       "ticker": "RBNE",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 0.97,
-      "current_price": 3.27,
-      "unrealized_pct": 0.006463527239150479,
-      "unrealized_dollars": 32.01
+      "current_price": 3.28,
+      "unrealized_pct": 0.009541397353031607,
+      "unrealized_dollars": 47.26
     }
   ],
   "closed_trades": [
