@@ -1,70 +1,57 @@
 {
-  "generated_at": "2026-07-24T15:45:04.127846-04:00",
+  "generated_at": "2026-07-24T16:00:03.412014-04:00",
   "summary": {
-    "total_pl_dollars": -2311.12,
+    "total_pl_dollars": -2198.28,
     "wins": 19,
     "losses": 30,
-    "open_count": 4
+    "open_count": 0
   },
-  "open_trades": [
-    {
-      "ticker": "XBP",
-      "entry_price": 3.06,
-      "stop_loss_price": 2.83,
-      "profit_target_price": 3.74,
-      "position_size_dollars": 4.94,
-      "entry_timestamp": "2026-07-24T17:01:50.164621",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 2.96,
-      "current_price": 3.1872,
-      "unrealized_pct": 0.04156862745098031,
-      "unrealized_dollars": 0.21
-    },
-    {
-      "ticker": "XBP",
-      "entry_price": 3.06,
-      "stop_loss_price": 2.83,
-      "profit_target_price": 3.74,
-      "position_size_dollars": 4958.36,
-      "entry_timestamp": "2026-07-24T17:01:39.440249",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 2.96,
-      "current_price": 3.1872,
-      "unrealized_pct": 0.04156862745098031,
-      "unrealized_dollars": 206.11
-    },
-    {
-      "ticker": "RBNE",
-      "entry_price": 3.249,
-      "stop_loss_price": 2.9,
-      "profit_target_price": 4.5,
-      "position_size_dollars": 4.93,
-      "entry_timestamp": "2026-07-24T15:01:52.952107",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 0.97,
-      "current_price": 3.19,
-      "unrealized_pct": -0.018159433671899095,
-      "unrealized_dollars": -0.09
-    },
-    {
-      "ticker": "RBNE",
-      "entry_price": 3.249,
-      "stop_loss_price": 2.9,
-      "profit_target_price": 4.5,
-      "position_size_dollars": 4953.07,
-      "entry_timestamp": "2026-07-24T15:01:42.027982",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 0.97,
-      "current_price": 3.19,
-      "unrealized_pct": -0.018159433671899095,
-      "unrealized_dollars": -89.94
-    }
-  ],
+  "open_trades": [],
   "closed_trades": [
+    {
+      "ticker": "XBP",
+      "entry_price": 3.06,
+      "exit_price": 3.12,
+      "exit_reason": "eod_close",
+      "pl_dollars": 0.1,
+      "pl_percent": 0.019608,
+      "exit_timestamp": "2026-07-24T19:45:35.757085",
+      "setup_quality": "B",
+      "position_size_dollars": 4.94
+    },
+    {
+      "ticker": "XBP",
+      "entry_price": 3.06,
+      "exit_price": 3.1872,
+      "exit_reason": "eod_close",
+      "pl_dollars": 206.11,
+      "pl_percent": 0.041569,
+      "exit_timestamp": "2026-07-24T19:45:25.218874",
+      "setup_quality": "B",
+      "position_size_dollars": 4958.36
+    },
+    {
+      "ticker": "RBNE",
+      "entry_price": 3.249,
+      "exit_price": 3.19,
+      "exit_reason": "eod_close",
+      "pl_dollars": -0.09,
+      "pl_percent": -0.018159,
+      "exit_timestamp": "2026-07-24T19:45:14.009368",
+      "setup_quality": "B",
+      "position_size_dollars": 4.93
+    },
+    {
+      "ticker": "RBNE",
+      "entry_price": 3.249,
+      "exit_price": 3.19,
+      "exit_reason": "eod_close",
+      "pl_dollars": -89.94,
+      "pl_percent": -0.018159,
+      "exit_timestamp": "2026-07-24T19:45:03.097972",
+      "setup_quality": "B",
+      "position_size_dollars": 4953.07
+    },
     {
       "ticker": "FFAI",
       "entry_price": 6.665,
@@ -570,50 +557,6 @@
       "exit_timestamp": "2026-07-10T19:45:03.731759",
       "setup_quality": "B",
       "position_size_dollars": 9.77
-    },
-    {
-      "ticker": "ALAR",
-      "entry_price": 2.22,
-      "exit_price": 2.19,
-      "exit_reason": "eod_close",
-      "pl_dollars": -0.12,
-      "pl_percent": -0.013514,
-      "exit_timestamp": "2026-07-10T19:45:03.410020",
-      "setup_quality": "B",
-      "position_size_dollars": 8.99
-    },
-    {
-      "ticker": "DFSC",
-      "entry_price": 2.1,
-      "exit_price": 2.04,
-      "exit_reason": "eod_close",
-      "pl_dollars": -0.26,
-      "pl_percent": -0.028571,
-      "exit_timestamp": "2026-07-10T19:45:03.060192",
-      "setup_quality": "B",
-      "position_size_dollars": 8.99
-    },
-    {
-      "ticker": "CPBI",
-      "entry_price": 19.1123,
-      "exit_price": 20.0,
-      "exit_reason": "eod_close",
-      "pl_dollars": 0.4,
-      "pl_percent": 0.046447,
-      "exit_timestamp": "2026-07-10T19:45:02.779138",
-      "setup_quality": "B",
-      "position_size_dollars": 8.61
-    },
-    {
-      "ticker": "PLBL",
-      "entry_price": 6.42,
-      "exit_price": 8.89,
-      "exit_reason": "target_hit",
-      "pl_dollars": 3.31,
-      "pl_percent": 0.384735,
-      "exit_timestamp": "2026-07-10T18:45:04.153502",
-      "setup_quality": "A",
-      "position_size_dollars": 8.61
     }
   ]
 }
