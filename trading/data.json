@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T15:15:04.490996-04:00",
+  "generated_at": "2026-07-24T15:30:04.730588-04:00",
   "summary": {
     "total_pl_dollars": -2311.12,
     "wins": 19,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.96,
-      "current_price": 3.0302,
-      "unrealized_pct": -0.009738562091503356,
-      "unrealized_dollars": -0.05
+      "current_price": 3.13,
+      "unrealized_pct": 0.022875816993464,
+      "unrealized_dollars": 0.11
     },
     {
       "ticker": "XBP",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.96,
-      "current_price": 3.0302,
-      "unrealized_pct": -0.009738562091503356,
-      "unrealized_dollars": -48.29
+      "current_price": 3.13,
+      "unrealized_pct": 0.022875816993464,
+      "unrealized_dollars": 113.43
     },
     {
       "ticker": "RBNE",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 0.97,
-      "current_price": 3.26,
-      "unrealized_pct": 0.003385657125269214,
-      "unrealized_dollars": 0.02
+      "current_price": 3.22,
+      "unrealized_pct": -0.008925823330255437,
+      "unrealized_dollars": -0.04
     },
     {
       "ticker": "RBNE",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 0.97,
-      "current_price": 3.26,
-      "unrealized_pct": 0.003385657125269214,
-      "unrealized_dollars": 16.77
+      "current_price": 3.22,
+      "unrealized_pct": -0.008925823330255437,
+      "unrealized_dollars": -44.21
     }
   ],
   "closed_trades": [
