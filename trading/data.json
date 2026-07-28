@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T15:30:05.360971-04:00",
+  "generated_at": "2026-07-28T15:45:05.593034-04:00",
   "summary": {
     "total_pl_dollars": -2198.28,
     "wins": 19,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 7.02,
-      "current_price": 1.7195,
-      "unrealized_pct": -0.01742857142857141,
-      "unrealized_dollars": -0.09
+      "current_price": 1.6513,
+      "unrealized_pct": -0.056400000000000006,
+      "unrealized_dollars": -0.28
     },
     {
       "ticker": "POLA",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 7.02,
-      "current_price": 1.7195,
-      "unrealized_pct": -0.01742857142857141,
-      "unrealized_dollars": -85.58
+      "current_price": 1.6513,
+      "unrealized_pct": -0.056400000000000006,
+      "unrealized_dollars": -276.95
     },
     {
       "ticker": "BKYI",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.23,
-      "current_price": 4.08,
-      "unrealized_pct": -0.009708737864077678,
-      "unrealized_dollars": -0.05
+      "current_price": 4.11,
+      "unrealized_pct": -0.0024271844660193657,
+      "unrealized_dollars": -0.01
     },
     {
       "ticker": "BKYI",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.23,
-      "current_price": 4.08,
-      "unrealized_pct": -0.009708737864077678,
-      "unrealized_dollars": -47.75
+      "current_price": 4.11,
+      "unrealized_pct": -0.0024271844660193657,
+      "unrealized_dollars": -11.94
     },
     {
       "ticker": "ENLV",
@@ -73,8 +73,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 26.5,
-      "current_price": 2.19,
-      "unrealized_pct": -0.00454545454545465,
+      "current_price": 2.1892,
+      "unrealized_pct": -0.004909090909090974,
       "unrealized_dollars": -0.02
     },
     {
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 26.5,
-      "current_price": 2.19,
-      "unrealized_pct": -0.00454545454545465,
-      "unrealized_dollars": -22.37
+      "current_price": 2.1892,
+      "unrealized_pct": -0.004909090909090974,
+      "unrealized_dollars": -24.16
     },
     {
       "ticker": "PSQH",
@@ -101,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.08,
-      "current_price": 3.695,
-      "unrealized_pct": 0.04378531073446322,
-      "unrealized_dollars": 0.21
+      "current_price": 3.7044,
+      "unrealized_pct": 0.046440677966101726,
+      "unrealized_dollars": 0.23
     },
     {
       "ticker": "PSQH",
@@ -115,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.08,
-      "current_price": 3.695,
-      "unrealized_pct": 0.04378531073446322,
-      "unrealized_dollars": 215.55
+      "current_price": 3.7044,
+      "unrealized_pct": 0.046440677966101726,
+      "unrealized_dollars": 228.62
     },
     {
       "ticker": "TISI",
@@ -129,9 +129,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.51,
-      "current_price": 17.5,
-      "unrealized_pct": 0.0,
-      "unrealized_dollars": null
+      "current_price": 17.21,
+      "unrealized_pct": -0.01657142857142852,
+      "unrealized_dollars": -81.64
     },
     {
       "ticker": "WLDS",
@@ -143,9 +143,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.49,
-      "current_price": 3.84,
-      "unrealized_pct": -0.0025974025974026572,
-      "unrealized_dollars": -0.01
+      "current_price": 3.8,
+      "unrealized_pct": -0.012987012987013056,
+      "unrealized_dollars": -0.06
     },
     {
       "ticker": "WLDS",
@@ -157,9 +157,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.49,
-      "current_price": 3.84,
-      "unrealized_pct": -0.0025974025974026572,
-      "unrealized_dollars": -12.8
+      "current_price": 3.8,
+      "unrealized_pct": -0.012987012987013056,
+      "unrealized_dollars": -63.99
     }
   ],
   "closed_trades": [
