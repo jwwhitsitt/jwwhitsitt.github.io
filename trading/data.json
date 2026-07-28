@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T15:15:04.930925-04:00",
+  "generated_at": "2026-07-28T15:30:05.360971-04:00",
   "summary": {
     "total_pl_dollars": -2198.28,
     "wins": 19,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 7.02,
-      "current_price": 1.77,
-      "unrealized_pct": 0.011428571428571439,
-      "unrealized_dollars": 0.06
+      "current_price": 1.7195,
+      "unrealized_pct": -0.01742857142857141,
+      "unrealized_dollars": -0.09
     },
     {
       "ticker": "POLA",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 7.02,
-      "current_price": 1.77,
-      "unrealized_pct": 0.011428571428571439,
-      "unrealized_dollars": 56.12
+      "current_price": 1.7195,
+      "unrealized_pct": -0.01742857142857141,
+      "unrealized_dollars": -85.58
     },
     {
       "ticker": "BKYI",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.23,
-      "current_price": 3.99,
-      "unrealized_pct": -0.0315533980582524,
-      "unrealized_dollars": -0.15
+      "current_price": 4.08,
+      "unrealized_pct": -0.009708737864077678,
+      "unrealized_dollars": -0.05
     },
     {
       "ticker": "BKYI",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.23,
-      "current_price": 3.99,
-      "unrealized_pct": -0.0315533980582524,
-      "unrealized_dollars": -155.17
+      "current_price": 4.08,
+      "unrealized_pct": -0.009708737864077678,
+      "unrealized_dollars": -47.75
     },
     {
       "ticker": "ENLV",
@@ -101,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.08,
-      "current_price": 3.6496,
-      "unrealized_pct": 0.030960451977401108,
-      "unrealized_dollars": 0.15
+      "current_price": 3.695,
+      "unrealized_pct": 0.04378531073446322,
+      "unrealized_dollars": 0.21
     },
     {
       "ticker": "PSQH",
@@ -115,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.08,
-      "current_price": 3.6496,
-      "unrealized_pct": 0.030960451977401108,
-      "unrealized_dollars": 152.41
+      "current_price": 3.695,
+      "unrealized_pct": 0.04378531073446322,
+      "unrealized_dollars": 215.55
     },
     {
       "ticker": "TISI",
@@ -143,9 +143,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.49,
-      "current_price": 3.9301,
-      "unrealized_pct": 0.020805194805194764,
-      "unrealized_dollars": 0.1
+      "current_price": 3.84,
+      "unrealized_pct": -0.0025974025974026572,
+      "unrealized_dollars": -0.01
     },
     {
       "ticker": "WLDS",
@@ -157,9 +157,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.49,
-      "current_price": 3.9301,
-      "unrealized_pct": 0.020805194805194764,
-      "unrealized_dollars": 102.51
+      "current_price": 3.84,
+      "unrealized_pct": -0.0025974025974026572,
+      "unrealized_dollars": -12.8
     }
   ],
   "closed_trades": [
