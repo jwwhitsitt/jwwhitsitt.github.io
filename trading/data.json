@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T12:30:04.347414-04:00",
+  "generated_at": "2026-07-29T12:45:04.428113-04:00",
   "summary": {
     "total_pl_dollars": -2514.79,
     "wins": 19,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.95,
-      "current_price": 2.9,
-      "unrealized_pct": -0.10077519379844967,
-      "unrealized_dollars": -0.49
+      "current_price": 3.08,
+      "unrealized_pct": -0.044961240310077526,
+      "unrealized_dollars": -0.22
     },
     {
       "ticker": "FIEE",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.95,
-      "current_price": 2.9,
-      "unrealized_pct": -0.10077519379844967,
-      "unrealized_dollars": -490.76
+      "current_price": 3.08,
+      "unrealized_pct": -0.044961240310077526,
+      "unrealized_dollars": -218.95
     }
   ],
   "closed_trades": [
