@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T13:45:04.667735-04:00",
+  "generated_at": "2026-07-29T14:00:03.718740-04:00",
   "summary": {
     "total_pl_dollars": -2514.79,
     "wins": 19,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.27,
-      "current_price": 3.0746,
-      "unrealized_pct": -0.017699680511182005,
-      "unrealized_dollars": -0.09
+      "current_price": 2.8801,
+      "unrealized_pct": -0.07984025559105425,
+      "unrealized_dollars": -0.38
     },
     {
       "ticker": "GMM",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.27,
-      "current_price": 3.0746,
-      "unrealized_pct": -0.017699680511182005,
-      "unrealized_dollars": -85.86
+      "current_price": 2.8801,
+      "unrealized_pct": -0.07984025559105425,
+      "unrealized_dollars": -387.32
     },
     {
       "ticker": "FIEE",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.95,
-      "current_price": 2.92,
-      "unrealized_pct": -0.09457364341085275,
-      "unrealized_dollars": -0.46
+      "current_price": 2.9999,
+      "unrealized_pct": -0.0697984496124032,
+      "unrealized_dollars": -0.34
     },
     {
       "ticker": "FIEE",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.95,
-      "current_price": 2.92,
-      "unrealized_pct": -0.09457364341085275,
-      "unrealized_dollars": -460.56
+      "current_price": 2.9999,
+      "unrealized_pct": -0.0697984496124032,
+      "unrealized_dollars": -339.91
     }
   ],
   "closed_trades": [
