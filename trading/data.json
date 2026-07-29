@@ -1,12 +1,41 @@
 {
-  "generated_at": "2026-07-29T11:00:03.437458-04:00",
+  "generated_at": "2026-07-29T11:15:04.388984-04:00",
   "summary": {
     "total_pl_dollars": -2514.79,
     "wins": 19,
     "losses": 31,
-    "open_count": 0
+    "open_count": 2
   },
-  "open_trades": [],
+  "open_trades": [
+    {
+      "ticker": "FIEE",
+      "entry_price": 3.225,
+      "stop_loss_price": 2.55,
+      "profit_target_price": 5.89,
+      "position_size_dollars": 4.85,
+      "entry_timestamp": "2026-07-29T15:03:27.466232",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 3.95,
+      "current_price": 3.1011,
+      "unrealized_pct": -0.03841860465116276,
+      "unrealized_dollars": -0.19
+    },
+    {
+      "ticker": "FIEE",
+      "entry_price": 3.225,
+      "stop_loss_price": 2.55,
+      "profit_target_price": 5.89,
+      "position_size_dollars": 4869.81,
+      "entry_timestamp": "2026-07-29T15:03:16.650951",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 3.95,
+      "current_price": 3.1011,
+      "unrealized_pct": -0.03841860465116276,
+      "unrealized_dollars": -187.09
+    }
+  ],
   "closed_trades": [
     {
       "ticker": "POLA",
