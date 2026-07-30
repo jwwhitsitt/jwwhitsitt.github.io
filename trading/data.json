@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T15:00:05.571678-04:00",
+  "generated_at": "2026-07-30T15:15:04.846438-04:00",
   "summary": {
     "total_pl_dollars": -3298.62,
     "wins": 17,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.56,
-      "current_price": 1.02,
-      "unrealized_pct": -0.03773584905660381,
-      "unrealized_dollars": -0.18
+      "current_price": 0.9951,
+      "unrealized_pct": -0.06122641509433968,
+      "unrealized_dollars": -0.29
     },
     {
       "ticker": "GVH",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.56,
-      "current_price": 1.02,
-      "unrealized_pct": -0.03773584905660381,
-      "unrealized_dollars": -181.88
+      "current_price": 0.9951,
+      "unrealized_pct": -0.06122641509433968,
+      "unrealized_dollars": -295.1
     },
     {
       "ticker": "NUWE",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.5,
-      "current_price": 4.28,
-      "unrealized_pct": -0.023945267958950866,
-      "unrealized_dollars": -0.11
+      "current_price": 4.1904,
+      "unrealized_pct": -0.04437856328392234,
+      "unrealized_dollars": -0.21
     },
     {
       "ticker": "NUWE",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.5,
-      "current_price": 4.28,
-      "unrealized_pct": -0.023945267958950866,
-      "unrealized_dollars": -115.46
+      "current_price": 4.1904,
+      "unrealized_pct": -0.04437856328392234,
+      "unrealized_dollars": -213.99
     },
     {
       "ticker": "CHAR",
