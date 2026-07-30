@@ -1,12 +1,55 @@
 {
-  "generated_at": "2026-07-30T11:00:03.010889-04:00",
+  "generated_at": "2026-07-30T11:15:05.363302-04:00",
   "summary": {
     "total_pl_dollars": -3298.62,
     "wins": 17,
     "losses": 33,
-    "open_count": 0
+    "open_count": 3
   },
-  "open_trades": [],
+  "open_trades": [
+    {
+      "ticker": "NUWE",
+      "entry_price": 4.385,
+      "stop_loss_price": 3.81,
+      "profit_target_price": 6.3999,
+      "position_size_dollars": 4.79,
+      "entry_timestamp": "2026-07-30T15:02:22.348681",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 3.5,
+      "current_price": 4.3909,
+      "unrealized_pct": 0.001345496009122112,
+      "unrealized_dollars": 0.01
+    },
+    {
+      "ticker": "NUWE",
+      "entry_price": 4.385,
+      "stop_loss_price": 3.81,
+      "profit_target_price": 6.3999,
+      "position_size_dollars": 4821.92,
+      "entry_timestamp": "2026-07-30T15:02:11.675495",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 3.5,
+      "current_price": 4.3909,
+      "unrealized_pct": 0.001345496009122112,
+      "unrealized_dollars": 6.49
+    },
+    {
+      "ticker": "CHAR",
+      "entry_price": 10.84,
+      "stop_loss_price": 10.42,
+      "profit_target_price": 11.26,
+      "position_size_dollars": 4822.14,
+      "entry_timestamp": "2026-07-30T15:02:00.446091",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.27,
+      "current_price": 10.84,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
+    }
+  ],
   "closed_trades": [
     {
       "ticker": "GMM",
