@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T14:15:04.349891-04:00",
+  "generated_at": "2026-07-30T14:30:04.059689-04:00",
   "summary": {
     "total_pl_dollars": -3298.62,
     "wins": 17,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.56,
-      "current_price": 0.98,
-      "unrealized_pct": -0.07547169811320761,
-      "unrealized_dollars": -0.36
+      "current_price": 1.0297,
+      "unrealized_pct": -0.02858490566037735,
+      "unrealized_dollars": -0.14
     },
     {
       "ticker": "GVH",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.56,
-      "current_price": 0.98,
-      "unrealized_pct": -0.07547169811320761,
-      "unrealized_dollars": -363.77
+      "current_price": 1.0297,
+      "unrealized_pct": -0.02858490566037735,
+      "unrealized_dollars": -137.78
     },
     {
       "ticker": "NUWE",
