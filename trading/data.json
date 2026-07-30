@@ -1,84 +1,68 @@
 {
-  "generated_at": "2026-07-30T15:45:04.630894-04:00",
+  "generated_at": "2026-07-30T16:00:03.880396-04:00",
   "summary": {
-    "total_pl_dollars": -3298.62,
-    "wins": 17,
-    "losses": 33,
-    "open_count": 5
+    "total_pl_dollars": -3557.15,
+    "wins": 18,
+    "losses": 32,
+    "open_count": 0
   },
-  "open_trades": [
+  "open_trades": [],
+  "closed_trades": [
     {
       "ticker": "GVH",
       "entry_price": 1.06,
-      "stop_loss_price": 0.97,
-      "profit_target_price": 1.29,
-      "position_size_dollars": 4.78,
-      "entry_timestamp": "2026-07-30T17:01:48.926135",
+      "exit_price": 1.02,
+      "exit_reason": "eod_close",
+      "pl_dollars": -0.18,
+      "pl_percent": -0.037736,
+      "exit_timestamp": "2026-07-30T19:45:45.460576",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 2.56,
-      "current_price": 1.015,
-      "unrealized_pct": -0.04245283018867939,
-      "unrealized_dollars": -0.2
+      "position_size_dollars": 4.78
     },
     {
       "ticker": "GVH",
       "entry_price": 1.06,
-      "stop_loss_price": 0.97,
-      "profit_target_price": 1.29,
-      "position_size_dollars": 4819.89,
-      "entry_timestamp": "2026-07-30T17:01:38.179769",
+      "exit_price": 1.01,
+      "exit_reason": "eod_close",
+      "pl_dollars": -227.35,
+      "pl_percent": -0.04717,
+      "exit_timestamp": "2026-07-30T19:45:34.990244",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 2.56,
-      "current_price": 1.015,
-      "unrealized_pct": -0.04245283018867939,
-      "unrealized_dollars": -204.62
+      "position_size_dollars": 4819.89
     },
     {
       "ticker": "NUWE",
       "entry_price": 4.385,
-      "stop_loss_price": 3.81,
-      "profit_target_price": 6.3999,
-      "position_size_dollars": 4.79,
-      "entry_timestamp": "2026-07-30T15:02:22.348681",
+      "exit_price": 4.36,
+      "exit_reason": "eod_close",
+      "pl_dollars": -0.03,
+      "pl_percent": -0.005701,
+      "exit_timestamp": "2026-07-30T19:45:24.292632",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 3.5,
-      "current_price": 4.358,
-      "unrealized_pct": -0.006157354618015995,
-      "unrealized_dollars": -0.03
+      "position_size_dollars": 4.79
     },
     {
       "ticker": "NUWE",
       "entry_price": 4.385,
-      "stop_loss_price": 3.81,
-      "profit_target_price": 6.3999,
-      "position_size_dollars": 4821.92,
-      "entry_timestamp": "2026-07-30T15:02:11.675495",
+      "exit_price": 4.33,
+      "exit_reason": "eod_close",
+      "pl_dollars": -60.48,
+      "pl_percent": -0.012543,
+      "exit_timestamp": "2026-07-30T19:45:13.721106",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 3.5,
-      "current_price": 4.358,
-      "unrealized_pct": -0.006157354618015995,
-      "unrealized_dollars": -29.69
+      "position_size_dollars": 4821.92
     },
     {
       "ticker": "CHAR",
       "entry_price": 10.84,
-      "stop_loss_price": 10.42,
-      "profit_target_price": 11.26,
-      "position_size_dollars": 4822.14,
-      "entry_timestamp": "2026-07-30T15:02:00.446091",
+      "exit_price": 10.9,
+      "exit_reason": "eod_close",
+      "pl_dollars": 26.69,
+      "pl_percent": 0.005535,
+      "exit_timestamp": "2026-07-30T19:45:02.985731",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 1.27,
-      "current_price": 10.9,
-      "unrealized_pct": 0.005535055350553551,
-      "unrealized_dollars": 26.69
-    }
-  ],
-  "closed_trades": [
+      "position_size_dollars": 4822.14
+    },
     {
       "ticker": "GMM",
       "entry_price": 3.13,
@@ -571,61 +555,6 @@
       "pl_dollars": -2.17,
       "pl_percent": -0.20922,
       "exit_timestamp": "2026-07-16T14:00:04.054061",
-      "setup_quality": "B",
-      "position_size_dollars": 10.39
-    },
-    {
-      "ticker": "NDRA",
-      "entry_price": 5.43,
-      "exit_price": 5.21,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -0.42,
-      "pl_percent": -0.040516,
-      "exit_timestamp": "2026-07-16T13:45:04.805968",
-      "setup_quality": "B",
-      "position_size_dollars": 10.36
-    },
-    {
-      "ticker": "RPT",
-      "entry_price": 13.07,
-      "exit_price": 11.48,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -1.25,
-      "pl_percent": -0.121653,
-      "exit_timestamp": "2026-07-16T13:30:03.921483",
-      "setup_quality": "B",
-      "position_size_dollars": 10.29
-    },
-    {
-      "ticker": "PSQH",
-      "entry_price": 4.2791,
-      "exit_price": 4.02,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -0.63,
-      "pl_percent": -0.06055,
-      "exit_timestamp": "2026-07-14T15:30:06.101945",
-      "setup_quality": "B",
-      "position_size_dollars": 10.36
-    },
-    {
-      "ticker": "JTAI",
-      "entry_price": 3.9104,
-      "exit_price": 3.8201,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -0.24,
-      "pl_percent": -0.023092,
-      "exit_timestamp": "2026-07-14T15:15:07.130986",
-      "setup_quality": "B",
-      "position_size_dollars": 10.36
-    },
-    {
-      "ticker": "PLUR",
-      "entry_price": 1.63,
-      "exit_price": 1.585,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -0.29,
-      "pl_percent": -0.027607,
-      "exit_timestamp": "2026-07-14T15:15:05.700753",
       "setup_quality": "B",
       "position_size_dollars": 10.39
     }
