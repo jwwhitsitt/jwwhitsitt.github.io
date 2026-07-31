@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T13:45:03.380313-04:00",
+  "generated_at": "2026-07-31T14:00:04.100171-04:00",
   "summary": {
     "total_pl_dollars": -4235.55,
     "wins": 17,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.31,
-      "current_price": 1.9414,
-      "unrealized_pct": 0.017825311942959016,
-      "unrealized_dollars": 0.08
+      "current_price": 1.88,
+      "unrealized_pct": -0.014365104330502303,
+      "unrealized_dollars": -0.07
     },
     {
       "ticker": "GNLN",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.31,
-      "current_price": 1.9414,
-      "unrealized_pct": 0.017825311942959016,
-      "unrealized_dollars": 85.7
+      "current_price": 1.88,
+      "unrealized_pct": -0.014365104330502303,
+      "unrealized_dollars": -69.07
     }
   ],
   "closed_trades": [
