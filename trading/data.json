@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T12:15:04.096200-04:00",
+  "generated_at": "2026-07-31T12:30:04.436355-04:00",
   "summary": {
     "total_pl_dollars": -3557.15,
     "wins": 18,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.94,
-      "current_price": 1.395,
-      "unrealized_pct": -0.010427750585230855,
-      "unrealized_dollars": -0.05
+      "current_price": 1.295,
+      "unrealized_pct": -0.08136482939632549,
+      "unrealized_dollars": -0.39
     },
     {
       "ticker": "KUST",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.94,
-      "current_price": 1.395,
-      "unrealized_pct": -0.010427750585230855,
-      "unrealized_dollars": -50.08
+      "current_price": 1.295,
+      "unrealized_pct": -0.08136482939632549,
+      "unrealized_dollars": -390.76
     },
     {
       "ticker": "GNLN",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.31,
-      "current_price": 1.8999,
-      "unrealized_pct": -0.003932054105064519,
-      "unrealized_dollars": -0.02
+      "current_price": 1.87,
+      "unrealized_pct": -0.01960784313725484,
+      "unrealized_dollars": -0.09
     },
     {
       "ticker": "GNLN",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.31,
-      "current_price": 1.8999,
-      "unrealized_pct": -0.003932054105064519,
-      "unrealized_dollars": -18.91
+      "current_price": 1.87,
+      "unrealized_pct": -0.01960784313725484,
+      "unrealized_dollars": -94.27
     }
   ],
   "closed_trades": [
