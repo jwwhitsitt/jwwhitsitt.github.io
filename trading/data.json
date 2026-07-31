@@ -1,12 +1,69 @@
 {
-  "generated_at": "2026-07-31T11:00:03.600416-04:00",
+  "generated_at": "2026-07-31T11:15:04.845809-04:00",
   "summary": {
     "total_pl_dollars": -3557.15,
     "wins": 18,
     "losses": 32,
-    "open_count": 0
+    "open_count": 4
   },
-  "open_trades": [],
+  "open_trades": [
+    {
+      "ticker": "KUST",
+      "entry_price": 1.4097,
+      "stop_loss_price": 1.25,
+      "profit_target_price": 1.88,
+      "position_size_dollars": 4.76,
+      "entry_timestamp": "2026-07-31T15:03:19.581231",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 2.94,
+      "current_price": 1.38,
+      "unrealized_pct": -0.021068312406895127,
+      "unrealized_dollars": -0.1
+    },
+    {
+      "ticker": "KUST",
+      "entry_price": 1.4097,
+      "stop_loss_price": 1.25,
+      "profit_target_price": 1.88,
+      "position_size_dollars": 4802.61,
+      "entry_timestamp": "2026-07-31T15:03:08.907432",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 2.94,
+      "current_price": 1.38,
+      "unrealized_pct": -0.021068312406895127,
+      "unrealized_dollars": -101.18
+    },
+    {
+      "ticker": "GNLN",
+      "entry_price": 1.9074,
+      "stop_loss_price": 1.7167,
+      "profit_target_price": 2.2591,
+      "position_size_dollars": 4.76,
+      "entry_timestamp": "2026-07-31T15:02:58.299408",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.31,
+      "current_price": 1.95,
+      "unrealized_pct": 0.022334067316766265,
+      "unrealized_dollars": 0.11
+    },
+    {
+      "ticker": "GNLN",
+      "entry_price": 1.9074,
+      "stop_loss_price": 1.7167,
+      "profit_target_price": 2.2591,
+      "position_size_dollars": 4807.98,
+      "entry_timestamp": "2026-07-31T15:02:47.123164",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.31,
+      "current_price": 1.95,
+      "unrealized_pct": 0.022334067316766265,
+      "unrealized_dollars": 107.38
+    }
+  ],
   "closed_trades": [
     {
       "ticker": "GVH",
