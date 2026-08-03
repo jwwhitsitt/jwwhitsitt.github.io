@@ -1,12 +1,96 @@
 {
-  "generated_at": "2026-08-03T11:00:03.785582-04:00",
+  "generated_at": "2026-08-03T11:15:05.677639-04:00",
   "summary": {
     "total_pl_dollars": -2182.06,
     "wins": 19,
     "losses": 31,
-    "open_count": 4
+    "open_count": 10
   },
   "open_trades": [
+    {
+      "ticker": "HYFM",
+      "entry_price": 2.145,
+      "stop_loss_price": 1.8,
+      "profit_target_price": 3.1818,
+      "position_size_dollars": 4.72,
+      "entry_timestamp": "2026-08-03T15:03:16.920103",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 3.01,
+      "current_price": 1.999,
+      "unrealized_pct": -0.06806526806526803,
+      "unrealized_dollars": -0.32
+    },
+    {
+      "ticker": "HYFM",
+      "entry_price": 2.145,
+      "stop_loss_price": 1.8,
+      "profit_target_price": 3.1818,
+      "position_size_dollars": 4754.04,
+      "entry_timestamp": "2026-08-03T15:03:06.310798",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 3.01,
+      "current_price": 1.999,
+      "unrealized_pct": -0.06806526806526803,
+      "unrealized_dollars": -323.59
+    },
+    {
+      "ticker": "EZRA",
+      "entry_price": 3.2902,
+      "stop_loss_price": 2.9611,
+      "profit_target_price": 3.7193,
+      "position_size_dollars": 4.72,
+      "entry_timestamp": "2026-08-03T15:02:55.723661",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.19,
+      "current_price": 3.3899,
+      "unrealized_pct": 0.030302109294267795,
+      "unrealized_dollars": 0.14
+    },
+    {
+      "ticker": "EZRA",
+      "entry_price": 3.2902,
+      "stop_loss_price": 2.9611,
+      "profit_target_price": 3.7193,
+      "position_size_dollars": 4756.61,
+      "entry_timestamp": "2026-08-03T15:02:45.135020",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.19,
+      "current_price": 3.3899,
+      "unrealized_pct": 0.030302109294267795,
+      "unrealized_dollars": 144.14
+    },
+    {
+      "ticker": "EDBL",
+      "entry_price": 2.315,
+      "stop_loss_price": 2.26,
+      "profit_target_price": 3.18,
+      "position_size_dollars": 4.73,
+      "entry_timestamp": "2026-08-03T15:02:34.539485",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 15.73,
+      "current_price": 2.355,
+      "unrealized_pct": 0.01727861771058317,
+      "unrealized_dollars": 0.08
+    },
+    {
+      "ticker": "EDBL",
+      "entry_price": 2.315,
+      "stop_loss_price": 2.26,
+      "profit_target_price": 3.18,
+      "position_size_dollars": 4757.63,
+      "entry_timestamp": "2026-08-03T15:02:23.787409",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 15.73,
+      "current_price": 2.355,
+      "unrealized_pct": 0.01727861771058317,
+      "unrealized_dollars": 82.21
+    },
     {
       "ticker": "GNPX",
       "entry_price": 4.8776,
@@ -17,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.58,
-      "current_price": 5.1501,
-      "unrealized_pct": 0.0558676398228637,
-      "unrealized_dollars": 0.26
+      "current_price": 5.1201,
+      "unrealized_pct": 0.049717073970805256,
+      "unrealized_dollars": 0.23
     },
     {
       "ticker": "GNPX",
@@ -31,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.58,
-      "current_price": 5.1501,
-      "unrealized_pct": 0.0558676398228637,
-      "unrealized_dollars": 265.11
+      "current_price": 5.1201,
+      "unrealized_pct": 0.049717073970805256,
+      "unrealized_dollars": 235.92
     },
     {
       "ticker": "SNES",
@@ -45,9 +129,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.0,
-      "current_price": 1.5763,
-      "unrealized_pct": 0.13402877697841736,
-      "unrealized_dollars": 0.63
+      "current_price": 1.5318,
+      "unrealized_pct": 0.10201438848920874,
+      "unrealized_dollars": 0.48
     },
     {
       "ticker": "SNES",
@@ -59,9 +143,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.0,
-      "current_price": 1.5763,
-      "unrealized_pct": 0.13402877697841736,
-      "unrealized_dollars": 636.0
+      "current_price": 1.5318,
+      "unrealized_pct": 0.10201438848920874,
+      "unrealized_dollars": 484.08
     }
   ],
   "closed_trades": [
