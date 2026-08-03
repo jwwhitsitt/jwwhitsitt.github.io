@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-03T14:45:05.852481-04:00",
+  "generated_at": "2026-08-03T15:00:04.700959-04:00",
   "summary": {
-    "total_pl_dollars": -3677.2,
+    "total_pl_dollars": -3015.82,
     "wins": 17,
     "losses": 33,
-    "open_count": 8
+    "open_count": 6
   },
   "open_trades": [
     {
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 14.11,
-      "current_price": 3.77,
-      "unrealized_pct": 0.028649386084583898,
-      "unrealized_dollars": 0.13
+      "current_price": 3.745,
+      "unrealized_pct": 0.021828103683492514,
+      "unrealized_dollars": 0.1
     },
     {
       "ticker": "CSAI",
@@ -31,37 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 14.11,
-      "current_price": 3.77,
-      "unrealized_pct": 0.028649386084583898,
-      "unrealized_dollars": 133.98
-    },
-    {
-      "ticker": "EDBL",
-      "entry_price": 2.315,
-      "stop_loss_price": 2.26,
-      "profit_target_price": 3.18,
-      "position_size_dollars": 4.73,
-      "entry_timestamp": "2026-08-03T15:02:34.539485",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 15.73,
-      "current_price": 2.2598,
-      "unrealized_pct": -0.02384449244060481,
-      "unrealized_dollars": -0.11
-    },
-    {
-      "ticker": "EDBL",
-      "entry_price": 2.315,
-      "stop_loss_price": 2.26,
-      "profit_target_price": 3.18,
-      "position_size_dollars": 4757.63,
-      "entry_timestamp": "2026-08-03T15:02:23.787409",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 15.73,
-      "current_price": 2.2598,
-      "unrealized_pct": -0.02384449244060481,
-      "unrealized_dollars": -113.44
+      "current_price": 3.745,
+      "unrealized_pct": 0.021828103683492514,
+      "unrealized_dollars": 102.08
     },
     {
       "ticker": "GNPX",
@@ -73,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.58,
-      "current_price": 5.16,
-      "unrealized_pct": 0.05789732655404297,
-      "unrealized_dollars": 0.27
+      "current_price": 5.05,
+      "unrealized_pct": 0.03534525176316214,
+      "unrealized_dollars": 0.17
     },
     {
       "ticker": "GNPX",
@@ -87,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.58,
-      "current_price": 5.16,
-      "unrealized_pct": 0.05789732655404297,
-      "unrealized_dollars": 274.74
+      "current_price": 5.05,
+      "unrealized_pct": 0.03534525176316214,
+      "unrealized_dollars": 167.72
     },
     {
       "ticker": "SNES",
@@ -101,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.0,
-      "current_price": 1.545,
-      "unrealized_pct": 0.1115107913669065,
-      "unrealized_dollars": 0.52
+      "current_price": 1.56,
+      "unrealized_pct": 0.12230215827338141,
+      "unrealized_dollars": 0.57
     },
     {
       "ticker": "SNES",
@@ -115,12 +87,34 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.0,
-      "current_price": 1.545,
-      "unrealized_pct": 0.1115107913669065,
-      "unrealized_dollars": 529.15
+      "current_price": 1.56,
+      "unrealized_pct": 0.12230215827338141,
+      "unrealized_dollars": 580.35
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "EDBL",
+      "entry_price": 2.315,
+      "exit_price": 2.2599,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.11,
+      "pl_percent": -0.023801,
+      "exit_timestamp": "2026-08-03T18:45:14.627774",
+      "setup_quality": "B",
+      "position_size_dollars": 4.73
+    },
+    {
+      "ticker": "EDBL",
+      "entry_price": 2.315,
+      "exit_price": 2.2598,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -113.44,
+      "pl_percent": -0.023844,
+      "exit_timestamp": "2026-08-03T18:45:03.948019",
+      "setup_quality": "B",
+      "position_size_dollars": 4757.63
+    },
     {
       "ticker": "EZRA",
       "entry_price": 3.2902,
@@ -648,28 +642,6 @@
       "exit_timestamp": "2026-07-23T19:45:05.206076",
       "setup_quality": "B",
       "position_size_dollars": 4971.67
-    },
-    {
-      "ticker": "WBUY",
-      "entry_price": 1.22,
-      "exit_price": 1.0302,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -0.77,
-      "pl_percent": -0.155574,
-      "exit_timestamp": "2026-07-23T14:00:14.210918",
-      "setup_quality": "B",
-      "position_size_dollars": 4.95
-    },
-    {
-      "ticker": "WBUY",
-      "entry_price": 1.22,
-      "exit_price": 1.03,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -774.16,
-      "pl_percent": -0.155738,
-      "exit_timestamp": "2026-07-23T14:00:03.516989",
-      "setup_quality": "B",
-      "position_size_dollars": 4970.94
     }
   ]
 }
