@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T10:00:04.516777-04:00",
+  "generated_at": "2026-08-03T10:15:03.795099-04:00",
   "summary": {
     "total_pl_dollars": -2182.06,
     "wins": 19,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.58,
-      "current_price": 4.925,
-      "unrealized_pct": 0.009717894046252186,
-      "unrealized_dollars": 0.05
+      "current_price": 4.75,
+      "unrealized_pct": -0.026160406757421713,
+      "unrealized_dollars": -0.12
     },
     {
       "ticker": "GNPX",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.58,
-      "current_price": 4.925,
-      "unrealized_pct": 0.009717894046252186,
-      "unrealized_dollars": 46.11
+      "current_price": 4.75,
+      "unrealized_pct": -0.026160406757421713,
+      "unrealized_dollars": -124.14
     },
     {
       "ticker": "SNES",
@@ -45,8 +45,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.0,
-      "current_price": 1.5337,
-      "unrealized_pct": 0.1033812949640289,
+      "current_price": 1.535,
+      "unrealized_pct": 0.10431654676258995,
       "unrealized_dollars": 0.49
     },
     {
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.0,
-      "current_price": 1.5337,
-      "unrealized_pct": 0.1033812949640289,
-      "unrealized_dollars": 490.57
+      "current_price": 1.535,
+      "unrealized_pct": 0.10431654676258995,
+      "unrealized_dollars": 495.01
     }
   ],
   "closed_trades": [
