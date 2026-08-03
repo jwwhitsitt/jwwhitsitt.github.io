@@ -1,112 +1,90 @@
 {
-  "generated_at": "2026-08-03T15:45:07.463548-04:00",
+  "generated_at": "2026-08-03T16:00:03.273719-04:00",
   "summary": {
-    "total_pl_dollars": -3015.82,
+    "total_pl_dollars": -3761.13,
     "wins": 17,
     "losses": 33,
-    "open_count": 7
+    "open_count": 0
   },
-  "open_trades": [
+  "open_trades": [],
+  "closed_trades": [
     {
       "ticker": "XAIR",
       "entry_price": 6.3,
-      "stop_loss_price": 5.9083,
-      "profit_target_price": 7.735,
-      "position_size_dollars": 4659.53,
-      "entry_timestamp": "2026-08-03T19:01:36.460000",
+      "exit_price": 6.34,
+      "exit_reason": "eod_close",
+      "pl_dollars": 29.58,
+      "pl_percent": 0.006349,
+      "exit_timestamp": "2026-08-03T19:46:06.664399",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 3.66,
-      "current_price": 6.225,
-      "unrealized_pct": -0.011904761904761934,
-      "unrealized_dollars": -55.47
+      "position_size_dollars": 4659.53
     },
     {
       "ticker": "CSAI",
       "entry_price": 3.665,
-      "stop_loss_price": 3.53,
-      "profit_target_price": 5.57,
-      "position_size_dollars": 4.58,
-      "entry_timestamp": "2026-08-03T17:02:46.215502",
+      "exit_price": 3.97,
+      "exit_reason": "eod_close",
+      "pl_dollars": 0.38,
+      "pl_percent": 0.08322,
+      "exit_timestamp": "2026-08-03T19:45:56.118015",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 14.11,
-      "current_price": 3.97,
-      "unrealized_pct": 0.08321964529331519,
-      "unrealized_dollars": 0.38
+      "position_size_dollars": 4.58
     },
     {
       "ticker": "CSAI",
       "entry_price": 3.665,
-      "stop_loss_price": 3.53,
-      "profit_target_price": 5.57,
-      "position_size_dollars": 4676.62,
-      "entry_timestamp": "2026-08-03T17:02:35.456284",
+      "exit_price": 3.97,
+      "exit_reason": "eod_close",
+      "pl_dollars": 389.19,
+      "pl_percent": 0.08322,
+      "exit_timestamp": "2026-08-03T19:45:45.665486",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 14.11,
-      "current_price": 3.97,
-      "unrealized_pct": 0.08321964529331519,
-      "unrealized_dollars": 389.19
+      "position_size_dollars": 4676.62
     },
     {
       "ticker": "GNPX",
       "entry_price": 4.8776,
-      "stop_loss_price": 4.39,
-      "profit_target_price": 5.76,
-      "position_size_dollars": 4.7,
-      "entry_timestamp": "2026-08-03T13:35:42.696217",
+      "exit_price": 5.0751,
+      "exit_reason": "eod_close",
+      "pl_dollars": 0.19,
+      "pl_percent": 0.040491,
+      "exit_timestamp": "2026-08-03T19:45:35.145489",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 1.58,
-      "current_price": 4.95,
-      "unrealized_pct": 0.01484336558963425,
-      "unrealized_dollars": 0.07
+      "position_size_dollars": 4.7
     },
     {
       "ticker": "GNPX",
       "entry_price": 4.8776,
-      "stop_loss_price": 4.39,
-      "profit_target_price": 5.76,
-      "position_size_dollars": 4745.24,
-      "entry_timestamp": "2026-08-03T13:35:32.355161",
+      "exit_price": 4.95,
+      "exit_reason": "eod_close",
+      "pl_dollars": 70.44,
+      "pl_percent": 0.014843,
+      "exit_timestamp": "2026-08-03T19:45:24.699727",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 1.58,
-      "current_price": 4.95,
-      "unrealized_pct": 0.01484336558963425,
-      "unrealized_dollars": 70.44
+      "position_size_dollars": 4745.24
     },
     {
       "ticker": "SNES",
       "entry_price": 1.39,
-      "stop_loss_price": 1.25,
-      "profit_target_price": 1.75,
-      "position_size_dollars": 4.7,
-      "entry_timestamp": "2026-08-03T13:35:21.924590",
+      "exit_price": 1.56,
+      "exit_reason": "eod_close",
+      "pl_dollars": 0.57,
+      "pl_percent": 0.122302,
+      "exit_timestamp": "2026-08-03T19:45:14.022470",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 2.0,
-      "current_price": 1.56,
-      "unrealized_pct": 0.12230215827338141,
-      "unrealized_dollars": 0.57
+      "position_size_dollars": 4.7
     },
     {
       "ticker": "SNES",
       "entry_price": 1.39,
-      "stop_loss_price": 1.25,
-      "profit_target_price": 1.75,
-      "position_size_dollars": 4745.24,
-      "entry_timestamp": "2026-08-03T13:35:11.105084",
+      "exit_price": 1.56,
+      "exit_reason": "eod_close",
+      "pl_dollars": 580.35,
+      "pl_percent": 0.122302,
+      "exit_timestamp": "2026-08-03T19:45:03.327327",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 2.0,
-      "current_price": 1.56,
-      "unrealized_pct": 0.12230215827338141,
-      "unrealized_dollars": 580.35
-    }
-  ],
-  "closed_trades": [
+      "position_size_dollars": 4745.24
+    },
     {
       "ticker": "EDBL",
       "entry_price": 2.315,
@@ -579,83 +557,6 @@
       "exit_timestamp": "2026-07-23T19:46:21.957841",
       "setup_quality": "B",
       "position_size_dollars": 5.03
-    },
-    {
-      "ticker": "NVVE",
-      "entry_price": 3.14,
-      "exit_price": 3.44,
-      "exit_reason": "eod_close",
-      "pl_dollars": 479.96,
-      "pl_percent": 0.095541,
-      "exit_timestamp": "2026-07-23T19:46:11.360066",
-      "setup_quality": "B",
-      "position_size_dollars": 5023.58
-    },
-    {
-      "ticker": "WLDS",
-      "entry_price": 1.8,
-      "exit_price": 2.13,
-      "exit_reason": "eod_close",
-      "pl_dollars": 0.9,
-      "pl_percent": 0.183333,
-      "exit_timestamp": "2026-07-23T19:46:00.350453",
-      "setup_quality": "B",
-      "position_size_dollars": 4.93
-    },
-    {
-      "ticker": "WLDS",
-      "entry_price": 1.8,
-      "exit_price": 2.12,
-      "exit_reason": "eod_close",
-      "pl_dollars": 881.67,
-      "pl_percent": 0.177778,
-      "exit_timestamp": "2026-07-23T19:45:49.769011",
-      "setup_quality": "B",
-      "position_size_dollars": 4959.4
-    },
-    {
-      "ticker": "MODD",
-      "entry_price": 2.95,
-      "exit_price": 3.08,
-      "exit_reason": "eod_close",
-      "pl_dollars": 0.22,
-      "pl_percent": 0.044068,
-      "exit_timestamp": "2026-07-23T19:45:39.064987",
-      "setup_quality": "B",
-      "position_size_dollars": 4.94
-    },
-    {
-      "ticker": "MODD",
-      "entry_price": 2.95,
-      "exit_price": 3.08,
-      "exit_reason": "eod_close",
-      "pl_dollars": 218.79,
-      "pl_percent": 0.044068,
-      "exit_timestamp": "2026-07-23T19:45:28.206345",
-      "setup_quality": "B",
-      "position_size_dollars": 4964.85
-    },
-    {
-      "ticker": "NEUP",
-      "entry_price": 3.7102,
-      "exit_price": 3.885,
-      "exit_reason": "eod_close",
-      "pl_dollars": 0.23,
-      "pl_percent": 0.047113,
-      "exit_timestamp": "2026-07-23T19:45:16.689898",
-      "setup_quality": "B",
-      "position_size_dollars": 4.96
-    },
-    {
-      "ticker": "NEUP",
-      "entry_price": 3.7102,
-      "exit_price": 3.885,
-      "exit_reason": "eod_close",
-      "pl_dollars": 234.23,
-      "pl_percent": 0.047113,
-      "exit_timestamp": "2026-07-23T19:45:05.206076",
-      "setup_quality": "B",
-      "position_size_dollars": 4971.67
     }
   ]
 }
