@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T12:00:05.435031-04:00",
+  "generated_at": "2026-08-03T12:15:04.756092-04:00",
   "summary": {
     "total_pl_dollars": -3217.75,
     "wins": 17,
@@ -17,8 +17,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.19,
-      "current_price": 3.29,
-      "unrealized_pct": -6.078657832349947e-05,
+      "current_price": 3.2899,
+      "unrealized_pct": -9.11798674853167e-05,
       "unrealized_dollars": -0.0
     },
     {
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.19,
-      "current_price": 3.29,
-      "unrealized_pct": -6.078657832349947e-05,
-      "unrealized_dollars": -0.29
+      "current_price": 3.2899,
+      "unrealized_pct": -9.11798674853167e-05,
+      "unrealized_dollars": -0.43
     },
     {
       "ticker": "EDBL",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 15.73,
-      "current_price": 2.355,
-      "unrealized_pct": 0.01727861771058317,
-      "unrealized_dollars": 0.08
+      "current_price": 2.3,
+      "unrealized_pct": -0.006479481641468736,
+      "unrealized_dollars": -0.03
     },
     {
       "ticker": "EDBL",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 15.73,
-      "current_price": 2.355,
-      "unrealized_pct": 0.01727861771058317,
-      "unrealized_dollars": 82.21
+      "current_price": 2.3,
+      "unrealized_pct": -0.006479481641468736,
+      "unrealized_dollars": -30.83
     },
     {
       "ticker": "GNPX",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.58,
-      "current_price": 5.15,
-      "unrealized_pct": 0.05584713793669022,
-      "unrealized_dollars": 0.26
+      "current_price": 5.06,
+      "unrealized_pct": 0.03739544038051489,
+      "unrealized_dollars": 0.18
     },
     {
       "ticker": "GNPX",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.58,
-      "current_price": 5.15,
-      "unrealized_pct": 0.05584713793669022,
-      "unrealized_dollars": 265.01
+      "current_price": 5.06,
+      "unrealized_pct": 0.03739544038051489,
+      "unrealized_dollars": 177.45
     },
     {
       "ticker": "SNES",
@@ -101,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.0,
-      "current_price": 1.565,
-      "unrealized_pct": 0.12589928057553962,
-      "unrealized_dollars": 0.59
+      "current_price": 1.58,
+      "unrealized_pct": 0.1366906474820145,
+      "unrealized_dollars": 0.64
     },
     {
       "ticker": "SNES",
@@ -115,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.0,
-      "current_price": 1.565,
-      "unrealized_pct": 0.12589928057553962,
-      "unrealized_dollars": 597.42
+      "current_price": 1.58,
+      "unrealized_pct": 0.1366906474820145,
+      "unrealized_dollars": 648.63
     }
   ],
   "closed_trades": [
