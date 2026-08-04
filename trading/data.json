@@ -1,12 +1,69 @@
 {
-  "generated_at": "2026-08-04T11:00:03.411687-04:00",
+  "generated_at": "2026-08-04T11:15:04.628300-04:00",
   "summary": {
     "total_pl_dollars": -3761.13,
     "wins": 17,
     "losses": 33,
-    "open_count": 0
+    "open_count": 4
   },
-  "open_trades": [],
+  "open_trades": [
+    {
+      "ticker": "RAIN",
+      "entry_price": 1.271,
+      "stop_loss_price": 1.24,
+      "profit_target_price": 1.6,
+      "position_size_dollars": 4.56,
+      "entry_timestamp": "2026-08-04T15:03:18.999258",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 10.61,
+      "current_price": 1.285,
+      "unrealized_pct": 0.011014948859166021,
+      "unrealized_dollars": 0.05
+    },
+    {
+      "ticker": "RAIN",
+      "entry_price": 1.271,
+      "stop_loss_price": 1.24,
+      "profit_target_price": 1.6,
+      "position_size_dollars": 4656.59,
+      "entry_timestamp": "2026-08-04T15:03:08.380438",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 10.61,
+      "current_price": 1.285,
+      "unrealized_pct": 0.011014948859166021,
+      "unrealized_dollars": 51.29
+    },
+    {
+      "ticker": "NUWE",
+      "entry_price": 1.8401,
+      "stop_loss_price": 1.75,
+      "profit_target_price": 2.43,
+      "position_size_dollars": 4.56,
+      "entry_timestamp": "2026-08-04T15:02:57.819373",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 6.55,
+      "current_price": 1.86,
+      "unrealized_pct": 0.010814629639693511,
+      "unrealized_dollars": 0.05
+    },
+    {
+      "ticker": "NUWE",
+      "entry_price": 1.8401,
+      "stop_loss_price": 1.75,
+      "profit_target_price": 2.43,
+      "position_size_dollars": 4654.68,
+      "entry_timestamp": "2026-08-04T15:02:46.994303",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 6.55,
+      "current_price": 1.86,
+      "unrealized_pct": 0.010814629639693511,
+      "unrealized_dollars": 50.34
+    }
+  ],
   "closed_trades": [
     {
       "ticker": "XAIR",
