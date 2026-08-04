@@ -1,40 +1,12 @@
 {
-  "generated_at": "2026-08-04T11:45:04.182479-04:00",
+  "generated_at": "2026-08-04T12:00:04.418119-04:00",
   "summary": {
-    "total_pl_dollars": -3761.13,
-    "wins": 17,
-    "losses": 33,
-    "open_count": 4
+    "total_pl_dollars": -3367.01,
+    "wins": 16,
+    "losses": 34,
+    "open_count": 2
   },
   "open_trades": [
-    {
-      "ticker": "RAIN",
-      "entry_price": 1.271,
-      "stop_loss_price": 1.24,
-      "profit_target_price": 1.6,
-      "position_size_dollars": 4.56,
-      "entry_timestamp": "2026-08-04T15:03:18.999258",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 10.61,
-      "current_price": 1.215,
-      "unrealized_pct": -0.04405979543666391,
-      "unrealized_dollars": -0.2
-    },
-    {
-      "ticker": "RAIN",
-      "entry_price": 1.271,
-      "stop_loss_price": 1.24,
-      "profit_target_price": 1.6,
-      "position_size_dollars": 4656.59,
-      "entry_timestamp": "2026-08-04T15:03:08.380438",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 10.61,
-      "current_price": 1.215,
-      "unrealized_pct": -0.04405979543666391,
-      "unrealized_dollars": -205.17
-    },
     {
       "ticker": "NUWE",
       "entry_price": 1.8401,
@@ -45,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.55,
-      "current_price": 1.93,
-      "unrealized_pct": 0.04885604043258511,
-      "unrealized_dollars": 0.22
+      "current_price": 1.87,
+      "unrealized_pct": 0.016249116895820898,
+      "unrealized_dollars": 0.07
     },
     {
       "ticker": "NUWE",
@@ -59,12 +31,34 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.55,
-      "current_price": 1.93,
-      "unrealized_pct": 0.04885604043258511,
-      "unrealized_dollars": 227.41
+      "current_price": 1.87,
+      "unrealized_pct": 0.016249116895820898,
+      "unrealized_dollars": 75.63
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "RAIN",
+      "entry_price": 1.271,
+      "exit_price": 1.215,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.2,
+      "pl_percent": -0.04406,
+      "exit_timestamp": "2026-08-04T15:45:14.241935",
+      "setup_quality": "B",
+      "position_size_dollars": 4.56
+    },
+    {
+      "ticker": "RAIN",
+      "entry_price": 1.271,
+      "exit_price": 1.215,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -205.17,
+      "pl_percent": -0.04406,
+      "exit_timestamp": "2026-08-04T15:45:03.487290",
+      "setup_quality": "B",
+      "position_size_dollars": 4656.59
+    },
     {
       "ticker": "XAIR",
       "entry_price": 6.3,
@@ -592,28 +586,6 @@
       "exit_timestamp": "2026-07-24T13:45:14.352740",
       "setup_quality": "B",
       "position_size_dollars": 5.01
-    },
-    {
-      "ticker": "VIVK",
-      "entry_price": 3.235,
-      "exit_price": 2.8474,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -599.98,
-      "pl_percent": -0.119815,
-      "exit_timestamp": "2026-07-24T13:45:03.580094",
-      "setup_quality": "B",
-      "position_size_dollars": 5007.6
-    },
-    {
-      "ticker": "NVVE",
-      "entry_price": 3.14,
-      "exit_price": 3.45,
-      "exit_reason": "eod_close",
-      "pl_dollars": 0.5,
-      "pl_percent": 0.098726,
-      "exit_timestamp": "2026-07-23T19:46:21.957841",
-      "setup_quality": "B",
-      "position_size_dollars": 5.03
     }
   ]
 }
