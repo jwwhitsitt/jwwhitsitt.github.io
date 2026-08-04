@@ -1,12 +1,40 @@
 {
-  "generated_at": "2026-08-04T13:00:04.284905-04:00",
+  "generated_at": "2026-08-04T13:15:04.539719-04:00",
   "summary": {
     "total_pl_dollars": -3367.01,
     "wins": 16,
     "losses": 34,
-    "open_count": 2
+    "open_count": 4
   },
   "open_trades": [
+    {
+      "ticker": "YYGH",
+      "entry_price": 1.2205,
+      "stop_loss_price": 1.1613,
+      "profit_target_price": 1.4291,
+      "position_size_dollars": 4.55,
+      "entry_timestamp": "2026-08-04T17:02:37.741409",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 3.52,
+      "current_price": 1.22,
+      "unrealized_pct": -0.00040966816878324044,
+      "unrealized_dollars": -0.0
+    },
+    {
+      "ticker": "YYGH",
+      "entry_price": 1.2205,
+      "stop_loss_price": 1.1613,
+      "profit_target_price": 1.4291,
+      "position_size_dollars": 4647.39,
+      "entry_timestamp": "2026-08-04T17:02:27.014316",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 3.52,
+      "current_price": 1.22,
+      "unrealized_pct": -0.00040966816878324044,
+      "unrealized_dollars": -1.9
+    },
     {
       "ticker": "NUWE",
       "entry_price": 1.8401,
@@ -17,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.55,
-      "current_price": 1.865,
-      "unrealized_pct": 0.013531873267757144,
-      "unrealized_dollars": 0.06
+      "current_price": 1.8588,
+      "unrealized_pct": 0.010162491168958175,
+      "unrealized_dollars": 0.05
     },
     {
       "ticker": "NUWE",
@@ -31,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.55,
-      "current_price": 1.865,
-      "unrealized_pct": 0.013531873267757144,
-      "unrealized_dollars": 62.99
+      "current_price": 1.8588,
+      "unrealized_pct": 0.010162491168958175,
+      "unrealized_dollars": 47.3
     }
   ],
   "closed_trades": [
