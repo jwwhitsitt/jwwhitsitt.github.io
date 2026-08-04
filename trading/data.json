@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T11:30:04.077819-04:00",
+  "generated_at": "2026-08-04T11:45:04.182479-04:00",
   "summary": {
     "total_pl_dollars": -3761.13,
     "wins": 17,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 10.61,
-      "current_price": 1.2601,
-      "unrealized_pct": -0.008575924468922039,
-      "unrealized_dollars": -0.04
+      "current_price": 1.215,
+      "unrealized_pct": -0.04405979543666391,
+      "unrealized_dollars": -0.2
     },
     {
       "ticker": "RAIN",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 10.61,
-      "current_price": 1.2601,
-      "unrealized_pct": -0.008575924468922039,
-      "unrealized_dollars": -39.93
+      "current_price": 1.215,
+      "unrealized_pct": -0.04405979543666391,
+      "unrealized_dollars": -205.17
     },
     {
       "ticker": "NUWE",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.55,
-      "current_price": 1.921,
-      "unrealized_pct": 0.043965001902070526,
-      "unrealized_dollars": 0.2
+      "current_price": 1.93,
+      "unrealized_pct": 0.04885604043258511,
+      "unrealized_dollars": 0.22
     },
     {
       "ticker": "NUWE",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.55,
-      "current_price": 1.921,
-      "unrealized_pct": 0.043965001902070526,
-      "unrealized_dollars": 204.64
+      "current_price": 1.93,
+      "unrealized_pct": 0.04885604043258511,
+      "unrealized_dollars": 227.41
     }
   ],
   "closed_trades": [
