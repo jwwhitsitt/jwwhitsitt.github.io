@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T14:45:04.368336-04:00",
+  "generated_at": "2026-08-04T15:00:05.026572-04:00",
   "summary": {
     "total_pl_dollars": -3367.01,
     "wins": 16,
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.55,
-      "current_price": 1.925,
-      "unrealized_pct": 0.04613879680452148,
-      "unrealized_dollars": 0.21
+      "current_price": 1.9,
+      "unrealized_pct": 0.03255257866420295,
+      "unrealized_dollars": 0.15
     },
     {
       "ticker": "NUWE",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.55,
-      "current_price": 1.925,
-      "unrealized_pct": 0.04613879680452148,
-      "unrealized_dollars": 214.76
+      "current_price": 1.9,
+      "unrealized_pct": 0.03255257866420295,
+      "unrealized_dollars": 151.52
     }
   ],
   "closed_trades": [
