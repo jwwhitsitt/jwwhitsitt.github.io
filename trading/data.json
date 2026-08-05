@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-05T12:00:04.341445-04:00",
+  "generated_at": "2026-08-05T12:15:07.411241-04:00",
   "summary": {
-    "total_pl_dollars": -2495.57,
+    "total_pl_dollars": -3055.49,
     "wins": 18,
     "losses": 32,
-    "open_count": 2
+    "open_count": 1
   },
   "open_trades": [
     {
@@ -20,23 +20,20 @@
       "current_price": 10.9,
       "unrealized_pct": 0.0,
       "unrealized_dollars": null
-    },
-    {
-      "ticker": "AMIX",
-      "entry_price": 14.78,
-      "stop_loss_price": 13.1201,
-      "profit_target_price": 18.69,
-      "position_size_dollars": 4649.94,
-      "entry_timestamp": "2026-08-05T15:01:52.489887",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 2.36,
-      "current_price": 13.0,
-      "unrealized_pct": -0.1204330175913396,
-      "unrealized_dollars": -560.01
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "AMIX",
+      "entry_price": 14.78,
+      "exit_price": 13.0,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -560.01,
+      "pl_percent": -0.120433,
+      "exit_timestamp": "2026-08-05T16:00:02.967229",
+      "setup_quality": "B",
+      "position_size_dollars": 4649.94
+    },
     {
       "ticker": "YYGH",
       "entry_price": 1.2205,
@@ -575,17 +572,6 @@
       "exit_timestamp": "2026-07-24T19:45:03.097972",
       "setup_quality": "B",
       "position_size_dollars": 4953.07
-    },
-    {
-      "ticker": "FFAI",
-      "entry_price": 6.665,
-      "exit_price": 6.545,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -0.09,
-      "pl_percent": -0.018005,
-      "exit_timestamp": "2026-07-24T18:30:15.059622",
-      "setup_quality": "B",
-      "position_size_dollars": 4.94
     }
   ]
 }
