@@ -1,26 +1,12 @@
 {
-  "generated_at": "2026-08-05T13:45:05.931942-04:00",
+  "generated_at": "2026-08-05T14:00:06.874947-04:00",
   "summary": {
-    "total_pl_dollars": -3055.49,
+    "total_pl_dollars": -3485.5,
     "wins": 18,
     "losses": 32,
-    "open_count": 4
+    "open_count": 3
   },
   "open_trades": [
-    {
-      "ticker": "DBGI",
-      "entry_price": 18.975,
-      "stop_loss_price": 17.85,
-      "profit_target_price": 30.93,
-      "position_size_dollars": 4615.37,
-      "entry_timestamp": "2026-08-05T17:02:26.724572",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 10.63,
-      "current_price": 16.8373,
-      "unrealized_pct": -0.11265876152832686,
-      "unrealized_dollars": -519.96
-    },
     {
       "ticker": "OESX",
       "entry_price": 14.42,
@@ -31,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.11,
-      "current_price": 14.8755,
-      "unrealized_pct": 0.03158807212205275,
-      "unrealized_dollars": 0.14
+      "current_price": 14.88,
+      "unrealized_pct": 0.03190013869625526,
+      "unrealized_dollars": 0.15
     },
     {
       "ticker": "OESX",
@@ -45,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.11,
-      "current_price": 14.8755,
-      "unrealized_pct": 0.03158807212205275,
-      "unrealized_dollars": 145.79
+      "current_price": 14.88,
+      "unrealized_pct": 0.03190013869625526,
+      "unrealized_dollars": 147.23
     },
     {
       "ticker": "CHAR",
@@ -65,6 +51,17 @@
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "DBGI",
+      "entry_price": 18.975,
+      "exit_price": 16.8373,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -519.96,
+      "pl_percent": -0.112659,
+      "exit_timestamp": "2026-08-05T17:45:04.691827",
+      "setup_quality": "B",
+      "position_size_dollars": 4615.37
+    },
     {
       "ticker": "AMIX",
       "entry_price": 14.78,
@@ -603,17 +600,6 @@
       "exit_timestamp": "2026-07-24T19:45:14.009368",
       "setup_quality": "B",
       "position_size_dollars": 4.93
-    },
-    {
-      "ticker": "RBNE",
-      "entry_price": 3.249,
-      "exit_price": 3.19,
-      "exit_reason": "eod_close",
-      "pl_dollars": -89.94,
-      "pl_percent": -0.018159,
-      "exit_timestamp": "2026-07-24T19:45:03.097972",
-      "setup_quality": "B",
-      "position_size_dollars": 4953.07
     }
   ]
 }
