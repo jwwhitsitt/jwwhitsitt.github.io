@@ -1,56 +1,46 @@
 {
-  "generated_at": "2026-08-05T15:45:04.929503-04:00",
+  "generated_at": "2026-08-05T16:00:03.476584-04:00",
   "summary": {
-    "total_pl_dollars": -3485.5,
+    "total_pl_dollars": -3341.88,
     "wins": 18,
     "losses": 32,
-    "open_count": 3
+    "open_count": 0
   },
-  "open_trades": [
+  "open_trades": [],
+  "closed_trades": [
     {
       "ticker": "OESX",
       "entry_price": 14.42,
-      "stop_loss_price": 13.67,
-      "profit_target_price": 17.4999,
-      "position_size_dollars": 4.55,
-      "entry_timestamp": "2026-08-05T17:02:16.026205",
+      "exit_price": 15.525,
+      "exit_reason": "eod_close",
+      "pl_dollars": 0.35,
+      "pl_percent": 0.07663,
+      "exit_timestamp": "2026-08-05T19:45:25.711877",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 4.11,
-      "current_price": 15.525,
-      "unrealized_pct": 0.07662968099861307,
-      "unrealized_dollars": 0.35
+      "position_size_dollars": 4.55
     },
     {
       "ticker": "OESX",
       "entry_price": 14.42,
-      "stop_loss_price": 13.67,
-      "profit_target_price": 17.4999,
-      "position_size_dollars": 4615.21,
-      "entry_timestamp": "2026-08-05T17:02:04.920755",
+      "exit_price": 15.525,
+      "exit_reason": "eod_close",
+      "pl_dollars": 353.66,
+      "pl_percent": 0.07663,
+      "exit_timestamp": "2026-08-05T19:45:14.794270",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 4.11,
-      "current_price": 15.525,
-      "unrealized_pct": 0.07662968099861307,
-      "unrealized_dollars": 353.66
+      "position_size_dollars": 4615.21
     },
     {
       "ticker": "CHAR",
       "entry_price": 10.9,
-      "stop_loss_price": 10.45,
-      "profit_target_price": 11.5,
-      "position_size_dollars": 4648.72,
-      "entry_timestamp": "2026-08-05T15:02:03.698020",
+      "exit_price": 10.89,
+      "exit_reason": "eod_close",
+      "pl_dollars": -4.26,
+      "pl_percent": -0.000917,
+      "exit_timestamp": "2026-08-05T19:45:03.633197",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 1.63,
-      "current_price": 10.89,
-      "unrealized_pct": -0.0009174311926605309,
-      "unrealized_dollars": -4.26
-    }
-  ],
-  "closed_trades": [
+      "position_size_dollars": 4648.72
+    },
     {
       "ticker": "DBGI",
       "entry_price": 18.975,
@@ -567,39 +557,6 @@
       "exit_timestamp": "2026-07-28T19:45:04.206444",
       "setup_quality": "B",
       "position_size_dollars": 4926.98
-    },
-    {
-      "ticker": "XBP",
-      "entry_price": 3.06,
-      "exit_price": 3.12,
-      "exit_reason": "eod_close",
-      "pl_dollars": 0.1,
-      "pl_percent": 0.019608,
-      "exit_timestamp": "2026-07-24T19:45:35.757085",
-      "setup_quality": "B",
-      "position_size_dollars": 4.94
-    },
-    {
-      "ticker": "XBP",
-      "entry_price": 3.06,
-      "exit_price": 3.1872,
-      "exit_reason": "eod_close",
-      "pl_dollars": 206.11,
-      "pl_percent": 0.041569,
-      "exit_timestamp": "2026-07-24T19:45:25.218874",
-      "setup_quality": "B",
-      "position_size_dollars": 4958.36
-    },
-    {
-      "ticker": "RBNE",
-      "entry_price": 3.249,
-      "exit_price": 3.19,
-      "exit_reason": "eod_close",
-      "pl_dollars": -0.09,
-      "pl_percent": -0.018159,
-      "exit_timestamp": "2026-07-24T19:45:14.009368",
-      "setup_quality": "B",
-      "position_size_dollars": 4.93
     }
   ]
 }
