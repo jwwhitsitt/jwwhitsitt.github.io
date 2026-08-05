@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T14:45:04.744926-04:00",
+  "generated_at": "2026-08-05T15:00:05.638044-04:00",
   "summary": {
     "total_pl_dollars": -3485.5,
     "wins": 18,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.11,
-      "current_price": 15.2424,
-      "unrealized_pct": 0.05703190013869626,
-      "unrealized_dollars": 0.26
+      "current_price": 14.6101,
+      "unrealized_pct": 0.013183079056865414,
+      "unrealized_dollars": 0.06
     },
     {
       "ticker": "OESX",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.11,
-      "current_price": 15.2424,
-      "unrealized_pct": 0.05703190013869626,
-      "unrealized_dollars": 263.21
+      "current_price": 14.6101,
+      "unrealized_pct": 0.013183079056865414,
+      "unrealized_dollars": 60.84
     },
     {
       "ticker": "CHAR",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.63,
-      "current_price": 10.9,
-      "unrealized_pct": 0.0,
-      "unrealized_dollars": null
+      "current_price": 10.89,
+      "unrealized_pct": -0.0009174311926605309,
+      "unrealized_dollars": -4.26
     }
   ],
   "closed_trades": [
