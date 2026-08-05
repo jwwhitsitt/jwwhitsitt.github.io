@@ -1,12 +1,41 @@
 {
-  "generated_at": "2026-08-05T11:00:08.338041-04:00",
+  "generated_at": "2026-08-05T11:15:05.347351-04:00",
   "summary": {
     "total_pl_dollars": -2495.57,
     "wins": 18,
     "losses": 32,
-    "open_count": 0
+    "open_count": 2
   },
-  "open_trades": [],
+  "open_trades": [
+    {
+      "ticker": "CHAR",
+      "entry_price": 10.9,
+      "stop_loss_price": 10.45,
+      "profit_target_price": 11.5,
+      "position_size_dollars": 4648.72,
+      "entry_timestamp": "2026-08-05T15:02:03.698020",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.63,
+      "current_price": 10.9,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
+    },
+    {
+      "ticker": "AMIX",
+      "entry_price": 14.78,
+      "stop_loss_price": 13.1201,
+      "profit_target_price": 18.69,
+      "position_size_dollars": 4649.94,
+      "entry_timestamp": "2026-08-05T15:01:52.489887",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 2.36,
+      "current_price": 14.5216,
+      "unrealized_pct": -0.017483085250338294,
+      "unrealized_dollars": -81.3
+    }
+  ],
   "closed_trades": [
     {
       "ticker": "YYGH",
