@@ -1,42 +1,35 @@
 {
-  "generated_at": "2026-08-06T09:45:03.935752-04:00",
+  "generated_at": "2026-08-06T10:00:03.872137-04:00",
   "summary": {
-    "total_pl_dollars": -3341.88,
+    "total_pl_dollars": -4134.1,
     "wins": 18,
     "losses": 32,
-    "open_count": 2
+    "open_count": 0
   },
-  "open_trades": [
+  "open_trades": [],
+  "closed_trades": [
     {
       "ticker": "BIVI",
       "entry_price": 1.31,
-      "stop_loss_price": 1.29,
-      "profit_target_price": 1.38,
-      "position_size_dollars": 4.55,
-      "entry_timestamp": "2026-08-06T13:32:48.827117",
+      "exit_price": 1.05,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.9,
+      "pl_percent": -0.198473,
+      "exit_timestamp": "2026-08-06T13:45:14.549624",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 3.5,
-      "current_price": 1.066,
-      "unrealized_pct": -0.18625954198473282,
-      "unrealized_dollars": -0.85
+      "position_size_dollars": 4.55
     },
     {
       "ticker": "BIVI",
       "entry_price": 1.31,
-      "stop_loss_price": 1.29,
-      "profit_target_price": 1.38,
-      "position_size_dollars": 4592.38,
-      "entry_timestamp": "2026-08-06T13:32:38.314641",
+      "exit_price": 1.066,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -855.37,
+      "pl_percent": -0.18626,
+      "exit_timestamp": "2026-08-06T13:45:03.811602",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 3.5,
-      "current_price": 1.066,
-      "unrealized_pct": -0.18625954198473282,
-      "unrealized_dollars": -855.37
-    }
-  ],
-  "closed_trades": [
+      "position_size_dollars": 4592.38
+    },
     {
       "ticker": "OESX",
       "entry_price": 14.42,
@@ -564,28 +557,6 @@
       "exit_timestamp": "2026-07-28T19:45:25.566241",
       "setup_quality": "B",
       "position_size_dollars": 4926.29
-    },
-    {
-      "ticker": "WLDS",
-      "entry_price": 3.85,
-      "exit_price": 3.8,
-      "exit_reason": "eod_close",
-      "pl_dollars": -0.06,
-      "pl_percent": -0.012987,
-      "exit_timestamp": "2026-07-28T19:45:14.833052",
-      "setup_quality": "B",
-      "position_size_dollars": 4.91
-    },
-    {
-      "ticker": "WLDS",
-      "entry_price": 3.85,
-      "exit_price": 3.8,
-      "exit_reason": "eod_close",
-      "pl_dollars": -63.99,
-      "pl_percent": -0.012987,
-      "exit_timestamp": "2026-07-28T19:45:04.206444",
-      "setup_quality": "B",
-      "position_size_dollars": 4926.98
     }
   ]
 }
