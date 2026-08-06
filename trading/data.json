@@ -1,12 +1,41 @@
 {
-  "generated_at": "2026-08-06T13:00:03.391010-04:00",
+  "generated_at": "2026-08-06T13:15:04.138848-04:00",
   "summary": {
     "total_pl_dollars": -4134.1,
     "wins": 18,
     "losses": 32,
-    "open_count": 0
+    "open_count": 2
   },
-  "open_trades": [],
+  "open_trades": [
+    {
+      "ticker": "HQI",
+      "entry_price": 12.86,
+      "stop_loss_price": 12.71,
+      "profit_target_price": 13.85,
+      "position_size_dollars": 4.5,
+      "entry_timestamp": "2026-08-06T17:01:58.584266",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 6.6,
+      "current_price": 12.82,
+      "unrealized_pct": -0.0031104199066873364,
+      "unrealized_dollars": -0.01
+    },
+    {
+      "ticker": "HQI",
+      "entry_price": 12.86,
+      "stop_loss_price": 12.71,
+      "profit_target_price": 13.85,
+      "position_size_dollars": 4558.5,
+      "entry_timestamp": "2026-08-06T17:01:48.089758",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 6.6,
+      "current_price": 12.82,
+      "unrealized_pct": -0.0031104199066873364,
+      "unrealized_dollars": -14.18
+    }
+  ],
   "closed_trades": [
     {
       "ticker": "BIVI",
