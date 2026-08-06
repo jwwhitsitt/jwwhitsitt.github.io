@@ -1,56 +1,46 @@
 {
-  "generated_at": "2026-08-06T15:45:04.435953-04:00",
+  "generated_at": "2026-08-06T16:00:03.100648-04:00",
   "summary": {
-    "total_pl_dollars": -4274.97,
+    "total_pl_dollars": -3869.21,
     "wins": 17,
     "losses": 31,
-    "open_count": 3
+    "open_count": 0
   },
-  "open_trades": [
+  "open_trades": [],
+  "closed_trades": [
     {
       "ticker": "PN",
       "entry_price": 7.4999,
-      "stop_loss_price": 6.65,
-      "profit_target_price": 15.4,
-      "position_size_dollars": 4530.9,
-      "entry_timestamp": "2026-08-06T19:01:53.926520",
+      "exit_price": 8.01,
+      "exit_reason": "eod_close",
+      "pl_dollars": 308.17,
+      "pl_percent": 0.068014,
+      "exit_timestamp": "2026-08-06T19:45:24.997518",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 9.3,
-      "current_price": 7.99,
-      "unrealized_pct": 0.0653475379671729,
-      "unrealized_dollars": 296.08
+      "position_size_dollars": 4530.9
     },
     {
       "ticker": "HQI",
       "entry_price": 12.86,
-      "stop_loss_price": 12.71,
-      "profit_target_price": 13.85,
-      "position_size_dollars": 4.5,
-      "entry_timestamp": "2026-08-06T17:01:58.584266",
+      "exit_price": 12.82,
+      "exit_reason": "eod_close",
+      "pl_dollars": -0.01,
+      "pl_percent": -0.00311,
+      "exit_timestamp": "2026-08-06T19:45:14.230884",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 6.6,
-      "current_price": 12.82,
-      "unrealized_pct": -0.0031104199066873364,
-      "unrealized_dollars": -0.01
+      "position_size_dollars": 4.5
     },
     {
       "ticker": "HQI",
       "entry_price": 12.86,
-      "stop_loss_price": 12.71,
-      "profit_target_price": 13.85,
-      "position_size_dollars": 4558.5,
-      "entry_timestamp": "2026-08-06T17:01:48.089758",
+      "exit_price": 12.82,
+      "exit_reason": "eod_close",
+      "pl_dollars": -14.18,
+      "pl_percent": -0.00311,
+      "exit_timestamp": "2026-08-06T19:45:03.399028",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 6.6,
-      "current_price": 12.82,
-      "unrealized_pct": -0.0031104199066873364,
-      "unrealized_dollars": -14.18
-    }
-  ],
-  "closed_trades": [
+      "position_size_dollars": 4558.5
+    },
     {
       "ticker": "NVNO",
       "entry_price": 9.81,
@@ -567,39 +557,6 @@
       "exit_timestamp": "2026-07-28T19:46:18.295230",
       "setup_quality": "B",
       "position_size_dollars": 4917.82
-    },
-    {
-      "ticker": "ENLV",
-      "entry_price": 2.2,
-      "exit_price": 2.1301,
-      "exit_reason": "eod_close",
-      "pl_dollars": -0.16,
-      "pl_percent": -0.031773,
-      "exit_timestamp": "2026-07-28T19:46:07.601813",
-      "setup_quality": "B",
-      "position_size_dollars": 4.91
-    },
-    {
-      "ticker": "ENLV",
-      "entry_price": 2.2,
-      "exit_price": 2.15,
-      "exit_reason": "eod_close",
-      "pl_dollars": -111.85,
-      "pl_percent": -0.022727,
-      "exit_timestamp": "2026-07-28T19:45:57.125042",
-      "setup_quality": "B",
-      "position_size_dollars": 4921.44
-    },
-    {
-      "ticker": "PSQH",
-      "entry_price": 3.54,
-      "exit_price": 3.7,
-      "exit_reason": "eod_close",
-      "pl_dollars": 0.22,
-      "pl_percent": 0.045198,
-      "exit_timestamp": "2026-07-28T19:45:46.627635",
-      "setup_quality": "B",
-      "position_size_dollars": 4.91
     }
   ]
 }
