@@ -1,12 +1,41 @@
 {
-  "generated_at": "2026-08-06T09:30:03.767492-04:00",
+  "generated_at": "2026-08-06T09:45:03.935752-04:00",
   "summary": {
     "total_pl_dollars": -3341.88,
     "wins": 18,
     "losses": 32,
-    "open_count": 0
+    "open_count": 2
   },
-  "open_trades": [],
+  "open_trades": [
+    {
+      "ticker": "BIVI",
+      "entry_price": 1.31,
+      "stop_loss_price": 1.29,
+      "profit_target_price": 1.38,
+      "position_size_dollars": 4.55,
+      "entry_timestamp": "2026-08-06T13:32:48.827117",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 3.5,
+      "current_price": 1.066,
+      "unrealized_pct": -0.18625954198473282,
+      "unrealized_dollars": -0.85
+    },
+    {
+      "ticker": "BIVI",
+      "entry_price": 1.31,
+      "stop_loss_price": 1.29,
+      "profit_target_price": 1.38,
+      "position_size_dollars": 4592.38,
+      "entry_timestamp": "2026-08-06T13:32:38.314641",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 3.5,
+      "current_price": 1.066,
+      "unrealized_pct": -0.18625954198473282,
+      "unrealized_dollars": -855.37
+    }
+  ],
   "closed_trades": [
     {
       "ticker": "OESX",
