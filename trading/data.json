@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T15:30:04.301529-04:00",
+  "generated_at": "2026-08-06T15:45:04.435953-04:00",
   "summary": {
     "total_pl_dollars": -4274.97,
     "wins": 17,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 9.3,
-      "current_price": 8.0,
-      "unrealized_pct": 0.06668088907852102,
-      "unrealized_dollars": 302.12
+      "current_price": 7.99,
+      "unrealized_pct": 0.0653475379671729,
+      "unrealized_dollars": 296.08
     },
     {
       "ticker": "HQI",
