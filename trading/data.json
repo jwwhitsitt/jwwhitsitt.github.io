@@ -1,12 +1,124 @@
 {
-  "generated_at": "2026-08-07T15:00:04.504215-04:00",
+  "generated_at": "2026-08-07T15:15:07.378692-04:00",
   "summary": {
-    "total_pl_dollars": -4459.19,
+    "total_pl_dollars": -4405.67,
     "wins": 15,
     "losses": 33,
-    "open_count": 4
+    "open_count": 10
   },
   "open_trades": [
+    {
+      "ticker": "YJ",
+      "entry_price": 3.39,
+      "stop_loss_price": 1.3298,
+      "profit_target_price": 13.97,
+      "position_size_dollars": 4.42,
+      "entry_timestamp": "2026-08-07T19:04:29.840052",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 5.14,
+      "current_price": 3.2601,
+      "unrealized_pct": -0.038318584070796496,
+      "unrealized_dollars": -0.17
+    },
+    {
+      "ticker": "YJ",
+      "entry_price": 3.39,
+      "stop_loss_price": 1.3298,
+      "profit_target_price": 13.97,
+      "position_size_dollars": 4504.48,
+      "entry_timestamp": "2026-08-07T19:04:19.243644",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 5.14,
+      "current_price": 3.2601,
+      "unrealized_pct": -0.038318584070796496,
+      "unrealized_dollars": -172.61
+    },
+    {
+      "ticker": "VSA",
+      "entry_price": 3.5,
+      "stop_loss_price": 3.03,
+      "profit_target_price": 7.97,
+      "position_size_dollars": 4.42,
+      "entry_timestamp": "2026-08-07T19:04:08.685455",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 9.51,
+      "current_price": 3.4301,
+      "unrealized_pct": -0.01997142857142859,
+      "unrealized_dollars": -0.09
+    },
+    {
+      "ticker": "VSA",
+      "entry_price": 3.5,
+      "stop_loss_price": 3.03,
+      "profit_target_price": 7.97,
+      "position_size_dollars": 4506.13,
+      "entry_timestamp": "2026-08-07T19:03:58.095117",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 9.51,
+      "current_price": 3.4301,
+      "unrealized_pct": -0.01997142857142859,
+      "unrealized_dollars": -89.99
+    },
+    {
+      "ticker": "MNDR",
+      "entry_price": 1.77,
+      "stop_loss_price": 1.59,
+      "profit_target_price": 2.12,
+      "position_size_dollars": 4.42,
+      "entry_timestamp": "2026-08-07T19:03:47.536314",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.33,
+      "current_price": 1.75,
+      "unrealized_pct": -0.011299435028248598,
+      "unrealized_dollars": -0.05
+    },
+    {
+      "ticker": "MNDR",
+      "entry_price": 1.77,
+      "stop_loss_price": 1.59,
+      "profit_target_price": 2.12,
+      "position_size_dollars": 4506.13,
+      "entry_timestamp": "2026-08-07T19:03:36.986119",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.33,
+      "current_price": 1.75,
+      "unrealized_pct": -0.011299435028248598,
+      "unrealized_dollars": -50.92
+    },
+    {
+      "ticker": "CCHH",
+      "entry_price": 1.24,
+      "stop_loss_price": 1.1501,
+      "profit_target_price": 1.84,
+      "position_size_dollars": 4.43,
+      "entry_timestamp": "2026-08-07T19:03:26.401202",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 6.67,
+      "current_price": 1.3101,
+      "unrealized_pct": 0.05653225806451617,
+      "unrealized_dollars": 0.25
+    },
+    {
+      "ticker": "CCHH",
+      "entry_price": 1.24,
+      "stop_loss_price": 1.1501,
+      "profit_target_price": 1.84,
+      "position_size_dollars": 4507.96,
+      "entry_timestamp": "2026-08-07T19:03:15.693663",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 6.67,
+      "current_price": 1.3101,
+      "unrealized_pct": 0.05653225806451617,
+      "unrealized_dollars": 254.85
+    },
     {
       "ticker": "FEMY",
       "entry_price": 2.46,
@@ -17,9 +129,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.9,
-      "current_price": 2.565,
-      "unrealized_pct": 0.04268292682926829,
-      "unrealized_dollars": 0.19
+      "current_price": 2.63,
+      "unrealized_pct": 0.06910569105691054,
+      "unrealized_dollars": 0.31
     },
     {
       "ticker": "FEMY",
@@ -31,40 +143,34 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.9,
-      "current_price": 2.565,
-      "unrealized_pct": 0.04268292682926829,
-      "unrealized_dollars": 192.79
-    },
-    {
-      "ticker": "SBFM",
-      "entry_price": 1.229,
-      "stop_loss_price": 1.18,
-      "profit_target_price": 1.5,
-      "position_size_dollars": 4.47,
-      "entry_timestamp": "2026-08-07T15:03:40.220192",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 5.53,
-      "current_price": 1.16,
-      "unrealized_pct": -0.05614320585842162,
-      "unrealized_dollars": -0.25
-    },
-    {
-      "ticker": "SBFM",
-      "entry_price": 1.229,
-      "stop_loss_price": 1.18,
-      "profit_target_price": 1.5,
-      "position_size_dollars": 4545.54,
-      "entry_timestamp": "2026-08-07T15:03:29.390815",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 5.53,
-      "current_price": 1.16,
-      "unrealized_pct": -0.05614320585842162,
-      "unrealized_dollars": -255.2
+      "current_price": 2.63,
+      "unrealized_pct": 0.06910569105691054,
+      "unrealized_dollars": 312.14
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "SBFM",
+      "entry_price": 1.229,
+      "exit_price": 1.16,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.25,
+      "pl_percent": -0.056143,
+      "exit_timestamp": "2026-08-07T19:00:14.147625",
+      "setup_quality": "B",
+      "position_size_dollars": 4.47
+    },
+    {
+      "ticker": "SBFM",
+      "entry_price": 1.229,
+      "exit_price": 1.16,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -255.2,
+      "pl_percent": -0.056143,
+      "exit_timestamp": "2026-08-07T19:00:03.339823",
+      "setup_quality": "B",
+      "position_size_dollars": 4545.54
+    },
     {
       "ticker": "CELZ",
       "entry_price": 1.585,
@@ -592,28 +698,6 @@
       "exit_timestamp": "2026-07-29T19:45:02.756316",
       "setup_quality": "B",
       "position_size_dollars": 4869.81
-    },
-    {
-      "ticker": "POLA",
-      "entry_price": 1.75,
-      "exit_price": 1.6401,
-      "exit_reason": "eod_close",
-      "pl_dollars": -0.31,
-      "pl_percent": -0.0628,
-      "exit_timestamp": "2026-07-28T19:46:49.850862",
-      "setup_quality": "B",
-      "position_size_dollars": 4.89
-    },
-    {
-      "ticker": "POLA",
-      "entry_price": 1.75,
-      "exit_price": 1.64,
-      "exit_reason": "eod_close",
-      "pl_dollars": -308.66,
-      "pl_percent": -0.062857,
-      "exit_timestamp": "2026-07-28T19:46:39.390779",
-      "setup_quality": "B",
-      "position_size_dollars": 4910.54
     }
   ]
 }
