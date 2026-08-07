@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T12:45:04.058372-04:00",
+  "generated_at": "2026-08-07T13:00:04.405790-04:00",
   "summary": {
     "total_pl_dollars": -4459.19,
     "wins": 15,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.53,
-      "current_price": 1.23,
-      "unrealized_pct": 0.0008136696501219608,
-      "unrealized_dollars": 0.0
+      "current_price": 1.255,
+      "unrealized_pct": 0.021155410903173147,
+      "unrealized_dollars": 0.09
     },
     {
       "ticker": "SBFM",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.53,
-      "current_price": 1.23,
-      "unrealized_pct": 0.0008136696501219608,
-      "unrealized_dollars": 3.7
+      "current_price": 1.255,
+      "unrealized_pct": 0.021155410903173147,
+      "unrealized_dollars": 96.16
     }
   ],
   "closed_trades": [
