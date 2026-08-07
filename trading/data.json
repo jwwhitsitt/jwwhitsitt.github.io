@@ -1,12 +1,40 @@
 {
-  "generated_at": "2026-08-07T13:00:04.405790-04:00",
+  "generated_at": "2026-08-07T13:15:05.631903-04:00",
   "summary": {
     "total_pl_dollars": -4459.19,
     "wins": 15,
     "losses": 33,
-    "open_count": 2
+    "open_count": 4
   },
   "open_trades": [
+    {
+      "ticker": "FEMY",
+      "entry_price": 2.46,
+      "stop_loss_price": 2.2908,
+      "profit_target_price": 2.95,
+      "position_size_dollars": 4.44,
+      "entry_timestamp": "2026-08-07T17:02:24.146549",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 2.9,
+      "current_price": 2.48,
+      "unrealized_pct": 0.008130081300813016,
+      "unrealized_dollars": 0.04
+    },
+    {
+      "ticker": "FEMY",
+      "entry_price": 2.46,
+      "stop_loss_price": 2.2908,
+      "profit_target_price": 2.95,
+      "position_size_dollars": 4516.87,
+      "entry_timestamp": "2026-08-07T17:02:13.621073",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 2.9,
+      "current_price": 2.48,
+      "unrealized_pct": 0.008130081300813016,
+      "unrealized_dollars": 36.72
+    },
     {
       "ticker": "SBFM",
       "entry_price": 1.229,
@@ -17,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.53,
-      "current_price": 1.255,
-      "unrealized_pct": 0.021155410903173147,
-      "unrealized_dollars": 0.09
+      "current_price": 1.215,
+      "unrealized_pct": -0.011391375101708715,
+      "unrealized_dollars": -0.05
     },
     {
       "ticker": "SBFM",
@@ -31,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.53,
-      "current_price": 1.255,
-      "unrealized_pct": 0.021155410903173147,
-      "unrealized_dollars": 96.16
+      "current_price": 1.215,
+      "unrealized_pct": -0.011391375101708715,
+      "unrealized_dollars": -51.78
     }
   ],
   "closed_trades": [
