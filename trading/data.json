@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T11:15:06.322670-04:00",
+  "generated_at": "2026-08-07T11:30:04.634240-04:00",
   "summary": {
     "total_pl_dollars": -3869.21,
     "wins": 17,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.15,
-      "current_price": 1.5003,
-      "unrealized_pct": -0.0534384858044164,
-      "unrealized_dollars": -0.24
+      "current_price": 1.39,
+      "unrealized_pct": -0.12302839116719247,
+      "unrealized_dollars": -0.55
     },
     {
       "ticker": "CELZ",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.15,
-      "current_price": 1.5003,
-      "unrealized_pct": -0.0534384858044164,
-      "unrealized_dollars": -242.91
+      "current_price": 1.39,
+      "unrealized_pct": -0.12302839116719247,
+      "unrealized_dollars": -559.23
     },
     {
       "ticker": "SBFM",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.53,
-      "current_price": 1.21,
-      "unrealized_pct": -0.015459723352319061,
-      "unrealized_dollars": -0.07
+      "current_price": 1.205,
+      "unrealized_pct": -0.019528071602929225,
+      "unrealized_dollars": -0.09
     },
     {
       "ticker": "SBFM",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.53,
-      "current_price": 1.21,
-      "unrealized_pct": -0.015459723352319061,
-      "unrealized_dollars": -70.27
+      "current_price": 1.205,
+      "unrealized_pct": -0.019528071602929225,
+      "unrealized_dollars": -88.77
     }
   ],
   "closed_trades": [
