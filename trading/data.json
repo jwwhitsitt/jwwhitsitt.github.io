@@ -1,12 +1,69 @@
 {
-  "generated_at": "2026-08-07T11:00:03.954607-04:00",
+  "generated_at": "2026-08-07T11:15:06.322670-04:00",
   "summary": {
     "total_pl_dollars": -3869.21,
     "wins": 17,
     "losses": 31,
-    "open_count": 0
+    "open_count": 4
   },
-  "open_trades": [],
+  "open_trades": [
+    {
+      "ticker": "CELZ",
+      "entry_price": 1.585,
+      "stop_loss_price": 1.42,
+      "profit_target_price": 1.94,
+      "position_size_dollars": 4.47,
+      "entry_timestamp": "2026-08-07T15:04:01.433235",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 2.15,
+      "current_price": 1.5003,
+      "unrealized_pct": -0.0534384858044164,
+      "unrealized_dollars": -0.24
+    },
+    {
+      "ticker": "CELZ",
+      "entry_price": 1.585,
+      "stop_loss_price": 1.42,
+      "profit_target_price": 1.94,
+      "position_size_dollars": 4545.54,
+      "entry_timestamp": "2026-08-07T15:03:50.869989",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 2.15,
+      "current_price": 1.5003,
+      "unrealized_pct": -0.0534384858044164,
+      "unrealized_dollars": -242.91
+    },
+    {
+      "ticker": "SBFM",
+      "entry_price": 1.229,
+      "stop_loss_price": 1.18,
+      "profit_target_price": 1.5,
+      "position_size_dollars": 4.47,
+      "entry_timestamp": "2026-08-07T15:03:40.220192",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 5.53,
+      "current_price": 1.21,
+      "unrealized_pct": -0.015459723352319061,
+      "unrealized_dollars": -0.07
+    },
+    {
+      "ticker": "SBFM",
+      "entry_price": 1.229,
+      "stop_loss_price": 1.18,
+      "profit_target_price": 1.5,
+      "position_size_dollars": 4545.54,
+      "entry_timestamp": "2026-08-07T15:03:29.390815",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 5.53,
+      "current_price": 1.21,
+      "unrealized_pct": -0.015459723352319061,
+      "unrealized_dollars": -70.27
+    }
+  ],
   "closed_trades": [
     {
       "ticker": "PN",
