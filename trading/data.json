@@ -1,12 +1,54 @@
 {
-  "generated_at": "2026-08-10T11:00:04.649757-04:00",
+  "generated_at": "2026-08-10T11:15:06.071565-04:00",
   "summary": {
     "total_pl_dollars": -1194.52,
     "wins": 24,
     "losses": 24,
-    "open_count": 4
+    "open_count": 7
   },
   "open_trades": [
+    {
+      "ticker": "AUUD",
+      "entry_price": 1.305,
+      "stop_loss_price": 1.21,
+      "profit_target_price": 1.54,
+      "position_size_dollars": 4.53,
+      "entry_timestamp": "2026-08-10T15:04:25.067068",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 2.47,
+      "current_price": 1.315,
+      "unrealized_pct": 0.007662835249042153,
+      "unrealized_dollars": 0.03
+    },
+    {
+      "ticker": "AUUD",
+      "entry_price": 1.305,
+      "stop_loss_price": 1.21,
+      "profit_target_price": 1.54,
+      "position_size_dollars": 4540.84,
+      "entry_timestamp": "2026-08-10T15:04:14.508224",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 2.47,
+      "current_price": 1.315,
+      "unrealized_pct": 0.007662835249042153,
+      "unrealized_dollars": 34.8
+    },
+    {
+      "ticker": "LIVE",
+      "entry_price": 9.64,
+      "stop_loss_price": 9.41,
+      "profit_target_price": 10.32,
+      "position_size_dollars": 4555.7,
+      "entry_timestamp": "2026-08-10T15:04:03.473372",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 2.96,
+      "current_price": 9.64,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
+    },
     {
       "ticker": "BKYI",
       "entry_price": 3.9395,
@@ -17,8 +59,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.4,
-      "current_price": 4.015,
-      "unrealized_pct": 0.019164868638152026,
+      "current_price": 4.02,
+      "unrealized_pct": 0.020434065236705115,
       "unrealized_dollars": 0.09
     },
     {
@@ -31,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.4,
-      "current_price": 4.015,
-      "unrealized_pct": 0.019164868638152026,
-      "unrealized_dollars": 87.59
+      "current_price": 4.02,
+      "unrealized_pct": 0.020434065236705115,
+      "unrealized_dollars": 93.39
     },
     {
       "ticker": "BRFH",
