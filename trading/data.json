@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T11:45:04.300530-04:00",
+  "generated_at": "2026-08-10T12:00:05.685355-04:00",
   "summary": {
     "total_pl_dollars": -1194.52,
     "wins": 24,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.47,
-      "current_price": 1.3199,
-      "unrealized_pct": 0.011417624521072901,
-      "unrealized_dollars": 0.05
+      "current_price": 1.275,
+      "unrealized_pct": -0.022988505747126457,
+      "unrealized_dollars": -0.1
     },
     {
       "ticker": "AUUD",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.47,
-      "current_price": 1.3199,
-      "unrealized_pct": 0.011417624521072901,
-      "unrealized_dollars": 51.85
+      "current_price": 1.275,
+      "unrealized_pct": -0.022988505747126457,
+      "unrealized_dollars": -104.39
     },
     {
       "ticker": "LIVE",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.4,
-      "current_price": 4.0553,
-      "unrealized_pct": 0.029394593222490197,
-      "unrealized_dollars": 0.13
+      "current_price": 4.0087,
+      "unrealized_pct": 0.01756568092397522,
+      "unrealized_dollars": 0.08
     },
     {
       "ticker": "BKYI",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.4,
-      "current_price": 4.0553,
-      "unrealized_pct": 0.029394593222490197,
-      "unrealized_dollars": 134.35
+      "current_price": 4.0087,
+      "unrealized_pct": 0.01756568092397522,
+      "unrealized_dollars": 80.28
     },
     {
       "ticker": "BRFH",
