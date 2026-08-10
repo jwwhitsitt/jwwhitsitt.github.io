@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T13:15:06.171806-04:00",
+  "generated_at": "2026-08-10T13:30:05.999535-04:00",
   "summary": {
     "total_pl_dollars": -1654.72,
     "wins": 24,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.62,
-      "current_price": 2.0798,
-      "unrealized_pct": 0.18177169157338488,
-      "unrealized_dollars": 0.81
+      "current_price": 2.33,
+      "unrealized_pct": 0.3239388601625093,
+      "unrealized_dollars": 1.44
     },
     {
       "ticker": "SCKT",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.62,
-      "current_price": 2.0798,
-      "unrealized_pct": 0.18177169157338488,
-      "unrealized_dollars": 818.46
+      "current_price": 2.33,
+      "unrealized_pct": 0.3239388601625093,
+      "unrealized_dollars": 1458.59
     },
     {
       "ticker": "VATE",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.24,
-      "current_price": 7.25,
-      "unrealized_pct": 0.05301379811183736,
-      "unrealized_dollars": 0.24
+      "current_price": 7.18,
+      "unrealized_pct": 0.04284676833696441,
+      "unrealized_dollars": 0.19
     },
     {
       "ticker": "VATE",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.24,
-      "current_price": 7.25,
-      "unrealized_pct": 0.05301379811183736,
-      "unrealized_dollars": 238.93
+      "current_price": 7.18,
+      "unrealized_pct": 0.04284676833696441,
+      "unrealized_dollars": 193.1
     },
     {
       "ticker": "LIVE",
