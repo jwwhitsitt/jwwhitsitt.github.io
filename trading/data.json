@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T14:00:05.082324-04:00",
+  "generated_at": "2026-08-10T14:15:05.204933-04:00",
   "summary": {
     "total_pl_dollars": -1654.72,
     "wins": 24,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.62,
-      "current_price": 2.0599,
-      "unrealized_pct": 0.17046423092221138,
-      "unrealized_dollars": 0.76
+      "current_price": 1.98,
+      "unrealized_pct": 0.1250639240865958,
+      "unrealized_dollars": 0.56
     },
     {
       "ticker": "SCKT",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.62,
-      "current_price": 2.0599,
-      "unrealized_pct": 0.17046423092221138,
-      "unrealized_dollars": 767.55
+      "current_price": 1.98,
+      "unrealized_pct": 0.1250639240865958,
+      "unrealized_dollars": 563.12
     },
     {
       "ticker": "VATE",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.24,
-      "current_price": 7.105,
-      "unrealized_pct": 0.03195352214960068,
-      "unrealized_dollars": 0.14
+      "current_price": 7.12,
+      "unrealized_pct": 0.0341321713870734,
+      "unrealized_dollars": 0.15
     },
     {
       "ticker": "VATE",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.24,
-      "current_price": 7.105,
-      "unrealized_pct": 0.03195352214960068,
-      "unrealized_dollars": 144.01
+      "current_price": 7.12,
+      "unrealized_pct": 0.0341321713870734,
+      "unrealized_dollars": 153.83
     },
     {
       "ticker": "LIVE",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.4,
-      "current_price": 4.11,
-      "unrealized_pct": 0.04327960401066139,
-      "unrealized_dollars": 0.2
+      "current_price": 4.02,
+      "unrealized_pct": 0.020434065236705115,
+      "unrealized_dollars": 0.09
     },
     {
       "ticker": "BKYI",
@@ -101,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.4,
-      "current_price": 4.11,
-      "unrealized_pct": 0.04327960401066139,
-      "unrealized_dollars": 197.81
+      "current_price": 4.02,
+      "unrealized_pct": 0.020434065236705115,
+      "unrealized_dollars": 93.39
     },
     {
       "ticker": "BRFH",
