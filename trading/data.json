@@ -1,12 +1,69 @@
 {
-  "generated_at": "2026-08-10T09:30:03.188142-04:00",
+  "generated_at": "2026-08-10T09:45:04.777490-04:00",
   "summary": {
     "total_pl_dollars": -1194.52,
     "wins": 24,
     "losses": 24,
-    "open_count": 0
+    "open_count": 4
   },
-  "open_trades": [],
+  "open_trades": [
+    {
+      "ticker": "BKYI",
+      "entry_price": 3.9395,
+      "stop_loss_price": 3.52,
+      "profit_target_price": 4.92,
+      "position_size_dollars": 4.53,
+      "entry_timestamp": "2026-08-10T13:36:52.684001",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.4,
+      "current_price": 3.99,
+      "unrealized_pct": 0.012818885645386581,
+      "unrealized_dollars": 0.06
+    },
+    {
+      "ticker": "BKYI",
+      "entry_price": 3.9395,
+      "stop_loss_price": 3.52,
+      "profit_target_price": 4.92,
+      "position_size_dollars": 4570.41,
+      "entry_timestamp": "2026-08-10T13:36:42.093973",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.4,
+      "current_price": 3.99,
+      "unrealized_pct": 0.012818885645386581,
+      "unrealized_dollars": 58.59
+    },
+    {
+      "ticker": "BRFH",
+      "entry_price": 1.84,
+      "stop_loss_price": 1.65,
+      "profit_target_price": 2.25,
+      "position_size_dollars": 4.53,
+      "entry_timestamp": "2026-08-10T13:36:31.414526",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.5,
+      "current_price": 1.84,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
+    },
+    {
+      "ticker": "BRFH",
+      "entry_price": 1.84,
+      "stop_loss_price": 1.65,
+      "profit_target_price": 2.25,
+      "position_size_dollars": 4570.41,
+      "entry_timestamp": "2026-08-10T13:36:20.656800",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.5,
+      "current_price": 1.84,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
+    }
+  ],
   "closed_trades": [
     {
       "ticker": "YJ",
