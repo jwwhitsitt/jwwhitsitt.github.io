@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T10:45:04.345222-04:00",
+  "generated_at": "2026-08-10T11:00:04.649757-04:00",
   "summary": {
     "total_pl_dollars": -1194.52,
     "wins": 24,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.4,
-      "current_price": 4.2,
-      "unrealized_pct": 0.06612514278461744,
-      "unrealized_dollars": 0.3
+      "current_price": 4.015,
+      "unrealized_pct": 0.019164868638152026,
+      "unrealized_dollars": 0.09
     },
     {
       "ticker": "BKYI",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.4,
-      "current_price": 4.2,
-      "unrealized_pct": 0.06612514278461744,
-      "unrealized_dollars": 302.22
+      "current_price": 4.015,
+      "unrealized_pct": 0.019164868638152026,
+      "unrealized_dollars": 87.59
     },
     {
       "ticker": "BRFH",
