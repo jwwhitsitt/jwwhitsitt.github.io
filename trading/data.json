@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T15:15:06.150457-04:00",
+  "generated_at": "2026-08-10T15:30:06.417422-04:00",
   "summary": {
     "total_pl_dollars": -1654.72,
     "wins": 24,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.62,
-      "current_price": 1.9692,
-      "unrealized_pct": 0.11892721177339624,
-      "unrealized_dollars": 0.53
+      "current_price": 1.945,
+      "unrealized_pct": 0.10517643047900452,
+      "unrealized_dollars": 0.47
     },
     {
       "ticker": "SCKT",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.62,
-      "current_price": 1.9692,
-      "unrealized_pct": 0.11892721177339624,
-      "unrealized_dollars": 535.49
+      "current_price": 1.945,
+      "unrealized_pct": 0.10517643047900452,
+      "unrealized_dollars": 473.58
     },
     {
       "ticker": "VATE",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.24,
-      "current_price": 7.0,
-      "unrealized_pct": 0.016702977487291243,
-      "unrealized_dollars": 0.07
+      "current_price": 6.93,
+      "unrealized_pct": 0.0065359477124182904,
+      "unrealized_dollars": 0.03
     },
     {
       "ticker": "VATE",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.24,
-      "current_price": 7.0,
-      "unrealized_pct": 0.016702977487291243,
-      "unrealized_dollars": 75.28
+      "current_price": 6.93,
+      "unrealized_pct": 0.0065359477124182904,
+      "unrealized_dollars": 29.46
     },
     {
       "ticker": "LIVE",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.4,
-      "current_price": 3.9304,
-      "unrealized_pct": -0.0023099378093665857,
-      "unrealized_dollars": -0.01
+      "current_price": 3.9703,
+      "unrealized_pct": 0.007818251047087235,
+      "unrealized_dollars": 0.04
     },
     {
       "ticker": "BKYI",
@@ -101,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.4,
-      "current_price": 3.9304,
-      "unrealized_pct": -0.0023099378093665857,
-      "unrealized_dollars": -10.56
+      "current_price": 3.9703,
+      "unrealized_pct": 0.007818251047087235,
+      "unrealized_dollars": 35.73
     },
     {
       "ticker": "BRFH",
@@ -115,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 1.72,
-      "unrealized_pct": -0.06521739130434788,
-      "unrealized_dollars": -0.3
+      "current_price": 1.71,
+      "unrealized_pct": -0.07065217391304354,
+      "unrealized_dollars": -0.32
     },
     {
       "ticker": "BRFH",
@@ -129,9 +129,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.5,
-      "current_price": 1.72,
-      "unrealized_pct": -0.06521739130434788,
-      "unrealized_dollars": -298.07
+      "current_price": 1.71,
+      "unrealized_pct": -0.07065217391304354,
+      "unrealized_dollars": -322.91
     }
   ],
   "closed_trades": [
