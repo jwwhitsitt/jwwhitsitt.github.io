@@ -1,28 +1,24 @@
 {
-  "generated_at": "2026-08-11T15:45:04.709508-04:00",
+  "generated_at": "2026-08-11T16:00:04.054559-04:00",
   "summary": {
-    "total_pl_dollars": 195.14,
+    "total_pl_dollars": 137.66,
     "wins": 29,
     "losses": 19,
-    "open_count": 1
+    "open_count": 0
   },
-  "open_trades": [
+  "open_trades": [],
+  "closed_trades": [
     {
       "ticker": "ACCS",
       "entry_price": 5.25,
-      "stop_loss_price": 4.91,
-      "profit_target_price": 6.845,
-      "position_size_dollars": 4534.51,
-      "entry_timestamp": "2026-08-11T19:02:06.537930",
+      "exit_price": 5.265,
+      "exit_reason": "eod_close",
+      "pl_dollars": 12.96,
+      "pl_percent": 0.002857,
+      "exit_timestamp": "2026-08-11T19:45:05.343691",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 4.69,
-      "current_price": 5.265,
-      "unrealized_pct": 0.0028571428571427964,
-      "unrealized_dollars": 12.96
-    }
-  ],
-  "closed_trades": [
+      "position_size_dollars": 4534.51
+    },
     {
       "ticker": "GENK",
       "entry_price": 1.999,
@@ -561,17 +557,6 @@
       "exit_timestamp": "2026-08-03T19:45:35.145489",
       "setup_quality": "B",
       "position_size_dollars": 4.7
-    },
-    {
-      "ticker": "GNPX",
-      "entry_price": 4.8776,
-      "exit_price": 4.95,
-      "exit_reason": "eod_close",
-      "pl_dollars": 70.44,
-      "pl_percent": 0.014843,
-      "exit_timestamp": "2026-08-03T19:45:24.699727",
-      "setup_quality": "B",
-      "position_size_dollars": 4745.24
     }
   ]
 }
