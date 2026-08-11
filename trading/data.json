@@ -1,42 +1,35 @@
 {
-  "generated_at": "2026-08-11T13:45:04.393564-04:00",
+  "generated_at": "2026-08-11T14:00:04.406401-04:00",
   "summary": {
-    "total_pl_dollars": 479.53,
+    "total_pl_dollars": 195.14,
     "wins": 29,
     "losses": 19,
-    "open_count": 2
+    "open_count": 0
   },
-  "open_trades": [
+  "open_trades": [],
+  "closed_trades": [
     {
       "ticker": "GENK",
       "entry_price": 1.999,
-      "stop_loss_price": 1.97,
-      "profit_target_price": 2.12,
-      "position_size_dollars": 4.5,
-      "entry_timestamp": "2026-08-11T15:02:53.995139",
+      "exit_price": 2.1208,
+      "exit_reason": "target_hit",
+      "pl_dollars": 0.27,
+      "pl_percent": 0.06093,
+      "exit_timestamp": "2026-08-11T17:45:14.343276",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 4.17,
-      "current_price": 2.13,
-      "unrealized_pct": 0.06553276638319148,
-      "unrealized_dollars": 0.29
+      "position_size_dollars": 4.5
     },
     {
       "ticker": "GENK",
       "entry_price": 1.999,
-      "stop_loss_price": 1.97,
-      "profit_target_price": 2.12,
-      "position_size_dollars": 4520.88,
-      "entry_timestamp": "2026-08-11T15:02:43.054175",
+      "exit_price": 2.13,
+      "exit_reason": "target_hit",
+      "pl_dollars": 296.27,
+      "pl_percent": 0.065533,
+      "exit_timestamp": "2026-08-11T17:45:03.580415",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 4.17,
-      "current_price": 2.13,
-      "unrealized_pct": 0.06553276638319148,
-      "unrealized_dollars": 296.27
-    }
-  ],
-  "closed_trades": [
+      "position_size_dollars": 4520.88
+    },
     {
       "ticker": "SCKT",
       "entry_price": 1.7599,
@@ -562,28 +555,6 @@
       "pl_dollars": 70.44,
       "pl_percent": 0.014843,
       "exit_timestamp": "2026-08-03T19:45:24.699727",
-      "setup_quality": "B",
-      "position_size_dollars": 4745.24
-    },
-    {
-      "ticker": "SNES",
-      "entry_price": 1.39,
-      "exit_price": 1.56,
-      "exit_reason": "eod_close",
-      "pl_dollars": 0.57,
-      "pl_percent": 0.122302,
-      "exit_timestamp": "2026-08-03T19:45:14.022470",
-      "setup_quality": "B",
-      "position_size_dollars": 4.7
-    },
-    {
-      "ticker": "SNES",
-      "entry_price": 1.39,
-      "exit_price": 1.56,
-      "exit_reason": "eod_close",
-      "pl_dollars": 580.35,
-      "pl_percent": 0.122302,
-      "exit_timestamp": "2026-08-03T19:45:03.327327",
       "setup_quality": "B",
       "position_size_dollars": 4745.24
     }
