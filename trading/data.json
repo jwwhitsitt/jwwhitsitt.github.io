@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T11:45:04.442343-04:00",
+  "generated_at": "2026-08-12T12:00:04.334849-04:00",
   "summary": {
     "total_pl_dollars": 137.66,
     "wins": 29,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.69,
-      "current_price": 3.92,
-      "unrealized_pct": -0.03329223181257702,
-      "unrealized_dollars": -0.15
+      "current_price": 3.7085,
+      "unrealized_pct": -0.0854500616522811,
+      "unrealized_dollars": -0.39
     },
     {
       "ticker": "NTHI",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.69,
-      "current_price": 3.92,
-      "unrealized_pct": -0.03329223181257702,
-      "unrealized_dollars": -150.73
+      "current_price": 3.7085,
+      "unrealized_pct": -0.0854500616522811,
+      "unrealized_dollars": -386.88
     }
   ],
   "closed_trades": [
