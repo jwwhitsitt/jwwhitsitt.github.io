@@ -1,12 +1,41 @@
 {
-  "generated_at": "2026-08-12T13:00:03.578229-04:00",
+  "generated_at": "2026-08-12T13:15:04.335070-04:00",
   "summary": {
     "total_pl_dollars": -638.98,
     "wins": 27,
     "losses": 21,
-    "open_count": 0
+    "open_count": 2
   },
-  "open_trades": [],
+  "open_trades": [
+    {
+      "ticker": "BIVI",
+      "entry_price": 1.7401,
+      "stop_loss_price": 1.31,
+      "profit_target_price": 3.79,
+      "position_size_dollars": 4.49,
+      "entry_timestamp": "2026-08-12T17:02:47.631910",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 4.77,
+      "current_price": 1.805,
+      "unrealized_pct": 0.037296707085799644,
+      "unrealized_dollars": 0.17
+    },
+    {
+      "ticker": "BIVI",
+      "entry_price": 1.7401,
+      "stop_loss_price": 1.31,
+      "profit_target_price": 3.79,
+      "position_size_dollars": 4511.71,
+      "entry_timestamp": "2026-08-12T17:02:37.085074",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 4.77,
+      "current_price": 1.805,
+      "unrealized_pct": 0.037296707085799644,
+      "unrealized_dollars": 168.27
+    }
+  ],
   "closed_trades": [
     {
       "ticker": "NTHI",
