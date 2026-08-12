@@ -1,12 +1,41 @@
 {
-  "generated_at": "2026-08-12T11:00:03.558477-04:00",
+  "generated_at": "2026-08-12T11:15:04.389484-04:00",
   "summary": {
     "total_pl_dollars": 137.66,
     "wins": 29,
     "losses": 19,
-    "open_count": 0
+    "open_count": 2
   },
-  "open_trades": [],
+  "open_trades": [
+    {
+      "ticker": "NTHI",
+      "entry_price": 4.055,
+      "stop_loss_price": 3.8,
+      "profit_target_price": 4.74,
+      "position_size_dollars": 4.52,
+      "entry_timestamp": "2026-08-12T15:04:36.567123",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 2.69,
+      "current_price": 3.89,
+      "unrealized_pct": -0.0406905055487052,
+      "unrealized_dollars": -0.18
+    },
+    {
+      "ticker": "NTHI",
+      "entry_price": 4.055,
+      "stop_loss_price": 3.8,
+      "profit_target_price": 4.74,
+      "position_size_dollars": 4527.56,
+      "entry_timestamp": "2026-08-12T15:04:26.015678",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 2.69,
+      "current_price": 3.89,
+      "unrealized_pct": -0.0406905055487052,
+      "unrealized_dollars": -184.23
+    }
+  ],
   "closed_trades": [
     {
       "ticker": "ACCS",
