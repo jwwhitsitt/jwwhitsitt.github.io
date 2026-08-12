@@ -1,42 +1,35 @@
 {
-  "generated_at": "2026-08-12T15:45:03.371073-04:00",
+  "generated_at": "2026-08-12T16:00:03.942275-04:00",
   "summary": {
-    "total_pl_dollars": -638.98,
-    "wins": 27,
-    "losses": 21,
-    "open_count": 2
+    "total_pl_dollars": -1331.06,
+    "wins": 25,
+    "losses": 23,
+    "open_count": 0
   },
-  "open_trades": [
+  "open_trades": [],
+  "closed_trades": [
     {
       "ticker": "BIVI",
       "entry_price": 1.7401,
-      "stop_loss_price": 1.31,
-      "profit_target_price": 3.79,
-      "position_size_dollars": 4.49,
-      "entry_timestamp": "2026-08-12T17:02:47.631910",
+      "exit_price": 1.4712,
+      "exit_reason": "eod_close",
+      "pl_dollars": -0.69,
+      "pl_percent": -0.154531,
+      "exit_timestamp": "2026-08-12T19:45:13.364577",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 4.77,
-      "current_price": 1.485,
-      "unrealized_pct": -0.14660077007068553,
-      "unrealized_dollars": -0.66
+      "position_size_dollars": 4.49
     },
     {
       "ticker": "BIVI",
       "entry_price": 1.7401,
-      "stop_loss_price": 1.31,
-      "profit_target_price": 3.79,
-      "position_size_dollars": 4511.71,
-      "entry_timestamp": "2026-08-12T17:02:37.085074",
+      "exit_price": 1.485,
+      "exit_reason": "eod_close",
+      "pl_dollars": -661.42,
+      "pl_percent": -0.146601,
+      "exit_timestamp": "2026-08-12T19:45:02.711136",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 4.77,
-      "current_price": 1.485,
-      "unrealized_pct": -0.14660077007068553,
-      "unrealized_dollars": -661.42
-    }
-  ],
-  "closed_trades": [
+      "position_size_dollars": 4511.71
+    },
     {
       "ticker": "NTHI",
       "entry_price": 4.055,
@@ -564,28 +557,6 @@
       "exit_timestamp": "2026-08-04T15:45:03.487290",
       "setup_quality": "B",
       "position_size_dollars": 4656.59
-    },
-    {
-      "ticker": "XAIR",
-      "entry_price": 6.3,
-      "exit_price": 6.34,
-      "exit_reason": "eod_close",
-      "pl_dollars": 29.58,
-      "pl_percent": 0.006349,
-      "exit_timestamp": "2026-08-03T19:46:06.664399",
-      "setup_quality": "B",
-      "position_size_dollars": 4659.53
-    },
-    {
-      "ticker": "CSAI",
-      "entry_price": 3.665,
-      "exit_price": 3.97,
-      "exit_reason": "eod_close",
-      "pl_dollars": 0.38,
-      "pl_percent": 0.08322,
-      "exit_timestamp": "2026-08-03T19:45:56.118015",
-      "setup_quality": "B",
-      "position_size_dollars": 4.58
     }
   ]
 }
