@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T13:30:04.361843-04:00",
+  "generated_at": "2026-08-12T13:45:05.085750-04:00",
   "summary": {
     "total_pl_dollars": -638.98,
     "wins": 27,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.77,
-      "current_price": 1.755,
-      "unrealized_pct": 0.008562726280098795,
-      "unrealized_dollars": 0.04
+      "current_price": 1.71,
+      "unrealized_pct": -0.017297856445031904,
+      "unrealized_dollars": -0.08
     },
     {
       "ticker": "BIVI",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.77,
-      "current_price": 1.755,
-      "unrealized_pct": 0.008562726280098795,
-      "unrealized_dollars": 38.63
+      "current_price": 1.71,
+      "unrealized_pct": -0.017297856445031904,
+      "unrealized_dollars": -78.04
     }
   ],
   "closed_trades": [
