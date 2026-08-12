@@ -1,42 +1,35 @@
 {
-  "generated_at": "2026-08-12T12:00:04.334849-04:00",
+  "generated_at": "2026-08-12T12:15:03.241536-04:00",
   "summary": {
-    "total_pl_dollars": 137.66,
-    "wins": 29,
-    "losses": 19,
-    "open_count": 2
+    "total_pl_dollars": -638.98,
+    "wins": 27,
+    "losses": 21,
+    "open_count": 0
   },
-  "open_trades": [
+  "open_trades": [],
+  "closed_trades": [
     {
       "ticker": "NTHI",
       "entry_price": 4.055,
-      "stop_loss_price": 3.8,
-      "profit_target_price": 4.74,
-      "position_size_dollars": 4.52,
-      "entry_timestamp": "2026-08-12T15:04:36.567123",
+      "exit_price": 3.7085,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.39,
+      "pl_percent": -0.08545,
+      "exit_timestamp": "2026-08-12T16:00:13.606453",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 2.69,
-      "current_price": 3.7085,
-      "unrealized_pct": -0.0854500616522811,
-      "unrealized_dollars": -0.39
+      "position_size_dollars": 4.52
     },
     {
       "ticker": "NTHI",
       "entry_price": 4.055,
-      "stop_loss_price": 3.8,
-      "profit_target_price": 4.74,
-      "position_size_dollars": 4527.56,
-      "entry_timestamp": "2026-08-12T15:04:26.015678",
+      "exit_price": 3.7085,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -386.88,
+      "pl_percent": -0.08545,
+      "exit_timestamp": "2026-08-12T16:00:02.918381",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 2.69,
-      "current_price": 3.7085,
-      "unrealized_pct": -0.0854500616522811,
-      "unrealized_dollars": -386.88
-    }
-  ],
-  "closed_trades": [
+      "position_size_dollars": 4527.56
+    },
     {
       "ticker": "ACCS",
       "entry_price": 5.25,
@@ -564,28 +557,6 @@
       "exit_timestamp": "2026-08-03T19:45:56.118015",
       "setup_quality": "B",
       "position_size_dollars": 4.58
-    },
-    {
-      "ticker": "CSAI",
-      "entry_price": 3.665,
-      "exit_price": 3.97,
-      "exit_reason": "eod_close",
-      "pl_dollars": 389.19,
-      "pl_percent": 0.08322,
-      "exit_timestamp": "2026-08-03T19:45:45.665486",
-      "setup_quality": "B",
-      "position_size_dollars": 4676.62
-    },
-    {
-      "ticker": "GNPX",
-      "entry_price": 4.8776,
-      "exit_price": 5.0751,
-      "exit_reason": "eod_close",
-      "pl_dollars": 0.19,
-      "pl_percent": 0.040491,
-      "exit_timestamp": "2026-08-03T19:45:35.145489",
-      "setup_quality": "B",
-      "position_size_dollars": 4.7
     }
   ]
 }
