@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T12:15:03.854573-04:00",
+  "generated_at": "2026-08-13T12:30:04.049926-04:00",
   "summary": {
     "total_pl_dollars": -1885.33,
     "wins": 25,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 9.72,
-      "current_price": 2.1803,
-      "unrealized_pct": -0.01744028841820638,
-      "unrealized_dollars": -0.08
+      "current_price": 2.25,
+      "unrealized_pct": 0.013970256872465137,
+      "unrealized_dollars": 0.06
     },
     {
       "ticker": "DFSC",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 9.72,
-      "current_price": 2.1803,
-      "unrealized_pct": -0.01744028841820638,
-      "unrealized_dollars": -77.41
+      "current_price": 2.25,
+      "unrealized_pct": 0.013970256872465137,
+      "unrealized_dollars": 62.01
     }
   ],
   "closed_trades": [
