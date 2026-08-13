@@ -1,12 +1,68 @@
 {
-  "generated_at": "2026-08-13T15:00:04.633254-04:00",
+  "generated_at": "2026-08-13T15:15:05.128699-04:00",
   "summary": {
     "total_pl_dollars": -1885.33,
     "wins": 25,
     "losses": 23,
-    "open_count": 2
+    "open_count": 6
   },
   "open_trades": [
+    {
+      "ticker": "CRWS",
+      "entry_price": 2.64,
+      "stop_loss_price": 2.6,
+      "profit_target_price": 2.95,
+      "position_size_dollars": 4.38,
+      "entry_timestamp": "2026-08-13T19:02:21.651913",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 7.75,
+      "current_price": 2.66,
+      "unrealized_pct": 0.007575757575757582,
+      "unrealized_dollars": 0.03
+    },
+    {
+      "ticker": "CRWS",
+      "entry_price": 2.64,
+      "stop_loss_price": 2.6,
+      "profit_target_price": 2.95,
+      "position_size_dollars": 4453.63,
+      "entry_timestamp": "2026-08-13T19:02:11.004794",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 7.75,
+      "current_price": 2.66,
+      "unrealized_pct": 0.007575757575757582,
+      "unrealized_dollars": 33.74
+    },
+    {
+      "ticker": "BCG",
+      "entry_price": 1.55,
+      "stop_loss_price": 1.52,
+      "profit_target_price": 1.65,
+      "position_size_dollars": 4.38,
+      "entry_timestamp": "2026-08-13T19:02:00.384099",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 3.33,
+      "current_price": 1.55,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
+    },
+    {
+      "ticker": "BCG",
+      "entry_price": 1.55,
+      "stop_loss_price": 1.52,
+      "profit_target_price": 1.65,
+      "position_size_dollars": 4456.34,
+      "entry_timestamp": "2026-08-13T19:01:49.505961",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 3.33,
+      "current_price": 1.55,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
+    },
     {
       "ticker": "DFSC",
       "entry_price": 2.219,
@@ -17,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 9.72,
-      "current_price": 2.395,
-      "unrealized_pct": 0.07931500675980178,
-      "unrealized_dollars": 0.35
+      "current_price": 2.2499,
+      "unrealized_pct": 0.013925191527715155,
+      "unrealized_dollars": 0.06
     },
     {
       "ticker": "DFSC",
@@ -31,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 9.72,
-      "current_price": 2.395,
-      "unrealized_pct": 0.07931500675980178,
-      "unrealized_dollars": 352.06
+      "current_price": 2.2499,
+      "unrealized_pct": 0.013925191527715155,
+      "unrealized_dollars": 61.81
     }
   ],
   "closed_trades": [
