@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T09:45:04.495164-04:00",
+  "generated_at": "2026-08-13T10:00:04.783135-04:00",
   "summary": {
     "total_pl_dollars": -1331.06,
     "wins": 25,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.57,
-      "current_price": 2.6828,
-      "unrealized_pct": -0.03148014440433219,
-      "unrealized_dollars": -0.14
+      "current_price": 2.3,
+      "unrealized_pct": -0.16967509025270766,
+      "unrealized_dollars": -0.75
     },
     {
       "ticker": "FRGT",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.57,
-      "current_price": 2.6828,
-      "unrealized_pct": -0.03148014440433219,
-      "unrealized_dollars": -140.8
+      "current_price": 2.3,
+      "unrealized_pct": -0.16967509025270766,
+      "unrealized_dollars": -758.89
     }
   ],
   "closed_trades": [
