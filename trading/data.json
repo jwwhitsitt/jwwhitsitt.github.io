@@ -1,42 +1,35 @@
 {
-  "generated_at": "2026-08-13T10:00:04.783135-04:00",
+  "generated_at": "2026-08-13T10:15:03.600438-04:00",
   "summary": {
-    "total_pl_dollars": -1331.06,
+    "total_pl_dollars": -1885.33,
     "wins": 25,
     "losses": 23,
-    "open_count": 2
+    "open_count": 0
   },
-  "open_trades": [
+  "open_trades": [],
+  "closed_trades": [
     {
       "ticker": "FRGT",
       "entry_price": 2.77,
-      "stop_loss_price": 2.48,
-      "profit_target_price": 3.46,
-      "position_size_dollars": 4.41,
-      "entry_timestamp": "2026-08-13T13:35:28.073901",
+      "exit_price": 2.3,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.75,
+      "pl_percent": -0.169675,
+      "exit_timestamp": "2026-08-13T14:00:14.029227",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 1.57,
-      "current_price": 2.3,
-      "unrealized_pct": -0.16967509025270766,
-      "unrealized_dollars": -0.75
+      "position_size_dollars": 4.41
     },
     {
       "ticker": "FRGT",
       "entry_price": 2.77,
-      "stop_loss_price": 2.48,
-      "profit_target_price": 3.46,
-      "position_size_dollars": 4472.6,
-      "entry_timestamp": "2026-08-13T13:35:17.328535",
+      "exit_price": 2.3,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -758.89,
+      "pl_percent": -0.169675,
+      "exit_timestamp": "2026-08-13T14:00:03.072292",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 1.57,
-      "current_price": 2.3,
-      "unrealized_pct": -0.16967509025270766,
-      "unrealized_dollars": -758.89
-    }
-  ],
-  "closed_trades": [
+      "position_size_dollars": 4472.6
+    },
     {
       "ticker": "BIVI",
       "entry_price": 1.7401,
@@ -564,28 +557,6 @@
       "exit_timestamp": "2026-08-04T19:45:03.107383",
       "setup_quality": "B",
       "position_size_dollars": 4654.68
-    },
-    {
-      "ticker": "RAIN",
-      "entry_price": 1.271,
-      "exit_price": 1.215,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -0.2,
-      "pl_percent": -0.04406,
-      "exit_timestamp": "2026-08-04T15:45:14.241935",
-      "setup_quality": "B",
-      "position_size_dollars": 4.56
-    },
-    {
-      "ticker": "RAIN",
-      "entry_price": 1.271,
-      "exit_price": 1.215,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -205.17,
-      "pl_percent": -0.04406,
-      "exit_timestamp": "2026-08-04T15:45:03.487290",
-      "setup_quality": "B",
-      "position_size_dollars": 4656.59
     }
   ]
 }
