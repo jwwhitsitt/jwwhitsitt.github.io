@@ -1,12 +1,41 @@
 {
-  "generated_at": "2026-08-13T09:30:03.776388-04:00",
+  "generated_at": "2026-08-13T09:45:04.495164-04:00",
   "summary": {
     "total_pl_dollars": -1331.06,
     "wins": 25,
     "losses": 23,
-    "open_count": 0
+    "open_count": 2
   },
-  "open_trades": [],
+  "open_trades": [
+    {
+      "ticker": "FRGT",
+      "entry_price": 2.77,
+      "stop_loss_price": 2.48,
+      "profit_target_price": 3.46,
+      "position_size_dollars": 4.41,
+      "entry_timestamp": "2026-08-13T13:35:28.073901",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.57,
+      "current_price": 2.6828,
+      "unrealized_pct": -0.03148014440433219,
+      "unrealized_dollars": -0.14
+    },
+    {
+      "ticker": "FRGT",
+      "entry_price": 2.77,
+      "stop_loss_price": 2.48,
+      "profit_target_price": 3.46,
+      "position_size_dollars": 4472.6,
+      "entry_timestamp": "2026-08-13T13:35:17.328535",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.57,
+      "current_price": 2.6828,
+      "unrealized_pct": -0.03148014440433219,
+      "unrealized_dollars": -140.8
+    }
+  ],
   "closed_trades": [
     {
       "ticker": "BIVI",
