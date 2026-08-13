@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T15:30:05.232924-04:00",
+  "generated_at": "2026-08-13T15:45:04.986571-04:00",
   "summary": {
     "total_pl_dollars": -1885.33,
     "wins": 25,
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.33,
-      "current_price": 1.5608,
-      "unrealized_pct": 0.006967741935483819,
-      "unrealized_dollars": 0.03
+      "current_price": 1.5301,
+      "unrealized_pct": -0.012838709677419373,
+      "unrealized_dollars": -0.06
     },
     {
       "ticker": "BCG",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.33,
-      "current_price": 1.5608,
-      "unrealized_pct": 0.006967741935483819,
-      "unrealized_dollars": 31.05
+      "current_price": 1.5301,
+      "unrealized_pct": -0.012838709677419373,
+      "unrealized_dollars": -57.21
     },
     {
       "ticker": "DFSC",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 9.72,
-      "current_price": 2.255,
-      "unrealized_pct": 0.016223524109959458,
-      "unrealized_dollars": 0.07
+      "current_price": 2.285,
+      "unrealized_pct": 0.02974312753492577,
+      "unrealized_dollars": 0.13
     },
     {
       "ticker": "DFSC",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 9.72,
-      "current_price": 2.255,
-      "unrealized_pct": 0.016223524109959458,
-      "unrealized_dollars": 72.01
+      "current_price": 2.285,
+      "unrealized_pct": 0.02974312753492577,
+      "unrealized_dollars": 132.02
     }
   ],
   "closed_trades": [
