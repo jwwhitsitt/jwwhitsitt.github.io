@@ -1,98 +1,79 @@
 {
-  "generated_at": "2026-08-13T15:45:04.986571-04:00",
+  "generated_at": "2026-08-13T16:00:02.758928-04:00",
   "summary": {
-    "total_pl_dollars": -1885.33,
-    "wins": 25,
-    "losses": 23,
-    "open_count": 6
+    "total_pl_dollars": -883.47,
+    "wins": 27,
+    "losses": 21,
+    "open_count": 0
   },
-  "open_trades": [
-    {
-      "ticker": "CRWS",
-      "entry_price": 2.64,
-      "stop_loss_price": 2.6,
-      "profit_target_price": 2.95,
-      "position_size_dollars": 4.38,
-      "entry_timestamp": "2026-08-13T19:02:21.651913",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 7.75,
-      "current_price": 2.67,
-      "unrealized_pct": 0.01136363636363629,
-      "unrealized_dollars": 0.05
-    },
-    {
-      "ticker": "CRWS",
-      "entry_price": 2.64,
-      "stop_loss_price": 2.6,
-      "profit_target_price": 2.95,
-      "position_size_dollars": 4453.63,
-      "entry_timestamp": "2026-08-13T19:02:11.004794",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 7.75,
-      "current_price": 2.67,
-      "unrealized_pct": 0.01136363636363629,
-      "unrealized_dollars": 50.61
-    },
-    {
-      "ticker": "BCG",
-      "entry_price": 1.55,
-      "stop_loss_price": 1.52,
-      "profit_target_price": 1.65,
-      "position_size_dollars": 4.38,
-      "entry_timestamp": "2026-08-13T19:02:00.384099",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 3.33,
-      "current_price": 1.5301,
-      "unrealized_pct": -0.012838709677419373,
-      "unrealized_dollars": -0.06
-    },
-    {
-      "ticker": "BCG",
-      "entry_price": 1.55,
-      "stop_loss_price": 1.52,
-      "profit_target_price": 1.65,
-      "position_size_dollars": 4456.34,
-      "entry_timestamp": "2026-08-13T19:01:49.505961",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 3.33,
-      "current_price": 1.5301,
-      "unrealized_pct": -0.012838709677419373,
-      "unrealized_dollars": -57.21
-    },
-    {
-      "ticker": "DFSC",
-      "entry_price": 2.219,
-      "stop_loss_price": 2.08,
-      "profit_target_price": 3.57,
-      "position_size_dollars": 4.37,
-      "entry_timestamp": "2026-08-13T15:04:48.694618",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 9.72,
-      "current_price": 2.285,
-      "unrealized_pct": 0.02974312753492577,
-      "unrealized_dollars": 0.13
-    },
-    {
-      "ticker": "DFSC",
-      "entry_price": 2.219,
-      "stop_loss_price": 2.08,
-      "profit_target_price": 3.57,
-      "position_size_dollars": 4438.71,
-      "entry_timestamp": "2026-08-13T15:04:37.463507",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 9.72,
-      "current_price": 2.285,
-      "unrealized_pct": 0.02974312753492577,
-      "unrealized_dollars": 132.02
-    }
-  ],
+  "open_trades": [],
   "closed_trades": [
+    {
+      "ticker": "CRWS",
+      "entry_price": 2.64,
+      "exit_price": 2.67,
+      "exit_reason": "eod_close",
+      "pl_dollars": 0.05,
+      "pl_percent": 0.011364,
+      "exit_timestamp": "2026-08-13T19:45:56.565164",
+      "setup_quality": "B",
+      "position_size_dollars": 4.38
+    },
+    {
+      "ticker": "CRWS",
+      "entry_price": 2.64,
+      "exit_price": 2.67,
+      "exit_reason": "eod_close",
+      "pl_dollars": 50.61,
+      "pl_percent": 0.011364,
+      "exit_timestamp": "2026-08-13T19:45:46.121364",
+      "setup_quality": "B",
+      "position_size_dollars": 4453.63
+    },
+    {
+      "ticker": "BCG",
+      "entry_price": 1.55,
+      "exit_price": 1.5301,
+      "exit_reason": "eod_close",
+      "pl_dollars": -0.06,
+      "pl_percent": -0.012839,
+      "exit_timestamp": "2026-08-13T19:45:35.582878",
+      "setup_quality": "B",
+      "position_size_dollars": 4.38
+    },
+    {
+      "ticker": "BCG",
+      "entry_price": 1.55,
+      "exit_price": 1.5301,
+      "exit_reason": "eod_close",
+      "pl_dollars": -57.21,
+      "pl_percent": -0.012839,
+      "exit_timestamp": "2026-08-13T19:45:25.102038",
+      "setup_quality": "B",
+      "position_size_dollars": 4456.34
+    },
+    {
+      "ticker": "DFSC",
+      "entry_price": 2.219,
+      "exit_price": 2.275,
+      "exit_reason": "eod_close",
+      "pl_dollars": 0.11,
+      "pl_percent": 0.025237,
+      "exit_timestamp": "2026-08-13T19:45:14.422869",
+      "setup_quality": "B",
+      "position_size_dollars": 4.37
+    },
+    {
+      "ticker": "DFSC",
+      "entry_price": 2.219,
+      "exit_price": 2.2801,
+      "exit_reason": "eod_close",
+      "pl_dollars": 122.22,
+      "pl_percent": 0.027535,
+      "exit_timestamp": "2026-08-13T19:45:03.755786",
+      "setup_quality": "B",
+      "position_size_dollars": 4438.71
+    },
     {
       "ticker": "FRGT",
       "entry_price": 2.77,
@@ -576,72 +557,6 @@
       "exit_timestamp": "2026-08-05T19:45:03.633197",
       "setup_quality": "B",
       "position_size_dollars": 4648.72
-    },
-    {
-      "ticker": "DBGI",
-      "entry_price": 18.975,
-      "exit_price": 16.8373,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -519.96,
-      "pl_percent": -0.112659,
-      "exit_timestamp": "2026-08-05T17:45:04.691827",
-      "setup_quality": "B",
-      "position_size_dollars": 4615.37
-    },
-    {
-      "ticker": "AMIX",
-      "entry_price": 14.78,
-      "exit_price": 13.0,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -560.01,
-      "pl_percent": -0.120433,
-      "exit_timestamp": "2026-08-05T16:00:02.967229",
-      "setup_quality": "B",
-      "position_size_dollars": 4649.94
-    },
-    {
-      "ticker": "YYGH",
-      "entry_price": 1.2205,
-      "exit_price": 1.205,
-      "exit_reason": "eod_close",
-      "pl_dollars": -0.06,
-      "pl_percent": -0.0127,
-      "exit_timestamp": "2026-08-04T19:45:34.968284",
-      "setup_quality": "B",
-      "position_size_dollars": 4.55
-    },
-    {
-      "ticker": "YYGH",
-      "entry_price": 1.2205,
-      "exit_price": 1.205,
-      "exit_reason": "eod_close",
-      "pl_dollars": -59.02,
-      "pl_percent": -0.0127,
-      "exit_timestamp": "2026-08-04T19:45:24.499220",
-      "setup_quality": "B",
-      "position_size_dollars": 4647.39
-    },
-    {
-      "ticker": "NUWE",
-      "entry_price": 1.8401,
-      "exit_price": 1.92,
-      "exit_reason": "eod_close",
-      "pl_dollars": 0.2,
-      "pl_percent": 0.043422,
-      "exit_timestamp": "2026-08-04T19:45:13.795207",
-      "setup_quality": "B",
-      "position_size_dollars": 4.56
-    },
-    {
-      "ticker": "NUWE",
-      "entry_price": 1.8401,
-      "exit_price": 1.94,
-      "exit_reason": "eod_close",
-      "pl_dollars": 252.71,
-      "pl_percent": 0.054291,
-      "exit_timestamp": "2026-08-04T19:45:03.107383",
-      "setup_quality": "B",
-      "position_size_dollars": 4654.68
     }
   ]
 }
