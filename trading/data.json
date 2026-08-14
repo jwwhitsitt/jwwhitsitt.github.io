@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T13:45:03.880171-04:00",
+  "generated_at": "2026-08-14T14:00:03.904692-04:00",
   "summary": {
     "total_pl_dollars": -1422.93,
     "wins": 26,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 11.37,
-      "current_price": 8.9885,
-      "unrealized_pct": 0.16431347150259074,
-      "unrealized_dollars": 726.24
+      "current_price": 9.2447,
+      "unrealized_pct": 0.19750000000000004,
+      "unrealized_dollars": 872.92
     }
   ],
   "closed_trades": [
