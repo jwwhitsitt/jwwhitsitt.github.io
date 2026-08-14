@@ -1,28 +1,24 @@
 {
-  "generated_at": "2026-08-14T15:45:09.564856-04:00",
+  "generated_at": "2026-08-14T16:00:03.655083-04:00",
   "summary": {
-    "total_pl_dollars": -1422.93,
+    "total_pl_dollars": -1148.47,
     "wins": 26,
     "losses": 22,
-    "open_count": 1
+    "open_count": 0
   },
-  "open_trades": [
+  "open_trades": [],
+  "closed_trades": [
     {
       "ticker": "WETO",
       "entry_price": 7.72,
-      "stop_loss_price": 7.26,
-      "profit_target_price": 12.95,
-      "position_size_dollars": 4419.86,
-      "entry_timestamp": "2026-08-14T17:01:46.209876",
+      "exit_price": 8.2,
+      "exit_reason": "eod_close",
+      "pl_dollars": 274.81,
+      "pl_percent": 0.062176,
+      "exit_timestamp": "2026-08-14T19:45:09.215801",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 11.37,
-      "current_price": 8.2,
-      "unrealized_pct": 0.06217616580310875,
-      "unrealized_dollars": 274.81
-    }
-  ],
-  "closed_trades": [
+      "position_size_dollars": 4419.86
+    },
     {
       "ticker": "MYSZ",
       "entry_price": 3.03,
@@ -561,17 +557,6 @@
       "exit_timestamp": "2026-08-06T13:45:03.811602",
       "setup_quality": "B",
       "position_size_dollars": 4592.38
-    },
-    {
-      "ticker": "OESX",
-      "entry_price": 14.42,
-      "exit_price": 15.525,
-      "exit_reason": "eod_close",
-      "pl_dollars": 0.35,
-      "pl_percent": 0.07663,
-      "exit_timestamp": "2026-08-05T19:45:25.711877",
-      "setup_quality": "B",
-      "position_size_dollars": 4.55
     }
   ]
 }
