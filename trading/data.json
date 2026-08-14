@@ -1,12 +1,26 @@
 {
-  "generated_at": "2026-08-14T13:00:04.321263-04:00",
+  "generated_at": "2026-08-14T13:15:05.000863-04:00",
   "summary": {
     "total_pl_dollars": -883.47,
     "wins": 27,
     "losses": 21,
-    "open_count": 2
+    "open_count": 3
   },
   "open_trades": [
+    {
+      "ticker": "WETO",
+      "entry_price": 7.72,
+      "stop_loss_price": 7.26,
+      "profit_target_price": 12.95,
+      "position_size_dollars": 4419.86,
+      "entry_timestamp": "2026-08-14T17:01:46.209876",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 11.37,
+      "current_price": 7.82,
+      "unrealized_pct": 0.012953367875647739,
+      "unrealized_dollars": 57.25
+    },
     {
       "ticker": "MYSZ",
       "entry_price": 3.03,
@@ -17,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.0,
-      "current_price": 3.0201,
-      "unrealized_pct": -0.003267326732673274,
-      "unrealized_dollars": -0.01
+      "current_price": 2.9001,
+      "unrealized_pct": -0.04287128712871277,
+      "unrealized_dollars": -0.19
     },
     {
       "ticker": "MYSZ",
@@ -31,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.0,
-      "current_price": 3.0201,
-      "unrealized_pct": -0.003267326732673274,
-      "unrealized_dollars": -14.47
+      "current_price": 2.9001,
+      "unrealized_pct": -0.04287128712871277,
+      "unrealized_dollars": -189.88
     }
   ],
   "closed_trades": [
