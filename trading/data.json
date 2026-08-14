@@ -1,12 +1,41 @@
 {
-  "generated_at": "2026-08-14T11:00:03.835176-04:00",
+  "generated_at": "2026-08-14T11:15:04.874670-04:00",
   "summary": {
     "total_pl_dollars": -883.47,
     "wins": 27,
     "losses": 21,
-    "open_count": 0
+    "open_count": 2
   },
-  "open_trades": [],
+  "open_trades": [
+    {
+      "ticker": "MYSZ",
+      "entry_price": 3.03,
+      "stop_loss_price": 2.99,
+      "profit_target_price": 3.19,
+      "position_size_dollars": 4.36,
+      "entry_timestamp": "2026-08-14T15:02:49.546299",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 4.0,
+      "current_price": 3.1799,
+      "unrealized_pct": 0.04947194719471952,
+      "unrealized_dollars": 0.22
+    },
+    {
+      "ticker": "MYSZ",
+      "entry_price": 3.03,
+      "stop_loss_price": 2.99,
+      "profit_target_price": 3.19,
+      "position_size_dollars": 4428.99,
+      "entry_timestamp": "2026-08-14T15:02:38.661273",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 4.0,
+      "current_price": 3.1799,
+      "unrealized_pct": 0.04947194719471952,
+      "unrealized_dollars": 219.11
+    }
+  ],
   "closed_trades": [
     {
       "ticker": "CRWS",
