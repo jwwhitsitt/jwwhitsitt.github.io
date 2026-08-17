@@ -1,12 +1,55 @@
 {
-  "generated_at": "2026-08-17T09:30:03.551461-04:00",
+  "generated_at": "2026-08-17T09:45:06.247039-04:00",
   "summary": {
     "total_pl_dollars": -1148.47,
     "wins": 26,
     "losses": 22,
-    "open_count": 0
+    "open_count": 3
   },
-  "open_trades": [],
+  "open_trades": [
+    {
+      "ticker": "MNDR",
+      "entry_price": 1.602,
+      "stop_loss_price": 1.44,
+      "profit_target_price": 1.92,
+      "position_size_dollars": 4.33,
+      "entry_timestamp": "2026-08-17T13:35:54.378769",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.33,
+      "current_price": 1.64,
+      "unrealized_pct": 0.023720349563046073,
+      "unrealized_dollars": 0.1
+    },
+    {
+      "ticker": "MNDR",
+      "entry_price": 1.602,
+      "stop_loss_price": 1.44,
+      "profit_target_price": 1.92,
+      "position_size_dollars": 4424.61,
+      "entry_timestamp": "2026-08-17T13:35:43.679839",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.33,
+      "current_price": 1.64,
+      "unrealized_pct": 0.023720349563046073,
+      "unrealized_dollars": 104.95
+    },
+    {
+      "ticker": "FIEE",
+      "entry_price": 5.46,
+      "stop_loss_price": 5.32,
+      "profit_target_price": 5.89,
+      "position_size_dollars": 4424.61,
+      "entry_timestamp": "2026-08-17T13:35:32.640592",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 3.07,
+      "current_price": 5.65,
+      "unrealized_pct": 0.03479853479853487,
+      "unrealized_dollars": 153.97
+    }
+  ],
   "closed_trades": [
     {
       "ticker": "WETO",
