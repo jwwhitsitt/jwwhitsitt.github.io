@@ -1,12 +1,40 @@
 {
-  "generated_at": "2026-08-17T15:00:04.802966-04:00",
+  "generated_at": "2026-08-17T15:15:06.122259-04:00",
   "summary": {
     "total_pl_dollars": -1318.21,
     "wins": 27,
     "losses": 23,
-    "open_count": 5
+    "open_count": 7
   },
   "open_trades": [
+    {
+      "ticker": "LONA",
+      "entry_price": 7.875,
+      "stop_loss_price": 7.4,
+      "profit_target_price": 8.75,
+      "position_size_dollars": 4.24,
+      "entry_timestamp": "2026-08-17T19:02:45.419292",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.18,
+      "current_price": 7.86,
+      "unrealized_pct": -0.0019047619047618642,
+      "unrealized_dollars": -0.01
+    },
+    {
+      "ticker": "LONA",
+      "entry_price": 7.875,
+      "stop_loss_price": 7.4,
+      "profit_target_price": 8.75,
+      "position_size_dollars": 4349.64,
+      "entry_timestamp": "2026-08-17T19:02:34.602785",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.18,
+      "current_price": 7.86,
+      "unrealized_pct": -0.0019047619047618642,
+      "unrealized_dollars": -8.29
+    },
     {
       "ticker": "YYAI",
       "entry_price": 1.205,
@@ -17,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.31,
-      "current_price": 1.21,
-      "unrealized_pct": 0.004149377593360907,
-      "unrealized_dollars": 0.02
+      "current_price": 1.2,
+      "unrealized_pct": -0.004149377593361091,
+      "unrealized_dollars": -0.02
     },
     {
       "ticker": "YYAI",
@@ -31,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.31,
-      "current_price": 1.21,
-      "unrealized_pct": 0.004149377593360907,
-      "unrealized_dollars": 18.16
+      "current_price": 1.2,
+      "unrealized_pct": -0.004149377593361091,
+      "unrealized_dollars": -18.16
     },
     {
       "ticker": "FSHP",
@@ -59,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.33,
-      "current_price": 1.6101,
-      "unrealized_pct": 0.005056179775280896,
-      "unrealized_dollars": 0.02
+      "current_price": 1.62,
+      "unrealized_pct": 0.011235955056179785,
+      "unrealized_dollars": 0.05
     },
     {
       "ticker": "MNDR",
@@ -73,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.33,
-      "current_price": 1.6101,
-      "unrealized_pct": 0.005056179775280896,
-      "unrealized_dollars": 22.37
+      "current_price": 1.62,
+      "unrealized_pct": 0.011235955056179785,
+      "unrealized_dollars": 49.71
     }
   ],
   "closed_trades": [
