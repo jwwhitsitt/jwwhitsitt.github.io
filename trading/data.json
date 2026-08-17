@@ -1,12 +1,68 @@
 {
-  "generated_at": "2026-08-17T11:00:03.610585-04:00",
+  "generated_at": "2026-08-17T11:15:05.771967-04:00",
   "summary": {
     "total_pl_dollars": 132.35,
     "wins": 27,
     "losses": 21,
-    "open_count": 2
+    "open_count": 6
   },
   "open_trades": [
+    {
+      "ticker": "SLE",
+      "entry_price": 3.0819,
+      "stop_loss_price": 3.01,
+      "profit_target_price": 3.47,
+      "position_size_dollars": 4.33,
+      "entry_timestamp": "2026-08-17T15:04:26.062774",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 5.4,
+      "current_price": 3.185,
+      "unrealized_pct": 0.03345338914306109,
+      "unrealized_dollars": 0.14
+    },
+    {
+      "ticker": "SLE",
+      "entry_price": 3.0819,
+      "stop_loss_price": 3.01,
+      "profit_target_price": 3.47,
+      "position_size_dollars": 4431.23,
+      "entry_timestamp": "2026-08-17T15:04:15.445590",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 5.4,
+      "current_price": 3.185,
+      "unrealized_pct": 0.03345338914306109,
+      "unrealized_dollars": 148.24
+    },
+    {
+      "ticker": "PFSA",
+      "entry_price": 4.5,
+      "stop_loss_price": 3.995,
+      "profit_target_price": 6.77,
+      "position_size_dollars": 4432.45,
+      "entry_timestamp": "2026-08-17T15:04:04.304262",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 4.5,
+      "current_price": 3.87,
+      "unrealized_pct": -0.13999999999999999,
+      "unrealized_dollars": -620.54
+    },
+    {
+      "ticker": "FSHP",
+      "entry_price": 11.23,
+      "stop_loss_price": 10.67,
+      "profit_target_price": 12.35,
+      "position_size_dollars": 4433.83,
+      "entry_timestamp": "2026-08-17T15:03:53.059111",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.16,
+      "current_price": 11.23,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
+    },
     {
       "ticker": "MNDR",
       "entry_price": 1.602,
@@ -17,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.33,
-      "current_price": 1.66,
-      "unrealized_pct": 0.0362047440699125,
-      "unrealized_dollars": 0.16
+      "current_price": 1.6,
+      "unrealized_pct": -0.0012484394506866428,
+      "unrealized_dollars": -0.01
     },
     {
       "ticker": "MNDR",
@@ -31,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.33,
-      "current_price": 1.66,
-      "unrealized_pct": 0.0362047440699125,
-      "unrealized_dollars": 160.19
+      "current_price": 1.6,
+      "unrealized_pct": -0.0012484394506866428,
+      "unrealized_dollars": -5.52
     }
   ],
   "closed_trades": [
