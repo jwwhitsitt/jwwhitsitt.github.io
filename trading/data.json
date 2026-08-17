@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T12:00:04.624247-04:00",
+  "generated_at": "2026-08-17T12:15:04.666354-04:00",
   "summary": {
     "total_pl_dollars": -487.29,
     "wins": 27,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.4,
-      "current_price": 3.0883,
-      "unrealized_pct": 0.0020766410331288293,
-      "unrealized_dollars": 0.01
+      "current_price": 2.905,
+      "unrealized_pct": -0.057399656056328976,
+      "unrealized_dollars": -0.25
     },
     {
       "ticker": "SLE",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.4,
-      "current_price": 3.0883,
-      "unrealized_pct": 0.0020766410331288293,
-      "unrealized_dollars": 9.2
+      "current_price": 2.905,
+      "unrealized_pct": -0.057399656056328976,
+      "unrealized_dollars": -254.35
     },
     {
       "ticker": "FSHP",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.33,
-      "current_price": 1.6,
-      "unrealized_pct": -0.0012484394506866428,
-      "unrealized_dollars": -0.01
+      "current_price": 1.5741,
+      "unrealized_pct": -0.017415730337078675,
+      "unrealized_dollars": -0.08
     },
     {
       "ticker": "MNDR",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.33,
-      "current_price": 1.6,
-      "unrealized_pct": -0.0012484394506866428,
-      "unrealized_dollars": -5.52
+      "current_price": 1.5741,
+      "unrealized_pct": -0.017415730337078675,
+      "unrealized_dollars": -77.06
     }
   ],
   "closed_trades": [
