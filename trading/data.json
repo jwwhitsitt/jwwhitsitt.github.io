@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T14:15:04.956035-04:00",
+  "generated_at": "2026-08-17T14:30:05.381856-04:00",
   "summary": {
     "total_pl_dollars": -1318.21,
     "wins": 27,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.31,
-      "current_price": 1.21,
-      "unrealized_pct": 0.004149377593360907,
-      "unrealized_dollars": 0.02
+      "current_price": 1.2201,
+      "unrealized_pct": 0.012531120331950116,
+      "unrealized_dollars": 0.05
     },
     {
       "ticker": "YYAI",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.31,
-      "current_price": 1.21,
-      "unrealized_pct": 0.004149377593360907,
-      "unrealized_dollars": 18.16
+      "current_price": 1.2201,
+      "unrealized_pct": 0.012531120331950116,
+      "unrealized_dollars": 54.84
     },
     {
       "ticker": "FSHP",
