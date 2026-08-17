@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T10:30:04.320543-04:00",
+  "generated_at": "2026-08-17T10:45:04.625455-04:00",
   "summary": {
     "total_pl_dollars": 132.35,
     "wins": 27,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.33,
-      "current_price": 1.6,
-      "unrealized_pct": -0.0012484394506866428,
-      "unrealized_dollars": -0.01
+      "current_price": 1.72,
+      "unrealized_pct": 0.07365792759051178,
+      "unrealized_dollars": 0.32
     },
     {
       "ticker": "MNDR",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.33,
-      "current_price": 1.6,
-      "unrealized_pct": -0.0012484394506866428,
-      "unrealized_dollars": -5.52
+      "current_price": 1.72,
+      "unrealized_pct": 0.07365792759051178,
+      "unrealized_dollars": 325.91
     }
   ],
   "closed_trades": [
