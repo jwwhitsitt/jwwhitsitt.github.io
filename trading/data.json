@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-17T11:15:05.771967-04:00",
+  "generated_at": "2026-08-17T11:30:04.934817-04:00",
   "summary": {
-    "total_pl_dollars": 132.35,
+    "total_pl_dollars": -487.29,
     "wins": 27,
     "losses": 21,
-    "open_count": 6
+    "open_count": 5
   },
   "open_trades": [
     {
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.4,
-      "current_price": 3.185,
-      "unrealized_pct": 0.03345338914306109,
-      "unrealized_dollars": 0.14
+      "current_price": 3.22,
+      "unrealized_pct": 0.04481001979298488,
+      "unrealized_dollars": 0.19
     },
     {
       "ticker": "SLE",
@@ -31,23 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.4,
-      "current_price": 3.185,
-      "unrealized_pct": 0.03345338914306109,
-      "unrealized_dollars": 148.24
-    },
-    {
-      "ticker": "PFSA",
-      "entry_price": 4.5,
-      "stop_loss_price": 3.995,
-      "profit_target_price": 6.77,
-      "position_size_dollars": 4432.45,
-      "entry_timestamp": "2026-08-17T15:04:04.304262",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 4.5,
-      "current_price": 3.87,
-      "unrealized_pct": -0.13999999999999999,
-      "unrealized_dollars": -620.54
+      "current_price": 3.22,
+      "unrealized_pct": 0.04481001979298488,
+      "unrealized_dollars": 198.56
     },
     {
       "ticker": "FSHP",
@@ -73,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.33,
-      "current_price": 1.6,
-      "unrealized_pct": -0.0012484394506866428,
-      "unrealized_dollars": -0.01
+      "current_price": 1.605,
+      "unrealized_pct": 0.0018726591760298947,
+      "unrealized_dollars": 0.01
     },
     {
       "ticker": "MNDR",
@@ -87,12 +73,23 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.33,
-      "current_price": 1.6,
-      "unrealized_pct": -0.0012484394506866428,
-      "unrealized_dollars": -5.52
+      "current_price": 1.605,
+      "unrealized_pct": 0.0018726591760298947,
+      "unrealized_dollars": 8.29
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "PFSA",
+      "entry_price": 4.5,
+      "exit_price": 3.87,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -620.54,
+      "pl_percent": -0.14,
+      "exit_timestamp": "2026-08-17T15:15:04.526664",
+      "setup_quality": "B",
+      "position_size_dollars": 4432.45
+    },
     {
       "ticker": "FIEE",
       "entry_price": 5.46,
@@ -631,17 +628,6 @@
       "exit_timestamp": "2026-08-06T19:15:04.314334",
       "setup_quality": "B",
       "position_size_dollars": 4551.07
-    },
-    {
-      "ticker": "BIVI",
-      "entry_price": 1.31,
-      "exit_price": 1.05,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -0.9,
-      "pl_percent": -0.198473,
-      "exit_timestamp": "2026-08-06T13:45:14.549624",
-      "setup_quality": "B",
-      "position_size_dollars": 4.55
     }
   ]
 }
