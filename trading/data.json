@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T09:45:06.247039-04:00",
+  "generated_at": "2026-08-17T10:00:05.186033-04:00",
   "summary": {
     "total_pl_dollars": -1148.47,
     "wins": 26,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.33,
-      "current_price": 1.64,
-      "unrealized_pct": 0.023720349563046073,
-      "unrealized_dollars": 0.1
+      "current_price": 1.67,
+      "unrealized_pct": 0.04244694132334571,
+      "unrealized_dollars": 0.18
     },
     {
       "ticker": "MNDR",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.33,
-      "current_price": 1.64,
-      "unrealized_pct": 0.023720349563046073,
-      "unrealized_dollars": 104.95
+      "current_price": 1.67,
+      "unrealized_pct": 0.04244694132334571,
+      "unrealized_dollars": 187.81
     },
     {
       "ticker": "FIEE",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.07,
-      "current_price": 5.65,
-      "unrealized_pct": 0.03479853479853487,
-      "unrealized_dollars": 153.97
+      "current_price": 5.8953,
+      "unrealized_pct": 0.07972527472527469,
+      "unrealized_dollars": 352.75
     }
   ],
   "closed_trades": [
