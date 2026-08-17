@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T14:00:05.455013-04:00",
+  "generated_at": "2026-08-17T14:15:04.956035-04:00",
   "summary": {
     "total_pl_dollars": -1318.21,
     "wins": 27,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.31,
-      "current_price": 1.22,
-      "unrealized_pct": 0.012448132780082905,
-      "unrealized_dollars": 0.05
+      "current_price": 1.21,
+      "unrealized_pct": 0.004149377593360907,
+      "unrealized_dollars": 0.02
     },
     {
       "ticker": "YYAI",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.31,
-      "current_price": 1.22,
-      "unrealized_pct": 0.012448132780082905,
-      "unrealized_dollars": 54.47
+      "current_price": 1.21,
+      "unrealized_pct": 0.004149377593360907,
+      "unrealized_dollars": 18.16
     },
     {
       "ticker": "FSHP",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.33,
-      "current_price": 1.6342,
-      "unrealized_pct": 0.020099875156054933,
-      "unrealized_dollars": 0.09
+      "current_price": 1.6,
+      "unrealized_pct": -0.0012484394506866428,
+      "unrealized_dollars": -0.01
     },
     {
       "ticker": "MNDR",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.33,
-      "current_price": 1.6342,
-      "unrealized_pct": 0.020099875156054933,
-      "unrealized_dollars": 88.93
+      "current_price": 1.6,
+      "unrealized_pct": -0.0012484394506866428,
+      "unrealized_dollars": -5.52
     }
   ],
   "closed_trades": [
