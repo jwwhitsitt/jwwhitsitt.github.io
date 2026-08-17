@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-17T10:15:04.610569-04:00",
+  "generated_at": "2026-08-17T10:30:04.320543-04:00",
   "summary": {
-    "total_pl_dollars": -1148.47,
-    "wins": 26,
-    "losses": 22,
-    "open_count": 3
+    "total_pl_dollars": 132.35,
+    "wins": 27,
+    "losses": 21,
+    "open_count": 2
   },
   "open_trades": [
     {
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.33,
-      "current_price": 1.6401,
-      "unrealized_pct": 0.023782771535580397,
-      "unrealized_dollars": 0.1
+      "current_price": 1.6,
+      "unrealized_pct": -0.0012484394506866428,
+      "unrealized_dollars": -0.01
     },
     {
       "ticker": "MNDR",
@@ -31,26 +31,23 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.33,
-      "current_price": 1.6401,
-      "unrealized_pct": 0.023782771535580397,
-      "unrealized_dollars": 105.23
-    },
-    {
-      "ticker": "FIEE",
-      "entry_price": 5.46,
-      "stop_loss_price": 5.32,
-      "profit_target_price": 5.89,
-      "position_size_dollars": 4424.61,
-      "entry_timestamp": "2026-08-17T13:35:32.640592",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 3.07,
-      "current_price": 5.985,
-      "unrealized_pct": 0.09615384615384621,
-      "unrealized_dollars": 425.44
+      "current_price": 1.6,
+      "unrealized_pct": -0.0012484394506866428,
+      "unrealized_dollars": -5.52
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "FIEE",
+      "entry_price": 5.46,
+      "exit_price": 5.985,
+      "exit_reason": "target_hit",
+      "pl_dollars": 425.44,
+      "pl_percent": 0.096154,
+      "exit_timestamp": "2026-08-17T14:15:03.606918",
+      "setup_quality": "B",
+      "position_size_dollars": 4424.61
+    },
     {
       "ticker": "WETO",
       "entry_price": 7.72,
@@ -589,17 +586,6 @@
       "exit_timestamp": "2026-08-06T13:45:14.549624",
       "setup_quality": "B",
       "position_size_dollars": 4.55
-    },
-    {
-      "ticker": "BIVI",
-      "entry_price": 1.31,
-      "exit_price": 1.066,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -855.37,
-      "pl_percent": -0.18626,
-      "exit_timestamp": "2026-08-06T13:45:03.811602",
-      "setup_quality": "B",
-      "position_size_dollars": 4592.38
     }
   ]
 }
