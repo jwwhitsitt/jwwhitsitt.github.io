@@ -1,12 +1,41 @@
 {
-  "generated_at": "2026-08-18T09:30:03.288395-04:00",
+  "generated_at": "2026-08-18T09:45:04.838335-04:00",
   "summary": {
     "total_pl_dollars": -928.08,
     "wins": 28,
     "losses": 21,
-    "open_count": 0
+    "open_count": 2
   },
-  "open_trades": [],
+  "open_trades": [
+    {
+      "ticker": "GNPX",
+      "entry_price": 3.8714,
+      "stop_loss_price": 3.45,
+      "profit_target_price": 4.85,
+      "position_size_dollars": 4.25,
+      "entry_timestamp": "2026-08-18T13:34:00.078768",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.61,
+      "current_price": 4.05,
+      "unrealized_pct": 0.04613318179469956,
+      "unrealized_dollars": 0.2
+    },
+    {
+      "ticker": "GNPX",
+      "entry_price": 3.8714,
+      "stop_loss_price": 3.45,
+      "profit_target_price": 4.85,
+      "position_size_dollars": 4341.71,
+      "entry_timestamp": "2026-08-18T13:33:49.539671",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.61,
+      "current_price": 4.05,
+      "unrealized_pct": 0.04613318179469956,
+      "unrealized_dollars": 200.3
+    }
+  ],
   "closed_trades": [
     {
       "ticker": "LONA",
