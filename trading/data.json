@@ -1,126 +1,101 @@
 {
-  "generated_at": "2026-08-18T15:45:05.465482-04:00",
+  "generated_at": "2026-08-18T16:00:03.266978-04:00",
   "summary": {
-    "total_pl_dollars": -928.08,
+    "total_pl_dollars": -1322.29,
     "wins": 28,
     "losses": 21,
-    "open_count": 8
+    "open_count": 0
   },
-  "open_trades": [
-    {
-      "ticker": "XOS",
-      "entry_price": 4.16,
-      "stop_loss_price": 4.01,
-      "profit_target_price": 4.95,
-      "position_size_dollars": 4.29,
-      "entry_timestamp": "2026-08-18T17:02:28.574764",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 5.27,
-      "current_price": 4.395,
-      "unrealized_pct": 0.05649038461538448,
-      "unrealized_dollars": 0.24
-    },
-    {
-      "ticker": "XOS",
-      "entry_price": 4.16,
-      "stop_loss_price": 4.01,
-      "profit_target_price": 4.95,
-      "position_size_dollars": 4357.76,
-      "entry_timestamp": "2026-08-18T17:02:18.043822",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 5.27,
-      "current_price": 4.395,
-      "unrealized_pct": 0.05649038461538448,
-      "unrealized_dollars": 246.17
-    },
-    {
-      "ticker": "BRFH",
-      "entry_price": 1.2785,
-      "stop_loss_price": 1.26,
-      "profit_target_price": 1.3877,
-      "position_size_dollars": 4.29,
-      "entry_timestamp": "2026-08-18T17:02:07.428139",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 5.9,
-      "current_price": 1.3,
-      "unrealized_pct": 0.016816581931951565,
-      "unrealized_dollars": 0.07
-    },
-    {
-      "ticker": "BRFH",
-      "entry_price": 1.2785,
-      "stop_loss_price": 1.26,
-      "profit_target_price": 1.3877,
-      "position_size_dollars": 4360.78,
-      "entry_timestamp": "2026-08-18T17:01:56.695123",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 5.9,
-      "current_price": 1.3,
-      "unrealized_pct": 0.016816581931951565,
-      "unrealized_dollars": 73.33
-    },
-    {
-      "ticker": "HAO",
-      "entry_price": 4.195,
-      "stop_loss_price": 4.03,
-      "profit_target_price": 4.67,
-      "position_size_dollars": 4.27,
-      "entry_timestamp": "2026-08-18T15:03:16.791052",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 2.88,
-      "current_price": 4.32,
-      "unrealized_pct": 0.02979737783075089,
-      "unrealized_dollars": 0.13
-    },
-    {
-      "ticker": "HAO",
-      "entry_price": 4.195,
-      "stop_loss_price": 4.03,
-      "profit_target_price": 4.67,
-      "position_size_dollars": 4350.69,
-      "entry_timestamp": "2026-08-18T15:03:05.519871",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 2.88,
-      "current_price": 4.32,
-      "unrealized_pct": 0.02979737783075089,
-      "unrealized_dollars": 129.64
-    },
-    {
-      "ticker": "GNPX",
-      "entry_price": 3.8714,
-      "stop_loss_price": 3.45,
-      "profit_target_price": 4.85,
-      "position_size_dollars": 4.25,
-      "entry_timestamp": "2026-08-18T13:34:00.078768",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 1.61,
-      "current_price": 4.07,
-      "unrealized_pct": 0.05129927158134017,
-      "unrealized_dollars": 0.22
-    },
-    {
-      "ticker": "GNPX",
-      "entry_price": 3.8714,
-      "stop_loss_price": 3.45,
-      "profit_target_price": 4.85,
-      "position_size_dollars": 4341.71,
-      "entry_timestamp": "2026-08-18T13:33:49.539671",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 1.61,
-      "current_price": 4.07,
-      "unrealized_pct": 0.05129927158134017,
-      "unrealized_dollars": 222.73
-    }
-  ],
+  "open_trades": [],
   "closed_trades": [
+    {
+      "ticker": "XOS",
+      "entry_price": 4.16,
+      "exit_price": 4.3799,
+      "exit_reason": "eod_close",
+      "pl_dollars": 0.23,
+      "pl_percent": 0.052861,
+      "exit_timestamp": "2026-08-18T19:46:17.810343",
+      "setup_quality": "B",
+      "position_size_dollars": 4.29
+    },
+    {
+      "ticker": "XOS",
+      "entry_price": 4.16,
+      "exit_price": 4.365,
+      "exit_reason": "eod_close",
+      "pl_dollars": 214.75,
+      "pl_percent": 0.049279,
+      "exit_timestamp": "2026-08-18T19:46:07.314736",
+      "setup_quality": "B",
+      "position_size_dollars": 4357.76
+    },
+    {
+      "ticker": "BRFH",
+      "entry_price": 1.2785,
+      "exit_price": 1.3,
+      "exit_reason": "eod_close",
+      "pl_dollars": 0.07,
+      "pl_percent": 0.016817,
+      "exit_timestamp": "2026-08-18T19:45:56.381421",
+      "setup_quality": "B",
+      "position_size_dollars": 4.29
+    },
+    {
+      "ticker": "BRFH",
+      "entry_price": 1.2785,
+      "exit_price": 1.3,
+      "exit_reason": "eod_close",
+      "pl_dollars": 73.33,
+      "pl_percent": 0.016817,
+      "exit_timestamp": "2026-08-18T19:45:45.854498",
+      "setup_quality": "B",
+      "position_size_dollars": 4360.78
+    },
+    {
+      "ticker": "HAO",
+      "entry_price": 4.195,
+      "exit_price": 4.4099,
+      "exit_reason": "eod_close",
+      "pl_dollars": 0.22,
+      "pl_percent": 0.051228,
+      "exit_timestamp": "2026-08-18T19:45:35.294220",
+      "setup_quality": "B",
+      "position_size_dollars": 4.27
+    },
+    {
+      "ticker": "HAO",
+      "entry_price": 4.195,
+      "exit_price": 4.4099,
+      "exit_reason": "eod_close",
+      "pl_dollars": 222.88,
+      "pl_percent": 0.051228,
+      "exit_timestamp": "2026-08-18T19:45:24.786822",
+      "setup_quality": "B",
+      "position_size_dollars": 4350.69
+    },
+    {
+      "ticker": "GNPX",
+      "entry_price": 3.8714,
+      "exit_price": 4.1751,
+      "exit_reason": "eod_close",
+      "pl_dollars": 0.33,
+      "pl_percent": 0.078447,
+      "exit_timestamp": "2026-08-18T19:45:14.032727",
+      "setup_quality": "B",
+      "position_size_dollars": 4.25
+    },
+    {
+      "ticker": "GNPX",
+      "entry_price": 3.8714,
+      "exit_price": 4.07,
+      "exit_reason": "eod_close",
+      "pl_dollars": 222.73,
+      "pl_percent": 0.051299,
+      "exit_timestamp": "2026-08-18T19:45:03.342858",
+      "setup_quality": "B",
+      "position_size_dollars": 4341.71
+    },
     {
       "ticker": "LONA",
       "entry_price": 7.875,
@@ -582,94 +557,6 @@
       "exit_timestamp": "2026-08-10T16:30:04.343414",
       "setup_quality": "B",
       "position_size_dollars": 4540.84
-    },
-    {
-      "ticker": "YJ",
-      "entry_price": 3.39,
-      "exit_price": 3.89,
-      "exit_reason": "eod_close",
-      "pl_dollars": 0.65,
-      "pl_percent": 0.147493,
-      "exit_timestamp": "2026-08-07T19:46:38.228933",
-      "setup_quality": "B",
-      "position_size_dollars": 4.42
-    },
-    {
-      "ticker": "YJ",
-      "entry_price": 3.39,
-      "exit_price": 3.8801,
-      "exit_reason": "eod_close",
-      "pl_dollars": 651.22,
-      "pl_percent": 0.144572,
-      "exit_timestamp": "2026-08-07T19:46:27.754971",
-      "setup_quality": "B",
-      "position_size_dollars": 4504.48
-    },
-    {
-      "ticker": "VSA",
-      "entry_price": 3.5,
-      "exit_price": 3.75,
-      "exit_reason": "eod_close",
-      "pl_dollars": 0.32,
-      "pl_percent": 0.071429,
-      "exit_timestamp": "2026-08-07T19:46:17.167794",
-      "setup_quality": "B",
-      "position_size_dollars": 4.42
-    },
-    {
-      "ticker": "VSA",
-      "entry_price": 3.5,
-      "exit_price": 3.75,
-      "exit_reason": "eod_close",
-      "pl_dollars": 321.87,
-      "pl_percent": 0.071429,
-      "exit_timestamp": "2026-08-07T19:46:06.655650",
-      "setup_quality": "B",
-      "position_size_dollars": 4506.13
-    },
-    {
-      "ticker": "MNDR",
-      "entry_price": 1.77,
-      "exit_price": 1.795,
-      "exit_reason": "eod_close",
-      "pl_dollars": 0.06,
-      "pl_percent": 0.014124,
-      "exit_timestamp": "2026-08-07T19:45:56.097472",
-      "setup_quality": "B",
-      "position_size_dollars": 4.42
-    },
-    {
-      "ticker": "MNDR",
-      "entry_price": 1.77,
-      "exit_price": 1.795,
-      "exit_reason": "eod_close",
-      "pl_dollars": 63.65,
-      "pl_percent": 0.014124,
-      "exit_timestamp": "2026-08-07T19:45:45.586350",
-      "setup_quality": "B",
-      "position_size_dollars": 4506.13
-    },
-    {
-      "ticker": "CCHH",
-      "entry_price": 1.24,
-      "exit_price": 1.265,
-      "exit_reason": "eod_close",
-      "pl_dollars": 0.09,
-      "pl_percent": 0.020161,
-      "exit_timestamp": "2026-08-07T19:45:35.058969",
-      "setup_quality": "B",
-      "position_size_dollars": 4.43
-    },
-    {
-      "ticker": "CCHH",
-      "entry_price": 1.24,
-      "exit_price": 1.265,
-      "exit_reason": "eod_close",
-      "pl_dollars": 90.89,
-      "pl_percent": 0.020161,
-      "exit_timestamp": "2026-08-07T19:45:24.621657",
-      "setup_quality": "B",
-      "position_size_dollars": 4507.96
     }
   ]
 }
