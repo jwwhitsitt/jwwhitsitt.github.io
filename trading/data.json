@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T10:00:04.123833-04:00",
+  "generated_at": "2026-08-18T10:15:04.642488-04:00",
   "summary": {
     "total_pl_dollars": -928.08,
     "wins": 28,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.61,
-      "current_price": 4.25,
-      "unrealized_pct": 0.09779407966110452,
-      "unrealized_dollars": 0.42
+      "current_price": 4.55,
+      "unrealized_pct": 0.17528542646071185,
+      "unrealized_dollars": 0.74
     },
     {
       "ticker": "GNPX",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.61,
-      "current_price": 4.25,
-      "unrealized_pct": 0.09779407966110452,
-      "unrealized_dollars": 424.59
+      "current_price": 4.55,
+      "unrealized_pct": 0.17528542646071185,
+      "unrealized_dollars": 761.04
     }
   ],
   "closed_trades": [
