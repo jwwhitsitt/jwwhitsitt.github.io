@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T14:45:04.692228-04:00",
+  "generated_at": "2026-08-18T15:00:05.323851-04:00",
   "summary": {
     "total_pl_dollars": -928.08,
     "wins": 28,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.27,
-      "current_price": 4.29,
-      "unrealized_pct": 0.031249999999999972,
-      "unrealized_dollars": 0.13
+      "current_price": 4.28,
+      "unrealized_pct": 0.028846153846153872,
+      "unrealized_dollars": 0.12
     },
     {
       "ticker": "XOS",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.27,
-      "current_price": 4.29,
-      "unrealized_pct": 0.031249999999999972,
-      "unrealized_dollars": 136.18
+      "current_price": 4.28,
+      "unrealized_pct": 0.028846153846153872,
+      "unrealized_dollars": 125.7
     },
     {
       "ticker": "BRFH",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.88,
-      "current_price": 4.29,
-      "unrealized_pct": 0.02264600715137062,
-      "unrealized_dollars": 0.1
+      "current_price": 4.24,
+      "unrealized_pct": 0.010727056019070305,
+      "unrealized_dollars": 0.05
     },
     {
       "ticker": "HAO",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.88,
-      "current_price": 4.29,
-      "unrealized_pct": 0.02264600715137062,
-      "unrealized_dollars": 98.53
+      "current_price": 4.24,
+      "unrealized_pct": 0.010727056019070305,
+      "unrealized_dollars": 46.67
     },
     {
       "ticker": "GNPX",
@@ -101,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.61,
-      "current_price": 4.1,
-      "unrealized_pct": 0.05904840626130074,
-      "unrealized_dollars": 0.25
+      "current_price": 3.9899,
+      "unrealized_pct": 0.030609081985844926,
+      "unrealized_dollars": 0.13
     },
     {
       "ticker": "GNPX",
@@ -115,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.61,
-      "current_price": 4.1,
-      "unrealized_pct": 0.05904840626130074,
-      "unrealized_dollars": 256.37
+      "current_price": 3.9899,
+      "unrealized_pct": 0.030609081985844926,
+      "unrealized_dollars": 132.9
     }
   ],
   "closed_trades": [
