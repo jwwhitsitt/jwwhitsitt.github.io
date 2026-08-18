@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T14:00:05.362527-04:00",
+  "generated_at": "2026-08-18T14:15:12.533142-04:00",
   "summary": {
     "total_pl_dollars": -928.08,
     "wins": 28,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.27,
-      "current_price": 4.3248,
-      "unrealized_pct": 0.03961538461538452,
-      "unrealized_dollars": 0.17
+      "current_price": 4.4,
+      "unrealized_pct": 0.057692307692307744,
+      "unrealized_dollars": 0.25
     },
     {
       "ticker": "XOS",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.27,
-      "current_price": 4.3248,
-      "unrealized_pct": 0.03961538461538452,
-      "unrealized_dollars": 172.63
+      "current_price": 4.4,
+      "unrealized_pct": 0.057692307692307744,
+      "unrealized_dollars": 251.41
     },
     {
       "ticker": "BRFH",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.9,
-      "current_price": 1.29,
-      "unrealized_pct": 0.008994915917090392,
-      "unrealized_dollars": 0.04
+      "current_price": 1.3,
+      "unrealized_pct": 0.016816581931951565,
+      "unrealized_dollars": 0.07
     },
     {
       "ticker": "BRFH",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.9,
-      "current_price": 1.29,
-      "unrealized_pct": 0.008994915917090392,
-      "unrealized_dollars": 39.22
+      "current_price": 1.3,
+      "unrealized_pct": 0.016816581931951565,
+      "unrealized_dollars": 73.33
     },
     {
       "ticker": "HAO",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.88,
-      "current_price": 4.265,
-      "unrealized_pct": 0.016686531585220356,
-      "unrealized_dollars": 0.07
+      "current_price": 4.24,
+      "unrealized_pct": 0.010727056019070305,
+      "unrealized_dollars": 0.05
     },
     {
       "ticker": "HAO",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.88,
-      "current_price": 4.265,
-      "unrealized_pct": 0.016686531585220356,
-      "unrealized_dollars": 72.6
+      "current_price": 4.24,
+      "unrealized_pct": 0.010727056019070305,
+      "unrealized_dollars": 46.67
     },
     {
       "ticker": "GNPX",
@@ -101,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.61,
-      "current_price": 4.12,
-      "unrealized_pct": 0.06421449604794136,
-      "unrealized_dollars": 0.27
+      "current_price": 4.21,
+      "unrealized_pct": 0.08746190008782354,
+      "unrealized_dollars": 0.37
     },
     {
       "ticker": "GNPX",
@@ -115,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.61,
-      "current_price": 4.12,
-      "unrealized_pct": 0.06421449604794136,
-      "unrealized_dollars": 278.8
+      "current_price": 4.21,
+      "unrealized_pct": 0.08746190008782354,
+      "unrealized_dollars": 379.73
     }
   ],
   "closed_trades": [
