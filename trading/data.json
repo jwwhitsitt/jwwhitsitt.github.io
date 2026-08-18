@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T12:45:03.820849-04:00",
+  "generated_at": "2026-08-18T13:00:04.858017-04:00",
   "summary": {
     "total_pl_dollars": -928.08,
     "wins": 28,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.88,
-      "current_price": 4.3,
-      "unrealized_pct": 0.025029797377830638,
-      "unrealized_dollars": 0.11
+      "current_price": 4.275,
+      "unrealized_pct": 0.01907032181168059,
+      "unrealized_dollars": 0.08
     },
     {
       "ticker": "HAO",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.88,
-      "current_price": 4.3,
-      "unrealized_pct": 0.025029797377830638,
-      "unrealized_dollars": 108.9
+      "current_price": 4.275,
+      "unrealized_pct": 0.01907032181168059,
+      "unrealized_dollars": 82.97
     },
     {
       "ticker": "GNPX",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.61,
-      "current_price": 4.38,
-      "unrealized_pct": 0.1313736632742677,
-      "unrealized_dollars": 0.56
+      "current_price": 4.37,
+      "unrealized_pct": 0.1287906183809475,
+      "unrealized_dollars": 0.55
     },
     {
       "ticker": "GNPX",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.61,
-      "current_price": 4.38,
-      "unrealized_pct": 0.1313736632742677,
-      "unrealized_dollars": 570.39
+      "current_price": 4.37,
+      "unrealized_pct": 0.1287906183809475,
+      "unrealized_dollars": 559.17
     }
   ],
   "closed_trades": [
