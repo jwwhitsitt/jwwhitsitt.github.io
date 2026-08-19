@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T12:30:04.315665-04:00",
+  "generated_at": "2026-08-19T12:45:04.919674-04:00",
   "summary": {
     "total_pl_dollars": -1750.47,
     "wins": 27,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.08,
-      "current_price": 5.37,
-      "unrealized_pct": -0.10797342192691022,
-      "unrealized_dollars": -474.45
+      "current_price": 5.3097,
+      "unrealized_pct": -0.11799003322259125,
+      "unrealized_dollars": -518.46
     },
     {
       "ticker": "CISS",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.68,
-      "current_price": 2.859,
-      "unrealized_pct": -0.0564667832744794,
-      "unrealized_dollars": -0.25
+      "current_price": 2.845,
+      "unrealized_pct": -0.0610870928352199,
+      "unrealized_dollars": -0.27
     },
     {
       "ticker": "TGL",
