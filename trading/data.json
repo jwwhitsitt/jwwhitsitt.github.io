@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-19T12:00:06.245604-04:00",
+  "generated_at": "2026-08-19T12:15:05.448478-04:00",
   "summary": {
-    "total_pl_dollars": -578.56,
-    "wins": 30,
-    "losses": 19,
-    "open_count": 7
+    "total_pl_dollars": -1151.47,
+    "wins": 29,
+    "losses": 20,
+    "open_count": 6
   },
   "open_trades": [
     {
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.08,
-      "current_price": 5.9,
-      "unrealized_pct": -0.019933554817275618,
-      "unrealized_dollars": -87.59
+      "current_price": 5.33,
+      "unrealized_pct": -0.11461794019933548,
+      "unrealized_dollars": -503.64
     },
     {
       "ticker": "CISS",
@@ -31,23 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.68,
-      "current_price": 2.7491,
-      "unrealized_pct": -0.09273621332629291,
-      "unrealized_dollars": -0.41
-    },
-    {
-      "ticker": "CISS",
-      "entry_price": 3.0301,
-      "stop_loss_price": 2.75,
-      "profit_target_price": 4.9,
-      "position_size_dollars": 4395.17,
-      "entry_timestamp": "2026-08-19T15:04:03.296376",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 6.68,
-      "current_price": 2.7491,
-      "unrealized_pct": -0.09273621332629291,
-      "unrealized_dollars": -407.59
+      "current_price": 2.88,
+      "unrealized_pct": -0.04953631893336857,
+      "unrealized_dollars": -0.22
     },
     {
       "ticker": "VRAX",
@@ -59,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.92,
-      "current_price": 3.055,
-      "unrealized_pct": -0.08324330812627526,
-      "unrealized_dollars": -0.36
+      "current_price": 2.9325,
+      "unrealized_pct": -0.12000360100828224,
+      "unrealized_dollars": -0.52
     },
     {
       "ticker": "VRAX",
@@ -73,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.92,
-      "current_price": 3.055,
-      "unrealized_pct": -0.08324330812627526,
-      "unrealized_dollars": -365.88
+      "current_price": 2.9325,
+      "unrealized_pct": -0.12000360100828224,
+      "unrealized_dollars": -527.45
     },
     {
       "ticker": "TGL",
@@ -87,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.96,
-      "current_price": 2.885,
-      "unrealized_pct": 0.017636684303350907,
-      "unrealized_dollars": 0.08
+      "current_price": 2.83,
+      "unrealized_pct": -0.0017636684303350594,
+      "unrealized_dollars": -0.01
     },
     {
       "ticker": "TGL",
@@ -101,12 +87,23 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.96,
-      "current_price": 2.885,
-      "unrealized_pct": 0.017636684303350907,
-      "unrealized_dollars": 76.77
+      "current_price": 2.83,
+      "unrealized_pct": -0.0017636684303350594,
+      "unrealized_dollars": -7.68
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "CISS",
+      "entry_price": 3.0301,
+      "exit_price": 2.7491,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -407.59,
+      "pl_percent": -0.092736,
+      "exit_timestamp": "2026-08-19T16:00:04.789521",
+      "setup_quality": "B",
+      "position_size_dollars": 4395.17
+    },
     {
       "ticker": "FEMY",
       "entry_price": 2.8111,
@@ -645,17 +642,6 @@
       "exit_timestamp": "2026-08-10T19:45:35.557935",
       "setup_quality": "B",
       "position_size_dollars": 4.53
-    },
-    {
-      "ticker": "BKYI",
-      "entry_price": 3.9395,
-      "exit_price": 4.082,
-      "exit_reason": "eod_close",
-      "pl_dollars": 165.32,
-      "pl_percent": 0.036172,
-      "exit_timestamp": "2026-08-10T19:45:25.011163",
-      "setup_quality": "B",
-      "position_size_dollars": 4570.41
     }
   ]
 }
