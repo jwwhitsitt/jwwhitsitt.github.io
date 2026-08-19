@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T14:45:03.911649-04:00",
+  "generated_at": "2026-08-19T15:00:05.193705-04:00",
   "summary": {
     "total_pl_dollars": -1819.81,
     "wins": 26,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.08,
-      "current_price": 5.64,
-      "unrealized_pct": -0.06312292358803985,
-      "unrealized_dollars": -277.37
+      "current_price": 5.55,
+      "unrealized_pct": -0.07807308970099665,
+      "unrealized_dollars": -343.06
     },
     {
       "ticker": "TGL",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.96,
-      "current_price": 2.96,
-      "unrealized_pct": 0.04409171075837742,
-      "unrealized_dollars": 0.19
+      "current_price": 3.06,
+      "unrealized_pct": 0.0793650793650794,
+      "unrealized_dollars": 0.34
     },
     {
       "ticker": "TGL",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.96,
-      "current_price": 2.96,
-      "unrealized_pct": 0.04409171075837742,
-      "unrealized_dollars": 191.92
+      "current_price": 3.06,
+      "unrealized_pct": 0.0793650793650794,
+      "unrealized_dollars": 345.45
     }
   ],
   "closed_trades": [
