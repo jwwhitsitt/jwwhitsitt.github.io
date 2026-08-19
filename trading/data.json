@@ -1,40 +1,12 @@
 {
-  "generated_at": "2026-08-19T11:15:06.342629-04:00",
+  "generated_at": "2026-08-19T11:30:05.105409-04:00",
   "summary": {
-    "total_pl_dollars": -307.15,
+    "total_pl_dollars": -578.56,
     "wins": 30,
     "losses": 19,
-    "open_count": 9
+    "open_count": 7
   },
   "open_trades": [
-    {
-      "ticker": "FEMY",
-      "entry_price": 2.8111,
-      "stop_loss_price": 2.53,
-      "profit_target_price": 3.69,
-      "position_size_dollars": 4.36,
-      "entry_timestamp": "2026-08-19T15:04:45.714433",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 3.13,
-      "current_price": 2.43,
-      "unrealized_pct": -0.13556970580911387,
-      "unrealized_dollars": -0.59
-    },
-    {
-      "ticker": "FEMY",
-      "entry_price": 2.8111,
-      "stop_loss_price": 2.53,
-      "profit_target_price": 3.69,
-      "position_size_dollars": 4381.87,
-      "entry_timestamp": "2026-08-19T15:04:35.369186",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 3.13,
-      "current_price": 2.43,
-      "unrealized_pct": -0.13556970580911387,
-      "unrealized_dollars": -594.05
-    },
     {
       "ticker": "SKK",
       "entry_price": 6.02,
@@ -45,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.08,
-      "current_price": 5.505,
-      "unrealized_pct": -0.08554817275747503,
-      "unrealized_dollars": -375.91
+      "current_price": 5.5,
+      "unrealized_pct": -0.08637873754152818,
+      "unrealized_dollars": -379.56
     },
     {
       "ticker": "CISS",
@@ -59,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.68,
-      "current_price": 3.025,
-      "unrealized_pct": -0.0016831127685555277,
-      "unrealized_dollars": -0.01
+      "current_price": 3.01,
+      "unrealized_pct": -0.006633444440777608,
+      "unrealized_dollars": -0.03
     },
     {
       "ticker": "CISS",
@@ -73,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.68,
-      "current_price": 3.025,
-      "unrealized_pct": -0.0016831127685555277,
-      "unrealized_dollars": -7.4
+      "current_price": 3.01,
+      "unrealized_pct": -0.006633444440777608,
+      "unrealized_dollars": -29.16
     },
     {
       "ticker": "VRAX",
@@ -87,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.92,
-      "current_price": 3.389,
-      "unrealized_pct": 0.016984755731604847,
-      "unrealized_dollars": 0.07
+      "current_price": 3.2619,
+      "unrealized_pct": -0.02115592365862442,
+      "unrealized_dollars": -0.09
     },
     {
       "ticker": "VRAX",
@@ -101,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.92,
-      "current_price": 3.389,
-      "unrealized_pct": 0.016984755731604847,
-      "unrealized_dollars": 74.65
+      "current_price": 3.2619,
+      "unrealized_pct": -0.02115592365862442,
+      "unrealized_dollars": -92.99
     },
     {
       "ticker": "TGL",
@@ -115,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.96,
-      "current_price": 2.97,
-      "unrealized_pct": 0.0476190476190477,
-      "unrealized_dollars": 0.2
+      "current_price": 2.92,
+      "unrealized_pct": 0.029982363315696637,
+      "unrealized_dollars": 0.13
     },
     {
       "ticker": "TGL",
@@ -129,12 +101,34 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.96,
-      "current_price": 2.97,
-      "unrealized_pct": 0.0476190476190477,
-      "unrealized_dollars": 207.27
+      "current_price": 2.92,
+      "unrealized_pct": 0.029982363315696637,
+      "unrealized_dollars": 130.5
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "FEMY",
+      "entry_price": 2.8111,
+      "exit_price": 2.43,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.59,
+      "pl_percent": -0.13557,
+      "exit_timestamp": "2026-08-19T15:15:15.658672",
+      "setup_quality": "B",
+      "position_size_dollars": 4.36
+    },
+    {
+      "ticker": "FEMY",
+      "entry_price": 2.8111,
+      "exit_price": 2.43,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -594.05,
+      "pl_percent": -0.13557,
+      "exit_timestamp": "2026-08-19T15:15:04.993600",
+      "setup_quality": "B",
+      "position_size_dollars": 4381.87
+    },
     {
       "ticker": "BIVI",
       "entry_price": 1.195,
@@ -660,28 +654,6 @@
       "pl_dollars": 165.32,
       "pl_percent": 0.036172,
       "exit_timestamp": "2026-08-10T19:45:25.011163",
-      "setup_quality": "B",
-      "position_size_dollars": 4570.41
-    },
-    {
-      "ticker": "BRFH",
-      "entry_price": 1.84,
-      "exit_price": 1.71,
-      "exit_reason": "eod_close",
-      "pl_dollars": -0.32,
-      "pl_percent": -0.070652,
-      "exit_timestamp": "2026-08-10T19:45:14.229933",
-      "setup_quality": "B",
-      "position_size_dollars": 4.53
-    },
-    {
-      "ticker": "BRFH",
-      "entry_price": 1.84,
-      "exit_price": 1.71,
-      "exit_reason": "eod_close",
-      "pl_dollars": -322.91,
-      "pl_percent": -0.070652,
-      "exit_timestamp": "2026-08-10T19:45:03.534712",
       "setup_quality": "B",
       "position_size_dollars": 4570.41
     }
