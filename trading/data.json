@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T11:30:05.105409-04:00",
+  "generated_at": "2026-08-19T11:45:05.113154-04:00",
   "summary": {
     "total_pl_dollars": -578.56,
     "wins": 30,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.08,
-      "current_price": 5.5,
-      "unrealized_pct": -0.08637873754152818,
-      "unrealized_dollars": -379.56
+      "current_price": 5.34,
+      "unrealized_pct": -0.1129568106312292,
+      "unrealized_dollars": -496.35
     },
     {
       "ticker": "CISS",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.68,
-      "current_price": 3.01,
-      "unrealized_pct": -0.006633444440777608,
-      "unrealized_dollars": -0.03
+      "current_price": 2.9078,
+      "unrealized_pct": -0.04036170423418371,
+      "unrealized_dollars": -0.18
     },
     {
       "ticker": "CISS",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.68,
-      "current_price": 3.01,
-      "unrealized_pct": -0.006633444440777608,
-      "unrealized_dollars": -29.16
+      "current_price": 2.9078,
+      "unrealized_pct": -0.04036170423418371,
+      "unrealized_dollars": -177.4
     },
     {
       "ticker": "VRAX",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.92,
-      "current_price": 3.2619,
-      "unrealized_pct": -0.02115592365862442,
-      "unrealized_dollars": -0.09
+      "current_price": 3.07,
+      "unrealized_pct": -0.07874204777337654,
+      "unrealized_dollars": -0.34
     },
     {
       "ticker": "VRAX",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.92,
-      "current_price": 3.2619,
-      "unrealized_pct": -0.02115592365862442,
-      "unrealized_dollars": -92.99
+      "current_price": 3.07,
+      "unrealized_pct": -0.07874204777337654,
+      "unrealized_dollars": -346.09
     },
     {
       "ticker": "TGL",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.96,
-      "current_price": 2.92,
-      "unrealized_pct": 0.029982363315696637,
-      "unrealized_dollars": 0.13
+      "current_price": 2.82,
+      "unrealized_pct": -0.005291005291005335,
+      "unrealized_dollars": -0.02
     },
     {
       "ticker": "TGL",
@@ -101,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.96,
-      "current_price": 2.92,
-      "unrealized_pct": 0.029982363315696637,
-      "unrealized_dollars": 130.5
+      "current_price": 2.82,
+      "unrealized_pct": -0.005291005291005335,
+      "unrealized_dollars": -23.03
     }
   ],
   "closed_trades": [
