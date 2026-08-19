@@ -1,12 +1,110 @@
 {
-  "generated_at": "2026-08-19T11:00:04.453953-04:00",
+  "generated_at": "2026-08-19T11:15:06.342629-04:00",
   "summary": {
     "total_pl_dollars": -307.15,
     "wins": 30,
     "losses": 19,
-    "open_count": 2
+    "open_count": 9
   },
   "open_trades": [
+    {
+      "ticker": "FEMY",
+      "entry_price": 2.8111,
+      "stop_loss_price": 2.53,
+      "profit_target_price": 3.69,
+      "position_size_dollars": 4.36,
+      "entry_timestamp": "2026-08-19T15:04:45.714433",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 3.13,
+      "current_price": 2.43,
+      "unrealized_pct": -0.13556970580911387,
+      "unrealized_dollars": -0.59
+    },
+    {
+      "ticker": "FEMY",
+      "entry_price": 2.8111,
+      "stop_loss_price": 2.53,
+      "profit_target_price": 3.69,
+      "position_size_dollars": 4381.87,
+      "entry_timestamp": "2026-08-19T15:04:35.369186",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 3.13,
+      "current_price": 2.43,
+      "unrealized_pct": -0.13556970580911387,
+      "unrealized_dollars": -594.05
+    },
+    {
+      "ticker": "SKK",
+      "entry_price": 6.02,
+      "stop_loss_price": 4.68,
+      "profit_target_price": 8.81,
+      "position_size_dollars": 4394.12,
+      "entry_timestamp": "2026-08-19T15:04:24.743469",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 2.08,
+      "current_price": 5.505,
+      "unrealized_pct": -0.08554817275747503,
+      "unrealized_dollars": -375.91
+    },
+    {
+      "ticker": "CISS",
+      "entry_price": 3.0301,
+      "stop_loss_price": 2.75,
+      "profit_target_price": 4.9,
+      "position_size_dollars": 4.37,
+      "entry_timestamp": "2026-08-19T15:04:13.869097",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 6.68,
+      "current_price": 3.025,
+      "unrealized_pct": -0.0016831127685555277,
+      "unrealized_dollars": -0.01
+    },
+    {
+      "ticker": "CISS",
+      "entry_price": 3.0301,
+      "stop_loss_price": 2.75,
+      "profit_target_price": 4.9,
+      "position_size_dollars": 4395.17,
+      "entry_timestamp": "2026-08-19T15:04:03.296376",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 6.68,
+      "current_price": 3.025,
+      "unrealized_pct": -0.0016831127685555277,
+      "unrealized_dollars": -7.4
+    },
+    {
+      "ticker": "VRAX",
+      "entry_price": 3.3324,
+      "stop_loss_price": 3.0042,
+      "profit_target_price": 4.29,
+      "position_size_dollars": 4.37,
+      "entry_timestamp": "2026-08-19T15:03:52.681219",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 2.92,
+      "current_price": 3.389,
+      "unrealized_pct": 0.016984755731604847,
+      "unrealized_dollars": 0.07
+    },
+    {
+      "ticker": "VRAX",
+      "entry_price": 3.3324,
+      "stop_loss_price": 3.0042,
+      "profit_target_price": 4.29,
+      "position_size_dollars": 4395.28,
+      "entry_timestamp": "2026-08-19T15:03:41.915629",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 2.92,
+      "current_price": 3.389,
+      "unrealized_pct": 0.016984755731604847,
+      "unrealized_dollars": 74.65
+    },
     {
       "ticker": "TGL",
       "entry_price": 2.835,
@@ -17,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.96,
-      "current_price": 2.9499,
-      "unrealized_pct": 0.04052910052910053,
-      "unrealized_dollars": 0.17
+      "current_price": 2.97,
+      "unrealized_pct": 0.0476190476190477,
+      "unrealized_dollars": 0.2
     },
     {
       "ticker": "TGL",
@@ -31,9 +129,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.96,
-      "current_price": 2.9499,
-      "unrealized_pct": 0.04052910052910053,
-      "unrealized_dollars": 176.41
+      "current_price": 2.97,
+      "unrealized_pct": 0.0476190476190477,
+      "unrealized_dollars": 207.27
     }
   ],
   "closed_trades": [
