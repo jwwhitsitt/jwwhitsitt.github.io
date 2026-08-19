@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-19T12:15:05.448478-04:00",
+  "generated_at": "2026-08-19T12:30:04.315665-04:00",
   "summary": {
-    "total_pl_dollars": -1151.47,
-    "wins": 29,
-    "losses": 20,
-    "open_count": 6
+    "total_pl_dollars": -1750.47,
+    "wins": 27,
+    "losses": 22,
+    "open_count": 4
   },
   "open_trades": [
     {
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.08,
-      "current_price": 5.33,
-      "unrealized_pct": -0.11461794019933548,
-      "unrealized_dollars": -503.64
+      "current_price": 5.37,
+      "unrealized_pct": -0.10797342192691022,
+      "unrealized_dollars": -474.45
     },
     {
       "ticker": "CISS",
@@ -31,37 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.68,
-      "current_price": 2.88,
-      "unrealized_pct": -0.04953631893336857,
-      "unrealized_dollars": -0.22
-    },
-    {
-      "ticker": "VRAX",
-      "entry_price": 3.3324,
-      "stop_loss_price": 3.0042,
-      "profit_target_price": 4.29,
-      "position_size_dollars": 4.37,
-      "entry_timestamp": "2026-08-19T15:03:52.681219",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 2.92,
-      "current_price": 2.9325,
-      "unrealized_pct": -0.12000360100828224,
-      "unrealized_dollars": -0.52
-    },
-    {
-      "ticker": "VRAX",
-      "entry_price": 3.3324,
-      "stop_loss_price": 3.0042,
-      "profit_target_price": 4.29,
-      "position_size_dollars": 4395.28,
-      "entry_timestamp": "2026-08-19T15:03:41.915629",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 2.92,
-      "current_price": 2.9325,
-      "unrealized_pct": -0.12000360100828224,
-      "unrealized_dollars": -527.45
+      "current_price": 2.859,
+      "unrealized_pct": -0.0564667832744794,
+      "unrealized_dollars": -0.25
     },
     {
       "ticker": "TGL",
@@ -73,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.96,
-      "current_price": 2.83,
-      "unrealized_pct": -0.0017636684303350594,
-      "unrealized_dollars": -0.01
+      "current_price": 2.88,
+      "unrealized_pct": 0.015873015873015848,
+      "unrealized_dollars": 0.07
     },
     {
       "ticker": "TGL",
@@ -87,12 +59,34 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.96,
-      "current_price": 2.83,
-      "unrealized_pct": -0.0017636684303350594,
-      "unrealized_dollars": -7.68
+      "current_price": 2.88,
+      "unrealized_pct": 0.015873015873015848,
+      "unrealized_dollars": 69.09
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "VRAX",
+      "entry_price": 3.3324,
+      "exit_price": 2.95,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.5,
+      "pl_percent": -0.114752,
+      "exit_timestamp": "2026-08-19T16:15:14.839312",
+      "setup_quality": "B",
+      "position_size_dollars": 4.37
+    },
+    {
+      "ticker": "VRAX",
+      "entry_price": 3.3324,
+      "exit_price": 2.9325,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -527.45,
+      "pl_percent": -0.120004,
+      "exit_timestamp": "2026-08-19T16:15:03.948452",
+      "setup_quality": "B",
+      "position_size_dollars": 4395.28
+    },
     {
       "ticker": "CISS",
       "entry_price": 3.0301,
@@ -620,28 +614,6 @@
       "exit_timestamp": "2026-08-10T19:45:56.737460",
       "setup_quality": "B",
       "position_size_dollars": 4506.85
-    },
-    {
-      "ticker": "LIVE",
-      "entry_price": 9.64,
-      "exit_price": 9.79,
-      "exit_reason": "eod_close",
-      "pl_dollars": 70.89,
-      "pl_percent": 0.01556,
-      "exit_timestamp": "2026-08-10T19:45:46.166288",
-      "setup_quality": "B",
-      "position_size_dollars": 4555.7
-    },
-    {
-      "ticker": "BKYI",
-      "entry_price": 3.9395,
-      "exit_price": 4.082,
-      "exit_reason": "eod_close",
-      "pl_dollars": 0.16,
-      "pl_percent": 0.036172,
-      "exit_timestamp": "2026-08-10T19:45:35.557935",
-      "setup_quality": "B",
-      "position_size_dollars": 4.53
     }
   ]
 }
