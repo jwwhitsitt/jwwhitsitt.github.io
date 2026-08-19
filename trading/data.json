@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T10:00:05.034181-04:00",
+  "generated_at": "2026-08-19T10:15:05.730502-04:00",
   "summary": {
     "total_pl_dollars": -1322.29,
     "wins": 28,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.96,
-      "current_price": 2.8101,
-      "unrealized_pct": -0.008783068783068834,
-      "unrealized_dollars": -0.04
+      "current_price": 3.1675,
+      "unrealized_pct": 0.11728395061728396,
+      "unrealized_dollars": 0.5
     },
     {
       "ticker": "TGL",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.96,
-      "current_price": 2.8101,
-      "unrealized_pct": -0.008783068783068834,
-      "unrealized_dollars": -38.23
+      "current_price": 3.1675,
+      "unrealized_pct": 0.11728395061728396,
+      "unrealized_dollars": 510.5
     },
     {
       "ticker": "BIVI",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 8.33,
-      "current_price": 1.25,
-      "unrealized_pct": 0.04602510460251041,
-      "unrealized_dollars": 0.2
+      "current_price": 1.3368,
+      "unrealized_pct": 0.11866108786610872,
+      "unrealized_dollars": 0.51
     },
     {
       "ticker": "BIVI",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 8.33,
-      "current_price": 1.25,
-      "unrealized_pct": 0.04602510460251041,
-      "unrealized_dollars": 200.33
+      "current_price": 1.3368,
+      "unrealized_pct": 0.11866108786610872,
+      "unrealized_dollars": 516.5
     }
   ],
   "closed_trades": [
