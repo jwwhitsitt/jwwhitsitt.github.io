@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-19T10:15:05.730502-04:00",
+  "generated_at": "2026-08-19T10:30:04.815594-04:00",
   "summary": {
-    "total_pl_dollars": -1322.29,
-    "wins": 28,
-    "losses": 21,
-    "open_count": 4
+    "total_pl_dollars": -307.15,
+    "wins": 30,
+    "losses": 19,
+    "open_count": 2
   },
   "open_trades": [
     {
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.96,
-      "current_price": 3.1675,
-      "unrealized_pct": 0.11728395061728396,
-      "unrealized_dollars": 0.5
+      "current_price": 2.96,
+      "unrealized_pct": 0.04409171075837742,
+      "unrealized_dollars": 0.19
     },
     {
       "ticker": "TGL",
@@ -31,40 +31,34 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.96,
-      "current_price": 3.1675,
-      "unrealized_pct": 0.11728395061728396,
-      "unrealized_dollars": 510.5
-    },
-    {
-      "ticker": "BIVI",
-      "entry_price": 1.195,
-      "stop_loss_price": 1.18,
-      "profit_target_price": 1.32,
-      "position_size_dollars": 4.29,
-      "entry_timestamp": "2026-08-19T13:34:17.225397",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 8.33,
-      "current_price": 1.3368,
-      "unrealized_pct": 0.11866108786610872,
-      "unrealized_dollars": 0.51
-    },
-    {
-      "ticker": "BIVI",
-      "entry_price": 1.195,
-      "stop_loss_price": 1.18,
-      "profit_target_price": 1.32,
-      "position_size_dollars": 4352.72,
-      "entry_timestamp": "2026-08-19T13:34:06.673739",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 8.33,
-      "current_price": 1.3368,
-      "unrealized_pct": 0.11866108786610872,
-      "unrealized_dollars": 516.5
+      "current_price": 2.96,
+      "unrealized_pct": 0.04409171075837742,
+      "unrealized_dollars": 191.92
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "BIVI",
+      "entry_price": 1.195,
+      "exit_price": 1.335,
+      "exit_reason": "target_hit",
+      "pl_dollars": 0.5,
+      "pl_percent": 0.117155,
+      "exit_timestamp": "2026-08-19T14:15:14.433400",
+      "setup_quality": "B",
+      "position_size_dollars": 4.29
+    },
+    {
+      "ticker": "BIVI",
+      "entry_price": 1.195,
+      "exit_price": 1.335,
+      "exit_reason": "target_hit",
+      "pl_dollars": 509.94,
+      "pl_percent": 0.117155,
+      "exit_timestamp": "2026-08-19T14:15:03.591800",
+      "setup_quality": "B",
+      "position_size_dollars": 4352.72
+    },
     {
       "ticker": "XOS",
       "entry_price": 4.16,
@@ -592,28 +586,6 @@
       "exit_timestamp": "2026-08-10T19:45:03.534712",
       "setup_quality": "B",
       "position_size_dollars": 4570.41
-    },
-    {
-      "ticker": "AUUD",
-      "entry_price": 1.305,
-      "exit_price": 1.1601,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -0.5,
-      "pl_percent": -0.111034,
-      "exit_timestamp": "2026-08-10T16:30:15.055452",
-      "setup_quality": "B",
-      "position_size_dollars": 4.53
-    },
-    {
-      "ticker": "AUUD",
-      "entry_price": 1.305,
-      "exit_price": 1.1601,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -504.19,
-      "pl_percent": -0.111034,
-      "exit_timestamp": "2026-08-10T16:30:04.343414",
-      "setup_quality": "B",
-      "position_size_dollars": 4540.84
     }
   ]
 }
