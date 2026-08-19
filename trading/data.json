@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-19T13:00:05.378855-04:00",
+  "generated_at": "2026-08-19T13:15:04.675545-04:00",
   "summary": {
-    "total_pl_dollars": -1750.47,
-    "wins": 27,
-    "losses": 22,
-    "open_count": 4
+    "total_pl_dollars": -1819.81,
+    "wins": 26,
+    "losses": 23,
+    "open_count": 3
   },
   "open_trades": [
     {
@@ -17,23 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.08,
-      "current_price": 5.575,
-      "unrealized_pct": -0.0739202657807308,
-      "unrealized_dollars": -324.81
-    },
-    {
-      "ticker": "CISS",
-      "entry_price": 3.0301,
-      "stop_loss_price": 2.75,
-      "profit_target_price": 4.9,
-      "position_size_dollars": 4.37,
-      "entry_timestamp": "2026-08-19T15:04:13.869097",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 6.68,
-      "current_price": 2.61,
-      "unrealized_pct": -0.13864228903336528,
-      "unrealized_dollars": -0.61
+      "current_price": 5.75,
+      "unrealized_pct": -0.044850498338870365,
+      "unrealized_dollars": -197.08
     },
     {
       "ticker": "TGL",
@@ -45,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.96,
-      "current_price": 2.9,
-      "unrealized_pct": 0.022927689594356242,
-      "unrealized_dollars": 0.1
+      "current_price": 3.0,
+      "unrealized_pct": 0.05820105820105821,
+      "unrealized_dollars": 0.25
     },
     {
       "ticker": "TGL",
@@ -59,12 +45,23 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.96,
-      "current_price": 2.9,
-      "unrealized_pct": 0.022927689594356242,
-      "unrealized_dollars": 99.8
+      "current_price": 3.0,
+      "unrealized_pct": 0.05820105820105821,
+      "unrealized_dollars": 253.33
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "CISS",
+      "entry_price": 3.0301,
+      "exit_price": 2.61,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.61,
+      "pl_percent": -0.138642,
+      "exit_timestamp": "2026-08-19T17:00:03.695087",
+      "setup_quality": "B",
+      "position_size_dollars": 4.37
+    },
     {
       "ticker": "VRAX",
       "entry_price": 3.3324,
@@ -603,17 +600,6 @@
       "exit_timestamp": "2026-08-10T19:46:07.451376",
       "setup_quality": "B",
       "position_size_dollars": 4.47
-    },
-    {
-      "ticker": "VATE",
-      "entry_price": 6.885,
-      "exit_price": 6.99,
-      "exit_reason": "eod_close",
-      "pl_dollars": 68.73,
-      "pl_percent": 0.015251,
-      "exit_timestamp": "2026-08-10T19:45:56.737460",
-      "setup_quality": "B",
-      "position_size_dollars": 4506.85
     }
   ]
 }
