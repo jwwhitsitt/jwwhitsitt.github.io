@@ -1,12 +1,69 @@
 {
-  "generated_at": "2026-08-19T09:30:03.712390-04:00",
+  "generated_at": "2026-08-19T09:45:04.769918-04:00",
   "summary": {
     "total_pl_dollars": -1322.29,
     "wins": 28,
     "losses": 21,
-    "open_count": 0
+    "open_count": 4
   },
-  "open_trades": [],
+  "open_trades": [
+    {
+      "ticker": "TGL",
+      "entry_price": 2.835,
+      "stop_loss_price": 2.54,
+      "profit_target_price": 3.54,
+      "position_size_dollars": 4.3,
+      "entry_timestamp": "2026-08-19T13:34:38.400993",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.96,
+      "current_price": 2.8,
+      "unrealized_pct": -0.012345679012345729,
+      "unrealized_dollars": -0.05
+    },
+    {
+      "ticker": "TGL",
+      "entry_price": 2.835,
+      "stop_loss_price": 2.54,
+      "profit_target_price": 3.54,
+      "position_size_dollars": 4352.72,
+      "entry_timestamp": "2026-08-19T13:34:27.775566",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.96,
+      "current_price": 2.8,
+      "unrealized_pct": -0.012345679012345729,
+      "unrealized_dollars": -53.74
+    },
+    {
+      "ticker": "BIVI",
+      "entry_price": 1.195,
+      "stop_loss_price": 1.18,
+      "profit_target_price": 1.32,
+      "position_size_dollars": 4.29,
+      "entry_timestamp": "2026-08-19T13:34:17.225397",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 8.33,
+      "current_price": 1.2398,
+      "unrealized_pct": 0.03748953974895393,
+      "unrealized_dollars": 0.16
+    },
+    {
+      "ticker": "BIVI",
+      "entry_price": 1.195,
+      "stop_loss_price": 1.18,
+      "profit_target_price": 1.32,
+      "position_size_dollars": 4352.72,
+      "entry_timestamp": "2026-08-19T13:34:06.673739",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 8.33,
+      "current_price": 1.2398,
+      "unrealized_pct": 0.03748953974895393,
+      "unrealized_dollars": 163.18
+    }
+  ],
   "closed_trades": [
     {
       "ticker": "XOS",
