@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T14:45:04.666577-04:00",
+  "generated_at": "2026-08-20T15:00:05.461788-04:00",
   "summary": {
     "total_pl_dollars": -3259.39,
     "wins": 23,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.54,
-      "current_price": 1.3199,
-      "unrealized_pct": -0.043481411696499626,
-      "unrealized_dollars": -0.18
+      "current_price": 1.34,
+      "unrealized_pct": -0.028915138778172207,
+      "unrealized_dollars": -0.12
     },
     {
       "ticker": "PWCM",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.54,
-      "current_price": 1.3199,
-      "unrealized_pct": -0.043481411696499626,
-      "unrealized_dollars": -186.53
+      "current_price": 1.34,
+      "unrealized_pct": -0.028915138778172207,
+      "unrealized_dollars": -124.04
     },
     {
       "ticker": "HUIZ",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.25,
-      "current_price": 1.94,
-      "unrealized_pct": 0.0025839793281653197,
-      "unrealized_dollars": 0.01
+      "current_price": 1.9198,
+      "unrealized_pct": -0.007855297157622792,
+      "unrealized_dollars": -0.03
     },
     {
       "ticker": "HUIZ",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.25,
-      "current_price": 1.94,
-      "unrealized_pct": 0.0025839793281653197,
-      "unrealized_dollars": 11.05
+      "current_price": 1.9198,
+      "unrealized_pct": -0.007855297157622792,
+      "unrealized_dollars": -33.6
     }
   ],
   "closed_trades": [
