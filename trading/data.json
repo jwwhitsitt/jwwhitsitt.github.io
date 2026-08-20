@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T09:45:04.920346-04:00",
+  "generated_at": "2026-08-20T10:00:04.802656-04:00",
   "summary": {
     "total_pl_dollars": -2450.79,
     "wins": 25,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.11,
-      "current_price": 1.375,
-      "unrealized_pct": -0.007220216606498201,
-      "unrealized_dollars": -0.03
+      "current_price": 1.23,
+      "unrealized_pct": -0.11191335740072204,
+      "unrealized_dollars": -0.47
     },
     {
       "ticker": "BTCT",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.11,
-      "current_price": 1.375,
-      "unrealized_pct": -0.007220216606498201,
-      "unrealized_dollars": -31.06
+      "current_price": 1.23,
+      "unrealized_pct": -0.11191335740072204,
+      "unrealized_dollars": -481.47
     }
   ],
   "closed_trades": [
