@@ -1,12 +1,41 @@
 {
-  "generated_at": "2026-08-20T11:00:03.855974-04:00",
+  "generated_at": "2026-08-20T11:15:04.521999-04:00",
   "summary": {
     "total_pl_dollars": -3259.39,
     "wins": 23,
     "losses": 26,
-    "open_count": 0
+    "open_count": 2
   },
-  "open_trades": [],
+  "open_trades": [
+    {
+      "ticker": "HUIZ",
+      "entry_price": 1.935,
+      "stop_loss_price": 1.64,
+      "profit_target_price": 3.19,
+      "position_size_dollars": 4.19,
+      "entry_timestamp": "2026-08-20T15:03:19.085337",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 4.25,
+      "current_price": 2.0117,
+      "unrealized_pct": 0.03963824289405673,
+      "unrealized_dollars": 0.17
+    },
+    {
+      "ticker": "HUIZ",
+      "entry_price": 1.935,
+      "stop_loss_price": 1.64,
+      "profit_target_price": 3.19,
+      "position_size_dollars": 4277.71,
+      "entry_timestamp": "2026-08-20T15:03:08.203676",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 4.25,
+      "current_price": 2.0117,
+      "unrealized_pct": 0.03963824289405673,
+      "unrealized_dollars": 169.56
+    }
+  ],
   "closed_trades": [
     {
       "ticker": "BTCT",
