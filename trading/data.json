@@ -1,12 +1,41 @@
 {
-  "generated_at": "2026-08-20T09:30:03.530597-04:00",
+  "generated_at": "2026-08-20T09:45:04.920346-04:00",
   "summary": {
     "total_pl_dollars": -2450.79,
     "wins": 25,
     "losses": 24,
-    "open_count": 0
+    "open_count": 2
   },
-  "open_trades": [],
+  "open_trades": [
+    {
+      "ticker": "BTCT",
+      "entry_price": 1.385,
+      "stop_loss_price": 1.34,
+      "profit_target_price": 1.57,
+      "position_size_dollars": 4.23,
+      "entry_timestamp": "2026-08-20T13:34:27.470777",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 4.11,
+      "current_price": 1.375,
+      "unrealized_pct": -0.007220216606498201,
+      "unrealized_dollars": -0.03
+    },
+    {
+      "ticker": "BTCT",
+      "entry_price": 1.385,
+      "stop_loss_price": 1.34,
+      "profit_target_price": 1.57,
+      "position_size_dollars": 4302.15,
+      "entry_timestamp": "2026-08-20T13:34:16.566316",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 4.11,
+      "current_price": 1.375,
+      "unrealized_pct": -0.007220216606498201,
+      "unrealized_dollars": -31.06
+    }
+  ],
   "closed_trades": [
     {
       "ticker": "SKK",
