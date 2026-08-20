@@ -1,42 +1,35 @@
 {
-  "generated_at": "2026-08-20T10:00:04.802656-04:00",
+  "generated_at": "2026-08-20T10:15:03.355903-04:00",
   "summary": {
-    "total_pl_dollars": -2450.79,
-    "wins": 25,
-    "losses": 24,
-    "open_count": 2
+    "total_pl_dollars": -3259.39,
+    "wins": 23,
+    "losses": 26,
+    "open_count": 0
   },
-  "open_trades": [
+  "open_trades": [],
+  "closed_trades": [
     {
       "ticker": "BTCT",
       "entry_price": 1.385,
-      "stop_loss_price": 1.34,
-      "profit_target_price": 1.57,
-      "position_size_dollars": 4.23,
-      "entry_timestamp": "2026-08-20T13:34:27.470777",
+      "exit_price": 1.235,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.46,
+      "pl_percent": -0.108303,
+      "exit_timestamp": "2026-08-20T14:00:13.950771",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 4.11,
-      "current_price": 1.23,
-      "unrealized_pct": -0.11191335740072204,
-      "unrealized_dollars": -0.47
+      "position_size_dollars": 4.23
     },
     {
       "ticker": "BTCT",
       "entry_price": 1.385,
-      "stop_loss_price": 1.34,
-      "profit_target_price": 1.57,
-      "position_size_dollars": 4302.15,
-      "entry_timestamp": "2026-08-20T13:34:16.566316",
+      "exit_price": 1.2203,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -511.6,
+      "pl_percent": -0.118917,
+      "exit_timestamp": "2026-08-20T14:00:03.122998",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 4.11,
-      "current_price": 1.23,
-      "unrealized_pct": -0.11191335740072204,
-      "unrealized_dollars": -481.47
-    }
-  ],
-  "closed_trades": [
+      "position_size_dollars": 4302.15
+    },
     {
       "ticker": "SKK",
       "entry_price": 6.02,
@@ -564,28 +557,6 @@
       "exit_timestamp": "2026-08-11T19:45:05.343691",
       "setup_quality": "B",
       "position_size_dollars": 4534.51
-    },
-    {
-      "ticker": "GENK",
-      "entry_price": 1.999,
-      "exit_price": 2.1208,
-      "exit_reason": "target_hit",
-      "pl_dollars": 0.27,
-      "pl_percent": 0.06093,
-      "exit_timestamp": "2026-08-11T17:45:14.343276",
-      "setup_quality": "B",
-      "position_size_dollars": 4.5
-    },
-    {
-      "ticker": "GENK",
-      "entry_price": 1.999,
-      "exit_price": 2.13,
-      "exit_reason": "target_hit",
-      "pl_dollars": 296.27,
-      "pl_percent": 0.065533,
-      "exit_timestamp": "2026-08-11T17:45:03.580415",
-      "setup_quality": "B",
-      "position_size_dollars": 4520.88
     }
   ]
 }
