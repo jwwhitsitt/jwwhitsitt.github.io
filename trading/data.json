@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T14:00:04.674552-04:00",
+  "generated_at": "2026-08-20T14:15:03.992206-04:00",
   "summary": {
     "total_pl_dollars": -3259.39,
     "wins": 23,
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.25,
-      "current_price": 2.0001,
-      "unrealized_pct": 0.03364341085271326,
-      "unrealized_dollars": 0.14
+      "current_price": 1.98,
+      "unrealized_pct": 0.023255813953488334,
+      "unrealized_dollars": 0.1
     },
     {
       "ticker": "HUIZ",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.25,
-      "current_price": 2.0001,
-      "unrealized_pct": 0.03364341085271326,
-      "unrealized_dollars": 143.92
+      "current_price": 1.98,
+      "unrealized_pct": 0.023255813953488334,
+      "unrealized_dollars": 99.48
     }
   ],
   "closed_trades": [
