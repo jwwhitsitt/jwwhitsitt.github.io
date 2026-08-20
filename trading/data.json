@@ -1,84 +1,68 @@
 {
-  "generated_at": "2026-08-20T15:45:04.894772-04:00",
+  "generated_at": "2026-08-20T16:00:04.016533-04:00",
   "summary": {
-    "total_pl_dollars": -3259.39,
-    "wins": 23,
-    "losses": 26,
-    "open_count": 5
+    "total_pl_dollars": -2252.03,
+    "wins": 25,
+    "losses": 24,
+    "open_count": 0
   },
-  "open_trades": [
+  "open_trades": [],
+  "closed_trades": [
     {
       "ticker": "BOSC",
       "entry_price": 4.62,
-      "stop_loss_price": 4.56,
-      "profit_target_price": 5.05,
-      "position_size_dollars": 4271.64,
-      "entry_timestamp": "2026-08-20T19:02:19.174089",
+      "exit_price": 4.7,
+      "exit_reason": "eod_close",
+      "pl_dollars": 73.97,
+      "pl_percent": 0.017316,
+      "exit_timestamp": "2026-08-20T19:45:46.364325",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 7.17,
-      "current_price": 4.7,
-      "unrealized_pct": 0.01731601731601733,
-      "unrealized_dollars": 73.97
+      "position_size_dollars": 4271.64
     },
     {
       "ticker": "PWCM",
       "entry_price": 1.3799,
-      "stop_loss_price": 1.25,
-      "profit_target_price": 1.84,
-      "position_size_dollars": 4.22,
-      "entry_timestamp": "2026-08-20T17:02:23.197260",
+      "exit_price": 1.335,
+      "exit_reason": "eod_close",
+      "pl_dollars": -0.14,
+      "pl_percent": -0.032539,
+      "exit_timestamp": "2026-08-20T19:45:35.725397",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 3.54,
-      "current_price": 1.33,
-      "unrealized_pct": -0.036162040727588836,
-      "unrealized_dollars": -0.15
+      "position_size_dollars": 4.22
     },
     {
       "ticker": "PWCM",
       "entry_price": 1.3799,
-      "stop_loss_price": 1.25,
-      "profit_target_price": 1.84,
-      "position_size_dollars": 4289.9,
-      "entry_timestamp": "2026-08-20T17:02:12.371080",
+      "exit_price": 1.33,
+      "exit_reason": "eod_close",
+      "pl_dollars": -155.13,
+      "pl_percent": -0.036162,
+      "exit_timestamp": "2026-08-20T19:45:25.141328",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 3.54,
-      "current_price": 1.33,
-      "unrealized_pct": -0.036162040727588836,
-      "unrealized_dollars": -155.13
+      "position_size_dollars": 4289.9
     },
     {
       "ticker": "HUIZ",
       "entry_price": 1.935,
-      "stop_loss_price": 1.64,
-      "profit_target_price": 3.19,
-      "position_size_dollars": 4.19,
-      "entry_timestamp": "2026-08-20T15:03:19.085337",
+      "exit_price": 1.96,
+      "exit_reason": "eod_close",
+      "pl_dollars": 0.05,
+      "pl_percent": 0.01292,
+      "exit_timestamp": "2026-08-20T19:45:14.463338",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 4.25,
-      "current_price": 1.96,
-      "unrealized_pct": 0.012919896640826828,
-      "unrealized_dollars": 0.05
+      "position_size_dollars": 4.19
     },
     {
       "ticker": "HUIZ",
       "entry_price": 1.935,
-      "stop_loss_price": 1.64,
-      "profit_target_price": 3.19,
-      "position_size_dollars": 4277.71,
-      "entry_timestamp": "2026-08-20T15:03:08.203676",
+      "exit_price": 1.9586,
+      "exit_reason": "eod_close",
+      "pl_dollars": 52.17,
+      "pl_percent": 0.012196,
+      "exit_timestamp": "2026-08-20T19:45:03.734467",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 4.25,
-      "current_price": 1.96,
-      "unrealized_pct": 0.012919896640826828,
-      "unrealized_dollars": 55.27
-    }
-  ],
-  "closed_trades": [
+      "position_size_dollars": 4277.71
+    },
     {
       "ticker": "BTCT",
       "entry_price": 1.385,
@@ -573,61 +557,6 @@
       "exit_timestamp": "2026-08-13T14:00:03.072292",
       "setup_quality": "B",
       "position_size_dollars": 4472.6
-    },
-    {
-      "ticker": "BIVI",
-      "entry_price": 1.7401,
-      "exit_price": 1.4712,
-      "exit_reason": "eod_close",
-      "pl_dollars": -0.69,
-      "pl_percent": -0.154531,
-      "exit_timestamp": "2026-08-12T19:45:13.364577",
-      "setup_quality": "B",
-      "position_size_dollars": 4.49
-    },
-    {
-      "ticker": "BIVI",
-      "entry_price": 1.7401,
-      "exit_price": 1.485,
-      "exit_reason": "eod_close",
-      "pl_dollars": -661.42,
-      "pl_percent": -0.146601,
-      "exit_timestamp": "2026-08-12T19:45:02.711136",
-      "setup_quality": "B",
-      "position_size_dollars": 4511.71
-    },
-    {
-      "ticker": "NTHI",
-      "entry_price": 4.055,
-      "exit_price": 3.7085,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -0.39,
-      "pl_percent": -0.08545,
-      "exit_timestamp": "2026-08-12T16:00:13.606453",
-      "setup_quality": "B",
-      "position_size_dollars": 4.52
-    },
-    {
-      "ticker": "NTHI",
-      "entry_price": 4.055,
-      "exit_price": 3.7085,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -386.88,
-      "pl_percent": -0.08545,
-      "exit_timestamp": "2026-08-12T16:00:02.918381",
-      "setup_quality": "B",
-      "position_size_dollars": 4527.56
-    },
-    {
-      "ticker": "ACCS",
-      "entry_price": 5.25,
-      "exit_price": 5.265,
-      "exit_reason": "eod_close",
-      "pl_dollars": 12.96,
-      "pl_percent": 0.002857,
-      "exit_timestamp": "2026-08-11T19:45:05.343691",
-      "setup_quality": "B",
-      "position_size_dollars": 4534.51
     }
   ]
 }
