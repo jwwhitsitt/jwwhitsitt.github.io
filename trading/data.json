@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T15:15:04.840942-04:00",
+  "generated_at": "2026-08-21T15:30:04.629028-04:00",
   "summary": {
     "total_pl_dollars": -2455.62,
     "wins": 24,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.07,
-      "current_price": 1.6,
-      "unrealized_pct": 0.03225806451612906,
-      "unrealized_dollars": 0.14
+      "current_price": 1.5397,
+      "unrealized_pct": -0.006645161290322565,
+      "unrealized_dollars": -0.03
     },
     {
       "ticker": "KWM",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.07,
-      "current_price": 1.6,
-      "unrealized_pct": 0.03225806451612906,
-      "unrealized_dollars": 137.88
+      "current_price": 1.5397,
+      "unrealized_pct": -0.006645161290322565,
+      "unrealized_dollars": -28.4
     },
     {
       "ticker": "BTOG",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.84,
-      "current_price": 3.58,
-      "unrealized_pct": 0.004207573632538604,
-      "unrealized_dollars": 0.02
+      "current_price": 3.605,
+      "unrealized_pct": 0.011220196353436195,
+      "unrealized_dollars": 0.05
     },
     {
       "ticker": "BTOG",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.84,
-      "current_price": 3.58,
-      "unrealized_pct": 0.004207573632538604,
-      "unrealized_dollars": 17.99
+      "current_price": 3.605,
+      "unrealized_pct": 0.011220196353436195,
+      "unrealized_dollars": 47.98
     },
     {
       "ticker": "PMI",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.14,
-      "current_price": 3.3055,
-      "unrealized_pct": 0.17537247093126618,
-      "unrealized_dollars": 0.73
+      "current_price": 3.32,
+      "unrealized_pct": 0.18052839313017807,
+      "unrealized_dollars": 0.75
     },
     {
       "ticker": "PMI",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.14,
-      "current_price": 3.3055,
-      "unrealized_pct": 0.17537247093126618,
-      "unrealized_dollars": 748.91
+      "current_price": 3.32,
+      "unrealized_pct": 0.18052839313017807,
+      "unrealized_dollars": 770.93
     }
   ],
   "closed_trades": [
