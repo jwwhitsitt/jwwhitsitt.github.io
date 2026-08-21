@@ -1,26 +1,12 @@
 {
-  "generated_at": "2026-08-21T12:30:04.451175-04:00",
+  "generated_at": "2026-08-21T12:45:03.715233-04:00",
   "summary": {
-    "total_pl_dollars": -1719.49,
-    "wins": 25,
-    "losses": 24,
-    "open_count": 3
+    "total_pl_dollars": -2455.62,
+    "wins": 24,
+    "losses": 25,
+    "open_count": 2
   },
   "open_trades": [
-    {
-      "ticker": "JUNS",
-      "entry_price": 8.655,
-      "stop_loss_price": 7.66,
-      "profit_target_price": 11.2,
-      "position_size_dollars": 4302.38,
-      "entry_timestamp": "2026-08-21T15:03:08.249604",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 2.56,
-      "current_price": 7.42,
-      "unrealized_pct": -0.1426920854997111,
-      "unrealized_dollars": -613.92
-    },
     {
       "ticker": "PMI",
       "entry_price": 2.8123,
@@ -31,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.14,
-      "current_price": 3.26,
-      "unrealized_pct": 0.15919354265192184,
-      "unrealized_dollars": 0.67
+      "current_price": 3.2347,
+      "unrealized_pct": 0.15019734736692392,
+      "unrealized_dollars": 0.63
     },
     {
       "ticker": "PMI",
@@ -45,12 +31,23 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.14,
-      "current_price": 3.26,
-      "unrealized_pct": 0.15919354265192184,
-      "unrealized_dollars": 679.82
+      "current_price": 3.2347,
+      "unrealized_pct": 0.15019734736692392,
+      "unrealized_dollars": 641.4
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "JUNS",
+      "entry_price": 8.655,
+      "exit_price": 7.42,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -613.92,
+      "pl_percent": -0.142692,
+      "exit_timestamp": "2026-08-21T16:30:03.841198",
+      "setup_quality": "B",
+      "position_size_dollars": 4302.38
+    },
     {
       "ticker": "SUGP",
       "entry_price": 3.2303,
@@ -589,17 +586,6 @@
       "exit_timestamp": "2026-08-13T19:45:14.422869",
       "setup_quality": "B",
       "position_size_dollars": 4.37
-    },
-    {
-      "ticker": "DFSC",
-      "entry_price": 2.219,
-      "exit_price": 2.2801,
-      "exit_reason": "eod_close",
-      "pl_dollars": 122.22,
-      "pl_percent": 0.027535,
-      "exit_timestamp": "2026-08-13T19:45:03.755786",
-      "setup_quality": "B",
-      "position_size_dollars": 4438.71
     }
   ]
 }
