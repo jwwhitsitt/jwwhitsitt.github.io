@@ -1,12 +1,41 @@
 {
-  "generated_at": "2026-08-21T09:30:03.518207-04:00",
+  "generated_at": "2026-08-21T09:45:05.321835-04:00",
   "summary": {
     "total_pl_dollars": -2252.03,
     "wins": 25,
     "losses": 24,
-    "open_count": 0
+    "open_count": 2
   },
-  "open_trades": [],
+  "open_trades": [
+    {
+      "ticker": "PMI",
+      "entry_price": 2.8123,
+      "stop_loss_price": 2.45,
+      "profit_target_price": 3.85,
+      "position_size_dollars": 4.18,
+      "entry_timestamp": "2026-08-21T13:33:59.160437",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.14,
+      "current_price": 2.93,
+      "unrealized_pct": 0.04185186502151269,
+      "unrealized_dollars": 0.17
+    },
+    {
+      "ticker": "PMI",
+      "entry_price": 2.8123,
+      "stop_loss_price": 2.45,
+      "profit_target_price": 3.85,
+      "position_size_dollars": 4270.41,
+      "entry_timestamp": "2026-08-21T13:33:48.375467",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.14,
+      "current_price": 2.93,
+      "unrealized_pct": 0.04185186502151269,
+      "unrealized_dollars": 178.72
+    }
+  ],
   "closed_trades": [
     {
       "ticker": "BOSC",
