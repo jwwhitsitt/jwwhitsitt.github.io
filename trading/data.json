@@ -1,98 +1,79 @@
 {
-  "generated_at": "2026-08-21T15:45:04.356217-04:00",
+  "generated_at": "2026-08-21T16:00:03.045755-04:00",
   "summary": {
-    "total_pl_dollars": -2455.62,
-    "wins": 24,
-    "losses": 25,
-    "open_count": 6
+    "total_pl_dollars": -1310.14,
+    "wins": 27,
+    "losses": 22,
+    "open_count": 0
   },
-  "open_trades": [
-    {
-      "ticker": "KWM",
-      "entry_price": 1.55,
-      "stop_loss_price": 1.5113,
-      "profit_target_price": 1.63,
-      "position_size_dollars": 4.23,
-      "entry_timestamp": "2026-08-21T19:02:50.000676",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 2.07,
-      "current_price": 1.5999,
-      "unrealized_pct": 0.03219354838709681,
-      "unrealized_dollars": 0.14
-    },
-    {
-      "ticker": "KWM",
-      "entry_price": 1.55,
-      "stop_loss_price": 1.5113,
-      "profit_target_price": 1.63,
-      "position_size_dollars": 4274.39,
-      "entry_timestamp": "2026-08-21T19:02:39.436753",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 2.07,
-      "current_price": 1.5999,
-      "unrealized_pct": 0.03219354838709681,
-      "unrealized_dollars": 137.61
-    },
-    {
-      "ticker": "BTOG",
-      "entry_price": 3.565,
-      "stop_loss_price": 3.3501,
-      "profit_target_price": 4.39,
-      "position_size_dollars": 4.23,
-      "entry_timestamp": "2026-08-21T19:02:28.883918",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 3.84,
-      "current_price": 3.69,
-      "unrealized_pct": 0.03506311360448808,
-      "unrealized_dollars": 0.15
-    },
-    {
-      "ticker": "BTOG",
-      "entry_price": 3.565,
-      "stop_loss_price": 3.3501,
-      "profit_target_price": 4.39,
-      "position_size_dollars": 4276.21,
-      "entry_timestamp": "2026-08-21T19:02:17.964955",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 3.84,
-      "current_price": 3.69,
-      "unrealized_pct": 0.03506311360448808,
-      "unrealized_dollars": 149.94
-    },
-    {
-      "ticker": "PMI",
-      "entry_price": 2.8123,
-      "stop_loss_price": 2.45,
-      "profit_target_price": 3.85,
-      "position_size_dollars": 4.18,
-      "entry_timestamp": "2026-08-21T13:33:59.160437",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 1.14,
-      "current_price": 3.2672,
-      "unrealized_pct": 0.16175372470931262,
-      "unrealized_dollars": 0.68
-    },
-    {
-      "ticker": "PMI",
-      "entry_price": 2.8123,
-      "stop_loss_price": 2.45,
-      "profit_target_price": 3.85,
-      "position_size_dollars": 4270.41,
-      "entry_timestamp": "2026-08-21T13:33:48.375467",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 1.14,
-      "current_price": 3.2672,
-      "unrealized_pct": 0.16175372470931262,
-      "unrealized_dollars": 690.75
-    }
-  ],
+  "open_trades": [],
   "closed_trades": [
+    {
+      "ticker": "KWM",
+      "entry_price": 1.55,
+      "exit_price": 1.5501,
+      "exit_reason": "eod_close",
+      "pl_dollars": 0.0,
+      "pl_percent": 6.5e-05,
+      "exit_timestamp": "2026-08-21T19:45:55.813746",
+      "setup_quality": "B",
+      "position_size_dollars": 4.23
+    },
+    {
+      "ticker": "KWM",
+      "entry_price": 1.55,
+      "exit_price": 1.5999,
+      "exit_reason": "eod_close",
+      "pl_dollars": 137.61,
+      "pl_percent": 0.032194,
+      "exit_timestamp": "2026-08-21T19:45:45.367226",
+      "setup_quality": "B",
+      "position_size_dollars": 4274.39
+    },
+    {
+      "ticker": "BTOG",
+      "entry_price": 3.565,
+      "exit_price": 3.665,
+      "exit_reason": "eod_close",
+      "pl_dollars": 0.12,
+      "pl_percent": 0.02805,
+      "exit_timestamp": "2026-08-21T19:45:34.833649",
+      "setup_quality": "B",
+      "position_size_dollars": 4.23
+    },
+    {
+      "ticker": "BTOG",
+      "entry_price": 3.565,
+      "exit_price": 3.665,
+      "exit_reason": "eod_close",
+      "pl_dollars": 119.95,
+      "pl_percent": 0.02805,
+      "exit_timestamp": "2026-08-21T19:45:24.359290",
+      "setup_quality": "B",
+      "position_size_dollars": 4276.21
+    },
+    {
+      "ticker": "PMI",
+      "entry_price": 2.8123,
+      "exit_price": 3.2662,
+      "exit_reason": "eod_close",
+      "pl_dollars": 0.67,
+      "pl_percent": 0.161398,
+      "exit_timestamp": "2026-08-21T19:45:13.648507",
+      "setup_quality": "B",
+      "position_size_dollars": 4.18
+    },
+    {
+      "ticker": "PMI",
+      "entry_price": 2.8123,
+      "exit_price": 3.2672,
+      "exit_reason": "eod_close",
+      "pl_dollars": 690.75,
+      "pl_percent": 0.161754,
+      "exit_timestamp": "2026-08-21T19:45:02.962342",
+      "setup_quality": "B",
+      "position_size_dollars": 4270.41
+    },
     {
       "ticker": "JUNS",
       "entry_price": 8.655,
@@ -576,72 +557,6 @@
       "exit_timestamp": "2026-08-14T17:15:14.431407",
       "setup_quality": "B",
       "position_size_dollars": 4.36
-    },
-    {
-      "ticker": "MYSZ",
-      "entry_price": 3.03,
-      "exit_price": 2.9001,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -189.88,
-      "pl_percent": -0.042871,
-      "exit_timestamp": "2026-08-14T17:15:03.724854",
-      "setup_quality": "B",
-      "position_size_dollars": 4428.99
-    },
-    {
-      "ticker": "CRWS",
-      "entry_price": 2.64,
-      "exit_price": 2.67,
-      "exit_reason": "eod_close",
-      "pl_dollars": 0.05,
-      "pl_percent": 0.011364,
-      "exit_timestamp": "2026-08-13T19:45:56.565164",
-      "setup_quality": "B",
-      "position_size_dollars": 4.38
-    },
-    {
-      "ticker": "CRWS",
-      "entry_price": 2.64,
-      "exit_price": 2.67,
-      "exit_reason": "eod_close",
-      "pl_dollars": 50.61,
-      "pl_percent": 0.011364,
-      "exit_timestamp": "2026-08-13T19:45:46.121364",
-      "setup_quality": "B",
-      "position_size_dollars": 4453.63
-    },
-    {
-      "ticker": "BCG",
-      "entry_price": 1.55,
-      "exit_price": 1.5301,
-      "exit_reason": "eod_close",
-      "pl_dollars": -0.06,
-      "pl_percent": -0.012839,
-      "exit_timestamp": "2026-08-13T19:45:35.582878",
-      "setup_quality": "B",
-      "position_size_dollars": 4.38
-    },
-    {
-      "ticker": "BCG",
-      "entry_price": 1.55,
-      "exit_price": 1.5301,
-      "exit_reason": "eod_close",
-      "pl_dollars": -57.21,
-      "pl_percent": -0.012839,
-      "exit_timestamp": "2026-08-13T19:45:25.102038",
-      "setup_quality": "B",
-      "position_size_dollars": 4456.34
-    },
-    {
-      "ticker": "DFSC",
-      "entry_price": 2.219,
-      "exit_price": 2.275,
-      "exit_reason": "eod_close",
-      "pl_dollars": 0.11,
-      "pl_percent": 0.025237,
-      "exit_timestamp": "2026-08-13T19:45:14.422869",
-      "setup_quality": "B",
-      "position_size_dollars": 4.37
     }
   ]
 }
