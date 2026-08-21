@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T12:15:03.845213-04:00",
+  "generated_at": "2026-08-21T12:30:04.451175-04:00",
   "summary": {
     "total_pl_dollars": -1719.49,
     "wins": 25,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.56,
-      "current_price": 8.245,
-      "unrealized_pct": -0.04737146158290008,
-      "unrealized_dollars": -203.81
+      "current_price": 7.42,
+      "unrealized_pct": -0.1426920854997111,
+      "unrealized_dollars": -613.92
     },
     {
       "ticker": "PMI",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.14,
-      "current_price": 3.1454,
-      "unrealized_pct": 0.1184439782384525,
-      "unrealized_dollars": 0.5
+      "current_price": 3.26,
+      "unrealized_pct": 0.15919354265192184,
+      "unrealized_dollars": 0.67
     },
     {
       "ticker": "PMI",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.14,
-      "current_price": 3.1454,
-      "unrealized_pct": 0.1184439782384525,
-      "unrealized_dollars": 505.8
+      "current_price": 3.26,
+      "unrealized_pct": 0.15919354265192184,
+      "unrealized_dollars": 679.82
     }
   ],
   "closed_trades": [
