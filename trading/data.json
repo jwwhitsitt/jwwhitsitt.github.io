@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-21T11:15:05.079350-04:00",
+  "generated_at": "2026-08-21T11:30:04.176602-04:00",
   "summary": {
-    "total_pl_dollars": -2252.03,
+    "total_pl_dollars": -1719.49,
     "wins": 25,
     "losses": 24,
-    "open_count": 5
+    "open_count": 3
   },
   "open_trades": [
     {
@@ -17,37 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.56,
-      "current_price": 8.5301,
-      "unrealized_pct": -0.014430964760254216,
-      "unrealized_dollars": -62.09
-    },
-    {
-      "ticker": "SUGP",
-      "entry_price": 3.2303,
-      "stop_loss_price": 3.1,
-      "profit_target_price": 4.24,
-      "position_size_dollars": 4.22,
-      "entry_timestamp": "2026-08-21T15:02:57.667038",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 7.75,
-      "current_price": 3.06,
-      "unrealized_pct": -0.05271956165062072,
-      "unrealized_dollars": -0.22
-    },
-    {
-      "ticker": "SUGP",
-      "entry_price": 3.2303,
-      "stop_loss_price": 3.1,
-      "profit_target_price": 4.24,
-      "position_size_dollars": 4303.5,
-      "entry_timestamp": "2026-08-21T15:02:46.886780",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 7.75,
-      "current_price": 3.06,
-      "unrealized_pct": -0.05271956165062072,
-      "unrealized_dollars": -226.88
+      "current_price": 8.4629,
+      "unrealized_pct": -0.022195262853841706,
+      "unrealized_dollars": -95.49
     },
     {
       "ticker": "PMI",
@@ -59,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.14,
-      "current_price": 3.1724,
-      "unrealized_pct": 0.12804466095366784,
-      "unrealized_dollars": 0.54
+      "current_price": 3.275,
+      "unrealized_pct": 0.16452725527148593,
+      "unrealized_dollars": 0.69
     },
     {
       "ticker": "PMI",
@@ -73,12 +45,34 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.14,
-      "current_price": 3.1724,
-      "unrealized_pct": 0.12804466095366784,
-      "unrealized_dollars": 546.8
+      "current_price": 3.275,
+      "unrealized_pct": 0.16452725527148593,
+      "unrealized_dollars": 702.6
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "SUGP",
+      "entry_price": 3.2303,
+      "exit_price": 3.0699,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.21,
+      "pl_percent": -0.049655,
+      "exit_timestamp": "2026-08-21T15:15:14.398155",
+      "setup_quality": "B",
+      "position_size_dollars": 4.22
+    },
+    {
+      "ticker": "SUGP",
+      "entry_price": 3.2303,
+      "exit_price": 3.06,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -226.88,
+      "pl_percent": -0.05272,
+      "exit_timestamp": "2026-08-21T15:15:03.666675",
+      "setup_quality": "B",
+      "position_size_dollars": 4303.5
+    },
     {
       "ticker": "BOSC",
       "entry_price": 4.62,
@@ -606,28 +600,6 @@
       "exit_timestamp": "2026-08-13T19:45:03.755786",
       "setup_quality": "B",
       "position_size_dollars": 4438.71
-    },
-    {
-      "ticker": "FRGT",
-      "entry_price": 2.77,
-      "exit_price": 2.3,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -0.75,
-      "pl_percent": -0.169675,
-      "exit_timestamp": "2026-08-13T14:00:14.029227",
-      "setup_quality": "B",
-      "position_size_dollars": 4.41
-    },
-    {
-      "ticker": "FRGT",
-      "entry_price": 2.77,
-      "exit_price": 2.3,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -758.89,
-      "pl_percent": -0.169675,
-      "exit_timestamp": "2026-08-13T14:00:03.072292",
-      "setup_quality": "B",
-      "position_size_dollars": 4472.6
     }
   ]
 }
