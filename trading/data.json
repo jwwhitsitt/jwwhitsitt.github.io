@@ -1,12 +1,26 @@
 {
-  "generated_at": "2026-08-24T13:00:04.722243-04:00",
+  "generated_at": "2026-08-24T13:15:04.534350-04:00",
   "summary": {
     "total_pl_dollars": 464.6,
     "wins": 27,
     "losses": 22,
-    "open_count": 3
+    "open_count": 4
   },
   "open_trades": [
+    {
+      "ticker": "XPON",
+      "entry_price": 7.23,
+      "stop_loss_price": 6.31,
+      "profit_target_price": 9.25,
+      "position_size_dollars": 4363.94,
+      "entry_timestamp": "2026-08-24T17:02:00.264493",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 2.2,
+      "current_price": 6.68,
+      "unrealized_pct": -0.07607192254495168,
+      "unrealized_dollars": -331.97
+    },
     {
       "ticker": "OLOX",
       "entry_price": 2.12,
@@ -17,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.43,
-      "current_price": 2.2301,
-      "unrealized_pct": 0.05193396226415098,
-      "unrealized_dollars": 0.22
+      "current_price": 2.2599,
+      "unrealized_pct": 0.0659905660377358,
+      "unrealized_dollars": 0.29
     },
     {
       "ticker": "OLOX",
@@ -31,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.43,
-      "current_price": 2.2301,
-      "unrealized_pct": 0.05193396226415098,
-      "unrealized_dollars": 225.51
+      "current_price": 2.2599,
+      "unrealized_pct": 0.0659905660377358,
+      "unrealized_dollars": 286.55
     },
     {
       "ticker": "INCR",
@@ -45,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.95,
-      "current_price": 5.3,
-      "unrealized_pct": 0.05788423153692616,
-      "unrealized_dollars": 251.84
+      "current_price": 5.2277,
+      "unrealized_pct": 0.04345309381237521,
+      "unrealized_dollars": 189.05
     }
   ],
   "closed_trades": [
