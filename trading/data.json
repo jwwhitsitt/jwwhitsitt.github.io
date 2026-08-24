@@ -1,12 +1,69 @@
 {
-  "generated_at": "2026-08-24T09:30:02.767355-04:00",
+  "generated_at": "2026-08-24T09:45:04.956168-04:00",
   "summary": {
     "total_pl_dollars": -1310.14,
     "wins": 27,
     "losses": 22,
-    "open_count": 0
+    "open_count": 4
   },
-  "open_trades": [],
+  "open_trades": [
+    {
+      "ticker": "BCTX",
+      "entry_price": 3.74,
+      "stop_loss_price": 3.69,
+      "profit_target_price": 4.04,
+      "position_size_dollars": 4.22,
+      "entry_timestamp": "2026-08-24T13:36:04.548011",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 6.0,
+      "current_price": 3.535,
+      "unrealized_pct": -0.05481283422459895,
+      "unrealized_dollars": -0.23
+    },
+    {
+      "ticker": "BCTX",
+      "entry_price": 3.74,
+      "stop_loss_price": 3.69,
+      "profit_target_price": 4.04,
+      "position_size_dollars": 4267.78,
+      "entry_timestamp": "2026-08-24T13:35:53.961190",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 6.0,
+      "current_price": 3.535,
+      "unrealized_pct": -0.05481283422459895,
+      "unrealized_dollars": -233.93
+    },
+    {
+      "ticker": "BTCT",
+      "entry_price": 1.575,
+      "stop_loss_price": 1.54,
+      "profit_target_price": 1.66,
+      "position_size_dollars": 4.23,
+      "entry_timestamp": "2026-08-24T13:35:43.126657",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 2.43,
+      "current_price": 1.5403,
+      "unrealized_pct": -0.022031746031746003,
+      "unrealized_dollars": -0.09
+    },
+    {
+      "ticker": "BTCT",
+      "entry_price": 1.575,
+      "stop_loss_price": 1.54,
+      "profit_target_price": 1.66,
+      "position_size_dollars": 4267.78,
+      "entry_timestamp": "2026-08-24T13:35:32.310522",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 2.43,
+      "current_price": 1.5403,
+      "unrealized_pct": -0.022031746031746003,
+      "unrealized_dollars": -94.03
+    }
+  ],
   "closed_trades": [
     {
       "ticker": "KWM",
