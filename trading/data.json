@@ -1,12 +1,40 @@
 {
-  "generated_at": "2026-08-24T15:00:04.542097-04:00",
+  "generated_at": "2026-08-24T15:15:05.931857-04:00",
   "summary": {
     "total_pl_dollars": 464.6,
     "wins": 27,
     "losses": 22,
-    "open_count": 4
+    "open_count": 6
   },
   "open_trades": [
+    {
+      "ticker": "BCAB",
+      "entry_price": 3.34,
+      "stop_loss_price": 3.1001,
+      "profit_target_price": 4.0,
+      "position_size_dollars": 4.33,
+      "entry_timestamp": "2026-08-24T19:01:53.050892",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 2.75,
+      "current_price": 3.3351,
+      "unrealized_pct": -0.0014670658682633781,
+      "unrealized_dollars": -0.01
+    },
+    {
+      "ticker": "BCAB",
+      "entry_price": 3.34,
+      "stop_loss_price": 3.1001,
+      "profit_target_price": 4.0,
+      "position_size_dollars": 4356.15,
+      "entry_timestamp": "2026-08-24T19:01:42.501455",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 2.75,
+      "current_price": 3.3351,
+      "unrealized_pct": -0.0014670658682633781,
+      "unrealized_dollars": -6.39
+    },
     {
       "ticker": "XPON",
       "entry_price": 7.23,
@@ -17,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.2,
-      "current_price": 7.2722,
-      "unrealized_pct": 0.005836791147994377,
-      "unrealized_dollars": 25.47
+      "current_price": 7.115,
+      "unrealized_pct": -0.01590594744121718,
+      "unrealized_dollars": -69.41
     },
     {
       "ticker": "OLOX",
@@ -31,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.43,
-      "current_price": 2.1301,
-      "unrealized_pct": 0.004764150943396225,
-      "unrealized_dollars": 0.02
+      "current_price": 2.12,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
     },
     {
       "ticker": "OLOX",
@@ -45,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.43,
-      "current_price": 2.1301,
-      "unrealized_pct": 0.004764150943396225,
-      "unrealized_dollars": 20.69
+      "current_price": 2.12,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
     },
     {
       "ticker": "INCR",
@@ -59,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.95,
-      "current_price": 5.395,
-      "unrealized_pct": 0.0768463073852295,
-      "unrealized_dollars": 334.33
+      "current_price": 5.26,
+      "unrealized_pct": 0.0499001996007984,
+      "unrealized_dollars": 217.1
     }
   ],
   "closed_trades": [
