@@ -1,40 +1,12 @@
 {
-  "generated_at": "2026-08-24T09:45:04.956168-04:00",
+  "generated_at": "2026-08-24T10:00:03.989618-04:00",
   "summary": {
-    "total_pl_dollars": -1310.14,
-    "wins": 27,
-    "losses": 22,
-    "open_count": 4
+    "total_pl_dollars": -1818.92,
+    "wins": 26,
+    "losses": 23,
+    "open_count": 2
   },
   "open_trades": [
-    {
-      "ticker": "BCTX",
-      "entry_price": 3.74,
-      "stop_loss_price": 3.69,
-      "profit_target_price": 4.04,
-      "position_size_dollars": 4.22,
-      "entry_timestamp": "2026-08-24T13:36:04.548011",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 6.0,
-      "current_price": 3.535,
-      "unrealized_pct": -0.05481283422459895,
-      "unrealized_dollars": -0.23
-    },
-    {
-      "ticker": "BCTX",
-      "entry_price": 3.74,
-      "stop_loss_price": 3.69,
-      "profit_target_price": 4.04,
-      "position_size_dollars": 4267.78,
-      "entry_timestamp": "2026-08-24T13:35:53.961190",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 6.0,
-      "current_price": 3.535,
-      "unrealized_pct": -0.05481283422459895,
-      "unrealized_dollars": -233.93
-    },
     {
       "ticker": "BTCT",
       "entry_price": 1.575,
@@ -45,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.43,
-      "current_price": 1.5403,
-      "unrealized_pct": -0.022031746031746003,
-      "unrealized_dollars": -0.09
+      "current_price": 1.6011,
+      "unrealized_pct": 0.01657142857142858,
+      "unrealized_dollars": 0.07
     },
     {
       "ticker": "BTCT",
@@ -59,12 +31,34 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.43,
-      "current_price": 1.5403,
-      "unrealized_pct": -0.022031746031746003,
-      "unrealized_dollars": -94.03
+      "current_price": 1.6011,
+      "unrealized_pct": 0.01657142857142858,
+      "unrealized_dollars": 70.72
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "BCTX",
+      "entry_price": 3.74,
+      "exit_price": 3.535,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.23,
+      "pl_percent": -0.054813,
+      "exit_timestamp": "2026-08-24T13:45:14.460802",
+      "setup_quality": "B",
+      "position_size_dollars": 4.22
+    },
+    {
+      "ticker": "BCTX",
+      "entry_price": 3.74,
+      "exit_price": 3.535,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -233.93,
+      "pl_percent": -0.054813,
+      "exit_timestamp": "2026-08-24T13:45:03.719269",
+      "setup_quality": "B",
+      "position_size_dollars": 4267.78
+    },
     {
       "ticker": "KWM",
       "entry_price": 1.55,
@@ -592,28 +586,6 @@
       "exit_timestamp": "2026-08-17T14:15:03.606918",
       "setup_quality": "B",
       "position_size_dollars": 4424.61
-    },
-    {
-      "ticker": "WETO",
-      "entry_price": 7.72,
-      "exit_price": 8.2,
-      "exit_reason": "eod_close",
-      "pl_dollars": 274.81,
-      "pl_percent": 0.062176,
-      "exit_timestamp": "2026-08-14T19:45:09.215801",
-      "setup_quality": "B",
-      "position_size_dollars": 4419.86
-    },
-    {
-      "ticker": "MYSZ",
-      "entry_price": 3.03,
-      "exit_price": 2.9001,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -0.19,
-      "pl_percent": -0.042871,
-      "exit_timestamp": "2026-08-14T17:15:14.431407",
-      "setup_quality": "B",
-      "position_size_dollars": 4.36
     }
   ]
 }
