@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T11:45:03.882275-04:00",
+  "generated_at": "2026-08-24T12:00:04.722618-04:00",
   "summary": {
     "total_pl_dollars": 464.6,
     "wins": 27,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.43,
-      "current_price": 2.16,
-      "unrealized_pct": 0.018867924528301903,
-      "unrealized_dollars": 0.08
+      "current_price": 2.19,
+      "unrealized_pct": 0.033018867924528225,
+      "unrealized_dollars": 0.14
     },
     {
       "ticker": "OLOX",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.43,
-      "current_price": 2.16,
-      "unrealized_pct": 0.018867924528301903,
-      "unrealized_dollars": 81.93
+      "current_price": 2.19,
+      "unrealized_pct": 0.033018867924528225,
+      "unrealized_dollars": 143.38
     },
     {
       "ticker": "INCR",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.95,
-      "current_price": 5.238,
-      "unrealized_pct": 0.04550898203592828,
-      "unrealized_dollars": 198.0
+      "current_price": 5.1964,
+      "unrealized_pct": 0.03720558882235527,
+      "unrealized_dollars": 161.87
     }
   ],
   "closed_trades": [
