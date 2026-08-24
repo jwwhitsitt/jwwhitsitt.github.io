@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T13:45:05.168958-04:00",
+  "generated_at": "2026-08-24T14:00:05.229986-04:00",
   "summary": {
     "total_pl_dollars": 464.6,
     "wins": 27,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.2,
-      "current_price": 7.29,
-      "unrealized_pct": 0.008298755186721938,
-      "unrealized_dollars": 36.22
+      "current_price": 7.23,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
     },
     {
       "ticker": "OLOX",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.95,
-      "current_price": 5.27,
-      "unrealized_pct": 0.0518962075848303,
-      "unrealized_dollars": 225.78
+      "current_price": 5.26,
+      "unrealized_pct": 0.0499001996007984,
+      "unrealized_dollars": 217.1
     }
   ],
   "closed_trades": [
