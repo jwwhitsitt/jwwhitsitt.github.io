@@ -1,12 +1,55 @@
 {
-  "generated_at": "2026-08-25T09:30:03.852116-04:00",
+  "generated_at": "2026-08-25T09:45:05.982898-04:00",
   "summary": {
     "total_pl_dollars": 852.42,
     "wins": 26,
     "losses": 23,
-    "open_count": 0
+    "open_count": 3
   },
-  "open_trades": [],
+  "open_trades": [
+    {
+      "ticker": "AMOD",
+      "entry_price": 3.9,
+      "stop_loss_price": 3.51,
+      "profit_target_price": 4.68,
+      "position_size_dollars": 4.28,
+      "entry_timestamp": "2026-08-25T13:35:17.694891",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.67,
+      "current_price": 4.0,
+      "unrealized_pct": 0.025641025641025664,
+      "unrealized_dollars": 0.11
+    },
+    {
+      "ticker": "AMOD",
+      "entry_price": 3.9,
+      "stop_loss_price": 3.51,
+      "profit_target_price": 4.68,
+      "position_size_dollars": 4311.8,
+      "entry_timestamp": "2026-08-25T13:35:07.103839",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.67,
+      "current_price": 4.0,
+      "unrealized_pct": 0.025641025641025664,
+      "unrealized_dollars": 110.56
+    },
+    {
+      "ticker": "GRML",
+      "entry_price": 10.15,
+      "stop_loss_price": 9.14,
+      "profit_target_price": 11.67,
+      "position_size_dollars": 4315.4,
+      "entry_timestamp": "2026-08-25T13:34:55.537431",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.28,
+      "current_price": 9.36,
+      "unrealized_pct": -0.07783251231527102,
+      "unrealized_dollars": -335.88
+    }
+  ],
   "closed_trades": [
     {
       "ticker": "BCAB",
