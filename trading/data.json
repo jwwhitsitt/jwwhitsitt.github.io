@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T15:15:06.549733-04:00",
+  "generated_at": "2026-08-25T15:30:06.561430-04:00",
   "summary": {
     "total_pl_dollars": 852.42,
     "wins": 26,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.52,
-      "current_price": 8.81,
-      "unrealized_pct": 0.006799611450774228,
-      "unrealized_dollars": 29.55
+      "current_price": 9.18,
+      "unrealized_pct": 0.04908290954802572,
+      "unrealized_dollars": 213.29
     },
     {
       "ticker": "RCON",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 19.5,
-      "current_price": 2.085,
-      "unrealized_pct": 0.007246376811594264,
-      "unrealized_dollars": 0.03
+      "current_price": 2.09,
+      "unrealized_pct": 0.00966183574879228,
+      "unrealized_dollars": 0.04
     },
     {
       "ticker": "RCON",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 19.5,
-      "current_price": 2.085,
-      "unrealized_pct": 0.007246376811594264,
-      "unrealized_dollars": 31.46
+      "current_price": 2.09,
+      "unrealized_pct": 0.00966183574879228,
+      "unrealized_dollars": 41.95
     },
     {
       "ticker": "DAIC",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.52,
-      "current_price": 3.496,
-      "unrealized_pct": 0.10283911671924292,
-      "unrealized_dollars": 0.44
+      "current_price": 3.5699,
+      "unrealized_pct": 0.12615141955835968,
+      "unrealized_dollars": 0.54
     },
     {
       "ticker": "DAIC",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.52,
-      "current_price": 3.496,
-      "unrealized_pct": 0.10283911671924292,
-      "unrealized_dollars": 446.62
+      "current_price": 3.5699,
+      "unrealized_pct": 0.12615141955835968,
+      "unrealized_dollars": 547.87
     },
     {
       "ticker": "AMIX",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.14,
-      "current_price": 8.26,
-      "unrealized_pct": 0.006090133982947494,
-      "unrealized_dollars": 26.45
+      "current_price": 7.88,
+      "unrealized_pct": -0.040194884287454435,
+      "unrealized_dollars": -174.57
     },
     {
       "ticker": "AMOD",
@@ -101,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.67,
-      "current_price": 3.67,
-      "unrealized_pct": -0.05897435897435897,
-      "unrealized_dollars": -0.25
+      "current_price": 3.71,
+      "unrealized_pct": -0.048717948717948704,
+      "unrealized_dollars": -0.21
     },
     {
       "ticker": "AMOD",
@@ -115,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.67,
-      "current_price": 3.67,
-      "unrealized_pct": -0.05897435897435897,
-      "unrealized_dollars": -254.29
+      "current_price": 3.71,
+      "unrealized_pct": -0.048717948717948704,
+      "unrealized_dollars": -210.06
     },
     {
       "ticker": "GRML",
@@ -129,9 +129,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.28,
-      "current_price": 9.965,
-      "unrealized_pct": -0.018226600985221723,
-      "unrealized_dollars": -78.66
+      "current_price": 9.89,
+      "unrealized_pct": -0.02561576354679801,
+      "unrealized_dollars": -110.54
     }
   ],
   "closed_trades": [
