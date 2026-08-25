@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T12:00:05.232134-04:00",
+  "generated_at": "2026-08-25T12:15:04.700935-04:00",
   "summary": {
     "total_pl_dollars": 852.42,
     "wins": 26,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.52,
-      "current_price": 3.1498,
-      "unrealized_pct": -0.006372239747634068,
-      "unrealized_dollars": -0.03
+      "current_price": 3.445,
+      "unrealized_pct": 0.0867507886435331,
+      "unrealized_dollars": 0.37
     },
     {
       "ticker": "DAIC",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.52,
-      "current_price": 3.1498,
-      "unrealized_pct": -0.006372239747634068,
-      "unrealized_dollars": -27.67
+      "current_price": 3.445,
+      "unrealized_pct": 0.0867507886435331,
+      "unrealized_dollars": 376.75
     },
     {
       "ticker": "AMIX",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.14,
-      "current_price": 8.0,
-      "unrealized_pct": -0.025578562728380126,
-      "unrealized_dollars": -111.09
+      "current_price": 7.95,
+      "unrealized_pct": -0.03166869671132773,
+      "unrealized_dollars": -137.54
     },
     {
       "ticker": "AMOD",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.67,
-      "current_price": 3.5736,
-      "unrealized_pct": -0.0836923076923077,
-      "unrealized_dollars": -0.36
+      "current_price": 3.62,
+      "unrealized_pct": -0.07179487179487175,
+      "unrealized_dollars": -0.31
     },
     {
       "ticker": "AMOD",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.67,
-      "current_price": 3.5736,
-      "unrealized_pct": -0.0836923076923077,
-      "unrealized_dollars": -360.86
+      "current_price": 3.62,
+      "unrealized_pct": -0.07179487179487175,
+      "unrealized_dollars": -309.57
     },
     {
       "ticker": "GRML",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.28,
-      "current_price": 10.75,
-      "unrealized_pct": 0.0591133004926108,
-      "unrealized_dollars": 255.1
+      "current_price": 10.3501,
+      "unrealized_pct": 0.019714285714285622,
+      "unrealized_dollars": 85.08
     }
   ],
   "closed_trades": [
