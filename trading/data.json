@@ -1,12 +1,54 @@
 {
-  "generated_at": "2026-08-25T11:00:04.178133-04:00",
+  "generated_at": "2026-08-25T11:15:06.321555-04:00",
   "summary": {
     "total_pl_dollars": 852.42,
     "wins": 26,
     "losses": 23,
-    "open_count": 3
+    "open_count": 6
   },
   "open_trades": [
+    {
+      "ticker": "DAIC",
+      "entry_price": 3.17,
+      "stop_loss_price": 2.88,
+      "profit_target_price": 5.0599,
+      "position_size_dollars": 4.27,
+      "entry_timestamp": "2026-08-25T15:03:36.173747",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 6.52,
+      "current_price": 3.13,
+      "unrealized_pct": -0.012618296529968466,
+      "unrealized_dollars": -0.05
+    },
+    {
+      "ticker": "DAIC",
+      "entry_price": 3.17,
+      "stop_loss_price": 2.88,
+      "profit_target_price": 5.0599,
+      "position_size_dollars": 4342.93,
+      "entry_timestamp": "2026-08-25T15:03:25.628083",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 6.52,
+      "current_price": 3.13,
+      "unrealized_pct": -0.012618296529968466,
+      "unrealized_dollars": -54.8
+    },
+    {
+      "ticker": "AMIX",
+      "entry_price": 8.21,
+      "stop_loss_price": 7.38,
+      "profit_target_price": 9.99,
+      "position_size_dollars": 4343.19,
+      "entry_timestamp": "2026-08-25T15:03:14.528432",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 2.14,
+      "current_price": 7.9798,
+      "unrealized_pct": -0.028038976857490964,
+      "unrealized_dollars": -121.78
+    },
     {
       "ticker": "AMOD",
       "entry_price": 3.9,
@@ -17,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.67,
-      "current_price": 3.84,
-      "unrealized_pct": -0.0153846153846154,
-      "unrealized_dollars": -0.07
+      "current_price": 3.82,
+      "unrealized_pct": -0.02051282051282053,
+      "unrealized_dollars": -0.09
     },
     {
       "ticker": "AMOD",
@@ -31,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.67,
-      "current_price": 3.84,
-      "unrealized_pct": -0.0153846153846154,
-      "unrealized_dollars": -66.34
+      "current_price": 3.82,
+      "unrealized_pct": -0.02051282051282053,
+      "unrealized_dollars": -88.45
     },
     {
       "ticker": "GRML",
@@ -45,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.28,
-      "current_price": 11.045,
-      "unrealized_pct": 0.08817733990147779,
-      "unrealized_dollars": 380.52
+      "current_price": 10.928,
+      "unrealized_pct": 0.07665024630541876,
+      "unrealized_dollars": 330.78
     }
   ],
   "closed_trades": [
