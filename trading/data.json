@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T14:30:06.521574-04:00",
+  "generated_at": "2026-08-25T14:45:06.305085-04:00",
   "summary": {
     "total_pl_dollars": 852.42,
     "wins": 26,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 19.5,
-      "current_price": 2.1,
-      "unrealized_pct": 0.014492753623188527,
-      "unrealized_dollars": 0.06
+      "current_price": 2.06,
+      "unrealized_pct": -0.004830917874396033,
+      "unrealized_dollars": -0.02
     },
     {
       "ticker": "RCON",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 19.5,
-      "current_price": 2.1,
-      "unrealized_pct": 0.014492753623188527,
-      "unrealized_dollars": 62.93
+      "current_price": 2.06,
+      "unrealized_pct": -0.004830917874396033,
+      "unrealized_dollars": -20.98
     },
     {
       "ticker": "DAIC",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.52,
-      "current_price": 3.84,
-      "unrealized_pct": 0.2113564668769716,
-      "unrealized_dollars": 0.9
+      "current_price": 3.7801,
+      "unrealized_pct": 0.1924605678233439,
+      "unrealized_dollars": 0.82
     },
     {
       "ticker": "DAIC",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.52,
-      "current_price": 3.84,
-      "unrealized_pct": 0.2113564668769716,
-      "unrealized_dollars": 917.91
+      "current_price": 3.7801,
+      "unrealized_pct": 0.1924605678233439,
+      "unrealized_dollars": 835.84
     },
     {
       "ticker": "AMIX",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.14,
-      "current_price": 8.3588,
-      "unrealized_pct": 0.01812423873325208,
-      "unrealized_dollars": 78.72
+      "current_price": 8.4192,
+      "unrealized_pct": 0.025481120584652756,
+      "unrealized_dollars": 110.67
     },
     {
       "ticker": "AMOD",
@@ -115,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.28,
-      "current_price": 9.7601,
-      "unrealized_pct": -0.038413793103448356,
-      "unrealized_dollars": -165.77
+      "current_price": 9.785,
+      "unrealized_pct": -0.03596059113300495,
+      "unrealized_dollars": -155.18
     }
   ],
   "closed_trades": [
