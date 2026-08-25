@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T10:45:04.014563-04:00",
+  "generated_at": "2026-08-25T11:00:04.178133-04:00",
   "summary": {
     "total_pl_dollars": 852.42,
     "wins": 26,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.67,
-      "current_price": 3.81,
-      "unrealized_pct": -0.02307692307692304,
-      "unrealized_dollars": -0.1
+      "current_price": 3.84,
+      "unrealized_pct": -0.0153846153846154,
+      "unrealized_dollars": -0.07
     },
     {
       "ticker": "AMOD",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.67,
-      "current_price": 3.81,
-      "unrealized_pct": -0.02307692307692304,
-      "unrealized_dollars": -99.5
+      "current_price": 3.84,
+      "unrealized_pct": -0.0153846153846154,
+      "unrealized_dollars": -66.34
     },
     {
       "ticker": "GRML",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.28,
-      "current_price": 11.06,
-      "unrealized_pct": 0.08965517241379312,
-      "unrealized_dollars": 386.9
+      "current_price": 11.045,
+      "unrealized_pct": 0.08817733990147779,
+      "unrealized_dollars": 380.52
     }
   ],
   "closed_trades": [
