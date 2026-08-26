@@ -1,42 +1,35 @@
 {
-  "generated_at": "2026-08-26T10:00:04.732706-04:00",
+  "generated_at": "2026-08-26T10:15:03.401025-04:00",
   "summary": {
-    "total_pl_dollars": -1307.75,
-    "wins": 20,
-    "losses": 30,
-    "open_count": 2
+    "total_pl_dollars": -2026.34,
+    "wins": 18,
+    "losses": 32,
+    "open_count": 0
   },
-  "open_trades": [
+  "open_trades": [],
+  "closed_trades": [
     {
       "ticker": "YYGH",
       "entry_price": 1.86,
-      "stop_loss_price": 1.83,
-      "profit_target_price": 2.01,
-      "position_size_dollars": 4.32,
-      "entry_timestamp": "2026-08-26T13:34:48.252872",
+      "exit_price": 1.7901,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.16,
+      "pl_percent": -0.037581,
+      "exit_timestamp": "2026-08-26T14:00:14.044361",
       "setup_quality": "A",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 5.0,
-      "current_price": 1.7999,
-      "unrealized_pct": -0.03231182795698927,
-      "unrealized_dollars": -0.14
+      "position_size_dollars": 4.32
     },
     {
       "ticker": "YYGH",
       "entry_price": 1.86,
-      "stop_loss_price": 1.83,
-      "profit_target_price": 2.01,
-      "position_size_dollars": 6455.96,
-      "entry_timestamp": "2026-08-26T13:34:37.651254",
+      "exit_price": 1.8,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -208.26,
+      "pl_percent": -0.032258,
+      "exit_timestamp": "2026-08-26T14:00:03.353148",
       "setup_quality": "A",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 5.0,
-      "current_price": 1.7999,
-      "unrealized_pct": -0.03231182795698927,
-      "unrealized_dollars": -208.6
-    }
-  ],
-  "closed_trades": [
+      "position_size_dollars": 6455.96
+    },
     {
       "ticker": "VCIG",
       "entry_price": 3.505,
@@ -562,28 +555,6 @@
       "pl_dollars": 0.5,
       "pl_percent": 0.117155,
       "exit_timestamp": "2026-08-19T14:15:14.433400",
-      "setup_quality": "B",
-      "position_size_dollars": 4.29
-    },
-    {
-      "ticker": "BIVI",
-      "entry_price": 1.195,
-      "exit_price": 1.335,
-      "exit_reason": "target_hit",
-      "pl_dollars": 509.94,
-      "pl_percent": 0.117155,
-      "exit_timestamp": "2026-08-19T14:15:03.591800",
-      "setup_quality": "B",
-      "position_size_dollars": 4352.72
-    },
-    {
-      "ticker": "XOS",
-      "entry_price": 4.16,
-      "exit_price": 4.3799,
-      "exit_reason": "eod_close",
-      "pl_dollars": 0.23,
-      "pl_percent": 0.052861,
-      "exit_timestamp": "2026-08-18T19:46:17.810343",
       "setup_quality": "B",
       "position_size_dollars": 4.29
     }
