@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T15:15:05.865879-04:00",
+  "generated_at": "2026-08-26T15:30:05.056551-04:00",
   "summary": {
     "total_pl_dollars": -2026.34,
     "wins": 18,
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.47,
-      "current_price": 0.9949,
-      "unrealized_pct": -0.0025065169440544885,
-      "unrealized_dollars": -0.01
+      "current_price": 0.9919,
+      "unrealized_pct": -0.005514337276919941,
+      "unrealized_dollars": -0.02
     },
     {
       "ticker": "NUWE",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.47,
-      "current_price": 0.9949,
-      "unrealized_pct": -0.0025065169440544885,
-      "unrealized_dollars": -10.64
+      "current_price": 0.9919,
+      "unrealized_pct": -0.005514337276919941,
+      "unrealized_dollars": -23.41
     },
     {
       "ticker": "CRE",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.81,
-      "current_price": 6.07,
-      "unrealized_pct": -0.004934345338601009,
-      "unrealized_dollars": -20.99
+      "current_price": 6.185,
+      "unrealized_pct": 0.013917804626153555,
+      "unrealized_dollars": 59.22
     },
     {
       "ticker": "SMTK",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.26,
-      "current_price": 3.9635,
-      "unrealized_pct": -0.04263285024154587,
-      "unrealized_dollars": -0.18
+      "current_price": 4.04,
+      "unrealized_pct": -0.024154589371980593,
+      "unrealized_dollars": -0.1
     },
     {
       "ticker": "SMTK",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.26,
-      "current_price": 3.9635,
-      "unrealized_pct": -0.04263285024154587,
-      "unrealized_dollars": -181.39
+      "current_price": 4.04,
+      "unrealized_pct": -0.024154589371980593,
+      "unrealized_dollars": -102.77
     },
     {
       "ticker": "XBP",
