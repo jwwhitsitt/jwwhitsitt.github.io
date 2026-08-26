@@ -1,12 +1,41 @@
 {
-  "generated_at": "2026-08-26T11:00:03.280091-04:00",
+  "generated_at": "2026-08-26T11:15:04.774906-04:00",
   "summary": {
     "total_pl_dollars": -2026.34,
     "wins": 18,
     "losses": 32,
-    "open_count": 0
+    "open_count": 2
   },
-  "open_trades": [],
+  "open_trades": [
+    {
+      "ticker": "XBP",
+      "entry_price": 2.69,
+      "stop_loss_price": 2.55,
+      "profit_target_price": 2.9725,
+      "position_size_dollars": 4.28,
+      "entry_timestamp": "2026-08-26T15:03:18.899865",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 2.02,
+      "current_price": 2.69,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
+    },
+    {
+      "ticker": "XBP",
+      "entry_price": 2.69,
+      "stop_loss_price": 2.55,
+      "profit_target_price": 2.9725,
+      "position_size_dollars": 4256.37,
+      "entry_timestamp": "2026-08-26T15:03:08.072474",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 2.02,
+      "current_price": 2.69,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
+    }
+  ],
   "closed_trades": [
     {
       "ticker": "YYGH",
