@@ -1,12 +1,54 @@
 {
-  "generated_at": "2026-08-26T15:00:04.511616-04:00",
+  "generated_at": "2026-08-26T15:15:05.865879-04:00",
   "summary": {
     "total_pl_dollars": -2026.34,
     "wins": 18,
     "losses": 32,
-    "open_count": 5
+    "open_count": 8
   },
   "open_trades": [
+    {
+      "ticker": "SOGP",
+      "entry_price": 13.41,
+      "stop_loss_price": 13.2,
+      "profit_target_price": 14.48,
+      "position_size_dollars": 4244.83,
+      "entry_timestamp": "2026-08-26T19:02:08.247308",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 5.1,
+      "current_price": 13.4005,
+      "unrealized_pct": -0.0007084265473527928,
+      "unrealized_dollars": -3.01
+    },
+    {
+      "ticker": "NUWE",
+      "entry_price": 0.9974,
+      "stop_loss_price": 0.98,
+      "profit_target_price": 1.11,
+      "position_size_dollars": 4.27,
+      "entry_timestamp": "2026-08-26T19:01:57.682084",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 6.47,
+      "current_price": 0.9949,
+      "unrealized_pct": -0.0025065169440544885,
+      "unrealized_dollars": -0.01
+    },
+    {
+      "ticker": "NUWE",
+      "entry_price": 0.9974,
+      "stop_loss_price": 0.98,
+      "profit_target_price": 1.11,
+      "position_size_dollars": 4245.29,
+      "entry_timestamp": "2026-08-26T19:01:46.795069",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 6.47,
+      "current_price": 0.9949,
+      "unrealized_pct": -0.0025065169440544885,
+      "unrealized_dollars": -10.64
+    },
     {
       "ticker": "CRE",
       "entry_price": 6.1001,
@@ -17,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.81,
-      "current_price": 6.1,
-      "unrealized_pct": -1.6393173882502764e-05,
-      "unrealized_dollars": -0.07
+      "current_price": 6.07,
+      "unrealized_pct": -0.004934345338601009,
+      "unrealized_dollars": -20.99
     },
     {
       "ticker": "SMTK",
@@ -31,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.26,
-      "current_price": 3.9501,
-      "unrealized_pct": -0.045869565217391245,
-      "unrealized_dollars": -0.2
+      "current_price": 3.9635,
+      "unrealized_pct": -0.04263285024154587,
+      "unrealized_dollars": -0.18
     },
     {
       "ticker": "SMTK",
@@ -45,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.26,
-      "current_price": 3.9501,
-      "unrealized_pct": -0.045869565217391245,
-      "unrealized_dollars": -195.16
+      "current_price": 3.9635,
+      "unrealized_pct": -0.04263285024154587,
+      "unrealized_dollars": -181.39
     },
     {
       "ticker": "XBP",
@@ -59,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.02,
-      "current_price": 2.88,
-      "unrealized_pct": 0.07063197026022303,
-      "unrealized_dollars": 0.3
+      "current_price": 2.86,
+      "unrealized_pct": 0.06319702602230481,
+      "unrealized_dollars": 0.27
     },
     {
       "ticker": "XBP",
@@ -73,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.02,
-      "current_price": 2.88,
-      "unrealized_pct": 0.07063197026022303,
-      "unrealized_dollars": 300.64
+      "current_price": 2.86,
+      "unrealized_pct": 0.06319702602230481,
+      "unrealized_dollars": 268.99
     }
   ],
   "closed_trades": [
