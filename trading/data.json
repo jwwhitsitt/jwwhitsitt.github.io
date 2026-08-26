@@ -1,12 +1,83 @@
 {
-  "generated_at": "2026-08-26T09:30:03.703351-04:00",
+  "generated_at": "2026-08-26T09:45:06.230723-04:00",
   "summary": {
     "total_pl_dollars": 347.83,
     "wins": 23,
     "losses": 27,
-    "open_count": 0
+    "open_count": 5
   },
-  "open_trades": [],
+  "open_trades": [
+    {
+      "ticker": "VCIG",
+      "entry_price": 3.505,
+      "stop_loss_price": 3.45,
+      "profit_target_price": 4.12,
+      "position_size_dollars": 4.32,
+      "entry_timestamp": "2026-08-26T13:35:09.445128",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 11.18,
+      "current_price": 2.605,
+      "unrealized_pct": -0.25677603423680456,
+      "unrealized_dollars": -1.11
+    },
+    {
+      "ticker": "VCIG",
+      "entry_price": 3.505,
+      "stop_loss_price": 3.45,
+      "profit_target_price": 4.12,
+      "position_size_dollars": 4303.72,
+      "entry_timestamp": "2026-08-26T13:34:58.868874",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 11.18,
+      "current_price": 2.605,
+      "unrealized_pct": -0.25677603423680456,
+      "unrealized_dollars": -1105.09
+    },
+    {
+      "ticker": "YYGH",
+      "entry_price": 1.86,
+      "stop_loss_price": 1.83,
+      "profit_target_price": 2.01,
+      "position_size_dollars": 4.32,
+      "entry_timestamp": "2026-08-26T13:34:48.252872",
+      "setup_quality": "A",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 5.0,
+      "current_price": 2.0001,
+      "unrealized_pct": 0.07532258064516134,
+      "unrealized_dollars": 0.33
+    },
+    {
+      "ticker": "YYGH",
+      "entry_price": 1.86,
+      "stop_loss_price": 1.83,
+      "profit_target_price": 2.01,
+      "position_size_dollars": 6455.96,
+      "entry_timestamp": "2026-08-26T13:34:37.651254",
+      "setup_quality": "A",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 5.0,
+      "current_price": 2.0001,
+      "unrealized_pct": 0.07532258064516134,
+      "unrealized_dollars": 486.28
+    },
+    {
+      "ticker": "RVSN",
+      "entry_price": 5.1599,
+      "stop_loss_price": 4.9,
+      "profit_target_price": 6.2,
+      "position_size_dollars": 4303.97,
+      "entry_timestamp": "2026-08-26T13:34:26.633591",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.3,
+      "current_price": 4.81,
+      "unrealized_pct": -0.06781139169363762,
+      "unrealized_dollars": -291.86
+    }
+  ],
   "closed_trades": [
     {
       "ticker": "NXPL",
