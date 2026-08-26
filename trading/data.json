@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T15:30:05.056551-04:00",
+  "generated_at": "2026-08-26T15:45:05.353219-04:00",
   "summary": {
     "total_pl_dollars": -2026.34,
     "wins": 18,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.1,
-      "current_price": 13.4005,
-      "unrealized_pct": -0.0007084265473527928,
-      "unrealized_dollars": -3.01
+      "current_price": 13.35,
+      "unrealized_pct": -0.004474272930648807,
+      "unrealized_dollars": -18.99
     },
     {
       "ticker": "NUWE",
@@ -31,8 +31,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.47,
-      "current_price": 0.9919,
-      "unrealized_pct": -0.005514337276919941,
+      "current_price": 0.9917,
+      "unrealized_pct": -0.0057148586324442825,
       "unrealized_dollars": -0.02
     },
     {
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.47,
-      "current_price": 0.9919,
-      "unrealized_pct": -0.005514337276919941,
-      "unrealized_dollars": -23.41
+      "current_price": 0.9917,
+      "unrealized_pct": -0.0057148586324442825,
+      "unrealized_dollars": -24.26
     },
     {
       "ticker": "CRE",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.81,
-      "current_price": 6.185,
-      "unrealized_pct": 0.013917804626153555,
-      "unrealized_dollars": 59.22
+      "current_price": 6.14,
+      "unrealized_pct": 0.006540876379075651,
+      "unrealized_dollars": 27.83
     },
     {
       "ticker": "SMTK",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.26,
-      "current_price": 4.04,
-      "unrealized_pct": -0.024154589371980593,
-      "unrealized_dollars": -0.1
+      "current_price": 4.0,
+      "unrealized_pct": -0.033816425120772875,
+      "unrealized_dollars": -0.15
     },
     {
       "ticker": "SMTK",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.26,
-      "current_price": 4.04,
-      "unrealized_pct": -0.024154589371980593,
-      "unrealized_dollars": -102.77
+      "current_price": 4.0,
+      "unrealized_pct": -0.033816425120772875,
+      "unrealized_dollars": -143.88
     },
     {
       "ticker": "XBP",
@@ -101,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.02,
-      "current_price": 2.86,
-      "unrealized_pct": 0.06319702602230481,
-      "unrealized_dollars": 0.27
+      "current_price": 2.83,
+      "unrealized_pct": 0.05204460966542756,
+      "unrealized_dollars": 0.22
     },
     {
       "ticker": "XBP",
@@ -115,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.02,
-      "current_price": 2.86,
-      "unrealized_pct": 0.06319702602230481,
-      "unrealized_dollars": 268.99
+      "current_price": 2.83,
+      "unrealized_pct": 0.05204460966542756,
+      "unrealized_dollars": 221.52
     }
   ],
   "closed_trades": [
