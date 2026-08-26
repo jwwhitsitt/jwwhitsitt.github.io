@@ -1,40 +1,12 @@
 {
-  "generated_at": "2026-08-26T09:45:06.230723-04:00",
+  "generated_at": "2026-08-26T10:00:04.732706-04:00",
   "summary": {
-    "total_pl_dollars": 347.83,
-    "wins": 23,
-    "losses": 27,
-    "open_count": 5
+    "total_pl_dollars": -1307.75,
+    "wins": 20,
+    "losses": 30,
+    "open_count": 2
   },
   "open_trades": [
-    {
-      "ticker": "VCIG",
-      "entry_price": 3.505,
-      "stop_loss_price": 3.45,
-      "profit_target_price": 4.12,
-      "position_size_dollars": 4.32,
-      "entry_timestamp": "2026-08-26T13:35:09.445128",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 11.18,
-      "current_price": 2.605,
-      "unrealized_pct": -0.25677603423680456,
-      "unrealized_dollars": -1.11
-    },
-    {
-      "ticker": "VCIG",
-      "entry_price": 3.505,
-      "stop_loss_price": 3.45,
-      "profit_target_price": 4.12,
-      "position_size_dollars": 4303.72,
-      "entry_timestamp": "2026-08-26T13:34:58.868874",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 11.18,
-      "current_price": 2.605,
-      "unrealized_pct": -0.25677603423680456,
-      "unrealized_dollars": -1105.09
-    },
     {
       "ticker": "YYGH",
       "entry_price": 1.86,
@@ -45,9 +17,9 @@
       "setup_quality": "A",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.0,
-      "current_price": 2.0001,
-      "unrealized_pct": 0.07532258064516134,
-      "unrealized_dollars": 0.33
+      "current_price": 1.7999,
+      "unrealized_pct": -0.03231182795698927,
+      "unrealized_dollars": -0.14
     },
     {
       "ticker": "YYGH",
@@ -59,26 +31,45 @@
       "setup_quality": "A",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.0,
-      "current_price": 2.0001,
-      "unrealized_pct": 0.07532258064516134,
-      "unrealized_dollars": 486.28
+      "current_price": 1.7999,
+      "unrealized_pct": -0.03231182795698927,
+      "unrealized_dollars": -208.6
+    }
+  ],
+  "closed_trades": [
+    {
+      "ticker": "VCIG",
+      "entry_price": 3.505,
+      "exit_price": 2.65,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -1.05,
+      "pl_percent": -0.243937,
+      "exit_timestamp": "2026-08-26T13:45:25.865825",
+      "setup_quality": "B",
+      "position_size_dollars": 4.32
+    },
+    {
+      "ticker": "VCIG",
+      "entry_price": 3.505,
+      "exit_price": 2.6299,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -1074.52,
+      "pl_percent": -0.249672,
+      "exit_timestamp": "2026-08-26T13:45:15.405766",
+      "setup_quality": "B",
+      "position_size_dollars": 4303.72
     },
     {
       "ticker": "RVSN",
       "entry_price": 5.1599,
-      "stop_loss_price": 4.9,
-      "profit_target_price": 6.2,
-      "position_size_dollars": 4303.97,
-      "entry_timestamp": "2026-08-26T13:34:26.633591",
+      "exit_price": 4.81,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -291.86,
+      "pl_percent": -0.067811,
+      "exit_timestamp": "2026-08-26T13:45:04.193163",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 1.3,
-      "current_price": 4.81,
-      "unrealized_pct": -0.06781139169363762,
-      "unrealized_dollars": -291.86
-    }
-  ],
-  "closed_trades": [
+      "position_size_dollars": 4303.97
+    },
     {
       "ticker": "NXPL",
       "entry_price": 8.7505,
@@ -595,39 +586,6 @@
       "exit_timestamp": "2026-08-18T19:46:17.810343",
       "setup_quality": "B",
       "position_size_dollars": 4.29
-    },
-    {
-      "ticker": "XOS",
-      "entry_price": 4.16,
-      "exit_price": 4.365,
-      "exit_reason": "eod_close",
-      "pl_dollars": 214.75,
-      "pl_percent": 0.049279,
-      "exit_timestamp": "2026-08-18T19:46:07.314736",
-      "setup_quality": "B",
-      "position_size_dollars": 4357.76
-    },
-    {
-      "ticker": "BRFH",
-      "entry_price": 1.2785,
-      "exit_price": 1.3,
-      "exit_reason": "eod_close",
-      "pl_dollars": 0.07,
-      "pl_percent": 0.016817,
-      "exit_timestamp": "2026-08-18T19:45:56.381421",
-      "setup_quality": "B",
-      "position_size_dollars": 4.29
-    },
-    {
-      "ticker": "BRFH",
-      "entry_price": 1.2785,
-      "exit_price": 1.3,
-      "exit_reason": "eod_close",
-      "pl_dollars": 73.33,
-      "pl_percent": 0.016817,
-      "exit_timestamp": "2026-08-18T19:45:45.854498",
-      "setup_quality": "B",
-      "position_size_dollars": 4360.78
     }
   ]
 }
