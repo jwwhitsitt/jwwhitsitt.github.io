@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T14:15:04.307528-04:00",
+  "generated_at": "2026-08-26T14:30:05.275249-04:00",
   "summary": {
     "total_pl_dollars": -2026.34,
     "wins": 18,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.81,
-      "current_price": 6.29,
-      "unrealized_pct": 0.031130637202668763,
-      "unrealized_dollars": 132.45
+      "current_price": 6.4197,
+      "unrealized_pct": 0.05239258372813551,
+      "unrealized_dollars": 222.92
     },
     {
       "ticker": "SMTK",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.26,
-      "current_price": 3.9111,
-      "unrealized_pct": -0.05528985507246374,
-      "unrealized_dollars": -0.24
+      "current_price": 3.9997,
+      "unrealized_pct": -0.03388888888888886,
+      "unrealized_dollars": -0.15
     },
     {
       "ticker": "SMTK",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.26,
-      "current_price": 3.9111,
-      "unrealized_pct": -0.05528985507246374,
-      "unrealized_dollars": -235.25
+      "current_price": 3.9997,
+      "unrealized_pct": -0.03388888888888886,
+      "unrealized_dollars": -144.19
     },
     {
       "ticker": "XBP",
