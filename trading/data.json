@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T12:30:03.967956-04:00",
+  "generated_at": "2026-08-26T12:45:04.064073-04:00",
   "summary": {
     "total_pl_dollars": -2026.34,
     "wins": 18,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.02,
-      "current_price": 2.86,
-      "unrealized_pct": 0.06319702602230481,
-      "unrealized_dollars": 0.27
+      "current_price": 2.805,
+      "unrealized_pct": 0.04275092936802982,
+      "unrealized_dollars": 0.18
     },
     {
       "ticker": "XBP",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.02,
-      "current_price": 2.86,
-      "unrealized_pct": 0.06319702602230481,
-      "unrealized_dollars": 268.99
+      "current_price": 2.805,
+      "unrealized_pct": 0.04275092936802982,
+      "unrealized_dollars": 181.96
     }
   ],
   "closed_trades": [
