@@ -1,12 +1,69 @@
 {
-  "generated_at": "2026-08-27T09:30:04.055808-04:00",
+  "generated_at": "2026-08-27T09:45:05.498098-04:00",
   "summary": {
     "total_pl_dollars": -715.94,
     "wins": 19,
     "losses": 31,
-    "open_count": 0
+    "open_count": 4
   },
-  "open_trades": [],
+  "open_trades": [
+    {
+      "ticker": "CISS",
+      "entry_price": 2.51,
+      "stop_loss_price": 2.35,
+      "profit_target_price": 3.15,
+      "position_size_dollars": 4.25,
+      "entry_timestamp": "2026-08-27T13:33:57.708555",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.7,
+      "current_price": 2.455,
+      "unrealized_pct": -0.021912350597609452,
+      "unrealized_dollars": -0.09
+    },
+    {
+      "ticker": "CISS",
+      "entry_price": 2.51,
+      "stop_loss_price": 2.35,
+      "profit_target_price": 3.15,
+      "position_size_dollars": 4222.84,
+      "entry_timestamp": "2026-08-27T13:33:47.113022",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.7,
+      "current_price": 2.455,
+      "unrealized_pct": -0.021912350597609452,
+      "unrealized_dollars": -92.53
+    },
+    {
+      "ticker": "SBFM",
+      "entry_price": 1.24,
+      "stop_loss_price": 1.12,
+      "profit_target_price": 1.55,
+      "position_size_dollars": 4.25,
+      "entry_timestamp": "2026-08-27T13:33:35.922245",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.54,
+      "current_price": 1.1928,
+      "unrealized_pct": -0.03806451612903219,
+      "unrealized_dollars": -0.16
+    },
+    {
+      "ticker": "SBFM",
+      "entry_price": 1.24,
+      "stop_loss_price": 1.12,
+      "profit_target_price": 1.55,
+      "position_size_dollars": 4222.84,
+      "entry_timestamp": "2026-08-27T13:33:25.186129",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.54,
+      "current_price": 1.1928,
+      "unrealized_pct": -0.03806451612903219,
+      "unrealized_dollars": -160.74
+    }
+  ],
   "closed_trades": [
     {
       "ticker": "SOGP",
