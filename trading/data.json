@@ -1,40 +1,12 @@
 {
-  "generated_at": "2026-08-27T15:30:05.336590-04:00",
+  "generated_at": "2026-08-27T15:45:04.374789-04:00",
   "summary": {
-    "total_pl_dollars": -766.07,
-    "wins": 18,
-    "losses": 32,
-    "open_count": 8
+    "total_pl_dollars": -1399.63,
+    "wins": 16,
+    "losses": 34,
+    "open_count": 6
   },
   "open_trades": [
-    {
-      "ticker": "MIMI",
-      "entry_price": 1.4927,
-      "stop_loss_price": 1.31,
-      "profit_target_price": 3.29,
-      "position_size_dollars": 4.17,
-      "entry_timestamp": "2026-08-27T19:01:28.570381",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 9.84,
-      "current_price": 1.285,
-      "unrealized_pct": -0.1391438333221679,
-      "unrealized_dollars": -0.58
-    },
-    {
-      "ticker": "MIMI",
-      "entry_price": 1.4927,
-      "stop_loss_price": 1.31,
-      "profit_target_price": 3.29,
-      "position_size_dollars": 4173.47,
-      "entry_timestamp": "2026-08-27T19:01:17.926173",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 9.84,
-      "current_price": 1.285,
-      "unrealized_pct": -0.1391438333221679,
-      "unrealized_dollars": -580.71
-    },
     {
       "ticker": "NMTC",
       "entry_price": 1.9391,
@@ -45,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 31.59,
-      "current_price": 2.0,
-      "unrealized_pct": 0.03140632252075703,
-      "unrealized_dollars": 0.13
+      "current_price": 2.0097,
+      "unrealized_pct": 0.03640864318498272,
+      "unrealized_dollars": 0.15
     },
     {
       "ticker": "NMTC",
@@ -59,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 31.59,
-      "current_price": 2.0,
-      "unrealized_pct": 0.03140632252075703,
-      "unrealized_dollars": 131.83
+      "current_price": 2.0097,
+      "unrealized_pct": 0.03640864318498272,
+      "unrealized_dollars": 152.83
     },
     {
       "ticker": "YMT",
@@ -73,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.18,
-      "current_price": 2.63,
-      "unrealized_pct": -0.053990863637998675,
-      "unrealized_dollars": -0.23
+      "current_price": 2.59,
+      "unrealized_pct": -0.06837883529369453,
+      "unrealized_dollars": -0.29
     },
     {
       "ticker": "YMT",
@@ -87,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.18,
-      "current_price": 2.63,
-      "unrealized_pct": -0.053990863637998675,
-      "unrealized_dollars": -226.84
+      "current_price": 2.59,
+      "unrealized_pct": -0.06837883529369453,
+      "unrealized_dollars": -287.28
     },
     {
       "ticker": "SBFM",
@@ -101,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.54,
-      "current_price": 1.2781,
-      "unrealized_pct": 0.030725806451612922,
-      "unrealized_dollars": 0.13
+      "current_price": 1.2999,
+      "unrealized_pct": 0.04830645161290328,
+      "unrealized_dollars": 0.21
     },
     {
       "ticker": "SBFM",
@@ -115,12 +87,34 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.54,
-      "current_price": 1.2781,
-      "unrealized_pct": 0.030725806451612922,
-      "unrealized_dollars": 129.75
+      "current_price": 1.2999,
+      "unrealized_pct": 0.04830645161290328,
+      "unrealized_dollars": 203.99
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "MIMI",
+      "entry_price": 1.4927,
+      "exit_price": 1.27,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.62,
+      "pl_percent": -0.149193,
+      "exit_timestamp": "2026-08-27T19:30:15.700535",
+      "setup_quality": "B",
+      "position_size_dollars": 4.17
+    },
+    {
+      "ticker": "MIMI",
+      "entry_price": 1.4927,
+      "exit_price": 1.285,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -580.71,
+      "pl_percent": -0.139144,
+      "exit_timestamp": "2026-08-27T19:30:05.033818",
+      "setup_quality": "B",
+      "position_size_dollars": 4173.47
+    },
     {
       "ticker": "PPCB",
       "entry_price": 2.77,
@@ -648,28 +642,6 @@
       "exit_timestamp": "2026-08-20T19:45:25.141328",
       "setup_quality": "B",
       "position_size_dollars": 4289.9
-    },
-    {
-      "ticker": "HUIZ",
-      "entry_price": 1.935,
-      "exit_price": 1.96,
-      "exit_reason": "eod_close",
-      "pl_dollars": 0.05,
-      "pl_percent": 0.01292,
-      "exit_timestamp": "2026-08-20T19:45:14.463338",
-      "setup_quality": "B",
-      "position_size_dollars": 4.19
-    },
-    {
-      "ticker": "HUIZ",
-      "entry_price": 1.935,
-      "exit_price": 1.9586,
-      "exit_reason": "eod_close",
-      "pl_dollars": 52.17,
-      "pl_percent": 0.012196,
-      "exit_timestamp": "2026-08-20T19:45:03.734467",
-      "setup_quality": "B",
-      "position_size_dollars": 4277.71
     }
   ]
 }
