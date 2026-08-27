@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T12:45:04.143876-04:00",
+  "generated_at": "2026-08-27T13:00:05.522405-04:00",
   "summary": {
     "total_pl_dollars": -766.07,
     "wins": 18,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 31.59,
-      "current_price": 1.935,
-      "unrealized_pct": -0.002114382961167548,
-      "unrealized_dollars": -0.01
+      "current_price": 1.93,
+      "unrealized_pct": -0.0046928987674695,
+      "unrealized_dollars": -0.02
     },
     {
       "ticker": "NMTC",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 31.59,
-      "current_price": 1.935,
-      "unrealized_pct": -0.002114382961167548,
-      "unrealized_dollars": -8.88
+      "current_price": 1.93,
+      "unrealized_pct": -0.0046928987674695,
+      "unrealized_dollars": -19.7
     },
     {
       "ticker": "YMT",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.18,
-      "current_price": 2.83,
-      "unrealized_pct": 0.017948994640480578,
-      "unrealized_dollars": 0.08
+      "current_price": 2.93,
+      "unrealized_pct": 0.053918923779720206,
+      "unrealized_dollars": 0.23
     },
     {
       "ticker": "YMT",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.18,
-      "current_price": 2.83,
-      "unrealized_pct": 0.017948994640480578,
-      "unrealized_dollars": 75.41
+      "current_price": 2.93,
+      "unrealized_pct": 0.053918923779720206,
+      "unrealized_dollars": 226.53
     },
     {
       "ticker": "SBFM",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.54,
-      "current_price": 1.28,
-      "unrealized_pct": 0.03225806451612906,
-      "unrealized_dollars": 0.14
+      "current_price": 1.27,
+      "unrealized_pct": 0.024193548387096794,
+      "unrealized_dollars": 0.1
     },
     {
       "ticker": "SBFM",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.54,
-      "current_price": 1.28,
-      "unrealized_pct": 0.03225806451612906,
-      "unrealized_dollars": 136.22
+      "current_price": 1.27,
+      "unrealized_pct": 0.024193548387096794,
+      "unrealized_dollars": 102.17
     }
   ],
   "closed_trades": [
