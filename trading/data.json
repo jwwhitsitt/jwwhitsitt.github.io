@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T10:15:04.598840-04:00",
+  "generated_at": "2026-08-27T10:30:04.935986-04:00",
   "summary": {
     "total_pl_dollars": -715.94,
     "wins": 19,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.7,
-      "current_price": 2.61,
-      "unrealized_pct": 0.039840637450199244,
-      "unrealized_dollars": 0.17
+      "current_price": 2.2501,
+      "unrealized_pct": -0.10354581673306756,
+      "unrealized_dollars": -0.44
     },
     {
       "ticker": "CISS",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.7,
-      "current_price": 2.61,
-      "unrealized_pct": 0.039840637450199244,
-      "unrealized_dollars": 168.24
+      "current_price": 2.2501,
+      "unrealized_pct": -0.10354581673306756,
+      "unrealized_dollars": -437.26
     },
     {
       "ticker": "SBFM",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.54,
-      "current_price": 1.22,
-      "unrealized_pct": -0.01612903225806453,
-      "unrealized_dollars": -0.07
+      "current_price": 1.24,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
     },
     {
       "ticker": "SBFM",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.54,
-      "current_price": 1.22,
-      "unrealized_pct": -0.01612903225806453,
-      "unrealized_dollars": -68.11
+      "current_price": 1.24,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
     }
   ],
   "closed_trades": [
