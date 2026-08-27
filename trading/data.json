@@ -1,40 +1,12 @@
 {
-  "generated_at": "2026-08-27T10:30:04.935986-04:00",
+  "generated_at": "2026-08-27T10:45:04.045734-04:00",
   "summary": {
-    "total_pl_dollars": -715.94,
-    "wins": 19,
-    "losses": 31,
-    "open_count": 4
+    "total_pl_dollars": -792.25,
+    "wins": 18,
+    "losses": 32,
+    "open_count": 2
   },
   "open_trades": [
-    {
-      "ticker": "CISS",
-      "entry_price": 2.51,
-      "stop_loss_price": 2.35,
-      "profit_target_price": 3.15,
-      "position_size_dollars": 4.25,
-      "entry_timestamp": "2026-08-27T13:33:57.708555",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 1.7,
-      "current_price": 2.2501,
-      "unrealized_pct": -0.10354581673306756,
-      "unrealized_dollars": -0.44
-    },
-    {
-      "ticker": "CISS",
-      "entry_price": 2.51,
-      "stop_loss_price": 2.35,
-      "profit_target_price": 3.15,
-      "position_size_dollars": 4222.84,
-      "entry_timestamp": "2026-08-27T13:33:47.113022",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 1.7,
-      "current_price": 2.2501,
-      "unrealized_pct": -0.10354581673306756,
-      "unrealized_dollars": -437.26
-    },
     {
       "ticker": "SBFM",
       "entry_price": 1.24,
@@ -45,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.54,
-      "current_price": 1.24,
-      "unrealized_pct": 0.0,
-      "unrealized_dollars": null
+      "current_price": 1.2401,
+      "unrealized_pct": 8.06451612903137e-05,
+      "unrealized_dollars": 0.0
     },
     {
       "ticker": "SBFM",
@@ -59,12 +31,34 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.54,
-      "current_price": 1.24,
-      "unrealized_pct": 0.0,
-      "unrealized_dollars": null
+      "current_price": 1.2401,
+      "unrealized_pct": 8.06451612903137e-05,
+      "unrealized_dollars": 0.34
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "CISS",
+      "entry_price": 2.51,
+      "exit_price": 2.07,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.74,
+      "pl_percent": -0.175299,
+      "exit_timestamp": "2026-08-27T14:30:13.892712",
+      "setup_quality": "B",
+      "position_size_dollars": 4.25
+    },
+    {
+      "ticker": "CISS",
+      "entry_price": 2.51,
+      "exit_price": 2.27,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -403.78,
+      "pl_percent": -0.095618,
+      "exit_timestamp": "2026-08-27T14:30:03.207353",
+      "setup_quality": "B",
+      "position_size_dollars": 4222.84
+    },
     {
       "ticker": "SOGP",
       "entry_price": 13.41,
@@ -592,28 +586,6 @@
       "exit_timestamp": "2026-08-20T14:00:03.122998",
       "setup_quality": "B",
       "position_size_dollars": 4302.15
-    },
-    {
-      "ticker": "SKK",
-      "entry_price": 6.02,
-      "exit_price": 5.57,
-      "exit_reason": "eod_close",
-      "pl_dollars": -328.46,
-      "pl_percent": -0.074751,
-      "exit_timestamp": "2026-08-19T19:45:24.303678",
-      "setup_quality": "B",
-      "position_size_dollars": 4394.12
-    },
-    {
-      "ticker": "TGL",
-      "entry_price": 2.835,
-      "exit_price": 3.005,
-      "exit_reason": "eod_close",
-      "pl_dollars": 0.26,
-      "pl_percent": 0.059965,
-      "exit_timestamp": "2026-08-19T19:45:13.562868",
-      "setup_quality": "B",
-      "position_size_dollars": 4.3
     }
   ]
 }
