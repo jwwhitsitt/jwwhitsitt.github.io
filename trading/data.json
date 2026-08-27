@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T11:30:04.940558-04:00",
+  "generated_at": "2026-08-27T11:45:04.988270-04:00",
   "summary": {
     "total_pl_dollars": -792.25,
     "wins": 18,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 31.59,
-      "current_price": 1.9691,
-      "unrealized_pct": 0.015471094837811368,
-      "unrealized_dollars": 0.06
+      "current_price": 1.97,
+      "unrealized_pct": 0.015935227682945658,
+      "unrealized_dollars": 0.07
     },
     {
       "ticker": "NMTC",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 31.59,
-      "current_price": 1.9691,
-      "unrealized_pct": 0.015471094837811368,
-      "unrealized_dollars": 64.94
+      "current_price": 1.97,
+      "unrealized_pct": 0.015935227682945658,
+      "unrealized_dollars": 66.89
     },
     {
       "ticker": "PPCB",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.91,
-      "current_price": 2.7203,
-      "unrealized_pct": -0.017942238267148043,
-      "unrealized_dollars": -0.08
+      "current_price": 2.5799,
+      "unrealized_pct": -0.0686281588447654,
+      "unrealized_dollars": -0.29
     },
     {
       "ticker": "PPCB",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.91,
-      "current_price": 2.7203,
-      "unrealized_pct": -0.017942238267148043,
-      "unrealized_dollars": -75.38
+      "current_price": 2.5799,
+      "unrealized_pct": -0.0686281588447654,
+      "unrealized_dollars": -288.33
     },
     {
       "ticker": "YMT",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.18,
-      "current_price": 2.8199,
-      "unrealized_pct": 0.01431603179741738,
-      "unrealized_dollars": 0.06
+      "current_price": 2.78,
+      "unrealized_pct": -3.59699291393155e-05,
+      "unrealized_dollars": -0.0
     },
     {
       "ticker": "YMT",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.18,
-      "current_price": 2.8199,
-      "unrealized_pct": 0.01431603179741738,
-      "unrealized_dollars": 60.15
+      "current_price": 2.78,
+      "unrealized_pct": -3.59699291393155e-05,
+      "unrealized_dollars": -0.15
     },
     {
       "ticker": "SBFM",
@@ -101,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.54,
-      "current_price": 1.25,
-      "unrealized_pct": 0.008064516129032265,
-      "unrealized_dollars": 0.03
+      "current_price": 1.2401,
+      "unrealized_pct": 8.06451612903137e-05,
+      "unrealized_dollars": 0.0
     },
     {
       "ticker": "SBFM",
@@ -115,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.54,
-      "current_price": 1.25,
-      "unrealized_pct": 0.008064516129032265,
-      "unrealized_dollars": 34.06
+      "current_price": 1.2401,
+      "unrealized_pct": 8.06451612903137e-05,
+      "unrealized_dollars": 0.34
     }
   ],
   "closed_trades": [
