@@ -1,42 +1,35 @@
 {
-  "generated_at": "2026-08-28T15:45:04.129849-04:00",
+  "generated_at": "2026-08-28T16:00:03.274543-04:00",
   "summary": {
-    "total_pl_dollars": -1304.63,
-    "wins": 17,
-    "losses": 33,
-    "open_count": 2
+    "total_pl_dollars": -1585.44,
+    "wins": 15,
+    "losses": 35,
+    "open_count": 0
   },
-  "open_trades": [
+  "open_trades": [],
+  "closed_trades": [
     {
       "ticker": "KZIA",
       "entry_price": 13.74,
-      "stop_loss_price": 0.0,
-      "profit_target_price": 0.0,
-      "position_size_dollars": 4112.15,
-      "entry_timestamp": "2026-08-28T19:01:25.036834",
+      "exit_price": 13.44,
+      "exit_reason": "eod_close",
+      "pl_dollars": -89.78,
+      "pl_percent": -0.021834,
+      "exit_timestamp": "2026-08-28T19:45:13.933473",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 0.0,
-      "current_price": 13.44,
-      "unrealized_pct": -0.02183406113537123,
-      "unrealized_dollars": -89.78
+      "position_size_dollars": 4112.15
     },
     {
       "ticker": "TNON",
       "entry_price": 5.3,
-      "stop_loss_price": 0.0,
-      "profit_target_price": 0.0,
-      "position_size_dollars": 4132.84,
-      "entry_timestamp": "2026-08-28T13:33:10.825167",
+      "exit_price": 5.209,
+      "exit_reason": "eod_close",
+      "pl_dollars": -70.96,
+      "pl_percent": -0.01717,
+      "exit_timestamp": "2026-08-28T19:45:03.131748",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 0.0,
-      "current_price": 5.209,
-      "unrealized_pct": -0.017169811320754753,
-      "unrealized_dollars": -70.96
-    }
-  ],
-  "closed_trades": [
+      "position_size_dollars": 4132.84
+    },
     {
       "ticker": "AEMD",
       "entry_price": 2.67,
@@ -564,28 +557,6 @@
       "exit_timestamp": "2026-08-21T19:45:45.367226",
       "setup_quality": "B",
       "position_size_dollars": 4274.39
-    },
-    {
-      "ticker": "BTOG",
-      "entry_price": 3.565,
-      "exit_price": 3.665,
-      "exit_reason": "eod_close",
-      "pl_dollars": 0.12,
-      "pl_percent": 0.02805,
-      "exit_timestamp": "2026-08-21T19:45:34.833649",
-      "setup_quality": "B",
-      "position_size_dollars": 4.23
-    },
-    {
-      "ticker": "BTOG",
-      "entry_price": 3.565,
-      "exit_price": 3.665,
-      "exit_reason": "eod_close",
-      "pl_dollars": 119.95,
-      "pl_percent": 0.02805,
-      "exit_timestamp": "2026-08-21T19:45:24.359290",
-      "setup_quality": "B",
-      "position_size_dollars": 4276.21
     }
   ]
 }
