@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T11:45:03.742978-04:00",
+  "generated_at": "2026-08-28T12:00:04.031042-04:00",
   "summary": {
     "total_pl_dollars": -396.24,
     "wins": 19,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.64,
-      "current_price": 2.72,
-      "unrealized_pct": 0.018726591760299727,
-      "unrealized_dollars": 0.08
+      "current_price": 2.695,
+      "unrealized_pct": 0.00936329588014978,
+      "unrealized_dollars": 0.04
     },
     {
       "ticker": "AEMD",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.64,
-      "current_price": 2.72,
-      "unrealized_pct": 0.018726591760299727,
-      "unrealized_dollars": 77.41
+      "current_price": 2.695,
+      "unrealized_pct": 0.00936329588014978,
+      "unrealized_dollars": 38.7
     },
     {
       "ticker": "TNON",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 0.0,
-      "current_price": 5.21,
-      "unrealized_pct": -0.016981132075471674,
-      "unrealized_dollars": -70.18
+      "current_price": 5.28,
+      "unrealized_pct": -0.003773584905660297,
+      "unrealized_dollars": -15.6
     }
   ],
   "closed_trades": [
