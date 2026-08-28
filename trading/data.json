@@ -1,12 +1,27 @@
 {
-  "generated_at": "2026-08-28T09:30:03.818249-04:00",
+  "generated_at": "2026-08-28T09:45:04.899678-04:00",
   "summary": {
     "total_pl_dollars": -396.24,
     "wins": 19,
     "losses": 31,
-    "open_count": 0
+    "open_count": 1
   },
-  "open_trades": [],
+  "open_trades": [
+    {
+      "ticker": "TNON",
+      "entry_price": 5.3,
+      "stop_loss_price": 0.0,
+      "profit_target_price": 0.0,
+      "position_size_dollars": 4132.84,
+      "entry_timestamp": "2026-08-28T13:33:10.825167",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 0.0,
+      "current_price": 5.2401,
+      "unrealized_pct": -0.0113018867924528,
+      "unrealized_dollars": -46.71
+    }
+  ],
   "closed_trades": [
     {
       "ticker": "NMTC",
