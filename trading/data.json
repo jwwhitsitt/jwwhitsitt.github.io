@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T14:30:03.977762-04:00",
+  "generated_at": "2026-08-28T14:45:03.999611-04:00",
   "summary": {
     "total_pl_dollars": -396.24,
     "wins": 19,
@@ -17,8 +17,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.64,
-      "current_price": 2.705,
-      "unrealized_pct": 0.01310861423220979,
+      "current_price": 2.7002,
+      "unrealized_pct": 0.011310861423221059,
       "unrealized_dollars": 0.05
     },
     {
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.64,
-      "current_price": 2.705,
-      "unrealized_pct": 0.01310861423220979,
-      "unrealized_dollars": 54.19
+      "current_price": 2.7002,
+      "unrealized_pct": 0.011310861423221059,
+      "unrealized_dollars": 46.75
     },
     {
       "ticker": "TNON",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 0.0,
-      "current_price": 5.1597,
-      "unrealized_pct": -0.026471698113207525,
-      "unrealized_dollars": -109.4
+      "current_price": 5.095,
+      "unrealized_pct": -0.03867924528301888,
+      "unrealized_dollars": -159.86
     }
   ],
   "closed_trades": [
