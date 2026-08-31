@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T10:30:03.796658-04:00",
+  "generated_at": "2026-08-31T10:45:04.845058-04:00",
   "summary": {
     "total_pl_dollars": -1585.44,
     "wins": 15,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.33,
-      "current_price": 6.0,
-      "unrealized_pct": 0.09090909090909091,
-      "unrealized_dollars": 373.32
+      "current_price": 6.1,
+      "unrealized_pct": 0.10909090909090903,
+      "unrealized_dollars": 447.98
     },
     {
       "ticker": "BLRX",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.27,
-      "current_price": 2.77,
-      "unrealized_pct": 0.04920268171660169,
-      "unrealized_dollars": 0.2
+      "current_price": 2.7371,
+      "unrealized_pct": 0.03674103253664633,
+      "unrealized_dollars": 0.15
     },
     {
       "ticker": "BLRX",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.27,
-      "current_price": 2.77,
-      "unrealized_pct": 0.04920268171660169,
-      "unrealized_dollars": 202.05
+      "current_price": 2.7371,
+      "unrealized_pct": 0.03674103253664633,
+      "unrealized_dollars": 150.88
     }
   ],
   "closed_trades": [
