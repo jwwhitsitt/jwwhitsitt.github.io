@@ -1,98 +1,79 @@
 {
-  "generated_at": "2026-08-31T15:45:04.908823-04:00",
+  "generated_at": "2026-08-31T16:00:04.046718-04:00",
   "summary": {
-    "total_pl_dollars": -3001.93,
-    "wins": 13,
-    "losses": 37,
-    "open_count": 6
+    "total_pl_dollars": -2477.69,
+    "wins": 17,
+    "losses": 33,
+    "open_count": 0
   },
-  "open_trades": [
+  "open_trades": [],
+  "closed_trades": [
     {
       "ticker": "WETO",
       "entry_price": 8.14,
-      "stop_loss_price": 7.01,
-      "profit_target_price": 14.0,
-      "position_size_dollars": 4134.66,
-      "entry_timestamp": "2026-08-31T19:00:53.259196",
+      "exit_price": 6.5,
+      "exit_reason": "eod_close",
+      "pl_dollars": -833.03,
+      "pl_percent": -0.201474,
+      "exit_timestamp": "2026-08-31T19:45:56.306370",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 5.19,
-      "current_price": 6.66,
-      "unrealized_pct": -0.18181818181818185,
-      "unrealized_dollars": -751.76
+      "position_size_dollars": 4134.66
     },
     {
       "ticker": "YDDL",
       "entry_price": 2.2,
-      "stop_loss_price": 2.02,
-      "profit_target_price": 2.63,
-      "position_size_dollars": 4.13,
-      "entry_timestamp": "2026-08-31T17:02:14.479875",
+      "exit_price": 2.28,
+      "exit_reason": "eod_close",
+      "pl_dollars": 0.15,
+      "pl_percent": 0.036364,
+      "exit_timestamp": "2026-08-31T19:45:45.768834",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 2.39,
-      "current_price": 2.275,
-      "unrealized_pct": 0.03409090909090897,
-      "unrealized_dollars": 0.14
+      "position_size_dollars": 4.13
     },
     {
       "ticker": "YDDL",
       "entry_price": 2.2,
-      "stop_loss_price": 2.02,
-      "profit_target_price": 2.63,
-      "position_size_dollars": 4157.73,
-      "entry_timestamp": "2026-08-31T17:02:03.868999",
+      "exit_price": 2.2601,
+      "exit_reason": "eod_close",
+      "pl_dollars": 113.58,
+      "pl_percent": 0.027318,
+      "exit_timestamp": "2026-08-31T19:45:35.297301",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 2.39,
-      "current_price": 2.275,
-      "unrealized_pct": 0.03409090909090897,
-      "unrealized_dollars": 141.74
+      "position_size_dollars": 4157.73
     },
     {
       "ticker": "ARTL",
       "entry_price": 5.5,
-      "stop_loss_price": 4.95,
-      "profit_target_price": 6.6,
-      "position_size_dollars": 4106.52,
-      "entry_timestamp": "2026-08-31T13:34:54.021885",
+      "exit_price": 6.46,
+      "exit_reason": "eod_close",
+      "pl_dollars": 716.77,
+      "pl_percent": 0.174545,
+      "exit_timestamp": "2026-08-31T19:45:24.751774",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 1.33,
-      "current_price": 6.3,
-      "unrealized_pct": 0.14545454545454542,
-      "unrealized_dollars": 597.31
+      "position_size_dollars": 4106.52
     },
     {
       "ticker": "BLRX",
       "entry_price": 2.6401,
-      "stop_loss_price": 2.4601,
-      "profit_target_price": 3.1201,
-      "position_size_dollars": 4.1,
-      "entry_timestamp": "2026-08-31T13:34:43.466260",
+      "exit_price": 2.72,
+      "exit_reason": "eod_close",
+      "pl_dollars": 0.12,
+      "pl_percent": 0.030264,
+      "exit_timestamp": "2026-08-31T19:45:14.051359",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 1.27,
-      "current_price": 2.77,
-      "unrealized_pct": 0.04920268171660169,
-      "unrealized_dollars": 0.2
+      "position_size_dollars": 4.1
     },
     {
       "ticker": "BLRX",
       "entry_price": 2.6401,
-      "stop_loss_price": 2.4601,
-      "profit_target_price": 3.1201,
-      "position_size_dollars": 4106.52,
-      "entry_timestamp": "2026-08-31T13:34:32.739696",
+      "exit_price": 2.77,
+      "exit_reason": "eod_close",
+      "pl_dollars": 202.05,
+      "pl_percent": 0.049203,
+      "exit_timestamp": "2026-08-31T19:45:03.326409",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 1.27,
-      "current_price": 2.77,
-      "unrealized_pct": 0.04920268171660169,
-      "unrealized_dollars": 202.05
-    }
-  ],
-  "closed_trades": [
+      "position_size_dollars": 4106.52
+    },
     {
       "ticker": "AENT",
       "entry_price": 5.13,
@@ -576,72 +557,6 @@
       "exit_timestamp": "2026-08-25T19:45:03.650333",
       "setup_quality": "B",
       "position_size_dollars": 4315.4
-    },
-    {
-      "ticker": "BCAB",
-      "entry_price": 3.34,
-      "exit_price": 3.22,
-      "exit_reason": "eod_close",
-      "pl_dollars": -0.16,
-      "pl_percent": -0.035928,
-      "exit_timestamp": "2026-08-24T19:45:56.243006",
-      "setup_quality": "B",
-      "position_size_dollars": 4.33
-    },
-    {
-      "ticker": "BCAB",
-      "entry_price": 3.34,
-      "exit_price": 3.22,
-      "exit_reason": "eod_close",
-      "pl_dollars": -156.51,
-      "pl_percent": -0.035928,
-      "exit_timestamp": "2026-08-24T19:45:45.744563",
-      "setup_quality": "B",
-      "position_size_dollars": 4356.15
-    },
-    {
-      "ticker": "XPON",
-      "entry_price": 7.23,
-      "exit_price": 6.71,
-      "exit_reason": "eod_close",
-      "pl_dollars": -313.87,
-      "pl_percent": -0.071923,
-      "exit_timestamp": "2026-08-24T19:45:35.133221",
-      "setup_quality": "B",
-      "position_size_dollars": 4363.94
-    },
-    {
-      "ticker": "OLOX",
-      "entry_price": 2.12,
-      "exit_price": 2.04,
-      "exit_reason": "eod_close",
-      "pl_dollars": -0.16,
-      "pl_percent": -0.037736,
-      "exit_timestamp": "2026-08-24T19:45:24.401640",
-      "setup_quality": "B",
-      "position_size_dollars": 4.33
-    },
-    {
-      "ticker": "OLOX",
-      "entry_price": 2.12,
-      "exit_price": 2.0599,
-      "exit_reason": "eod_close",
-      "pl_dollars": -123.1,
-      "pl_percent": -0.028349,
-      "exit_timestamp": "2026-08-24T19:45:13.967591",
-      "setup_quality": "B",
-      "position_size_dollars": 4342.22
-    },
-    {
-      "ticker": "INCR",
-      "entry_price": 5.01,
-      "exit_price": 5.32,
-      "exit_reason": "eod_close",
-      "pl_dollars": 269.2,
-      "pl_percent": 0.061876,
-      "exit_timestamp": "2026-08-24T19:45:03.172399",
-      "setup_quality": "B",
-      "position_size_dollars": 4350.69
     }
   ]
 }
