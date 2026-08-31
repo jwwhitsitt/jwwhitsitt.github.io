@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T13:15:05.530996-04:00",
+  "generated_at": "2026-08-31T13:30:04.878609-04:00",
   "summary": {
     "total_pl_dollars": -767.26,
     "wins": 15,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.39,
-      "current_price": 2.2199,
-      "unrealized_pct": 0.009045454545454457,
-      "unrealized_dollars": 0.04
+      "current_price": 2.18,
+      "unrealized_pct": -0.009090909090909097,
+      "unrealized_dollars": -0.04
     },
     {
       "ticker": "YDDL",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.39,
-      "current_price": 2.2199,
-      "unrealized_pct": 0.009045454545454457,
-      "unrealized_dollars": 37.61
+      "current_price": 2.18,
+      "unrealized_pct": -0.009090909090909097,
+      "unrealized_dollars": -37.8
     },
     {
       "ticker": "AENT",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.57,
-      "current_price": 5.13,
-      "unrealized_pct": 0.0,
-      "unrealized_dollars": null
+      "current_price": 5.03,
+      "unrealized_pct": -0.01949317738791416,
+      "unrealized_dollars": -0.08
     },
     {
       "ticker": "AENT",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.57,
-      "current_price": 5.13,
-      "unrealized_pct": 0.0,
-      "unrealized_dollars": null
+      "current_price": 5.03,
+      "unrealized_pct": -0.01949317738791416,
+      "unrealized_dollars": -81.17
     },
     {
       "ticker": "ARTL",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.33,
-      "current_price": 6.0786,
-      "unrealized_pct": 0.10519999999999996,
-      "unrealized_dollars": 432.01
+      "current_price": 5.94,
+      "unrealized_pct": 0.08000000000000007,
+      "unrealized_dollars": 328.52
     },
     {
       "ticker": "BLRX",
