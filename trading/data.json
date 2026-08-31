@@ -1,12 +1,55 @@
 {
-  "generated_at": "2026-08-31T09:30:03.242961-04:00",
+  "generated_at": "2026-08-31T09:45:05.212800-04:00",
   "summary": {
     "total_pl_dollars": -1585.44,
     "wins": 15,
     "losses": 35,
-    "open_count": 0
+    "open_count": 3
   },
-  "open_trades": [],
+  "open_trades": [
+    {
+      "ticker": "ARTL",
+      "entry_price": 5.5,
+      "stop_loss_price": 4.95,
+      "profit_target_price": 6.6,
+      "position_size_dollars": 4106.52,
+      "entry_timestamp": "2026-08-31T13:34:54.021885",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.33,
+      "current_price": 5.625,
+      "unrealized_pct": 0.022727272727272728,
+      "unrealized_dollars": 93.33
+    },
+    {
+      "ticker": "BLRX",
+      "entry_price": 2.6401,
+      "stop_loss_price": 2.4601,
+      "profit_target_price": 3.1201,
+      "position_size_dollars": 4.1,
+      "entry_timestamp": "2026-08-31T13:34:43.466260",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.27,
+      "current_price": 2.6298,
+      "unrealized_pct": -0.0039013673724480045,
+      "unrealized_dollars": -0.02
+    },
+    {
+      "ticker": "BLRX",
+      "entry_price": 2.6401,
+      "stop_loss_price": 2.4601,
+      "profit_target_price": 3.1201,
+      "position_size_dollars": 4106.52,
+      "entry_timestamp": "2026-08-31T13:34:32.739696",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.27,
+      "current_price": 2.6298,
+      "unrealized_pct": -0.0039013673724480045,
+      "unrealized_dollars": -16.02
+    }
+  ],
   "closed_trades": [
     {
       "ticker": "KZIA",
