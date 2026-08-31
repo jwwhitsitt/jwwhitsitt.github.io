@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T11:15:05.174287-04:00",
+  "generated_at": "2026-08-31T11:30:05.516494-04:00",
   "summary": {
     "total_pl_dollars": -1585.44,
     "wins": 15,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.52,
-      "current_price": 1.025,
-      "unrealized_pct": -0.004854368932038947,
-      "unrealized_dollars": -0.02
+      "current_price": 1.05,
+      "unrealized_pct": 0.019417475728155355,
+      "unrealized_dollars": 0.08
     },
     {
       "ticker": "WBUY",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.52,
-      "current_price": 1.025,
-      "unrealized_pct": -0.004854368932038947,
-      "unrealized_dollars": -20.07
+      "current_price": 1.05,
+      "unrealized_pct": 0.019417475728155355,
+      "unrealized_dollars": 80.27
     },
     {
       "ticker": "NCRA",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.93,
-      "current_price": 2.5902,
-      "unrealized_pct": 0.08831932773109241,
-      "unrealized_dollars": 0.36
+      "current_price": 2.5802,
+      "unrealized_pct": 0.0841176470588236,
+      "unrealized_dollars": 0.34
     },
     {
       "ticker": "NCRA",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.93,
-      "current_price": 2.5902,
-      "unrealized_pct": 0.08831932773109241,
-      "unrealized_dollars": 365.11
+      "current_price": 2.5802,
+      "unrealized_pct": 0.0841176470588236,
+      "unrealized_dollars": 347.74
     },
     {
       "ticker": "ARTL",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.33,
-      "current_price": 6.265,
-      "unrealized_pct": 0.13909090909090904,
-      "unrealized_dollars": 571.18
+      "current_price": 6.22,
+      "unrealized_pct": 0.13090909090909086,
+      "unrealized_dollars": 537.58
     },
     {
       "ticker": "BLRX",
