@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-31T11:45:04.983540-04:00",
+  "generated_at": "2026-08-31T12:00:05.798615-04:00",
   "summary": {
-    "total_pl_dollars": -1585.44,
+    "total_pl_dollars": -680.01,
     "wins": 15,
     "losses": 35,
-    "open_count": 7
+    "open_count": 5
   },
   "open_trades": [
     {
@@ -17,8 +17,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.52,
-      "current_price": 1.0203,
-      "unrealized_pct": -0.00941747572815538,
+      "current_price": 1.0201,
+      "unrealized_pct": -0.009611650485436912,
       "unrealized_dollars": -0.04
     },
     {
@@ -31,37 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.52,
-      "current_price": 1.0203,
-      "unrealized_pct": -0.00941747572815538,
-      "unrealized_dollars": -38.93
-    },
-    {
-      "ticker": "NCRA",
-      "entry_price": 2.38,
-      "stop_loss_price": 2.235,
-      "profit_target_price": 2.95,
-      "position_size_dollars": 4.1,
-      "entry_timestamp": "2026-08-31T15:02:19.482382",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 3.93,
-      "current_price": 2.9799,
-      "unrealized_pct": 0.2520588235294119,
-      "unrealized_dollars": 1.03
-    },
-    {
-      "ticker": "NCRA",
-      "entry_price": 2.38,
-      "stop_loss_price": 2.235,
-      "profit_target_price": 2.95,
-      "position_size_dollars": 4133.92,
-      "entry_timestamp": "2026-08-31T15:02:08.746468",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 3.93,
-      "current_price": 2.9799,
-      "unrealized_pct": 0.2520588235294119,
-      "unrealized_dollars": 1041.99
+      "current_price": 1.0201,
+      "unrealized_pct": -0.009611650485436912,
+      "unrealized_dollars": -39.73
     },
     {
       "ticker": "ARTL",
@@ -73,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.33,
-      "current_price": 6.3205,
-      "unrealized_pct": 0.1491818181818182,
-      "unrealized_dollars": 612.62
+      "current_price": 6.2872,
+      "unrealized_pct": 0.1431272727272728,
+      "unrealized_dollars": 587.76
     },
     {
       "ticker": "BLRX",
@@ -87,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.27,
-      "current_price": 2.84,
-      "unrealized_pct": 0.0757168289079959,
-      "unrealized_dollars": 0.31
+      "current_price": 2.7225,
+      "unrealized_pct": 0.031210938979584203,
+      "unrealized_dollars": 0.13
     },
     {
       "ticker": "BLRX",
@@ -101,12 +73,34 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.27,
-      "current_price": 2.84,
-      "unrealized_pct": 0.0757168289079959,
-      "unrealized_dollars": 310.93
+      "current_price": 2.7225,
+      "unrealized_pct": 0.031210938979584203,
+      "unrealized_dollars": 128.17
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "NCRA",
+      "entry_price": 2.38,
+      "exit_price": 2.99,
+      "exit_reason": "target_hit",
+      "pl_dollars": 1.05,
+      "pl_percent": 0.256303,
+      "exit_timestamp": "2026-08-31T15:45:14.989592",
+      "setup_quality": "B",
+      "position_size_dollars": 4.1
+    },
+    {
+      "ticker": "NCRA",
+      "entry_price": 2.38,
+      "exit_price": 2.9799,
+      "exit_reason": "target_hit",
+      "pl_dollars": 1041.99,
+      "pl_percent": 0.252059,
+      "exit_timestamp": "2026-08-31T15:45:04.288553",
+      "setup_quality": "B",
+      "position_size_dollars": 4133.92
+    },
     {
       "ticker": "KZIA",
       "entry_price": 13.74,
@@ -634,28 +628,6 @@
       "exit_timestamp": "2026-08-24T13:45:03.719269",
       "setup_quality": "B",
       "position_size_dollars": 4267.78
-    },
-    {
-      "ticker": "KWM",
-      "entry_price": 1.55,
-      "exit_price": 1.5501,
-      "exit_reason": "eod_close",
-      "pl_dollars": 0.0,
-      "pl_percent": 6.5e-05,
-      "exit_timestamp": "2026-08-21T19:45:55.813746",
-      "setup_quality": "B",
-      "position_size_dollars": 4.23
-    },
-    {
-      "ticker": "KWM",
-      "entry_price": 1.55,
-      "exit_price": 1.5999,
-      "exit_reason": "eod_close",
-      "pl_dollars": 137.61,
-      "pl_percent": 0.032194,
-      "exit_timestamp": "2026-08-21T19:45:45.367226",
-      "setup_quality": "B",
-      "position_size_dollars": 4274.39
     }
   ]
 }
