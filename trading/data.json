@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T10:00:05.137327-04:00",
+  "generated_at": "2026-08-31T10:15:04.059557-04:00",
   "summary": {
     "total_pl_dollars": -1585.44,
     "wins": 15,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.33,
-      "current_price": 5.7999,
-      "unrealized_pct": 0.05452727272727274,
-      "unrealized_dollars": 223.92
+      "current_price": 5.7697,
+      "unrealized_pct": 0.04903636363636368,
+      "unrealized_dollars": 201.37
     },
     {
       "ticker": "BLRX",
