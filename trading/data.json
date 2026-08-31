@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T11:30:05.516494-04:00",
+  "generated_at": "2026-08-31T11:45:04.983540-04:00",
   "summary": {
     "total_pl_dollars": -1585.44,
     "wins": 15,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.52,
-      "current_price": 1.05,
-      "unrealized_pct": 0.019417475728155355,
-      "unrealized_dollars": 0.08
+      "current_price": 1.0203,
+      "unrealized_pct": -0.00941747572815538,
+      "unrealized_dollars": -0.04
     },
     {
       "ticker": "WBUY",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.52,
-      "current_price": 1.05,
-      "unrealized_pct": 0.019417475728155355,
-      "unrealized_dollars": 80.27
+      "current_price": 1.0203,
+      "unrealized_pct": -0.00941747572815538,
+      "unrealized_dollars": -38.93
     },
     {
       "ticker": "NCRA",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.93,
-      "current_price": 2.5802,
-      "unrealized_pct": 0.0841176470588236,
-      "unrealized_dollars": 0.34
+      "current_price": 2.9799,
+      "unrealized_pct": 0.2520588235294119,
+      "unrealized_dollars": 1.03
     },
     {
       "ticker": "NCRA",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.93,
-      "current_price": 2.5802,
-      "unrealized_pct": 0.0841176470588236,
-      "unrealized_dollars": 347.74
+      "current_price": 2.9799,
+      "unrealized_pct": 0.2520588235294119,
+      "unrealized_dollars": 1041.99
     },
     {
       "ticker": "ARTL",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.33,
-      "current_price": 6.22,
-      "unrealized_pct": 0.13090909090909086,
-      "unrealized_dollars": 537.58
+      "current_price": 6.3205,
+      "unrealized_pct": 0.1491818181818182,
+      "unrealized_dollars": 612.62
     },
     {
       "ticker": "BLRX",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.27,
-      "current_price": 2.74,
-      "unrealized_pct": 0.037839475777432796,
-      "unrealized_dollars": 0.16
+      "current_price": 2.84,
+      "unrealized_pct": 0.0757168289079959,
+      "unrealized_dollars": 0.31
     },
     {
       "ticker": "BLRX",
@@ -101,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.27,
-      "current_price": 2.74,
-      "unrealized_pct": 0.037839475777432796,
-      "unrealized_dollars": 155.39
+      "current_price": 2.84,
+      "unrealized_pct": 0.0757168289079959,
+      "unrealized_dollars": 310.93
     }
   ],
   "closed_trades": [
