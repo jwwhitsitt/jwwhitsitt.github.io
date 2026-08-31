@@ -1,40 +1,12 @@
 {
-  "generated_at": "2026-08-31T12:45:04.439271-04:00",
+  "generated_at": "2026-08-31T13:00:03.689304-04:00",
   "summary": {
-    "total_pl_dollars": -680.01,
+    "total_pl_dollars": -767.26,
     "wins": 15,
     "losses": 35,
-    "open_count": 5
+    "open_count": 3
   },
   "open_trades": [
-    {
-      "ticker": "WBUY",
-      "entry_price": 1.03,
-      "stop_loss_price": 0.9705,
-      "profit_target_price": 1.18,
-      "position_size_dollars": 4.1,
-      "entry_timestamp": "2026-08-31T15:02:40.687660",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 2.52,
-      "current_price": 0.95,
-      "unrealized_pct": -0.07766990291262142,
-      "unrealized_dollars": -0.32
-    },
-    {
-      "ticker": "WBUY",
-      "entry_price": 1.03,
-      "stop_loss_price": 0.9705,
-      "profit_target_price": 1.18,
-      "position_size_dollars": 4133.91,
-      "entry_timestamp": "2026-08-31T15:02:30.053612",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 2.52,
-      "current_price": 0.95,
-      "unrealized_pct": -0.07766990291262142,
-      "unrealized_dollars": -321.08
-    },
     {
       "ticker": "ARTL",
       "entry_price": 5.5,
@@ -45,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.33,
-      "current_price": 6.06,
-      "unrealized_pct": 0.10181818181818175,
-      "unrealized_dollars": 418.12
+      "current_price": 5.985,
+      "unrealized_pct": 0.08818181818181824,
+      "unrealized_dollars": 362.12
     },
     {
       "ticker": "BLRX",
@@ -59,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.27,
-      "current_price": 2.7456,
-      "unrealized_pct": 0.03996060755274427,
-      "unrealized_dollars": 0.16
+      "current_price": 2.7663,
+      "unrealized_pct": 0.04780121965077092,
+      "unrealized_dollars": 0.2
     },
     {
       "ticker": "BLRX",
@@ -73,12 +45,34 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.27,
-      "current_price": 2.7456,
-      "unrealized_pct": 0.03996060755274427,
-      "unrealized_dollars": 164.1
+      "current_price": 2.7663,
+      "unrealized_pct": 0.04780121965077092,
+      "unrealized_dollars": 196.3
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "WBUY",
+      "entry_price": 1.03,
+      "exit_price": 0.9453,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.34,
+      "pl_percent": -0.082233,
+      "exit_timestamp": "2026-08-31T16:45:14.453741",
+      "setup_quality": "B",
+      "position_size_dollars": 4.1
+    },
+    {
+      "ticker": "WBUY",
+      "entry_price": 1.03,
+      "exit_price": 0.95,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -321.08,
+      "pl_percent": -0.07767,
+      "exit_timestamp": "2026-08-31T16:45:03.751042",
+      "setup_quality": "B",
+      "position_size_dollars": 4133.91
+    },
     {
       "ticker": "NCRA",
       "entry_price": 2.38,
@@ -604,28 +598,6 @@
       "pl_dollars": 2086.47,
       "pl_percent": 0.488889,
       "exit_timestamp": "2026-08-24T14:15:02.921372",
-      "setup_quality": "B",
-      "position_size_dollars": 4267.78
-    },
-    {
-      "ticker": "BCTX",
-      "entry_price": 3.74,
-      "exit_price": 3.535,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -0.23,
-      "pl_percent": -0.054813,
-      "exit_timestamp": "2026-08-24T13:45:14.460802",
-      "setup_quality": "B",
-      "position_size_dollars": 4.22
-    },
-    {
-      "ticker": "BCTX",
-      "entry_price": 3.74,
-      "exit_price": 3.535,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -233.93,
-      "pl_percent": -0.054813,
-      "exit_timestamp": "2026-08-24T13:45:03.719269",
       "setup_quality": "B",
       "position_size_dollars": 4267.78
     }
