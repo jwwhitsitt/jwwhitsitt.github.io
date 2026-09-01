@@ -1,56 +1,46 @@
 {
-  "generated_at": "2026-09-01T15:45:03.830933-04:00",
+  "generated_at": "2026-09-01T16:00:03.377470-04:00",
   "summary": {
-    "total_pl_dollars": -2003.76,
-    "wins": 17,
-    "losses": 33,
-    "open_count": 3
+    "total_pl_dollars": -1752.83,
+    "wins": 19,
+    "losses": 31,
+    "open_count": 0
   },
-  "open_trades": [
+  "open_trades": [],
+  "closed_trades": [
     {
       "ticker": "OLOX",
       "entry_price": 1.139,
-      "stop_loss_price": 0.9999,
-      "profit_target_price": 1.46,
-      "position_size_dollars": 4.08,
-      "entry_timestamp": "2026-09-01T19:01:17.278263",
+      "exit_price": 1.16,
+      "exit_reason": "eod_close",
+      "pl_dollars": 0.08,
+      "pl_percent": 0.018437,
+      "exit_timestamp": "2026-09-01T19:45:24.080217",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 2.31,
-      "current_price": 1.155,
-      "unrealized_pct": 0.014047410008779643,
-      "unrealized_dollars": 0.06
+      "position_size_dollars": 4.08
     },
     {
       "ticker": "OLOX",
       "entry_price": 1.139,
-      "stop_loss_price": 0.9999,
-      "profit_target_price": 1.46,
-      "position_size_dollars": 4103.93,
-      "entry_timestamp": "2026-09-01T19:01:06.707548",
+      "exit_price": 1.1501,
+      "exit_reason": "eod_close",
+      "pl_dollars": 39.99,
+      "pl_percent": 0.009745,
+      "exit_timestamp": "2026-09-01T19:45:13.563773",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 2.31,
-      "current_price": 1.155,
-      "unrealized_pct": 0.014047410008779643,
-      "unrealized_dollars": 57.65
+      "position_size_dollars": 4103.93
     },
     {
       "ticker": "BIAF",
       "entry_price": 6.18,
-      "stop_loss_price": 5.25,
-      "profit_target_price": 7.5,
-      "position_size_dollars": 4089.91,
-      "entry_timestamp": "2026-09-01T15:02:03.791313",
+      "exit_price": 6.73,
+      "exit_reason": "eod_close",
+      "pl_dollars": 363.99,
+      "pl_percent": 0.088997,
+      "exit_timestamp": "2026-09-01T19:45:02.693891",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 1.08,
-      "current_price": 6.73,
-      "unrealized_pct": 0.08899676375404543,
-      "unrealized_dollars": 363.99
-    }
-  ],
-  "closed_trades": [
+      "position_size_dollars": 4089.91
+    },
     {
       "ticker": "SSM",
       "entry_price": 3.695,
@@ -567,39 +557,6 @@
       "exit_timestamp": "2026-08-26T13:45:04.193163",
       "setup_quality": "B",
       "position_size_dollars": 4303.97
-    },
-    {
-      "ticker": "NXPL",
-      "entry_price": 8.7505,
-      "exit_price": 9.08,
-      "exit_reason": "eod_close",
-      "pl_dollars": 163.63,
-      "pl_percent": 0.037655,
-      "exit_timestamp": "2026-08-25T19:46:28.458187",
-      "setup_quality": "B",
-      "position_size_dollars": 4345.41
-    },
-    {
-      "ticker": "RCON",
-      "entry_price": 2.07,
-      "exit_price": 2.065,
-      "exit_reason": "eod_close",
-      "pl_dollars": -0.01,
-      "pl_percent": -0.002415,
-      "exit_timestamp": "2026-08-25T19:46:17.900105",
-      "setup_quality": "B",
-      "position_size_dollars": 4.3
-    },
-    {
-      "ticker": "RCON",
-      "entry_price": 2.07,
-      "exit_price": 2.065,
-      "exit_reason": "eod_close",
-      "pl_dollars": -10.49,
-      "pl_percent": -0.002415,
-      "exit_timestamp": "2026-08-25T19:46:07.379029",
-      "setup_quality": "B",
-      "position_size_dollars": 4341.87
     }
   ]
 }
