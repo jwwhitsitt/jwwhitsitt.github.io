@@ -1,12 +1,69 @@
 {
-  "generated_at": "2026-09-01T09:30:03.681065-04:00",
+  "generated_at": "2026-09-01T09:45:05.647319-04:00",
   "summary": {
     "total_pl_dollars": -2477.69,
     "wins": 17,
     "losses": 33,
-    "open_count": 0
+    "open_count": 4
   },
-  "open_trades": [],
+  "open_trades": [
+    {
+      "ticker": "SSM",
+      "entry_price": 3.695,
+      "stop_loss_price": 3.25,
+      "profit_target_price": 4.5,
+      "position_size_dollars": 4.1,
+      "entry_timestamp": "2026-09-01T13:34:34.470304",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.54,
+      "current_price": 4.12,
+      "unrealized_pct": 0.11502029769959413,
+      "unrealized_dollars": 0.47
+    },
+    {
+      "ticker": "SSM",
+      "entry_price": 3.695,
+      "stop_loss_price": 3.25,
+      "profit_target_price": 4.5,
+      "position_size_dollars": 4104.37,
+      "entry_timestamp": "2026-09-01T13:34:23.880184",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.54,
+      "current_price": 4.12,
+      "unrealized_pct": 0.11502029769959413,
+      "unrealized_dollars": 472.09
+    },
+    {
+      "ticker": "YYGH",
+      "entry_price": 1.5699,
+      "stop_loss_price": 1.41,
+      "profit_target_price": 2.5,
+      "position_size_dollars": 4.1,
+      "entry_timestamp": "2026-09-01T13:34:13.290625",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.77,
+      "current_price": 1.5206,
+      "unrealized_pct": -0.0314032740938914,
+      "unrealized_dollars": -0.13
+    },
+    {
+      "ticker": "YYGH",
+      "entry_price": 1.5699,
+      "stop_loss_price": 1.41,
+      "profit_target_price": 2.5,
+      "position_size_dollars": 4104.96,
+      "entry_timestamp": "2026-09-01T13:34:02.457924",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.77,
+      "current_price": 1.5206,
+      "unrealized_pct": -0.0314032740938914,
+      "unrealized_dollars": -128.91
+    }
+  ],
   "closed_trades": [
     {
       "ticker": "WETO",
