@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T09:45:05.647319-04:00",
+  "generated_at": "2026-09-01T10:00:05.416429-04:00",
   "summary": {
     "total_pl_dollars": -2477.69,
     "wins": 17,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.54,
-      "current_price": 4.12,
-      "unrealized_pct": 0.11502029769959413,
-      "unrealized_dollars": 0.47
+      "current_price": 3.8049,
+      "unrealized_pct": 0.029742895805142115,
+      "unrealized_dollars": 0.12
     },
     {
       "ticker": "SSM",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.54,
-      "current_price": 4.12,
-      "unrealized_pct": 0.11502029769959413,
-      "unrealized_dollars": 472.09
+      "current_price": 3.8049,
+      "unrealized_pct": 0.029742895805142115,
+      "unrealized_dollars": 122.08
     },
     {
       "ticker": "YYGH",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.77,
-      "current_price": 1.5206,
-      "unrealized_pct": -0.0314032740938914,
-      "unrealized_dollars": -0.13
+      "current_price": 1.41,
+      "unrealized_pct": -0.10185362124976123,
+      "unrealized_dollars": -0.42
     },
     {
       "ticker": "YYGH",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.77,
-      "current_price": 1.5206,
-      "unrealized_pct": -0.0314032740938914,
-      "unrealized_dollars": -128.91
+      "current_price": 1.41,
+      "unrealized_pct": -0.10185362124976123,
+      "unrealized_dollars": -418.11
     }
   ],
   "closed_trades": [
