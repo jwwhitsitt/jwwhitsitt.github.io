@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-01T15:30:04.391737-04:00",
+  "generated_at": "2026-09-01T15:45:03.830933-04:00",
   "summary": {
-    "total_pl_dollars": -2183.14,
+    "total_pl_dollars": -2003.76,
     "wins": 17,
     "losses": 33,
-    "open_count": 5
+    "open_count": 3
   },
   "open_trades": [
     {
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.31,
-      "current_price": 1.145,
-      "unrealized_pct": 0.005267778753292367,
-      "unrealized_dollars": 0.02
+      "current_price": 1.155,
+      "unrealized_pct": 0.014047410008779643,
+      "unrealized_dollars": 0.06
     },
     {
       "ticker": "OLOX",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.31,
-      "current_price": 1.145,
-      "unrealized_pct": 0.005267778753292367,
-      "unrealized_dollars": 21.62
+      "current_price": 1.155,
+      "unrealized_pct": 0.014047410008779643,
+      "unrealized_dollars": 57.65
     },
     {
       "ticker": "BIAF",
@@ -45,40 +45,34 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.08,
-      "current_price": 6.8585,
-      "unrealized_pct": 0.10978964401294508,
-      "unrealized_dollars": 449.03
-    },
-    {
-      "ticker": "SSM",
-      "entry_price": 3.695,
-      "stop_loss_price": 3.25,
-      "profit_target_price": 4.5,
-      "position_size_dollars": 4.1,
-      "entry_timestamp": "2026-09-01T13:34:34.470304",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 1.54,
-      "current_price": 4.5901,
-      "unrealized_pct": 0.24224627875507437,
-      "unrealized_dollars": 0.99
-    },
-    {
-      "ticker": "SSM",
-      "entry_price": 3.695,
-      "stop_loss_price": 3.25,
-      "profit_target_price": 4.5,
-      "position_size_dollars": 4104.37,
-      "entry_timestamp": "2026-09-01T13:34:23.880184",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 1.54,
-      "current_price": 4.5901,
-      "unrealized_pct": 0.24224627875507437,
-      "unrealized_dollars": 994.27
+      "current_price": 6.73,
+      "unrealized_pct": 0.08899676375404543,
+      "unrealized_dollars": 363.99
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "SSM",
+      "entry_price": 3.695,
+      "exit_price": 4.565,
+      "exit_reason": "target_hit",
+      "pl_dollars": 0.97,
+      "pl_percent": 0.235453,
+      "exit_timestamp": "2026-09-01T19:30:13.910148",
+      "setup_quality": "B",
+      "position_size_dollars": 4.1
+    },
+    {
+      "ticker": "SSM",
+      "entry_price": 3.695,
+      "exit_price": 4.5965,
+      "exit_reason": "target_hit",
+      "pl_dollars": 1001.38,
+      "pl_percent": 0.243978,
+      "exit_timestamp": "2026-09-01T19:30:03.030629",
+      "setup_quality": "B",
+      "position_size_dollars": 4104.37
+    },
     {
       "ticker": "XXII",
       "entry_price": 2.7,
@@ -606,28 +600,6 @@
       "exit_timestamp": "2026-08-25T19:46:07.379029",
       "setup_quality": "B",
       "position_size_dollars": 4341.87
-    },
-    {
-      "ticker": "DAIC",
-      "entry_price": 3.17,
-      "exit_price": 3.8762,
-      "exit_reason": "eod_close",
-      "pl_dollars": 0.95,
-      "pl_percent": 0.222776,
-      "exit_timestamp": "2026-08-25T19:45:56.707925",
-      "setup_quality": "B",
-      "position_size_dollars": 4.27
-    },
-    {
-      "ticker": "DAIC",
-      "entry_price": 3.17,
-      "exit_price": 3.77,
-      "exit_reason": "eod_close",
-      "pl_dollars": 822.01,
-      "pl_percent": 0.189274,
-      "exit_timestamp": "2026-08-25T19:45:46.228279",
-      "setup_quality": "B",
-      "position_size_dollars": 4342.93
     }
   ]
 }
