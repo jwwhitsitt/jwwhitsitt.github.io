@@ -1,12 +1,40 @@
 {
-  "generated_at": "2026-09-01T13:00:06.053739-04:00",
+  "generated_at": "2026-09-01T13:15:04.983231-04:00",
   "summary": {
     "total_pl_dollars": -2457.44,
     "wins": 17,
     "losses": 33,
-    "open_count": 3
+    "open_count": 5
   },
   "open_trades": [
+    {
+      "ticker": "XXII",
+      "entry_price": 2.7,
+      "stop_loss_price": 2.6,
+      "profit_target_price": 3.8,
+      "position_size_dollars": 4.09,
+      "entry_timestamp": "2026-09-01T17:01:43.893820",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 11.0,
+      "current_price": 2.5601,
+      "unrealized_pct": -0.051814814814814945,
+      "unrealized_dollars": -0.21
+    },
+    {
+      "ticker": "XXII",
+      "entry_price": 2.7,
+      "stop_loss_price": 2.6,
+      "profit_target_price": 3.8,
+      "position_size_dollars": 4099.68,
+      "entry_timestamp": "2026-09-01T17:01:33.091757",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 11.0,
+      "current_price": 2.5601,
+      "unrealized_pct": -0.051814814814814945,
+      "unrealized_dollars": -212.42
+    },
     {
       "ticker": "BIAF",
       "entry_price": 6.18,
@@ -17,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.08,
-      "current_price": 6.39,
-      "unrealized_pct": 0.03398058252427184,
-      "unrealized_dollars": 138.98
+      "current_price": 6.52,
+      "unrealized_pct": 0.05501618122977344,
+      "unrealized_dollars": 225.01
     },
     {
       "ticker": "SSM",
@@ -31,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.54,
-      "current_price": 3.92,
-      "unrealized_pct": 0.06089309878213805,
-      "unrealized_dollars": 0.25
+      "current_price": 3.9999,
+      "unrealized_pct": 0.08251691474966169,
+      "unrealized_dollars": 0.34
     },
     {
       "ticker": "SSM",
@@ -45,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.54,
-      "current_price": 3.92,
-      "unrealized_pct": 0.06089309878213805,
-      "unrealized_dollars": 249.93
+      "current_price": 3.9999,
+      "unrealized_pct": 0.08251691474966169,
+      "unrealized_dollars": 338.68
     }
   ],
   "closed_trades": [
