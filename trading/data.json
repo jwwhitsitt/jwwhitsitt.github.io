@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T13:45:03.783397-04:00",
+  "generated_at": "2026-09-01T14:00:03.975123-04:00",
   "summary": {
     "total_pl_dollars": -2183.14,
     "wins": 17,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.08,
-      "current_price": 6.84,
-      "unrealized_pct": 0.10679611650485439,
-      "unrealized_dollars": 436.79
+      "current_price": 6.65,
+      "unrealized_pct": 0.07605177993527519,
+      "unrealized_dollars": 311.04
     },
     {
       "ticker": "SSM",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.54,
-      "current_price": 3.9717,
-      "unrealized_pct": 0.07488497970230039,
-      "unrealized_dollars": 0.31
+      "current_price": 3.935,
+      "unrealized_pct": 0.0649526387009473,
+      "unrealized_dollars": 0.27
     },
     {
       "ticker": "SSM",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.54,
-      "current_price": 3.9717,
-      "unrealized_pct": 0.07488497970230039,
-      "unrealized_dollars": 307.36
+      "current_price": 3.935,
+      "unrealized_pct": 0.0649526387009473,
+      "unrealized_dollars": 266.59
     }
   ],
   "closed_trades": [
