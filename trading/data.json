@@ -1,12 +1,26 @@
 {
-  "generated_at": "2026-09-01T11:00:03.835402-04:00",
+  "generated_at": "2026-09-01T11:15:04.376517-04:00",
   "summary": {
     "total_pl_dollars": -2457.44,
     "wins": 17,
     "losses": 33,
-    "open_count": 2
+    "open_count": 3
   },
   "open_trades": [
+    {
+      "ticker": "BIAF",
+      "entry_price": 6.18,
+      "stop_loss_price": 5.25,
+      "profit_target_price": 7.5,
+      "position_size_dollars": 4089.91,
+      "entry_timestamp": "2026-09-01T15:02:03.791313",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.08,
+      "current_price": 6.36,
+      "unrealized_pct": 0.029126213592233108,
+      "unrealized_dollars": 119.12
+    },
     {
       "ticker": "SSM",
       "entry_price": 3.695,
@@ -17,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.54,
-      "current_price": 3.87,
-      "unrealized_pct": 0.04736129905277409,
-      "unrealized_dollars": 0.19
+      "current_price": 3.83,
+      "unrealized_pct": 0.03653585926928288,
+      "unrealized_dollars": 0.15
     },
     {
       "ticker": "SSM",
@@ -31,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.54,
-      "current_price": 3.87,
-      "unrealized_pct": 0.04736129905277409,
-      "unrealized_dollars": 194.39
+      "current_price": 3.83,
+      "unrealized_pct": 0.03653585926928288,
+      "unrealized_dollars": 149.96
     }
   ],
   "closed_trades": [
