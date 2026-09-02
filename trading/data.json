@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T15:30:04.820921-04:00",
+  "generated_at": "2026-09-02T15:45:04.071977-04:00",
   "summary": {
     "total_pl_dollars": -1752.83,
     "wins": 19,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.36,
-      "current_price": 2.36,
-      "unrealized_pct": 0.09680717572152249,
-      "unrealized_dollars": 0.4
+      "current_price": 2.21,
+      "unrealized_pct": 0.02709485523074779,
+      "unrealized_dollars": 0.11
     },
     {
       "ticker": "PPBT",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.36,
-      "current_price": 2.36,
-      "unrealized_pct": 0.09680717572152249,
-      "unrealized_dollars": 400.07
+      "current_price": 2.21,
+      "unrealized_pct": 0.02709485523074779,
+      "unrealized_dollars": 111.97
     }
   ],
   "closed_trades": [
