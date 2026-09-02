@@ -1,12 +1,41 @@
 {
-  "generated_at": "2026-09-02T11:00:03.287969-04:00",
+  "generated_at": "2026-09-02T11:15:04.338688-04:00",
   "summary": {
     "total_pl_dollars": -1752.83,
     "wins": 19,
     "losses": 31,
-    "open_count": 0
+    "open_count": 2
   },
-  "open_trades": [],
+  "open_trades": [
+    {
+      "ticker": "PPBT",
+      "entry_price": 2.1517,
+      "stop_loss_price": 2.07,
+      "profit_target_price": 2.59,
+      "position_size_dollars": 4.14,
+      "entry_timestamp": "2026-09-02T15:02:39.794465",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 5.36,
+      "current_price": 2.22,
+      "unrealized_pct": 0.03174234326346621,
+      "unrealized_dollars": 0.13
+    },
+    {
+      "ticker": "PPBT",
+      "entry_price": 2.1517,
+      "stop_loss_price": 2.07,
+      "profit_target_price": 2.59,
+      "position_size_dollars": 4132.69,
+      "entry_timestamp": "2026-09-02T15:02:28.738847",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 5.36,
+      "current_price": 2.22,
+      "unrealized_pct": 0.03174234326346621,
+      "unrealized_dollars": 131.18
+    }
+  ],
   "closed_trades": [
     {
       "ticker": "OLOX",
