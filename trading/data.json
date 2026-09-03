@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T13:00:06.314665-04:00",
+  "generated_at": "2026-09-03T13:15:04.852393-04:00",
   "summary": {
     "total_pl_dollars": -274.32,
     "wins": 21,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 8.29,
-      "current_price": 3.485,
-      "unrealized_pct": 0.06250000000000003,
-      "unrealized_dollars": 0.26
+      "current_price": 3.5158,
+      "unrealized_pct": 0.0718902439024391,
+      "unrealized_dollars": 0.3
     },
     {
       "ticker": "DBGI",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 8.29,
-      "current_price": 3.485,
-      "unrealized_pct": 0.06250000000000003,
-      "unrealized_dollars": 258.3
+      "current_price": 3.5158,
+      "unrealized_pct": 0.0718902439024391,
+      "unrealized_dollars": 297.11
     },
     {
       "ticker": "APVO",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.0,
-      "current_price": 2.05,
-      "unrealized_pct": 0.02499999999999991,
-      "unrealized_dollars": 0.1
+      "current_price": 2.035,
+      "unrealized_pct": 0.01750000000000007,
+      "unrealized_dollars": 0.07
     },
     {
       "ticker": "APVO",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.0,
-      "current_price": 2.05,
-      "unrealized_pct": 0.02499999999999991,
-      "unrealized_dollars": 103.32
+      "current_price": 2.035,
+      "unrealized_pct": 0.01750000000000007,
+      "unrealized_dollars": 72.32
     },
     {
       "ticker": "BTOG",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.4,
-      "current_price": 2.38,
-      "unrealized_pct": 0.09174311926605491,
-      "unrealized_dollars": 0.38
+      "current_price": 2.33,
+      "unrealized_pct": 0.06880733944954123,
+      "unrealized_dollars": 0.28
     },
     {
       "ticker": "BTOG",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.4,
-      "current_price": 2.38,
-      "unrealized_pct": 0.09174311926605491,
-      "unrealized_dollars": 379.58
+      "current_price": 2.33,
+      "unrealized_pct": 0.06880733944954123,
+      "unrealized_dollars": 284.69
     }
   ],
   "closed_trades": [
