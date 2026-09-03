@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T11:45:04.701977-04:00",
+  "generated_at": "2026-09-03T12:00:04.560489-04:00",
   "summary": {
     "total_pl_dollars": -274.32,
     "wins": 21,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 8.29,
-      "current_price": 3.25,
-      "unrealized_pct": -0.009146341463414575,
-      "unrealized_dollars": -0.04
+      "current_price": 3.3782,
+      "unrealized_pct": 0.02993902439024399,
+      "unrealized_dollars": 0.12
     },
     {
       "ticker": "DBGI",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 8.29,
-      "current_price": 3.25,
-      "unrealized_pct": -0.009146341463414575,
-      "unrealized_dollars": -37.8
+      "current_price": 3.3782,
+      "unrealized_pct": 0.02993902439024399,
+      "unrealized_dollars": 123.73
     },
     {
       "ticker": "APVO",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.4,
-      "current_price": 2.27,
-      "unrealized_pct": 0.041284403669724704,
-      "unrealized_dollars": 0.17
+      "current_price": 2.28,
+      "unrealized_pct": 0.04587155963302736,
+      "unrealized_dollars": 0.19
     },
     {
       "ticker": "BTOG",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.4,
-      "current_price": 2.27,
-      "unrealized_pct": 0.041284403669724704,
-      "unrealized_dollars": 170.81
+      "current_price": 2.28,
+      "unrealized_pct": 0.04587155963302736,
+      "unrealized_dollars": 189.79
     }
   ],
   "closed_trades": [
