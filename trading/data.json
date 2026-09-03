@@ -1,42 +1,35 @@
 {
-  "generated_at": "2026-09-03T15:45:04.400167-04:00",
+  "generated_at": "2026-09-03T16:00:03.984067-04:00",
   "summary": {
-    "total_pl_dollars": -657.66,
-    "wins": 22,
-    "losses": 28,
-    "open_count": 2
+    "total_pl_dollars": -287.1,
+    "wins": 23,
+    "losses": 27,
+    "open_count": 0
   },
-  "open_trades": [
+  "open_trades": [],
+  "closed_trades": [
     {
       "ticker": "DBGI",
       "entry_price": 3.28,
-      "stop_loss_price": 3.14,
-      "profit_target_price": 4.44,
-      "position_size_dollars": 4.14,
-      "entry_timestamp": "2026-09-03T15:04:03.380395",
+      "exit_price": 3.4599,
+      "exit_reason": "eod_close",
+      "pl_dollars": 0.23,
+      "pl_percent": 0.054848,
+      "exit_timestamp": "2026-09-03T19:45:14.312891",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 8.29,
-      "current_price": 3.4599,
-      "unrealized_pct": 0.05484756097560988,
-      "unrealized_dollars": 0.23
+      "position_size_dollars": 4.14
     },
     {
       "ticker": "DBGI",
       "entry_price": 3.28,
-      "stop_loss_price": 3.14,
-      "profit_target_price": 4.44,
-      "position_size_dollars": 4132.84,
-      "entry_timestamp": "2026-09-03T15:03:52.737484",
+      "exit_price": 3.4599,
+      "exit_reason": "eod_close",
+      "pl_dollars": 226.68,
+      "pl_percent": 0.054848,
+      "exit_timestamp": "2026-09-03T19:45:03.645695",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 8.29,
-      "current_price": 3.4599,
-      "unrealized_pct": 0.05484756097560988,
-      "unrealized_dollars": 226.68
-    }
-  ],
-  "closed_trades": [
+      "position_size_dollars": 4132.84
+    },
     {
       "ticker": "APVO",
       "entry_price": 2.0,
@@ -564,28 +557,6 @@
       "exit_timestamp": "2026-08-26T19:45:35.373284",
       "setup_quality": "B",
       "position_size_dollars": 4.29
-    },
-    {
-      "ticker": "SMTK",
-      "entry_price": 4.14,
-      "exit_price": 4.0,
-      "exit_reason": "eod_close",
-      "pl_dollars": -143.88,
-      "pl_percent": -0.033816,
-      "exit_timestamp": "2026-08-26T19:45:24.901051",
-      "setup_quality": "B",
-      "position_size_dollars": 4254.78
-    },
-    {
-      "ticker": "XBP",
-      "entry_price": 2.69,
-      "exit_price": 2.83,
-      "exit_reason": "eod_close",
-      "pl_dollars": 0.22,
-      "pl_percent": 0.052045,
-      "exit_timestamp": "2026-08-26T19:45:14.175219",
-      "setup_quality": "B",
-      "position_size_dollars": 4.28
     }
   ]
 }
