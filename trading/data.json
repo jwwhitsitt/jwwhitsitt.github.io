@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T15:15:04.821599-04:00",
+  "generated_at": "2026-09-03T15:30:04.252092-04:00",
   "summary": {
     "total_pl_dollars": -657.66,
     "wins": 22,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 8.29,
-      "current_price": 3.385,
-      "unrealized_pct": 0.03201219512195121,
-      "unrealized_dollars": 0.13
+      "current_price": 3.305,
+      "unrealized_pct": 0.007621951219512304,
+      "unrealized_dollars": 0.03
     },
     {
       "ticker": "DBGI",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 8.29,
-      "current_price": 3.385,
-      "unrealized_pct": 0.03201219512195121,
-      "unrealized_dollars": 132.3
+      "current_price": 3.305,
+      "unrealized_pct": 0.007621951219512304,
+      "unrealized_dollars": 31.5
     }
   ],
   "closed_trades": [
