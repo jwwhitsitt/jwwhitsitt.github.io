@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-03T15:00:03.801856-04:00",
+  "generated_at": "2026-09-03T15:15:04.821599-04:00",
   "summary": {
-    "total_pl_dollars": 390.94,
-    "wins": 23,
-    "losses": 27,
-    "open_count": 4
+    "total_pl_dollars": -657.66,
+    "wins": 22,
+    "losses": 28,
+    "open_count": 2
   },
   "open_trades": [
     {
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 8.29,
-      "current_price": 3.3273,
-      "unrealized_pct": 0.014420731707317178,
-      "unrealized_dollars": 0.06
+      "current_price": 3.385,
+      "unrealized_pct": 0.03201219512195121,
+      "unrealized_dollars": 0.13
     },
     {
       "ticker": "DBGI",
@@ -31,40 +31,34 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 8.29,
-      "current_price": 3.3273,
-      "unrealized_pct": 0.014420731707317178,
-      "unrealized_dollars": 59.6
-    },
-    {
-      "ticker": "APVO",
-      "entry_price": 2.0,
-      "stop_loss_price": 1.97,
-      "profit_target_price": 2.18,
-      "position_size_dollars": 4.14,
-      "entry_timestamp": "2026-09-03T15:03:42.161464",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 6.0,
-      "current_price": 1.6001,
-      "unrealized_pct": -0.19994999999999996,
-      "unrealized_dollars": -0.83
-    },
-    {
-      "ticker": "APVO",
-      "entry_price": 2.0,
-      "stop_loss_price": 1.97,
-      "profit_target_price": 2.18,
-      "position_size_dollars": 4132.84,
-      "entry_timestamp": "2026-09-03T15:03:31.557125",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 6.0,
-      "current_price": 1.6001,
-      "unrealized_pct": -0.19994999999999996,
-      "unrealized_dollars": -826.36
+      "current_price": 3.385,
+      "unrealized_pct": 0.03201219512195121,
+      "unrealized_dollars": 132.3
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "APVO",
+      "entry_price": 2.0,
+      "exit_price": 1.5743,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.88,
+      "pl_percent": -0.21285,
+      "exit_timestamp": "2026-09-03T19:00:13.596780",
+      "setup_quality": "B",
+      "position_size_dollars": 4.14
+    },
+    {
+      "ticker": "APVO",
+      "entry_price": 2.0,
+      "exit_price": 1.6001,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -826.36,
+      "pl_percent": -0.19995,
+      "exit_timestamp": "2026-09-03T19:00:02.775427",
+      "setup_quality": "B",
+      "position_size_dollars": 4132.84
+    },
     {
       "ticker": "BTOG",
       "entry_price": 2.18,
@@ -592,28 +586,6 @@
       "exit_timestamp": "2026-08-26T19:45:14.175219",
       "setup_quality": "B",
       "position_size_dollars": 4.28
-    },
-    {
-      "ticker": "XBP",
-      "entry_price": 2.69,
-      "exit_price": 2.83,
-      "exit_reason": "eod_close",
-      "pl_dollars": 221.52,
-      "pl_percent": 0.052045,
-      "exit_timestamp": "2026-08-26T19:45:03.401053",
-      "setup_quality": "B",
-      "position_size_dollars": 4256.37
-    },
-    {
-      "ticker": "YYGH",
-      "entry_price": 1.86,
-      "exit_price": 1.7901,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -0.16,
-      "pl_percent": -0.037581,
-      "exit_timestamp": "2026-08-26T14:00:14.044361",
-      "setup_quality": "A",
-      "position_size_dollars": 4.32
     }
   ]
 }
