@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-03T13:45:05.042968-04:00",
+  "generated_at": "2026-09-03T14:00:04.526522-04:00",
   "summary": {
-    "total_pl_dollars": -274.32,
-    "wins": 21,
-    "losses": 29,
-    "open_count": 6
+    "total_pl_dollars": 390.94,
+    "wins": 23,
+    "losses": 27,
+    "open_count": 4
   },
   "open_trades": [
     {
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 8.29,
-      "current_price": 3.42,
-      "unrealized_pct": 0.04268292682926833,
-      "unrealized_dollars": 0.18
+      "current_price": 3.3001,
+      "unrealized_pct": 0.006128048780487875,
+      "unrealized_dollars": 0.03
     },
     {
       "ticker": "DBGI",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 8.29,
-      "current_price": 3.42,
-      "unrealized_pct": 0.04268292682926833,
-      "unrealized_dollars": 176.4
+      "current_price": 3.3001,
+      "unrealized_pct": 0.006128048780487875,
+      "unrealized_dollars": 25.33
     },
     {
       "ticker": "APVO",
@@ -62,37 +62,31 @@
       "current_price": 2.025,
       "unrealized_pct": 0.012499999999999956,
       "unrealized_dollars": 51.66
-    },
-    {
-      "ticker": "BTOG",
-      "entry_price": 2.18,
-      "stop_loss_price": 2.08,
-      "profit_target_price": 2.42,
-      "position_size_dollars": 4.14,
-      "entry_timestamp": "2026-09-03T15:03:20.966195",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 2.4,
-      "current_price": 2.42,
-      "unrealized_pct": 0.11009174311926594,
-      "unrealized_dollars": 0.46
-    },
-    {
-      "ticker": "BTOG",
-      "entry_price": 2.18,
-      "stop_loss_price": 2.08,
-      "profit_target_price": 2.42,
-      "position_size_dollars": 4137.46,
-      "entry_timestamp": "2026-09-03T15:03:10.219343",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 2.4,
-      "current_price": 2.42,
-      "unrealized_pct": 0.11009174311926594,
-      "unrealized_dollars": 455.5
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "BTOG",
+      "entry_price": 2.18,
+      "exit_price": 2.42,
+      "exit_reason": "target_hit",
+      "pl_dollars": 0.46,
+      "pl_percent": 0.110092,
+      "exit_timestamp": "2026-09-03T17:45:14.340646",
+      "setup_quality": "B",
+      "position_size_dollars": 4.14
+    },
+    {
+      "ticker": "BTOG",
+      "entry_price": 2.18,
+      "exit_price": 2.42,
+      "exit_reason": "target_hit",
+      "pl_dollars": 455.5,
+      "pl_percent": 0.110092,
+      "exit_timestamp": "2026-09-03T17:45:03.642048",
+      "setup_quality": "B",
+      "position_size_dollars": 4137.46
+    },
     {
       "ticker": "PPBT",
       "entry_price": 2.1517,
@@ -619,28 +613,6 @@
       "pl_percent": -0.037581,
       "exit_timestamp": "2026-08-26T14:00:14.044361",
       "setup_quality": "A",
-      "position_size_dollars": 4.32
-    },
-    {
-      "ticker": "YYGH",
-      "entry_price": 1.86,
-      "exit_price": 1.8,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -208.26,
-      "pl_percent": -0.032258,
-      "exit_timestamp": "2026-08-26T14:00:03.353148",
-      "setup_quality": "A",
-      "position_size_dollars": 6455.96
-    },
-    {
-      "ticker": "VCIG",
-      "entry_price": 3.505,
-      "exit_price": 2.65,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -1.05,
-      "pl_percent": -0.243937,
-      "exit_timestamp": "2026-08-26T13:45:25.865825",
-      "setup_quality": "B",
       "position_size_dollars": 4.32
     }
   ]
