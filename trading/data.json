@@ -1,42 +1,35 @@
 {
-  "generated_at": "2026-09-04T15:45:04.394550-04:00",
+  "generated_at": "2026-09-04T16:00:03.894377-04:00",
   "summary": {
-    "total_pl_dollars": -1062.75,
-    "wins": 22,
-    "losses": 28,
-    "open_count": 2
+    "total_pl_dollars": -650.58,
+    "wins": 23,
+    "losses": 26,
+    "open_count": 0
   },
-  "open_trades": [
+  "open_trades": [],
+  "closed_trades": [
     {
       "ticker": "WETO",
       "entry_price": 2.575,
-      "stop_loss_price": 2.4301,
-      "profit_target_price": 4.15,
-      "position_size_dollars": 4.08,
-      "entry_timestamp": "2026-09-04T15:02:07.906298",
+      "exit_price": 2.575,
+      "exit_reason": "eod_close",
+      "pl_dollars": 0,
+      "pl_percent": 0.0,
+      "exit_timestamp": "2026-09-04T19:45:14.139090",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 10.87,
-      "current_price": 2.578,
-      "unrealized_pct": 0.001165048543689192,
-      "unrealized_dollars": 0.0
+      "position_size_dollars": 4.08
     },
     {
       "ticker": "WETO",
       "entry_price": 2.575,
-      "stop_loss_price": 2.4301,
-      "profit_target_price": 4.15,
-      "position_size_dollars": 4104.15,
-      "entry_timestamp": "2026-09-04T15:01:57.147984",
+      "exit_price": 2.5798,
+      "exit_reason": "eod_close",
+      "pl_dollars": 7.65,
+      "pl_percent": 0.001864,
+      "exit_timestamp": "2026-09-04T19:45:03.474669",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 10.87,
-      "current_price": 2.578,
-      "unrealized_pct": 0.001165048543689192,
-      "unrealized_dollars": 4.78
-    }
-  ],
-  "closed_trades": [
+      "position_size_dollars": 4104.15
+    },
     {
       "ticker": "CMND",
       "entry_price": 1.3908,
@@ -564,28 +557,6 @@
       "exit_timestamp": "2026-08-27T16:30:03.412658",
       "setup_quality": "B",
       "position_size_dollars": 4201.36
-    },
-    {
-      "ticker": "CISS",
-      "entry_price": 2.51,
-      "exit_price": 2.07,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -0.74,
-      "pl_percent": -0.175299,
-      "exit_timestamp": "2026-08-27T14:30:13.892712",
-      "setup_quality": "B",
-      "position_size_dollars": 4.25
-    },
-    {
-      "ticker": "CISS",
-      "entry_price": 2.51,
-      "exit_price": 2.27,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -403.78,
-      "pl_percent": -0.095618,
-      "exit_timestamp": "2026-08-27T14:30:03.207353",
-      "setup_quality": "B",
-      "position_size_dollars": 4222.84
     }
   ]
 }
