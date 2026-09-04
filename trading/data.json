@@ -1,40 +1,12 @@
 {
-  "generated_at": "2026-09-04T11:30:04.513785-04:00",
+  "generated_at": "2026-09-04T11:45:04.449085-04:00",
   "summary": {
-    "total_pl_dollars": -287.1,
-    "wins": 23,
-    "losses": 27,
-    "open_count": 7
+    "total_pl_dollars": -887.46,
+    "wins": 22,
+    "losses": 28,
+    "open_count": 4
   },
   "open_trades": [
-    {
-      "ticker": "IMRN",
-      "entry_price": 1.7,
-      "stop_loss_price": 1.66,
-      "profit_target_price": 1.99,
-      "position_size_dollars": 4.08,
-      "entry_timestamp": "2026-09-04T15:02:50.348870",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 7.25,
-      "current_price": 1.66,
-      "unrealized_pct": -0.023529411764705903,
-      "unrealized_dollars": -0.1
-    },
-    {
-      "ticker": "IMRN",
-      "entry_price": 1.7,
-      "stop_loss_price": 1.66,
-      "profit_target_price": 1.99,
-      "position_size_dollars": 4101.83,
-      "entry_timestamp": "2026-09-04T15:02:39.767965",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 7.25,
-      "current_price": 1.66,
-      "unrealized_pct": -0.023529411764705903,
-      "unrealized_dollars": -96.51
-    },
     {
       "ticker": "CMND",
       "entry_price": 1.3908,
@@ -45,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.31,
-      "current_price": 1.4,
-      "unrealized_pct": 0.006614897900488837,
-      "unrealized_dollars": 0.03
+      "current_price": 1.425,
+      "unrealized_pct": 0.024590163934426236,
+      "unrealized_dollars": 0.1
     },
     {
       "ticker": "CMND",
@@ -59,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.31,
-      "current_price": 1.4,
-      "unrealized_pct": 0.006614897900488837,
-      "unrealized_dollars": 27.15
+      "current_price": 1.425,
+      "unrealized_pct": 0.024590163934426236,
+      "unrealized_dollars": 100.92
     },
     {
       "ticker": "WETO",
@@ -73,8 +45,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 10.87,
-      "current_price": 2.6101,
-      "unrealized_pct": 0.013631067961165012,
+      "current_price": 2.61,
+      "unrealized_pct": 0.01359223300970862,
       "unrealized_dollars": 0.06
     },
     {
@@ -87,26 +59,45 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 10.87,
-      "current_price": 2.6101,
-      "unrealized_pct": 0.013631067961165012,
-      "unrealized_dollars": 55.94
+      "current_price": 2.61,
+      "unrealized_pct": 0.01359223300970862,
+      "unrealized_dollars": 55.78
+    }
+  ],
+  "closed_trades": [
+    {
+      "ticker": "IMRN",
+      "entry_price": 1.7,
+      "exit_price": 1.645,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.13,
+      "pl_percent": -0.032353,
+      "exit_timestamp": "2026-09-04T15:30:26.179588",
+      "setup_quality": "B",
+      "position_size_dollars": 4.08
+    },
+    {
+      "ticker": "IMRN",
+      "entry_price": 1.7,
+      "exit_price": 1.65,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -120.64,
+      "pl_percent": -0.029412,
+      "exit_timestamp": "2026-09-04T15:30:14.470169",
+      "setup_quality": "B",
+      "position_size_dollars": 4101.83
     },
     {
       "ticker": "AKAN",
       "entry_price": 4.3,
-      "stop_loss_price": 3.87,
-      "profit_target_price": 5.16,
-      "position_size_dollars": 4104.23,
-      "entry_timestamp": "2026-09-04T13:33:29.516029",
+      "exit_price": 3.779,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -497.28,
+      "pl_percent": -0.121163,
+      "exit_timestamp": "2026-09-04T15:30:03.005557",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 1.5,
-      "current_price": 3.779,
-      "unrealized_pct": -0.1211627906976744,
-      "unrealized_dollars": -497.28
-    }
-  ],
-  "closed_trades": [
+      "position_size_dollars": 4104.23
+    },
     {
       "ticker": "DBGI",
       "entry_price": 3.28,
@@ -623,39 +614,6 @@
       "exit_timestamp": "2026-08-26T19:46:07.034660",
       "setup_quality": "B",
       "position_size_dollars": 4.27
-    },
-    {
-      "ticker": "NUWE",
-      "entry_price": 0.9974,
-      "exit_price": 0.985,
-      "exit_reason": "eod_close",
-      "pl_dollars": -52.78,
-      "pl_percent": -0.012432,
-      "exit_timestamp": "2026-08-26T19:45:56.514855",
-      "setup_quality": "B",
-      "position_size_dollars": 4245.29
-    },
-    {
-      "ticker": "CRE",
-      "entry_price": 6.1001,
-      "exit_price": 6.1506,
-      "exit_reason": "eod_close",
-      "pl_dollars": 35.22,
-      "pl_percent": 0.008279,
-      "exit_timestamp": "2026-08-26T19:45:45.956606",
-      "setup_quality": "B",
-      "position_size_dollars": 4254.78
-    },
-    {
-      "ticker": "SMTK",
-      "entry_price": 4.14,
-      "exit_price": 4.01,
-      "exit_reason": "eod_close",
-      "pl_dollars": -0.13,
-      "pl_percent": -0.031401,
-      "exit_timestamp": "2026-08-26T19:45:35.373284",
-      "setup_quality": "B",
-      "position_size_dollars": 4.29
     }
   ]
 }
