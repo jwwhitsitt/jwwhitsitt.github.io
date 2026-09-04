@@ -1,12 +1,27 @@
 {
-  "generated_at": "2026-09-04T09:30:03.425474-04:00",
+  "generated_at": "2026-09-04T09:45:05.134971-04:00",
   "summary": {
     "total_pl_dollars": -287.1,
     "wins": 23,
     "losses": 27,
-    "open_count": 0
+    "open_count": 1
   },
-  "open_trades": [],
+  "open_trades": [
+    {
+      "ticker": "AKAN",
+      "entry_price": 4.3,
+      "stop_loss_price": 3.87,
+      "profit_target_price": 5.16,
+      "position_size_dollars": 4104.23,
+      "entry_timestamp": "2026-09-04T13:33:29.516029",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.5,
+      "current_price": 4.15,
+      "unrealized_pct": -0.03488372093023243,
+      "unrealized_dollars": -143.17
+    }
+  ],
   "closed_trades": [
     {
       "ticker": "DBGI",
