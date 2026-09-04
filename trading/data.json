@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T12:45:04.130470-04:00",
+  "generated_at": "2026-09-04T13:00:04.728705-04:00",
   "summary": {
     "total_pl_dollars": -887.46,
     "wins": 22,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.31,
-      "current_price": 1.44,
-      "unrealized_pct": 0.03537532355478855,
-      "unrealized_dollars": 0.14
+      "current_price": 1.405,
+      "unrealized_pct": 0.01020995110727638,
+      "unrealized_dollars": 0.04
     },
     {
       "ticker": "CMND",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.31,
-      "current_price": 1.44,
-      "unrealized_pct": 0.03537532355478855,
-      "unrealized_dollars": 145.18
+      "current_price": 1.405,
+      "unrealized_pct": 0.01020995110727638,
+      "unrealized_dollars": 41.9
     },
     {
       "ticker": "WETO",
