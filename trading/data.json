@@ -1,12 +1,41 @@
 {
-  "generated_at": "2026-09-08T11:00:03.789860-04:00",
+  "generated_at": "2026-09-08T11:15:05.350684-04:00",
   "summary": {
     "total_pl_dollars": -650.58,
     "wins": 23,
     "losses": 26,
-    "open_count": 0
+    "open_count": 2
   },
-  "open_trades": [],
+  "open_trades": [
+    {
+      "ticker": "CYCN",
+      "entry_price": 3.16,
+      "stop_loss_price": 2.82,
+      "profit_target_price": 3.84,
+      "position_size_dollars": 4.04,
+      "entry_timestamp": "2026-09-08T15:04:23.423178",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 2.0,
+      "current_price": 3.135,
+      "unrealized_pct": -0.007911392405063403,
+      "unrealized_dollars": -0.03
+    },
+    {
+      "ticker": "CYCN",
+      "entry_price": 3.16,
+      "stop_loss_price": 2.82,
+      "profit_target_price": 3.84,
+      "position_size_dollars": 4060.92,
+      "entry_timestamp": "2026-09-08T15:04:12.560527",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 2.0,
+      "current_price": 3.135,
+      "unrealized_pct": -0.007911392405063403,
+      "unrealized_dollars": -32.13
+    }
+  ],
   "closed_trades": [
     {
       "ticker": "WETO",
