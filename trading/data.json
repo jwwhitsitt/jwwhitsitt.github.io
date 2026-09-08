@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T12:30:04.340377-04:00",
+  "generated_at": "2026-09-08T12:45:03.713335-04:00",
   "summary": {
     "total_pl_dollars": -650.58,
     "wins": 23,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.0,
-      "current_price": 3.51,
-      "unrealized_pct": 0.11075949367088596,
-      "unrealized_dollars": 0.45
+      "current_price": 3.355,
+      "unrealized_pct": 0.06170886075949362,
+      "unrealized_dollars": 0.25
     },
     {
       "ticker": "CYCN",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.0,
-      "current_price": 3.51,
-      "unrealized_pct": 0.11075949367088596,
-      "unrealized_dollars": 449.79
+      "current_price": 3.355,
+      "unrealized_pct": 0.06170886075949362,
+      "unrealized_dollars": 250.59
     }
   ],
   "closed_trades": [
