@@ -1,42 +1,35 @@
 {
-  "generated_at": "2026-09-09T15:30:04.395611-04:00",
+  "generated_at": "2026-09-09T15:45:03.978901-04:00",
   "summary": {
-    "total_pl_dollars": 106.18,
-    "wins": 24,
-    "losses": 23,
-    "open_count": 2
+    "total_pl_dollars": -316.34,
+    "wins": 23,
+    "losses": 24,
+    "open_count": 0
   },
-  "open_trades": [
+  "open_trades": [],
+  "closed_trades": [
     {
       "ticker": "TNON",
       "entry_price": 3.32,
-      "stop_loss_price": 3.25,
-      "profit_target_price": 3.67,
-      "position_size_dollars": 4.04,
-      "entry_timestamp": "2026-09-09T15:02:44.667425",
+      "exit_price": 2.74,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.71,
+      "pl_percent": -0.174699,
+      "exit_timestamp": "2026-09-09T19:30:14.217771",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 5.0,
-      "current_price": 2.74,
-      "unrealized_pct": -0.1746987951807228,
-      "unrealized_dollars": -0.71
+      "position_size_dollars": 4.04
     },
     {
       "ticker": "TNON",
       "entry_price": 3.32,
-      "stop_loss_price": 3.25,
-      "profit_target_price": 3.67,
-      "position_size_dollars": 4057.82,
-      "entry_timestamp": "2026-09-09T15:02:33.917815",
+      "exit_price": 2.74,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -708.9,
+      "pl_percent": -0.174699,
+      "exit_timestamp": "2026-09-09T19:30:03.441015",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 5.0,
-      "current_price": 2.74,
-      "unrealized_pct": -0.1746987951807228,
-      "unrealized_dollars": -708.9
-    }
-  ],
-  "closed_trades": [
+      "position_size_dollars": 4057.82
+    },
     {
       "ticker": "FGL",
       "entry_price": 6.87,
@@ -564,28 +557,6 @@
       "exit_timestamp": "2026-08-27T19:45:34.798709",
       "setup_quality": "B",
       "position_size_dollars": 4.2
-    },
-    {
-      "ticker": "YMT",
-      "entry_price": 2.7801,
-      "exit_price": 2.59,
-      "exit_reason": "eod_close",
-      "pl_dollars": -287.28,
-      "pl_percent": -0.068379,
-      "exit_timestamp": "2026-08-27T19:45:24.309606",
-      "setup_quality": "B",
-      "position_size_dollars": 4201.37
-    },
-    {
-      "ticker": "SBFM",
-      "entry_price": 1.24,
-      "exit_price": 1.2999,
-      "exit_reason": "eod_close",
-      "pl_dollars": 0.21,
-      "pl_percent": 0.048306,
-      "exit_timestamp": "2026-08-27T19:45:13.623464",
-      "setup_quality": "B",
-      "position_size_dollars": 4.25
     }
   ]
 }
