@@ -1,12 +1,55 @@
 {
-  "generated_at": "2026-09-09T11:00:04.300862-04:00",
+  "generated_at": "2026-09-09T11:15:05.730040-04:00",
   "summary": {
     "total_pl_dollars": 667.47,
     "wins": 25,
     "losses": 22,
-    "open_count": 0
+    "open_count": 3
   },
-  "open_trades": [],
+  "open_trades": [
+    {
+      "ticker": "FGL",
+      "entry_price": 6.87,
+      "stop_loss_price": 6.3001,
+      "profit_target_price": 8.88,
+      "position_size_dollars": 4057.21,
+      "entry_timestamp": "2026-09-09T15:02:55.265321",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 3.53,
+      "current_price": 6.5,
+      "unrealized_pct": -0.05385735080058226,
+      "unrealized_dollars": -218.51
+    },
+    {
+      "ticker": "TNON",
+      "entry_price": 3.32,
+      "stop_loss_price": 3.25,
+      "profit_target_price": 3.67,
+      "position_size_dollars": 4.04,
+      "entry_timestamp": "2026-09-09T15:02:44.667425",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 5.0,
+      "current_price": 3.46,
+      "unrealized_pct": 0.04216867469879522,
+      "unrealized_dollars": 0.17
+    },
+    {
+      "ticker": "TNON",
+      "entry_price": 3.32,
+      "stop_loss_price": 3.25,
+      "profit_target_price": 3.67,
+      "position_size_dollars": 4057.82,
+      "entry_timestamp": "2026-09-09T15:02:33.917815",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 5.0,
+      "current_price": 3.46,
+      "unrealized_pct": 0.04216867469879522,
+      "unrealized_dollars": 171.11
+    }
+  ],
   "closed_trades": [
     {
       "ticker": "BRFH",
