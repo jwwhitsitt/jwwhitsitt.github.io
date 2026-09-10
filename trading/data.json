@@ -1,12 +1,27 @@
 {
-  "generated_at": "2026-09-10T09:30:03.194879-04:00",
+  "generated_at": "2026-09-10T09:45:04.950001-04:00",
   "summary": {
     "total_pl_dollars": -316.34,
     "wins": 23,
     "losses": 24,
-    "open_count": 0
+    "open_count": 1
   },
-  "open_trades": [],
+  "open_trades": [
+    {
+      "ticker": "NXL",
+      "entry_price": 4.67,
+      "stop_loss_price": 4.2,
+      "profit_target_price": 5.85,
+      "position_size_dollars": 3996.43,
+      "entry_timestamp": "2026-09-10T13:34:40.347038",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.57,
+      "current_price": 4.745,
+      "unrealized_pct": 0.016059957173447575,
+      "unrealized_dollars": 64.18
+    }
+  ],
   "closed_trades": [
     {
       "ticker": "TNON",
