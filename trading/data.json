@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T13:30:05.832211-04:00",
+  "generated_at": "2026-09-10T13:45:06.088420-04:00",
   "summary": {
     "total_pl_dollars": -581.24,
     "wins": 22,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.46,
-      "current_price": 8.83,
-      "unrealized_pct": 0.006841505131128906,
-      "unrealized_dollars": 0.03
+      "current_price": 8.72,
+      "unrealized_pct": -0.005701254275940586,
+      "unrealized_dollars": -0.02
     },
     {
       "ticker": "PRTS",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.46,
-      "current_price": 8.83,
-      "unrealized_pct": 0.006841505131128906,
-      "unrealized_dollars": 27.3
+      "current_price": 8.72,
+      "unrealized_pct": -0.005701254275940586,
+      "unrealized_dollars": -22.75
     },
     {
       "ticker": "TPET",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.61,
-      "current_price": 2.06,
-      "unrealized_pct": 0.01522842639593905,
-      "unrealized_dollars": 0.06
+      "current_price": 2.0101,
+      "unrealized_pct": -0.009363757330836393,
+      "unrealized_dollars": -0.04
     },
     {
       "ticker": "TPET",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.61,
-      "current_price": 2.06,
-      "unrealized_pct": 0.01522842639593905,
-      "unrealized_dollars": 60.78
+      "current_price": 2.0101,
+      "unrealized_pct": -0.009363757330836393,
+      "unrealized_dollars": -37.37
     },
     {
       "ticker": "DXR",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.52,
-      "current_price": 11.0375,
-      "unrealized_pct": 0.03638497652582153,
-      "unrealized_dollars": 145.36
+      "current_price": 11.0754,
+      "unrealized_pct": 0.03994366197183096,
+      "unrealized_dollars": 159.58
     },
     {
       "ticker": "NXL",
