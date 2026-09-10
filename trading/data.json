@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T11:30:06.613392-04:00",
+  "generated_at": "2026-09-10T11:45:05.098005-04:00",
   "summary": {
     "total_pl_dollars": -316.34,
     "wins": 23,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.61,
-      "current_price": 2.11,
-      "unrealized_pct": 0.03986989305603457,
-      "unrealized_dollars": 0.16
+      "current_price": 2.149,
+      "unrealized_pct": 0.05909023705090922,
+      "unrealized_dollars": 0.24
     },
     {
       "ticker": "TPET",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.61,
-      "current_price": 2.11,
-      "unrealized_pct": 0.03986989305603457,
-      "unrealized_dollars": 159.14
+      "current_price": 2.149,
+      "unrealized_pct": 0.05909023705090922,
+      "unrealized_dollars": 235.85
     },
     {
       "ticker": "DXR",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.52,
-      "current_price": 10.7699,
-      "unrealized_pct": 0.011258215962441262,
-      "unrealized_dollars": 44.98
+      "current_price": 10.695,
+      "unrealized_pct": 0.00422535211267605,
+      "unrealized_dollars": 16.88
     },
     {
       "ticker": "IMNN",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.35,
-      "current_price": 1.62,
-      "unrealized_pct": 0.018867924528301903,
-      "unrealized_dollars": 0.08
+      "current_price": 1.5499,
+      "unrealized_pct": -0.025220125786163537,
+      "unrealized_dollars": -0.1
     },
     {
       "ticker": "IMNN",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.35,
-      "current_price": 1.62,
-      "unrealized_pct": 0.018867924528301903,
-      "unrealized_dollars": 75.4
+      "current_price": 1.5499,
+      "unrealized_pct": -0.025220125786163537,
+      "unrealized_dollars": -100.79
     },
     {
       "ticker": "NXL",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.57,
-      "current_price": 4.77,
-      "unrealized_pct": 0.02141327623126331,
-      "unrealized_dollars": 85.58
+      "current_price": 4.9,
+      "unrealized_pct": 0.049250535331905876,
+      "unrealized_dollars": 196.83
     }
   ],
   "closed_trades": [
