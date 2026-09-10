@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-10T11:45:05.098005-04:00",
+  "generated_at": "2026-09-10T12:00:04.614181-04:00",
   "summary": {
-    "total_pl_dollars": -316.34,
-    "wins": 23,
-    "losses": 24,
-    "open_count": 6
+    "total_pl_dollars": -581.24,
+    "wins": 22,
+    "losses": 25,
+    "open_count": 4
   },
   "open_trades": [
     {
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.61,
-      "current_price": 2.149,
-      "unrealized_pct": 0.05909023705090922,
-      "unrealized_dollars": 0.24
+      "current_price": 2.12,
+      "unrealized_pct": 0.04479818638805381,
+      "unrealized_dollars": 0.18
     },
     {
       "ticker": "TPET",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.61,
-      "current_price": 2.149,
-      "unrealized_pct": 0.05909023705090922,
-      "unrealized_dollars": 235.85
+      "current_price": 2.12,
+      "unrealized_pct": 0.04479818638805381,
+      "unrealized_dollars": 178.81
     },
     {
       "ticker": "DXR",
@@ -50,34 +50,6 @@
       "unrealized_dollars": 16.88
     },
     {
-      "ticker": "IMNN",
-      "entry_price": 1.59,
-      "stop_loss_price": 1.5601,
-      "profit_target_price": 1.75,
-      "position_size_dollars": 3.99,
-      "entry_timestamp": "2026-09-10T15:03:49.803928",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 5.35,
-      "current_price": 1.5499,
-      "unrealized_pct": -0.025220125786163537,
-      "unrealized_dollars": -0.1
-    },
-    {
-      "ticker": "IMNN",
-      "entry_price": 1.59,
-      "stop_loss_price": 1.5601,
-      "profit_target_price": 1.75,
-      "position_size_dollars": 3996.43,
-      "entry_timestamp": "2026-09-10T15:03:39.067596",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 5.35,
-      "current_price": 1.5499,
-      "unrealized_pct": -0.025220125786163537,
-      "unrealized_dollars": -100.79
-    },
-    {
       "ticker": "NXL",
       "entry_price": 4.67,
       "stop_loss_price": 4.2,
@@ -87,12 +59,34 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.57,
-      "current_price": 4.9,
-      "unrealized_pct": 0.049250535331905876,
-      "unrealized_dollars": 196.83
+      "current_price": 4.98,
+      "unrealized_pct": 0.0663811563169166,
+      "unrealized_dollars": 265.29
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "IMNN",
+      "entry_price": 1.59,
+      "exit_price": 1.5499,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.1,
+      "pl_percent": -0.02522,
+      "exit_timestamp": "2026-09-10T15:45:14.486539",
+      "setup_quality": "B",
+      "position_size_dollars": 3.99
+    },
+    {
+      "ticker": "IMNN",
+      "entry_price": 1.59,
+      "exit_price": 1.5499,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -100.79,
+      "pl_percent": -0.02522,
+      "exit_timestamp": "2026-09-10T15:45:03.800499",
+      "setup_quality": "B",
+      "position_size_dollars": 3996.43
+    },
     {
       "ticker": "TNON",
       "entry_price": 3.32,
@@ -618,28 +612,6 @@
       "pl_dollars": 0.16,
       "pl_percent": 0.039142,
       "exit_timestamp": "2026-08-27T19:45:55.787090",
-      "setup_quality": "B",
-      "position_size_dollars": 4.2
-    },
-    {
-      "ticker": "NMTC",
-      "entry_price": 1.9391,
-      "exit_price": 2.015,
-      "exit_reason": "eod_close",
-      "pl_dollars": 164.3,
-      "pl_percent": 0.039142,
-      "exit_timestamp": "2026-08-27T19:45:45.307208",
-      "setup_quality": "B",
-      "position_size_dollars": 4197.51
-    },
-    {
-      "ticker": "YMT",
-      "entry_price": 2.7801,
-      "exit_price": 2.59,
-      "exit_reason": "eod_close",
-      "pl_dollars": -0.29,
-      "pl_percent": -0.068379,
-      "exit_timestamp": "2026-08-27T19:45:34.798709",
       "setup_quality": "B",
       "position_size_dollars": 4.2
     }
