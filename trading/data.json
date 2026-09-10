@@ -1,12 +1,82 @@
 {
-  "generated_at": "2026-09-10T11:00:04.262335-04:00",
+  "generated_at": "2026-09-10T11:15:06.031432-04:00",
   "summary": {
     "total_pl_dollars": -316.34,
     "wins": 23,
     "losses": 24,
-    "open_count": 1
+    "open_count": 6
   },
   "open_trades": [
+    {
+      "ticker": "TPET",
+      "entry_price": 2.0291,
+      "stop_loss_price": 1.91,
+      "profit_target_price": 2.34,
+      "position_size_dollars": 3.98,
+      "entry_timestamp": "2026-09-10T15:04:21.985045",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 2.61,
+      "current_price": 2.0164,
+      "unrealized_pct": -0.006258932531664361,
+      "unrealized_dollars": -0.02
+    },
+    {
+      "ticker": "TPET",
+      "entry_price": 2.0291,
+      "stop_loss_price": 1.91,
+      "profit_target_price": 2.34,
+      "position_size_dollars": 3991.42,
+      "entry_timestamp": "2026-09-10T15:04:11.332444",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 2.61,
+      "current_price": 2.0164,
+      "unrealized_pct": -0.006258932531664361,
+      "unrealized_dollars": -24.98
+    },
+    {
+      "ticker": "DXR",
+      "entry_price": 10.65,
+      "stop_loss_price": 9.58,
+      "profit_target_price": 12.5,
+      "position_size_dollars": 3995.17,
+      "entry_timestamp": "2026-09-10T15:04:00.367220",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.52,
+      "current_price": 10.7699,
+      "unrealized_pct": 0.011258215962441262,
+      "unrealized_dollars": 44.98
+    },
+    {
+      "ticker": "IMNN",
+      "entry_price": 1.59,
+      "stop_loss_price": 1.5601,
+      "profit_target_price": 1.75,
+      "position_size_dollars": 3.99,
+      "entry_timestamp": "2026-09-10T15:03:49.803928",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 5.35,
+      "current_price": 1.5999,
+      "unrealized_pct": 0.006226415094339635,
+      "unrealized_dollars": 0.02
+    },
+    {
+      "ticker": "IMNN",
+      "entry_price": 1.59,
+      "stop_loss_price": 1.5601,
+      "profit_target_price": 1.75,
+      "position_size_dollars": 3996.43,
+      "entry_timestamp": "2026-09-10T15:03:39.067596",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 5.35,
+      "current_price": 1.5999,
+      "unrealized_pct": 0.006226415094339635,
+      "unrealized_dollars": 24.88
+    },
     {
       "ticker": "NXL",
       "entry_price": 4.67,
@@ -17,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.57,
-      "current_price": 4.89,
-      "unrealized_pct": 0.04710920770877939,
-      "unrealized_dollars": 188.27
+      "current_price": 4.77,
+      "unrealized_pct": 0.02141327623126331,
+      "unrealized_dollars": 85.58
     }
   ],
   "closed_trades": [
