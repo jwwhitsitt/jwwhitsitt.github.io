@@ -1,12 +1,40 @@
 {
-  "generated_at": "2026-09-10T13:00:04.705861-04:00",
+  "generated_at": "2026-09-10T13:15:06.424225-04:00",
   "summary": {
     "total_pl_dollars": -581.24,
     "wins": 22,
     "losses": 25,
-    "open_count": 4
+    "open_count": 6
   },
   "open_trades": [
+    {
+      "ticker": "PRTS",
+      "entry_price": 8.77,
+      "stop_loss_price": 7.87,
+      "profit_target_price": 10.9799,
+      "position_size_dollars": 3.98,
+      "entry_timestamp": "2026-09-10T17:02:34.332289",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 2.46,
+      "current_price": 8.8404,
+      "unrealized_pct": 0.008027366020524644,
+      "unrealized_dollars": 0.03
+    },
+    {
+      "ticker": "PRTS",
+      "entry_price": 8.77,
+      "stop_loss_price": 7.87,
+      "profit_target_price": 10.9799,
+      "position_size_dollars": 3990.93,
+      "entry_timestamp": "2026-09-10T17:02:23.797278",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 2.46,
+      "current_price": 8.8404,
+      "unrealized_pct": 0.008027366020524644,
+      "unrealized_dollars": 32.04
+    },
     {
       "ticker": "TPET",
       "entry_price": 2.0291,
@@ -17,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.61,
-      "current_price": 2.08,
-      "unrealized_pct": 0.0250850130599773,
-      "unrealized_dollars": 0.1
+      "current_price": 2.05,
+      "unrealized_pct": 0.010300133063919815,
+      "unrealized_dollars": 0.04
     },
     {
       "ticker": "TPET",
@@ -31,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.61,
-      "current_price": 2.08,
-      "unrealized_pct": 0.0250850130599773,
-      "unrealized_dollars": 100.12
+      "current_price": 2.05,
+      "unrealized_pct": 0.010300133063919815,
+      "unrealized_dollars": 41.11
     },
     {
       "ticker": "DXR",
@@ -45,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.52,
-      "current_price": 10.79,
-      "unrealized_pct": 0.013145539906103173,
-      "unrealized_dollars": 52.52
+      "current_price": 11.0,
+      "unrealized_pct": 0.032863849765258184,
+      "unrealized_dollars": 131.3
     },
     {
       "ticker": "NXL",
