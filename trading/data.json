@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T12:15:04.715120-04:00",
+  "generated_at": "2026-09-10T12:30:04.474837-04:00",
   "summary": {
     "total_pl_dollars": -581.24,
     "wins": 22,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.61,
-      "current_price": 2.09,
-      "unrealized_pct": 0.030013306391996317,
-      "unrealized_dollars": 0.12
+      "current_price": 2.06,
+      "unrealized_pct": 0.01522842639593905,
+      "unrealized_dollars": 0.06
     },
     {
       "ticker": "TPET",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.61,
-      "current_price": 2.09,
-      "unrealized_pct": 0.030013306391996317,
-      "unrealized_dollars": 119.8
+      "current_price": 2.06,
+      "unrealized_pct": 0.01522842639593905,
+      "unrealized_dollars": 60.78
     },
     {
       "ticker": "DXR",
