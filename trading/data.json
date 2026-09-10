@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T14:30:06.150369-04:00",
+  "generated_at": "2026-09-10T14:45:05.877052-04:00",
   "summary": {
     "total_pl_dollars": -581.24,
     "wins": 22,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.46,
-      "current_price": 8.33,
-      "unrealized_pct": -0.05017103762827817,
-      "unrealized_dollars": -0.2
+      "current_price": 8.1105,
+      "unrealized_pct": -0.07519954389965787,
+      "unrealized_dollars": -0.3
     },
     {
       "ticker": "PRTS",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.46,
-      "current_price": 8.33,
-      "unrealized_pct": -0.05017103762827817,
-      "unrealized_dollars": -200.23
+      "current_price": 8.1105,
+      "unrealized_pct": -0.07519954389965787,
+      "unrealized_dollars": -300.12
     },
     {
       "ticker": "TPET",
@@ -45,8 +45,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.61,
-      "current_price": 2.001,
-      "unrealized_pct": -0.013848504262973847,
+      "current_price": 2.0,
+      "unrealized_pct": -0.014341333596175706,
       "unrealized_dollars": -0.06
     },
     {
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.61,
-      "current_price": 2.001,
-      "unrealized_pct": -0.013848504262973847,
-      "unrealized_dollars": -55.28
+      "current_price": 2.0,
+      "unrealized_pct": -0.014341333596175706,
+      "unrealized_dollars": -57.24
     },
     {
       "ticker": "DXR",
