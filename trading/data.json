@@ -1,98 +1,79 @@
 {
-  "generated_at": "2026-09-10T15:45:07.016400-04:00",
+  "generated_at": "2026-09-10T16:00:05.179957-04:00",
   "summary": {
-    "total_pl_dollars": -581.24,
-    "wins": 22,
-    "losses": 25,
-    "open_count": 6
+    "total_pl_dollars": -941.42,
+    "wins": 26,
+    "losses": 21,
+    "open_count": 0
   },
-  "open_trades": [
+  "open_trades": [],
+  "closed_trades": [
     {
       "ticker": "PRTS",
       "entry_price": 8.77,
-      "stop_loss_price": 7.87,
-      "profit_target_price": 10.9799,
-      "position_size_dollars": 3.98,
-      "entry_timestamp": "2026-09-10T17:02:34.332289",
+      "exit_price": 8.8799,
+      "exit_reason": "eod_close",
+      "pl_dollars": 0.05,
+      "pl_percent": 0.012531,
+      "exit_timestamp": "2026-09-10T19:45:57.363309",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 2.46,
-      "current_price": 8.8,
-      "unrealized_pct": 0.003420752565564554,
-      "unrealized_dollars": 0.01
+      "position_size_dollars": 3.98
     },
     {
       "ticker": "PRTS",
       "entry_price": 8.77,
-      "stop_loss_price": 7.87,
-      "profit_target_price": 10.9799,
-      "position_size_dollars": 3990.93,
-      "entry_timestamp": "2026-09-10T17:02:23.797278",
+      "exit_price": 8.8799,
+      "exit_reason": "eod_close",
+      "pl_dollars": 50.01,
+      "pl_percent": 0.012531,
+      "exit_timestamp": "2026-09-10T19:45:46.857938",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 2.46,
-      "current_price": 8.8,
-      "unrealized_pct": 0.003420752565564554,
-      "unrealized_dollars": 13.65
+      "position_size_dollars": 3990.93
     },
     {
       "ticker": "TPET",
       "entry_price": 2.0291,
-      "stop_loss_price": 1.91,
-      "profit_target_price": 2.34,
-      "position_size_dollars": 3.98,
-      "entry_timestamp": "2026-09-10T15:04:21.985045",
+      "exit_price": 2.035,
+      "exit_reason": "eod_close",
+      "pl_dollars": 0.01,
+      "pl_percent": 0.002908,
+      "exit_timestamp": "2026-09-10T19:45:36.086633",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 2.61,
-      "current_price": 2.02,
-      "unrealized_pct": -0.0044847469321374536,
-      "unrealized_dollars": -0.02
+      "position_size_dollars": 3.98
     },
     {
       "ticker": "TPET",
       "entry_price": 2.0291,
-      "stop_loss_price": 1.91,
-      "profit_target_price": 2.34,
-      "position_size_dollars": 3991.42,
-      "entry_timestamp": "2026-09-10T15:04:11.332444",
+      "exit_price": 2.03,
+      "exit_reason": "eod_close",
+      "pl_dollars": 1.77,
+      "pl_percent": 0.000444,
+      "exit_timestamp": "2026-09-10T19:45:25.577504",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 2.61,
-      "current_price": 2.02,
-      "unrealized_pct": -0.0044847469321374536,
-      "unrealized_dollars": -17.9
+      "position_size_dollars": 3991.42
     },
     {
       "ticker": "DXR",
       "entry_price": 10.65,
-      "stop_loss_price": 9.58,
-      "profit_target_price": 12.5,
-      "position_size_dollars": 3995.17,
-      "entry_timestamp": "2026-09-10T15:04:00.367220",
+      "exit_price": 10.91,
+      "exit_reason": "eod_close",
+      "pl_dollars": 97.53,
+      "pl_percent": 0.024413,
+      "exit_timestamp": "2026-09-10T19:45:15.028581",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 1.52,
-      "current_price": 10.91,
-      "unrealized_pct": 0.024413145539906082,
-      "unrealized_dollars": 97.53
+      "position_size_dollars": 3995.17
     },
     {
       "ticker": "NXL",
       "entry_price": 4.67,
-      "stop_loss_price": 4.2,
-      "profit_target_price": 5.85,
-      "position_size_dollars": 3996.43,
-      "entry_timestamp": "2026-09-10T13:34:40.347038",
+      "exit_price": 4.851,
+      "exit_reason": "eod_close",
+      "pl_dollars": 154.89,
+      "pl_percent": 0.038758,
+      "exit_timestamp": "2026-09-10T19:45:03.868076",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 1.57,
-      "current_price": 4.851,
-      "unrealized_pct": 0.03875802997858673,
-      "unrealized_dollars": 154.89
-    }
-  ],
-  "closed_trades": [
+      "position_size_dollars": 3996.43
+    },
     {
       "ticker": "IMNN",
       "entry_price": 1.59,
@@ -576,72 +557,6 @@
       "exit_timestamp": "2026-08-31T15:45:14.989592",
       "setup_quality": "B",
       "position_size_dollars": 4.1
-    },
-    {
-      "ticker": "NCRA",
-      "entry_price": 2.38,
-      "exit_price": 2.9799,
-      "exit_reason": "target_hit",
-      "pl_dollars": 1041.99,
-      "pl_percent": 0.252059,
-      "exit_timestamp": "2026-08-31T15:45:04.288553",
-      "setup_quality": "B",
-      "position_size_dollars": 4133.92
-    },
-    {
-      "ticker": "KZIA",
-      "entry_price": 13.74,
-      "exit_price": 13.44,
-      "exit_reason": "eod_close",
-      "pl_dollars": -89.78,
-      "pl_percent": -0.021834,
-      "exit_timestamp": "2026-08-28T19:45:13.933473",
-      "setup_quality": "B",
-      "position_size_dollars": 4112.15
-    },
-    {
-      "ticker": "TNON",
-      "entry_price": 5.3,
-      "exit_price": 5.209,
-      "exit_reason": "eod_close",
-      "pl_dollars": -70.96,
-      "pl_percent": -0.01717,
-      "exit_timestamp": "2026-08-28T19:45:03.131748",
-      "setup_quality": "B",
-      "position_size_dollars": 4132.84
-    },
-    {
-      "ticker": "AEMD",
-      "entry_price": 2.67,
-      "exit_price": 2.53,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -0.22,
-      "pl_percent": -0.052434,
-      "exit_timestamp": "2026-08-28T19:00:14.326411",
-      "setup_quality": "B",
-      "position_size_dollars": 4.12
-    },
-    {
-      "ticker": "AEMD",
-      "entry_price": 2.67,
-      "exit_price": 2.53,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -216.74,
-      "pl_percent": -0.052434,
-      "exit_timestamp": "2026-08-28T19:00:03.576644",
-      "setup_quality": "B",
-      "position_size_dollars": 4133.61
-    },
-    {
-      "ticker": "NMTC",
-      "entry_price": 1.9391,
-      "exit_price": 2.015,
-      "exit_reason": "eod_close",
-      "pl_dollars": 0.16,
-      "pl_percent": 0.039142,
-      "exit_timestamp": "2026-08-27T19:45:55.787090",
-      "setup_quality": "B",
-      "position_size_dollars": 4.2
     }
   ]
 }
