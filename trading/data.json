@@ -1,12 +1,54 @@
 {
-  "generated_at": "2026-09-11T13:00:51.102005-04:00",
+  "generated_at": "2026-09-11T13:15:06.473376-04:00",
   "summary": {
     "total_pl_dollars": -1388.69,
     "wins": 25,
     "losses": 22,
-    "open_count": 4
+    "open_count": 7
   },
   "open_trades": [
+    {
+      "ticker": "PCLA",
+      "entry_price": 9.685,
+      "stop_loss_price": 8.75,
+      "profit_target_price": 15.45,
+      "position_size_dollars": 3940.57,
+      "entry_timestamp": "2026-09-11T17:03:18.582841",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 6.17,
+      "current_price": 9.55,
+      "unrealized_pct": -0.01393908105317499,
+      "unrealized_dollars": -54.93
+    },
+    {
+      "ticker": "CVV",
+      "entry_price": 4.755,
+      "stop_loss_price": 4.56,
+      "profit_target_price": 5.79,
+      "position_size_dollars": 3.95,
+      "entry_timestamp": "2026-09-11T17:03:07.951882",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 5.31,
+      "current_price": 4.8,
+      "unrealized_pct": 0.009463722397476325,
+      "unrealized_dollars": 0.04
+    },
+    {
+      "ticker": "CVV",
+      "entry_price": 4.755,
+      "stop_loss_price": 4.56,
+      "profit_target_price": 5.79,
+      "position_size_dollars": 3945.67,
+      "entry_timestamp": "2026-09-11T17:02:57.436320",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 5.31,
+      "current_price": 4.8,
+      "unrealized_pct": 0.009463722397476325,
+      "unrealized_dollars": 37.34
+    },
     {
       "ticker": "XRTX",
       "entry_price": 2.335,
@@ -17,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.33,
-      "current_price": 2.215,
-      "unrealized_pct": -0.05139186295503217,
-      "unrealized_dollars": -0.2
+      "current_price": 2.23,
+      "unrealized_pct": -0.0449678800856531,
+      "unrealized_dollars": -0.18
     },
     {
       "ticker": "XRTX",
@@ -31,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.33,
-      "current_price": 2.215,
-      "unrealized_pct": -0.05139186295503217,
-      "unrealized_dollars": -204.53
+      "current_price": 2.23,
+      "unrealized_pct": -0.0449678800856531,
+      "unrealized_dollars": -178.96
     },
     {
       "ticker": "MASK",
@@ -45,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.98,
-      "current_price": 1.25,
-      "unrealized_pct": -0.015748031496063006,
-      "unrealized_dollars": -0.06
+      "current_price": 1.26,
+      "unrealized_pct": -0.007874015748031503,
+      "unrealized_dollars": -0.03
     },
     {
       "ticker": "MASK",
@@ -59,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.98,
-      "current_price": 1.25,
-      "unrealized_pct": -0.015748031496063006,
-      "unrealized_dollars": -62.7
+      "current_price": 1.26,
+      "unrealized_pct": -0.007874015748031503,
+      "unrealized_dollars": -31.35
     }
   ],
   "closed_trades": [
