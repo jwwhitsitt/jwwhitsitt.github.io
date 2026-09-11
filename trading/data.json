@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T11:30:05.797772-04:00",
+  "generated_at": "2026-09-11T11:45:05.751479-04:00",
   "summary": {
     "total_pl_dollars": -941.42,
     "wins": 26,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.75,
-      "current_price": 7.08,
-      "unrealized_pct": 0.005681818181818187,
-      "unrealized_dollars": 22.6
+      "current_price": 6.875,
+      "unrealized_pct": -0.023437500000000003,
+      "unrealized_dollars": -93.22
     },
     {
       "ticker": "XRTX",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.33,
-      "current_price": 2.2301,
-      "unrealized_pct": -0.04492505353319048,
-      "unrealized_dollars": -0.18
+      "current_price": 2.235,
+      "unrealized_pct": -0.042826552462526805,
+      "unrealized_dollars": -0.17
     },
     {
       "ticker": "XRTX",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.33,
-      "current_price": 2.2301,
-      "unrealized_pct": -0.04492505353319048,
-      "unrealized_dollars": -178.79
+      "current_price": 2.235,
+      "unrealized_pct": -0.042826552462526805,
+      "unrealized_dollars": -170.44
     },
     {
       "ticker": "MASK",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.98,
-      "current_price": 1.2697,
-      "unrealized_pct": -0.00023622047244091886,
-      "unrealized_dollars": -0.0
+      "current_price": 1.2702,
+      "unrealized_pct": 0.00015748031496061257,
+      "unrealized_dollars": 0.0
     },
     {
       "ticker": "MASK",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.98,
-      "current_price": 1.2697,
-      "unrealized_pct": -0.00023622047244091886,
-      "unrealized_dollars": -0.94
+      "current_price": 1.2702,
+      "unrealized_pct": 0.00015748031496061257,
+      "unrealized_dollars": 0.63
     }
   ],
   "closed_trades": [
