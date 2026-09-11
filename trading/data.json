@@ -1,26 +1,12 @@
 {
-  "generated_at": "2026-09-11T12:45:05.296417-04:00",
+  "generated_at": "2026-09-11T13:00:51.102005-04:00",
   "summary": {
-    "total_pl_dollars": -941.42,
-    "wins": 26,
-    "losses": 21,
-    "open_count": 5
+    "total_pl_dollars": -1388.69,
+    "wins": 25,
+    "losses": 22,
+    "open_count": 4
   },
   "open_trades": [
-    {
-      "ticker": "AENT",
-      "entry_price": 7.04,
-      "stop_loss_price": 6.34,
-      "profit_target_price": 8.45,
-      "position_size_dollars": 3977.47,
-      "entry_timestamp": "2026-09-11T13:36:44.213516",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 1.75,
-      "current_price": 6.23,
-      "unrealized_pct": -0.11505681818181812,
-      "unrealized_dollars": -457.64
-    },
     {
       "ticker": "XRTX",
       "entry_price": 2.335,
@@ -31,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.33,
-      "current_price": 2.25,
-      "unrealized_pct": -0.036402569593147735,
-      "unrealized_dollars": -0.14
+      "current_price": 2.215,
+      "unrealized_pct": -0.05139186295503217,
+      "unrealized_dollars": -0.2
     },
     {
       "ticker": "XRTX",
@@ -45,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.33,
-      "current_price": 2.25,
-      "unrealized_pct": -0.036402569593147735,
-      "unrealized_dollars": -144.88
+      "current_price": 2.215,
+      "unrealized_pct": -0.05139186295503217,
+      "unrealized_dollars": -204.53
     },
     {
       "ticker": "MASK",
@@ -59,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.98,
-      "current_price": 1.265,
-      "unrealized_pct": -0.003937007874015839,
-      "unrealized_dollars": -0.02
+      "current_price": 1.25,
+      "unrealized_pct": -0.015748031496063006,
+      "unrealized_dollars": -0.06
     },
     {
       "ticker": "MASK",
@@ -73,12 +59,23 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.98,
-      "current_price": 1.265,
-      "unrealized_pct": -0.003937007874015839,
-      "unrealized_dollars": -15.67
+      "current_price": 1.25,
+      "unrealized_pct": -0.015748031496063006,
+      "unrealized_dollars": -62.7
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "AENT",
+      "entry_price": 7.04,
+      "exit_price": 6.2502,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -446.22,
+      "pl_percent": -0.112187,
+      "exit_timestamp": "2026-09-11T16:45:04.181477",
+      "setup_quality": "B",
+      "position_size_dollars": 3977.47
+    },
     {
       "ticker": "PRTS",
       "entry_price": 8.77,
@@ -617,17 +614,6 @@
       "exit_timestamp": "2026-08-31T16:45:03.751042",
       "setup_quality": "B",
       "position_size_dollars": 4133.91
-    },
-    {
-      "ticker": "NCRA",
-      "entry_price": 2.38,
-      "exit_price": 2.99,
-      "exit_reason": "target_hit",
-      "pl_dollars": 1.05,
-      "pl_percent": 0.256303,
-      "exit_timestamp": "2026-08-31T15:45:14.989592",
-      "setup_quality": "B",
-      "position_size_dollars": 4.1
     }
   ]
 }
