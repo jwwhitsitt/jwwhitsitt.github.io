@@ -1,12 +1,83 @@
 {
-  "generated_at": "2026-09-11T09:30:05.391608-04:00",
+  "generated_at": "2026-09-11T09:45:05.129039-04:00",
   "summary": {
     "total_pl_dollars": -941.42,
     "wins": 26,
     "losses": 21,
-    "open_count": 0
+    "open_count": 5
   },
-  "open_trades": [],
+  "open_trades": [
+    {
+      "ticker": "AENT",
+      "entry_price": 7.04,
+      "stop_loss_price": 6.34,
+      "profit_target_price": 8.45,
+      "position_size_dollars": 3977.47,
+      "entry_timestamp": "2026-09-11T13:36:44.213516",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.75,
+      "current_price": 6.955,
+      "unrealized_pct": -0.01207386363636363,
+      "unrealized_dollars": -48.02
+    },
+    {
+      "ticker": "XRTX",
+      "entry_price": 2.335,
+      "stop_loss_price": 2.1,
+      "profit_target_price": 2.8,
+      "position_size_dollars": 3.97,
+      "entry_timestamp": "2026-09-11T13:36:33.585978",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.33,
+      "current_price": 2.42,
+      "unrealized_pct": 0.036402569593147735,
+      "unrealized_dollars": 0.14
+    },
+    {
+      "ticker": "XRTX",
+      "entry_price": 2.335,
+      "stop_loss_price": 2.1,
+      "profit_target_price": 2.8,
+      "position_size_dollars": 3979.84,
+      "entry_timestamp": "2026-09-11T13:36:22.988447",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.33,
+      "current_price": 2.42,
+      "unrealized_pct": 0.036402569593147735,
+      "unrealized_dollars": 144.88
+    },
+    {
+      "ticker": "MASK",
+      "entry_price": 1.27,
+      "stop_loss_price": 1.14,
+      "profit_target_price": 1.59,
+      "position_size_dollars": 3.97,
+      "entry_timestamp": "2026-09-11T13:36:12.381855",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.98,
+      "current_price": 1.27,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
+    },
+    {
+      "ticker": "MASK",
+      "entry_price": 1.27,
+      "stop_loss_price": 1.14,
+      "profit_target_price": 1.59,
+      "position_size_dollars": 3981.4,
+      "entry_timestamp": "2026-09-11T13:36:01.435434",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.98,
+      "current_price": 1.27,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
+    }
+  ],
   "closed_trades": [
     {
       "ticker": "PRTS",
