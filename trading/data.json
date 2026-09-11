@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T10:30:05.936245-04:00",
+  "generated_at": "2026-09-11T10:45:05.294814-04:00",
   "summary": {
     "total_pl_dollars": -941.42,
     "wins": 26,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.75,
-      "current_price": 7.195,
-      "unrealized_pct": 0.02201704545454549,
-      "unrealized_dollars": 87.57
+      "current_price": 7.0,
+      "unrealized_pct": -0.005681818181818187,
+      "unrealized_dollars": -22.6
     },
     {
       "ticker": "XRTX",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.98,
-      "current_price": 1.291,
-      "unrealized_pct": 0.01653543307086607,
-      "unrealized_dollars": 0.07
+      "current_price": 1.275,
+      "unrealized_pct": 0.003937007874015664,
+      "unrealized_dollars": 0.02
     },
     {
       "ticker": "MASK",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.98,
-      "current_price": 1.291,
-      "unrealized_pct": 0.01653543307086607,
-      "unrealized_dollars": 65.83
+      "current_price": 1.275,
+      "unrealized_pct": 0.003937007874015664,
+      "unrealized_dollars": 15.67
     }
   ],
   "closed_trades": [
