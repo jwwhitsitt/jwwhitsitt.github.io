@@ -1,42 +1,35 @@
 {
-  "generated_at": "2026-09-14T15:45:04.200669-04:00",
+  "generated_at": "2026-09-14T16:00:04.294214-04:00",
   "summary": {
-    "total_pl_dollars": -3268.62,
+    "total_pl_dollars": -3955.88,
     "wins": 24,
     "losses": 23,
-    "open_count": 2
+    "open_count": 0
   },
-  "open_trades": [
+  "open_trades": [],
+  "closed_trades": [
     {
       "ticker": "CVV",
       "entry_price": 4.755,
-      "stop_loss_price": 4.56,
-      "profit_target_price": 5.79,
-      "position_size_dollars": 3.95,
-      "entry_timestamp": "2026-09-11T17:03:07.951882",
+      "exit_price": 4.77,
+      "exit_reason": "eod_close",
+      "pl_dollars": 0.01,
+      "pl_percent": 0.003155,
+      "exit_timestamp": "2026-09-14T19:47:53.341046",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 5.31,
-      "current_price": 4.7907,
-      "unrealized_pct": 0.007507886435331291,
-      "unrealized_dollars": 0.03
+      "position_size_dollars": 3.95
     },
     {
       "ticker": "CVV",
       "entry_price": 4.755,
-      "stop_loss_price": 4.56,
-      "profit_target_price": 5.79,
-      "position_size_dollars": 3945.67,
-      "entry_timestamp": "2026-09-11T17:02:57.436320",
+      "exit_price": 4.7907,
+      "exit_reason": "eod_close",
+      "pl_dollars": 29.62,
+      "pl_percent": 0.007508,
+      "exit_timestamp": "2026-09-14T19:45:03.409601",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 5.31,
-      "current_price": 4.7907,
-      "unrealized_pct": 0.007507886435331291,
-      "unrealized_dollars": 29.62
-    }
-  ],
-  "closed_trades": [
+      "position_size_dollars": 3945.67
+    },
     {
       "ticker": "PCLA",
       "entry_price": 9.685,
@@ -564,28 +557,6 @@
       "exit_timestamp": "2026-08-31T19:45:35.297301",
       "setup_quality": "B",
       "position_size_dollars": 4157.73
-    },
-    {
-      "ticker": "ARTL",
-      "entry_price": 5.5,
-      "exit_price": 6.46,
-      "exit_reason": "eod_close",
-      "pl_dollars": 716.77,
-      "pl_percent": 0.174545,
-      "exit_timestamp": "2026-08-31T19:45:24.751774",
-      "setup_quality": "B",
-      "position_size_dollars": 4106.52
-    },
-    {
-      "ticker": "BLRX",
-      "entry_price": 2.6401,
-      "exit_price": 2.72,
-      "exit_reason": "eod_close",
-      "pl_dollars": 0.12,
-      "pl_percent": 0.030264,
-      "exit_timestamp": "2026-08-31T19:45:14.051359",
-      "setup_quality": "B",
-      "position_size_dollars": 4.1
     }
   ]
 }
