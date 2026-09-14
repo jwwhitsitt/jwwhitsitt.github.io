@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T09:30:04.504028-04:00",
+  "generated_at": "2026-09-14T09:45:05.911077-04:00",
   "summary": {
     "total_pl_dollars": -1388.69,
     "wins": 25,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.17,
-      "current_price": 10.11,
-      "unrealized_pct": 0.043882292204439746,
-      "unrealized_dollars": 172.92
+      "current_price": 7.98,
+      "unrealized_pct": -0.17604543107898812,
+      "unrealized_dollars": -693.72
     },
     {
       "ticker": "CVV",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.31,
-      "current_price": 4.68,
-      "unrealized_pct": -0.015772870662460605,
-      "unrealized_dollars": -0.06
+      "current_price": 4.675,
+      "unrealized_pct": -0.01682439537329129,
+      "unrealized_dollars": -0.07
     },
     {
       "ticker": "CVV",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.31,
-      "current_price": 4.68,
-      "unrealized_pct": -0.015772870662460605,
-      "unrealized_dollars": -62.23
+      "current_price": 4.675,
+      "unrealized_pct": -0.01682439537329129,
+      "unrealized_dollars": -66.38
     },
     {
       "ticker": "XRTX",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.33,
-      "current_price": 2.33,
-      "unrealized_pct": -0.002141327623126293,
-      "unrealized_dollars": -0.01
+      "current_price": 2.07,
+      "unrealized_pct": -0.11349036402569598,
+      "unrealized_dollars": -0.45
     },
     {
       "ticker": "XRTX",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.33,
-      "current_price": 2.33,
-      "unrealized_pct": -0.002141327623126293,
-      "unrealized_dollars": -8.52
+      "current_price": 2.07,
+      "unrealized_pct": -0.11349036402569598,
+      "unrealized_dollars": -451.67
     },
     {
       "ticker": "MASK",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.98,
-      "current_price": 1.0,
-      "unrealized_pct": -0.2125984251968504,
-      "unrealized_dollars": -0.84
+      "current_price": 0.9631,
+      "unrealized_pct": -0.24165354330708666,
+      "unrealized_dollars": -0.96
     },
     {
       "ticker": "MASK",
@@ -101,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.98,
-      "current_price": 1.0,
-      "unrealized_pct": -0.2125984251968504,
-      "unrealized_dollars": -846.44
+      "current_price": 0.9631,
+      "unrealized_pct": -0.24165354330708666,
+      "unrealized_dollars": -962.12
     }
   ],
   "closed_trades": [
