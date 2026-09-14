@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T11:00:04.806719-04:00",
+  "generated_at": "2026-09-14T11:15:05.059040-04:00",
   "summary": {
     "total_pl_dollars": -3268.62,
     "wins": 24,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.31,
-      "current_price": 4.7159,
-      "unrealized_pct": -0.008222923238695997,
-      "unrealized_dollars": -0.03
+      "current_price": 4.832,
+      "unrealized_pct": 0.01619348054679284,
+      "unrealized_dollars": 0.06
     },
     {
       "ticker": "CVV",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.31,
-      "current_price": 4.7159,
-      "unrealized_pct": -0.008222923238695997,
-      "unrealized_dollars": -32.44
+      "current_price": 4.832,
+      "unrealized_pct": 0.01619348054679284,
+      "unrealized_dollars": 63.89
     }
   ],
   "closed_trades": [
