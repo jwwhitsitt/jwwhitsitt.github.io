@@ -1,26 +1,12 @@
 {
-  "generated_at": "2026-09-14T09:45:05.911077-04:00",
+  "generated_at": "2026-09-14T10:00:05.091684-04:00",
   "summary": {
-    "total_pl_dollars": -1388.69,
-    "wins": 25,
-    "losses": 22,
-    "open_count": 7
+    "total_pl_dollars": -3268.62,
+    "wins": 24,
+    "losses": 23,
+    "open_count": 2
   },
   "open_trades": [
-    {
-      "ticker": "PCLA",
-      "entry_price": 9.685,
-      "stop_loss_price": 8.75,
-      "profit_target_price": 15.45,
-      "position_size_dollars": 3940.57,
-      "entry_timestamp": "2026-09-11T17:03:18.582841",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 6.17,
-      "current_price": 7.98,
-      "unrealized_pct": -0.17604543107898812,
-      "unrealized_dollars": -693.72
-    },
     {
       "ticker": "CVV",
       "entry_price": 4.755,
@@ -31,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.31,
-      "current_price": 4.675,
-      "unrealized_pct": -0.01682439537329129,
-      "unrealized_dollars": -0.07
+      "current_price": 4.66,
+      "unrealized_pct": -0.019978969505783335,
+      "unrealized_dollars": -0.08
     },
     {
       "ticker": "CVV",
@@ -45,68 +31,67 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.31,
-      "current_price": 4.675,
-      "unrealized_pct": -0.01682439537329129,
-      "unrealized_dollars": -66.38
-    },
-    {
-      "ticker": "XRTX",
-      "entry_price": 2.335,
-      "stop_loss_price": 2.1,
-      "profit_target_price": 2.8,
-      "position_size_dollars": 3.97,
-      "entry_timestamp": "2026-09-11T13:36:33.585978",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 1.33,
-      "current_price": 2.07,
-      "unrealized_pct": -0.11349036402569598,
-      "unrealized_dollars": -0.45
-    },
-    {
-      "ticker": "XRTX",
-      "entry_price": 2.335,
-      "stop_loss_price": 2.1,
-      "profit_target_price": 2.8,
-      "position_size_dollars": 3979.84,
-      "entry_timestamp": "2026-09-11T13:36:22.988447",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 1.33,
-      "current_price": 2.07,
-      "unrealized_pct": -0.11349036402569598,
-      "unrealized_dollars": -451.67
-    },
-    {
-      "ticker": "MASK",
-      "entry_price": 1.27,
-      "stop_loss_price": 1.14,
-      "profit_target_price": 1.59,
-      "position_size_dollars": 3.97,
-      "entry_timestamp": "2026-09-11T13:36:12.381855",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 1.98,
-      "current_price": 0.9631,
-      "unrealized_pct": -0.24165354330708666,
-      "unrealized_dollars": -0.96
-    },
-    {
-      "ticker": "MASK",
-      "entry_price": 1.27,
-      "stop_loss_price": 1.14,
-      "profit_target_price": 1.59,
-      "position_size_dollars": 3981.4,
-      "entry_timestamp": "2026-09-11T13:36:01.435434",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 1.98,
-      "current_price": 0.9631,
-      "unrealized_pct": -0.24165354330708666,
-      "unrealized_dollars": -962.12
+      "current_price": 4.66,
+      "unrealized_pct": -0.019978969505783335,
+      "unrealized_dollars": -78.83
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "PCLA",
+      "entry_price": 9.685,
+      "exit_price": 7.89,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -730.34,
+      "pl_percent": -0.185338,
+      "exit_timestamp": "2026-09-14T13:45:46.277879",
+      "setup_quality": "B",
+      "position_size_dollars": 3940.57
+    },
+    {
+      "ticker": "XRTX",
+      "entry_price": 2.335,
+      "exit_price": 2.07,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.45,
+      "pl_percent": -0.11349,
+      "exit_timestamp": "2026-09-14T13:45:35.319942",
+      "setup_quality": "B",
+      "position_size_dollars": 3.97
+    },
+    {
+      "ticker": "XRTX",
+      "entry_price": 2.335,
+      "exit_price": 2.07,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -451.67,
+      "pl_percent": -0.11349,
+      "exit_timestamp": "2026-09-14T13:45:24.843144",
+      "setup_quality": "B",
+      "position_size_dollars": 3979.84
+    },
+    {
+      "ticker": "MASK",
+      "entry_price": 1.27,
+      "exit_price": 0.9631,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.96,
+      "pl_percent": -0.241654,
+      "exit_timestamp": "2026-09-14T13:45:14.106950",
+      "setup_quality": "B",
+      "position_size_dollars": 3.97
+    },
+    {
+      "ticker": "MASK",
+      "entry_price": 1.27,
+      "exit_price": 0.9631,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -962.12,
+      "pl_percent": -0.241654,
+      "exit_timestamp": "2026-09-14T13:45:03.350124",
+      "setup_quality": "B",
+      "position_size_dollars": 3981.4
+    },
     {
       "ticker": "AENT",
       "entry_price": 7.04,
@@ -601,61 +586,6 @@
       "exit_timestamp": "2026-08-31T19:45:14.051359",
       "setup_quality": "B",
       "position_size_dollars": 4.1
-    },
-    {
-      "ticker": "BLRX",
-      "entry_price": 2.6401,
-      "exit_price": 2.77,
-      "exit_reason": "eod_close",
-      "pl_dollars": 202.05,
-      "pl_percent": 0.049203,
-      "exit_timestamp": "2026-08-31T19:45:03.326409",
-      "setup_quality": "B",
-      "position_size_dollars": 4106.52
-    },
-    {
-      "ticker": "AENT",
-      "entry_price": 5.13,
-      "exit_price": 4.95,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -0.15,
-      "pl_percent": -0.035088,
-      "exit_timestamp": "2026-08-31T18:15:14.166096",
-      "setup_quality": "B",
-      "position_size_dollars": 4.14
-    },
-    {
-      "ticker": "AENT",
-      "entry_price": 5.13,
-      "exit_price": 4.95,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -146.11,
-      "pl_percent": -0.035088,
-      "exit_timestamp": "2026-08-31T18:15:03.280691",
-      "setup_quality": "B",
-      "position_size_dollars": 4164.03
-    },
-    {
-      "ticker": "WBUY",
-      "entry_price": 1.03,
-      "exit_price": 0.9453,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -0.34,
-      "pl_percent": -0.082233,
-      "exit_timestamp": "2026-08-31T16:45:14.453741",
-      "setup_quality": "B",
-      "position_size_dollars": 4.1
-    },
-    {
-      "ticker": "WBUY",
-      "entry_price": 1.03,
-      "exit_price": 0.95,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -321.08,
-      "pl_percent": -0.07767,
-      "exit_timestamp": "2026-08-31T16:45:03.751042",
-      "setup_quality": "B",
-      "position_size_dollars": 4133.91
     }
   ]
 }
