@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T09:15:04.954715-04:00",
+  "generated_at": "2026-09-14T09:30:04.504028-04:00",
   "summary": {
     "total_pl_dollars": -1388.69,
     "wins": 25,
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.98,
-      "current_price": 1.23,
-      "unrealized_pct": -0.03149606299212601,
-      "unrealized_dollars": -0.13
+      "current_price": 1.0,
+      "unrealized_pct": -0.2125984251968504,
+      "unrealized_dollars": -0.84
     },
     {
       "ticker": "MASK",
@@ -101,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.98,
-      "current_price": 1.23,
-      "unrealized_pct": -0.03149606299212601,
-      "unrealized_dollars": -125.4
+      "current_price": 1.0,
+      "unrealized_pct": -0.2125984251968504,
+      "unrealized_dollars": -846.44
     }
   ],
   "closed_trades": [
