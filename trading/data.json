@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-15T14:00:05.262560-04:00",
+  "generated_at": "2026-09-15T14:15:03.758779-04:00",
   "summary": {
-    "total_pl_dollars": -3955.88,
-    "wins": 24,
-    "losses": 23,
-    "open_count": 5
+    "total_pl_dollars": -4344.86,
+    "wins": 22,
+    "losses": 25,
+    "open_count": 3
   },
   "open_trades": [
     {
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.37,
-      "current_price": 3.34,
-      "unrealized_pct": -0.004470938897168443,
-      "unrealized_dollars": -0.02
+      "current_price": 3.3,
+      "unrealized_pct": -0.01639344262295087,
+      "unrealized_dollars": -0.06
     },
     {
       "ticker": "CSAI",
@@ -45,40 +45,34 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.37,
-      "current_price": 3.34,
-      "unrealized_pct": -0.004470938897168443,
-      "unrealized_dollars": -17.2
-    },
-    {
-      "ticker": "MYSZ",
-      "entry_price": 2.16,
-      "stop_loss_price": 2.07,
-      "profit_target_price": 2.53,
-      "position_size_dollars": 3.85,
-      "entry_timestamp": "2026-09-15T15:02:40.556711",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 4.11,
-      "current_price": 2.005,
-      "unrealized_pct": -0.07175925925925937,
-      "unrealized_dollars": -0.28
-    },
-    {
-      "ticker": "MYSZ",
-      "entry_price": 2.16,
-      "stop_loss_price": 2.07,
-      "profit_target_price": 2.53,
-      "position_size_dollars": 3831.96,
-      "entry_timestamp": "2026-09-15T15:02:29.799645",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 4.11,
-      "current_price": 2.005,
-      "unrealized_pct": -0.07175925925925937,
-      "unrealized_dollars": -274.98
+      "current_price": 3.3,
+      "unrealized_pct": -0.01639344262295087,
+      "unrealized_dollars": -63.08
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "MYSZ",
+      "entry_price": 2.16,
+      "exit_price": 2.01,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.27,
+      "pl_percent": -0.069444,
+      "exit_timestamp": "2026-09-15T18:00:14.057929",
+      "setup_quality": "B",
+      "position_size_dollars": 3.85
+    },
+    {
+      "ticker": "MYSZ",
+      "entry_price": 2.16,
+      "exit_price": 2.005,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -274.98,
+      "pl_percent": -0.071759,
+      "exit_timestamp": "2026-09-15T18:00:03.408864",
+      "setup_quality": "B",
+      "position_size_dollars": 3831.96
+    },
     {
       "ticker": "CVV",
       "entry_price": 4.755,
@@ -606,28 +600,6 @@
       "exit_timestamp": "2026-08-31T19:45:56.306370",
       "setup_quality": "B",
       "position_size_dollars": 4134.66
-    },
-    {
-      "ticker": "YDDL",
-      "entry_price": 2.2,
-      "exit_price": 2.28,
-      "exit_reason": "eod_close",
-      "pl_dollars": 0.15,
-      "pl_percent": 0.036364,
-      "exit_timestamp": "2026-08-31T19:45:45.768834",
-      "setup_quality": "B",
-      "position_size_dollars": 4.13
-    },
-    {
-      "ticker": "YDDL",
-      "entry_price": 2.2,
-      "exit_price": 2.2601,
-      "exit_reason": "eod_close",
-      "pl_dollars": 113.58,
-      "pl_percent": 0.027318,
-      "exit_timestamp": "2026-08-31T19:45:35.297301",
-      "setup_quality": "B",
-      "position_size_dollars": 4157.73
     }
   ]
 }
