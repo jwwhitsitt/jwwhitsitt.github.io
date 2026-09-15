@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T15:00:04.216713-04:00",
+  "generated_at": "2026-09-15T15:15:04.819143-04:00",
   "summary": {
     "total_pl_dollars": -4344.86,
     "wins": 22,
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.37,
-      "current_price": 3.2999,
-      "unrealized_pct": -0.016423248882265255,
-      "unrealized_dollars": -0.06
+      "current_price": 3.2401,
+      "unrealized_pct": -0.03424739195230998,
+      "unrealized_dollars": -0.13
     },
     {
       "ticker": "CSAI",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.37,
-      "current_price": 3.2999,
-      "unrealized_pct": -0.016423248882265255,
-      "unrealized_dollars": -63.19
+      "current_price": 3.2401,
+      "unrealized_pct": -0.03424739195230998,
+      "unrealized_dollars": -131.78
     }
   ],
   "closed_trades": [
