@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T13:15:05.896980-04:00",
+  "generated_at": "2026-09-15T13:30:04.721684-04:00",
   "summary": {
     "total_pl_dollars": -3955.88,
     "wins": 24,
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.37,
-      "current_price": 3.27,
-      "unrealized_pct": -0.02533532041728762,
-      "unrealized_dollars": -0.1
+      "current_price": 3.2988,
+      "unrealized_pct": -0.0167511177347243,
+      "unrealized_dollars": -0.06
     },
     {
       "ticker": "CSAI",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.37,
-      "current_price": 3.27,
-      "unrealized_pct": -0.02533532041728762,
-      "unrealized_dollars": -97.49
+      "current_price": 3.2988,
+      "unrealized_pct": -0.0167511177347243,
+      "unrealized_dollars": -64.46
     },
     {
       "ticker": "MYSZ",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.11,
-      "current_price": 2.2116,
-      "unrealized_pct": 0.023888888888888724,
-      "unrealized_dollars": 0.09
+      "current_price": 2.17,
+      "unrealized_pct": 0.0046296296296295305,
+      "unrealized_dollars": 0.02
     },
     {
       "ticker": "MYSZ",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.11,
-      "current_price": 2.2116,
-      "unrealized_pct": 0.023888888888888724,
-      "unrealized_dollars": 91.54
+      "current_price": 2.17,
+      "unrealized_pct": 0.0046296296296295305,
+      "unrealized_dollars": 17.74
     }
   ],
   "closed_trades": [
