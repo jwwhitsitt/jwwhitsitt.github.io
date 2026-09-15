@@ -1,12 +1,41 @@
 {
-  "generated_at": "2026-09-15T11:00:03.536964-04:00",
+  "generated_at": "2026-09-15T11:15:04.951678-04:00",
   "summary": {
     "total_pl_dollars": -3955.88,
     "wins": 24,
     "losses": 23,
-    "open_count": 0
+    "open_count": 2
   },
-  "open_trades": [],
+  "open_trades": [
+    {
+      "ticker": "MYSZ",
+      "entry_price": 2.16,
+      "stop_loss_price": 2.07,
+      "profit_target_price": 2.53,
+      "position_size_dollars": 3.85,
+      "entry_timestamp": "2026-09-15T15:02:40.556711",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 4.11,
+      "current_price": 2.165,
+      "unrealized_pct": 0.0023148148148147652,
+      "unrealized_dollars": 0.01
+    },
+    {
+      "ticker": "MYSZ",
+      "entry_price": 2.16,
+      "stop_loss_price": 2.07,
+      "profit_target_price": 2.53,
+      "position_size_dollars": 3831.96,
+      "entry_timestamp": "2026-09-15T15:02:29.799645",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 4.11,
+      "current_price": 2.165,
+      "unrealized_pct": 0.0023148148148147652,
+      "unrealized_dollars": 8.87
+    }
+  ],
   "closed_trades": [
     {
       "ticker": "CVV",
