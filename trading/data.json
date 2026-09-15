@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T12:45:03.631102-04:00",
+  "generated_at": "2026-09-15T13:00:03.805584-04:00",
   "summary": {
     "total_pl_dollars": -3955.88,
     "wins": 24,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.11,
-      "current_price": 2.3199,
-      "unrealized_pct": 0.07402777777777775,
-      "unrealized_dollars": 0.29
+      "current_price": 2.2911,
+      "unrealized_pct": 0.06069444444444444,
+      "unrealized_dollars": 0.23
     },
     {
       "ticker": "MYSZ",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.11,
-      "current_price": 2.3199,
-      "unrealized_pct": 0.07402777777777775,
-      "unrealized_dollars": 283.67
+      "current_price": 2.2911,
+      "unrealized_pct": 0.06069444444444444,
+      "unrealized_dollars": 232.58
     }
   ],
   "closed_trades": [
