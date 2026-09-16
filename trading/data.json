@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T14:00:04.183041-04:00",
+  "generated_at": "2026-09-16T14:15:06.375833-04:00",
   "summary": {
     "total_pl_dollars": -3352.53,
     "wins": 23,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.11,
-      "current_price": 1.305,
-      "unrealized_pct": -0.011363636363636458,
-      "unrealized_dollars": -0.04
+      "current_price": 1.3,
+      "unrealized_pct": -0.015151515151515164,
+      "unrealized_dollars": -0.06
     },
     {
       "ticker": "JZXN",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.11,
-      "current_price": 1.305,
-      "unrealized_pct": -0.011363636363636458,
-      "unrealized_dollars": -43.43
+      "current_price": 1.3,
+      "unrealized_pct": -0.015151515151515164,
+      "unrealized_dollars": -57.91
     },
     {
       "ticker": "XBIO",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 9.22,
-      "current_price": 2.105,
-      "unrealized_pct": 0.07403438950966887,
-      "unrealized_dollars": 0.28
+      "current_price": 2.11,
+      "unrealized_pct": 0.07658554007857539,
+      "unrealized_dollars": 0.29
     },
     {
       "ticker": "XBIO",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 9.22,
-      "current_price": 2.105,
-      "unrealized_pct": 0.07403438950966887,
-      "unrealized_dollars": 282.67
+      "current_price": 2.11,
+      "unrealized_pct": 0.07658554007857539,
+      "unrealized_dollars": 292.41
     }
   ],
   "closed_trades": [
