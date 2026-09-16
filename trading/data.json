@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T12:45:04.269984-04:00",
+  "generated_at": "2026-09-16T13:00:04.550621-04:00",
   "summary": {
     "total_pl_dollars": -3352.53,
     "wins": 23,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 9.22,
-      "current_price": 2.14,
-      "unrealized_pct": 0.09189244349201497,
-      "unrealized_dollars": 0.35
+      "current_price": 2.13,
+      "unrealized_pct": 0.08679014235420171,
+      "unrealized_dollars": 0.33
     },
     {
       "ticker": "XBIO",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 9.22,
-      "current_price": 2.14,
-      "unrealized_pct": 0.09189244349201497,
-      "unrealized_dollars": 350.86
+      "current_price": 2.13,
+      "unrealized_pct": 0.08679014235420171,
+      "unrealized_dollars": 331.38
     }
   ],
   "closed_trades": [
