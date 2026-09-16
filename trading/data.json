@@ -1,112 +1,90 @@
 {
-  "generated_at": "2026-09-16T15:45:04.211378-04:00",
+  "generated_at": "2026-09-16T16:00:04.384534-04:00",
   "summary": {
-    "total_pl_dollars": -3352.53,
-    "wins": 23,
-    "losses": 24,
-    "open_count": 7
+    "total_pl_dollars": -4930.85,
+    "wins": 19,
+    "losses": 28,
+    "open_count": 0
   },
-  "open_trades": [
+  "open_trades": [],
+  "closed_trades": [
     {
       "ticker": "MEDS",
       "entry_price": 6.68,
-      "stop_loss_price": 4.17,
-      "profit_target_price": 12.31,
-      "position_size_dollars": 3811.28,
-      "entry_timestamp": "2026-09-16T19:03:37.999053",
+      "exit_price": 6.4432,
+      "exit_reason": "eod_close",
+      "pl_dollars": -135.11,
+      "pl_percent": -0.035449,
+      "exit_timestamp": "2026-09-16T19:46:06.187498",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 2.24,
-      "current_price": 6.325,
-      "unrealized_pct": -0.05314371257485023,
-      "unrealized_dollars": -202.55
+      "position_size_dollars": 3811.28
     },
     {
       "ticker": "TGL",
       "entry_price": 3.29,
-      "stop_loss_price": 3.0,
-      "profit_target_price": 4.54,
-      "position_size_dollars": 3.81,
-      "entry_timestamp": "2026-09-16T19:03:27.334077",
+      "exit_price": 3.3393,
+      "exit_reason": "eod_close",
+      "pl_dollars": 0.06,
+      "pl_percent": 0.014985,
+      "exit_timestamp": "2026-09-16T19:45:55.629688",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 4.31,
-      "current_price": 3.28,
-      "unrealized_pct": -0.0030395136778116204,
-      "unrealized_dollars": -0.01
+      "position_size_dollars": 3.81
     },
     {
       "ticker": "TGL",
       "entry_price": 3.29,
-      "stop_loss_price": 3.0,
-      "profit_target_price": 4.54,
-      "position_size_dollars": 3812.5,
-      "entry_timestamp": "2026-09-16T19:03:16.506735",
+      "exit_price": 3.277,
+      "exit_reason": "eod_close",
+      "pl_dollars": -15.06,
+      "pl_percent": -0.003951,
+      "exit_timestamp": "2026-09-16T19:45:45.145722",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 4.31,
-      "current_price": 3.28,
-      "unrealized_pct": -0.0030395136778116204,
-      "unrealized_dollars": -11.59
+      "position_size_dollars": 3812.5
     },
     {
       "ticker": "JZXN",
       "entry_price": 1.32,
-      "stop_loss_price": 1.1204,
-      "profit_target_price": 1.94,
-      "position_size_dollars": 3.83,
-      "entry_timestamp": "2026-09-16T17:03:01.984289",
+      "exit_price": 1.22,
+      "exit_reason": "eod_close",
+      "pl_dollars": -0.29,
+      "pl_percent": -0.075758,
+      "exit_timestamp": "2026-09-16T19:45:34.597405",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 3.11,
-      "current_price": 1.2101,
-      "unrealized_pct": -0.08325757575757584,
-      "unrealized_dollars": -0.32
+      "position_size_dollars": 3.83
     },
     {
       "ticker": "JZXN",
       "entry_price": 1.32,
-      "stop_loss_price": 1.1204,
-      "profit_target_price": 1.94,
-      "position_size_dollars": 3822.11,
-      "entry_timestamp": "2026-09-16T17:02:51.283665",
+      "exit_price": 1.2199,
+      "exit_reason": "eod_close",
+      "pl_dollars": -289.84,
+      "pl_percent": -0.075833,
+      "exit_timestamp": "2026-09-16T19:45:24.103154",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 3.11,
-      "current_price": 1.2101,
-      "unrealized_pct": -0.08325757575757584,
-      "unrealized_dollars": -318.22
+      "position_size_dollars": 3822.11
     },
     {
       "ticker": "XBIO",
       "entry_price": 1.9599,
-      "stop_loss_price": 1.87,
-      "profit_target_price": 2.7888,
-      "position_size_dollars": 3.83,
-      "entry_timestamp": "2026-09-16T15:02:51.632633",
+      "exit_price": 2.155,
+      "exit_reason": "eod_close",
+      "pl_dollars": 0.38,
+      "pl_percent": 0.099546,
+      "exit_timestamp": "2026-09-16T19:45:13.412164",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 9.22,
-      "current_price": 2.155,
-      "unrealized_pct": 0.09954589519873454,
-      "unrealized_dollars": 0.38
+      "position_size_dollars": 3.83
     },
     {
       "ticker": "XBIO",
       "entry_price": 1.9599,
-      "stop_loss_price": 1.87,
-      "profit_target_price": 2.7888,
-      "position_size_dollars": 3818.14,
-      "entry_timestamp": "2026-09-16T15:02:40.827796",
+      "exit_price": 2.155,
+      "exit_reason": "eod_close",
+      "pl_dollars": 380.08,
+      "pl_percent": 0.099546,
+      "exit_timestamp": "2026-09-16T19:45:02.678960",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 9.22,
-      "current_price": 2.155,
-      "unrealized_pct": 0.09954589519873454,
-      "unrealized_dollars": 380.08
-    }
-  ],
-  "closed_trades": [
+      "position_size_dollars": 3818.14
+    },
     {
       "ticker": "BURU",
       "entry_price": 1.2,
@@ -579,83 +557,6 @@
       "exit_timestamp": "2026-09-03T17:45:03.642048",
       "setup_quality": "B",
       "position_size_dollars": 4137.46
-    },
-    {
-      "ticker": "PPBT",
-      "entry_price": 2.1517,
-      "exit_price": 2.23,
-      "exit_reason": "eod_close",
-      "pl_dollars": 0.15,
-      "pl_percent": 0.03639,
-      "exit_timestamp": "2026-09-02T19:45:14.009616",
-      "setup_quality": "B",
-      "position_size_dollars": 4.14
-    },
-    {
-      "ticker": "PPBT",
-      "entry_price": 2.1517,
-      "exit_price": 2.21,
-      "exit_reason": "eod_close",
-      "pl_dollars": 111.97,
-      "pl_percent": 0.027095,
-      "exit_timestamp": "2026-09-02T19:45:03.269720",
-      "setup_quality": "B",
-      "position_size_dollars": 4132.69
-    },
-    {
-      "ticker": "OLOX",
-      "entry_price": 1.139,
-      "exit_price": 1.16,
-      "exit_reason": "eod_close",
-      "pl_dollars": 0.08,
-      "pl_percent": 0.018437,
-      "exit_timestamp": "2026-09-01T19:45:24.080217",
-      "setup_quality": "B",
-      "position_size_dollars": 4.08
-    },
-    {
-      "ticker": "OLOX",
-      "entry_price": 1.139,
-      "exit_price": 1.1501,
-      "exit_reason": "eod_close",
-      "pl_dollars": 39.99,
-      "pl_percent": 0.009745,
-      "exit_timestamp": "2026-09-01T19:45:13.563773",
-      "setup_quality": "B",
-      "position_size_dollars": 4103.93
-    },
-    {
-      "ticker": "BIAF",
-      "entry_price": 6.18,
-      "exit_price": 6.73,
-      "exit_reason": "eod_close",
-      "pl_dollars": 363.99,
-      "pl_percent": 0.088997,
-      "exit_timestamp": "2026-09-01T19:45:02.693891",
-      "setup_quality": "B",
-      "position_size_dollars": 4089.91
-    },
-    {
-      "ticker": "SSM",
-      "entry_price": 3.695,
-      "exit_price": 4.565,
-      "exit_reason": "target_hit",
-      "pl_dollars": 0.97,
-      "pl_percent": 0.235453,
-      "exit_timestamp": "2026-09-01T19:30:13.910148",
-      "setup_quality": "B",
-      "position_size_dollars": 4.1
-    },
-    {
-      "ticker": "SSM",
-      "entry_price": 3.695,
-      "exit_price": 4.5965,
-      "exit_reason": "target_hit",
-      "pl_dollars": 1001.38,
-      "pl_percent": 0.243978,
-      "exit_timestamp": "2026-09-01T19:30:03.030629",
-      "setup_quality": "B",
-      "position_size_dollars": 4104.37
     }
   ]
 }
