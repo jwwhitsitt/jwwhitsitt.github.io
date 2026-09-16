@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T11:15:04.316626-04:00",
+  "generated_at": "2026-09-16T11:30:04.720267-04:00",
   "summary": {
     "total_pl_dollars": -3183.84,
     "wins": 23,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 9.22,
-      "current_price": 2.16,
-      "unrealized_pct": 0.1020970457676413,
-      "unrealized_dollars": 0.39
+      "current_price": 2.22,
+      "unrealized_pct": 0.13271085259452023,
+      "unrealized_dollars": 0.51
     },
     {
       "ticker": "XBIO",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 9.22,
-      "current_price": 2.16,
-      "unrealized_pct": 0.1020970457676413,
-      "unrealized_dollars": 389.82
+      "current_price": 2.22,
+      "unrealized_pct": 0.13271085259452023,
+      "unrealized_dollars": 506.71
     },
     {
       "ticker": "BURU",
