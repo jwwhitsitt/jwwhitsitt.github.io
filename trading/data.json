@@ -1,12 +1,41 @@
 {
-  "generated_at": "2026-09-16T09:30:03.226682-04:00",
+  "generated_at": "2026-09-16T09:45:04.869633-04:00",
   "summary": {
     "total_pl_dollars": -3183.84,
     "wins": 23,
     "losses": 24,
-    "open_count": 0
+    "open_count": 2
   },
-  "open_trades": [],
+  "open_trades": [
+    {
+      "ticker": "BURU",
+      "entry_price": 1.2,
+      "stop_loss_price": 1.08,
+      "profit_target_price": 1.44,
+      "position_size_dollars": 3.82,
+      "entry_timestamp": "2026-09-16T13:34:33.312223",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.33,
+      "current_price": 1.0999,
+      "unrealized_pct": -0.08341666666666656,
+      "unrealized_dollars": -0.32
+    },
+    {
+      "ticker": "BURU",
+      "entry_price": 1.2,
+      "stop_loss_price": 1.08,
+      "profit_target_price": 1.44,
+      "position_size_dollars": 3809.47,
+      "entry_timestamp": "2026-09-16T13:34:22.564979",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.33,
+      "current_price": 1.0999,
+      "unrealized_pct": -0.08341666666666656,
+      "unrealized_dollars": -317.77
+    }
+  ],
   "closed_trades": [
     {
       "ticker": "CHAR",
