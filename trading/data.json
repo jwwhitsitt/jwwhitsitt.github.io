@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T12:00:04.286852-04:00",
+  "generated_at": "2026-09-17T12:15:04.224837-04:00",
   "summary": {
     "total_pl_dollars": -4930.85,
     "wins": 19,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.03,
-      "current_price": 7.1001,
-      "unrealized_pct": -0.030040983606557374,
-      "unrealized_dollars": -114.2
+      "current_price": 7.0,
+      "unrealized_pct": -0.043715846994535554,
+      "unrealized_dollars": -166.19
     },
     {
       "ticker": "DAIC",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.6,
-      "current_price": 5.04,
-      "unrealized_pct": 0.03703703703703698,
-      "unrealized_dollars": 140.82
+      "current_price": 5.1836,
+      "unrealized_pct": 0.06658436213991767,
+      "unrealized_dollars": 253.17
     }
   ],
   "closed_trades": [
