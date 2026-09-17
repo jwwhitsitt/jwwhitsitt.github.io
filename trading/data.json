@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T15:30:05.592626-04:00",
+  "generated_at": "2026-09-17T15:45:05.805022-04:00",
   "summary": {
     "total_pl_dollars": -5152.07,
     "wins": 17,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.51,
-      "current_price": 1.185,
-      "unrealized_pct": -0.059598444567891394,
-      "unrealized_dollars": -0.22
+      "current_price": 1.275,
+      "unrealized_pct": 0.01182445837631927,
+      "unrealized_dollars": 0.04
     },
     {
       "ticker": "DTSS",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.51,
-      "current_price": 1.185,
-      "unrealized_pct": -0.059598444567891394,
-      "unrealized_dollars": -223.64
+      "current_price": 1.275,
+      "unrealized_pct": 0.01182445837631927,
+      "unrealized_dollars": 44.37
     },
     {
       "ticker": "NUWE",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.25,
-      "current_price": 1.125,
-      "unrealized_pct": 0.08173076923076919,
-      "unrealized_dollars": 0.31
+      "current_price": 1.0201,
+      "unrealized_pct": -0.019134615384615413,
+      "unrealized_dollars": -0.07
     },
     {
       "ticker": "NUWE",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.25,
-      "current_price": 1.125,
-      "unrealized_pct": 0.08173076923076919,
-      "unrealized_dollars": 306.96
+      "current_price": 1.0201,
+      "unrealized_pct": -0.019134615384615413,
+      "unrealized_dollars": -71.86
     },
     {
       "ticker": "LSTA",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.13,
-      "current_price": 1.7126,
-      "unrealized_pct": -0.05895928347711422,
-      "unrealized_dollars": -0.22
+      "current_price": 1.71,
+      "unrealized_pct": -0.06038793340293429,
+      "unrealized_dollars": -0.23
     },
     {
       "ticker": "LSTA",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.13,
-      "current_price": 1.7126,
-      "unrealized_pct": -0.05895928347711422,
-      "unrealized_dollars": -221.92
+      "current_price": 1.71,
+      "unrealized_pct": -0.06038793340293429,
+      "unrealized_dollars": -227.29
     },
     {
       "ticker": "RTB",
@@ -101,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.4,
-      "current_price": 8.795,
-      "unrealized_pct": -0.04298150163220888,
-      "unrealized_dollars": -162.07
+      "current_price": 8.7,
+      "unrealized_pct": -0.05331882480957565,
+      "unrealized_dollars": -201.05
     },
     {
       "ticker": "WETO",
@@ -115,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.83,
-      "current_price": 1.865,
-      "unrealized_pct": 0.0026881720430106952,
-      "unrealized_dollars": 0.01
+      "current_price": 1.845,
+      "unrealized_pct": -0.008064516129032324,
+      "unrealized_dollars": -0.03
     },
     {
       "ticker": "WETO",
@@ -129,9 +129,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.83,
-      "current_price": 1.865,
-      "unrealized_pct": 0.0026881720430106952,
-      "unrealized_dollars": 10.14
+      "current_price": 1.845,
+      "unrealized_pct": -0.008064516129032324,
+      "unrealized_dollars": -30.42
     },
     {
       "ticker": "DAIC",
@@ -143,9 +143,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.6,
-      "current_price": 5.209,
-      "unrealized_pct": 0.07181069958847722,
-      "unrealized_dollars": 273.04
+      "current_price": 5.37,
+      "unrealized_pct": 0.10493827160493822,
+      "unrealized_dollars": 399.0
     }
   ],
   "closed_trades": [
