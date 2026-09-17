@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T13:15:05.757251-04:00",
+  "generated_at": "2026-09-17T13:30:04.982512-04:00",
   "summary": {
     "total_pl_dollars": -5901.73,
     "wins": 18,
@@ -17,8 +17,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.13,
-      "current_price": 1.78,
-      "unrealized_pct": -0.02192428155393156,
+      "current_price": 1.7801,
+      "unrealized_pct": -0.02186933347986156,
       "unrealized_dollars": -0.08
     },
     {
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.13,
-      "current_price": 1.78,
-      "unrealized_pct": -0.02192428155393156,
-      "unrealized_dollars": -82.52
+      "current_price": 1.7801,
+      "unrealized_pct": -0.02186933347986156,
+      "unrealized_dollars": -82.31
     },
     {
       "ticker": "JAGX",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 24.6,
-      "current_price": 2.458,
-      "unrealized_pct": -0.004858299595141704,
-      "unrealized_dollars": -0.02
+      "current_price": 2.42,
+      "unrealized_pct": -0.020242914979757193,
+      "unrealized_dollars": -0.08
     },
     {
       "ticker": "JAGX",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 24.6,
-      "current_price": 2.458,
-      "unrealized_pct": -0.004858299595141704,
-      "unrealized_dollars": -18.28
+      "current_price": 2.42,
+      "unrealized_pct": -0.020242914979757193,
+      "unrealized_dollars": -76.17
     },
     {
       "ticker": "RTB",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.4,
-      "current_price": 8.89,
-      "unrealized_pct": -0.032644178454842104,
-      "unrealized_dollars": -123.09
+      "current_price": 8.8864,
+      "unrealized_pct": -0.03303590859630027,
+      "unrealized_dollars": -124.57
     },
     {
       "ticker": "WETO",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.83,
-      "current_price": 1.8201,
-      "unrealized_pct": -0.02145161290322583,
-      "unrealized_dollars": -0.08
+      "current_price": 1.8408,
+      "unrealized_pct": -0.010322580645161348,
+      "unrealized_dollars": -0.04
     },
     {
       "ticker": "WETO",
@@ -101,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.83,
-      "current_price": 1.8201,
-      "unrealized_pct": -0.02145161290322583,
-      "unrealized_dollars": -80.91
+      "current_price": 1.8408,
+      "unrealized_pct": -0.010322580645161348,
+      "unrealized_dollars": -38.94
     },
     {
       "ticker": "DAIC",
@@ -115,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.6,
-      "current_price": 4.91,
-      "unrealized_pct": 0.010288065843621363,
-      "unrealized_dollars": 39.12
+      "current_price": 5.03,
+      "unrealized_pct": 0.034979423868312744,
+      "unrealized_dollars": 133.0
     }
   ],
   "closed_trades": [
