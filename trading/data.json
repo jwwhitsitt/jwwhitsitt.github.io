@@ -1,12 +1,41 @@
 {
-  "generated_at": "2026-09-17T11:00:04.032318-04:00",
+  "generated_at": "2026-09-17T11:15:04.060339-04:00",
   "summary": {
     "total_pl_dollars": -4930.85,
     "wins": 19,
     "losses": 28,
-    "open_count": 0
+    "open_count": 2
   },
-  "open_trades": [],
+  "open_trades": [
+    {
+      "ticker": "AEMD",
+      "entry_price": 7.32,
+      "stop_loss_price": 6.6,
+      "profit_target_price": 9.5,
+      "position_size_dollars": 3801.49,
+      "entry_timestamp": "2026-09-17T15:03:33.327960",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 3.03,
+      "current_price": 7.15,
+      "unrealized_pct": -0.023224043715846986,
+      "unrealized_dollars": -88.29
+    },
+    {
+      "ticker": "DAIC",
+      "entry_price": 4.86,
+      "stop_loss_price": 3.98,
+      "profit_target_price": 7.1495,
+      "position_size_dollars": 3802.25,
+      "entry_timestamp": "2026-09-17T15:03:22.315589",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 2.6,
+      "current_price": 4.6,
+      "unrealized_pct": -0.053497942386831414,
+      "unrealized_dollars": -203.41
+    }
+  ],
   "closed_trades": [
     {
       "ticker": "MEDS",
