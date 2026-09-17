@@ -1,25 +1,109 @@
 {
-  "generated_at": "2026-09-17T13:00:04.477580-04:00",
+  "generated_at": "2026-09-17T13:15:05.757251-04:00",
   "summary": {
-    "total_pl_dollars": -4930.85,
-    "wins": 19,
-    "losses": 28,
-    "open_count": 2
+    "total_pl_dollars": -5901.73,
+    "wins": 18,
+    "losses": 29,
+    "open_count": 8
   },
   "open_trades": [
     {
-      "ticker": "AEMD",
-      "entry_price": 7.32,
-      "stop_loss_price": 6.6,
-      "profit_target_price": 9.5,
-      "position_size_dollars": 3801.49,
-      "entry_timestamp": "2026-09-17T15:03:33.327960",
+      "ticker": "LSTA",
+      "entry_price": 1.8199,
+      "stop_loss_price": 1.5,
+      "profit_target_price": 2.5,
+      "position_size_dollars": 3.81,
+      "entry_timestamp": "2026-09-17T17:04:29.238965",
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 3.03,
-      "current_price": 6.3276,
-      "unrealized_pct": -0.13557377049180327,
-      "unrealized_dollars": -515.38
+      "pl_ratio_at_entry": 2.13,
+      "current_price": 1.78,
+      "unrealized_pct": -0.02192428155393156,
+      "unrealized_dollars": -0.08
+    },
+    {
+      "ticker": "LSTA",
+      "entry_price": 1.8199,
+      "stop_loss_price": 1.5,
+      "profit_target_price": 2.5,
+      "position_size_dollars": 3763.88,
+      "entry_timestamp": "2026-09-17T17:04:18.896150",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 2.13,
+      "current_price": 1.78,
+      "unrealized_pct": -0.02192428155393156,
+      "unrealized_dollars": -82.52
+    },
+    {
+      "ticker": "JAGX",
+      "entry_price": 2.47,
+      "stop_loss_price": 2.42,
+      "profit_target_price": 3.7,
+      "position_size_dollars": 3.8,
+      "entry_timestamp": "2026-09-17T17:04:08.549993",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 24.6,
+      "current_price": 2.458,
+      "unrealized_pct": -0.004858299595141704,
+      "unrealized_dollars": -0.02
+    },
+    {
+      "ticker": "JAGX",
+      "entry_price": 2.47,
+      "stop_loss_price": 2.42,
+      "profit_target_price": 3.7,
+      "position_size_dollars": 3762.95,
+      "entry_timestamp": "2026-09-17T17:03:57.966948",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 24.6,
+      "current_price": 2.458,
+      "unrealized_pct": -0.004858299595141704,
+      "unrealized_dollars": -18.28
+    },
+    {
+      "ticker": "RTB",
+      "entry_price": 9.19,
+      "stop_loss_price": 8.27,
+      "profit_target_price": 11.4,
+      "position_size_dollars": 3770.76,
+      "entry_timestamp": "2026-09-17T17:03:47.136799",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 2.4,
+      "current_price": 8.89,
+      "unrealized_pct": -0.032644178454842104,
+      "unrealized_dollars": -123.09
+    },
+    {
+      "ticker": "WETO",
+      "entry_price": 1.86,
+      "stop_loss_price": 1.8,
+      "profit_target_price": 2.21,
+      "position_size_dollars": 3.81,
+      "entry_timestamp": "2026-09-17T17:03:36.608979",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 5.83,
+      "current_price": 1.8201,
+      "unrealized_pct": -0.02145161290322583,
+      "unrealized_dollars": -0.08
+    },
+    {
+      "ticker": "WETO",
+      "entry_price": 1.86,
+      "stop_loss_price": 1.8,
+      "profit_target_price": 2.21,
+      "position_size_dollars": 3771.91,
+      "entry_timestamp": "2026-09-17T17:03:25.909417",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 5.83,
+      "current_price": 1.8201,
+      "unrealized_pct": -0.02145161290322583,
+      "unrealized_dollars": -80.91
     },
     {
       "ticker": "DAIC",
@@ -31,12 +115,23 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.6,
-      "current_price": 4.89,
-      "unrealized_pct": 0.006172839506172707,
-      "unrealized_dollars": 23.47
+      "current_price": 4.91,
+      "unrealized_pct": 0.010288065843621363,
+      "unrealized_dollars": 39.12
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "AEMD",
+      "entry_price": 7.32,
+      "exit_price": 6.3276,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -515.38,
+      "pl_percent": -0.135574,
+      "exit_timestamp": "2026-09-17T17:00:03.774697",
+      "setup_quality": "B",
+      "position_size_dollars": 3801.49
+    },
     {
       "ticker": "MEDS",
       "entry_price": 6.68,
@@ -575,17 +670,6 @@
       "exit_timestamp": "2026-09-03T17:45:14.340646",
       "setup_quality": "B",
       "position_size_dollars": 4.14
-    },
-    {
-      "ticker": "BTOG",
-      "entry_price": 2.18,
-      "exit_price": 2.42,
-      "exit_reason": "target_hit",
-      "pl_dollars": 455.5,
-      "pl_percent": 0.110092,
-      "exit_timestamp": "2026-09-03T17:45:03.642048",
-      "setup_quality": "B",
-      "position_size_dollars": 4137.46
     }
   ]
 }
