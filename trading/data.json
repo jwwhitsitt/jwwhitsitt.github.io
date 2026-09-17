@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T13:45:04.425234-04:00",
+  "generated_at": "2026-09-17T14:00:06.176233-04:00",
   "summary": {
     "total_pl_dollars": -5152.07,
     "wins": 17,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.13,
-      "current_price": 1.79,
-      "unrealized_pct": -0.01642947414693117,
-      "unrealized_dollars": -0.06
+      "current_price": 1.7599,
+      "unrealized_pct": -0.032968844442002335,
+      "unrealized_dollars": -0.13
     },
     {
       "ticker": "LSTA",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.13,
-      "current_price": 1.79,
-      "unrealized_pct": -0.01642947414693117,
-      "unrealized_dollars": -61.84
+      "current_price": 1.7599,
+      "unrealized_pct": -0.032968844442002335,
+      "unrealized_dollars": -124.09
     },
     {
       "ticker": "RTB",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.4,
-      "current_price": 8.895,
-      "unrealized_pct": -0.03210010881392818,
-      "unrealized_dollars": -121.04
+      "current_price": 9.04,
+      "unrealized_pct": -0.01632208922742115,
+      "unrealized_dollars": -61.55
     },
     {
       "ticker": "WETO",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.83,
-      "current_price": 1.865,
-      "unrealized_pct": 0.0026881720430106952,
-      "unrealized_dollars": 0.01
+      "current_price": 1.891,
+      "unrealized_pct": 0.01666666666666662,
+      "unrealized_dollars": 0.06
     },
     {
       "ticker": "WETO",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.83,
-      "current_price": 1.865,
-      "unrealized_pct": 0.0026881720430106952,
-      "unrealized_dollars": 10.14
+      "current_price": 1.891,
+      "unrealized_pct": 0.01666666666666662,
+      "unrealized_dollars": 62.87
     },
     {
       "ticker": "DAIC",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.6,
-      "current_price": 5.1451,
-      "unrealized_pct": 0.0586625514403292,
-      "unrealized_dollars": 223.05
+      "current_price": 5.02,
+      "unrealized_pct": 0.03292181069958832,
+      "unrealized_dollars": 125.18
     }
   ],
   "closed_trades": [
