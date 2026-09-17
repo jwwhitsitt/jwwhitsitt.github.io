@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T15:15:05.216794-04:00",
+  "generated_at": "2026-09-17T15:30:05.592626-04:00",
   "summary": {
     "total_pl_dollars": -5152.07,
     "wins": 17,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.51,
-      "current_price": 1.19,
-      "unrealized_pct": -0.05563050551543532,
-      "unrealized_dollars": -0.21
+      "current_price": 1.185,
+      "unrealized_pct": -0.059598444567891394,
+      "unrealized_dollars": -0.22
     },
     {
       "ticker": "DTSS",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.51,
-      "current_price": 1.19,
-      "unrealized_pct": -0.05563050551543532,
-      "unrealized_dollars": -208.75
+      "current_price": 1.185,
+      "unrealized_pct": -0.059598444567891394,
+      "unrealized_dollars": -223.64
     },
     {
       "ticker": "NUWE",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.25,
-      "current_price": 1.07,
-      "unrealized_pct": 0.028846153846153872,
-      "unrealized_dollars": 0.11
+      "current_price": 1.125,
+      "unrealized_pct": 0.08173076923076919,
+      "unrealized_dollars": 0.31
     },
     {
       "ticker": "NUWE",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.25,
-      "current_price": 1.07,
-      "unrealized_pct": 0.028846153846153872,
-      "unrealized_dollars": 108.34
+      "current_price": 1.125,
+      "unrealized_pct": 0.08173076923076919,
+      "unrealized_dollars": 306.96
     },
     {
       "ticker": "LSTA",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.13,
-      "current_price": 1.66,
-      "unrealized_pct": -0.08786197043793623,
-      "unrealized_dollars": -0.33
+      "current_price": 1.7126,
+      "unrealized_pct": -0.05895928347711422,
+      "unrealized_dollars": -0.22
     },
     {
       "ticker": "LSTA",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.13,
-      "current_price": 1.66,
-      "unrealized_pct": -0.08786197043793623,
-      "unrealized_dollars": -330.7
+      "current_price": 1.7126,
+      "unrealized_pct": -0.05895928347711422,
+      "unrealized_dollars": -221.92
     },
     {
       "ticker": "RTB",
@@ -101,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.4,
-      "current_price": 9.09,
-      "unrealized_pct": -0.010881392818280702,
-      "unrealized_dollars": -41.03
+      "current_price": 8.795,
+      "unrealized_pct": -0.04298150163220888,
+      "unrealized_dollars": -162.07
     },
     {
       "ticker": "WETO",
@@ -115,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.83,
-      "current_price": 1.8792,
-      "unrealized_pct": 0.010322580645161228,
-      "unrealized_dollars": 0.04
+      "current_price": 1.865,
+      "unrealized_pct": 0.0026881720430106952,
+      "unrealized_dollars": 0.01
     },
     {
       "ticker": "WETO",
@@ -129,9 +129,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.83,
-      "current_price": 1.8792,
-      "unrealized_pct": 0.010322580645161228,
-      "unrealized_dollars": 38.94
+      "current_price": 1.865,
+      "unrealized_pct": 0.0026881720430106952,
+      "unrealized_dollars": 10.14
     },
     {
       "ticker": "DAIC",
@@ -143,9 +143,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.6,
-      "current_price": 5.3002,
-      "unrealized_pct": 0.09057613168724278,
-      "unrealized_dollars": 344.39
+      "current_price": 5.209,
+      "unrealized_pct": 0.07181069958847722,
+      "unrealized_dollars": 273.04
     }
   ],
   "closed_trades": [
