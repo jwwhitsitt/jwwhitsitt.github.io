@@ -1,12 +1,69 @@
 {
-  "generated_at": "2026-09-18T09:30:03.492172-04:00",
+  "generated_at": "2026-09-18T09:45:04.540504-04:00",
   "summary": {
     "total_pl_dollars": -4781.47,
     "wins": 15,
     "losses": 33,
-    "open_count": 0
+    "open_count": 4
   },
-  "open_trades": [],
+  "open_trades": [
+    {
+      "ticker": "TCRT",
+      "entry_price": 1.465,
+      "stop_loss_price": 1.44,
+      "profit_target_price": 1.6,
+      "position_size_dollars": 3.75,
+      "entry_timestamp": "2026-09-18T13:34:41.325383",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 5.4,
+      "current_price": 1.285,
+      "unrealized_pct": -0.12286689419795233,
+      "unrealized_dollars": -0.46
+    },
+    {
+      "ticker": "TCRT",
+      "entry_price": 1.465,
+      "stop_loss_price": 1.44,
+      "profit_target_price": 1.6,
+      "position_size_dollars": 3736.31,
+      "entry_timestamp": "2026-09-18T13:34:30.737281",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 5.4,
+      "current_price": 1.285,
+      "unrealized_pct": -0.12286689419795233,
+      "unrealized_dollars": -459.07
+    },
+    {
+      "ticker": "MNDR",
+      "entry_price": 1.39,
+      "stop_loss_price": 1.25,
+      "profit_target_price": 1.75,
+      "position_size_dollars": 3.75,
+      "entry_timestamp": "2026-09-18T13:34:19.692251",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 2.0,
+      "current_price": 1.39,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
+    },
+    {
+      "ticker": "MNDR",
+      "entry_price": 1.39,
+      "stop_loss_price": 1.25,
+      "profit_target_price": 1.75,
+      "position_size_dollars": 3738.33,
+      "entry_timestamp": "2026-09-18T13:34:08.936584",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 2.0,
+      "current_price": 1.39,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
+    }
+  ],
   "closed_trades": [
     {
       "ticker": "DTSS",
