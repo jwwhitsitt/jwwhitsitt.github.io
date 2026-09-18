@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-18T15:15:05.553087-04:00",
+  "generated_at": "2026-09-18T15:30:09.163948-04:00",
   "summary": {
-    "total_pl_dollars": -6336.81,
+    "total_pl_dollars": -5674.03,
     "wins": 13,
     "losses": 37,
-    "open_count": 9
+    "open_count": 7
   },
   "open_trades": [
     {
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 10.14,
-      "current_price": 3.6882,
-      "unrealized_pct": 0.05979713226631417,
-      "unrealized_dollars": 0.22
+      "current_price": 4.25,
+      "unrealized_pct": 0.22122927502083267,
+      "unrealized_dollars": 0.81
     },
     {
       "ticker": "IMCC",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 10.14,
-      "current_price": 3.6882,
-      "unrealized_pct": 0.05979713226631417,
-      "unrealized_dollars": 219.9
+      "current_price": 4.25,
+      "unrealized_pct": 0.22122927502083267,
+      "unrealized_dollars": 813.57
     },
     {
       "ticker": "XRTX",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.39,
-      "current_price": 1.949,
-      "unrealized_pct": 0.11365064853436951,
-      "unrealized_dollars": 0.42
+      "current_price": 1.95,
+      "unrealized_pct": 0.11422204445460257,
+      "unrealized_dollars": 0.43
     },
     {
       "ticker": "XRTX",
@@ -59,37 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.39,
-      "current_price": 1.949,
-      "unrealized_pct": 0.11365064853436951,
-      "unrealized_dollars": 422.74
-    },
-    {
-      "ticker": "SSM",
-      "entry_price": 2.0701,
-      "stop_loss_price": 1.91,
-      "profit_target_price": 2.7299,
-      "position_size_dollars": 3.73,
-      "entry_timestamp": "2026-09-18T15:03:44.847101",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 4.12,
-      "current_price": 1.8459,
-      "unrealized_pct": -0.108303946669243,
-      "unrealized_dollars": -0.4
-    },
-    {
-      "ticker": "SSM",
-      "entry_price": 2.0701,
-      "stop_loss_price": 1.91,
-      "profit_target_price": 2.7299,
-      "position_size_dollars": 3721.04,
-      "entry_timestamp": "2026-09-18T15:03:34.286612",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 4.12,
-      "current_price": 1.8459,
-      "unrealized_pct": -0.108303946669243,
-      "unrealized_dollars": -403.0
+      "current_price": 1.95,
+      "unrealized_pct": 0.11422204445460257,
+      "unrealized_dollars": 424.87
     },
     {
       "ticker": "CPOP",
@@ -101,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.09,
-      "current_price": 4.01,
-      "unrealized_pct": -0.009876543209876552,
-      "unrealized_dollars": -36.78
+      "current_price": 3.965,
+      "unrealized_pct": -0.020987654320987648,
+      "unrealized_dollars": -78.17
     },
     {
       "ticker": "MNDR",
@@ -115,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.0,
-      "current_price": 1.345,
-      "unrealized_pct": -0.03237410071942441,
-      "unrealized_dollars": -0.12
+      "current_price": 1.31,
+      "unrealized_pct": -0.057553956834532266,
+      "unrealized_dollars": -0.22
     },
     {
       "ticker": "MNDR",
@@ -129,12 +101,34 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.0,
-      "current_price": 1.345,
-      "unrealized_pct": -0.03237410071942441,
-      "unrealized_dollars": -121.03
+      "current_price": 1.31,
+      "unrealized_pct": -0.057553956834532266,
+      "unrealized_dollars": -215.16
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "SSM",
+      "entry_price": 2.0701,
+      "exit_price": 1.845,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.41,
+      "pl_percent": -0.108739,
+      "exit_timestamp": "2026-09-18T19:15:14.798265",
+      "setup_quality": "B",
+      "position_size_dollars": 3.73
+    },
+    {
+      "ticker": "SSM",
+      "entry_price": 2.0701,
+      "exit_price": 1.8459,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -403.0,
+      "pl_percent": -0.108304,
+      "exit_timestamp": "2026-09-18T19:15:04.181190",
+      "setup_quality": "B",
+      "position_size_dollars": 3721.04
+    },
     {
       "ticker": "GIPR",
       "entry_price": 1.1105,
@@ -662,28 +656,6 @@
       "exit_timestamp": "2026-09-09T19:30:14.217771",
       "setup_quality": "B",
       "position_size_dollars": 4.04
-    },
-    {
-      "ticker": "TNON",
-      "entry_price": 3.32,
-      "exit_price": 2.74,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -708.9,
-      "pl_percent": -0.174699,
-      "exit_timestamp": "2026-09-09T19:30:03.441015",
-      "setup_quality": "B",
-      "position_size_dollars": 4057.82
-    },
-    {
-      "ticker": "FGL",
-      "entry_price": 6.87,
-      "exit_price": 6.265,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -357.29,
-      "pl_percent": -0.088064,
-      "exit_timestamp": "2026-09-09T16:45:03.641957",
-      "setup_quality": "B",
-      "position_size_dollars": 4057.21
     }
   ]
 }
