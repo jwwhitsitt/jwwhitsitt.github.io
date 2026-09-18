@@ -1,12 +1,40 @@
 {
-  "generated_at": "2026-09-18T13:00:05.685970-04:00",
+  "generated_at": "2026-09-18T13:15:05.531942-04:00",
   "summary": {
     "total_pl_dollars": -5491.84,
     "wins": 13,
     "losses": 35,
-    "open_count": 7
+    "open_count": 9
   },
   "open_trades": [
+    {
+      "ticker": "GIPR",
+      "entry_price": 1.1105,
+      "stop_loss_price": 0.9711,
+      "profit_target_price": 1.72,
+      "position_size_dollars": 3.77,
+      "entry_timestamp": "2026-09-18T17:03:05.891842",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 4.37,
+      "current_price": 1.1801,
+      "unrealized_pct": 0.06267447095902735,
+      "unrealized_dollars": 0.24
+    },
+    {
+      "ticker": "GIPR",
+      "entry_price": 1.1105,
+      "stop_loss_price": 0.9711,
+      "profit_target_price": 1.72,
+      "position_size_dollars": 3740.46,
+      "entry_timestamp": "2026-09-18T17:02:55.191789",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 4.37,
+      "current_price": 1.1801,
+      "unrealized_pct": 0.06267447095902735,
+      "unrealized_dollars": 234.43
+    },
     {
       "ticker": "XRTX",
       "entry_price": 1.7501,
@@ -17,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.39,
-      "current_price": 1.94,
-      "unrealized_pct": 0.10850808525227128,
-      "unrealized_dollars": 0.4
+      "current_price": 1.92,
+      "unrealized_pct": 0.09708016684760867,
+      "unrealized_dollars": 0.36
     },
     {
       "ticker": "XRTX",
@@ -31,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.39,
-      "current_price": 1.94,
-      "unrealized_pct": 0.10850808525227128,
-      "unrealized_dollars": 403.61
+      "current_price": 1.92,
+      "unrealized_pct": 0.09708016684760867,
+      "unrealized_dollars": 361.1
     },
     {
       "ticker": "SSM",
@@ -45,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.12,
-      "current_price": 2.13,
-      "unrealized_pct": 0.028935800202888672,
-      "unrealized_dollars": 0.11
+      "current_price": 2.1,
+      "unrealized_pct": 0.01444374667890442,
+      "unrealized_dollars": 0.05
     },
     {
       "ticker": "SSM",
@@ -59,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.12,
-      "current_price": 2.13,
-      "unrealized_pct": 0.028935800202888672,
-      "unrealized_dollars": 107.67
+      "current_price": 2.1,
+      "unrealized_pct": 0.01444374667890442,
+      "unrealized_dollars": 53.75
     },
     {
       "ticker": "CPOP",
@@ -73,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.09,
-      "current_price": 3.86,
-      "unrealized_pct": -0.04691358024691357,
-      "unrealized_dollars": -174.72
+      "current_price": 3.885,
+      "unrealized_pct": -0.04074074074074075,
+      "unrealized_dollars": -151.73
     },
     {
       "ticker": "MNDR",
