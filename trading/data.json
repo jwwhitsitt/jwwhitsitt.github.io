@@ -1,40 +1,12 @@
 {
-  "generated_at": "2026-09-18T09:45:04.540504-04:00",
+  "generated_at": "2026-09-18T10:00:03.775962-04:00",
   "summary": {
-    "total_pl_dollars": -4781.47,
-    "wins": 15,
-    "losses": 33,
-    "open_count": 4
+    "total_pl_dollars": -5491.84,
+    "wins": 13,
+    "losses": 35,
+    "open_count": 2
   },
   "open_trades": [
-    {
-      "ticker": "TCRT",
-      "entry_price": 1.465,
-      "stop_loss_price": 1.44,
-      "profit_target_price": 1.6,
-      "position_size_dollars": 3.75,
-      "entry_timestamp": "2026-09-18T13:34:41.325383",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 5.4,
-      "current_price": 1.285,
-      "unrealized_pct": -0.12286689419795233,
-      "unrealized_dollars": -0.46
-    },
-    {
-      "ticker": "TCRT",
-      "entry_price": 1.465,
-      "stop_loss_price": 1.44,
-      "profit_target_price": 1.6,
-      "position_size_dollars": 3736.31,
-      "entry_timestamp": "2026-09-18T13:34:30.737281",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 5.4,
-      "current_price": 1.285,
-      "unrealized_pct": -0.12286689419795233,
-      "unrealized_dollars": -459.07
-    },
     {
       "ticker": "MNDR",
       "entry_price": 1.39,
@@ -45,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.0,
-      "current_price": 1.39,
-      "unrealized_pct": 0.0,
-      "unrealized_dollars": null
+      "current_price": 1.37,
+      "unrealized_pct": -0.014388489208632947,
+      "unrealized_dollars": -0.05
     },
     {
       "ticker": "MNDR",
@@ -59,12 +31,34 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.0,
-      "current_price": 1.39,
-      "unrealized_pct": 0.0,
-      "unrealized_dollars": null
+      "current_price": 1.37,
+      "unrealized_pct": -0.014388489208632947,
+      "unrealized_dollars": -53.79
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "TCRT",
+      "entry_price": 1.465,
+      "exit_price": 1.285,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.46,
+      "pl_percent": -0.122867,
+      "exit_timestamp": "2026-09-18T13:45:14.459213",
+      "setup_quality": "B",
+      "position_size_dollars": 3.75
+    },
+    {
+      "ticker": "TCRT",
+      "entry_price": 1.465,
+      "exit_price": 1.285,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -459.07,
+      "pl_percent": -0.122867,
+      "exit_timestamp": "2026-09-18T13:45:03.793669",
+      "setup_quality": "B",
+      "position_size_dollars": 3736.31
+    },
     {
       "ticker": "DTSS",
       "entry_price": 1.2601,
@@ -592,28 +586,6 @@
       "exit_timestamp": "2026-09-08T19:45:24.765236",
       "setup_quality": "B",
       "position_size_dollars": 4073.13
-    },
-    {
-      "ticker": "CYCN",
-      "entry_price": 3.16,
-      "exit_price": 3.355,
-      "exit_reason": "eod_close",
-      "pl_dollars": 0.25,
-      "pl_percent": 0.061709,
-      "exit_timestamp": "2026-09-08T19:45:14.026858",
-      "setup_quality": "B",
-      "position_size_dollars": 4.04
-    },
-    {
-      "ticker": "CYCN",
-      "entry_price": 3.16,
-      "exit_price": 3.355,
-      "exit_reason": "eod_close",
-      "pl_dollars": 250.59,
-      "pl_percent": 0.061709,
-      "exit_timestamp": "2026-09-08T19:45:03.296349",
-      "setup_quality": "B",
-      "position_size_dollars": 4060.92
     }
   ]
 }
