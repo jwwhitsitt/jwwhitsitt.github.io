@@ -1,42 +1,35 @@
 {
-  "generated_at": "2026-09-21T15:45:03.646976-04:00",
+  "generated_at": "2026-09-21T16:00:03.797948-04:00",
   "summary": {
-    "total_pl_dollars": -3578.45,
-    "wins": 13,
-    "losses": 37,
-    "open_count": 2
+    "total_pl_dollars": -3139.07,
+    "wins": 12,
+    "losses": 38,
+    "open_count": 0
   },
-  "open_trades": [
+  "open_trades": [],
+  "closed_trades": [
     {
       "ticker": "SMX",
       "entry_price": 11.05,
-      "stop_loss_price": 10.33,
-      "profit_target_price": 17.9433,
-      "position_size_dollars": 3.73,
-      "entry_timestamp": "2026-09-21T19:02:20.973505",
+      "exit_price": 11.03,
+      "exit_reason": "eod_close",
+      "pl_dollars": -0.01,
+      "pl_percent": -0.00181,
+      "exit_timestamp": "2026-09-21T19:45:13.417265",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 9.57,
-      "current_price": 11.03,
-      "unrealized_pct": -0.0018099547511313439,
-      "unrealized_dollars": -0.01
+      "position_size_dollars": 3.73
     },
     {
       "ticker": "SMX",
       "entry_price": 11.05,
-      "stop_loss_price": 10.33,
-      "profit_target_price": 17.9433,
-      "position_size_dollars": 3746.85,
-      "entry_timestamp": "2026-09-21T19:02:10.447949",
+      "exit_price": 11.03,
+      "exit_reason": "eod_close",
+      "pl_dollars": -6.78,
+      "pl_percent": -0.00181,
+      "exit_timestamp": "2026-09-21T19:45:02.770839",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 9.57,
-      "current_price": 11.03,
-      "unrealized_pct": -0.0018099547511313439,
-      "unrealized_dollars": -6.78
-    }
-  ],
-  "closed_trades": [
+      "position_size_dollars": 3746.85
+    },
     {
       "ticker": "GRML",
       "entry_price": 7.07,
@@ -564,28 +557,6 @@
       "exit_timestamp": "2026-09-14T13:45:03.350124",
       "setup_quality": "B",
       "position_size_dollars": 3981.4
-    },
-    {
-      "ticker": "AENT",
-      "entry_price": 7.04,
-      "exit_price": 6.2502,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -446.22,
-      "pl_percent": -0.112187,
-      "exit_timestamp": "2026-09-11T16:45:04.181477",
-      "setup_quality": "B",
-      "position_size_dollars": 3977.47
-    },
-    {
-      "ticker": "PRTS",
-      "entry_price": 8.77,
-      "exit_price": 8.8799,
-      "exit_reason": "eod_close",
-      "pl_dollars": 0.05,
-      "pl_percent": 0.012531,
-      "exit_timestamp": "2026-09-10T19:45:57.363309",
-      "setup_quality": "B",
-      "position_size_dollars": 3.98
     }
   ]
 }
