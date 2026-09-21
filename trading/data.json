@@ -1,12 +1,27 @@
 {
-  "generated_at": "2026-09-21T09:30:04.337455-04:00",
+  "generated_at": "2026-09-21T09:45:04.986907-04:00",
   "summary": {
     "total_pl_dollars": -4633.71,
     "wins": 13,
     "losses": 37,
-    "open_count": 0
+    "open_count": 1
   },
-  "open_trades": [],
+  "open_trades": [
+    {
+      "ticker": "GRML",
+      "entry_price": 7.07,
+      "stop_loss_price": 6.21,
+      "profit_target_price": 8.5,
+      "position_size_dollars": 3703.44,
+      "entry_timestamp": "2026-09-21T13:34:00.544076",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.41,
+      "current_price": 7.07,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
+    }
+  ],
   "closed_trades": [
     {
       "ticker": "IMCC",
