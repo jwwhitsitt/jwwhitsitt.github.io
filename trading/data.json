@@ -1,28 +1,24 @@
 {
-  "generated_at": "2026-09-21T11:15:03.575011-04:00",
+  "generated_at": "2026-09-21T11:30:03.590180-04:00",
   "summary": {
-    "total_pl_dollars": -4633.71,
+    "total_pl_dollars": -3578.45,
     "wins": 13,
     "losses": 37,
-    "open_count": 1
+    "open_count": 0
   },
-  "open_trades": [
+  "open_trades": [],
+  "closed_trades": [
     {
       "ticker": "GRML",
       "entry_price": 7.07,
-      "stop_loss_price": 6.21,
-      "profit_target_price": 8.5,
-      "position_size_dollars": 3703.44,
-      "entry_timestamp": "2026-09-21T13:34:00.544076",
+      "exit_price": 9.18,
+      "exit_reason": "target_hit",
+      "pl_dollars": 1105.27,
+      "pl_percent": 0.298444,
+      "exit_timestamp": "2026-09-21T15:15:02.752434",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 1.41,
-      "current_price": 9.1899,
-      "unrealized_pct": 0.29984441301272974,
-      "unrealized_dollars": 1110.46
-    }
-  ],
-  "closed_trades": [
+      "position_size_dollars": 3703.44
+    },
     {
       "ticker": "IMCC",
       "entry_price": 3.4801,
@@ -561,17 +557,6 @@
       "exit_timestamp": "2026-09-10T19:45:57.363309",
       "setup_quality": "B",
       "position_size_dollars": 3.98
-    },
-    {
-      "ticker": "PRTS",
-      "entry_price": 8.77,
-      "exit_price": 8.8799,
-      "exit_reason": "eod_close",
-      "pl_dollars": 50.01,
-      "pl_percent": 0.012531,
-      "exit_timestamp": "2026-09-10T19:45:46.857938",
-      "setup_quality": "B",
-      "position_size_dollars": 3990.93
     }
   ]
 }
