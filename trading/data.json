@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T15:30:04.366619-04:00",
+  "generated_at": "2026-09-21T15:45:03.646976-04:00",
   "summary": {
     "total_pl_dollars": -3578.45,
     "wins": 13,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 9.57,
-      "current_price": 11.05,
-      "unrealized_pct": 0.0,
-      "unrealized_dollars": null
+      "current_price": 11.03,
+      "unrealized_pct": -0.0018099547511313439,
+      "unrealized_dollars": -0.01
     },
     {
       "ticker": "SMX",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 9.57,
-      "current_price": 11.05,
-      "unrealized_pct": 0.0,
-      "unrealized_dollars": null
+      "current_price": 11.03,
+      "unrealized_pct": -0.0018099547511313439,
+      "unrealized_dollars": -6.78
     }
   ],
   "closed_trades": [
