@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T09:45:05.721458-04:00",
+  "generated_at": "2026-09-22T10:00:05.629986-04:00",
   "summary": {
     "total_pl_dollars": -3139.07,
     "wins": 12,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 8.67,
-      "current_price": 7.1717,
-      "unrealized_pct": -0.0053120665742024354,
-      "unrealized_dollars": -19.91
+      "current_price": 6.94,
+      "unrealized_pct": -0.037447988904299526,
+      "unrealized_dollars": -140.34
     },
     {
       "ticker": "IMCC",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.35,
-      "current_price": 4.4915,
-      "unrealized_pct": 0.07880578373444781,
-      "unrealized_dollars": 295.0
+      "current_price": 4.2616,
+      "unrealized_pct": 0.023586491809578565,
+      "unrealized_dollars": 88.29
     },
     {
       "ticker": "EDBL",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.27,
-      "current_price": 1.16,
-      "unrealized_pct": -0.06413876563130304,
-      "unrealized_dollars": -0.24
+      "current_price": 1.235,
+      "unrealized_pct": -0.0036304961678095588,
+      "unrealized_dollars": -0.01
     },
     {
       "ticker": "EDBL",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.27,
-      "current_price": 1.16,
-      "unrealized_pct": -0.06413876563130304,
-      "unrealized_dollars": -239.98
+      "current_price": 1.235,
+      "unrealized_pct": -0.0036304961678095588,
+      "unrealized_dollars": -13.58
     },
     {
       "ticker": "HUBC",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.52,
-      "current_price": 3.98,
-      "unrealized_pct": 0.059920106524633844,
-      "unrealized_dollars": 224.32
+      "current_price": 3.9771,
+      "unrealized_pct": 0.05914780292942748,
+      "unrealized_dollars": 221.43
     }
   ],
   "closed_trades": [
