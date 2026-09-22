@@ -1,12 +1,83 @@
 {
-  "generated_at": "2026-09-22T09:30:03.774349-04:00",
+  "generated_at": "2026-09-22T09:45:05.721458-04:00",
   "summary": {
     "total_pl_dollars": -3139.07,
     "wins": 12,
     "losses": 38,
-    "open_count": 0
+    "open_count": 5
   },
-  "open_trades": [],
+  "open_trades": [
+    {
+      "ticker": "STI",
+      "entry_price": 7.21,
+      "stop_loss_price": 7.12,
+      "profit_target_price": 7.99,
+      "position_size_dollars": 3747.56,
+      "entry_timestamp": "2026-09-22T13:35:17.802501",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 8.67,
+      "current_price": 7.1717,
+      "unrealized_pct": -0.0053120665742024354,
+      "unrealized_dollars": -19.91
+    },
+    {
+      "ticker": "IMCC",
+      "entry_price": 4.1634,
+      "stop_loss_price": 3.85,
+      "profit_target_price": 5.2,
+      "position_size_dollars": 3743.32,
+      "entry_timestamp": "2026-09-22T13:35:06.867072",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.35,
+      "current_price": 4.4915,
+      "unrealized_pct": 0.07880578373444781,
+      "unrealized_dollars": 295.0
+    },
+    {
+      "ticker": "EDBL",
+      "entry_price": 1.2395,
+      "stop_loss_price": 1.1576,
+      "profit_target_price": 1.4674,
+      "position_size_dollars": 3.71,
+      "entry_timestamp": "2026-09-22T13:34:56.245387",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.27,
+      "current_price": 1.16,
+      "unrealized_pct": -0.06413876563130304,
+      "unrealized_dollars": -0.24
+    },
+    {
+      "ticker": "EDBL",
+      "entry_price": 1.2395,
+      "stop_loss_price": 1.1576,
+      "profit_target_price": 1.4674,
+      "position_size_dollars": 3741.61,
+      "entry_timestamp": "2026-09-22T13:34:45.685299",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.27,
+      "current_price": 1.16,
+      "unrealized_pct": -0.06413876563130304,
+      "unrealized_dollars": -239.98
+    },
+    {
+      "ticker": "HUBC",
+      "entry_price": 3.755,
+      "stop_loss_price": 3.45,
+      "profit_target_price": 4.5,
+      "position_size_dollars": 3743.73,
+      "entry_timestamp": "2026-09-22T13:34:34.569762",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.52,
+      "current_price": 3.98,
+      "unrealized_pct": 0.059920106524633844,
+      "unrealized_dollars": 224.32
+    }
+  ],
   "closed_trades": [
     {
       "ticker": "SMX",
