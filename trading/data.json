@@ -1,26 +1,12 @@
 {
-  "generated_at": "2026-09-22T10:00:05.629986-04:00",
+  "generated_at": "2026-09-22T10:15:04.492672-04:00",
   "summary": {
-    "total_pl_dollars": -3139.07,
+    "total_pl_dollars": -2338.08,
     "wins": 12,
     "losses": 38,
-    "open_count": 5
+    "open_count": 4
   },
   "open_trades": [
-    {
-      "ticker": "STI",
-      "entry_price": 7.21,
-      "stop_loss_price": 7.12,
-      "profit_target_price": 7.99,
-      "position_size_dollars": 3747.56,
-      "entry_timestamp": "2026-09-22T13:35:17.802501",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 8.67,
-      "current_price": 6.94,
-      "unrealized_pct": -0.037447988904299526,
-      "unrealized_dollars": -140.34
-    },
     {
       "ticker": "IMCC",
       "entry_price": 4.1634,
@@ -31,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.35,
-      "current_price": 4.2616,
-      "unrealized_pct": 0.023586491809578565,
-      "unrealized_dollars": 88.29
+      "current_price": 4.2,
+      "unrealized_pct": 0.008790892059374542,
+      "unrealized_dollars": 32.91
     },
     {
       "ticker": "EDBL",
@@ -45,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.27,
-      "current_price": 1.235,
-      "unrealized_pct": -0.0036304961678095588,
-      "unrealized_dollars": -0.01
+      "current_price": 1.305,
+      "unrealized_pct": 0.052843888664784094,
+      "unrealized_dollars": 0.2
     },
     {
       "ticker": "EDBL",
@@ -59,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.27,
-      "current_price": 1.235,
-      "unrealized_pct": -0.0036304961678095588,
-      "unrealized_dollars": -13.58
+      "current_price": 1.305,
+      "unrealized_pct": 0.052843888664784094,
+      "unrealized_dollars": 197.72
     },
     {
       "ticker": "HUBC",
@@ -73,12 +59,23 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.52,
-      "current_price": 3.9771,
-      "unrealized_pct": 0.05914780292942748,
-      "unrealized_dollars": 221.43
+      "current_price": 3.9,
+      "unrealized_pct": 0.03861517976031958,
+      "unrealized_dollars": 144.56
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "STI",
+      "entry_price": 7.21,
+      "exit_price": 6.9,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -161.13,
+      "pl_percent": -0.042996,
+      "exit_timestamp": "2026-09-22T14:00:04.434362",
+      "setup_quality": "B",
+      "position_size_dollars": 3747.56
+    },
     {
       "ticker": "SMX",
       "entry_price": 11.05,
@@ -617,17 +614,6 @@
       "exit_timestamp": "2026-09-14T13:45:14.106950",
       "setup_quality": "B",
       "position_size_dollars": 3.97
-    },
-    {
-      "ticker": "MASK",
-      "entry_price": 1.27,
-      "exit_price": 0.9631,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -962.12,
-      "pl_percent": -0.241654,
-      "exit_timestamp": "2026-09-14T13:45:03.350124",
-      "setup_quality": "B",
-      "position_size_dollars": 3981.4
     }
   ]
 }
