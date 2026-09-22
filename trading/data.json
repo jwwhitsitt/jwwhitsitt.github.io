@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T14:00:03.942448-04:00",
+  "generated_at": "2026-09-22T14:15:04.569223-04:00",
   "summary": {
     "total_pl_dollars": -1396.68,
     "wins": 13,
@@ -17,8 +17,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.96,
-      "current_price": 1.7,
-      "unrealized_pct": 0.049382716049382616,
+      "current_price": 1.6994,
+      "unrealized_pct": 0.04901234567901229,
       "unrealized_dollars": 0.18
     },
     {
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.96,
-      "current_price": 1.7,
-      "unrealized_pct": 0.049382716049382616,
-      "unrealized_dollars": 183.31
+      "current_price": 1.6994,
+      "unrealized_pct": 0.04901234567901229,
+      "unrealized_dollars": 181.94
     },
     {
       "ticker": "EDBL",
