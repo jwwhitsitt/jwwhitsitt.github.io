@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T11:15:05.686120-04:00",
+  "generated_at": "2026-09-22T11:30:04.563347-04:00",
   "summary": {
     "total_pl_dollars": -2690.82,
     "wins": 12,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.27,
-      "current_price": 1.279,
-      "unrealized_pct": 0.031867688584106386,
-      "unrealized_dollars": 0.12
+      "current_price": 1.2597,
+      "unrealized_pct": 0.016296893908834202,
+      "unrealized_dollars": 0.06
     },
     {
       "ticker": "EDBL",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.27,
-      "current_price": 1.279,
-      "unrealized_pct": 0.031867688584106386,
-      "unrealized_dollars": 119.24
+      "current_price": 1.2597,
+      "unrealized_pct": 0.016296893908834202,
+      "unrealized_dollars": 60.98
     },
     {
       "ticker": "HUBC",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.52,
-      "current_price": 3.87,
-      "unrealized_pct": 0.03062583222370179,
-      "unrealized_dollars": 114.65
+      "current_price": 3.8106,
+      "unrealized_pct": 0.014806924101198427,
+      "unrealized_dollars": 55.43
     }
   ],
   "closed_trades": [
