@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T15:30:05.180861-04:00",
+  "generated_at": "2026-09-22T15:45:04.005546-04:00",
   "summary": {
     "total_pl_dollars": -1396.68,
     "wins": 13,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.96,
-      "current_price": 1.79,
-      "unrealized_pct": 0.10493827160493822,
-      "unrealized_dollars": 0.39
+      "current_price": 1.829,
+      "unrealized_pct": 0.12901234567901224,
+      "unrealized_dollars": 0.48
     },
     {
       "ticker": "JTAI",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.96,
-      "current_price": 1.79,
-      "unrealized_pct": 0.10493827160493822,
-      "unrealized_dollars": 389.54
+      "current_price": 1.829,
+      "unrealized_pct": 0.12901234567901224,
+      "unrealized_dollars": 478.9
     },
     {
       "ticker": "EDBL",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.27,
-      "current_price": 1.305,
-      "unrealized_pct": 0.052843888664784094,
-      "unrealized_dollars": 0.2
+      "current_price": 1.265,
+      "unrealized_pct": 0.02057281161758762,
+      "unrealized_dollars": 0.08
     },
     {
       "ticker": "EDBL",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.27,
-      "current_price": 1.305,
-      "unrealized_pct": 0.052843888664784094,
-      "unrealized_dollars": 197.72
+      "current_price": 1.265,
+      "unrealized_pct": 0.02057281161758762,
+      "unrealized_dollars": 76.98
     }
   ],
   "closed_trades": [
