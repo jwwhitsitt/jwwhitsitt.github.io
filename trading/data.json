@@ -1,12 +1,26 @@
 {
-  "generated_at": "2026-09-23T15:00:04.179223-04:00",
+  "generated_at": "2026-09-23T15:15:05.119518-04:00",
   "summary": {
     "total_pl_dollars": -182.68,
     "wins": 15,
     "losses": 35,
-    "open_count": 2
+    "open_count": 3
   },
   "open_trades": [
+    {
+      "ticker": "ARTL",
+      "entry_price": 7.77,
+      "stop_loss_price": 3.9,
+      "profit_target_price": 15.73,
+      "position_size_dollars": 3749.49,
+      "entry_timestamp": "2026-09-23T19:01:50.331106",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 2.06,
+      "current_price": 7.2783,
+      "unrealized_pct": -0.06328185328185326,
+      "unrealized_dollars": -237.27
+    },
     {
       "ticker": "WHLR",
       "entry_price": 5.39,
@@ -17,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.19,
-      "current_price": 5.42,
-      "unrealized_pct": 0.005565862708719898,
-      "unrealized_dollars": 20.86
+      "current_price": 5.2707,
+      "unrealized_pct": -0.02213358070500927,
+      "unrealized_dollars": -82.97
     },
     {
       "ticker": "JAGX",
@@ -31,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 19.11,
-      "current_price": 9.0893,
-      "unrealized_pct": 0.004897733554449948,
-      "unrealized_dollars": 18.37
+      "current_price": 9.005,
+      "unrealized_pct": -0.004422332780541642,
+      "unrealized_dollars": -16.59
     }
   ],
   "closed_trades": [
