@@ -1,56 +1,46 @@
 {
-  "generated_at": "2026-09-23T15:45:03.865047-04:00",
+  "generated_at": "2026-09-23T16:00:03.429632-04:00",
   "summary": {
-    "total_pl_dollars": -182.68,
+    "total_pl_dollars": -71.34,
     "wins": 15,
     "losses": 35,
-    "open_count": 3
+    "open_count": 0
   },
-  "open_trades": [
+  "open_trades": [],
+  "closed_trades": [
     {
       "ticker": "ARTL",
       "entry_price": 7.77,
-      "stop_loss_price": 3.9,
-      "profit_target_price": 15.73,
-      "position_size_dollars": 3749.49,
-      "entry_timestamp": "2026-09-23T19:01:50.331106",
+      "exit_price": 7.55,
+      "exit_reason": "eod_close",
+      "pl_dollars": -106.16,
+      "pl_percent": -0.028314,
+      "exit_timestamp": "2026-09-23T19:45:24.104900",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 2.06,
-      "current_price": 7.26,
-      "unrealized_pct": -0.06563706563706562,
-      "unrealized_dollars": -246.11
+      "position_size_dollars": 3749.49
     },
     {
       "ticker": "WHLR",
       "entry_price": 5.39,
-      "stop_loss_price": 4.75,
-      "profit_target_price": 8.71,
-      "position_size_dollars": 3748.61,
-      "entry_timestamp": "2026-09-23T17:02:55.467948",
+      "exit_price": 5.3397,
+      "exit_reason": "eod_close",
+      "pl_dollars": -34.98,
+      "pl_percent": -0.009332,
+      "exit_timestamp": "2026-09-23T19:45:13.547118",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 5.19,
-      "current_price": 5.3414,
-      "unrealized_pct": -0.009016697588126073,
-      "unrealized_dollars": -33.8
+      "position_size_dollars": 3748.61
     },
     {
       "ticker": "JAGX",
       "entry_price": 9.045,
-      "stop_loss_price": 8.5,
-      "profit_target_price": 19.46,
-      "position_size_dollars": 3750.47,
-      "entry_timestamp": "2026-09-23T17:02:44.309801",
+      "exit_price": 8.755,
+      "exit_reason": "eod_close",
+      "pl_dollars": -120.25,
+      "pl_percent": -0.032062,
+      "exit_timestamp": "2026-09-23T19:45:02.788779",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 19.11,
-      "current_price": 8.755,
-      "unrealized_pct": -0.03206191265892749,
-      "unrealized_dollars": -120.25
-    }
-  ],
-  "closed_trades": [
+      "position_size_dollars": 3750.47
+    },
     {
       "ticker": "JTAI",
       "entry_price": 1.62,
@@ -567,39 +557,6 @@
       "exit_timestamp": "2026-09-15T19:45:13.620574",
       "setup_quality": "B",
       "position_size_dollars": 3.86
-    },
-    {
-      "ticker": "CSAI",
-      "entry_price": 3.355,
-      "exit_price": 3.27,
-      "exit_reason": "eod_close",
-      "pl_dollars": -97.49,
-      "pl_percent": -0.025335,
-      "exit_timestamp": "2026-09-15T19:45:02.871710",
-      "setup_quality": "B",
-      "position_size_dollars": 3847.88
-    },
-    {
-      "ticker": "MYSZ",
-      "entry_price": 2.16,
-      "exit_price": 2.01,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -0.27,
-      "pl_percent": -0.069444,
-      "exit_timestamp": "2026-09-15T18:00:14.057929",
-      "setup_quality": "B",
-      "position_size_dollars": 3.85
-    },
-    {
-      "ticker": "MYSZ",
-      "entry_price": 2.16,
-      "exit_price": 2.005,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -274.98,
-      "pl_percent": -0.071759,
-      "exit_timestamp": "2026-09-15T18:00:03.408864",
-      "setup_quality": "B",
-      "position_size_dollars": 3831.96
     }
   ]
 }
