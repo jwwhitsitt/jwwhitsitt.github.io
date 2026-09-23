@@ -1,12 +1,41 @@
 {
-  "generated_at": "2026-09-23T13:00:04.430389-04:00",
+  "generated_at": "2026-09-23T13:15:04.787996-04:00",
   "summary": {
     "total_pl_dollars": -182.68,
     "wins": 15,
     "losses": 35,
-    "open_count": 0
+    "open_count": 2
   },
-  "open_trades": [],
+  "open_trades": [
+    {
+      "ticker": "WHLR",
+      "entry_price": 5.39,
+      "stop_loss_price": 4.75,
+      "profit_target_price": 8.71,
+      "position_size_dollars": 3748.61,
+      "entry_timestamp": "2026-09-23T17:02:55.467948",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 5.19,
+      "current_price": 5.2302,
+      "unrealized_pct": -0.029647495361781025,
+      "unrealized_dollars": -111.14
+    },
+    {
+      "ticker": "JAGX",
+      "entry_price": 9.045,
+      "stop_loss_price": 8.5,
+      "profit_target_price": 19.46,
+      "position_size_dollars": 3750.47,
+      "entry_timestamp": "2026-09-23T17:02:44.309801",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 19.11,
+      "current_price": 9.2962,
+      "unrealized_pct": 0.027772249861802184,
+      "unrealized_dollars": 104.16
+    }
+  ],
   "closed_trades": [
     {
       "ticker": "JTAI",
