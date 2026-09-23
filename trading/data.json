@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T14:15:06.613969-04:00",
+  "generated_at": "2026-09-23T14:30:04.235941-04:00",
   "summary": {
     "total_pl_dollars": -182.68,
     "wins": 15,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.19,
-      "current_price": 5.1,
-      "unrealized_pct": -0.05380333951762524,
-      "unrealized_dollars": -201.69
+      "current_price": 4.85,
+      "unrealized_pct": -0.10018552875695734,
+      "unrealized_dollars": -375.56
     },
     {
       "ticker": "JAGX",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 19.11,
-      "current_price": 9.195,
-      "unrealized_pct": 0.016583747927031548,
-      "unrealized_dollars": 62.2
+      "current_price": 9.0337,
+      "unrealized_pct": -0.0012493090105030746,
+      "unrealized_dollars": -4.69
     }
   ],
   "closed_trades": [
