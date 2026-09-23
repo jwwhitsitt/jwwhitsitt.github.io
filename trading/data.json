@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T15:30:04.130314-04:00",
+  "generated_at": "2026-09-23T15:45:03.865047-04:00",
   "summary": {
     "total_pl_dollars": -182.68,
     "wins": 15,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.06,
-      "current_price": 7.18,
-      "unrealized_pct": -0.07593307593307592,
-      "unrealized_dollars": -284.71
+      "current_price": 7.26,
+      "unrealized_pct": -0.06563706563706562,
+      "unrealized_dollars": -246.11
     },
     {
       "ticker": "WHLR",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.19,
-      "current_price": 5.445,
-      "unrealized_pct": 0.010204081632653173,
-      "unrealized_dollars": 38.25
+      "current_price": 5.3414,
+      "unrealized_pct": -0.009016697588126073,
+      "unrealized_dollars": -33.8
     },
     {
       "ticker": "JAGX",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 19.11,
-      "current_price": 8.7873,
-      "unrealized_pct": -0.028490878938640114,
-      "unrealized_dollars": -106.85
+      "current_price": 8.755,
+      "unrealized_pct": -0.03206191265892749,
+      "unrealized_dollars": -120.25
     }
   ],
   "closed_trades": [
