@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T15:30:06.354196-04:00",
+  "generated_at": "2026-09-24T15:45:05.136759-04:00",
   "summary": {
     "total_pl_dollars": 1139.61,
     "wins": 16,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.3,
-      "current_price": 2.57,
-      "unrealized_pct": 0.0038670364438889186,
-      "unrealized_dollars": 0.01
+      "current_price": 2.6557,
+      "unrealized_pct": 0.03734229131674549,
+      "unrealized_dollars": 0.14
     },
     {
       "ticker": "GCTK",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.3,
-      "current_price": 2.57,
-      "unrealized_pct": 0.0038670364438889186,
-      "unrealized_dollars": 14.32
+      "current_price": 2.6557,
+      "unrealized_pct": 0.03734229131674549,
+      "unrealized_dollars": 138.25
     },
     {
       "ticker": "HCWB",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.87,
-      "current_price": 1.935,
-      "unrealized_pct": -0.0570634959309974,
-      "unrealized_dollars": -0.22
+      "current_price": 1.97,
+      "unrealized_pct": -0.04000779689098964,
+      "unrealized_dollars": -0.15
     },
     {
       "ticker": "HCWB",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.87,
-      "current_price": 1.935,
-      "unrealized_pct": -0.0570634959309974,
-      "unrealized_dollars": -211.25
+      "current_price": 1.97,
+      "unrealized_pct": -0.04000779689098964,
+      "unrealized_dollars": -148.11
     },
     {
       "ticker": "XXII",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 41.0,
-      "current_price": 1.4618,
-      "unrealized_pct": 0.17413654618473884,
-      "unrealized_dollars": 0.66
+      "current_price": 1.5,
+      "unrealized_pct": 0.20481927710843364,
+      "unrealized_dollars": 0.78
     },
     {
       "ticker": "XXII",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 41.0,
-      "current_price": 1.4618,
-      "unrealized_pct": 0.17413654618473884,
-      "unrealized_dollars": 644.96
+      "current_price": 1.5,
+      "unrealized_pct": 0.20481927710843364,
+      "unrealized_dollars": 758.6
     },
     {
       "ticker": "KOSS",
@@ -101,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.68,
-      "current_price": 4.11,
-      "unrealized_pct": 0.02662736673827253,
-      "unrealized_dollars": 98.83
+      "current_price": 4.1693,
+      "unrealized_pct": 0.041439776190238226,
+      "unrealized_dollars": 153.81
     },
     {
       "ticker": "WETO",
@@ -115,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.84,
-      "current_price": 1.835,
-      "unrealized_pct": 0.005479452054794526,
-      "unrealized_dollars": 0.02
+      "current_price": 1.8602,
+      "unrealized_pct": 0.01928767123287678,
+      "unrealized_dollars": 0.07
     },
     {
       "ticker": "WETO",
@@ -129,9 +129,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.84,
-      "current_price": 1.835,
-      "unrealized_pct": 0.005479452054794526,
-      "unrealized_dollars": 20.36
+      "current_price": 1.8602,
+      "unrealized_pct": 0.01928767123287678,
+      "unrealized_dollars": 71.66
     }
   ],
   "closed_trades": [
