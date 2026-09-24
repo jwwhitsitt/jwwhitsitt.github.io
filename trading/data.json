@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T10:15:04.220256-04:00",
+  "generated_at": "2026-09-24T10:30:06.992016-04:00",
   "summary": {
     "total_pl_dollars": -300.46,
     "wins": 15,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.98,
-      "current_price": 2.91,
-      "unrealized_pct": 0.13009708737864076,
-      "unrealized_dollars": 0.49
+      "current_price": 2.98,
+      "unrealized_pct": 0.15728155339805816,
+      "unrealized_dollars": 0.59
     },
     {
       "ticker": "VBIO",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.98,
-      "current_price": 2.91,
-      "unrealized_pct": 0.13009708737864076,
-      "unrealized_dollars": 485.41
+      "current_price": 2.98,
+      "unrealized_pct": 0.15728155339805816,
+      "unrealized_dollars": 586.84
     }
   ],
   "closed_trades": [
