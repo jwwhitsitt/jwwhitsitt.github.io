@@ -1,12 +1,55 @@
 {
-  "generated_at": "2026-09-24T09:30:03.778245-04:00",
+  "generated_at": "2026-09-24T09:45:04.925284-04:00",
   "summary": {
     "total_pl_dollars": -71.34,
     "wins": 15,
     "losses": 35,
-    "open_count": 0
+    "open_count": 3
   },
-  "open_trades": [],
+  "open_trades": [
+    {
+      "ticker": "PFSA",
+      "entry_price": 3.3298,
+      "stop_loss_price": 3.23,
+      "profit_target_price": 3.64,
+      "position_size_dollars": 3726.76,
+      "entry_timestamp": "2026-09-24T13:35:24.625180",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 3.11,
+      "current_price": 3.53,
+      "unrealized_pct": 0.060123731155024236,
+      "unrealized_dollars": 224.07
+    },
+    {
+      "ticker": "VBIO",
+      "entry_price": 2.575,
+      "stop_loss_price": 2.31,
+      "profit_target_price": 3.22,
+      "position_size_dollars": 3.76,
+      "entry_timestamp": "2026-09-24T13:35:14.014490",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.98,
+      "current_price": 2.44,
+      "unrealized_pct": -0.0524271844660195,
+      "unrealized_dollars": -0.2
+    },
+    {
+      "ticker": "VBIO",
+      "entry_price": 2.575,
+      "stop_loss_price": 2.31,
+      "profit_target_price": 3.22,
+      "position_size_dollars": 3731.15,
+      "entry_timestamp": "2026-09-24T13:35:03.268328",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.98,
+      "current_price": 2.44,
+      "unrealized_pct": -0.0524271844660195,
+      "unrealized_dollars": -195.61
+    }
+  ],
   "closed_trades": [
     {
       "ticker": "ARTL",
