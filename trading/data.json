@@ -1,26 +1,12 @@
 {
-  "generated_at": "2026-09-24T10:00:04.932220-04:00",
+  "generated_at": "2026-09-24T10:15:04.220256-04:00",
   "summary": {
-    "total_pl_dollars": -71.34,
+    "total_pl_dollars": -300.46,
     "wins": 15,
     "losses": 35,
-    "open_count": 3
+    "open_count": 2
   },
   "open_trades": [
-    {
-      "ticker": "PFSA",
-      "entry_price": 3.3298,
-      "stop_loss_price": 3.23,
-      "profit_target_price": 3.64,
-      "position_size_dollars": 3726.76,
-      "entry_timestamp": "2026-09-24T13:35:24.625180",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 3.11,
-      "current_price": 3.125,
-      "unrealized_pct": -0.061505195507237695,
-      "unrealized_dollars": -229.22
-    },
     {
       "ticker": "VBIO",
       "entry_price": 2.575,
@@ -31,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.98,
-      "current_price": 2.57,
-      "unrealized_pct": -0.0019417475728156649,
-      "unrealized_dollars": -0.01
+      "current_price": 2.91,
+      "unrealized_pct": 0.13009708737864076,
+      "unrealized_dollars": 0.49
     },
     {
       "ticker": "VBIO",
@@ -45,12 +31,23 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.98,
-      "current_price": 2.57,
-      "unrealized_pct": -0.0019417475728156649,
-      "unrealized_dollars": -7.24
+      "current_price": 2.91,
+      "unrealized_pct": 0.13009708737864076,
+      "unrealized_dollars": 485.41
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "PFSA",
+      "entry_price": 3.3298,
+      "exit_price": 3.125,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -229.22,
+      "pl_percent": -0.061505,
+      "exit_timestamp": "2026-09-24T14:00:03.817209",
+      "setup_quality": "B",
+      "position_size_dollars": 3726.76
+    },
     {
       "ticker": "ARTL",
       "entry_price": 7.77,
@@ -589,17 +586,6 @@
       "exit_timestamp": "2026-09-15T19:45:24.319105",
       "setup_quality": "B",
       "position_size_dollars": 3845.05
-    },
-    {
-      "ticker": "CSAI",
-      "entry_price": 3.355,
-      "exit_price": 3.27,
-      "exit_reason": "eod_close",
-      "pl_dollars": -0.1,
-      "pl_percent": -0.025335,
-      "exit_timestamp": "2026-09-15T19:45:13.620574",
-      "setup_quality": "B",
-      "position_size_dollars": 3.86
     }
   ]
 }
