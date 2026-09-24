@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T11:30:06.327268-04:00",
+  "generated_at": "2026-09-24T11:45:06.438161-04:00",
   "summary": {
     "total_pl_dollars": -300.46,
     "wins": 15,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.3,
-      "current_price": 2.64,
-      "unrealized_pct": 0.03120971837037628,
-      "unrealized_dollars": 0.12
+      "current_price": 2.63,
+      "unrealized_pct": 0.02730362095230658,
+      "unrealized_dollars": 0.1
     },
     {
       "ticker": "GCTK",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.3,
-      "current_price": 2.64,
-      "unrealized_pct": 0.03120971837037628,
-      "unrealized_dollars": 115.54
+      "current_price": 2.63,
+      "unrealized_pct": 0.02730362095230658,
+      "unrealized_dollars": 101.08
     },
     {
       "ticker": "HCWB",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.87,
-      "current_price": 2.22,
-      "unrealized_pct": 0.08181862482335188,
-      "unrealized_dollars": 0.31
+      "current_price": 2.0598,
+      "unrealized_pct": 0.0037522537888018434,
+      "unrealized_dollars": 0.01
     },
     {
       "ticker": "HCWB",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.87,
-      "current_price": 2.22,
-      "unrealized_pct": 0.08181862482335188,
-      "unrealized_dollars": 302.9
+      "current_price": 2.0598,
+      "unrealized_pct": 0.0037522537888018434,
+      "unrealized_dollars": 13.89
     },
     {
       "ticker": "XXII",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 41.0,
-      "current_price": 1.2592,
-      "unrealized_pct": 0.01140562248995983,
-      "unrealized_dollars": 0.04
+      "current_price": 1.26,
+      "unrealized_pct": 0.012048192771084258,
+      "unrealized_dollars": 0.05
     },
     {
       "ticker": "XXII",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 41.0,
-      "current_price": 1.2592,
-      "unrealized_pct": 0.01140562248995983,
-      "unrealized_dollars": 42.24
+      "current_price": 1.26,
+      "unrealized_pct": 0.012048192771084258,
+      "unrealized_dollars": 44.62
     },
     {
       "ticker": "KOSS",
@@ -101,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.68,
-      "current_price": 4.1053,
-      "unrealized_pct": 0.025453364640055865,
-      "unrealized_dollars": 94.47
+      "current_price": 4.28,
+      "unrealized_pct": 0.06909127241844437,
+      "unrealized_dollars": 256.44
     },
     {
       "ticker": "WETO",
@@ -115,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.84,
-      "current_price": 1.86,
-      "unrealized_pct": 0.0191780821917809,
-      "unrealized_dollars": 0.07
+      "current_price": 1.805,
+      "unrealized_pct": -0.010958904109589052,
+      "unrealized_dollars": -0.04
     },
     {
       "ticker": "WETO",
@@ -129,9 +129,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 3.84,
-      "current_price": 1.86,
-      "unrealized_pct": 0.0191780821917809,
-      "unrealized_dollars": 71.26
+      "current_price": 1.805,
+      "unrealized_pct": -0.010958904109589052,
+      "unrealized_dollars": -40.72
     },
     {
       "ticker": "VBIO",
@@ -143,9 +143,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.98,
-      "current_price": 3.0001,
-      "unrealized_pct": 0.1650873786407767,
-      "unrealized_dollars": 0.62
+      "current_price": 3.04,
+      "unrealized_pct": 0.1805825242718446,
+      "unrealized_dollars": 0.68
     },
     {
       "ticker": "VBIO",
@@ -157,9 +157,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.98,
-      "current_price": 3.0001,
-      "unrealized_pct": 0.1650873786407767,
-      "unrealized_dollars": 615.97
+      "current_price": 3.04,
+      "unrealized_pct": 0.1805825242718446,
+      "unrealized_dollars": 673.78
     }
   ],
   "closed_trades": [
