@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T15:30:04.341881-04:00",
+  "generated_at": "2026-09-25T15:45:03.905886-04:00",
   "summary": {
     "total_pl_dollars": 1997.99,
     "wins": 19,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 9.98,
-      "current_price": 3.25,
-      "unrealized_pct": -0.044117647058823505,
-      "unrealized_dollars": -0.17
+      "current_price": 3.19,
+      "unrealized_pct": -0.06176470588235293,
+      "unrealized_dollars": -0.24
     },
     {
       "ticker": "LONA",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 9.98,
-      "current_price": 3.25,
-      "unrealized_pct": -0.044117647058823505,
-      "unrealized_dollars": -164.93
+      "current_price": 3.19,
+      "unrealized_pct": -0.06176470588235293,
+      "unrealized_dollars": -230.9
     },
     {
       "ticker": "KITT",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.89,
-      "current_price": 2.41,
-      "unrealized_pct": 0.021143171899495806,
-      "unrealized_dollars": 0.08
+      "current_price": 2.38,
+      "unrealized_pct": 0.00843184610821567,
+      "unrealized_dollars": 0.03
     },
     {
       "ticker": "KITT",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.89,
-      "current_price": 2.41,
-      "unrealized_pct": 0.021143171899495806,
-      "unrealized_dollars": 79.2
+      "current_price": 2.38,
+      "unrealized_pct": 0.00843184610821567,
+      "unrealized_dollars": 31.58
     },
     {
       "ticker": "COE",
