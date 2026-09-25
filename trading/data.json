@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T14:45:03.770871-04:00",
+  "generated_at": "2026-09-25T15:00:04.269590-04:00",
   "summary": {
     "total_pl_dollars": 1997.99,
     "wins": 19,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.89,
-      "current_price": 2.45,
-      "unrealized_pct": 0.038091606287869194,
-      "unrealized_dollars": 0.15
+      "current_price": 2.39,
+      "unrealized_pct": 0.012668954705309113,
+      "unrealized_dollars": 0.05
     },
     {
       "ticker": "KITT",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.89,
-      "current_price": 2.45,
-      "unrealized_pct": 0.038091606287869194,
-      "unrealized_dollars": 142.69
+      "current_price": 2.39,
+      "unrealized_pct": 0.012668954705309113,
+      "unrealized_dollars": 47.46
     },
     {
       "ticker": "COE",
