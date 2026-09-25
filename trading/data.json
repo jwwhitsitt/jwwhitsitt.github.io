@@ -1,12 +1,27 @@
 {
-  "generated_at": "2026-09-25T09:30:02.782070-04:00",
+  "generated_at": "2026-09-25T09:45:05.063640-04:00",
   "summary": {
     "total_pl_dollars": 2679.34,
     "wins": 20,
     "losses": 30,
-    "open_count": 0
+    "open_count": 1
   },
-  "open_trades": [],
+  "open_trades": [
+    {
+      "ticker": "GRML",
+      "entry_price": 16.4,
+      "stop_loss_price": 15.58,
+      "profit_target_price": 18.05,
+      "position_size_dollars": 3763.56,
+      "entry_timestamp": "2026-09-25T13:34:05.692237",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 0.95,
+      "current_price": 15.2795,
+      "unrealized_pct": -0.0683231707317072,
+      "unrealized_dollars": -257.14
+    }
+  ],
   "closed_trades": [
     {
       "ticker": "GCTK",
