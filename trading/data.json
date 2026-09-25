@@ -1,28 +1,24 @@
 {
-  "generated_at": "2026-09-25T09:45:05.063640-04:00",
+  "generated_at": "2026-09-25T10:00:04.401643-04:00",
   "summary": {
-    "total_pl_dollars": 2679.34,
+    "total_pl_dollars": 2505.37,
     "wins": 20,
     "losses": 30,
-    "open_count": 1
+    "open_count": 0
   },
-  "open_trades": [
+  "open_trades": [],
+  "closed_trades": [
     {
       "ticker": "GRML",
       "entry_price": 16.4,
-      "stop_loss_price": 15.58,
-      "profit_target_price": 18.05,
-      "position_size_dollars": 3763.56,
-      "entry_timestamp": "2026-09-25T13:34:05.692237",
+      "exit_price": 15.31,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -250.14,
+      "pl_percent": -0.066463,
+      "exit_timestamp": "2026-09-25T13:45:03.986915",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 0.95,
-      "current_price": 15.2795,
-      "unrealized_pct": -0.0683231707317072,
-      "unrealized_dollars": -257.14
-    }
-  ],
-  "closed_trades": [
+      "position_size_dollars": 3763.56
+    },
     {
       "ticker": "GCTK",
       "entry_price": 2.5601,
@@ -561,17 +557,6 @@
       "exit_timestamp": "2026-09-17T17:30:14.411124",
       "setup_quality": "B",
       "position_size_dollars": 3.8
-    },
-    {
-      "ticker": "JAGX",
-      "entry_price": 2.47,
-      "exit_price": 2.42,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -76.17,
-      "pl_percent": -0.020243,
-      "exit_timestamp": "2026-09-17T17:30:03.669685",
-      "setup_quality": "B",
-      "position_size_dollars": 3762.95
     }
   ]
 }
