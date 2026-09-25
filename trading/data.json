@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-25T14:30:04.806560-04:00",
+  "generated_at": "2026-09-25T14:45:03.770871-04:00",
   "summary": {
-    "total_pl_dollars": 2505.37,
-    "wins": 20,
-    "losses": 30,
-    "open_count": 6
+    "total_pl_dollars": 1997.99,
+    "wins": 19,
+    "losses": 31,
+    "open_count": 4
   },
   "open_trades": [
     {
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.89,
-      "current_price": 2.52,
-      "unrealized_pct": 0.06775136646752253,
-      "unrealized_dollars": 0.26
+      "current_price": 2.45,
+      "unrealized_pct": 0.038091606287869194,
+      "unrealized_dollars": 0.15
     },
     {
       "ticker": "KITT",
@@ -31,37 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.89,
-      "current_price": 2.52,
-      "unrealized_pct": 0.06775136646752253,
-      "unrealized_dollars": 253.79
-    },
-    {
-      "ticker": "ONCO",
-      "entry_price": 1.0607,
-      "stop_loss_price": 1.03,
-      "profit_target_price": 1.42,
-      "position_size_dollars": 3.87,
-      "entry_timestamp": "2026-09-25T17:55:02.086924",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 11.7,
-      "current_price": 1.03,
-      "unrealized_pct": -0.028943150749504997,
-      "unrealized_dollars": -0.11
-    },
-    {
-      "ticker": "ONCO",
-      "entry_price": 1.0607,
-      "stop_loss_price": 1.03,
-      "profit_target_price": 1.42,
-      "position_size_dollars": 3747.59,
-      "entry_timestamp": "2026-09-25T17:54:51.533432",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 11.7,
-      "current_price": 1.03,
-      "unrealized_pct": -0.028943150749504997,
-      "unrealized_dollars": -108.47
+      "current_price": 2.45,
+      "unrealized_pct": 0.038091606287869194,
+      "unrealized_dollars": 142.69
     },
     {
       "ticker": "COE",
@@ -93,6 +65,28 @@
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "ONCO",
+      "entry_price": 1.0607,
+      "exit_price": 1.021,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.14,
+      "pl_percent": -0.037428,
+      "exit_timestamp": "2026-09-25T18:30:14.452957",
+      "setup_quality": "B",
+      "position_size_dollars": 3.87
+    },
+    {
+      "ticker": "ONCO",
+      "entry_price": 1.0607,
+      "exit_price": 1.03,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -108.47,
+      "pl_percent": -0.028943,
+      "exit_timestamp": "2026-09-25T18:30:03.752979",
+      "setup_quality": "B",
+      "position_size_dollars": 3747.59
+    },
     {
       "ticker": "GRML",
       "entry_price": 16.4,
@@ -620,28 +614,6 @@
       "exit_timestamp": "2026-09-17T19:45:13.675933",
       "setup_quality": "B",
       "position_size_dollars": 3771.91
-    },
-    {
-      "ticker": "DAIC",
-      "entry_price": 4.86,
-      "exit_price": 5.3698,
-      "exit_reason": "eod_close",
-      "pl_dollars": 398.85,
-      "pl_percent": 0.104897,
-      "exit_timestamp": "2026-09-17T19:45:02.870007",
-      "setup_quality": "B",
-      "position_size_dollars": 3802.25
-    },
-    {
-      "ticker": "JAGX",
-      "entry_price": 2.47,
-      "exit_price": 2.42,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -0.08,
-      "pl_percent": -0.020243,
-      "exit_timestamp": "2026-09-17T17:30:14.411124",
-      "setup_quality": "B",
-      "position_size_dollars": 3.8
     }
   ]
 }
