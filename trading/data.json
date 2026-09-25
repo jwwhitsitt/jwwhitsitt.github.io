@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T15:15:05.723081-04:00",
+  "generated_at": "2026-09-25T15:30:04.341881-04:00",
   "summary": {
     "total_pl_dollars": 1997.99,
     "wins": 19,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 9.98,
-      "current_price": 3.34,
-      "unrealized_pct": -0.01764705882352943,
-      "unrealized_dollars": -0.07
+      "current_price": 3.25,
+      "unrealized_pct": -0.044117647058823505,
+      "unrealized_dollars": -0.17
     },
     {
       "ticker": "LONA",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 9.98,
-      "current_price": 3.34,
-      "unrealized_pct": -0.01764705882352943,
-      "unrealized_dollars": -65.97
+      "current_price": 3.25,
+      "unrealized_pct": -0.044117647058823505,
+      "unrealized_dollars": -164.93
     },
     {
       "ticker": "KITT",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.89,
-      "current_price": 2.4009,
-      "unrealized_pct": 0.01728740307614082,
-      "unrealized_dollars": 0.07
+      "current_price": 2.41,
+      "unrealized_pct": 0.021143171899495806,
+      "unrealized_dollars": 0.08
     },
     {
       "ticker": "KITT",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 4.89,
-      "current_price": 2.4009,
-      "unrealized_pct": 0.01728740307614082,
-      "unrealized_dollars": 64.76
+      "current_price": 2.41,
+      "unrealized_pct": 0.021143171899495806,
+      "unrealized_dollars": 79.2
     },
     {
       "ticker": "COE",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.26,
-      "current_price": 11.5,
-      "unrealized_pct": -0.000868809730668965,
-      "unrealized_dollars": -0.0
+      "current_price": 11.56,
+      "unrealized_pct": 0.004344048653344979,
+      "unrealized_dollars": 0.02
     },
     {
       "ticker": "COE",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.26,
-      "current_price": 11.5,
-      "unrealized_pct": -0.000868809730668965,
-      "unrealized_dollars": -3.26
+      "current_price": 11.56,
+      "unrealized_pct": 0.004344048653344979,
+      "unrealized_dollars": 16.29
     }
   ],
   "closed_trades": [
