@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T14:00:05.114077-04:00",
+  "generated_at": "2026-09-28T14:15:04.806968-04:00",
   "summary": {
     "total_pl_dollars": 2003.09,
     "wins": 23,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.24,
-      "current_price": 1.37,
-      "unrealized_pct": 0.0072788765531946326,
-      "unrealized_dollars": 0.03
+      "current_price": 1.3301,
+      "unrealized_pct": -0.022057201676347345,
+      "unrealized_dollars": -0.08
     },
     {
       "ticker": "PMAX",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.24,
-      "current_price": 1.37,
-      "unrealized_pct": 0.0072788765531946326,
-      "unrealized_dollars": 26.69
+      "current_price": 1.3301,
+      "unrealized_pct": -0.022057201676347345,
+      "unrealized_dollars": -80.87
     },
     {
       "ticker": "ACET",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.19,
-      "current_price": 6.87,
-      "unrealized_pct": -0.005788712011577429,
-      "unrealized_dollars": -0.02
+      "current_price": 6.93,
+      "unrealized_pct": 0.00289435600578865,
+      "unrealized_dollars": 0.01
     },
     {
       "ticker": "ACET",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.19,
-      "current_price": 6.87,
-      "unrealized_pct": -0.005788712011577429,
-      "unrealized_dollars": -21.23
+      "current_price": 6.93,
+      "unrealized_pct": 0.00289435600578865,
+      "unrealized_dollars": 10.61
     },
     {
       "ticker": "FSEA",
@@ -101,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.67,
-      "current_price": 4.58,
-      "unrealized_pct": 0.008810572687224677,
-      "unrealized_dollars": 0.03
+      "current_price": 4.55,
+      "unrealized_pct": 0.0022026431718061203,
+      "unrealized_dollars": 0.01
     },
     {
       "ticker": "SCYX",
@@ -115,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.67,
-      "current_price": 4.58,
-      "unrealized_pct": 0.008810572687224677,
-      "unrealized_dollars": 32.48
+      "current_price": 4.55,
+      "unrealized_pct": 0.0022026431718061203,
+      "unrealized_dollars": 8.12
     },
     {
       "ticker": "CSAI",
@@ -129,9 +129,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.77,
-      "current_price": 3.045,
-      "unrealized_pct": -0.08558558558558563,
-      "unrealized_dollars": -0.33
+      "current_price": 2.99,
+      "unrealized_pct": -0.10210210210210206,
+      "unrealized_dollars": -0.39
     },
     {
       "ticker": "CSAI",
@@ -143,9 +143,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.77,
-      "current_price": 3.045,
-      "unrealized_pct": -0.08558558558558563,
-      "unrealized_dollars": -315.68
+      "current_price": 2.99,
+      "unrealized_pct": -0.10210210210210206,
+      "unrealized_dollars": -376.6
     },
     {
       "ticker": "LINK",
@@ -157,9 +157,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.35,
-      "current_price": 5.835,
-      "unrealized_pct": -0.0355371900826446,
-      "unrealized_dollars": -0.13
+      "current_price": 5.89,
+      "unrealized_pct": -0.02644628099173556,
+      "unrealized_dollars": -0.1
     },
     {
       "ticker": "LINK",
@@ -171,9 +171,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.35,
-      "current_price": 5.835,
-      "unrealized_pct": -0.0355371900826446,
-      "unrealized_dollars": -131.08
+      "current_price": 5.89,
+      "unrealized_pct": -0.02644628099173556,
+      "unrealized_dollars": -97.55
     }
   ],
   "closed_trades": [
