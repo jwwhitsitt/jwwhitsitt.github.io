@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T14:45:05.407706-04:00",
+  "generated_at": "2026-09-28T15:00:04.380155-04:00",
   "summary": {
     "total_pl_dollars": 2713.68,
     "wins": 23,
@@ -17,8 +17,8 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.19,
-      "current_price": 6.5501,
-      "unrealized_pct": -0.052083936324167954,
+      "current_price": 6.5476,
+      "unrealized_pct": -0.05244573082489147,
       "unrealized_dollars": -0.2
     },
     {
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.19,
-      "current_price": 6.5501,
-      "unrealized_pct": -0.052083936324167954,
-      "unrealized_dollars": -191.01
+      "current_price": 6.5476,
+      "unrealized_pct": -0.05244573082489147,
+      "unrealized_dollars": -192.34
     },
     {
       "ticker": "FSEA",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.67,
-      "current_price": 4.49,
-      "unrealized_pct": -0.011013215859030798,
-      "unrealized_dollars": -0.04
+      "current_price": 4.53,
+      "unrealized_pct": -0.0022026431718061203,
+      "unrealized_dollars": -0.01
     },
     {
       "ticker": "SCYX",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.67,
-      "current_price": 4.49,
-      "unrealized_pct": -0.011013215859030798,
-      "unrealized_dollars": -40.59
+      "current_price": 4.53,
+      "unrealized_pct": -0.0022026431718061203,
+      "unrealized_dollars": -8.12
     },
     {
       "ticker": "LINK",
