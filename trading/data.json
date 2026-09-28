@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T11:15:06.204685-04:00",
+  "generated_at": "2026-09-28T11:30:04.522217-04:00",
   "summary": {
     "total_pl_dollars": 2003.09,
     "wins": 23,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.67,
-      "current_price": 4.503,
-      "unrealized_pct": -0.008149779735682802,
-      "unrealized_dollars": -0.03
+      "current_price": 4.605,
+      "unrealized_pct": 0.014317180616740173,
+      "unrealized_dollars": 0.05
     },
     {
       "ticker": "SCYX",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.67,
-      "current_price": 4.503,
-      "unrealized_pct": -0.008149779735682802,
-      "unrealized_dollars": -30.04
+      "current_price": 4.605,
+      "unrealized_pct": 0.014317180616740173,
+      "unrealized_dollars": 52.77
     },
     {
       "ticker": "CSAI",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.77,
-      "current_price": 3.275,
-      "unrealized_pct": -0.016516516516516564,
-      "unrealized_dollars": -0.06
+      "current_price": 3.37,
+      "unrealized_pct": 0.012012012012012022,
+      "unrealized_dollars": 0.05
     },
     {
       "ticker": "CSAI",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.77,
-      "current_price": 3.275,
-      "unrealized_pct": -0.016516516516516564,
-      "unrealized_dollars": -60.92
+      "current_price": 3.37,
+      "unrealized_pct": 0.012012012012012022,
+      "unrealized_dollars": 44.31
     },
     {
       "ticker": "LINK",
@@ -73,9 +73,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.35,
-      "current_price": 6.01,
-      "unrealized_pct": -0.00661157024793389,
-      "unrealized_dollars": -0.03
+      "current_price": 5.97,
+      "unrealized_pct": -0.01322314049586778,
+      "unrealized_dollars": -0.05
     },
     {
       "ticker": "LINK",
@@ -87,9 +87,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.35,
-      "current_price": 6.01,
-      "unrealized_pct": -0.00661157024793389,
-      "unrealized_dollars": -24.39
+      "current_price": 5.97,
+      "unrealized_pct": -0.01322314049586778,
+      "unrealized_dollars": -48.77
     }
   ],
   "closed_trades": [
