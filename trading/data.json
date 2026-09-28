@@ -1,42 +1,35 @@
 {
-  "generated_at": "2026-09-28T09:45:05.440076-04:00",
+  "generated_at": "2026-09-28T10:00:03.447300-04:00",
   "summary": {
-    "total_pl_dollars": 2367.5,
+    "total_pl_dollars": 2003.09,
     "wins": 23,
     "losses": 27,
-    "open_count": 2
+    "open_count": 0
   },
-  "open_trades": [
+  "open_trades": [],
+  "closed_trades": [
     {
       "ticker": "LABT",
       "entry_price": 1.9689,
-      "stop_loss_price": 1.75,
-      "profit_target_price": 2.5,
-      "position_size_dollars": 3.82,
-      "entry_timestamp": "2026-09-28T13:34:45.263799",
+      "exit_price": 1.73,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.46,
+      "pl_percent": -0.121337,
+      "exit_timestamp": "2026-09-28T13:45:14.799571",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 1.43,
-      "current_price": 1.73,
-      "unrealized_pct": -0.12133678703844791,
-      "unrealized_dollars": -0.46
+      "position_size_dollars": 3.82
     },
     {
       "ticker": "LABT",
       "entry_price": 1.9689,
-      "stop_loss_price": 1.75,
-      "profit_target_price": 2.5,
-      "position_size_dollars": 3709.19,
-      "entry_timestamp": "2026-09-28T13:34:34.457485",
+      "exit_price": 1.73,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -450.06,
+      "pl_percent": -0.121337,
+      "exit_timestamp": "2026-09-28T13:45:04.056437",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 1.43,
-      "current_price": 1.73,
-      "unrealized_pct": -0.12133678703844791,
-      "unrealized_dollars": -450.06
-    }
-  ],
-  "closed_trades": [
+      "position_size_dollars": 3709.19
+    },
     {
       "ticker": "LONA",
       "entry_price": 3.4,
@@ -562,28 +555,6 @@
       "pl_dollars": -0.1,
       "pl_percent": -0.027855,
       "exit_timestamp": "2026-09-17T19:46:38.003365",
-      "setup_quality": "B",
-      "position_size_dollars": 3.77
-    },
-    {
-      "ticker": "DTSS",
-      "entry_price": 1.2601,
-      "exit_price": 1.2312,
-      "exit_reason": "eod_close",
-      "pl_dollars": -86.06,
-      "pl_percent": -0.022935,
-      "exit_timestamp": "2026-09-17T19:46:27.553576",
-      "setup_quality": "B",
-      "position_size_dollars": 3752.41
-    },
-    {
-      "ticker": "NUWE",
-      "entry_price": 1.04,
-      "exit_price": 1.025,
-      "exit_reason": "eod_close",
-      "pl_dollars": -0.05,
-      "pl_percent": -0.014423,
-      "exit_timestamp": "2026-09-17T19:46:16.984279",
       "setup_quality": "B",
       "position_size_dollars": 3.77
     }
