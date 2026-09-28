@@ -1,12 +1,41 @@
 {
-  "generated_at": "2026-09-28T09:30:04.247455-04:00",
+  "generated_at": "2026-09-28T09:45:05.440076-04:00",
   "summary": {
     "total_pl_dollars": 2367.5,
     "wins": 23,
     "losses": 27,
-    "open_count": 0
+    "open_count": 2
   },
-  "open_trades": [],
+  "open_trades": [
+    {
+      "ticker": "LABT",
+      "entry_price": 1.9689,
+      "stop_loss_price": 1.75,
+      "profit_target_price": 2.5,
+      "position_size_dollars": 3.82,
+      "entry_timestamp": "2026-09-28T13:34:45.263799",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.43,
+      "current_price": 1.73,
+      "unrealized_pct": -0.12133678703844791,
+      "unrealized_dollars": -0.46
+    },
+    {
+      "ticker": "LABT",
+      "entry_price": 1.9689,
+      "stop_loss_price": 1.75,
+      "profit_target_price": 2.5,
+      "position_size_dollars": 3709.19,
+      "entry_timestamp": "2026-09-28T13:34:34.457485",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.43,
+      "current_price": 1.73,
+      "unrealized_pct": -0.12133678703844791,
+      "unrealized_dollars": -450.06
+    }
+  ],
   "closed_trades": [
     {
       "ticker": "LONA",
