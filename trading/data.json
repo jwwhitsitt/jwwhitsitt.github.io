@@ -1,12 +1,97 @@
 {
-  "generated_at": "2026-09-28T11:00:03.686896-04:00",
+  "generated_at": "2026-09-28T11:15:06.204685-04:00",
   "summary": {
     "total_pl_dollars": 2003.09,
     "wins": 23,
     "losses": 27,
-    "open_count": 0
+    "open_count": 6
   },
-  "open_trades": [],
+  "open_trades": [
+    {
+      "ticker": "SCYX",
+      "entry_price": 4.54,
+      "stop_loss_price": 4.45,
+      "profit_target_price": 5.14,
+      "position_size_dollars": 3.79,
+      "entry_timestamp": "2026-09-28T15:06:34.342060",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 6.67,
+      "current_price": 4.503,
+      "unrealized_pct": -0.008149779735682802,
+      "unrealized_dollars": -0.03
+    },
+    {
+      "ticker": "SCYX",
+      "entry_price": 4.54,
+      "stop_loss_price": 4.45,
+      "profit_target_price": 5.14,
+      "position_size_dollars": 3685.94,
+      "entry_timestamp": "2026-09-28T15:06:24.009455",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 6.67,
+      "current_price": 4.503,
+      "unrealized_pct": -0.008149779735682802,
+      "unrealized_dollars": -30.04
+    },
+    {
+      "ticker": "CSAI",
+      "entry_price": 3.33,
+      "stop_loss_price": 3.02,
+      "profit_target_price": 5.12,
+      "position_size_dollars": 3.8,
+      "entry_timestamp": "2026-09-28T15:06:13.669881",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 5.77,
+      "current_price": 3.275,
+      "unrealized_pct": -0.016516516516516564,
+      "unrealized_dollars": -0.06
+    },
+    {
+      "ticker": "CSAI",
+      "entry_price": 3.33,
+      "stop_loss_price": 3.02,
+      "profit_target_price": 5.12,
+      "position_size_dollars": 3688.44,
+      "entry_timestamp": "2026-09-28T15:06:03.054340",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 5.77,
+      "current_price": 3.275,
+      "unrealized_pct": -0.016516516516516564,
+      "unrealized_dollars": -60.92
+    },
+    {
+      "ticker": "LINK",
+      "entry_price": 6.05,
+      "stop_loss_price": 5.45,
+      "profit_target_price": 6.75,
+      "position_size_dollars": 3.79,
+      "entry_timestamp": "2026-09-28T15:05:52.489681",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.35,
+      "current_price": 6.01,
+      "unrealized_pct": -0.00661157024793389,
+      "unrealized_dollars": -0.03
+    },
+    {
+      "ticker": "LINK",
+      "entry_price": 6.05,
+      "stop_loss_price": 5.45,
+      "profit_target_price": 6.75,
+      "position_size_dollars": 3688.44,
+      "entry_timestamp": "2026-09-28T15:05:41.945751",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.35,
+      "current_price": 6.01,
+      "unrealized_pct": -0.00661157024793389,
+      "unrealized_dollars": -24.39
+    }
+  ],
   "closed_trades": [
     {
       "ticker": "LABT",
