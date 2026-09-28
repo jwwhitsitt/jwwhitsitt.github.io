@@ -1,12 +1,96 @@
 {
-  "generated_at": "2026-09-28T13:00:05.099095-04:00",
+  "generated_at": "2026-09-28T13:15:05.929765-04:00",
   "summary": {
     "total_pl_dollars": 2003.09,
     "wins": 23,
     "losses": 27,
-    "open_count": 6
+    "open_count": 12
   },
   "open_trades": [
+    {
+      "ticker": "PMAX",
+      "entry_price": 1.3601,
+      "stop_loss_price": 1.28,
+      "profit_target_price": 1.86,
+      "position_size_dollars": 3.75,
+      "entry_timestamp": "2026-09-28T17:04:57.870206",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 6.24,
+      "current_price": 1.33,
+      "unrealized_pct": -0.02213072568193516,
+      "unrealized_dollars": -0.08
+    },
+    {
+      "ticker": "PMAX",
+      "entry_price": 1.3601,
+      "stop_loss_price": 1.28,
+      "profit_target_price": 1.86,
+      "position_size_dollars": 3666.42,
+      "entry_timestamp": "2026-09-28T17:04:47.263471",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 6.24,
+      "current_price": 1.33,
+      "unrealized_pct": -0.02213072568193516,
+      "unrealized_dollars": -81.14
+    },
+    {
+      "ticker": "ACET",
+      "entry_price": 6.91,
+      "stop_loss_price": 6.43,
+      "profit_target_price": 7.96,
+      "position_size_dollars": 3.76,
+      "entry_timestamp": "2026-09-28T17:04:36.612493",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 2.19,
+      "current_price": 6.96,
+      "unrealized_pct": 0.0072358900144717546,
+      "unrealized_dollars": 0.03
+    },
+    {
+      "ticker": "ACET",
+      "entry_price": 6.91,
+      "stop_loss_price": 6.43,
+      "profit_target_price": 7.96,
+      "position_size_dollars": 3667.33,
+      "entry_timestamp": "2026-09-28T17:04:26.278242",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 2.19,
+      "current_price": 6.96,
+      "unrealized_pct": 0.0072358900144717546,
+      "unrealized_dollars": 26.54
+    },
+    {
+      "ticker": "FSEA",
+      "entry_price": 17.24,
+      "stop_loss_price": 16.5,
+      "profit_target_price": 18.5,
+      "position_size_dollars": 3.76,
+      "entry_timestamp": "2026-09-28T17:04:15.932194",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.2,
+      "current_price": 17.25,
+      "unrealized_pct": 0.0005800464037123877,
+      "unrealized_dollars": 0.0
+    },
+    {
+      "ticker": "FSEA",
+      "entry_price": 17.24,
+      "stop_loss_price": 16.5,
+      "profit_target_price": 18.5,
+      "position_size_dollars": 3669.64,
+      "entry_timestamp": "2026-09-28T17:04:05.428612",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 1.2,
+      "current_price": 17.25,
+      "unrealized_pct": 0.0005800464037123877,
+      "unrealized_dollars": 2.13
+    },
     {
       "ticker": "SCYX",
       "entry_price": 4.54,
@@ -17,9 +101,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.67,
-      "current_price": 4.65,
-      "unrealized_pct": 0.024229074889867912,
-      "unrealized_dollars": 0.09
+      "current_price": 4.58,
+      "unrealized_pct": 0.008810572687224677,
+      "unrealized_dollars": 0.03
     },
     {
       "ticker": "SCYX",
@@ -31,9 +115,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 6.67,
-      "current_price": 4.65,
-      "unrealized_pct": 0.024229074889867912,
-      "unrealized_dollars": 89.31
+      "current_price": 4.58,
+      "unrealized_pct": 0.008810572687224677,
+      "unrealized_dollars": 32.48
     },
     {
       "ticker": "CSAI",
@@ -45,9 +129,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.77,
-      "current_price": 3.04,
-      "unrealized_pct": -0.0870870870870871,
-      "unrealized_dollars": -0.33
+      "current_price": 3.09,
+      "unrealized_pct": -0.07207207207207214,
+      "unrealized_dollars": -0.27
     },
     {
       "ticker": "CSAI",
@@ -59,9 +143,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.77,
-      "current_price": 3.04,
-      "unrealized_pct": -0.0870870870870871,
-      "unrealized_dollars": -321.22
+      "current_price": 3.09,
+      "unrealized_pct": -0.07207207207207214,
+      "unrealized_dollars": -265.83
     },
     {
       "ticker": "LINK",
@@ -73,9 +157,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.35,
-      "current_price": 5.9826,
-      "unrealized_pct": -0.011140495867768616,
-      "unrealized_dollars": -0.04
+      "current_price": 5.8972,
+      "unrealized_pct": -0.025256198347107447,
+      "unrealized_dollars": -0.1
     },
     {
       "ticker": "LINK",
@@ -87,9 +171,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 1.35,
-      "current_price": 5.9826,
-      "unrealized_pct": -0.011140495867768616,
-      "unrealized_dollars": -41.09
+      "current_price": 5.8972,
+      "unrealized_pct": -0.025256198347107447,
+      "unrealized_dollars": -93.16
     }
   ],
   "closed_trades": [
