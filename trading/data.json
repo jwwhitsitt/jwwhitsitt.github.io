@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-30T11:15:05.756938-04:00",
+  "generated_at": "2026-09-30T11:30:04.539816-04:00",
   "summary": {
-    "total_pl_dollars": 2555.94,
-    "wins": 25,
-    "losses": 25,
-    "open_count": 6
+    "total_pl_dollars": 1439.87,
+    "wins": 23,
+    "losses": 27,
+    "open_count": 4
   },
   "open_trades": [
     {
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.47,
-      "current_price": 2.58,
-      "unrealized_pct": 0.01976284584980248,
-      "unrealized_dollars": 0.07
+      "current_price": 2.52,
+      "unrealized_pct": -0.003952569169960391,
+      "unrealized_dollars": -0.01
     },
     {
       "ticker": "CMCT",
@@ -31,37 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.47,
-      "current_price": 2.58,
-      "unrealized_pct": 0.01976284584980248,
-      "unrealized_dollars": 71.63
-    },
-    {
-      "ticker": "VBIO",
-      "entry_price": 3.34,
-      "stop_loss_price": 3.17,
-      "profit_target_price": 4.39,
-      "position_size_dollars": 3.69,
-      "entry_timestamp": "2026-09-30T15:04:09.095743",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 6.18,
-      "current_price": 3.1401,
-      "unrealized_pct": -0.0598502994011976,
-      "unrealized_dollars": -0.22
-    },
-    {
-      "ticker": "VBIO",
-      "entry_price": 3.34,
-      "stop_loss_price": 3.17,
-      "profit_target_price": 4.39,
-      "position_size_dollars": 3625.01,
-      "entry_timestamp": "2026-09-30T15:03:58.556128",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 6.18,
-      "current_price": 3.1401,
-      "unrealized_pct": -0.0598502994011976,
-      "unrealized_dollars": -216.96
+      "current_price": 2.52,
+      "unrealized_pct": -0.003952569169960391,
+      "unrealized_dollars": -14.33
     },
     {
       "ticker": "PWCM",
@@ -73,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.82,
-      "current_price": 0.97,
-      "unrealized_pct": 0.009470288271412214,
-      "unrealized_dollars": 0.04
+      "current_price": 0.9897,
+      "unrealized_pct": 0.029971901342491464,
+      "unrealized_dollars": 0.11
     },
     {
       "ticker": "PWCM",
@@ -87,12 +59,34 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.82,
-      "current_price": 0.97,
-      "unrealized_pct": 0.009470288271412214,
-      "unrealized_dollars": 34.35
+      "current_price": 0.9897,
+      "unrealized_pct": 0.029971901342491464,
+      "unrealized_dollars": 108.7
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "VBIO",
+      "entry_price": 3.34,
+      "exit_price": 3.145,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.22,
+      "pl_percent": -0.058383,
+      "exit_timestamp": "2026-09-30T15:15:14.892319",
+      "setup_quality": "B",
+      "position_size_dollars": 3.69
+    },
+    {
+      "ticker": "VBIO",
+      "entry_price": 3.34,
+      "exit_price": 3.1499,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -206.32,
+      "pl_percent": -0.056916,
+      "exit_timestamp": "2026-09-30T15:15:04.263941",
+      "setup_quality": "B",
+      "position_size_dollars": 3625.01
+    },
     {
       "ticker": "ACET",
       "entry_price": 6.91,
@@ -620,28 +614,6 @@
       "exit_timestamp": "2026-09-21T15:15:02.752434",
       "setup_quality": "B",
       "position_size_dollars": 3703.44
-    },
-    {
-      "ticker": "IMCC",
-      "entry_price": 3.4801,
-      "exit_price": 4.3001,
-      "exit_reason": "eod_close",
-      "pl_dollars": 0.86,
-      "pl_percent": 0.235625,
-      "exit_timestamp": "2026-09-18T19:46:06.635060",
-      "setup_quality": "B",
-      "position_size_dollars": 3.66
-    },
-    {
-      "ticker": "IMCC",
-      "entry_price": 3.4801,
-      "exit_price": 4.34,
-      "exit_reason": "eod_close",
-      "pl_dollars": 908.67,
-      "pl_percent": 0.247091,
-      "exit_timestamp": "2026-09-18T19:45:56.175312",
-      "setup_quality": "B",
-      "position_size_dollars": 3677.49
     }
   ]
 }
