@@ -1,12 +1,97 @@
 {
-  "generated_at": "2026-09-30T11:00:03.169043-04:00",
+  "generated_at": "2026-09-30T11:15:05.756938-04:00",
   "summary": {
     "total_pl_dollars": 2555.94,
     "wins": 25,
     "losses": 25,
-    "open_count": 0
+    "open_count": 6
   },
-  "open_trades": [],
+  "open_trades": [
+    {
+      "ticker": "CMCT",
+      "entry_price": 2.53,
+      "stop_loss_price": 1.96,
+      "profit_target_price": 3.9399,
+      "position_size_dollars": 3.69,
+      "entry_timestamp": "2026-09-30T15:04:30.141707",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 2.47,
+      "current_price": 2.58,
+      "unrealized_pct": 0.01976284584980248,
+      "unrealized_dollars": 0.07
+    },
+    {
+      "ticker": "CMCT",
+      "entry_price": 2.53,
+      "stop_loss_price": 1.96,
+      "profit_target_price": 3.9399,
+      "position_size_dollars": 3624.41,
+      "entry_timestamp": "2026-09-30T15:04:19.612423",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 2.47,
+      "current_price": 2.58,
+      "unrealized_pct": 0.01976284584980248,
+      "unrealized_dollars": 71.63
+    },
+    {
+      "ticker": "VBIO",
+      "entry_price": 3.34,
+      "stop_loss_price": 3.17,
+      "profit_target_price": 4.39,
+      "position_size_dollars": 3.69,
+      "entry_timestamp": "2026-09-30T15:04:09.095743",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 6.18,
+      "current_price": 3.1401,
+      "unrealized_pct": -0.0598502994011976,
+      "unrealized_dollars": -0.22
+    },
+    {
+      "ticker": "VBIO",
+      "entry_price": 3.34,
+      "stop_loss_price": 3.17,
+      "profit_target_price": 4.39,
+      "position_size_dollars": 3625.01,
+      "entry_timestamp": "2026-09-30T15:03:58.556128",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 6.18,
+      "current_price": 3.1401,
+      "unrealized_pct": -0.0598502994011976,
+      "unrealized_dollars": -216.96
+    },
+    {
+      "ticker": "PWCM",
+      "entry_price": 0.9609,
+      "stop_loss_price": 0.87,
+      "profit_target_price": 1.49,
+      "position_size_dollars": 3.7,
+      "entry_timestamp": "2026-09-30T15:03:48.027136",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 5.82,
+      "current_price": 0.97,
+      "unrealized_pct": 0.009470288271412214,
+      "unrealized_dollars": 0.04
+    },
+    {
+      "ticker": "PWCM",
+      "entry_price": 0.9609,
+      "stop_loss_price": 0.87,
+      "profit_target_price": 1.49,
+      "position_size_dollars": 3626.66,
+      "entry_timestamp": "2026-09-30T15:03:37.234453",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 5.82,
+      "current_price": 0.97,
+      "unrealized_pct": 0.009470288271412214,
+      "unrealized_dollars": 34.35
+    }
+  ],
   "closed_trades": [
     {
       "ticker": "ACET",
