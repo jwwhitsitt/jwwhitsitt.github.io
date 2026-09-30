@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T11:30:04.539816-04:00",
+  "generated_at": "2026-09-30T11:45:03.899534-04:00",
   "summary": {
     "total_pl_dollars": 1439.87,
     "wins": 23,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.47,
-      "current_price": 2.52,
-      "unrealized_pct": -0.003952569169960391,
-      "unrealized_dollars": -0.01
+      "current_price": 2.545,
+      "unrealized_pct": 0.005928853754940761,
+      "unrealized_dollars": 0.02
     },
     {
       "ticker": "CMCT",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.47,
-      "current_price": 2.52,
-      "unrealized_pct": -0.003952569169960391,
-      "unrealized_dollars": -14.33
+      "current_price": 2.545,
+      "unrealized_pct": 0.005928853754940761,
+      "unrealized_dollars": 21.49
     },
     {
       "ticker": "PWCM",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.82,
-      "current_price": 0.9897,
-      "unrealized_pct": 0.029971901342491464,
-      "unrealized_dollars": 0.11
+      "current_price": 0.9999,
+      "unrealized_pct": 0.040586949734623824,
+      "unrealized_dollars": 0.15
     },
     {
       "ticker": "PWCM",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 5.82,
-      "current_price": 0.9897,
-      "unrealized_pct": 0.029971901342491464,
-      "unrealized_dollars": 108.7
+      "current_price": 0.9999,
+      "unrealized_pct": 0.040586949734623824,
+      "unrealized_dollars": 147.2
     }
   ],
   "closed_trades": [
