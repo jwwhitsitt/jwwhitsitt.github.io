@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-01T14:15:04.609132-04:00",
+  "generated_at": "2026-10-01T14:30:04.276493-04:00",
   "summary": {
-    "total_pl_dollars": 803.22,
-    "wins": 25,
-    "losses": 25,
-    "open_count": 4
+    "total_pl_dollars": 465.63,
+    "wins": 23,
+    "losses": 27,
+    "open_count": 2
   },
   "open_trades": [
     {
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 32.66,
-      "current_price": 1.227,
-      "unrealized_pct": -0.0024390243902438144,
-      "unrealized_dollars": -0.01
+      "current_price": 1.22,
+      "unrealized_pct": -0.008130081300813016,
+      "unrealized_dollars": -0.03
     },
     {
       "ticker": "AMOD",
@@ -31,40 +31,34 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 32.66,
-      "current_price": 1.227,
-      "unrealized_pct": -0.0024390243902438144,
-      "unrealized_dollars": -8.86
-    },
-    {
-      "ticker": "LPA",
-      "entry_price": 3.01,
-      "stop_loss_price": 2.81,
-      "profit_target_price": 3.4099,
-      "position_size_dollars": 3.73,
-      "entry_timestamp": "2026-10-01T15:03:46.200833",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 2.0,
-      "current_price": 2.795,
-      "unrealized_pct": -0.07142857142857138,
-      "unrealized_dollars": -0.27
-    },
-    {
-      "ticker": "LPA",
-      "entry_price": 3.01,
-      "stop_loss_price": 2.81,
-      "profit_target_price": 3.4099,
-      "position_size_dollars": 3643.76,
-      "entry_timestamp": "2026-10-01T15:03:35.606889",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 2.0,
-      "current_price": 2.795,
-      "unrealized_pct": -0.07142857142857138,
-      "unrealized_dollars": -260.27
+      "current_price": 1.22,
+      "unrealized_pct": -0.008130081300813016,
+      "unrealized_dollars": -29.54
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "LPA",
+      "entry_price": 3.01,
+      "exit_price": 2.795,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -0.27,
+      "pl_percent": -0.071429,
+      "exit_timestamp": "2026-10-01T18:15:14.137818",
+      "setup_quality": "B",
+      "position_size_dollars": 3.73
+    },
+    {
+      "ticker": "LPA",
+      "entry_price": 3.01,
+      "exit_price": 2.795,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -260.27,
+      "pl_percent": -0.071429,
+      "exit_timestamp": "2026-10-01T18:15:03.444156",
+      "setup_quality": "B",
+      "position_size_dollars": 3643.76
+    },
     {
       "ticker": "HUHU",
       "entry_price": 4.6905,
@@ -592,28 +586,6 @@
       "exit_timestamp": "2026-09-22T19:45:24.298833",
       "setup_quality": "B",
       "position_size_dollars": 3712.08
-    },
-    {
-      "ticker": "EDBL",
-      "entry_price": 1.2395,
-      "exit_price": 1.265,
-      "exit_reason": "eod_close",
-      "pl_dollars": 0.08,
-      "pl_percent": 0.020573,
-      "exit_timestamp": "2026-09-22T19:45:13.537246",
-      "setup_quality": "B",
-      "position_size_dollars": 3.71
-    },
-    {
-      "ticker": "EDBL",
-      "entry_price": 1.2395,
-      "exit_price": 1.265,
-      "exit_reason": "eod_close",
-      "pl_dollars": 76.98,
-      "pl_percent": 0.020573,
-      "exit_timestamp": "2026-09-22T19:45:02.875483",
-      "setup_quality": "B",
-      "position_size_dollars": 3741.61
     }
   ]
 }
