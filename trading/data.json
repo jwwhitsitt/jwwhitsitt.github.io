@@ -1,12 +1,55 @@
 {
-  "generated_at": "2026-10-01T11:00:03.228157-04:00",
+  "generated_at": "2026-10-01T11:15:05.403807-04:00",
   "summary": {
     "total_pl_dollars": 1731.54,
     "wins": 26,
     "losses": 24,
-    "open_count": 0
+    "open_count": 3
   },
-  "open_trades": [],
+  "open_trades": [
+    {
+      "ticker": "LPA",
+      "entry_price": 3.01,
+      "stop_loss_price": 2.81,
+      "profit_target_price": 3.4099,
+      "position_size_dollars": 3.73,
+      "entry_timestamp": "2026-10-01T15:03:46.200833",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 2.0,
+      "current_price": 3.01,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
+    },
+    {
+      "ticker": "LPA",
+      "entry_price": 3.01,
+      "stop_loss_price": 2.81,
+      "profit_target_price": 3.4099,
+      "position_size_dollars": 3643.76,
+      "entry_timestamp": "2026-10-01T15:03:35.606889",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 2.0,
+      "current_price": 3.01,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
+    },
+    {
+      "ticker": "HUHU",
+      "entry_price": 4.6905,
+      "stop_loss_price": 4.61,
+      "profit_target_price": 5.39,
+      "position_size_dollars": 3644.22,
+      "entry_timestamp": "2026-10-01T15:03:24.622783",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 8.69,
+      "current_price": 4.58,
+      "unrealized_pct": -0.023558256049461688,
+      "unrealized_dollars": -85.85
+    }
+  ],
   "closed_trades": [
     {
       "ticker": "NXL",
