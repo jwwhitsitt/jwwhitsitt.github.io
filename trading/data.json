@@ -1,12 +1,40 @@
 {
-  "generated_at": "2026-10-01T15:00:04.130754-04:00",
+  "generated_at": "2026-10-01T15:15:05.326089-04:00",
   "summary": {
     "total_pl_dollars": 465.63,
     "wins": 23,
     "losses": 27,
-    "open_count": 2
+    "open_count": 4
   },
   "open_trades": [
+    {
+      "ticker": "SINT",
+      "entry_price": 2.105,
+      "stop_loss_price": 1.9901,
+      "profit_target_price": 2.39,
+      "position_size_dollars": 3.69,
+      "entry_timestamp": "2026-10-01T19:02:35.349138",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 2.48,
+      "current_price": 2.105,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
+    },
+    {
+      "ticker": "SINT",
+      "entry_price": 2.105,
+      "stop_loss_price": 1.9901,
+      "profit_target_price": 2.39,
+      "position_size_dollars": 3623.09,
+      "entry_timestamp": "2026-10-01T19:02:24.836560",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 2.48,
+      "current_price": 2.105,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
+    },
     {
       "ticker": "AMOD",
       "entry_price": 1.23,
@@ -17,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 32.66,
-      "current_price": 1.225,
-      "unrealized_pct": -0.004065040650406418,
-      "unrealized_dollars": -0.02
+      "current_price": 1.23,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
     },
     {
       "ticker": "AMOD",
@@ -31,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 32.66,
-      "current_price": 1.225,
-      "unrealized_pct": -0.004065040650406418,
-      "unrealized_dollars": -14.77
+      "current_price": 1.23,
+      "unrealized_pct": 0.0,
+      "unrealized_dollars": null
     }
   ],
   "closed_trades": [
