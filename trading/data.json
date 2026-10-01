@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T12:30:03.518808-04:00",
+  "generated_at": "2026-10-01T12:45:03.290378-04:00",
   "summary": {
     "total_pl_dollars": 803.22,
     "wins": 25,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.0,
-      "current_price": 2.965,
-      "unrealized_pct": -0.014950166112956789,
-      "unrealized_dollars": -0.06
+      "current_price": 2.89,
+      "unrealized_pct": -0.03986710963455139,
+      "unrealized_dollars": -0.15
     },
     {
       "ticker": "LPA",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.0,
-      "current_price": 2.965,
-      "unrealized_pct": -0.014950166112956789,
-      "unrealized_dollars": -54.47
+      "current_price": 2.89,
+      "unrealized_pct": -0.03986710963455139,
+      "unrealized_dollars": -145.27
     }
   ],
   "closed_trades": [
