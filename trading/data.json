@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T14:45:04.204849-04:00",
+  "generated_at": "2026-10-01T15:00:04.130754-04:00",
   "summary": {
     "total_pl_dollars": 465.63,
     "wins": 23,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 32.66,
-      "current_price": 1.22,
-      "unrealized_pct": -0.008130081300813016,
-      "unrealized_dollars": -0.03
+      "current_price": 1.225,
+      "unrealized_pct": -0.004065040650406418,
+      "unrealized_dollars": -0.02
     },
     {
       "ticker": "AMOD",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 32.66,
-      "current_price": 1.22,
-      "unrealized_pct": -0.008130081300813016,
-      "unrealized_dollars": -29.54
+      "current_price": 1.225,
+      "unrealized_pct": -0.004065040650406418,
+      "unrealized_dollars": -14.77
     }
   ],
   "closed_trades": [
