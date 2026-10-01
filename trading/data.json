@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T13:45:03.948252-04:00",
+  "generated_at": "2026-10-01T14:00:04.222885-04:00",
   "summary": {
     "total_pl_dollars": 803.22,
     "wins": 25,
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 32.66,
-      "current_price": 1.29,
-      "unrealized_pct": 0.04878048780487809,
-      "unrealized_dollars": 0.18
+      "current_price": 1.2552,
+      "unrealized_pct": 0.02048780487804887,
+      "unrealized_dollars": 0.08
     },
     {
       "ticker": "AMOD",
@@ -31,9 +31,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 32.66,
-      "current_price": 1.29,
-      "unrealized_pct": 0.04878048780487809,
-      "unrealized_dollars": 177.24
+      "current_price": 1.2552,
+      "unrealized_pct": 0.02048780487804887,
+      "unrealized_dollars": 74.44
     },
     {
       "ticker": "LPA",
@@ -45,9 +45,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.0,
-      "current_price": 2.8461,
-      "unrealized_pct": -0.0544518272425249,
-      "unrealized_dollars": -0.2
+      "current_price": 2.866,
+      "unrealized_pct": -0.047840531561461695,
+      "unrealized_dollars": -0.18
     },
     {
       "ticker": "LPA",
@@ -59,9 +59,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.0,
-      "current_price": 2.8461,
-      "unrealized_pct": -0.0544518272425249,
-      "unrealized_dollars": -198.41
+      "current_price": 2.866,
+      "unrealized_pct": -0.047840531561461695,
+      "unrealized_dollars": -174.32
     }
   ],
   "closed_trades": [
