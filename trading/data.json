@@ -1,28 +1,24 @@
 {
-  "generated_at": "2026-10-01T09:45:04.987089-04:00",
+  "generated_at": "2026-10-01T10:00:03.388148-04:00",
   "summary": {
-    "total_pl_dollars": 1477.87,
+    "total_pl_dollars": 1731.54,
     "wins": 26,
     "losses": 24,
-    "open_count": 1
+    "open_count": 0
   },
-  "open_trades": [
+  "open_trades": [],
+  "closed_trades": [
     {
       "ticker": "NXL",
       "entry_price": 8.0401,
-      "stop_loss_price": 7.85,
-      "profit_target_price": 9.11,
-      "position_size_dollars": 3654.36,
-      "entry_timestamp": "2026-10-01T13:34:14.655303",
+      "exit_price": 7.82,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -100.04,
+      "pl_percent": -0.027375,
+      "exit_timestamp": "2026-10-01T13:45:03.803031",
       "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 5.63,
-      "current_price": 7.8392,
-      "unrealized_pct": -0.024987251402345832,
-      "unrealized_dollars": -91.31
-    }
-  ],
-  "closed_trades": [
+      "position_size_dollars": 3654.36
+    },
     {
       "ticker": "CMCT",
       "entry_price": 2.53,
@@ -561,17 +557,6 @@
       "exit_timestamp": "2026-09-22T17:45:02.871515",
       "setup_quality": "B",
       "position_size_dollars": 3743.73
-    },
-    {
-      "ticker": "IMCC",
-      "entry_price": 4.1634,
-      "exit_price": 3.77,
-      "exit_reason": "stop_hit",
-      "pl_dollars": -353.71,
-      "pl_percent": -0.09449,
-      "exit_timestamp": "2026-09-22T14:45:03.263336",
-      "setup_quality": "B",
-      "position_size_dollars": 3743.32
     }
   ]
 }
