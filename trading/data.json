@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-01T11:15:05.403807-04:00",
+  "generated_at": "2026-10-01T11:30:03.600682-04:00",
   "summary": {
-    "total_pl_dollars": 1731.54,
-    "wins": 26,
-    "losses": 24,
-    "open_count": 3
+    "total_pl_dollars": 803.22,
+    "wins": 25,
+    "losses": 25,
+    "open_count": 2
   },
   "open_trades": [
     {
@@ -17,9 +17,9 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.0,
-      "current_price": 3.01,
-      "unrealized_pct": 0.0,
-      "unrealized_dollars": null
+      "current_price": 2.8816,
+      "unrealized_pct": -0.04265780730896998,
+      "unrealized_dollars": -0.16
     },
     {
       "ticker": "LPA",
@@ -31,26 +31,23 @@
       "setup_quality": "B",
       "signal_source": "finviz_scanner",
       "pl_ratio_at_entry": 2.0,
-      "current_price": 3.01,
-      "unrealized_pct": 0.0,
-      "unrealized_dollars": null
-    },
-    {
-      "ticker": "HUHU",
-      "entry_price": 4.6905,
-      "stop_loss_price": 4.61,
-      "profit_target_price": 5.39,
-      "position_size_dollars": 3644.22,
-      "entry_timestamp": "2026-10-01T15:03:24.622783",
-      "setup_quality": "B",
-      "signal_source": "finviz_scanner",
-      "pl_ratio_at_entry": 8.69,
-      "current_price": 4.58,
-      "unrealized_pct": -0.023558256049461688,
-      "unrealized_dollars": -85.85
+      "current_price": 2.8816,
+      "unrealized_pct": -0.04265780730896998,
+      "unrealized_dollars": -155.43
     }
   ],
   "closed_trades": [
+    {
+      "ticker": "HUHU",
+      "entry_price": 4.6905,
+      "exit_price": 4.58,
+      "exit_reason": "stop_hit",
+      "pl_dollars": -85.85,
+      "pl_percent": -0.023558,
+      "exit_timestamp": "2026-10-01T15:15:04.055211",
+      "setup_quality": "B",
+      "position_size_dollars": 3644.22
+    },
     {
       "ticker": "NXL",
       "entry_price": 8.0401,
@@ -589,17 +586,6 @@
       "exit_timestamp": "2026-09-22T19:45:02.875483",
       "setup_quality": "B",
       "position_size_dollars": 3741.61
-    },
-    {
-      "ticker": "HUBC",
-      "entry_price": 3.755,
-      "exit_price": 4.6,
-      "exit_reason": "target_hit",
-      "pl_dollars": 842.46,
-      "pl_percent": 0.225033,
-      "exit_timestamp": "2026-09-22T17:45:02.871515",
-      "setup_quality": "B",
-      "position_size_dollars": 3743.73
     }
   ]
 }
