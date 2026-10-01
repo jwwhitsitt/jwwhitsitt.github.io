@@ -1,12 +1,27 @@
 {
-  "generated_at": "2026-10-01T09:30:03.014564-04:00",
+  "generated_at": "2026-10-01T09:45:04.987089-04:00",
   "summary": {
     "total_pl_dollars": 1477.87,
     "wins": 26,
     "losses": 24,
-    "open_count": 0
+    "open_count": 1
   },
-  "open_trades": [],
+  "open_trades": [
+    {
+      "ticker": "NXL",
+      "entry_price": 8.0401,
+      "stop_loss_price": 7.85,
+      "profit_target_price": 9.11,
+      "position_size_dollars": 3654.36,
+      "entry_timestamp": "2026-10-01T13:34:14.655303",
+      "setup_quality": "B",
+      "signal_source": "finviz_scanner",
+      "pl_ratio_at_entry": 5.63,
+      "current_price": 7.8392,
+      "unrealized_pct": -0.024987251402345832,
+      "unrealized_dollars": -91.31
+    }
+  ],
   "closed_trades": [
     {
       "ticker": "CMCT",
